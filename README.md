@@ -8,5 +8,5 @@ Es können (ganz sicher) immer noch einige Übersetzungsfehler enthalten sein. D
 ### Wohin muss die .ini?
 `\Roberts Space Industries\StarCitizen\LIVE\data\Localization\german_(germany)`
 
-Außerdem musst du eine user.cgf erstellen in der du diese Zeile einfügst:
-`g_language = german_(germany)`
+Außerdem musst du eine `user.cgf` im \LIVE\ Verzeichnis erstellen.
+In diese Datei fügst du diese Zeile ein: `g_language = german_(germany)`
