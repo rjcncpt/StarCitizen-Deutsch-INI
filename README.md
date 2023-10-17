@@ -5,8 +5,7 @@ Es können (ganz sicher) immer noch einige Übersetzungsfehler enthalten sein. D
 
 **WICHTIG:** Das Spiel kommt an bestimmten Stellen wie Terminals nicht mit Umlaute klar. Da fehlen schlicht die Umlaute und eine Lücke ist vorhanden. Das ist kein Fehler Der Übersetzung sondern ein Fehler im Spiel. 
 
-### Wohin muss die .ini?
-`\Roberts Space Industries\StarCitizen\LIVE\data\Localization\german_(germany)`
+### Installation
+Lade dir die Deutsche.SC.Lokalisierung.zip herunter, entpacke sie und kopiere den Inhalt in den LIVE (oder PTU wenn verfügbar). In diesem ZIP ist auch die user.cfg enthalten.
 
-Außerdem musst du eine `user.cfg` im \LIVE\ Verzeichnis erstellen.
-In diese Datei fügst du diese Zeile ein: `g_language = german_(germany)`
+Download: https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases
