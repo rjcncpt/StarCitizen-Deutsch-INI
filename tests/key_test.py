@@ -1,4 +1,5 @@
 from configparser import ConfigParser
+import json
 
 
 def addLine(file, line):
@@ -33,12 +34,14 @@ config_eng_section = config_eng["DEFAULT"]
 config_ger.read("global.ini", "utf_8_sig")
 config_ger_section = config_ger["DEFAULT"]
 
-not_found_keys = []
+not_found_keys = {}
 
+line = 1
 for key in config_eng_section.keys():
     value = config_ger_section.get(key)
     if value == None:
-        not_found_keys.append(key)
+        not_found_keys[line] = key
+    line += 1
 
 
 with open("global.ini", encoding="utf_8_sig", mode="r+") as file:
@@ -47,5 +50,5 @@ with open("en/global.ini", encoding="utf_8_sig", mode="r+") as file:
     removeFirst(file=file)
 
 if len(not_found_keys):
-    print(not_found_keys)
+    print(json.dumps(not_found_keys, indent=4))
     exit(1)
