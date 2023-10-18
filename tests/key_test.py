@@ -2,25 +2,26 @@ from configparser import ConfigParser
 import json
 
 
-def addLine(file, line):
-    file_data = file.read()
-    file.seek(0, 0)
-    file.write(line + ("\n") + file_data)
+def addLine(filename, line):
+    with open(filename, encoding="utf_8_sig", mode="r+") as file:
+        file_data = file.read()
+        file.seek(0, 0)
+        file.write(line + ("\n") + file_data)
 
 
-def removeFirst(file):
-    lines = file.readlines()
-    file.seek(0, 0)
-    file.truncate()
-    file.writelines(lines[1:])
+def removeFirstLine(filename):
+    with open(filename, encoding="utf_8_sig", mode="r+") as file:
+        lines = file.readlines()
+        file.seek(0, 0)
+        file.truncate()
+        file.writelines(lines[1:])
 
 
 line = "[DEFAULT]"
 file_data = ""
-with open("global.ini", encoding="utf_8_sig", mode="r+") as file:
-    addLine(file=file, line=line)
-with open("en/global.ini", encoding="utf_8_sig", mode="r+") as file:
-    addLine(file=file, line=line)
+
+addLine(filename="global.ini", line=line)
+addLine(filename="en/global.ini", line=line)
 
 config_eng = ConfigParser(
     allow_no_value=True, comment_prefixes=(";"), delimiters=("="), interpolation=None
@@ -43,11 +44,8 @@ for key in config_eng_section.keys():
         not_found_keys[line] = key
     line += 1
 
-
-# with open("global.ini", encoding="utf_8_sig", mode="r+") as file:
-#     removeFirst(file=file)
-# with open("en/global.ini", encoding="utf_8_sig", mode="r+") as file:
-#     removeFirst(file=file)
+removeFirstLine("global.ini")
+removeFirstLine("en/global.ini")
 
 if len(not_found_keys):
     print(json.dumps(not_found_keys, indent=4))
