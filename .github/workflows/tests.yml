@@ -1,0 +1,30 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - "main"
+
+  pull_request:
+    branches:
+      - "main"
+
+jobs:
+  key_test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9.5" # install the python version needed
+
+      # # Install pip and pytest
+      # - name: Install dependencies
+      #   run: |
+      #     python -m pip install --upgrade pip
+      #     pip install pytest
+
+      - name: execute py script # run main.py
+        run: python key_test.py
