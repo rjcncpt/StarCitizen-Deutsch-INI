@@ -18,7 +18,7 @@ Im ZIP ist auch die user.cfg enthalten.
 <br/><br/>
 
 #### Direktdownload der global.ini
-Du kannst auch die global.ini direkt aus dem Verzeichnis laden. Vorteil, die ist aktueller.<br/><br/>
+Du kannst auch die [global.ini direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/global.ini). Vorteil, die ist aktueller.<br/><br/>
 ![image](https://i.imgur.com/jTabj3V.png)
 1. klicke auf die global.ini
 2. im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.
