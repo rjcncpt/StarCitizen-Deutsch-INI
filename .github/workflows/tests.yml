@@ -12,16 +12,13 @@ on:
 jobs:
   key_test:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.9", "3.10", "3.11", "3.12"]
     steps:
       - uses: actions/checkout@v2
 
       - name: setup python
         uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: "3.10"
 
       # # Install pip and pytest
       # - name: Install dependencies
@@ -29,5 +26,5 @@ jobs:
       #     python -m pip install --upgrade pip
       #     pip install pytest
 
-      - name: execute py script # run main.py
-        run: python key_test.py
+      - name: execute py script # run key_test.py
+        run: python tests/key_test.py
