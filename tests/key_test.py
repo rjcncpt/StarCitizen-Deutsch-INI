@@ -44,10 +44,10 @@ for key in config_eng_section.keys():
     line += 1
 
 
-with open("global.ini", encoding="utf_8_sig", mode="r+") as file:
-    removeFirst(file=file)
-with open("en/global.ini", encoding="utf_8_sig", mode="r+") as file:
-    removeFirst(file=file)
+# with open("global.ini", encoding="utf_8_sig", mode="r+") as file:
+#     removeFirst(file=file)
+# with open("en/global.ini", encoding="utf_8_sig", mode="r+") as file:
+#     removeFirst(file=file)
 
 if len(not_found_keys):
     print(json.dumps(not_found_keys, indent=4))
