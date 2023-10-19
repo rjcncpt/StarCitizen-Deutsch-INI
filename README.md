@@ -1,7 +1,7 @@
 # StarCitizen-Deutsch global.ini
 Diese Datei befindet sich noch in der Entwicklung. Alle variablen sollten korrekt sein. Eine 100% Funktionalität wird jedoch nicht garantiert.
 
-**WICHTIG:** Das Spiel kommt an bestimmten Stellen wie Terminals nicht mit Umlaute klar. Da fehlen schlicht die Umlaute und eine Lücke ist vorhanden. Das ist kein Fehler Der Übersetzung sondern ein Fehler im Spiel. 
+**WICHTIG:** Das Spiel kommt an bestimmten Stellen wie Terminals nicht mit Umlaute klar diese fehlen schlicht und es entsteht eine Lücke. Das ist kein Fehler der Übersetzung sondern ein Fehler im Spiel.
 <br/><br/>
 
 ### Download
@@ -27,6 +27,19 @@ Du kannst auch die [global.ini direkt aus dem Verzeichnis laden](https://github.
 4. speichere ggf. die user.cfg:<br/>
 `\Roberts Space Industries\StarCitizen\LIVE\`<br/>
 `\Roberts Space Industries\StarCitizen\PTU\`
+<br/><br/>
+
+### Troubleshooting
+Die global.ini liegt im UTF-8-BOM vor. Das ist aus unerfindlichen Gründen eigentlich Quatsch und UTF-8 würde genügen. Das führt bei einigen zu Problemen und es werden statt der Übersetzung, kryptische Variablen beginnend mit einem @ Zeichen dargestellt. Wenn du alles richtig gemacht hast, die Datei liegt im korrekten Ordner, musst du wahrscheinlich die Codierung der Datei von UTF-8 zu UTF-8-BOM ändern.
+<br/><br/>
+1. öffne die global.ini in einem Texteditor wie Notepad++ (kostenlos)
+2. klicke anschliefend in der Symbolleiste auf "Codierung"
+3. wähle "UTF-8-BOM"
+4. speichern
+<br/><br/>
+
+Das sollte das Problem beheben.
+
 <br/><br/>
 
 Salut!
