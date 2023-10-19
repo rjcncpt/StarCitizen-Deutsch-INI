@@ -22,3 +22,16 @@ jobs:
 
       - name: Execute test
         run: python tests/key_test.py
+
+  Matching_Encoding:
+          runs-on: ubuntu-latest
+          steps:
+            - uses: actions/checkout@v2
+      
+            - name: Setup python
+              uses: actions/setup-python@v4
+              with:
+                python-version: "3.10"
+      
+            - name: Execute test
+              run: python tests/encoding_test.py
