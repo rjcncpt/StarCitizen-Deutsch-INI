@@ -24,10 +24,10 @@ addLine(filename="global.ini", line=line)
 addLine(filename="en/global.ini", line=line)
 
 config_eng = ConfigParser(
-    allow_no_value=True, comment_prefixes=(";"), delimiters=("="), interpolation=None
+    allow_no_value=True, comment_prefixes=None, delimiters=("="), interpolation=None
 )
 config_ger = ConfigParser(
-    allow_no_value=True, comment_prefixes=(";"), delimiters=("="), interpolation=None
+    allow_no_value=True, comment_prefixes=None, delimiters=("="), interpolation=None
 )
 config_eng.read("en/global.ini", "utf_8_sig")
 config_eng_section = config_eng["DEFAULT"]
