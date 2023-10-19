@@ -3,6 +3,9 @@
 <br/>
 Diese Datei befindet sich zur Zeit noch in der Entwicklung. Eine 100%ige Funktionalität kann noch nicht garantiert werden. Es wird eine ganze Weile dauern, bis wir alle Texte händisch von Zeile 1 bis Zeile (rund) 69000 übersetzt haben. Aktuell ist es noch ein wüstes durcheinander. Das Spiel kommt außerdem an einigen Stellen nicht mit Umlauten zurecht, z.B. Terminals. Die Umlaute fehlen einfach und es entsteht eine Lücke. Dies ist kein Übersetzungsfehler, sondern ein Fehler im Spiel.
 <br/><br/>
+3.20 ✅<br/>
+3.21 ⏳ (is in preparation)
+<br/><br/>
 
 ### Download
 Du kannst die global.ini direkt als ZIP herunterladen oder einzeln direkt aus dem Main Verzeichnis.<br/>
