@@ -1,5 +1,5 @@
 # StarCitizen Deutsch global.ini
-#### Willkommen zu unserer Lokalisierungsdatei für Star Citizen in Deutsch. Diese lokalisierung ist ein Community Projekt und will sich im Verlauf in einigen Bereichen unterscheiden. Es ist eine enorme Herausforderung, die englischen Begriffe in ein verständliches Deutsch zu bringen. Wir können oft keine 1:1 Übersetzung anwenden, da einige englische Begriffe mehrere Bedeutungen in der deutschen Sprache haben. Außerdem kombinieren wir Deutsch und Englisch um barierefreiheit für unterschiedliche Standorte zu gewährleisten.
+#### Willkommen zu unserer deutschen Lokalisierung von Star Citizen. Diese Lokalisierung ist ein Community-Projekt und wird sich in einigen Bereichen unterscheiden. Es ist eine große Herausforderung, die englischen Begriffe in ein verständliches Deutsch zu übersetzen. Oft können wir keine 1:1 Übersetzung verwenden, da einige englische Begriffe im Deutschen mehrere Bedeutungen haben. Außerdem kombinieren wir Deutsch und Englisch, um die Barrierefreiheit für verschiedene Standorte zu gewährleisten.
 <br/>
 Diese Datei befindet sich noch in der Entwicklung. Eine 100%ige Funktionalität wird noch nicht garantiert. Das Spiel kommt an bestimmten Stellen wie Terminals nicht mit Umlaute klar diese fehlen schlicht und es entsteht eine Lücke. Das ist kein Fehler der Übersetzung sondern ein Fehler im Spiel.
 <br/><br/>
