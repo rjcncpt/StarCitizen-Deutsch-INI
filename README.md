@@ -1,7 +1,11 @@
-# StarCitizen Deutsch global.ini
+# [WIP] StarCitizen Deutsch global.ini
 #### Willkommen zu unserer deutschen Lokalisierung von Star Citizen. Diese Lokalisierung ist ein Community-Projekt und wird sich in einigen Bereichen unterscheiden. Es ist eine große Herausforderung, die englischen Begriffe in ein verständliches Deutsch zu übersetzen. Oft können wir keine 1:1 Übersetzung verwenden, da einige englische Begriffe im Deutschen mehrere Bedeutungen haben. Außerdem kombinieren wir Deutsch und Englisch, um die Barrierefreiheit für verschiedene Standorte zu gewährleisten.
 <br/>
-Diese Datei befindet sich zur Zeit noch in der Entwicklung. Eine 100%ige Funktionalität kann noch nicht garantiert werden. Es wird eine ganze Weile dauern, bis wir alle Texte händisch von Zeile 1 bis Zeile (rund) 69000 übersetzt haben. Aktuell ist es noch ein wüstes durcheinander. Das Spiel kommt außerdem an einigen Stellen nicht mit Umlauten zurecht, z.B. Terminals. Die Umlaute fehlen einfach und es entsteht eine Lücke. Dies ist kein Übersetzungsfehler, sondern ein Fehler im Spiel.
+Diese Datei befindet sich zur Zeit noch in der Entwicklung. Eine 100%ige Funktionalität kann noch nicht garantiert werden. Es wird eine ganze Weile dauern, bis wir alle Texte händisch von Zeile 1 bis Zeile (rund) 69000 übersetzt und kontrolliert haben. Aktuell haben wir noch viele Baustellen, besonders in Bezug auf 3.21, die viele Textänderungen gebracht hat.
+Das Spiel kommt außerdem an einigen Stellen nicht mit Umlauten zurecht, z.B. Terminals. Die Umlaute fehlen einfach und es entsteht eine Lücke. Dies ist kein Übersetzungsfehler, sondern ein Fehler im Spiel.
+<br/><br/>
+3.21 PTU ✅<br/>
+3.21 LIVE ⏳ (works)
 <br/><br/>
 
 ### Download
