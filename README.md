@@ -4,10 +4,10 @@
 #### Diese Lokalisierung ist ein Community-Projekt und wird sich in vielen Bereichen unterscheiden. Es ist eine große Herausforderung, die englischen Begriffe in ein verständliches Deutsch zu übersetzen. Oft können wir keine 1:1 Übersetzung verwenden, da einige englische Begriffe in der deutschen Sprache mehrere Bedeutungen haben.
 <br/>
 
-![Static Badge](https://img.shields.io/badge/Ready-%2339cb75?label=3.21.0%20LIVE)
+![Static Badge](https://img.shields.io/badge/Ready-%2339cb75?label=3.21.0%20LIVE) ![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini)
 <br/><br/>
 
-Die `global.ini` ist ein Work in progress (WIP) Projekt. Unsere releases sind immer im Spiel getestet aber trotzdem garantieren wir keine 100%ige Funktionalität. Es wird eine ganze Weile dauern, bis wir alle Texte händisch von Zeile 1 bis Zeile (rund) 62000 übersetzt und kontrolliert haben.
+Die `global.ini` ist ein Work In Progress (WIP) Projekt. Unsere releases sind immer im Spiel getestet aber trotzdem garantieren wir keine 100%ige Funktionalität. Es wird eine ganze Weile dauern, bis wir alle Texte händisch von Zeile 1 bis Zeile (rund) 62000 übersetzt und kontrolliert haben.
 <br/><br/>
 Das Spiel kommt an einigen Stellen nicht mit Umlauten zurecht, z.B. Terminals oder MouseOver. Die Umlaute fehlen einfach und es entsteht eine Lücke. Dies ist kein Übersetzungsfehler, sondern ein Fehler im Spiel. Wir lassen absichtlich diese Fehler bestehen so das CIG reagieren kann und wir selbst fixes seitens CIG feststellen können.
 <br/><br/>
