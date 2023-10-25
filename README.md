@@ -28,7 +28,7 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 | Dankeschön | Position | Beschreibung |
 | :--- | :--- | :--- |
 | Claudia Fröhlich | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld korrekturgelesen. |
-| Knebel Discord | | Ein großes Dankeschön geht an die vielen Einsendungen der [Knebel Discord Community](https://discord.com/invite/knebel)*Invite-Link |
+| Knebel Discord | | Ein großes Dankeschön geht an die vielen Einsender der [Knebel Discord Community](https://discord.com/invite/knebel)*Invite-Link |
 
 <br/><br/>
 
