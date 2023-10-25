@@ -20,7 +20,7 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 | [Drakonhawk](https://github.com/Drakonhawk) | `Management` | Korrekturen & GitHub |
 | APROVES | `Übersetzer-Team` | Übersetzungen |
 | Hikaruhoshi1 | `Übersetzer-Team` | Übersetzungen |
-| electron0 | `Übersetzer-Team` | GitHub |
+| electron0 | `Übersetzer-Team` | GitHub & Development |
 | Asaya87 | `Discord Management` | |
 | Fabi 18 | `Discord Management` | |
 <br/>
