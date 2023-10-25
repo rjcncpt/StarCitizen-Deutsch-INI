@@ -37,7 +37,7 @@ Du kannst die [global.ini direkt aus dem Verzeichnis laden](https://github.com/r
 ![image](https://i.imgur.com/jTabj3V.png)
 1. [Klicke hier](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/global.ini) und öffne die `global.ini` Datei
 2. klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.
-3. speichere die Datei in das Star Citizen Verzeichnis:<br/>
+3. Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
 `\Roberts Space Industries\StarCitizen\LIVE\data\Localization\german_(germany)\global.ini`
 4. speichere ggf. die user.cfg:<br/>
 `\Roberts Space Industries\StarCitizen\LIVE\`<br/>
