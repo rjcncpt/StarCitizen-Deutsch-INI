@@ -9,9 +9,9 @@
 
 ### Table of Content
 * [Das Team](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#das-team)
-* [Direktdownload der global.ini](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#direktdownload-der-globalini)
 * [Download als ZIP](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#download-als-zip)
-* [Installation](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#installation)
+* [Direktdownload der global.ini](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#direktdownload-der-globalini)
+* **[AUDIO FIX](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#audio-fix)**
 * [Troubleshooting](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#troubleshooting)
 <br/><br/>
 
@@ -41,8 +41,21 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 
 <br/><br/>
 
+### Download
+Lade dir [die ZIP Datei herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) und entpacke diese im LIVE bzw. PTU Ordner. In der ZIP Datei ist die `global.ini` und die `user.cfg` Datei enthalten. Wenn du nicht möchtest das die `user.cfg` Datei deine eigene überschreibt, lade die `global.ini` als einzelne Datei herunter.
+<br/><br/>
+
+### Installation
+Im ZIP ist bereits die user.cfg enthalten.
+
+1. Lade dir die `Deutsche.SC.Lokalisierung.zip` herunter
+2. entpacke diese
+3. kopiere den Inhalt in den LIVE bzw. PTU Ordner
+<br/><br/><br/><br/>
+
 ### Direktdownload der global.ini
-Du kannst die [global.ini direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/global.ini). Ein Vorteil ist, dass sie oft aktueller ist.<br/><br/>
+Du kannst die [global.ini auch direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/global.ini), wenn du nicht immer alles herunterladen möchtest.
+<br/><br/>
 ![image](https://i.imgur.com/jTabj3V.png)
 <br/>
 
@@ -51,23 +64,17 @@ Du kannst die [global.ini direkt aus dem Verzeichnis laden](https://github.com/r
 2. klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.
 3. Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
 `\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`
-4. speichere ggf. die user.cfg in den LIVE oder PTU Ordner:<br/>
+4. speichere ggf. die `user.cfg` in den LIVE oder PTU Ordner:<br/>
 `\ Roberts Space Industries \ StarCitizen \ LIVE \`<br/>
 `\ Roberts Space Industries \ StarCitizen \ PTU \`
 <br/><br/><br/><br/>
 
-### Download als ZIP
-Das ZIP ist eine stable Version aber nicht immer aktuell zur `global.ini` die im Main liegt.<br/>
-https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases
-<br/><br/>
+### AUDIO FIX
+Es gibt einen Fix für das Audio Problem. Du musst deiner `user.cfg` Datei diese folgende Zeile hinzufügen:<br/>
+`g_languageAudio = english`<br/><br/>
+Alternativ lade dir unsere `user.cfg` Datei herunter.
 
-### Installation aus ZIP Datei
-Im ZIP ist auch die user.cfg enthalten.
-
-1. Lade dir die `Deutsche.SC.Lokalisierung.zip` herunter
-2. entpacke diese
-3. kopiere den Inhalt in den LIVE oder PTU Ordner
-<br/><br/><br/><br/>
+<br/><br/><br/>
 
 ### Troubleshooting
 Die `global.ini` liegt im Format `UTF-8-BOM` vor. Das ist eigentlich unnötig, und `UTF-8` würde ausreichen. Aus unerklärlichen Gründen führt dies bei einigen zu Problemen, bei denen statt der Übersetzung kryptische Variablen, die mit einem @-Zeichen beginnen, angezeigt werden. Wenn du alles richtig gemacht hast und die Datei sich im korrekten Ordner befindet, musst du wahrscheinlich die Codierung der Datei von `UTF-8` auf `UTF-8-BOM` ändern.
