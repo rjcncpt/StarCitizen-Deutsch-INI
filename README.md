@@ -11,7 +11,8 @@
 * [Das Team](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#das-team)
 * [Direktdownload der global.ini](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#direktdownload-der-globalini)
 * [Download als ZIP](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#download-als-zip)
-* [Installation](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#installation)
+* [Installationsanleitung](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#installation)
+* **[AUDIO FIX](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#audio-fix)**
 * [Troubleshooting](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#troubleshooting)
 <br/><br/>
 
@@ -68,6 +69,13 @@ Im ZIP ist auch die user.cfg enthalten.
 2. entpacke diese
 3. kopiere den Inhalt in den LIVE oder PTU Ordner
 <br/><br/><br/><br/>
+
+### AUDIO FIX
+Es gibt einen Fix für das Audio Problem. Du musst deiner `user.cfg` Datei diese folgende Zeile hinzufügen:<br/>
+`g_languageAudio = english`<br/><br/>
+Alternativ lade dir unsere `user.cfg` Datei herunter.
+
+<br/><br/><br/>
 
 ### Troubleshooting
 Die `global.ini` liegt im Format `UTF-8-BOM` vor. Das ist eigentlich unnötig, und `UTF-8` würde ausreichen. Aus unerklärlichen Gründen führt dies bei einigen zu Problemen, bei denen statt der Übersetzung kryptische Variablen, die mit einem @-Zeichen beginnen, angezeigt werden. Wenn du alles richtig gemacht hast und die Datei sich im korrekten Ordner befindet, musst du wahrscheinlich die Codierung der Datei von `UTF-8` auf `UTF-8-BOM` ändern.
