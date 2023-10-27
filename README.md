@@ -9,9 +9,9 @@
 
 ### Table of Content
 * [Das Team](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#das-team)
-* [Download als ZIP](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#download-als-zip)
+* [Download als ZIP](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#download)
 * [Direktdownload der global.ini](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#direktdownload-der-globalini)
-* **[AUDIO FIX](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#audio-fix)**
+* **[AUDIO FIX](#audio-fix)**
 * [Troubleshooting](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#troubleshooting)
 <br/><br/>
 
