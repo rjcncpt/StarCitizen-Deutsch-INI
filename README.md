@@ -8,11 +8,11 @@
 <br/><br/>
 
 ### Table of Content
-* [Das Team](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#das-team)
-* [Download als ZIP](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#download)
-* [Direktdownload der global.ini](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#direktdownload-der-globalini)
+* [Das Team](#das-team)
+* [Download als ZIP](#download)
+* [Direktdownload der global.ini](#direktdownload-der-globalini)
 * **[AUDIO FIX](#audio-fix)**
-* [Troubleshooting](https://github.com/rjcncpt/StarCitizen-Deutsch-INI#troubleshooting)
+* [Troubleshooting](#troubleshooting)
 <br/><br/>
 
 Die `global.ini` ist ein Work In Progress (WIP) Projekt. Unsere Veröffentlichungen werden stets im Spiel getestet, aber dennoch können wir keine 100%ige Funktionalität garantieren. Es wird eine beträchtliche Zeit dauern, bis wir alle Texte manuell von Zeile 1 bis etwa Zeile 62000 übersetzt und überprüft haben.
