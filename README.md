@@ -37,7 +37,7 @@ Preview und Test-Kanäle werden von uns nicht prorisiert übersetzt. Damit du an
 | :------------------------------------------ | :------------------- | :--------------------- |
 | [rjcncpt](https://github.com/rjcncpt)       | `Management`         | Übersetzungen & GitHub |
 | [MaxM1211](https://github.com/MaxM1211)     | `Management`         | Korrekturen & GitHub   |
-| [Norinofu](https://github.com/Norinofu)     | `Management`         | GitHub                 |
+| [Norinofu](https://github.com/Norinofu)     | `Management`         | GitHub & Korrekturen   |
 | [Drakonhawk](https://github.com/Drakonhawk) | `Management`         | Korrekturen & GitHub   |
 | Hikaruhoshi1                                | `Management`         | Übersetzungen          |
 | electron0                                   | `Management`         | GitHub & Development   |
