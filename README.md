@@ -27,9 +27,9 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 | [MaxM1211](https://github.com/MaxM1211) | `Management` | Korrekturen & GitHub |
 | [Norinofu](https://github.com/Norinofu) | `Management` | GitHub |
 | [Drakonhawk](https://github.com/Drakonhawk) | `Management` | Korrekturen & GitHub |
+| Hikaruhoshi1 | `Management` | Übersetzungen |
+| electron0 | `Management` | GitHub & Development |
 | APROVES | `Übersetzer-Team` | Übersetzungen |
-| Hikaruhoshi1 | `Übersetzer-Team` | Übersetzungen |
-| electron0 | `Übersetzer-Team` | GitHub & Development |
 | Asaya87 | `Discord Management` | |
 | Fabi 18 | `Discord Management` | |
 <br/>
