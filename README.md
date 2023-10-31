@@ -4,7 +4,10 @@
 **Diese Lokalisierung ist ein Gemeinschaftsprojekt und wird sich in vielen Bereichen unterscheiden. Es ist eine große Herausforderung, die englischen Begriffe ins verständliche Deutsch zu übertragen. Oft können wir keine 1:1-Übersetzung verwenden, da einige englische Begriffe in der deutschen Sprache mehrere Bedeutungen haben.**
 <br/>
 
-![Static Badge](https://img.shields.io/badge/Ready-%2339cb75?label=3.21.0%20LIVE) ![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) ![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen)
+![Static Badge](https://img.shields.io/badge/Ready-%2339cb75?label=3.21.0%20LIVE) ![Static Badge](https://img.shields.io/badge/Not%20working-red?label=Preview%20Channel)
+
+![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) ![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen) ![Static Badge](https://img.shields.io/badge/No%20focus-pink?label=Test%20Builds)
+
 <br/><br/>
 
 ### Table of Content
