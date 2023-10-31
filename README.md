@@ -6,6 +6,8 @@
 
 ![Static Badge](https://img.shields.io/badge/Ready-%2339cb75?label=3.21.0%20LIVE) ![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) ![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen)
 <br/><br/>
+**Wichtig:** *Diese global.ini ist NICHT für den Preview-Channel geeignet! Versucht es nicht, es wird nichts brauchbares dabei herauskommen.*
+<br/><br/>
 
 ### Table of Content
 * [Das Team](#das-team)
