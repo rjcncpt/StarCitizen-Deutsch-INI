@@ -28,7 +28,7 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 
 ### Preview/Test Channels
 
-Preview und Test-Kanäle werden von uns nicht prorisiert übersetzt. Damit du an den Tests problemlos teilhaben kannst, füge ein ";" vor die Zeile `g_language = german_(germany)` ein.
+Preview und Test-Kanäle werden von uns nicht prorisiert übersetzt. Damit du an den Tests problemlos teilhaben kannst, füge ein **`;`** vor die Zeile `g_language = german_(germany)` ein.
 <br/><br/><br/>
 
 ### Das Team
