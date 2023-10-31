@@ -23,6 +23,11 @@ Die `global.ini` ist ein Work In Progress (WIP) Projekt. Unsere Veröffentlichun
 An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei Terminals oder MouseOver. Die Umlaute werden einfach weggelassen, und es entsteht eine Lücke. Dies ist keine Übersetzungspanne, sondern ein Spielfehler. Wir behalten diese Fehler absichtlich bei, damit CIG darauf reagieren kann, und wir selbst feststellen können, ob seitens CIG Fixes vorgenommen wurden.
 <br/><br/><br/>
 
+### Preview Test Channels
+
+Preview und Test-Kanäle werden von uns nicht prorisiert übersetzt. Damit du an den Tests problemlos teilhaben kannst, füge ein ";" vor die Zeile `g_language = german_(germany)` ein.
+<br/><br/><br/>
+
 ### Das Team
 | Team | Position | Beschreibung |
 | :--- | :--- | :--- |
