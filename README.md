@@ -50,8 +50,8 @@ Preview und Test-Kanäle werden von uns nicht prorisiert übersetzt. Damit du an
 | greluc                                      | `Übersetzer`               | Übersetzungen (spez. militärisch)     |
 | 0schinator                                  | `Übersetzer`               | Übersetzungen                         |
 | APROVES                                     | `Übersetzer`               | Übersetzungen                         |
-| Asaya87                                     | `Discord Management`       | Übersetzungen                         |
-| Fabi 18                                     | `Discord Management`       |                                       |
+| Asaya87                                     | `Discord Management`       | Übersetzungen & Discord Admin         |
+| Fabi 18                                     | `Discord Management`       | Discord Admin                         |
 
 <br/>
 
