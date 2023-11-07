@@ -5,9 +5,10 @@
 **Diese Lokalisierung ist ein Gemeinschaftsprojekt und wird sich in vielen Bereichen unterscheiden. Es ist eine große Herausforderung, die englischen Begriffe ins verständliche Deutsch zu übertragen. Oft können wir keine 1:1-Übersetzung verwenden, da einige englische Begriffe in der deutschen Sprache mehrere Bedeutungen haben.**
 <br/>
 
-![Static Badge](https://img.shields.io/badge/Bereit-%2339cb75?label=3.21.0%20LIVE) ![Static Badge](https://img.shields.io/badge/Nicht%20unterstützt-red?label=Preview%20Channel) ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-pink?label=Test%20Builds)
+![Static Badge](https://img.shields.io/badge/Bereit-%2339cb75?label=3.21.0%20LIVE) ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?label=Preview%20Channel) 
+![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) ![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen) 
 
-![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) ![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen)
+
 
 <br/><br/>
 
@@ -33,17 +34,23 @@ Preview und Test-Kanäle werden von uns nicht prorisiert übersetzt. Damit du an
 
 ### Das Team
 
-| Team                                        | Position             | Beschreibung           |
-| :------------------------------------------ | :------------------- | :--------------------- |
-| [rjcncpt](https://github.com/rjcncpt)       | `Management`         | Übersetzungen & GitHub |
-| [MaxM1211](https://github.com/MaxM1211)     | `Management`         | Korrekturen & GitHub   |
-| [Norinofu](https://github.com/Norinofu)     | `Management`         | GitHub & Korrekturen   |
-| [Drakonhawk](https://github.com/Drakonhawk) | `Management`         | Korrekturen & GitHub   |
-| Hikaruhoshi1                                | `Management`         | Übersetzungen          |
-| electron0                                   | `Management`         | GitHub & Development   |
-| APROVES                                     | `Übersetzer-Team`    | Übersetzungen          |
-| Asaya87                                     | `Discord Management` |                        |
-| Fabi 18                                     | `Discord Management` |                        |
+| Team                                        | Fokus Position             | Beschreibung                          |
+| :------------------------------------------ | :------------------------- | :---------------------------------    |
+| [rjcncpt](https://github.com/rjcncpt)       | `Ansprechparter`           | Übersetzungen & GitHub                |
+| [MaxM1211](https://github.com/MaxM1211)     | `Dev & Bugfixing`          | Korrekturen, GitHub, Dev & Bugfixing  |
+| [Norinofu](https://github.com/Norinofu)     | `Dev & Bugfixing`          | Korrekturen, GitHub, Dev & Bugfixing  |
+| [Drakonhawk](https://github.com/Drakonhawk) | `Dev & Bugfixing`          | GitHub, Dev & Bugfixing               |
+| view                                        | `Dev & Bugfixing`          | Übersetzungen, Dev & Bugfixing        |
+| Boy7                                        | `Dev & Bugfixing`          | Übersetzungen, Dev & Bugfixing        |
+| electron0                                   | `Dev & Bugfixing`          | GitHub, Dev & Bugfixing               |
+| DerOrga                                     | `Dev & Bugfixing`          | Dev & Bugfixing                       |
+| blazingUnknown                              | `Übersetzer`               | Übersetzungen                         |
+| Hikaruhoshi1                                | `Übersetzer`               | Übersetzungen                         |
+| greluc                                      | `Übersetzer`               | Übersetzungen (spez. militärisch)     |
+| 0schinator                                  | `Übersetzer`               | Übersetzungen                         |
+| APROVES                                     | `Übersetzer`               | Übersetzungen                         |
+| Asaya87                                     | `Discord Management`       | Übersetzungen & Discord Admin         |
+| Fabi 18                                     | `Discord Management`       | Discord Admin                         |
 
 <br/>
 
