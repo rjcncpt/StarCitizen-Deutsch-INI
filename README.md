@@ -29,34 +29,34 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 
 ### Preview/Test Channels
 
-Preview und Test-Kanäle werden von uns nicht prorisiert übersetzt. Damit du an den Tests problemlos teilhaben kannst, füge ein **`;`** vor die Zeile `g_language = german_(germany)` ein.
+Preview und Test-Kanäle werden von uns nicht priorisiert übersetzt. Damit du an den Tests problemlos teilhaben kannst, füge ein **`;`** vor die Zeile `g_language = german_(germany)` ein.
 <br/><br/><br/>
 
 ### Das Team
 
-| Team                                        | Fokus Position             | Beschreibung                          |
-| :------------------------------------------ | :------------------------- | :---------------------------------    |
-| [rjcncpt](https://github.com/rjcncpt)       | `Ansprechparter`           | Übersetzungen & GitHub                |
-| [MaxM1211](https://github.com/MaxM1211)     | `Dev & Bugfixing`          | Korrekturen, GitHub, Dev & Bugfixing  |
-| [Norinofu](https://github.com/Norinofu)     | `Dev & Bugfixing`          | Korrekturen, GitHub, Dev & Bugfixing  |
-| [Drakonhawk](https://github.com/Drakonhawk) | `Dev & Bugfixing`          | GitHub, Dev & Bugfixing               |
-| view                                        | `Dev & Bugfixing`          | Übersetzungen, Dev & Bugfixing        |
-| Boy7                                        | `Dev & Bugfixing`          | Übersetzungen, Dev & Bugfixing        |
-| electron0                                   | `Dev & Bugfixing`          | GitHub, Dev & Bugfixing               |
-| DerOrga                                     | `Dev & Bugfixing`          | Dev & Bugfixing                       |
-| blazingUnknown                              | `Übersetzer`               | Übersetzungen                         |
-| Hikaruhoshi1                                | `Übersetzer`               | Übersetzungen                         |
-| greluc                                      | `Übersetzer`               | Übersetzungen (spez. militärisch)     |
-| 0schinator                                  | `Übersetzer`               | Übersetzungen                         |
-| APROVES                                     | `Übersetzer`               | Übersetzungen                         |
-| Asaya87                                     | `Discord Management`       | Übersetzungen & Discord Admin         |
-| Fabi 18                                     | `Discord Management`       | Discord Admin                         |
+| Team                                        | Fokus Position       | Beschreibung                         |
+|:--------------------------------------------|:---------------------|:-------------------------------------|
+| [rjcncpt](https://github.com/rjcncpt)       | `Ansprechparter`     | Übersetzungen & GitHub               |
+| [MaxM1211](https://github.com/MaxM1211)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing |
+| [Norinofu](https://github.com/Norinofu)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing |
+| [Drakonhawk](https://github.com/Drakonhawk) | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing              |
+| view                                        | `Dev & Bugfixing`    | Übersetzungen, Dev & Bugfixing       |
+| Boy7                                        | `Dev & Bugfixing`    | Übersetzungen, Dev & Bugfixing       |
+| electron0                                   | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing              |
+| DerOrga                                     | `Dev & Bugfixing`    | Dev & Bugfixing                      |
+| blazingUnknown                              | `Übersetzer`         | Übersetzungen                        |
+| Hikaruhoshi1                                | `Übersetzer`         | Übersetzungen                        |
+| [greluc](https://github.com/greluc)         | `Übersetzer`         | Übersetzungen (spez. militärisch)    |
+| 0schinator                                  | `Übersetzer`         | Übersetzungen                        |
+| APROVES                                     | `Übersetzer`         | Übersetzungen                        |
+| Asaya87                                     | `Discord Management` | Übersetzungen & Discord Admin        |
+| Fabi 18                                     | `Discord Management` | Discord Admin                        |
 
 <br/>
 
 | Dankeschön       | Position   | Beschreibung                                                                                                                      |
 | :--------------- | :--------- | :-------------------------------------------------------------------------------------------------------------------------------- |
-| Claudia Fröhlich | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld korrekturgelesen.                                                               |
+| Claudia Fröhlich | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld korrektur gelesen.                                                               |
 | Knebel Discord   |            | Ein großes Dankeschön geht an die vielen Einsender der [Knebel Discord Community](https://discord.com/invite/knebel) \*Invite-Link |
 
 <br/><br/>
@@ -107,7 +107,7 @@ Die `global.ini` liegt im Format `UTF-8-BOM` vor. Das ist eigentlich unnötig, u
 <br/><br/>
 
 1. öffne die `global.ini` in einem Texteditor wie Notepad++ (kostenlos)
-2. klicke anschliefend in der Symbolleiste auf "Codierung"
+2. klicke anschließend in der Symbolleiste auf "Codierung"
 3. wähle `UTF-8-BOM`
 4. speichern
 <br/><br/>
