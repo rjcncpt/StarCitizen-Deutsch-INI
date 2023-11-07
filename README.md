@@ -54,9 +54,9 @@ Preview und Test-Kanäle werden von uns nicht priorisiert übersetzt. Damit du a
 
 <br/>
 
-| Dankeschön       | Position   | Beschreibung                                                                                                                      |
-| :--------------- | :--------- | :-------------------------------------------------------------------------------------------------------------------------------- |
-| Claudia Fröhlich | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld korrektur gelesen.                                                               |
+| Dankeschön       | Position   | Beschreibung                                                                                                                       |
+| :--------------- | :--------- |:-----------------------------------------------------------------------------------------------------------------------------------|
+| Claudia Fröhlich | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld Korrektur gelesen.                                                               |
 | Knebel Discord   |            | Ein großes Dankeschön geht an die vielen Einsender der [Knebel Discord Community](https://discord.com/invite/knebel) \*Invite-Link |
 
 <br/><br/>
