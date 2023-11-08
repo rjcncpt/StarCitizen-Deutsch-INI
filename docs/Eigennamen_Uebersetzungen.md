@@ -1,7 +1,7 @@
 # Festlegung der Übersetzungen von Eigennamen
 
 | Englisch                    | Deutsch Variante 1             | Deutsch Variante 2           | Deutsch Variante 3 |
-|-----------------------------|:-------------------------------|------------------------------|--------------------|
+| --------------------------- | :----------------------------- | ---------------------------- | ------------------ |
 | wreckdiving                 | Wrackerkundung                 |                              |                    |
 | Hold your fire              | Feuer einstellen               |                              |                    |
 | Check your fire. Friendly.  | Feuer einstellen. Verbündeter! |                              |                    |
@@ -49,7 +49,7 @@
 | Forward Proximity Alert     | Annäherungsalarm vorne         |                              |                    |
 | Overhead Proximity Alert    | Annäherungsalarm oben          |                              |                    |
 | Port Proximity Alert        | Annäherungsalarm links         | Annäherungsalarm backbord    |                    |
-| Starboard Proximity Alert   | Annäherungsalarm rechts        | Annäherungsalarm steuerbord  |
+| Starboard Proximity Alert   | Annäherungsalarm rechts        | Annäherungsalarm steuerbord  |                    |
 | Warning Collision Stern     | Achtung Kollision hinten       | Achtung Kollision achtern    |                    |
 | Warning Collision Nadir     | Achtung Kollision unten        |                              |                    |
 | Warning Collision Fore      | Achtung Kollision vorne        |                              |                    |
