@@ -62,3 +62,5 @@
 | Collision Alert High        | Kollisionsalarm oben           |                              |                    |
 | Collision Alert Port        | Kollisionsalarm links          | Kollisionsalarm backbord     |                    |
 | Collision Alert Starboard   | Kollisionsalarm rechts         | Kollisionsalarm steuerbord   |                    |
+| decoy                       | Hitzetäuschkörper              |                              |                    |
+| noise                       | Radartäuschkörper              | Scannertäuschkörper          |                    |
