@@ -34,23 +34,23 @@ Preview und Test-Kanäle werden von uns nicht priorisiert übersetzt. Damit du a
 
 ### Das Team
 
-| Team                                        | Fokus Position       | Beschreibung                         |
-|:--------------------------------------------|:---------------------|:-------------------------------------|
-| [rjcncpt](https://github.com/rjcncpt)       | `Ansprechparter`     | Übersetzungen & GitHub               |
-| [MaxM1211](https://github.com/MaxM1211)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing |
-| [Norinofu](https://github.com/Norinofu)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing |
-| [Drakonhawk](https://github.com/Drakonhawk) | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing              |
-| view                                        | `Dev & Bugfixing`    | Übersetzungen, Dev & Bugfixing       |
-| Boy7                                        | `Dev & Bugfixing`    | Übersetzungen, Dev & Bugfixing       |
-| electron0                                   | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing              |
-| DerOrga                                     | `Dev & Bugfixing`    | Dev & Bugfixing                      |
-| blazingUnknown                              | `Übersetzer`         | Übersetzungen                        |
-| Hikaruhoshi1                                | `Übersetzer`         | Übersetzungen                        |
-| [greluc](https://github.com/greluc)         | `Übersetzer`         | Übersetzungen (spez. militärisch)    |
-| 0schinator                                  | `Übersetzer`         | Übersetzungen                        |
-| APROVES                                     | `Übersetzer`         | Übersetzungen                        |
-| Asaya87                                     | `Discord Management` | Übersetzungen & Discord Admin        |
-| Fabi 18                                     | `Discord Management` | Discord Admin                        |
+| Team                                        | Fokus Position       | Beschreibung                               |
+|:------------------------------------------- |:-------------------- |:------------------------------------------ |
+| [rjcncpt](https://github.com/rjcncpt)       | `Ansprechparter`     | Übersetzungen & GitHub                     |
+| [MaxM1211](https://github.com/MaxM1211)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing       |
+| [Norinofu](https://github.com/Norinofu)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing       |
+| [Drakonhawk](https://github.com/Drakonhawk) | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing                    |
+| view                                        | `Dev & Bugfixing`    | Übersetzungen, Dev & Bugfixing             |
+| Boy7                                        | `Dev & Bugfixing`    | Übersetzungen, Dev & Bugfixing             |
+| electron0                                   | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing                    |
+| DerOrga                                     | `Dev & Bugfixing`    | Dev & Bugfixing                            |
+| blazingUnknown                              | `Übersetzer`         | Übersetzungen                              |
+| Hikaruhoshi1                                | `Übersetzer`         | Übersetzungen                              |
+| [greluc](https://github.com/greluc)         | `Übersetzer`         | Übersetzungen (spez. militärisch) & GitHub |
+| 0schinator                                  | `Übersetzer`         | Übersetzungen                              |
+| APROVES                                     | `Übersetzer`         | Übersetzungen                              |
+| Asaya87                                     | `Discord Management` | Übersetzungen & Discord Admin              |
+| Fabi 18                                     | `Discord Management` | Discord Admin                              |
 
 <br/>
 
