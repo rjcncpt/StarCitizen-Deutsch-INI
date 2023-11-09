@@ -12,6 +12,8 @@
 | Look alive                  | Seid wachsam                   | Seid aufmerksam              |                    |
 | Look sharp people           | Seid wachsam                   | Seid aufmerksam              |                    |
 | Quantum-Snare               | Quantumfalle                   |                              |                    |
+| Quantum Drive               | Quantumantrieb                 |                              |                    |
+| Quantum Travel              | Quantumflug                    |                              |                    |
 | Sub-Item Slot               | Zusatzkomponenten-Slot         |                              |                    |
 | Missile Rack                | Raketengestell                 |                              |                    |
 | Remote Turret               | Ferngesteuertes Geschütz       |                              |                    |
