@@ -64,3 +64,5 @@
 | Collision Alert Starboard   | Kollisionsalarm rechts         | Kollisionsalarm steuerbord   |                    |
 | decoy                       | Hitzetäuschkörper              |                              |                    |
 | noise                       | Radartäuschkörper              | Scannertäuschkörper          |                    |
+| First Blood                 | Erster Kill                    |                              |                    |
+| Invalid Shop                | Unzulässiger Shop              |                              |                    |
