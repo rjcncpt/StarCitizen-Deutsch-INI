@@ -18,5 +18,5 @@
 
 | global.ini                                      | Description                                                    |
 | ----------------------------------------------- | :------------------------------------------------------------- |
-| hud_mining_gathering_                           | This variable is missing and is displayed in the Multitool HUD |
+| hud_mining_gathering_ ???                       | This variable is missing and is displayed in the Multitool HUD |
 | DXSM_SSCV_DRAK_OEM_UI_Shields_Left_75_Percent,P | This variable is missing. 75% is available for the right side  |
