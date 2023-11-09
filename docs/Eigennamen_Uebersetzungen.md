@@ -66,3 +66,6 @@
 | noise                       | Radartäuschkörper              | Scannertäuschkörper          |                    |
 | First Blood                 | Erster Kill                    |                              |                    |
 | Invalid Shop                | Unzulässiger Shop              |                              |                    |
+| Thruster                    | Thruster                       | Schubdüse                    |                    |
+| Engines                     | Triebwerke                     |                              |                    |
+| Propulsion                  | Antrieb                        |                              |                    |
