@@ -1,7 +1,7 @@
 # Incorrect variables in the English global.ini
 
 | global.ini                                                     | Correct variable                                              |
-|----------------------------------------------------------------|:--------------------------------------------------------------|
+| -------------------------------------------------------------- | :------------------------------------------------------------ |
 | `seachbody_obj_short_02a=`                                     | `searchbody_obj_short_02a=`                                   |
 | `ea_ui_matchmaking_error_CanceledByService =`                  | `ea_ui_matchmaking_error_CanceledByService=`                  |
 | `Tut03__Part01_Obj01b_ToStation =`                             | `Tut03_Part01_Obj01b_ToStation=`                              |
@@ -15,7 +15,7 @@
 
 # Missing variables
 
-| global.ini                                        | Description                                                     |
-|---------------------------------------------------|:----------------------------------------------------------------|
-| `hud_mining_gathering_ ???`                       | This variable is missing and is displayed in the Multitool HUD. |
-| `DXSM_SSCV_DRAK_OEM_UI_Shields_Left_75_Percent,P` | This variable is missing. 75% is available for all other sides. |
+| global.ini                                        | Description                                                                                                                        |
+| ------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| `???_mining_gathering_???`                        | This variable is missing and is shown in the multitool display when collecting hand-mined minerals. We do not know the exact name. |
+| `DXSM_SSCV_DRAK_OEM_UI_Shields_Left_75_Percent,P` | This variable is missing. 75% is available for all other sides.                                                                    |
