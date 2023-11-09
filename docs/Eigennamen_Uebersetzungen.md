@@ -11,7 +11,9 @@
 | Hostiles inbound            | Feindliche Einheiten im Anflug |                              |                           |
 | Look alive                  | Seid wachsam                   | Seid aufmerksam              |                           |
 | Look sharp people           | Seid wachsam                   | Seid aufmerksam              |                           |
-| Quantum-Snare               | Quantumfalle                   |                              |                           |
+| Quantum Snare               | Quantumfalle                   |                              |                           |
+| Quantum Drive               | Quantumantrieb                 |                              |                           |
+| Quantum Travel              | Quantumreise                   | Quantumjump (nach Kontext)   |                           |
 | Sub-Item Slot               | Zusatzkomponenten-Slot         |                              |                           |
 | Missile Rack                | Raketengestell                 |                              |                           |
 | Remote Turret               | Ferngesteuertes Geschütz       |                              |                           |
