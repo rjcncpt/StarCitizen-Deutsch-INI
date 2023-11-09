@@ -1,7 +1,7 @@
 # Festlegung der Übersetzungen von Eigennamen
 
 | Englisch                    | Deutsch Variante 1             | Deutsch Variante 2           | Deutsch Variante 3 |
-| --------------------------- | :----------------------------- | ---------------------------- | ------------------ |
+|-----------------------------|:-------------------------------|------------------------------|--------------------|
 | wreckdiving                 | Wrackerkundung                 |                              |                    |
 | Hold your fire              | Feuer einstellen               |                              |                    |
 | Check your fire. Friendly.  | Feuer einstellen. Verbündeter! |                              |                    |
