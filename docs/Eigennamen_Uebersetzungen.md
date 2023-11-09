@@ -14,6 +14,7 @@
 | Quantum-Snare               | Quantumfalle                   |                              |                    |
 | Quantum Drive               | Quantumantrieb                 |                              |                    |
 | Quantum Travel              | Quantumflug                    |                              |                    |
+| Jump Drive                  | Sprungantrieb                  |                              |                    |
 | Sub-Item Slot               | Zusatzkomponenten-Slot         |                              |                    |
 | Missile Rack                | Raketengestell                 |                              |                    |
 | Remote Turret               | Ferngesteuertes Geschütz       |                              |                    |
