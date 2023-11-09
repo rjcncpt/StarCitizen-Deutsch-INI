@@ -4,7 +4,7 @@
 |--------------------------------------------------------------|:------------------------------------------------------------|
 | seachbody_obj_short_02a=                                     | searchbody_obj_short_02a=                                   |
 | ea_ui_matchmaking_error_CanceledByService =                  | ea_ui_matchmaking_error_CanceledByService=                  |
-| Tut03_Part03_Obj4_UseASOP_HUD=                               | Tut03_Part03_Obj04_UseASOP_HUD=                             |
+| Tut03_Part03_Obj4_UseASOP_HUD =                              | Tut03_Part03_Obj04_UseASOP_HUD=                             |
 | Tut03__Part01_Obj01b_ToStation =                             | Tut03_Part01_Obj01b_ToStation=                              |
 | ~mission (description)                                       | ~mission(description)                                       |
 | ~mission (title)                                             | ~mission(title)                                             |
