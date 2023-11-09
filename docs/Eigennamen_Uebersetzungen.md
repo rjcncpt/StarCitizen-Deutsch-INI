@@ -71,3 +71,6 @@
 | Thruster                    | Thruster                       | Schubdüse                    |                           |
 | Engines                     | Triebwerke                     |                              |                           |
 | Propulsion                  | Antrieb                        |                              |                           |
+| Mainframe                   | Zentralrechner                 |                              |                           |
+| cryptokey                   | Cryptokey                      |                              |                           |
+| air capability              | Luftüberlegenheit              |                              |                           |
