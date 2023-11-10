@@ -12,6 +12,7 @@
 | `shop_ui_transactionResult_04 _InvalidPlayerInventoryId=`      | `shop_ui_transactionResult_04_InvalidPlayerInventoryId=`      |
 | `shop_ui_transactionResult_05 _InventoryContainerRequestFail=` | `shop_ui_transactionResult_05_InventoryContainerRequestFail=` |
 | `shop_ui_transactionResult_06 _InventoryItemFail=`             | `shop_ui_transactionResult_06_InventoryItemFail=`             |
+| `Oxygen_Screen_ ErrorButtonMessage=`                           | `Oxygen_Screen_ErrorButtonMessage=`                           |
 
 # Missing variables
 
