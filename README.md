@@ -1,4 +1,4 @@
-# [WIP] Star Citizen Deutsch global.ini
+# [WIP] Star Citizen deutsche Lokalisierung (global.ini)
 
 ### Willkommen zu unserer deutschen Lokalisierung für Star Citizen (inkl. Umlaute)
 
