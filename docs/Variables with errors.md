@@ -4,7 +4,7 @@
 | -------------------------------------------------------------- | :------------------------------------------------------------ |
 | `seachbody_obj_short_02a=`                                     | `searchbody_obj_short_02a=`                                   |
 | `ea_ui_matchmaking_error_CanceledByService =`                  | `ea_ui_matchmaking_error_CanceledByService=`                  |
-| `Tut03__Part01_Obj01b_ToStation =`                             | `Tut03_Part01_Obj01b_ToStation=`                              |
+| `Tut03_Part01_Obj01b_ToStation =`                              | `Tut03_Part01_Obj01b_ToStation=`                              |
 | `~mission (description)`                                       | `~mission(description)`                                       |
 | `~mission (title)`                                             | `~mission(title)`                                             |
 | `~mission (item)`                                              | `~mission(item)`                                              |
