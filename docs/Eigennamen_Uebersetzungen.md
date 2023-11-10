@@ -1,3 +1,9 @@
+# Allgemeine Festlegungen
+
+* Schiffe nutzen die weibliche Form (z.B. die Polaris)
+* Hovercraft nutzen die weibliche Form (z.B. die Nox)
+* Bodenfahrzeuge nutzen die männliche Form (z.B. der Cyclone)
+
 # Festlegung der Übersetzungen von Eigennamen
 
 | Englisch                    | Deutsch Variante 1                 | Deutsch Variante 2           | Deutsch Variante 3        |
@@ -81,9 +87,3 @@
 | Beacon                      | Beacon                             | Signalbarke                  |                           |
 | Quantum Enforcement         | ??? (bei vehicle_DescRSI_Mantis=)  |                              |                           |
 | spinal mount                | ??? (bei vehicle_DescAEGS_Idris=)  |                              |                           |
-
-# Allgemeine Festlegungen
-
-* Schiffe nutzen die weibliche Form (z.B. die Polaris)
-* Hovercraft nutzen die weibliche Form (z.B. die Nox)
-* Bodenfahrzeuge nutzen die männliche Form (z.B. der Cyclone)
