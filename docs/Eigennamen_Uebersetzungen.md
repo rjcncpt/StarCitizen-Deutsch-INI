@@ -74,13 +74,15 @@
 | Mainframe                   | Zentralrechner                                                                                                                                                 |                              |                           |
 | cryptokey                   | Cryptokey                                                                                                                                                      |                              |                           |
 | air capability              | Luftüberlegenheit                                                                                                                                              |                              |                           |
-| Snub Fighter                | Snub-Fighter                                                                                                                                                   |                              |                           |
-| Snub Bomber                 | Snub-Bomber                                                                                                                                                    |                              |                           |
-| Pathfinder                  | Fernspäher                                                                                                                                                     |                              |                           |
-| Gun Ship                    | Luftnahunterstützungsschiff                                                                                                                                    |                              |                           |
-| Drop Ship                   | ??? (Funktion ist ja ähnlich einem Schützenpanzer des Heeres. Nur passt der Begriff nicht für ein Schiff. Muss bei `vehicle_class_dropship=` geändert werden.) |                              |                           |
 | Advocacy                    | ???                                                                                                                                                            |                              |                           |
 | Lag PIP                     | Fadenkreuz-basierter Vorhaltepunkt                                                                                                                             |                              |                           |
 | Lead PIP                    | Ziel-basierter Vorhaltepunkt                                                                                                                                   |                              |                           |
 | aggressor squadrons         | ??? (aktuell "Aggressorenschwadronen" bei `vehicle_DescVNCL_Blade=`)                                                                                           |                              |                           |
 | Beacon                      | Signalbarke                                                                                                                                                    |                              |                           |
+| Quantum Enforcement         | ??? (bei vehicle_DescRSI_Mantis=)                                                                                                                              |                              |                           |
+
+# Allgemeine Festlegungen
+
+* Schiffe nutzen die weibliche Form (z.B. die Polaris)
+* Hovercraft nutzen die weibliche Form (z.B. die Nox)
+* Bodenfahrzeuge nutzen die männliche Form (z.B. der Cyclone)
