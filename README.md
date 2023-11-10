@@ -1,4 +1,4 @@
-# [WIP] StarCitizen Deutsch global.ini
+# [WIP] Star Citizen deutsche Lokalisierung (global.ini)
 
 ### Willkommen zu unserer deutschen Lokalisierung für Star Citizen (inkl. Umlaute)
 
@@ -63,7 +63,7 @@ Preview und Test-Kanäle werden von uns nicht priorisiert übersetzt. Damit du a
 
 ### Download
 
-Lade dir [die ZIP Datei herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) und entpacke diese im LIVE bzw. PTU Ordner. In der ZIP Datei ist die `global.ini` und die `user.cfg` Datei enthalten. Wenn du nicht möchtest das die `user.cfg` Datei deine eigene überschreibt, lade die `global.ini` als einzelne Datei herunter.
+Lade dir [die ZIP Datei herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) und entpacke diese im LIVE Ordner. (Nutzt du die INI Datei für LIVE im PTU, kann es zu Darstellungsfehlern kommen wenn sich die Versionsnummern unterscheiden.) In der ZIP Datei ist die `global.ini` und die `user.cfg` Datei enthalten. Wenn du nicht möchtest das die `user.cfg` Datei deine eigene überschreibt, lade die `global.ini` als einzelne Datei herunter.
 <br/><br/>
 
 ### Installation
