@@ -1,32 +1,27 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
+name: Fehler melden
+about: Erstelle eine Meldung über eine falsche Übersetzung
+title: ""
 labels: bug
-assignees: ''
-
+assignees: ""
 ---
 
-# **Describe the bug**
-A clear and concise description of what the bug is.
+### Wo tritt der Fehler auf?
+Zum Beispiel: ASOP-Terminal, Mobiglas, Interaktionen
 
-# **To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+### Beschreibe den Fehler
+Was ist die aktuelle Übersetzung?
 
-# **Expected behavior**
-A clear and concise description of what you expected to happen.
+### Erwartete Übersetzung
+Was erwartest Du anstatt der aktuellen Übersetzung?
 
-# **Screenshots**
-If applicable, add screenshots to help explain your problem.
+### Screenshots
+Wenn möglich, füge Screenshots ein, damit wir direkt den Fehler sehen.
 
-# **Version**
- - Channel: [e.g. LIVE, PTU, EPTU, TECH-PREVIEW]
- - Version: [e.g. 3.21.1]
- - Build: [e.g. 8854374]
+### Version
+- Channel: [e.g. LIVE, PTU, EPTU, TECH-PREVIEW]
+- Version: [e.g. 3.21.1]
+- Build: [e.g. 8854374]
 
-# **Additional context**
-Add any other context about the problem here.
+### Zusätzlicher Kontext
+Jegliche weitere Informationen die uns helfen können den Zusammenhang zu verstehen.
