@@ -15,74 +15,75 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | Englisch                      | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
 |:------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
 | `Advocacy`                    | `Advocacy`                                     |                                                                                   |                             |
-| `Aft Proximity Alert`         | `Annäherungsalarm hinten`                      | `Annäherungsalarm achtern`                                                        |                             |
-| `aggressor squadrons`         | `Aggressorenschwadrone`                        |                                                                                   |                             |
-| `air capability`              | `Luftüberlegenheit`                            |                                                                                   |                             |
+| `Aggressor Squadrons`         | `Aggressorenschwadrone`                        |                                                                                   |                             |
+| `Air Capability`              | `Luftüberlegenheit`                            |                                                                                   |                             |
 | `Attachment`                  | `Aufsatz`                                      |                                                                                   |                             |
-| `Avionics`                    | `Avionik`                                      | `Avioniksystem`                                                                   |                             |
 | `Barrel`                      | `Lauf` (je nach Kontext)                       | `Fass` (je nach Kontext)                                                          | `Trommel` (je nach Kontext) |
 | `Beacon`                      | `Beacon`                                       | `Signalbarke`                                                                     |                             |
+| `Consumable`                  | `Verbrauchsgut`                                |                                                                                   |                             |
+| `Item`                        | `Gegenstand`                                   |                                                                                   |                             |
+| `Credit`                      | `Geld`                                         | `Scheine`                                                                         | `Moneten`                   |
+| `Credits`                     | `Geld`                                         | `Scheine`                                                                         | `Moneten`                   |
+| `Cryptokey`                   | `Cryptokey`                                    |                                                                                   |                             |
+| `Cycle`                       | `Wechseln`                                     | `durchwechseln`                                                                   | `durchschalten`             |
+| `Decoy`                       | `Hitzetäuschkörper`                            |                                                                                   |                             |
+| `Noise`                       | `Radartäuschkörper`                            | `Scannertäuschkörper`                                                             |                             |
+| `First Blood`                 | `Erster Kill`                                  |                                                                                   |                             |
+| `Friendly down`               | `Verbündeter am Boden`                         |                                                                                   |                             |
+| `Friendly Fire`               | `Friendly Fire`                                |                                                                                   |                             |
 | `Check your fire. Friendly.`  | `Feuer einstellen. Verbündeter!`               |                                                                                   |                             |
+| `Fuel Pod Summary`            | `Treibstoffbehälter`                           |                                                                                   |                             |
+| `Hold your fire`              | `Feuer einstellen`                             |                                                                                   |                             |
+| `Hostiles inbound`            | `Feindliche Einheiten im Anflug`               |                                                                                   |                             |
+| `Inner Thought`               | `innerer Dialog`                               |                                                                                   |                             |
+| `Invalid Shop`                | `Unzulässiger Shop`                            |                                                                                   |                             |
+| `Lag PIP`                     | `Lag PIP (Fadenkreuz-basierter Vorhaltepunkt)` |                                                                                   |                             |
+| `Lead PIP`                    | `Lead PIP (Ziel-basierter Vorhaltepunkt)`      |                                                                                   |                             |
+| `Light Goods`                 | `Leichte Fracht`                               |                                                                                   |                             |
+| `Look alive`                  | `Seid wachsam`                                 | `Seid aufmerksam`                                                                 |                             |
+| `Look sharp people`           | `Seid wachsam`                                 | `Seid aufmerksam`                                                                 |                             |
+| `Mainframe`                   | `Zentralrechner`                               |                                                                                   |                             |
+| `Missile Attach Point`        | `Raketenaufsatzpunkt`                          |                                                                                   |                             |
+| `Missile Rack`                | `Raketengestell`                               |                                                                                   |                             |
+| `Remote Turret`               | `Ferngesteuerter Geschützturm`                 | `Ferngesteuerter Turm` (wenn nicht bewaffnet, z.B. für Scanning oder Traktorbeam) |                             |
+| `Optics Attachment`           | `Zieloptik-Aufsätze`                           |                                                                                   |                             |
+| `Deck Proximity Alert`        | `Annäherungsalarm unten`                       |                                                                                   |                             |
+| `Forward Proximity Alert`     | `Annäherungsalarm vorne`                       |                                                                                   |                             |
+| `Overhead Proximity Alert`    | `Annäherungsalarm oben`                        |                                                                                   |                             |
+| `Aft Proximity Alert`         | `Annäherungsalarm hinten`                      | `Annäherungsalarm achtern`                                                        |                             |
+| `Starboard Proximity Alert`   | `Annäherungsalarm rechts`                      | `Annäherungsalarm steuerbord`                                                     |                             |
+| `Port Proximity Alert`        | `Annäherungsalarm links`                       | `Annäherungsalarm backbord`                                                       |                             |
 | `Collision Alert Front`       | `Kollisionsalarm vorne`                        |                                                                                   |                             |
 | `Collision Alert High`        | `Kollisionsalarm oben`                         |                                                                                   |                             |
 | `Collision Alert Low`         | `Kollisionsalarm unten`                        |                                                                                   |                             |
 | `Collision Alert Port`        | `Kollisionsalarm links`                        | `Kollisionsalarm backbord`                                                        |                             |
 | `Collision Alert Rear`        | `Kollisionsalarm hinten`                       | `Kollisionsalarm achtern`                                                         |                             |
 | `Collision Alert Starboard`   | `Kollisionsalarm rechts`                       | `Kollisionsalarm steuerbord`                                                      |                             |
-| `Consumable`                  | `Verbrauchsgut`                                |                                                                                   |                             |
-| `Credit`                      | `Geld`                                         | `Scheine`                                                                         | `Moneten`                   |
-| `Credits`                     | `Geld`                                         | `Scheine`                                                                         | `Moneten`                   |
-| `cryptokey`                   | `Cryptokey`                                    |                                                                                   |                             |
-| `CYCLE`                       | `Wechseln`                                     | `durchwechseln`                                                                   | `durchschalten`             |
-| `Deck Proximity Alert`        | `Annäherungsalarm unten`                       |                                                                                   |                             |
-| `Deck Shield`                 | `untere Schilde`                               |                                                                                   |                             |
-| `decoy`                       | `Hitzetäuschkörper`                            |                                                                                   |                             |
-| `Engines`                     | `Triebwerke`                                   |                                                                                   |                             |
-| `First Blood`                 | `Erster Kill`                                  |                                                                                   |                             |
-| `Forward Proximity Alert`     | `Annäherungsalarm vorne`                       |                                                                                   |                             |
-| `Friendly down`               | `Verbündeter am Boden`                         |                                                                                   |                             |
-| `Friendly Fire`               | `Friendly Fire`                                |                                                                                   |                             |
-| `Fuel Pod Summary`            | `Treibstoffbehälter`                           |                                                                                   |                             |
-| `Head Shield`                 | `vordere Schilde`                              |                                                                                   |                             |
-| `Hold your fire`              | `Feuer einstellen`                             |                                                                                   |                             |
-| `Hostiles inbound`            | `Feindliche Einheiten im Anflug`               |                                                                                   |                             |
-| `Inner Thought`               | `innerer Dialog`                               |                                                                                   |                             |
-| `Invalid Shop`                | `Unzulässiger Shop`                            |                                                                                   |                             |
-| `Item`                        | `Gegenstand`                                   |                                                                                   |                             |
-| `Lag PIP`                     | `Lag PIP (Fadenkreuz-basierter Vorhaltepunkt)` |                                                                                   |                             |
-| `Lead PIP`                    | `Lead PIP (Ziel-basierter Vorhaltepunkt)`      |                                                                                   |                             |
-| `LIGHT GOODS`                 | `LEICHTE FRACHT`                               |                                                                                   |                             |
-| `Look alive`                  | `Seid wachsam`                                 | `Seid aufmerksam`                                                                 |                             |
-| `Look sharp people`           | `Seid wachsam`                                 | `Seid aufmerksam`                                                                 |                             |
-| `Mainframe`                   | `Zentralrechner`                               |                                                                                   |                             |
-| `Missile Attach Point`        | `Raketenaufsatzpunkt`                          |                                                                                   |                             |
-| `Missile Rack`                | `Raketengestell`                               |                                                                                   |                             |
-| `noise`                       | `Radartäuschkörper`                            | `Scannertäuschkörper`                                                             |                             |
-| `Optics Attachment`           | `Zieloptik-Aufsätze`                           |                                                                                   |                             |
-| `Overhead Proximity Alert`    | `Annäherungsalarm oben`                        |                                                                                   |                             |
-| `Overhead shield`             | `obere Schilde`                                |                                                                                   |                             |
 | `Pitch`                       | `Nickachse`                                    | `Nicken`                                                                          |                             |
-| `Port Proximity Alert`        | `Annäherungsalarm links`                       | `Annäherungsalarm backbord`                                                       |                             |
-| `Port shield`                 | `linke Schilde`                                | `Backbordschilde`                                                                 |                             |
-| `Power Triangle Assignment`   | `Leistungsdreieck-Zuweisung`                   |                                                                                   |                             |
-| `Propulsion`                  | `Antrieb`                                      |                                                                                   |                             |
+| `Yaw`                         | `Gierachse`                                    | `Gieren`                                                                          |                             |
+| `Roll`                        | `Rollachse`                                    | `Rollen`                                                                          |                             |
 | `Quantum Drive`               | `Quantumantrieb`                               |                                                                                   |                             |
 | `Quantum Enforcement`         | ??? (bei `vehicle_DescRSI_Mantis=`)            |                                                                                   |                             |
 | `Quantum Snare`               | `Quantumfalle`                                 |                                                                                   |                             |
 | `Quantum Travel`              | `Quantumreise`                                 | `Quantumjump` (nach Kontext)                                                      |                             |
+| `Avionics`                    | `Avionik`                                      | `Avioniksystem`                                                                   |                             |
+| `Thruster`                    | `Thruster`                                     | `Schubdüse`                                                                       |                             |
+| `Engines`                     | `Triebwerke`                                   |                                                                                   |                             |
+| `Propulsion`                  | `Antrieb`                                      |                                                                                   |                             |
+| `Power Triangle Assignment`   | `Leistungsdreieck-Zuweisung`                   |                                                                                   |                             |
+| `Port shield`                 | `linke Schilde`                                | `Backbordschilde`                                                                 |                             |
 | `Rear Shield`                 | `hintere Schilde`                              | `Achterschilde`                                                                   |                             |
-| `Remote Turret`               | `Ferngesteuerter Geschützturm`                 | `Ferngesteuerter Turm` (wenn nicht bewaffnet, z.B. für Scanning oder Traktorbeam) |                             |
-| `Roll`                        | `Rollachse`                                    | `Rollen`                                                                          |                             |
+| `Deck Shield`                 | `untere Schilde`                               |                                                                                   |                             |
+| `Head Shield`                 | `vordere Schilde`                              |                                                                                   |                             |
+| `Overhead shield`             | `obere Schilde`                                |                                                                                   |                             |
+| `Starboard shield`            | `rechte Schilde`                               | `Steuerbordschilde`                                                               |                             |
 | `Shields Recharging`          | `Schilde regenerieren`                         |                                                                                   |                             |
 | `Shields up`                  | `Schilde sind oben`                            |                                                                                   |                             |
 | `Sidearm`                     | `Handfeuerwaffe`                               |                                                                                   |                             |
 | `Spare Weapon Magazine`       | `Ersatzmagazin`                                |                                                                                   |                             |
-| `spinal mount`                | ??? (bei `vehicle_DescAEGS_Idris=`)            |                                                                                   |                             |
-| `Starboard Proximity Alert`   | `Annäherungsalarm rechts`                      | `Annäherungsalarm steuerbord`                                                     |                             |
-| `Starboard shield`            | `rechte Schilde`                               | `Steuerbordschilde`                                                               |                             |
+| `Spinal mount`                | ??? (bei `vehicle_DescAEGS_Idris=`)            |                                                                                   |                             |
 | `Stored Throwables`           | `Verstaute Wurfgegenstände`                    |                                                                                   |                             |
 | `Sub-Item Slot`               | `Zusatzkomponenten-Slot`                       |                                                                                   |                             |
-| `Thruster`                    | `Thruster`                                     | `Schubdüse`                                                                       |                             |
 | `Utility Item`                | `Gebrauchsgegenstand`                          |                                                                                   |                             |
 | `Utility`                     | `Hilfsmittel`                                  |                                                                                   |                             |
 | `Warning Collision Fore`      | `Achtung Kollision vorne`                      |                                                                                   |                             |
@@ -91,7 +92,6 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Warning Collision Starboard` | `Achtung Kollision rechts`                     | `Achtung Kollision steuerbord`                                                    |                             |
 | `Warning Collision Stern`     | `Achtung Kollision hinten`                     | `Achtung Kollision achtern`                                                       |                             |
 | `Warning Collision Zenith`    | `Achtung Kollision oben`                       |                                                                                   |                             |
-| `wreckdiving`                 | `Wrackerkundung`                               |                                                                                   |                             |
-| `Yaw`                         | `Gierachse`                                    | `Gieren`                                                                          |                             |
+| `Wreckdiving`                 | `Wrackerkundung`                               |                                                                                   |                             |
 | `dismiss`                     | `verwerfen`                                    | `entlassen`                                                                       |                             |
-| `deny`                        | `ablehnen`                                     |                                                                                   |                             |
+| `Deny`                        | `Ablehnen`                                     |                                                                                   |                             |
