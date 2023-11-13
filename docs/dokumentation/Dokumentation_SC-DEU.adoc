@@ -17,11 +17,11 @@ Dieses Dokument stellt die gesammelte Dokumentation zur Community-getriebenen Ü
 == Dokumentation für Nutzende
 
 === Installationsanleitung
-  Platzhalter mit Einrückung
+Platzhalter
 
 
 === Ansätze zur Problemlösung
-Platzhalter
+Platzhalter mit Einrückung
 
 == Dokumentation für Mitwirkende
 
