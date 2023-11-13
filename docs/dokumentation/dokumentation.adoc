@@ -12,54 +12,51 @@ v0.0.1, 13.11.2023
 :toc-title: Inhaltsverzeichnis
 :toc:
 
-Dieses Dokument stellt die gesammelte Dokumentation zur Community-getriebenen Übersetztung des Spiels https://robertsspaceindustries.com/[Star Citizen] ins deutsche dar.
+Dieses Dokument stellt die gesammelte Dokumentation zur Community-getriebenen Übersetzung des Spiels https://robertsspaceindustries.com/[Star Citizen] ins deutsche dar.
 
-== Dokumentation für Nutzer
+== Dokumentation für Nutzende
 
 === Installationsanleitung
+  Platzhalter mit Einrückung
 
-Platzhalter
 
 === Ansätze zur Problemlösung
-
 Platzhalter
 
 == Dokumentation für Mitwirkende
 
 === Vorgang zur Korrektur der englischen `global.ini`
-
 Hier wird der Vorgang zum Export und der Korrektur der englsichen global.ini aus Star Citizen dargestellt.
 
 ==== Vorbedingungen
+Folgende Software muss lokal auf deinem Rechner vorhanden/installiert sein.
 
-* https://github.com/dolkensp/unp4k[unp4k]
-* https://notepad-plus-plus.org/[Notepad++] oder ein vergleichbarer Texteditor
-* Star Citizen muss installiert sein
+    * https://github.com/dolkensp/unp4k[unp4k]
+    * https://notepad-plus-plus.org/[Notepad++] oder ein vergleichbarer Texteditor
+    * Star Citizen
 
 ==== Entpacken der global.ini
-
-1. unp4k am gewünschten Ablageort der global.ini entpacken.
-2. Dort muss nun die Datei unp4k.exe vorhanden sein.
-3. Die Kommandozeile in diesem Ordner öffnen.
-4. Den Befehl `unp4k.exe "**C:\path\to\**Data.p4k" global.ini` eingeben. Hierbei muss **_c:\path\to\_** durch den Dateipfad zur Data.p4k im Starcitizen Verzeichnis ersetzt werden (Standardmäßig **_C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\_** ). Die "" müsen erhalten bleiben.
-5. unp4k erstellt jetzt den Ordner \Data\Localization\english\ im Verzeichnis. Hier ist die `global.ini` zu finden.
+    1. unp4k am gewünschten Ablageort der global.ini entpacken.
+    2. Dort muss nun die Datei unp4k.exe vorhanden sein.
+    3. Die Kommandozeile in diesem Ordner öffnen.
+    4. Den Befehl `unp4k.exe "**C:\path\to\**Data.p4k" global.ini` eingeben. Hierbei muss **_c:\path\to\_** durch den Dateipfad zur Data.p4k im Star Citizen Verzeichnis ersetzt werden (Standardmäßig **_C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\_** ). Die "" müssen erhalten bleiben.
+    5. unp4k erstellt jetzt die Ordnerstruktur \Data\Localization\english\ im aktuellen Verzeichnis. Hier ist die `global.ini` zu finden.
 
 ==== Korrektur der `global.ini`
-
-1. Die global.ini in Notepad++ oder einem vergleichbaren Texteditor öffnen
-2. Die Codierung auf `ANSI` einstellen. _Menüleiste -> Codierung -> ANSI_
-3. Die Suche öffnen und den Suchmodus auf _Reguläre Ausdrücke_ einstellen
-4. Nach der Zeichenkette `[^\xC2]\xA0` suchen.
+    1. Die global.ini in Notepad++ oder einem vergleichbaren Texteditor öffnen
+    2. Die Codierung auf `ANSI` einstellen. _Menüleiste -> Codierung -> ANSI_
+    3. Die Suche öffnen und den Suchmodus auf _Reguläre Ausdrücke_ einstellen
+    4. Nach der Zeichenkette `[^\xC2]\xA0` suchen.
 +
 .Korrekt eingestellte Suche
 image::bilder/korrektur-eng-ini-suche.png[Korrekt eingestellte Suche]
 +
-5. Es werden immer zwei Zeichen markiert. Ein beliebiges Zeichen und darauffolgend ein Leerzeichen.
+    5. Die Suche markiert nun mehrmals zwei Zeichen. Ein beliebiges Zeichen und darauffolgend ein Leerzeichen.
 +
 .Durch Suche markierte Zeichen
 image::bilder/korrektur-eng-ini-ersetzen.png[Durch Suche markierte Zeichen]
 +
-6. Zwischen das erste (beliebige) Zeichen und das nachfolgende Leerzeichen das Zeichen `Â` einfügen.
-7. Die Codierung wieder auf `UTF-8-BOM` stellen. _Menüleiste -> Codierung -> UTF-8-BOM_
-8. Die `global.ini` speichern.
-9. Die `global.ini` ist zu weiteren Verwendung bereit und kann z.B. auf GitHub bereitgestellt werden
+    6. Zwischen das erste (beliebige) Zeichen und das nachfolgende Leerzeichen das Zeichen `Â` einfügen.
+    7. Die Codierung wieder auf `UTF-8-BOM` stellen. _Menüleiste -> Codierung -> UTF-8-BOM_
+    8. Die `global.ini` speichern.
+    9. Die `global.ini` ist zu weiteren Verwendung bereit und kann z.B. auf GitHub bereitgestellt werden
