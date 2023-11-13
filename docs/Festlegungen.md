@@ -65,7 +65,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Quantum Drive`               | `Quantumantrieb`                               |                                                                                   |                             |
 | `Quantum Enforcement`         | ??? (bei `vehicle_DescRSI_Mantis=`)            |                                                                                   |                             |
 | `Quantum Snare`               | `Quantumfalle`                                 |                                                                                   |                             |
-| `Quantum Travel`              | `Quantumreise`                                 | `Quantumjump` (nach Kontext)                                                      |                             |
+| `Quantum Travel`              | `Quantumreise`                                 | `Quantumjump` (je nach Kontext)                                                   |                             |
 | `Avionics`                    | `Avionik`                                      | `Avioniksystem`                                                                   |                             |
 | `Thruster`                    | `Thruster`                                     | `Schubdüse`                                                                       |                             |
 | `Engines`                     | `Triebwerke`                                   |                                                                                   |                             |
@@ -95,3 +95,6 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Wreckdiving`                 | `Wrackerkundung`                               |                                                                                   |                             |
 | `dismiss`                     | `verwerfen`                                    | `entlassen`                                                                       |                             |
 | `Deny`                        | `Ablehnen`                                     |                                                                                   |                             |
+| `Imprint`                     | `DNA-Profil`                                   |                                                                                   |                             |
+| `Imprint storage`             | `DNA-Profilarchiv`                             |                                                                                   |                             |
+| `imaging services`            | ??? Wird als `Bildgebungsdienste` übersetzt    |                                                                                   |                             |
