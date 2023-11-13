@@ -555,25 +555,55 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc">
 <div id="toctitle">Inhaltsverzeichnis</div>
 <ul class="sectlevel1">
-<li><a href="#_vorgang_zur_korrektur_der_englischen_global_ini">Kapitel 1. Vorgang zur Korrektur der englischen <code>global.ini</code></a>
+<li><a href="#_dokumentation_für_nutzer">Kapitel 1. Dokumentation für Nutzer</a>
 <ul class="sectlevel2">
-<li><a href="#_vorbedingungen">1.1. Vorbedingungen</a></li>
-<li><a href="#_entpacken_der_global_ini">1.2. Entpacken der global.ini</a></li>
-<li><a href="#_korrektur_der_global_ini">1.3. Korrektur der <code>global.ini</code></a></li>
+<li><a href="#_installationsanleitung">1.1. Installationsanleitung</a></li>
+<li><a href="#_ansätze_zur_problemlösung">1.2. Ansätze zur Problemlösung</a></li>
+</ul>
+</li>
+<li><a href="#_dokumentation_für_mitwirkende">Kapitel 2. Dokumentation für Mitwirkende</a>
+<ul class="sectlevel2">
+<li><a href="#_vorgang_zur_korrektur_der_englischen_global_ini">2.1. Vorgang zur Korrektur der englischen <code>global.ini</code></a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_vorgang_zur_korrektur_der_englischen_global_ini">Kapitel 1. Vorgang zur Korrektur der englischen <code>global.ini</code></h2>
+<div id="preamble">
 <div class="sectionbody">
+<div class="paragraph">
+<p>Dieses Dokument stellt die gesammelte Dokumentation zur Community-getriebenen Übersetztung des Spiels <a href="https://robertsspaceindustries.com/">Star Citizen</a> ins deutsche dar.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dokumentation_für_nutzer">Kapitel 1. Dokumentation für Nutzer</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_installationsanleitung">1.1. Installationsanleitung</h3>
+<div class="paragraph">
+<p>Platzhalter</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ansätze_zur_problemlösung">1.2. Ansätze zur Problemlösung</h3>
+<div class="paragraph">
+<p>Platzhalter</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dokumentation_für_mitwirkende">Kapitel 2. Dokumentation für Mitwirkende</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_vorgang_zur_korrektur_der_englischen_global_ini">2.1. Vorgang zur Korrektur der englischen <code>global.ini</code></h3>
 <div class="paragraph">
 <p>Hier wird der Vorgang zum Export und der Korrektur der englsichen global.ini aus Star Citizen dargestellt.</p>
 </div>
-<div class="sect2">
-<h3 id="_vorbedingungen">1.1. Vorbedingungen</h3>
+<div class="sect3">
+<h4 id="_vorbedingungen">2.1.1. Vorbedingungen</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -588,8 +618,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_entpacken_der_global_ini">1.2. Entpacken der global.ini</h3>
+<div class="sect3">
+<h4 id="_entpacken_der_global_ini">2.1.2. Entpacken der global.ini</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -602,7 +632,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Die Kommandozeile in diesem Ordner öffnen.</p>
 </li>
 <li>
-<p>Den Befehl <code>unp4k.exe "<strong>C:\path\to\</strong>Data.p4k" global.ini</code> eingeben. Hierbei muss <strong>c:\path\to\</strong> durch den Dateipfad zur Data.p4k im Starcitizen Verzeichnis ersetzt werden (Standardmäßig C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\). Die "" müsen erhalten bleiben.</p>
+<p>Den Befehl <code>unp4k.exe "<strong>C:\path\to\</strong>Data.p4k" global.ini</code> eingeben. Hierbei muss <strong><em>c:\path\to\</em></strong> durch den Dateipfad zur Data.p4k im Starcitizen Verzeichnis ersetzt werden (Standardmäßig <strong><em>C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\</em></strong> ). Die "" müsen erhalten bleiben.</p>
 </li>
 <li>
 <p>unp4k erstellt jetzt den Ordner \Data\Localization\english\ im Verzeichnis. Hier ist die <code>global.ini</code> zu finden.</p>
@@ -610,8 +640,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ol>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_korrektur_der_global_ini">1.3. Korrektur der <code>global.ini</code></h3>
+<div class="sect3">
+<h4 id="_korrektur_der_global_ini">2.1.3. Korrektur der <code>global.ini</code></h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -625,9 +655,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li>
 <p>Nach der Zeichenkette <code>[^\xC2]\xA0</code> suchen.</p>
-<div id="test" class="imageblock">
+<div class="imageblock">
 <div class="content">
-<img src="../bilder/korrektur-eng-ini-suche.png" alt="Korrekt eingestellte Suche">
+<img src="bilder/korrektur-eng-ini-suche.png" alt="Korrekt eingestellte Suche">
 </div>
 <div class="title">Abbildung 1. Korrekt eingestellte Suche</div>
 </div>
@@ -636,13 +666,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Es werden immer zwei Zeichen markiert. Ein beliebiges Zeichen und darauffolgend ein Leerzeichen.</p>
 <div class="imageblock">
 <div class="content">
-<img src="../bilder/korrektur-eng-ini-ersetzen.png" alt="Durch Suche markierte Stelle">
+<img src="bilder/korrektur-eng-ini-ersetzen.png" alt="Durch Suche markierte Zeichen">
 </div>
-<div class="title">Abbildung 2. Durch Suche markierte Stelle</div>
+<div class="title">Abbildung 2. Durch Suche markierte Zeichen</div>
 </div>
 </li>
 <li>
-<p>Zwischen das erste (beliebige) Zeichen und das Leerzeichen das Zeichen <code>Â</code> einfügen.</p>
+<p>Zwischen das erste (beliebige) Zeichen und das nachfolgende Leerzeichen das Zeichen <code>Â</code> einfügen.</p>
 </li>
 <li>
 <p>Die Codierung wieder auf <code>UTF-8-BOM</code> stellen. <em>Menüleiste &#8594; Codierung &#8594; UTF-8-BOM</em></p>
@@ -659,9 +689,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-11-13 20:26:22 +0100
+Last updated 2023-11-13 20:44:21 +0100
 </div>
 </div>
 <script>
