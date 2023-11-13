@@ -1,14 +1,24 @@
-= Vorgang zur Korrektur der englischen `global.ini`
+= Dokumentation der deutschen Lokalisierung für Star Citizen
+:doctype: book
+:sectnums:
+:chapter-signifier: Kapitel
+:chapter-refsig: Kapitel
+:table-caption: Tabelle
+:figure-caption: Abbildung
+:toc-title: Inhaltsverzeichnis
+:toc:
+
+== Vorgang zur Korrektur der englischen `global.ini`
 
 Hier wird der Vorgang zum Export und der Korrektur der englsichen global.ini aus Star Citizen dargestellt.
 
-== Vorbedingungen
+=== Vorbedingungen
 
 * https://github.com/dolkensp/unp4k[unp4k]
 * https://notepad-plus-plus.org/[Notepad++] oder ein vergleichbarer Texteditor
 * Star Citizen muss installiert sein
 
-== Entpacken der global.ini
+=== Entpacken der global.ini
 
 1. unp4k am gewünschten Ablageort der global.ini entpacken.
 2. Dort muss nun die Datei unp4k.exe vorhanden sein.
@@ -16,7 +26,7 @@ Hier wird der Vorgang zum Export und der Korrektur der englsichen global.ini aus
 4. Den Befehl `unp4k.exe "**c:\path\to\**Data.p4k" global.ini` eingeben. Hierbei muss **c:\path\to\** durch den Dateipfad zur Data.p4k im Starcitizen Verzeichnis ersetzt werden (Standardmäßig C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\). Die "" müsen erhalten bleiben.
 5. unp4k erstellt jetzt den Ordner \Data\Localization\english\ im Verzeichnis. Hier ist die global.ini zu finden.
 
-== Korrektur der global.ini
+=== Korrektur der `global.ini`
 
 1. Die global.ini in Notepad++ oder einem vergleichbaren Texteditor öffnen
 2. Die Codierung auf `ANSI` einstellen. Menüleiste -> Codierung -> ANSI
