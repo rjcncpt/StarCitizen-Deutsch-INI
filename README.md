@@ -20,6 +20,7 @@
 - [Direktdownload der global.ini](#direktdownload-der-globalini)
 - [AUDIO FIX](#audio-fix)
 - [Troubleshooting](#troubleshooting)
+- [Dokumentation](#dokumenation)
   <br/><br/>
 
 Die `global.ini` ist ein Work In Progress (WIP) Projekt. Unsere Veröffentlichungen werden stets im Spiel getestet, aber dennoch können wir keine 100%ige Funktionalität garantieren. Es wird eine beträchtliche Zeit dauern, bis wir alle Texte manuell von Zeile 1 bis etwa Zeile 62000 übersetzt und überprüft haben.
@@ -113,6 +114,11 @@ Die `global.ini` liegt im Format `UTF-8-BOM` vor. Das ist eigentlich unnötig, u
 <br/><br/>
 
 Das sollte das Problem beheben.
+<br/><br/>
+
+### Dokumenation
+
+Die Dokumenation zur Nutzung der Übersetzung und zum Mitwirken bei der Erstellung der Übersetzung ist unter [Dokumentation_SC-DEU.adoc](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/dokumentation/docs/dokumentation/Dokumentation_SC-DEU.adoc) zu finden und kann auch als [Dokumentation_SC-DEU.pdf](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/dokumentation/docs/dokumentation/export/Dokumentation_SC-DEU.pdf) heruntergeladen werden.
 <br/><br/>
 
 Salut and stay tuned!
