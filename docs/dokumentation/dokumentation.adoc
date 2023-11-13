@@ -1,0 +1,57 @@
+= Dokumentation der deutschen Lokalisierung für Star Citizen
+v0.0.1, 13.11.2023
+// Nachfolgende Zeilen dienen der Formartierung des PDF.
+:doctype: book
+:sectnums:
+:chapter-signifier: Kapitel
+:chapter-refsig: Kapitel
+:table-caption: Tabelle
+:figure-caption: Abbildung
+:toc-title: Inhaltsverzeichnis
+:toc:
+literal:
+font_color: green
+font_family: Literal
+font_size: $base_font_size
+border_radius: 1
+border_width: 5
+border_offset: 5
+
+== Vorgang zur Korrektur der englischen `global.ini`
+
+Hier wird der Vorgang zum Export und der Korrektur der englsichen global.ini aus Star Citizen dargestellt.
+
+=== Vorbedingungen
+
+* https://github.com/dolkensp/unp4k[unp4k]
+* https://notepad-plus-plus.org/[Notepad++] oder ein vergleichbarer Texteditor
+* Star Citizen muss installiert sein
+
+=== Entpacken der global.ini
+
+1. unp4k am gewünschten Ablageort der global.ini entpacken.
+2. Dort muss nun die Datei unp4k.exe vorhanden sein.
+3. Die Kommandozeile in diesem Ordner öffnen.
+4. Den Befehl `unp4k.exe "**C:\path\to\**Data.p4k" global.ini` eingeben. Hierbei muss **c:\path\to\** durch den Dateipfad zur Data.p4k im Starcitizen Verzeichnis ersetzt werden (Standardmäßig C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\). Die "" müsen erhalten bleiben.
+5. unp4k erstellt jetzt den Ordner \Data\Localization\english\ im Verzeichnis. Hier ist die `global.ini` zu finden.
+
+=== Korrektur der `global.ini`
+
+1. Die global.ini in Notepad++ oder einem vergleichbaren Texteditor öffnen
+2. Die Codierung auf `ANSI` einstellen. _Menüleiste -> Codierung -> ANSI_
+3. Die Suche öffnen und den Suchmodus auf _Reguläre Ausdrücke_ einstellen
+4. Nach der Zeichenkette `[^\xC2]\xA0` suchen.
++
+[[test]]
+.Korrekt eingestellte Suche
+image::bilder/korrektur-eng-ini-suche.png[Korrekt eingestellte Suche]
++
+5. Es werden immer zwei Zeichen markiert. Ein beliebiges Zeichen und darauffolgend ein Leerzeichen.
++
+.Durch Suche markierte Stelle
+image::bilder/korrektur-eng-ini-ersetzen.png[Durch Suche markierte Stelle]
++
+6. Zwischen das erste (beliebige) Zeichen und das Leerzeichen das Zeichen `Â` einfügen.
+7. Die Codierung wieder auf `UTF-8-BOM` stellen. _Menüleiste -> Codierung -> UTF-8-BOM_
+8. Die `global.ini` speichern.
+9. Die `global.ini` ist zu weiteren Verwendung bereit und kann z.B. auf GitHub bereitgestellt werden
