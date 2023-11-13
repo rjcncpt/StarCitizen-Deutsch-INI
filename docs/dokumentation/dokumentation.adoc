@@ -9,13 +9,6 @@ v0.0.1, 13.11.2023
 :figure-caption: Abbildung
 :toc-title: Inhaltsverzeichnis
 :toc:
-literal:
-font_color: green
-font_family: Literal
-font_size: $base_font_size
-border_radius: 1
-border_width: 5
-border_offset: 5
 
 == Vorgang zur Korrektur der englischen `global.ini`
 
