@@ -21,9 +21,12 @@ Platzhalter
 
 
 === Ansätze zur Problemlösung
-Platzhalter mit Einrückung
+Platzhalter
 
 == Dokumentation für Mitwirkende
+
+=== GitHub Workflow
+Platzhalter
 
 === Vorgang zur Korrektur der englischen `global.ini`
 Hier wird der Vorgang zum Export und der Korrektur der englsichen global.ini aus Star Citizen dargestellt.
@@ -42,21 +45,24 @@ Folgende Software muss lokal auf deinem Rechner vorhanden/installiert sein.
     4. Den Befehl `unp4k.exe "**C:\path\to\**Data.p4k" global.ini` eingeben. Hierbei muss **_c:\path\to\_** durch den Dateipfad zur Data.p4k im Star Citizen Verzeichnis ersetzt werden (Standardmäßig **_C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\_** ). Die "" müssen erhalten bleiben.
     5. unp4k erstellt jetzt die Ordnerstruktur \Data\Localization\english\ im aktuellen Verzeichnis. Hier ist die `global.ini` zu finden.
 
-==== Korrektur der `global.ini`
+==== Korrektur der `global.ini`--------
     1. Die global.ini in Notepad++ oder einem vergleichbaren Texteditor öffnen
-    2. Die Codierung auf `ANSI` einstellen. _Menüleiste -> Codierung -> ANSI_
+    2. Die Codierung auf `ANSI` einstellen. _Notepad++: Menüleiste -> Codierung -> ANSI_
     3. Die Suche öffnen und den Suchmodus auf _Reguläre Ausdrücke_ einstellen
     4. Nach der Zeichenkette `[^\xC2]\xA0` suchen.
 +
-.Korrekt eingestellte Suche
-image::bilder/korrektur-eng-ini-suche.png[Korrekt eingestellte Suche]
+.Korrekt eingestellte Suche in Notepad++
+image::bilder/korrektur-eng-ini-suche.png[Korrekt eingestellte Suche in Notepad++]
 +
     5. Die Suche markiert nun mehrmals zwei Zeichen. Ein beliebiges Zeichen und darauffolgend ein Leerzeichen.
 +
-.Durch Suche markierte Zeichen
-image::bilder/korrektur-eng-ini-ersetzen.png[Durch Suche markierte Zeichen]
+.Durch Suche markierte Zeichen in Notepad++
+image::bilder/korrektur-eng-ini-ersetzen.png[Durch Suche markierte Zeichen in Notepad++]
 +
     6. Zwischen das erste (beliebige) Zeichen und das nachfolgende Leerzeichen das Zeichen `Â` einfügen.
-    7. Die Codierung wieder auf `UTF-8-BOM` stellen. _Menüleiste -> Codierung -> UTF-8-BOM_
+    7. Die Codierung wieder auf `UTF-8-BOM` stellen. _Notepad++: Menüleiste -> Codierung -> UTF-8-BOM_
     8. Die `global.ini` speichern.
-    9. Die `global.ini` ist zu weiteren Verwendung bereit und kann z.B. auf GitHub bereitgestellt werden
+    9. Die `global.ini` ist zu weiteren Verwendung bereit und kann z.B. entsprechend dem <<_github_workflow>> bereitgestellt werden
+
+=== Release Erstellung
+Platzhalter
