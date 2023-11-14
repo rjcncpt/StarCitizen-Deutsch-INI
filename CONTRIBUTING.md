@@ -1,6 +1,6 @@
 # Informationen zur Mitwirkung an der deutschen Übersetzung von Star Citizen
 
-Zuallererst vielen Dank für dein Interesse zur Übersetzung von Star Citizen ins Deutsche bezutragen. Du kannst auf verschiedenen beitragen, welche dir nachfolgend aufgezeigt werden.
+Zuallererst vielen Dank für dein Interesse zur Übersetzung von Star Citizen ins Deutsche bezutragen! Du kannst auf verschiedenen Wegen beitragen, welche dir nachfolgend aufgezeigt werden.
 
 ## Fehler melden
 Dieser Abschnitt führt Dich durch das Einreichen eines Fehlerberichts.
