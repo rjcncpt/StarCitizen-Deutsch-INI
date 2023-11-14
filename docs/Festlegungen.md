@@ -98,3 +98,4 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Imprint`                     | `DNA-Profil`                                   |                                                                                   |                             |
 | `Imprint storage`             | `DNA-Profilarchiv`                             | `DNA-Profil-Verwaltung`                                                           |                             |
 | `imaging services`            | ??? Wird als `Bildgebungsdienste` übersetzt    |                                                                                   |                             |
+| `Spaceframe`                  | ??? Wird als `Raumrahmen` übersetzt            |                                                                                   |                             |
