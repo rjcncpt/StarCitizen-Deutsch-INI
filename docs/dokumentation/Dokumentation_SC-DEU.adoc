@@ -12,7 +12,7 @@ v0.0.1, 13.11.2023
 :toc-title: Inhaltsverzeichnis
 :toc:
 
-Dieses Dokument stellt die gesammelte Dokumentation zur Community-getriebenen Übersetzung des Spiels https://robertsspaceindustries.com/[Star Citizen] ins deutsche dar.
+Dieses Dokument stellt die gesammelte Dokumentation zur Community-getriebenen Übersetzung des Spiels https://robertsspaceindustries.com/[Star Citizen] ins Deutsche dar.
 
 == Dokumentation für Nutzende
 
