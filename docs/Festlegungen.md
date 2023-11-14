@@ -96,5 +96,5 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `dismiss`                     | `verwerfen`                                    | `entlassen`                                                                       |                             |
 | `Deny`                        | `Ablehnen`                                     |                                                                                   |                             |
 | `Imprint`                     | `DNA-Profil`                                   |                                                                                   |                             |
-| `Imprint storage`             | `DNA-Profilarchiv`                             |                                                                                   |                             |
+| `Imprint storage`             | `DNA-Profilarchiv`                             | `DNA-Profil-Verwaltung`                                                           |                             |
 | `imaging services`            | ??? Wird als `Bildgebungsdienste` übersetzt    |                                                                                   |                             |
