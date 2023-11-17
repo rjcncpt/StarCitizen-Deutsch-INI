@@ -15,8 +15,6 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 ### Grundsätzliches
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
 |:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
-| `Decoy`                              | `Hitzetäuschkörper`                            |                                                                                   |                             |
-| `Noise`                              | `Radartäuschkörper`                            | `Scannertäuschkörper`                                                             |                             |
 | `Pitch`                              | `Nickachse`                                    | `Nicken`                                                                          |                             |
 | `Yaw`                                | `Gierachse`                                    | `Gieren`                                                                          |                             |
 | `Roll`                               | `Rollachse`                                    | `Rollen`                                                                          |                             |
@@ -27,8 +25,6 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Credit`                             | `Geld`                                         | `Scheine`                                                                         | `Moneten`                   |
 | `Credits`                            | `Geld`                                         | `Scheine`                                                                         | `Moneten`                   |
 | `Cycle`                              | `Wechseln`                                     | `durchwechseln`                                                                   | `durchschalten`             |
-| `Lag PIP`                            | `Lag PIP (Fadenkreuz-basierter Vorhaltepunkt)` |                                                                                   |                             |
-| `Lead PIP`                           | `Lead PIP (Ziel-basierter Vorhaltepunkt)`      |                                                                                   |                             |
 
 ### Angriff, Beschuss, Kampf
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
@@ -53,6 +49,10 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Hostiles inbound`                   | `Feindliche Einheiten im Anflug`               |                                                                                   |                             |
 | `Aggressor Squadrons`                | `Aggressorenschwadrone`                        |                                                                                   |                             |
 | `Air Capability`                     | `Luftüberlegenheit`                            |                                                                                   |                             |
+| `Decoy`                              | `Hitzetäuschkörper`                            |                                                                                   |                             |
+| `Noise`                              | `Radartäuschkörper`                            | `Scannertäuschkörper`                                                             |                             |
+| `Lag PIP`                            | `Lag PIP (Fadenkreuz-basierter Vorhaltepunkt)` |                                                                                   |                             |
+| `Lead PIP`                           | `Lead PIP (Ziel-basierter Vorhaltepunkt)`      |                                                                                   |                             |
 
 ### Schiff -und Komponenten
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
@@ -108,10 +108,6 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Warning Collision Starboard`        | `Achtung Kollision rechts`                     | `Achtung Kollision steuerbord`                                                    |                             |
 | `Warning Collision Stern`            | `Achtung Kollision hinten`                     | `Achtung Kollision achtern`                                                       |                             |
 | `Warning Collision Zenith`           | `Achtung Kollision oben`                       |                                                                                   |                             |
-| `Catastrophic Charge Rate`           | `Laderate des kritschen Energiebereichs`       |                                                                                   |                             |
-| `Optimal Charge Window Rate`         | `Laderate des optimalen Energiebereichs`       |                                                                                   |                             |
-| `Catastrophic Charge Windows Size`   | `Größe des kritischen Energiebereichs`         |                                                                                   |                             |
-| `Optimal Charge Windows Size`        | `Größe des optimalen Energiebereichs`          |                                                                                   |                             |
 
 ### Schilde
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
@@ -124,6 +120,14 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Starboard shield`                   | `rechte Schilde`                               | `Steuerbordschilde`                                                               |                             |
 | `Shields Recharging`                 | `Schilde regenerieren`                         |                                                                                   |                             |
 | `Shields up`                         | `Schilde sind oben`                            |                                                                                   |                             |
+
+### Berufe, Tätigkeit
+| Englisch                             | Deutsch Variante 1                             | Anmerkung                                                                         |                             |
+|:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
+| `Catastrophic Charge Rate`           | `Laderate des kritschen Energiebereichs`       | Tätigkeit: Mining                                                                 |                             |
+| `Optimal Charge Window Rate`         | `Laderate des optimalen Energiebereichs`       | Tätigkeit: Mining                                                                 |                             |
+| `Catastrophic Charge Windows Size`   | `Größe des kritischen Energiebereichs`         | Tätigkeit: Mining                                                                 |                             |
+| `Optimal Charge Windows Size`        | `Größe des optimalen Energiebereichs`          | Tätigkeit: Mining                                                                 |                             |
 
 ### Sonstiges
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
