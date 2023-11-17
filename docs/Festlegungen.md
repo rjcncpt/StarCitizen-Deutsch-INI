@@ -35,7 +35,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Hold your fire`                     | `Feuer einstellen`                             |                                                                                   |                             |
 | `Check fire`                         | `Feuer einstellen`                             |                                                                                   |                             |
 | `Watch your fire`                    | `Pass auf, wohin du schießt`                   |                                                                                   |                             |
-| `Watch your damn fire`               | `Pass auf, verdammt, wohin du schießt`         |                                                                                   |                             |
+| `Watch your damn fire`               | `Pass auf verdammt, wohin du schießt`          |                                                                                   |                             |
 | `Cease fire. That's a friendly`      | `Feuer einstellen! Das ist ein Verbündeter`    |                                                                                   |                             |
 | `Fire away`                          | `Feuer frei`                                   | `Feuererlaubnis`                                                                  |                             |
 | `Fire in the hole`                   | `Achtung, Granate`                             | `Granate!`                                                                        |                             |
