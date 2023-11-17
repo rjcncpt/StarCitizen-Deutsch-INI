@@ -106,6 +106,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `imaging services`                   | ??? Wird als `Bildgebungsdienste` übersetzt    |                                                                                   |                             |
 | `Spaceframe`                         | ??? Wird als `Raumrahmen` übersetzt            |                                                                                   |                             |
 | `Catastrophic Charge Window Rate`    | `Laderate des kritschen Energiebereichs`       |                                                                                   |                             |
-| `Optimal Charge  Window Rate`        | `Laderate des optimalen Energiebereichs`       |                                                                                   |                             |
+| `Optimal Charge Window Rate`        | `Laderate des optimalen Energiebereichs`       |                                                                                   |                             |
 | `Catastrophic Charge Windows Size`   | `Größe des kritischen Energiebereichs`         |                                                                                   |                             |
-| `Optimal Charge Windows Size `       | `Größe des optimalen Energiebereichs`          |                                                                                   |                             |
+| `Optimal Charge Windows Size`        | `Größe des optimalen Energiebereichs`          |                                                                                   |                             |
+| `All Charge Rates`                   | `Alle Ladegeschwindigkeiten`                   |                                                                                   |                             |
