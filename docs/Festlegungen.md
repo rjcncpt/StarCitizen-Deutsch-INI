@@ -144,16 +144,17 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Optimal Charge Windows Size`        | `Größe des optimalen Energiebereichs`          | Tätigkeit: Mining                                                                 |                             |
 
 ### Sonstiges
-| Englisch                            | Deutsch Variante 1                                                         | Deutsch Variante 2 | Deutsch Variante 3 |
-|:------------------------------------|:---------------------------------------------------------------------------|:-------------------|:-------------------|
-| `Invalid Shop`                      | `Unzulässiger Shop`                                                        |                    |                    |
-| `Light Goods`                       | `Leichte Fracht`                                                           |                    |                    |
-| `Mainframe`                         | `Zentralrechner`                                                           |                    |                    |
-| `Wreckdiving`                       | `Wrackerkundung`                                                           |                    |                    |
-| `All Charge Rates`                  | `Alle Ladegeschwindigkeiten`                                               |                    |                    |
-| `dismiss`                           | `verwerfen`                                                                | `entlassen`        |                    |
-| `Deny`                              | `Ablehnen`                                                                 |                    |                    |
-| `Indentity Friend or Foe Inverter`  | `Freund-Feind-Erkennungsinverter (Identity Friend or Foe Inverter, IFFI)`  |                    |                    |
+| Englisch                            | Deutsch Variante 1                                                        | Deutsch Variante 2 | Anmerkung                                                            |
+|:------------------------------------|:--------------------------------------------------------------------------|:-------------------|:---------------------------------------------------------------------|
+| `Invalid Shop`                      | `Unzulässiger Shop`                                                       |                    |                                                                      |
+| `Light Goods`                       | `Leichte Fracht`                                                          |                    |                                                                      |
+| `Mainframe`                         | `Zentralrechner`                                                          |                    |                                                                      |
+| `Wreckdiving`                       | `Wrackerkundung`                                                          |                    |                                                                      |
+| `All Charge Rates`                  | `Alle Ladegeschwindigkeiten`                                              |                    |                                                                      |
+| `dismiss`                           | `verwerfen`                                                               | `entlassen`        |                                                                      |
+| `Deny`                              | `Ablehnen`                                                                |                    |                                                                      |
+| `Indentity Friend or Foe Inverter`  | `Freund-Feind-Erkennungsinverter (Identity Friend or Foe Inverter, IFFI)` |                    |                                                                      |
+| `Condition:`                        | `Fehler`                                                                  |                    | Steht im DEFCON Bereich, jedoch im Multi-Tool ohne Aufsatz verwendet |
 
 ### Offene Fragen
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
