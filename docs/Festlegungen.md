@@ -31,6 +31,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 |:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
 | `First Blood`                        | `Erster Kill`                                  |                                                                                   |                             |
 | `Friendly down`                      | `Verbündeter am Boden`                         |                                                                                   |                             |
+| `We lost a friendly`                 | `Verbündeten verloren`                         |                                                                                   |                             |
 | `Friendly Fire`                      | `Friendly Fire`                                |                                                                                   |                             |
 | `Check your fire. Friendly.`         | `Feuer einstellen. Verbündeter!`               |                                                                                   |                             |
 | `Hold your fire`                     | `Feuer einstellen`                             |                                                                                   |                             |
