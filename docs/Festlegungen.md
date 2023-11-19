@@ -12,6 +12,23 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 
 # Übersetzung von Eigennamen und feststehenden Begriffen
 
+### Nicht übersetzen
+| Bezeichnung                          | Notizen                     |
+|:-------------------------------------|:----------------------------|
+| `Power Plant`                        |                             |
+| `Advocacy`                           |                             |
+| `Gadget/s`                           |                             |
+| `item_Name`                          |                             |
+| `item_SubType`                       | Nur teilwese Übersetzung    |
+| `item_corp`                          |                             |
+| `item_Ship`                          |                             |
+| `vehicle_Name`                       |                             |
+| `vehicle_class`                      | Vorerst                     |
+| `Beacon`                             |                             |
+| `Friendly Fire`                      |                             |
+| `Repeater`                           |                             |
+| `Cryptokey`                          |                             |
+
 ### Grundsätzliches
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
 |:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
@@ -21,7 +38,6 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Inner Thought`                      | `innerer Dialog`                               |                                                                                   |                             |
 | `Imprint`                            | `DNA-Profil`                                   |                                                                                   |                             |
 | `Imprint storage`                    | `DNA-Profilarchiv`                             | `DNA-Profil-Verwaltung`                                                           |                             |
-| `Beacon`                             | `Beacon`                                       | `Signalbarke`                                                                     |                             |
 | `Credit`                             | `Geld`                                         | `Scheine`                                                                         | `Moneten`                   |
 | `Credits`                            | `Geld`                                         | `Scheine`                                                                         | `Moneten`                   |
 | `Cycle`                              | `Wechseln`                                     | `durchwechseln`                                                                   | `durchschalten`             |
@@ -31,7 +47,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 |:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
 | `First Blood`                        | `Erster Kill`                                  |                                                                                   |                             |
 | `Friendly down`                      | `Verbündeter am Boden`                         |                                                                                   |                             |
-| `Friendly Fire`                      | `Friendly Fire`                                |                                                                                   |                             |
+| `We lost a friendly`                 | `Verbündeten verloren`                         |                                                                                   |                             |
 | `Check your fire. Friendly.`         | `Feuer einstellen. Verbündeter!`               |                                                                                   |                             |
 | `Hold your fire`                     | `Feuer einstellen`                             |                                                                                   |                             |
 | `Check fire`                         | `Feuer einstellen`                             |                                                                                   |                             |
@@ -57,12 +73,11 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 ### Schiff -und Komponenten
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
 |:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
-| `Advocacy`                           | `Advocacy`                                     |                                                                                   |                             |
 | `Quantum Drive`                      | `Quantumantrieb`                               |                                                                                   |                             |
 | `Quantum Snare`                      | `Quantumfalle`                                 |                                                                                   |                             |
 | `Quantum Travel`                     | `Quantumreise`                                 | `Quantumjump` (je nach Kontext)                                                   |                             |
 | `Avionics`                           | `Avionik`                                      | `Avioniksystem`                                                                   |                             |
-| `Thruster`                           | `Thruster`                                     | `Schubdüse`                                                                       |                             |
+| `Thruster`                           | `Triebwerk`                                    | `Schubdüse`                                                                       |                             |
 | `Engines`                            | `Triebwerke`                                   |                                                                                   |                             |
 | `Propulsion`                         | `Antrieb`                                      |                                                                                   |                             |
 | `Fuel Pod Summary`                   | `Treibstoffbehälter`                           |                                                                                   |                             |
@@ -85,7 +100,6 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Barrel`                             | `Lauf` (je nach Kontext)                       | `Fass` (je nach Kontext)                                                          | `Trommel` (je nach Kontext) |
 | `Consumable`                         | `Verbrauchsgut`                                |                                                                                   |                             |
 | `Item`                               | `Gegenstand`                                   |                                                                                   |                             |
-| `Cryptokey`                          | `Cryptokey`                                    |                                                                                   |                             |
 
 ### Warnung, Alarm, Kollision
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
@@ -130,15 +144,17 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Optimal Charge Windows Size`        | `Größe des optimalen Energiebereichs`          | Tätigkeit: Mining                                                                 |                             |
 
 ### Sonstiges
-| Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
-|:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
-| `Invalid Shop`                       | `Unzulässiger Shop`                            |                                                                                   |                             |
-| `Light Goods`                        | `Leichte Fracht`                               |                                                                                   |                             |
-| `Mainframe`                          | `Zentralrechner`                               |                                                                                   |                             |
-| `Wreckdiving`                        | `Wrackerkundung`                               |                                                                                   |                             |
-| `All Charge Rates`                   | `Alle Ladegeschwindigkeiten`                   |                                                                                   |                             |
-| `dismiss`                            | `verwerfen`                                    | `entlassen`                                                                       |                             |
-| `Deny`                               | `Ablehnen`                                     |                                                                                   |                             |
+| Englisch                            | Deutsch Variante 1                                                        | Deutsch Variante 2 | Anmerkung                                                            |
+|:------------------------------------|:--------------------------------------------------------------------------|:-------------------|:---------------------------------------------------------------------|
+| `Invalid Shop`                      | `Unzulässiger Shop`                                                       |                    |                                                                      |
+| `Light Goods`                       | `Leichte Fracht`                                                          |                    |                                                                      |
+| `Mainframe`                         | `Zentralrechner`                                                          |                    |                                                                      |
+| `Wreckdiving`                       | `Wrackerkundung`                                                          |                    |                                                                      |
+| `All Charge Rates`                  | `Alle Ladegeschwindigkeiten`                                              |                    |                                                                      |
+| `dismiss`                           | `verwerfen`                                                               | `entlassen`        |                                                                      |
+| `Deny`                              | `Ablehnen`                                                                |                    |                                                                      |
+| `Indentity Friend or Foe Inverter`  | `Freund-Feind-Erkennungsinverter (Identity Friend or Foe Inverter, IFFI)` |                    |                                                                      |
+| `Condition:`                        | `Fehler`                                                                  |                    | Steht im DEFCON Bereich, jedoch im Multi-Tool ohne Aufsatz verwendet |
 
 ### Offene Fragen
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |

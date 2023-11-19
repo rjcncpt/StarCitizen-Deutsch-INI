@@ -16,7 +16,8 @@
 
 # Missing variables
 
-| global.ini                                        | Description                                                                                                                        |
-| ------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
-| `???_mining_gathering_???`                        | This variable is missing and is shown in the multitool display when collecting hand-mined minerals. We do not know the exact name. |
-| `DXSM_SSCV_DRAK_OEM_UI_Shields_Left_75_Percent,P` | This variable is missing. 75% is available for all other sides.                                                                    |
+| global.ini                                        | Description                                                                                                                                        |
+| ------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `???d_mining_gather???`                           | This variable is missing and is shown in the multitool display when collecting hand-mined minerals. Currently in ini: `ui_weapons_multi_gathering` |
+| `itemPort_Canister_ATTACH`                        | This variable is missing and is shown in the multitool customization. Currently in ini `itemPort_CanisterSlot`                                     |
+| `DXSM_SSCV_DRAK_OEM_UI_Shields_Left_75_Percent,P` | This variable is missing. 75% is available for all other sides.                                                                                    |
