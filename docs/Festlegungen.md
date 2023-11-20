@@ -41,6 +41,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Credit`                             | `Geld`                                         | `Scheine`                                                                         | `Moneten`                   |
 | `Credits`                            | `Geld`                                         | `Scheine`                                                                         | `Moneten`                   |
 | `Cycle`                              | `Wechseln`                                     | `durchwechseln`                                                                   | `durchschalten`             |
+| `Vets`                               | `Veteran`                                      |                                                                                   |                             |
 
 ### Angriff, Beschuss, Kampf
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
