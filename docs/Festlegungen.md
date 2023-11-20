@@ -13,21 +13,23 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 # Übersetzung von Eigennamen und feststehenden Begriffen
 
 ### Nicht übersetzen
-| Bezeichnung                          | Notizen                     |
-|:-------------------------------------|:----------------------------|
-| `Power Plant`                        |                             |
-| `Advocacy`                           |                             |
-| `Gadget/s`                           |                             |
-| `item_Name`                          |                             |
-| `item_SubType`                       | Nur teilwese Übersetzung    |
-| `item_corp`                          |                             |
-| `item_Ship`                          |                             |
-| `vehicle_Name`                       |                             |
-| `vehicle_class`                      | Vorerst                     |
-| `Beacon`                             |                             |
-| `Friendly Fire`                      |                             |
-| `Repeater`                           |                             |
-| `Cryptokey`                          |                             |
+| Bezeichnung                          | Notizen                                                           |
+|:-------------------------------------|:------------------------------------------------------------------|
+| `Power Plant`                        |                                                                   |
+| `Advocacy`                           |                                                                   |
+| `Gadget/s`                           |                                                                   |
+| `item_Name`                          |                                                                   |
+| `item_SubType`                       | Nur teilwese Übersetzung                                          |
+| `item_corp`                          |                                                                   |
+| `item_Ship`                          |                                                                   |
+| `vehicle_Name`                       |                                                                   |
+| `vehicle_class`                      | Vorerst                                                           |
+| `mission_item_`                      | Wird u.a. in Missionstexte verwendet                              |
+| `Titel für Standorte`                | z.B. `Stanton2b_` `Bacchus` `Pyro3_`. Meist über _desc angeordnet |
+| `Beacon`                             |                                                                   |
+| `Friendly Fire`                      |                                                                   |
+| `Repeater`                           |                                                                   |
+| `Cryptokey`                          |                                                                   |
 
 ### Grundsätzliches
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
