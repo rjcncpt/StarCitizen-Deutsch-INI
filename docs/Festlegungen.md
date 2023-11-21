@@ -25,6 +25,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `vehicle_Name`                       |                                                                   |
 | `vehicle_class`                      | Vorerst                                                           |
 | `mission_item_`                      | Wird u.a. in Missionstexte verwendet                              |
+| `mission_client`                     |                                                                   |
 | `Titel für Standorte`                | z.B. `Stanton2b_` `Bacchus` `Pyro3_`. Meist über _desc angeordnet |
 | `Beacon`                             |                                                                   |
 | `Friendly Fire`                      |                                                                   |
