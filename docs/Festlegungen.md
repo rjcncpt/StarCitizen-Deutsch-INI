@@ -160,6 +160,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Deny`                              | `Ablehnen`                                                                |                    |                                                                      |
 | `Indentity Friend or Foe Inverter`  | `Freund-Feind-Erkennungsinverter (Identity Friend or Foe Inverter, IFFI)` |                    |                                                                      |
 | `Condition:`                        | `Fehler`                                                                  |                    | Steht im DEFCON Bereich, jedoch im Multi-Tool ohne Aufsatz verwendet |
+| `DROP OFF LOCATIONS`                | `ABGABESTELLEN`                                                           |                    |                                                                      |
 
 ### Offene Fragen
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
