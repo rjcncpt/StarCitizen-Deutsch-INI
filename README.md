@@ -128,7 +128,7 @@ Kontrolliere ob es die richtige Dateiendung ist:
 1. Öffne den Windows Dateiexplorer
 2. Klicke auf Ansicht am oberen Fensterrand
 3. Aktiviere im Bereich Ein-/ausblenden: `Dateinamenerweiterungen`
-4. Sollten die beiden Dateien nun `global.ini.ini` oder ähnlich heißen musst du sie zurück in `global.ini` und `user.cfg` umbennenen.
+4. Sollten die beiden Dateien nun `global.ini.ini` oder `user.txt.cfg` oder ähnlich heißen, musst du sie zurück in `global.ini` und `user.cfg` umbennenen.
 <br/><br/>
 
 Das sollte das Problem beheben.
