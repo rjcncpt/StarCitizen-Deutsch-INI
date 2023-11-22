@@ -18,7 +18,6 @@
 - [Das Team](#das-team)
 - [Download als ZIP](#download)
 - [Direktdownload der global.ini](#direktdownload-der-globalini)
-- [AUDIO FIX](#audio-fix)
 - [Troubleshooting](#troubleshooting)
   <br/><br/>
 
@@ -89,24 +88,14 @@ Du kannst die [global.ini auch direkt aus dem Verzeichnis laden](https://github.
 `\ Roberts Space Industries \ StarCitizen \ PTU \`
 <br/><br/><br/><br/>
 
-### AUDIO FIX
-
-Es gibt einen Fix für das Audio Problem. Du musst deiner `user.cfg` Datei diese folgende Zeile hinzufügen:<br/>
-`g_languageAudio = english`<br/><br/>
-Alternativ lade dir unsere `user.cfg` Datei herunter, in der wir das bereits für dich übernommen haben.
-
-<br/><br/>
-
 ### Troubleshooting
 
 <details>
 <summary>[Klick] Fehler: Es werden kryptische Variablen mit @-Zeichen am Anfang angezeigt</summary>
 <br/>
 
-Die `global.ini` liegt im Format `UTF-8-BOM` vor. Das ist eigentlich unnötig, und `UTF-8` würde ausreichen. Aus unerklärlichen Gründen führt dies bei einigen zu Problemen, bei denen statt der Übersetzung kryptische Variablen, die mit einem @-Zeichen beginnen, angezeigt werden. Wenn du alles richtig gemacht hast und die Datei sich im korrekten Ordner befindet, musst du wahrscheinlich die Codierung der Datei von `UTF-8` auf `UTF-8-BOM` ändern.
+Unsere `global.ini` Datei liegt im Format `UTF-8-BOM` vor. Wenn bei dir Variablen angezeigt werden, die mit einem @-Zeichen beginnen, aber die Ordnerstuktur richtig ist, scheint deine Datei-Codierung falsch zu sein. Hier musst du die Codierung der Datei manuell anpassen:
 <br/><br/>
-
-**Lösung:**
 
 1. Öffne die `global.ini` in einem Texteditor wie Notepad++ (kostenlos)
 2. Klicke anschließend in der Symbolleiste auf "Codierung"
@@ -116,6 +105,8 @@ Die `global.ini` liegt im Format `UTF-8-BOM` vor. Das ist eigentlich unnötig, u
 
 Das sollte das Problem beheben.
 </details>
+
+
 <details>
 <summary>[Klick] Fehler: Ich habe alles richtig gemacht, aber es werden immer noch englische Texte angezeigt</summary>
 <br/>
@@ -129,6 +120,19 @@ Kontrolliere ob es die richtige Dateiendung ist:
 2. Klicke auf Ansicht am oberen Fensterrand
 3. Aktiviere im Bereich Ein-/ausblenden: `Dateinamenerweiterungen`
 4. Sollten die beiden Dateien nun `global.ini.ini` oder `user.txt.cfg` oder ähnlich heißen, musst du sie zurück in `global.ini` und `user.cfg` umbennenen.
+<br/><br/>
+
+Das sollte das Problem beheben.
+</details>
+
+
+<details>
+<summary>[Klick] Fehler: Keine englische Sprachausgabe im Spiel</summary>
+<br/>
+
+Es gibt einen Fix für das Audio Problem. Du musst deiner `user.cfg` Datei diese folgende Zeile hinzufügen:<br/>
+`g_languageAudio = english`<br/><br/>
+Alternativ lade dir unsere `user.cfg` Datei herunter, in der wir das bereits für dich übernommen haben.
 <br/><br/>
 
 Das sollte das Problem beheben.
