@@ -100,7 +100,7 @@ Alternativ lade dir unsere `user.cfg` Datei herunter, in der wir das bereits fü
 ### Troubleshooting
 
 <details>
-<summary>Fehler: Es werden kryptische Variablen mit @-Zeichen am Anfang angezeigt</summary>
+<summary>[Klick] Fehler: Es werden kryptische Variablen mit @-Zeichen am Anfang angezeigt</summary>
 <br/>
 
 Die `global.ini` liegt im Format `UTF-8-BOM` vor. Das ist eigentlich unnötig, und `UTF-8` würde ausreichen. Aus unerklärlichen Gründen führt dies bei einigen zu Problemen, bei denen statt der Übersetzung kryptische Variablen, die mit einem @-Zeichen beginnen, angezeigt werden. Wenn du alles richtig gemacht hast und die Datei sich im korrekten Ordner befindet, musst du wahrscheinlich die Codierung der Datei von `UTF-8` auf `UTF-8-BOM` ändern.
@@ -117,7 +117,7 @@ Die `global.ini` liegt im Format `UTF-8-BOM` vor. Das ist eigentlich unnötig, u
 Das sollte das Problem beheben.
 </details>
 <details>
-<summary>Fehler: Ich habe alles richtig gemacht, aber es werden immer noch englische Texte angezeigt</summary>
+<summary>[Klick] Fehler: Ich habe alles richtig gemacht, aber es werden immer noch englische Texte angezeigt</summary>
 <br/>
 
 Achte bei den beiden Dateien `global.ini` und `user.cfg` auf die richtigen Dateiendungen.
