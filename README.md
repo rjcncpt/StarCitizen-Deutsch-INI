@@ -69,12 +69,12 @@ Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://githu
 |:--------------------------------------------|:---------------------|:-------------------------------------------|
 | [rjcncpt](https://github.com/rjcncpt)       | `Ansprechparter`     | Übersetzungen & GitHub                     |
 | [MaxM1211](https://github.com/MaxM1211)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing       |
+| [greluc](https://github.com/greluc)         | `Übersetzer`         | Übersetzungen (spez. militärisch) & GitHub |
 | [Norinofu](https://github.com/Norinofu)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing       |
 | [Drakonhawk](https://github.com/Drakonhawk) | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing                    |
-| Boy7                                        | `Dev & Bugfixing`    | Dev & Bugfixing                            |
-| electron0                                   | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing                    |
+| Boy7                                        | `Dev & Bugfixing`    | Übersetzungen, Dev & Bugfixing             |
 | Hikaruhoshi1                                | `Übersetzer`         | Übersetzungen                              |
-| [greluc](https://github.com/greluc)         | `Übersetzer`         | Übersetzungen (spez. militärisch) & GitHub |
+| electron0                                   | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing                    |
 | APROVES                                     | `Übersetzer`         | Übersetzungen                              |
 | Asaya87                                     | `Discord Management` | Übersetzungen & Discord Admin              |
 | Fabi 18                                     | `Discord Management` | Discord Admin                              |
