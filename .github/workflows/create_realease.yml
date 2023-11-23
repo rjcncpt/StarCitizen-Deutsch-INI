@@ -1,0 +1,40 @@
+on:
+  schedule:
+    - cron: "0 3 * * *"
+
+name: Create Release
+
+jobs:
+  build:
+    name: Create Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Create Release Zip
+        run: |
+          sudo timedatectl set-timezone Europe/Berlin
+          mkdir release
+          cp "live/user.cfg" "release"
+          mkdir -p "release/data/Localization/german_(germany)"
+          cp "live/global.ini" "release/data/Localization/german_(germany)/"
+          cd release
+          echo "${{ vars.VERSION_FILE_TEXT }} $(date '+%d.%m.%y - %H:%M Uhr')" >> Versionstext.txt
+          mv Versionstext.txt Version-$(date "+%d.%m.%y-%H.%M").txt
+          zip -r "../${{ vars.ZIP_NAME_LIVE }}" *
+
+      - name:
+        id: date
+        run: echo "date=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
+
+      - name: Create Release New
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ steps.date.outputs.date }}
+          commit: main
+          name: ${{ vars.RELEASE_TITLE_LIVE }}
+          body: ${{ vars.RELEASE_BODY_LIVE }}
+          artifacts: ${{ vars.ZIP_NAME_LIVE }}

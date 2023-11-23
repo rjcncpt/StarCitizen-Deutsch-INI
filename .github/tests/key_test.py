@@ -1,6 +1,8 @@
 from configparser import ConfigParser
 import json
 
+filename_eng="en/global.ini"
+filename_ger="live/global.ini"
 
 def addLine(filename, line):
     with open(filename, encoding="utf_8_sig", mode="r+") as file:
@@ -20,8 +22,8 @@ def removeFirstLine(filename):
 line = "[DEFAULT]"
 file_data = ""
 
-addLine(filename="global.ini", line=line)
-addLine(filename="en/global.ini", line=line)
+addLine(filename=filename_eng, line=line)
+addLine(filename=filename_ger, line=line)
 
 config_eng = ConfigParser(
     allow_no_value=True, comment_prefixes=None, delimiters=("="), interpolation=None
@@ -29,10 +31,10 @@ config_eng = ConfigParser(
 config_ger = ConfigParser(
     allow_no_value=True, comment_prefixes=None, delimiters=("="), interpolation=None
 )
-config_eng.read("en/global.ini", "utf_8_sig")
+config_eng.read(filename_eng, "utf_8_sig")
 config_eng_section = config_eng["DEFAULT"]
 
-config_ger.read("global.ini", "utf_8_sig")
+config_ger.read(filename_ger, "utf_8_sig")
 config_ger_section = config_ger["DEFAULT"]
 
 not_found_keys = {}
@@ -44,8 +46,8 @@ for key in config_eng_section.keys():
         not_found_keys[line] = key
     line += 1
 
-removeFirstLine("global.ini")
-removeFirstLine("en/global.ini")
+removeFirstLine(filename_eng)
+removeFirstLine(filename_ger)
 
 if len(not_found_keys):
     print(json.dumps(not_found_keys, indent=4))
