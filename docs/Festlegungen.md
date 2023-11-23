@@ -32,6 +32,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Friendly Fire`                      |                                                                   |
 | `Repeater`                           |                                                                   |
 | `Cryptokey`                          |                                                                   |
+| `Strafe`                             | Übersetzt wäre es "Gleiten" aber das Wort ist nicht                                                                   |
 
 ### Grundsätzliches
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
@@ -88,8 +89,9 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Fuel Pod Summary`                   | `Treibstoffbehälter`                           |                                                                                   |                             |
 | `Missile Attach Point`               | `Raketenaufsatzpunkt`                          |                                                                                   |                             |
 | `Missile Rack`                       | `Raketengestell`                               |                                                                                   |                             |
-| `Remote Turret`                      | `Ferngesteuerter Geschützturm`                 | `Ferngesteuerter Turm` (wenn nicht bewaffnet, z.B. für Scanning oder Traktorbeam) |                             |
-| `Power Triangle Assignment`          | `Leistungsdreieck-Zuweisung`                   |                                                                                   |                             |
+| `Turret`                             | `Geschützturm`                                 | `Geschütz` (je nach Kontext)                                                      |                             |
+| `Remote Turret`                      | `Ferngesteuerter Geschützturm`                 | `Ferngesteuerter Turm` (wenn nicht bewaffnet, z.B. für Scanning oder Traktorbeam) | Ferngesteuertes Geschütz    |
+| `Power Triangle Assignment`          | `Energie-Dreieck-Zuordnung`                    |                                                                                   |                             |
 | `Sub-Item Slot`                      | `Zusatzkomponenten-Slot`                       |                                                                                   |                             |
 
 ### FPS -und Komponenten
@@ -131,12 +133,12 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 ### Schilde
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
 |:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
-| `Port shield`                        | `linke Schilde`                                | `Backbordschilde`                                                                 |                             |
-| `Rear Shield`                        | `hintere Schilde`                              | `Achterschilde`                                                                   |                             |
-| `Deck Shield`                        | `untere Schilde`                               |                                                                                   |                             |
-| `Head Shield`                        | `vordere Schilde`                              |                                                                                   |                             |
-| `Overhead shield`                    | `obere Schilde`                                |                                                                                   |                             |
-| `Starboard shield`                   | `rechte Schilde`                               | `Steuerbordschilde`                                                               |                             |
+| `Port shield`                        | `linker Schild`                                | `Backbordschilde`                                                                 |                             |
+| `Rear Shield`                        | `hinterer Schild`                              | `Achterschilde`                                                                   |                             |
+| `Deck Shield`                        | `unterer Schild`                               |                                                                                   |                             |
+| `Head Shield`                        | `vorderer Schild`                              |                                                                                   |                             |
+| `Overhead shield`                    | `oberer Schild`                                |                                                                                   |                             |
+| `Starboard shield`                   | `rechter Schild`                               | `Steuerbordschilde`                                                               |                             |
 | `Shields Recharging`                 | `Schilde regenerieren`                         |                                                                                   |                             |
 | `Shields up`                         | `Schilde sind oben`                            |                                                                                   |                             |
 
@@ -161,6 +163,9 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Indentity Friend or Foe Inverter`  | `Freund-Feind-Erkennungsinverter (Identity Friend or Foe Inverter, IFFI)` |                    |                                                                      |
 | `Condition:`                        | `Fehler`                                                                  |                    | Steht im DEFCON Bereich, jedoch im Multi-Tool ohne Aufsatz verwendet |
 | `DROP OFF LOCATIONS`                | `ABGABESTELLEN`                                                           |                    |                                                                      |
+| `Main Sequence star`                | `Zentralstern`                                                            |                    |                                                                      |
+| `Acceleration Limiter`              | `Beschl.begrenzer`                                                        |                    | Abkürzen weil sonst zu lang                                          |
+| `Velocity Limiter`                  | `Geschw.begrenzer`                                                        |                    | Abkürzen weil sonst zu lang                                          |
 
 ### Offene Fragen
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
