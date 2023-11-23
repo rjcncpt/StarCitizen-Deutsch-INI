@@ -21,3 +21,4 @@
 | `???d_mining_gather???`                           | This variable is missing and is shown in the multitool display when collecting hand-mined minerals. Currently in ini: `ui_weapons_multi_gathering` |
 | `itemPort_Canister_ATTACH`                        | This variable is missing and is shown in the multitool customization. Currently in ini `itemPort_CanisterSlot`                                     |
 | `DXSM_SSCV_DRAK_OEM_UI_Shields_Left_75_Percent,P` | This variable is missing. 75% is available for all other sides.                                                                                    |
+| `pause_Options_salvage_aim_nudge_sensivity`       | This variable is missing. Options menu -> Game Settings                                                                                            |
