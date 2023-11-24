@@ -32,7 +32,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Friendly Fire`                      |                                                                   |
 | `Repeater`                           |                                                                   |
 | `Cryptokey`                          |                                                                   |
-| `Strafe`                             | Übersetzt wäre es "Gleiten" aber das Wort ist nicht                                                                   |
+| `Strafe`                             | Ich glaube es ist umgangssprachlicher als Gleiten                 |
 
 ### Grundsätzliches
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
