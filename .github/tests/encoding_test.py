@@ -2,7 +2,7 @@ import os
 import chardet
 
 filename_eng="en/global.ini"
-filename_ger="global.ini"
+filename_ger="live/global.ini"
 
 def getType(file):
     bytes = min(32, os.path.getsize(file))
