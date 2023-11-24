@@ -101,7 +101,7 @@ Folgende Software muss lokal auf deinem Rechner vorhanden/installiert sein.
     4. Den Befehl `unp4k.exe "**C:\path\to\**Data.p4k" global.ini` eingeben. Hierbei muss **_c:\path\to\_** durch den Dateipfad zur Data.p4k im Star Citizen Verzeichnis ersetzt werden (Standardmäßig **_C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\_** ). Die "" müssen erhalten bleiben.
     5. unp4k erstellt jetzt die Ordnerstruktur \Data\Localization\english\ im aktuellen Verzeichnis. Hier ist die `global.ini` zu finden.
 
-==== Korrektur der `global.ini`--------
+==== Korrektur der `global.ini`
     1. Die global.ini in Notepad++ oder einem vergleichbaren Texteditor öffnen
     2. Die Codierung auf `ANSI` einstellen. _Notepad++: Menüleiste -> Codierung -> ANSI_
     3. Die Suche öffnen und den Suchmodus auf _Reguläre Ausdrücke_ einstellen
