@@ -5,6 +5,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 
 ### Allgemein
 
+* Bildungsauftrag erfüllen: Deutsche Übersetzung zur Beschreibung für METALLE/ERZE hinzufügen. Tin (Zinn), Tungsten (Wolfram), Titanium (Titan) etc.
 * Item, Schiffsklassen/-typen und HUD-Elemente werden grundsätzlich nicht übersetzt. Dies ist darin begründet, dass oftmals in CIG's GUI zu wenig Platz für die deutsche Übersetzung ist.
 * Schiffe nutzen die weibliche Form (z.B. die Polaris)
 * Hovercraft nutzen die weibliche Form (z.B. die Nox)
@@ -151,21 +152,21 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Optimal Charge Windows Size`        | `Größe des optimalen Energiebereichs`          | Tätigkeit: Mining                                                                 |                             |
 
 ### Sonstiges
-| Englisch                            | Deutsch Variante 1                                                        | Deutsch Variante 2 | Anmerkung                                                            |
-|:------------------------------------|:--------------------------------------------------------------------------|:-------------------|:---------------------------------------------------------------------|
-| `Invalid Shop`                      | `Unzulässiger Shop`                                                       |                    |                                                                      |
-| `Light Goods`                       | `Leichte Fracht`                                                          |                    |                                                                      |
-| `Mainframe`                         | `Zentralrechner`                                                          |                    |                                                                      |
-| `Wreckdiving`                       | `Wrackerkundung`                                                          |                    |                                                                      |
-| `All Charge Rates`                  | `Alle Ladegeschwindigkeiten`                                              |                    |                                                                      |
-| `dismiss`                           | `verwerfen`                                                               | `entlassen`        |                                                                      |
-| `Deny`                              | `Ablehnen`                                                                |                    |                                                                      |
-| `Indentity Friend or Foe Inverter`  | `Freund-Feind-Erkennungsinverter (Identity Friend or Foe Inverter, IFFI)` |                    |                                                                      |
-| `Condition:`                        | `Fehler`                                                                  |                    | Steht im DEFCON Bereich, jedoch im Multi-Tool ohne Aufsatz verwendet |
-| `DROP OFF LOCATIONS`                | `ABGABESTELLEN`                                                           |                    |                                                                      |
-| `Main Sequence star`                | `Zentralstern`                                                            |                    |                                                                      |
-| `Acceleration Limiter`              | `Beschl.begrenzer`                                                        |                    | Abkürzen weil sonst zu lang                                          |
-| `Velocity Limiter`                  | `Geschw.begrenzer`                                                        |                    | Abkürzen weil sonst zu lang                                          |
+| Englisch                             | Deutsch Variante 1                                                        | Deutsch Variante 2 | Anmerkung                                                            |
+|:-------------------------------------|:--------------------------------------------------------------------------|:-------------------|:---------------------------------------------------------------------|
+| `Invalid Shop`                       | `Unzulässiger Shop`                                                       |                    |                                                                      |
+| `Light Goods`                        | `Leichte Fracht`                                                          |                    |                                                                      |
+| `Mainframe`                          | `Zentralrechner`                                                          |                    |                                                                      |
+| `Wreckdiving`                        | `Wrackerkundung`                                                          |                    |                                                                      |
+| `All Charge Rates`                   | `Alle Ladegeschwindigkeiten`                                              |                    |                                                                      |
+| `dismiss`                            | `verwerfen`                                                               | `entlassen`        |                                                                      |
+| `Deny`                               | `Ablehnen`                                                                |                    |                                                                      |
+| `Indentity Friend or Foe Inverter`   | `Freund-Feind-Erkennungsinverter (Identity Friend or Foe Inverter, IFFI)` |                    |                                                                      |
+| `Condition:`                         | `Fehler`                                                                  |                    | Steht im DEFCON Bereich, jedoch im Multi-Tool ohne Aufsatz verwendet |
+| `DROP OFF LOCATIONS`                 | `ABGABESTELLEN`                                                           |                    |                                                                      |
+| `Main Sequence star`                 | `Zentralstern`                                                            |                    |                                                                      |
+| `Acceleration Limiter`               | `Beschl.begrenzer`                                                        |                    | Abkürzen weil sonst zu lang                                          |
+| `Velocity Limiter`                   | `Geschw.begrenzer`                                                        |                    | Abkürzen weil sonst zu lang                                          |
 
 ### Offene Fragen
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
