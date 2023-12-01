@@ -48,6 +48,10 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Credits`                            | `Geld`                                         | `Scheine`                                                                         | `Moneten`                   |
 | `Cycle`                              | `Wechseln`                                     | `durchwechseln`                                                                   | `durchschalten`             |
 | `Vets`                               | `Veteran`                                      |                                                                                   |                             |
+| `Roger`                              | `Verstanden`                                   |                                                                                   |                             |
+| `Roger that`                         | `Verstanden`                                   |                                                                                   |                             |
+| `Copy`                               | `Verstanden` (je nach Kontext)                 |                                                                                   |                             |
+| `Copy that`                          | `Verstanden`                                   |                                                                                   |                             |
 
 ### Angriff, Beschuss, Kampf
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
