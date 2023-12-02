@@ -6,7 +6,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 ### Allgemein
 
 * Bildungsauftrag erfüllen: Deutsche Übersetzung zur Beschreibung für METALLE/ERZE hinzufügen. Tin (Zinn), Tungsten (Wolfram), Titanium (Titan) etc.
-* Item, Schiffsklassen/-typen und HUD-Elemente werden grundsätzlich nicht übersetzt. Dies ist darin begründet, dass oftmals in CIG's GUI zu wenig Platz für die deutsche Übersetzung ist.
+* Itemnamen, Schiffsklassen/-typen, Missionstitel und HUD-Elemente werden grundsätzlich nicht übersetzt. Dies ist darin begründet, dass oftmals in CIG's GUI zu wenig Platz für die deutsche Übersetzung ist oder eine Kompatibilität zu z.B. Drittanbieterwebsiten beibehalten werden soll. Beschreibungen der genannten Elemente werden hingegen ins Deutsche übersetzt.
 * Schiffe nutzen die weibliche Form (z.B. die Polaris)
 * Hovercraft nutzen die weibliche Form (z.B. die Nox)
 * Bodenfahrzeuge nutzen die männliche Form (z.B. der Cyclone)
@@ -48,6 +48,10 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Credits`                            | `Geld`                                         | `Scheine`                                                                         | `Moneten`                   |
 | `Cycle`                              | `Wechseln`                                     | `durchwechseln`                                                                   | `durchschalten`             |
 | `Vets`                               | `Veteran`                                      |                                                                                   |                             |
+| `Roger`                              | `Verstanden`                                   |                                                                                   |                             |
+| `Roger that`                         | `Verstanden`                                   |                                                                                   |                             |
+| `Copy`                               | `Verstanden` (je nach Kontext)                 |                                                                                   |                             |
+| `Copy that`                          | `Verstanden`                                   |                                                                                   |                             |
 
 ### Angriff, Beschuss, Kampf
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
