@@ -2,7 +2,7 @@
 # was changed in the last 24 hours
 #
 # steps:
-# 1. checkout the code
+# 1. checkout code
 # 2. count the commits for the global.ini in the last 24 hours
 # - the following steps are only run then the commit count is > 0
 # 3. get the current date
@@ -10,14 +10,14 @@
 # 5. create the release
 
 on:
-  workflow_dispatch: # used only for testing to trigger the workflow from the github website
+  workflow_dispatch: # used only for testing to trigger the workflow from the GitHub website
     inputs:
       logLevel:
-        description: 'Log level'
+        description: 'Log Level'
         required: true
         default: 'warning'
       tags:
-        description: 'Test scenario tags'
+        description: 'Test Scenario Tags'
   schedule:
     - cron: "0 3 * * *"
 
