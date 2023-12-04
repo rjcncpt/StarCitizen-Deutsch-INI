@@ -10,7 +10,7 @@ on:
   schedule:
     - cron: "0 3 * * *"
 
-name: Create Release LIVE
+name: Create Release
 
 jobs:
   build-live:
