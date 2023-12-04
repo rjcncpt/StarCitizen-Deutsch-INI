@@ -56,7 +56,7 @@ jobs:
           cp "live/global.ini" "release/data/Localization/german_(germany)/"
           cd release
           echo "${{ vars.VERSION_FILE_TEXT_LIVE }} $(date '+%d.%m.%y - %H:%M Uhr')" >> Version.txt
-          zip -r "../${{ vars.ZIP_NAME_LIVE }}" *
+          zip -r -9 "../${{ vars.ZIP_NAME_LIVE }}" *
 
       - name: Create New Release
         uses: ncipollo/release-action@v1
@@ -87,7 +87,7 @@ jobs:
           cp "ptu/global.ini" "release/data/Localization/german_(germany)/"
           cd release
           echo "${{ vars.VERSION_FILE_TEXT_PTU }} $(date '+%d.%m.%y - %H:%M Uhr')" >> Version.txt
-          zip -r "../${{ vars.ZIP_NAME_PTU }}" *
+          zip -r -9 "../${{ vars.ZIP_NAME_PTU }}" *
 
       - name: Create New Release
         uses: ncipollo/release-action@v1
