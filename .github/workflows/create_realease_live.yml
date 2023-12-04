@@ -47,7 +47,7 @@ jobs:
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
         uses: ncipollo/release-action@v1
         with:
-          tag: ${{ steps.date.outputs.date }}
+          tag: ${{ steps.date.outputs.date }}-LIVE
           commit: main
           name: ${{ vars.RELEASE_TITLE_LIVE }}
           body: ${{ vars.RELEASE_BODY_LIVE }}
