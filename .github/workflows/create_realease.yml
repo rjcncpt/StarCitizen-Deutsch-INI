@@ -51,7 +51,7 @@ jobs:
           cp "live/global.ini" "release/data/Localization/german_(germany)/"
           cd release
           echo "${{ vars.VERSION_FILE_TEXT_LIVE }} ${{ steps.date.outputs.date }}" >> version.txt
-          zip -r "../${{ vars.ZIP_NAME_LIVE }}" *
+          zip -r -9 "../${{ vars.ZIP_NAME_LIVE }}" *
 
       - name: Create Release # runs only when live/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
@@ -91,7 +91,7 @@ jobs:
           cp "ptu/global.ini" "release/data/Localization/german_(germany)/"
           cd release
           echo "${{ vars.VERSION_FILE_TEXT_PTU }} ${{ steps.date.outputs.date }}" >> version.txt
-          zip -r "../${{ vars.ZIP_NAME_PTU }}" *
+          zip -r -9 "../${{ vars.ZIP_NAME_PTU }}" *
 
       - name: Create Release # runs only when ptu/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
