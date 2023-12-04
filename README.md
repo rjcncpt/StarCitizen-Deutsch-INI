@@ -6,7 +6,7 @@
 <br/>
 
 ![Static Badge](https://img.shields.io/badge/Bereit-%2339cb75?label=3.21.1%20LIVE) <!-- -->![Static Badge](https://img.shields.io/badge/Bereit-%2339cb75?label=3.22.0%20PTU) ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?label=Preview%20Channel) 
-![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen)](https://robertsspaceindustries.com/)
+![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total.svg)]()
 
 
 
