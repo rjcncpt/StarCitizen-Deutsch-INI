@@ -38,7 +38,6 @@ jobs:
 
       - name: Get Date # runs only when live/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
-        id: date
         run: echo "date=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
 
       - name: Create Zip # runs only when live/global.ini was changed in the last 24 hours
@@ -78,7 +77,6 @@ jobs:
 
       - name: Get Date # runs only when ptu/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
-        id: date
         run: echo "date=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
 
       - name: Create Zip # runs only when ptu/global.ini was changed in the last 24 hours
