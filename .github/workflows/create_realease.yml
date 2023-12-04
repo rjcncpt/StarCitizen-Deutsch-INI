@@ -21,8 +21,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Get new commits
+        run: echo "NEW_COMMIT_COUNT=$(git log --oneline --since '24 hours ago' | wc -l)" >> $GITHUB_ENV
+
       - name: Create Release Zip
-        if: (git log --oneline --since '24 hours ago' | wc -l) > 0
+        if: ${{ env.NEW_COMMIT_COUNT > 0 }}
         run: |
           sudo timedatectl set-timezone Europe/Berlin
           mkdir release
