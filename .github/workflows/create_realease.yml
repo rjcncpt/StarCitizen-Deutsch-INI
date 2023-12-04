@@ -50,7 +50,7 @@ jobs:
           mkdir -p "release/data/Localization/german_(germany)"
           cp "live/global.ini" "release/data/Localization/german_(germany)/"
           cd release
-          echo "${{ vars.VERSION_FILE_TEXT }} ${{ steps.date.outputs.date }} - $(date +%H:%M) Uhr" >> version.txt
+          echo "${{ vars.VERSION_FILE_TEXT_LIVE }} ${{ steps.date.outputs.date }} - $(date +%H:%M) Uhr" >> version.txt
           zip -r "../${{ vars.ZIP_NAME_LIVE }}" *
 
       - name: Create Release # runs only when live/global.ini was changed in the last 24 hours
@@ -90,7 +90,7 @@ jobs:
           mkdir -p "release/data/Localization/german_(germany)"
           cp "ptu/global.ini" "release/data/Localization/german_(germany)/"
           cd release
-          echo "${{ vars.VERSION_FILE_TEXT }} ${{ steps.date.outputs.date }} - $(date +%H:%M) Uhr" >> version.txt
+          echo "${{ vars.VERSION_FILE_TEXT_PTU }} ${{ steps.date.outputs.date }} - $(date +%H:%M) Uhr" >> version.txt
           zip -r "../${{ vars.ZIP_NAME_PTU }}" *
 
       - name: Create Release # runs only when ptu/global.ini was changed in the last 24 hours
