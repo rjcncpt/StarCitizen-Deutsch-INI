@@ -1,12 +1,4 @@
 on:
-  workflow_dispatch:
-    inputs:
-      logLevel:
-        description: 'Log level'
-        required: true
-        default: 'warning'
-      tags:
-        description: 'Test scenario tags'
   schedule:
     - cron: "0 3 * * *"
 
@@ -22,15 +14,15 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Get New Commits
+      - name: Get New Commits # counts the commits to live/global.ini during the last 24 hours
         run: echo "NEW_COMMIT_COUNT=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_ENV
 
-      - name: Get Date
+      - name: Get Date # runs only when live/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
         id: date
         run: echo "date=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
 
-      - name: Create Zip
+      - name: Create Zip # runs only when live/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
         run: |
           sudo timedatectl set-timezone Europe/Berlin
@@ -43,7 +35,7 @@ jobs:
           mv Versionstext.txt Version-${{ steps.date.outputs.date }}.txt
           zip -r "../${{ vars.ZIP_NAME_LIVE }}" *
 
-      - name: Create Release
+      - name: Create Release # runs only when live/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
         uses: ncipollo/release-action@v1
         with:
@@ -62,15 +54,15 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Get New Commits
+      - name: Get New Commits # counts the commits to ptu/global.ini during the last 24 hours
         run: echo "NEW_COMMIT_COUNT=$(git log --oneline --since '24 hours ago' -- ptu/global.ini | wc -l)" >> $GITHUB_ENV
 
-      - name: Get Date
+      - name: Get Date # runs only when ptu/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
         id: date
         run: echo "date=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
 
-      - name: Create Zip
+      - name: Create Zip # runs only when ptu/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
         run: |
           sudo timedatectl set-timezone Europe/Berlin
@@ -83,7 +75,7 @@ jobs:
           mv Versionstext.txt Version-${{ steps.date.outputs.date }}.txt
           zip -r "../${{ vars.ZIP_NAME_PTU }}" *
 
-      - name: Create Release
+      - name: Create Release # runs only when ptu/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
         uses: ncipollo/release-action@v1
         with:
