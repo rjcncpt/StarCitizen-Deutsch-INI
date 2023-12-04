@@ -1,7 +1,13 @@
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 3 * * *"
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'
+
 
 name: Create Release
 
@@ -16,7 +22,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Create Release Zip
-        if: $(git log --oneline --since '24 hours ago' | wc -l) > 0
+        if: ${{ $(git log --oneline --since '24 hours ago' | wc -l) > 0 }}
         run: |
           sudo timedatectl set-timezone Europe/Berlin
           mkdir release
@@ -28,7 +34,7 @@ jobs:
           mv Versionstext.txt Version-$(date "+%d.%m.%y-%H.%M").txt
           zip -r "../${{ vars.ZIP_NAME_LIVE }}" *
 
-      - name:
+      - name: Date
         id: date
         run: echo "date=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
 
