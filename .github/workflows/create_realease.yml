@@ -14,7 +14,7 @@ name: Create Release
 
 jobs:
   build-live:
-    name: Create Release LIVE
+    name: Create LIVE Release
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -54,7 +54,7 @@ jobs:
           artifacts: ${{ vars.ZIP_NAME_LIVE }}
 
   build-ptu:
-    name: Create Release PTU
+    name: Create PTU Pre-Release
     runs-on: ubuntu-latest
     permissions:
       contents: write
