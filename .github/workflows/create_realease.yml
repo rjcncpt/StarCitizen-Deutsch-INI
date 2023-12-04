@@ -77,6 +77,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Get New Commits # counts the commits to ptu/global.ini during the last 24 hours
         run: echo "NEW_COMMIT_COUNT=$(git log --oneline --since '24 hours ago' -- ptu/global.ini | wc -l)" >> $GITHUB_ENV
