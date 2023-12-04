@@ -1,3 +1,14 @@
+# creates a new release for LIVE and PTU channel every day at 3am when the corresponding global.ini
+# was changed in the last 24 hours
+#
+# steps:
+# 1. checkout the code
+# 2. count the commits for the global.ini in the last 24 hours
+# - the following steps are only run then the commit count is > 0
+# 3. get the current date
+# 4. create the zip
+# 5. create the release
+
 on:
   schedule:
     - cron: "0 3 * * *"
