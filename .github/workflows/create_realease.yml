@@ -63,6 +63,7 @@ jobs:
           name: ${{ vars.RELEASE_TITLE_LIVE }}
           body: ${{ vars.RELEASE_BODY_LIVE }}
           artifacts: ${{ vars.ZIP_NAME_LIVE }}
+          generateReleaseNotes: true
 
   build-ptu:
     name: Create PTU Pre-Release
@@ -104,3 +105,4 @@ jobs:
           body: ${{ vars.RELEASE_BODY_PTU }}
           artifacts: ${{ vars.ZIP_NAME_PTU }}
           prerelease: true # mark the PTU as pre-release
+          generateReleaseNotes: true
