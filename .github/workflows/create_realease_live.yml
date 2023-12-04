@@ -13,7 +13,7 @@ on:
 name: Create Release LIVE
 
 jobs:
-  build:
+  build-live:
     name: Create Release LIVE
     runs-on: ubuntu-latest
     permissions:
@@ -39,7 +39,7 @@ jobs:
           mkdir -p "release/data/Localization/german_(germany)"
           cp "live/global.ini" "release/data/Localization/german_(germany)/"
           cd release
-          echo "${{ vars.VERSION_FILE_TEXT }} ${{ steps.date.outputs.date }} - %H:%M Uhr')" >> Versionstext.txt
+          echo "${{ vars.VERSION_FILE_TEXT }} ${{ steps.date.outputs.date }} - $(date '%H:%M Uhr')" >> Versionstext.txt
           mv Versionstext.txt Version-${{ steps.date.outputs.date }}.txt
           zip -r "../${{ vars.ZIP_NAME_LIVE }}" *
 
@@ -52,3 +52,43 @@ jobs:
           name: ${{ vars.RELEASE_TITLE_LIVE }}
           body: ${{ vars.RELEASE_BODY_LIVE }}
           artifacts: ${{ vars.ZIP_NAME_LIVE }}
+
+  build-ptu:
+    name: Create Release PTU
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Get New Commits
+        run: echo "NEW_COMMIT_COUNT=$(git log --oneline --since '24 hours ago' | wc -l)" >> $GITHUB_ENV
+
+      - name: Get Date
+        if: ${{ env.NEW_COMMIT_COUNT > 0 }}
+        id: date
+        run: echo "date=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
+
+      - name: Create Zip
+        if: ${{ env.NEW_COMMIT_COUNT > 0 }}
+        run: |
+          sudo timedatectl set-timezone Europe/Berlin
+          mkdir release
+          cp "ptu/user.cfg" "release"
+          mkdir -p "release/data/Localization/german_(germany)"
+          cp "ptu/global.ini" "release/data/Localization/german_(germany)/"
+          cd release
+          echo "${{ vars.VERSION_FILE_TEXT }} ${{ steps.date.outputs.date }} - $(date '%H:%M Uhr')" >> Versionstext.txt
+          mv Versionstext.txt Version-${{ steps.date.outputs.date }}.txt
+          zip -r "../${{ vars.ZIP_NAME_PTU }}" *
+
+      - name: Create Release
+        if: ${{ env.NEW_COMMIT_COUNT > 0 }}
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ steps.date.outputs.date }}-PTU
+          commit: main
+          name: ${{ vars.RELEASE_TITLE_PTU }}
+          body: ${{ vars.RELEASE_BODY_PTU }}
+          artifacts: ${{ vars.ZIP_NAME_PTU }}
