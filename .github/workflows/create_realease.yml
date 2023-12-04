@@ -10,6 +10,14 @@
 # 5. create the release
 
 on:
+  workflow_dispatch: # used only for testing
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'
   schedule:
     - cron: "0 3 * * *"
 
