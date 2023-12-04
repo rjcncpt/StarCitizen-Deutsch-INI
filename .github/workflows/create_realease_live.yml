@@ -39,7 +39,7 @@ jobs:
           mkdir -p "release/data/Localization/german_(germany)"
           cp "live/global.ini" "release/data/Localization/german_(germany)/"
           cd release
-          echo "${{ vars.VERSION_FILE_TEXT }} ${{ steps.date.outputs.date }} - $(date '%H:%M Uhr')" >> Versionstext.txt
+          echo "${{ vars.VERSION_FILE_TEXT }} ${{ steps.date.outputs.date }} - $(date +%H:%M) Uhr" >> Versionstext.txt
           mv Versionstext.txt Version-${{ steps.date.outputs.date }}.txt
           zip -r "../${{ vars.ZIP_NAME_LIVE }}" *
 
@@ -79,7 +79,7 @@ jobs:
           mkdir -p "release/data/Localization/german_(germany)"
           cp "ptu/global.ini" "release/data/Localization/german_(germany)/"
           cd release
-          echo "${{ vars.VERSION_FILE_TEXT }} ${{ steps.date.outputs.date }} - $(date '%H:%M Uhr')" >> Versionstext.txt
+          echo "${{ vars.VERSION_FILE_TEXT }} ${{ steps.date.outputs.date }} - $(date +%H:%M) Uhr" >> Versionstext.txt
           mv Versionstext.txt Version-${{ steps.date.outputs.date }}.txt
           zip -r "../${{ vars.ZIP_NAME_PTU }}" *
 
