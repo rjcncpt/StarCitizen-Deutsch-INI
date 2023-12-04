@@ -10,7 +10,7 @@
 # 5. create the release
 
 on:
-  workflow_dispatch: # used only for testing
+  workflow_dispatch: # used only for testing to trigger the workflow from the github website
     inputs:
       logLevel:
         description: 'Log level'
