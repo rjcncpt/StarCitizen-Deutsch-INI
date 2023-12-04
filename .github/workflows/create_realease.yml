@@ -37,7 +37,7 @@ jobs:
         run: echo "NEW_COMMIT_COUNT=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_ENV
       
       - name: Show Commit Count
-        run: echo git log --oneline --since '24 hours ago' -- live/global.ini
+        run: echo $(git log --oneline --since '24 hours ago' -- live/global.ini)
 
       - name: Get Date # runs only when live/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
