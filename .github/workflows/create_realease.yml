@@ -36,8 +36,7 @@ jobs:
           fetch-depth: 0
 
       - name: Get New Commits # counts the commits to live/global.ini during the last 24 hours
-        run: |
-          git log --oneline --since '24 hours ago' -- 'live/global.ini'
+        run: echo "NEW_COMMIT_COUNT=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_ENV
       
       - name: Show Commit Count
         run: echo ${{ env.NEW_COMMIT_COUNT }}
