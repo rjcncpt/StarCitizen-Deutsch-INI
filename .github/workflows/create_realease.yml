@@ -35,6 +35,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Print Title of PR
+        env:
+          TITLE: ${{ github.event.pull_request.title }}
+        run: echo The Title of your PR is $TITLE
+
       - name: Get New Commits # counts the commits to live/global.ini during the last 24 hours
         run: echo "NEW_COMMIT_COUNT=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_ENV
       
