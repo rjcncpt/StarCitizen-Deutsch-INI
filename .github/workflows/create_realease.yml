@@ -11,6 +11,14 @@
 # 6. create the release
 
 on:
+  workflow_dispatch: # used only for testing to trigger the workflow from the GitHub website
+    inputs:
+      logLevel:
+        description: 'Log Level'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test Scenario Tags'
   schedule:
     - cron: "0 3 * * *"
 
@@ -26,7 +34,7 @@ jobs:
       RELEASE_TITLE_LIVE: ${{steps.title_live.outputs.RELEASE_TITLE_LIVE}}
       RELEASE_TITLE_PTU: ${{steps.title_ptu.outputs.RELEASE_TITLE_PTU}}
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
@@ -47,7 +55,7 @@ jobs:
         id: show_new_commits_ptu
         run: echo ${{ steps.new_commits_ptu.outputs.NEW_COMMIT_COUNT_PTU }}
 
-      - name: Get Current Date
+      - name: Get Date
         id: date
         run: echo "DATE=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
 
@@ -84,10 +92,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Create Release Zip For LIVE
+      - name: Create Zip For LIVE
         run: |
           sudo timedatectl set-timezone Europe/Berlin
           mkdir release
@@ -118,10 +126,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Create Release Zip For PTU
+      - name: Create Zip For PTU
         run: |
           sudo timedatectl set-timezone Europe/Berlin
           mkdir release
