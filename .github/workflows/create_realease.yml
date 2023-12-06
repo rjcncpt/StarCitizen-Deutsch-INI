@@ -4,8 +4,8 @@
 # steps:
 # 1. checkout the code
 # 2. count the commits for the global.ini in the last 24 hours
-# - the following steps are only run then the commit count is > 0
 # 3. get the current date
+# - the following steps are only run then the commit count is > 0
 # 4. create a release name with the correct version in it
 # 5. create the zip
 # 6. create the release
