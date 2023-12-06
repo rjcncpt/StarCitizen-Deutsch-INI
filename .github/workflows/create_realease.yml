@@ -38,8 +38,9 @@ jobs:
       - name: Get New Commits # counts the commits to live/global.ini during the last 24 hours
         run: echo "NEW_COMMIT_COUNT=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_ENV
       
-      - name: Show Commit Count
-        run: echo "Star Citizen $(git log -1 --pretty=%s | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]"
+      - name: Create Title
+        if: ${{ env.NEW_COMMIT_COUNT > 0 }}
+        run: echo "RELEASE_TITLE=Star Citizen $(git log -1 --pretty=%s | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_ENV
 
       - name: Get Date # runs only when live/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
@@ -64,7 +65,7 @@ jobs:
         with:
           tag: ${{ steps.date.outputs.date }}-LIVE
           commit: main
-          name: Star Citizen ${git log -1 --pretty=%s | cut -c1-8} [de]
+          name: ${{ env.RELEASE-TITLE }}
           body: ${{ vars.RELEASE_BODY_LIVE }}
           artifacts: ${{ vars.ZIP_NAME_LIVE }}
           generateReleaseNotes: true
@@ -82,6 +83,10 @@ jobs:
 
       - name: Get New Commits # counts the commits to ptu/global.ini during the last 24 hours
         run: echo "NEW_COMMIT_COUNT=$(git log --oneline --since '24 hours ago' -- ptu/global.ini | wc -l)" >> $GITHUB_ENV
+
+      - name: Create Title
+        if: ${{ env.NEW_COMMIT_COUNT > 0 }}
+        run: echo "RELEASE_TITLE=Star Citizen $(git log -1 --pretty=%s | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_ENV
 
       - name: Get Date # runs only when ptu/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
@@ -106,7 +111,7 @@ jobs:
         with:
           tag: ${{ steps.date.outputs.date }}-PTU
           commit: main
-          name: ${{ vars.RELEASE_TITLE_PTU }}
+          name: ${{ env.RELEASE-TITLE }}
           body: ${{ vars.RELEASE_BODY_PTU }}
           artifacts: ${{ vars.ZIP_NAME_PTU }}
           generateReleaseNotes: true
