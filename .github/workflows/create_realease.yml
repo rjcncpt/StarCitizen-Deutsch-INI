@@ -39,7 +39,7 @@ jobs:
         run: echo "NEW_COMMIT_COUNT=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_ENV
       
       - name: Show Commit Count
-        run: echo "Star Citizen $(git log -1 --pretty=%s | cut -d' |' -f1) [de]"
+        run: echo "Star Citizen $(git log -1 --pretty=%s | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]"
 
       - name: Get Date # runs only when live/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
