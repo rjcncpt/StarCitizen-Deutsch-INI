@@ -6,8 +6,9 @@
 # 2. count the commits for the global.ini in the last 24 hours
 # - the following steps are only run then the commit count is > 0
 # 3. get the current date
-# 4. create the zip
-# 5. create the release
+# 4. create a release name with the correct version in it
+# 5. create the zip
+# 6. create the release
 
 on:
   schedule:
@@ -21,7 +22,7 @@ jobs:
     outputs:
       NEW_COMMIT_COUNT_LIVE: ${{steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE}}
       NEW_COMMIT_COUNT_PTU: ${{steps.new_commits_ptu.outputs.NEW_COMMIT_COUNT_PTU}}
-      DATE: ${{steps.date.outputs.date}}
+      DATE: ${{steps.date.outputs.DATE}}
       RELEASE_TITLE_LIVE: ${{steps.title_live.outputs.RELEASE_TITLE_LIVE}}
       RELEASE_TITLE_PTU: ${{steps.title_ptu.outputs.RELEASE_TITLE_PTU}}
     steps:
@@ -29,17 +30,28 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Get New Commits on LIVE # counts the commits to live/global.ini during the last 24 hours
+          
+      - name: Get New Commits On LIVE # counts the commits to live/global.ini during the last 24 hours
         id: new_commits_live
         run: echo "NEW_COMMIT_COUNT_LIVE=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_OUTPUT
-      - name: Get New Commits on PTU # counts the commits to ptu/global.ini during the last 24 hours
+        
+      - name: Get New Commits On PTU # counts the commits to ptu/global.ini during the last 24 hours
         id: new_commits_ptu
         run: echo "NEW_COMMIT_COUNT_PTU=$(git log --oneline --since '24 hours ago' -- ptu/global.ini | wc -l)" >> $GITHUB_OUTPUT
-      - id: date
-        run: echo "date=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
-      - id: title_live
+        
+      - name: Get Current Date
+        if: needs.get_context_info.outputs.NEW_COMMIT_COUNT_LIVE > 0
+        id: date
+        run: echo "DATE=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
+        
+      - name: Get Release Title For LIVE
+        id: title_live # creates a title for the release that shows the version number used in the title of the last commit that changed the live/global.ini
+        if: needs.get_context_info.outputs.NEW_COMMIT_COUNT_LIVE > 0
         run: echo "RELEASE_TITLE_LIVE=Star Citizen $(git log -1 --pretty=%s -- live/global.ini | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
-      - id: title_ptu
+        
+      - name: Get Release Title For PTU
+        id: title_ptu # creates a title for the release that shows the version number used in the title of the last commit that changed the ptu/global.ini
+        if: needs.get_context_info.outputs.NEW_COMMIT_COUNT_LIVE > 0
         run: echo "RELEASE_TITLE_PTU=Star Citizen $(git log -1 --pretty=%s -- ptu/global.ini | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
 
   live_release: # runs only when live/global.ini was changed in the last 24 hours
@@ -53,7 +65,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Create Release Zip
+      - name: Create Release Zip For LIVE
         run: |
           sudo timedatectl set-timezone Europe/Berlin
           mkdir release
@@ -64,7 +76,7 @@ jobs:
           echo "${{ vars.VERSION_FILE_TEXT_LIVE }} $(date '+%d.%m.%y - %H:%M Uhr')" >> Version.txt
           zip -r -9 "../${{ vars.ZIP_NAME_LIVE }}" *
 
-      - name: Create New Release
+      - name: Create New Release For LIVE
         uses: ncipollo/release-action@v1
         with:
           tag: ${{ needs.get_context_info.outputs.DATE }}-LIVE
@@ -84,7 +96,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Create Release Zip
+      - name: Create Release Zip For PTU
         run: |
           sudo timedatectl set-timezone Europe/Berlin
           mkdir release
@@ -95,7 +107,7 @@ jobs:
           echo "${{ vars.VERSION_FILE_TEXT_PTU }} $(date '+%d.%m.%y - %H:%M Uhr')" >> Version.txt
           zip -r -9 "../${{ vars.ZIP_NAME_PTU }}" *
 
-      - name: Create New Release
+      - name: Create New Release For PTU
         uses: ncipollo/release-action@v1
         with:
           tag: ${{ needs.get_context_info.outputs.DATE }}-PTU
