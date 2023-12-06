@@ -39,6 +39,9 @@ jobs:
   live_release: # runs only when live/global.ini was changed in the last 24 hours
     name: Create Live Release
     runs-on: ubuntu-latest
+    concurrency:
+      group: releases
+      cancel-in-progress: false
     needs: get_context_info
     if: needs.get_context_info.outputs.NEW_COMMIT_COUNT_LIVE > 0
     permissions:
@@ -70,7 +73,10 @@ jobs:
   ptu_release: # runs only when ptu/global.ini was changed in the last 24 hours
     name: Create PTU Release
     runs-on: ubuntu-latest
-    needs: [get_context_info, live_release]
+    concurrency:
+      group: releases
+      cancel-in-progress: false
+    needs: get_context_info
     if: (vars.TRIGGER_PTU_RELEASE == 1 && needs.get_context_info.outputs.NEW_COMMIT_COUNT_PTU > 0)
     permissions:
       contents: write
