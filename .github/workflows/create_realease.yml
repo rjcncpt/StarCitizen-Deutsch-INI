@@ -54,7 +54,7 @@ jobs:
         run: echo "RELEASE_TITLE_PTU=Star Citizen $(git log -1 --pretty=%s -- ptu/global.ini | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
 
   live_release: # runs only when live/global.ini was changed in the last 24 hours
-    name: Create Live Release
+    name: Create LIVE Release
     runs-on: ubuntu-latest
     needs: get_context_info
     if: needs.get_context_info.outputs.NEW_COMMIT_COUNT_LIVE > 0
