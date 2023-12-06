@@ -19,9 +19,9 @@ jobs:
   get_context_info:
     runs-on: ubuntu-latest
     outputs:
-      DATE: ${{steps.date.outputs.date}}
       NEW_COMMIT_COUNT_LIVE: ${{steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE}}
       NEW_COMMIT_COUNT_PTU: ${{steps.new_commits_ptu.outputs.NEW_COMMIT_COUNT_PTU}}
+      DATE: ${{steps.date.outputs.date}}
       RELEASE_TITLE_LIVE: ${{steps.title_live.outputs.RELEASE_TITLE_LIVE}}
       RELEASE_TITLE_PTU: ${{steps.title_ptu.outputs.RELEASE_TITLE_PTU}}
     steps:
@@ -37,9 +37,9 @@ jobs:
         run: echo "NEW_COMMIT_COUNT_PTU=$(git log --oneline --since '24 hours ago' -- ptu/global.ini | wc -l)" >> $GITHUB_OUTPUT
       - id: date
         run: echo "date=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
-      - id: date
+      - id: title_live
         run: echo "RELEASE_TITLE_LIVE=Star Citizen $(git log -1 --pretty=%s -- live/global.ini | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
-      - id: date
+      - id: title_ptu
         run: echo "RELEASE_TITLE_PTU=Star Citizen $(git log -1 --pretty=%s -- ptu/global.ini | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
 
   live_release: # runs only when live/global.ini was changed in the last 24 hours
