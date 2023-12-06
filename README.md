@@ -8,11 +8,9 @@
 ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?label=3.21%20LIVE) <!-- -->![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?label=3.22%20PTU) ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?label=Preview%20Channel) 
 ![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total.svg)]()
 
-
-
 <br/>
 
-### Table of Content
+### Inhaltsverzeichnis
 
 - [Preview/Test Channels](#previewtest-channels)
 - [Download als ZIP](#download)
@@ -33,9 +31,9 @@ Preview und Test-Kanäle werden von uns nicht unterstützt. Damit du an den Test
 
 ### Download
 
-Täglich um 4 Uhr Nachts wird aus den Fixes des Vortags automatisch ein LIVE-Release erstellt. Lade dir **[die neuste ZIP Datei herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)** und entpacke diese im LIVE Ordner. (Nutzt du die INI Datei für LIVE im PTU, kann es zu Darstellungsfehlern kommen wenn sich die Versionsnummern unterscheiden.)<br/><br/>
+Täglich um 4 Uhr Nachts wird aus den Fixes des Vortags automatisch ein Release erstellt. Lade dir **[die für dich passende ZIP Datei herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)** und entpacke diese im LIVE bzw. PTU Ordner. (Nutzt du die INI Datei für LIVE im PTU und umgekehrt, kann es zu Darstellungsfehlern kommen wenn sich die Versionsnummern unterscheiden.)<br/><br/>
 
-In der ZIP Datei befindet sich die **`global.ini`** und die **`user.cfg`** Datei. Wenn du nicht möchtest das die **`user.cfg`** Datei deine eigene überschreibt, lade die **`global.ini`** **[als einzelne Datei herunter](#direktdownload-der-globalini)**. Diese findest du im **`live`** Ordner. Im **`ptu`** Ordner liegt die **`global.ini`** die für den aktuellen PTU gedacht ist. Bitte nutzt nur die Dateien, welche für den jeweiligen Channel ausgelegt sind.
+In der ZIP Datei befindet sich die **`global.ini`** und die **`user.cfg`** Datei. Wenn du nicht möchtest das die **`user.cfg`** Datei deine eigene überschreibt, lade die **`global.ini`** **[als einzelne Datei herunter](#direktdownload-der-globalini)**. Diese findest du im **`live`** und **`ptu`** Ordner. Bitte nutze nur die Dateien, welche für den jeweiligen Channel ausgelegt sind.
 <br/>
 
 #### Installation
@@ -54,7 +52,8 @@ Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://githu
 
 #### Wohin muss die global.ini Datei?
 
-1. **[Klicke hier](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** und öffne die `global.ini` Datei
+1. LIVE Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** und die `global.ini` Datei für LIVE öffnen
+1. PTU Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/ptu/global.ini)** und die `global.ini` Datei für PTU öffnen
 2. Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.
 3. Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
 **`\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`**
