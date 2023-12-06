@@ -64,7 +64,7 @@ jobs:
         with:
           tag: ${{ steps.date.outputs.date }}-LIVE
           commit: main
-          name: Star Citizen ${git log --format=%B -n 1 | cut -c1-8} [de]
+          name: Star Citizen ${git log -1 --pretty=%s | cut -c1-8} [de]
           body: ${{ vars.RELEASE_BODY_LIVE }}
           artifacts: ${{ vars.ZIP_NAME_LIVE }}
           generateReleaseNotes: true
