@@ -40,7 +40,7 @@ jobs:
       
       - name: Create Title
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
-        run: echo "RELEASE_TITLE=Star Citizen $(git log -1 --pretty=%s | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_ENV
+        run: echo "RELEASE_TITLE=Star Citizen $(git log -1 --pretty=%s -- live/global.ini | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_ENV
 
       - name: Get Date # runs only when live/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
@@ -86,7 +86,7 @@ jobs:
 
       - name: Create Title
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
-        run: echo "RELEASE_TITLE=Star Citizen $(git log -1 --pretty=%s | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_ENV
+        run: echo "RELEASE_TITLE=Star Citizen $(git log -1 --pretty=%s -- ptu/global.ini | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_ENV
 
       - name: Get Date # runs only when ptu/global.ini was changed in the last 24 hours
         if: ${{ env.NEW_COMMIT_COUNT > 0 }}
