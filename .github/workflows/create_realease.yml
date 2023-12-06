@@ -35,11 +35,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Print Title of PR
-        env:
-          TITLE: ${{ github.event.pull_request.title }}
-        run: echo The Title of your PR is $TITLE
-
       - name: Get New Commits # counts the commits to live/global.ini during the last 24 hours
         run: echo "NEW_COMMIT_COUNT=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_ENV
       
@@ -69,7 +64,7 @@ jobs:
         with:
           tag: ${{ steps.date.outputs.date }}-LIVE
           commit: main
-          name: ${{ vars.RELEASE_TITLE_LIVE }}
+          name: Star Citizen ${git log --format=%B -n 1 | cut -c1-8} [de]
           body: ${{ vars.RELEASE_BODY_LIVE }}
           artifacts: ${{ vars.ZIP_NAME_LIVE }}
           generateReleaseNotes: true
