@@ -6,13 +6,13 @@
 <br/>
 
 ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?label=3.21%20LIVE) <!-- -->![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?label=3.22%20PTU) ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?label=Preview%20Channel) 
-![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Static Badge](https://img.shields.io/badge/3.9k-%234cc71e?label=downloads) <!-- [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total.svg)]() -->
+![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Static Badge](https://img.shields.io/badge/4.2k-%234cc71e?label=downloads) <!-- [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total.svg)]() -->
 
 <br/>
 
 ### Inhaltsverzeichnis
 
-- **[Download als Zip-Datei](#download)**
+- **[Download als Zip-Datei](#download-als-zip-datei)**
 - **[Nur die global.ini herunterladen](#direktdownload-der-globalini)**
 - **[Preview/Test Channels](#previewtest-channels)**
 - **[Das Team](#das-team)**
