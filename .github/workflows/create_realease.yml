@@ -11,14 +11,11 @@
 # 6. create the release
 
 on:
-  workflow_dispatch: # used only for testing to trigger the workflow from the GitHub website
+  workflow_dispatch: # used only to manually trigger the workflow from the GitHub website
     inputs:
-      logLevel:
-        description: 'Log Level'
-        required: true
-        default: 'warning'
-      tags:
-        description: 'Test Scenario Tags'
+      tag:
+        description: "Release Tag"
+        type: string
   schedule:
     - cron: "0 3 * * *"
 
@@ -118,7 +115,7 @@ jobs:
       - name: Create Release For LIVE
         uses: ncipollo/release-action@v1
         with:
-          tag: ${{ needs.get_context_info.outputs.DATE }}-LIVE
+          tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE }}-LIVE
           commit: main
           name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }}
           body: ${{ vars.RELEASE_BODY_LIVE }}
@@ -128,7 +125,7 @@ jobs:
     name: Create PTU Release
     runs-on: ubuntu-latest
     needs: [get_context_info, live_release]
-    if: ${{ always() }} && (vars.TRIGGER_PTU_RELEASE == 1 && (needs.get_context_info.outputs.NEW_COMMIT_COUNT_PTU > 0))
+    if: always() && vars.TRIGGER_PTU_RELEASE == 1 && (needs.get_context_info.outputs.NEW_COMMIT_COUNT_PTU > 0)
     permissions:
       contents: write
     steps:
@@ -149,7 +146,7 @@ jobs:
       - name: Create Release For PTU
         uses: ncipollo/release-action@v1
         with:
-          tag: ${{ needs.get_context_info.outputs.DATE }}-PTU
+          tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE }}-PTU
           commit: main
           name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_PTU }}
           body: ${{ vars.RELEASE_BODY_PTU }}
