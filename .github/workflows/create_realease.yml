@@ -120,7 +120,7 @@ jobs:
         with:
           tag: ${{ needs.get_context_info.outputs.DATE }}-LIVE
           commit: main
-          name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }} # TODO add fallback
+          name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }}
           body: ${{ vars.RELEASE_BODY_LIVE }}
           artifacts: ${{ vars.ZIP_NAME_LIVE }}
 
@@ -151,7 +151,7 @@ jobs:
         with:
           tag: ${{ needs.get_context_info.outputs.DATE }}-PTU
           commit: main
-          name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_PTU }} # TODO add fallback
+          name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_PTU }}
           body: ${{ vars.RELEASE_BODY_PTU }}
           artifacts: ${{ vars.ZIP_NAME_PTU }}
           makeLatest: true
