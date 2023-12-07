@@ -26,7 +26,7 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 
 ### Download als Zip-Datei
 
-**Täglich um 4 Uhr Nachts wird aus den Fixes des Vortags automatisch ein Release erstellt. Releases werden nur dann erstellt, wenn in den letzten 24h Änderungen vorgenommen werden.**<br/><br/>
+**Täglich um 4 Uhr Nachts wird aus den Fixes des Vortags automatisch ein LIVE und/oder PTU Release erstellt. Releases werden nur dann erstellt, wenn in den letzten 24h Änderungen an den jeweiligen ini-Dateien vorgenommen wurden.**<br/><br/>
 
 Lade dir **[die für dich passende ZIP Datei herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)** und entpacke diese im LIVE bzw. PTU Ordner. (Nutzt du die INI Datei für LIVE im PTU und umgekehrt, kann es zu Darstellungsfehlern kommen wenn sich die Versionsnummern unterscheiden.)<br/><br/>
 
