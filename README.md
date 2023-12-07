@@ -26,7 +26,7 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 
 ### Preview/Test Channels
 
-Preview und Test-Kanäle werden von uns nicht unterstützt. Damit du an den Tests problemlos teilhaben kannst, füge ein **`;`** vor die Zeile **`g_language = german_(germany)`** in der **`user.cfg`** ein, um Star Citizen in engl. Sprache zu spielen.
+Preview und Test-Kanäle werden von uns nicht unterstützt. Damit du an den Tests in englischer Sprache problemlos teilhaben kannst, füge ein **`;`** vor die Zeile **`g_language = german_(germany)`** in der **`user.cfg`** ein. Du kannst selbstverständlich auch die aktuellste deutsche Übersetzung ausprobieren. Sei dir sber bewusst, dass es zu Darstellungsfehler kommen kann! 
 <br/><br/><br/>
 
 ### Download
