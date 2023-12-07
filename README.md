@@ -6,7 +6,7 @@
 <br/>
 
 ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?label=3.21%20LIVE) <!-- -->![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?label=3.22%20PTU) ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?label=Preview%20Channel) 
-![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total.svg)]()
+![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Static Badge](https://img.shields.io/badge/3,9k-%234cc71e?label=downloads) <!-- [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total.svg)]() -->
 
 <br/>
 
@@ -19,14 +19,14 @@
 - [Troubleshooting](#troubleshooting)
   <br/><br/>
 
-Die **`global.ini`** ist ein Work In Progress (WIP) Projekt. Unsere Veröffentlichungen werden stets im Spiel getestet, aber dennoch können wir keine 100%ige Funktionalität garantieren. Es wird eine beträchtliche Zeit dauern, bis wir alle Texte manuell von Zeile 1 bis etwa Zeile 62000 übersetzt und überprüft haben.
+Die **`global.ini`** ist ein Work In Progress (WIP) Projekt. Unsere Veröffentlichungen werden stets im Spiel getestet, aber dennoch können wir keine 100%ige Funktionalität garantieren. Es wird eine beträchtliche Zeit dauern, bis wir alle Texte von über 70000 Zeilen übersetzt und überprüft haben.
 <br/><br/>
 An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei Terminals oder MouseOver. Die Umlaute werden einfach weggelassen, und es entsteht eine Lücke. Dies ist keine Übersetzungspanne, sondern ein Spielfehler. Wir behalten diese Fehler absichtlich bei, damit CIG darauf reagieren kann, und wir selbst feststellen können, ob seitens CIG Fixes vorgenommen wurden.
 <br/><br/><br/>
 
 ### Preview/Test Channels
 
-Preview und Test-Kanäle werden von uns nicht unterstützt. Damit du an den Tests problemlos teilhaben kannst, füge ein **`;`** vor die Zeile **`g_language = german_(germany)`** in der **`user.cfg`** ein, um Star Citizen in engl. Sprache zu spielen.
+Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tests in englischer Sprache problemlos teilhaben kannst, füge in der **`user.cfg`** Datei ein **`;`** vor die Zeile **`g_language = german_(germany)`** hinzu. Du kannst selbstverständlich auch die aktuellste deutsche Übersetzung ausprobieren. Sei dir aber bewusst, dass es zu Darstellungsfehler kommen kann!
 <br/><br/><br/>
 
 ### Download

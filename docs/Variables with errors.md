@@ -2,18 +2,18 @@
 
 | global.ini                                                                      | Correct variable                                                                       |
 |---------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
-| `seachbody_obj_short_02a=`                                                      | `searchbody_obj_short_02a=`                                                            |
-| `ea_ui_matchmaking_error_CanceledByService =`                                   | `ea_ui_matchmaking_error_CanceledByService=`                                           |
+| `Oxygen_Screen_ ErrorButtonMessage=`                                            | `Oxygen_Screen_ErrorButtonMessage=`                                                    |
 | `Tut03_Part01_Obj01b_ToStation =`                                               | `Tut03_Part01_Obj01b_ToStation=`                                                       |
-| `~mission (description)`                                                        | `~mission(description)`                                                                |
-| `~mission (title)`                                                              | `~mission(title)`                                                                      |
-| `~mission (item)`                                                               | `~mission(item)`                                                                       |
-| `~misssion(Item)`                                                               | `~mission(Item)`                                                                       |
+| `ea_ui_matchmaking_error_CanceledByService =`                                   | `ea_ui_matchmaking_error_CanceledByService=`                                           |
+| `seachbody_obj_short_02a=`                                                      | `searchbody_obj_short_02a=`                                                            |
 | `shop_ui_transactionResult_04 _InvalidPlayerInventoryId=`                       | `shop_ui_transactionResult_04_InvalidPlayerInventoryId=`                               |
 | `shop_ui_transactionResult_05 _InventoryContainerRequestFail=`                  | `shop_ui_transactionResult_05_InventoryContainerRequestFail=`                          |
 | `shop_ui_transactionResult_06 _InventoryItemFail=`                              | `shop_ui_transactionResult_06_InventoryItemFail=`                                      |
-| `Oxygen_Screen_ ErrorButtonMessage=`                                            | `Oxygen_Screen_ErrorButtonMessage=`                                                    |
-| `crusader_bounty_fps_tokenLink_Description=~(Contractor\|BountyFPSDescription)` | `crusader_bounty_fps_tokenLink_Description=~mission(Contractor\|BountyFPSDescription)` |
+| `~(Contractor|BountyFPSDescription)`                                            | `~mission(Contractor\|BountyFPSDescription)`                                           |
+| `~misssion(Item)`                                                               | `~mission(Item)`                                                                       |
+| `~mission (description)`                                                        | `~mission(description)`                                                                |
+| `~mission (title)`                                                              | `~mission(title)`                                                                      |
+| `~mission (item)`                                                               | `~mission(item)`                                                                       |
 
 # Missing variables
 
