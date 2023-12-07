@@ -12,40 +12,39 @@
 
 ### Inhaltsverzeichnis
 
-- [Preview/Test Channels](#previewtest-channels)
-- [Download als ZIP](#download)
-- [Direktdownload der global.ini](#direktdownload-der-globalini)
-- [Das Team](#das-team)
-- [Troubleshooting](#troubleshooting)
+- **[Download als Zip-Datei](#download)**
+- **[Nur die global.ini herunterladen](#direktdownload-der-globalini)**
+- **[Preview/Test Channels](#previewtest-channels)**
+- **[Das Team](#das-team)**
+- **[Troubleshooting](#troubleshooting)**
   <br/><br/>
 
 Die **`global.ini`** ist ein Work In Progress (WIP) Projekt. Unsere Veröffentlichungen werden stets im Spiel getestet, aber dennoch können wir keine 100%ige Funktionalität garantieren. Es wird eine beträchtliche Zeit dauern, bis wir alle Texte von über 70000 Zeilen übersetzt und überprüft haben.
 <br/><br/>
 An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei Terminals oder MouseOver. Die Umlaute werden einfach weggelassen, und es entsteht eine Lücke. Dies ist keine Übersetzungspanne, sondern ein Spielfehler. Wir behalten diese Fehler absichtlich bei, damit CIG darauf reagieren kann, und wir selbst feststellen können, ob seitens CIG Fixes vorgenommen wurden.
-<br/><br/><br/>
+<br/><br/>
+__________________
+<br/>
 
-### Preview/Test Channels
+### Download als Zip-Datei
 
-Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tests in englischer Sprache problemlos teilhaben kannst, füge in der **`user.cfg`** Datei ein **`;`** vor die Zeile **`g_language = german_(germany)`** hinzu. Du kannst selbstverständlich auch die aktuellste deutsche Übersetzung ausprobieren. Sei dir aber bewusst, dass es zu Darstellungsfehler kommen kann!
-<br/><br/><br/>
+**Täglich um 4 Uhr Nachts wird aus den Fixes des Vortags automatisch ein LIVE und/oder PTU Release erstellt. Releases werden nur dann erstellt, wenn in den letzten 24h Änderungen an den jeweiligen ini-Dateien vorgenommen wurden.**<br/><br/>
 
-### Download
-
-Täglich um 4 Uhr Nachts wird aus den Fixes des Vortags automatisch ein Release erstellt. Lade dir **[die für dich passende ZIP Datei herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)** und entpacke diese im LIVE bzw. PTU Ordner. (Nutzt du die INI Datei für LIVE im PTU und umgekehrt, kann es zu Darstellungsfehlern kommen wenn sich die Versionsnummern unterscheiden.)<br/><br/>
+Lade dir **[die für dich passende ZIP Datei herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)** und entpacke diese im LIVE bzw. PTU Ordner. (Nutzt du die INI Datei für LIVE im PTU und umgekehrt, kann es zu Darstellungsfehlern kommen wenn sich die Versionsnummern unterscheiden.)<br/><br/>
 
 In der ZIP Datei befindet sich die **`global.ini`** und die **`user.cfg`** Datei. Wenn du nicht möchtest das die **`user.cfg`** Datei deine eigene überschreibt, lade die **`global.ini`** **[als einzelne Datei herunter](#direktdownload-der-globalini)**. Diese findest du im **`live`** und **`ptu`** Ordner. Bitte nutze nur die Dateien, welche für den jeweiligen Channel ausgelegt sind.
 <br/>
 
 #### Installation
 
-1. Lade dir die **`StarCitizen.Deutsch.zip`** herunter
+1. Lade dir die **`StarCitizen.Deutsch.LIVE.zip`** oder **`StarCitizen.Deutsch.PTU.zip`** herunter
 2. Entpacke diese
 3. Kopiere den Inhalt in den LIVE bzw. PTU Ordner
 <br/><br/><br/><br/>
 
 ### Direktdownload der global.ini
 
-Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)**, wenn du nicht immer alles herunterladen möchtest. Der Vorteil ist, diese Datei ist immer auf einem aktuelleren Stand als die Release Datei.
+Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)**, wenn du nicht immer die Zip-Datei herunterladen möchtest. Auch ist diese Datei immer auf einem aktuelleren Stand als die Release Datei.
 <br/><br/>
 ![image](https://i.imgur.com/jTabj3V.png)
 <br/>
@@ -60,6 +59,11 @@ Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://githu
 4. speichere ggf. die `user.cfg` in den LIVE oder PTU Ordner:<br/>
 **`\ Roberts Space Industries \ StarCitizen \ LIVE \`**<br/>
 **`\ Roberts Space Industries \ StarCitizen \ PTU \`**
+<br/><br/><br/><br/>
+
+### Preview/Test Channels
+
+Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tests in englischer Sprache problemlos teilhaben kannst, füge in der **`user.cfg`** Datei ein **`;`** vor die Zeile **`g_language = german_(germany)`** hinzu. Du kannst selbstverständlich auch die aktuellste deutsche Übersetzung ausprobieren. Sei dir aber bewusst, dass es zu Darstellungsfehler kommen kann!
 <br/><br/><br/><br/>
 
 ### Das Team
