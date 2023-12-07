@@ -71,7 +71,7 @@ jobs:
           then
           echo "RELEASE_TITLE_LIVE=${{ vars.RELEASE_TITLE_LIVE }}" >> $GITHUB_OUTPUT
           else
-          echo "RELEASE_TITLE_LIVE=Star Citizen $(git log -1 --pretty=%s -- live/global.ini | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
+          echo "RELEASE_TITLE_LIVE=Star Citizen $(git log -1 --pretty=%s -- live/global.ini | cut -s -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
           fi
 
       - name: Show Release Title For LIVE
@@ -86,7 +86,7 @@ jobs:
           then
           echo "RELEASE_TITLE_PTU=${{ vars.RELEASE_TITLE_PTU }}" >> $GITHUB_OUTPUT
           else
-          echo "RELEASE_TITLE_PTU=Star Citizen $(git log -1 --pretty=%s -- ptu/global.ini | cut -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
+          echo "RELEASE_TITLE_PTU=Star Citizen $(git log -1 --pretty=%s -- ptu/global.ini | cut -s -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
           fi
 
       - name: Show Release Title For PTU
