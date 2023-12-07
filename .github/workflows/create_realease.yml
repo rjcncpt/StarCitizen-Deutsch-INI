@@ -39,7 +39,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get New Commits On LIVE # counts the commits to live/global.ini during the last 24 hours
+      - name: Count New Commits On LIVE # counts the commits to live/global.ini during the last 24 hours
         id: new_commits_live
         run: echo "NEW_COMMIT_COUNT_LIVE=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_OUTPUT
 
@@ -47,7 +47,7 @@ jobs:
         id: show_new_commits_live
         run: echo ${{ steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE }}
 
-      - name: Get New Commits On PTU
+      - name: Count New Commits On PTU
         id: new_commits_ptu
         run: echo "NEW_COMMIT_COUNT_PTU=$(git log --oneline --since '24 hours ago' -- ptu/global.ini | wc -l)" >> $GITHUB_OUTPUT
 
@@ -63,7 +63,7 @@ jobs:
         id: show_date
         run: echo ${{ steps.date.outputs.DATE }}
 
-      - name: Get Release Title For LIVE
+      - name: Create Release Title For LIVE
         id: title_live # creates a title for the release that shows the version number used in the title of the last commit that changed the live/global.ini
         if: steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE > 0
         run: |
@@ -78,7 +78,7 @@ jobs:
         id: show_title_live
         run: echo ${{ steps.title_live.outputs.RELEASE_TITLE_LIVE }}
 
-      - name: Get Release Title For PTU
+      - name: Create Release Title For PTU
         id: title_ptu # creates a title for the release that shows the version number used in the title of the last commit that changed the ptu/global.ini
         if: steps.new_commits_ptu.outputs.NEW_COMMIT_COUNT_PTU > 0
         run: |
@@ -104,7 +104,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Create Zip For LIVE
+      - name: Create ZIP For LIVE
         run: |
           sudo timedatectl set-timezone Europe/Berlin
           mkdir release
@@ -135,7 +135,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Create Zip For PTU
+      - name: Create ZIP For PTU
         run: |
           sudo timedatectl set-timezone Europe/Berlin
           mkdir release
