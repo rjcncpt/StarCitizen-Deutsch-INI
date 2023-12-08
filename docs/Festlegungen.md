@@ -57,6 +57,7 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
 |:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
 | `First Blood`                        | `Erster Kill`                                  |                                                                                   |                             |
+| `Blue-on-blue`                       | `Friendly Fire`                                |                                                                                   |                             |
 | `Friendly down`                      | `Verbündeter am Boden`                         |                                                                                   |                             |
 | `We lost a friendly`                 | `Verbündeten verloren`                         |                                                                                   |                             |
 | `Check your fire. Friendly.`         | `Feuer einstellen. Verbündeter!`               |                                                                                   |                             |
