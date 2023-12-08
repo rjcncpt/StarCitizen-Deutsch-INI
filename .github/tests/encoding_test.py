@@ -1,7 +1,7 @@
 import os
 import chardet
 
-filename_eng="en/global.ini"
+filename_eng="en/live/global.ini"
 filename_ger="live/global.ini"
 
 def getType(file):
