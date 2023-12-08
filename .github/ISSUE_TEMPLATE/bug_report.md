@@ -1,8 +1,8 @@
 ---
-name: Fehler melden
-about: Erstelle eine Meldung über eine falsche Übersetzung
+name: Fehlermeldung
+about: Erstelle eine Fehlermeldung über eine falsche oder verbeserungswürdige Übersetzung.
 title: ""
-labels: bug
+labels: Fehler
 assignees: ""
 ---
 
@@ -10,18 +10,18 @@ assignees: ""
 Zum Beispiel: ASOP-Terminal, Mobiglas, Interaktionen
 
 ### Beschreibe den Fehler
-Was ist die aktuelle Übersetzung?
+Wie lautet die aktuelle Übersetzung?
 
 ### Erwartete Übersetzung
 Was erwartest Du anstatt der aktuellen Übersetzung?
 
 ### Screenshots
-Wenn möglich, füge Screenshots ein, damit wir direkt den Fehler sehen.
+Wenn möglich, füge Screenshots ein, damit wir den Fehler direkt sehen und einordnen können.
 
 ### Version
-- Channel: [e.g. LIVE, PTU, EPTU, TECH-PREVIEW]
-- Version: [e.g. 3.21.1]
-- Build: [e.g. 8854374]
+- Channel: [z.B. LIVE, PTU, EPTU, HOTFIX, TECH-PREVIEW]
+- Version: [z.B. 3.21.1]
+- Build: [z.B. 8854374]
 
 ### Zusätzlicher Kontext
-Jegliche weitere Informationen die uns helfen können den Zusammenhang zu verstehen.
+Jegliche weitere Informationen die uns helfen können den Kontext zu verstehen.
