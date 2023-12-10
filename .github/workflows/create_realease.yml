@@ -10,6 +10,7 @@
 # 5. create the zip
 # 6. create the release
 
+name: Create Releases
 on:
   workflow_dispatch: # used only to manually trigger the workflow from the GitHub website
     inputs:
@@ -18,47 +19,53 @@ on:
         type: string
   schedule:
     - cron: "0 3 * * *"
-
-name: Create Releases
-
 jobs:
   get_context_info:
+    name: Get Context Info
     runs-on: ubuntu-latest
     outputs:
-      NEW_COMMIT_COUNT_LIVE: ${{steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE}}
-      NEW_COMMIT_COUNT_PTU: ${{steps.new_commits_ptu.outputs.NEW_COMMIT_COUNT_PTU}}
-      DATE: ${{steps.date.outputs.DATE}}
-      RELEASE_TITLE_LIVE: ${{steps.title_live.outputs.RELEASE_TITLE_LIVE}}
-      RELEASE_TITLE_PTU: ${{steps.title_ptu.outputs.RELEASE_TITLE_PTU}}
+      DATE: ${{ steps.date.outputs.DATE }}
+      DATE_REV: ${{ steps.date_rev.outputs.DATE_REV }}
+      TIME: ${{ steps.time.outputs.TIME }}
+      NEW_COMMIT_COUNT_LIVE: ${{ steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE }}
+      NEW_COMMIT_COUNT_PTU: ${{ steps.new_commits_ptu.outputs.NEW_COMMIT_COUNT_PTU }}
+      COMMIT_LIVE: ${{ steps.commit_live.outputs.COMMIT_LIVE }}
+      COMMIT_PTU: ${{ steps.commit_ptu.outputs.COMMIT_PTU }}
+      RELEASE_TITLE_LIVE: ${{ steps.title_live.outputs.RELEASE_TITLE_LIVE }}
+      RELEASE_TITLE_PTU: ${{ steps.title_ptu.outputs.RELEASE_TITLE_PTU }}
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Count New Commits On LIVE # counts the commits to live/global.ini during the last 24 hours
-        id: new_commits_live
-        run: echo "NEW_COMMIT_COUNT_LIVE=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_OUTPUT
-
-      - name: Show New Commits On LIVE # counts the commits to live/global.ini during the last 24 hours
-        id: show_new_commits_live
-        run: echo ${{ steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE }}
-
-      - name: Count New Commits On PTU
-        id: new_commits_ptu
-        run: echo "NEW_COMMIT_COUNT_PTU=$(git log --oneline --since '24 hours ago' -- ptu/global.ini | wc -l)" >> $GITHUB_OUTPUT
-
-      - name: Show New Commits On PTU
-        id: show_new_commits_ptu
-        run: echo ${{ steps.new_commits_ptu.outputs.NEW_COMMIT_COUNT_PTU }}
 
       - name: Get Date
         id: date
         run: echo "DATE=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
 
-      - name: Show Date
-        id: show_date
-        run: echo ${{ steps.date.outputs.DATE }}
+      - name: Get Date Reverse
+        id: date_rev
+        run: echo "DATE_REV=$(date '+%y.%m.%d')" >> $GITHUB_OUTPUT
+
+      - name: Get Time
+        id: time
+        run: echo "TIME=$(date '+%H:%M')" >> $GITHUB_OUTPUT
+
+      - name: Count New Commits On LIVE # counts the commits to live/global.ini during the last 24 hours
+        id: new_commits_live
+        run: echo "NEW_COMMIT_COUNT_LIVE=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_OUTPUT
+
+      - name: Count New Commits On PTU # counts the commits to ptu/global.ini during the last 24 hours
+        id: new_commits_ptu
+        run: echo "NEW_COMMIT_COUNT_PTU=$(git log --oneline --since '24 hours ago' -- ptu/global.ini | wc -l)" >> $GITHUB_OUTPUT
+
+      - name: Get Commit On LIVE
+        id: commit_live
+        run: echo "COMMIT_LIVE=$(git log --pretty=format:'%H' -n 1 --since '24 hours ago' -- live/global.ini)" >> $GITHUB_OUTPUT
+
+      - name: Get Commit On PTU
+        id: commit_ptu
+        run: echo "COMMIT_PTU=$(git log --pretty=format:'%H' -n 1 --since '24 hours ago' -- ptu/global.ini)" >> $GITHUB_OUTPUT
 
       - name: Create Release Title For LIVE
         id: title_live # creates a title for the release that shows the version number used in the title of the last commit that changed the live/global.ini
@@ -71,10 +78,6 @@ jobs:
           echo "RELEASE_TITLE_LIVE=Star Citizen $(git log -1 --pretty=%s -- live/global.ini | cut -s -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
           fi
 
-      - name: Show Release Title For LIVE
-        id: show_title_live
-        run: echo ${{ steps.title_live.outputs.RELEASE_TITLE_LIVE }}
-
       - name: Create Release Title For PTU
         id: title_ptu # creates a title for the release that shows the version number used in the title of the last commit that changed the ptu/global.ini
         if: steps.new_commits_ptu.outputs.NEW_COMMIT_COUNT_PTU > 0
@@ -86,9 +89,18 @@ jobs:
           echo "RELEASE_TITLE_PTU=Star Citizen $(git log -1 --pretty=%s -- ptu/global.ini | cut -s -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
           fi
 
-      - name: Show Release Title For PTU
-        id: show_title_ptu
-        run: echo ${{ steps.title_ptu.outputs.RELEASE_TITLE_PTU }}
+      - name: Show Variables
+        id: show_variable
+        run: |
+          echo "Date: ${{ steps.date.outputs.DATE }}"
+          echo "Date Reverse: ${{ steps.date_rev.outputs.DATE_REV }}"
+          echo "Time: ${{ steps.time.outputs.TIME }}"
+          echo "New Commits On LIVE: ${{ steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE }}"
+          echo "New Commits On PTU: ${{ steps.new_commits_ptu.outputs.NEW_COMMIT_COUNT_PTU }}"
+          echo "Commit On LIVE: ${{ steps.commit_live.outputs.COMMIT_LIVE }}"
+          echo "Commit On PTU: ${{ steps.commit_ptu.outputs.COMMIT_PTU }}"
+          echo "Release Title LIVE: ${{ steps.title_live.outputs.RELEASE_TITLE_LIVE }}"
+          echo "Release Title PTU: ${{ steps.title_ptu.outputs.RELEASE_TITLE_PTU }}"
 
   live_release: # runs only when live/global.ini was changed in the last 24 hours
     name: Create LIVE Release
@@ -99,7 +111,9 @@ jobs:
       contents: write
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.get_context_info.outputs.COMMIT_LIVE }}
 
       - name: Create ZIP For LIVE
         run: |
@@ -109,14 +123,15 @@ jobs:
           mkdir -p "release/data/Localization/german_(germany)"
           cp "live/global.ini" "release/data/Localization/german_(germany)/"
           cd release
-          echo "${{ vars.VERSION_FILE_TEXT_LIVE }} ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }} $(date '+%d.%m.%y - %H:%M Uhr')" >> Version.txt
+          echo "${{ vars.VERSION_FILE_TEXT_LIVE }} ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }} ${{ needs.get_context_info.outputs.DATE }} - ${{ needs.get_context_info.outputs.TIME }} Uhr" >> Version.txt
           zip -r -9 "../${{ vars.ZIP_NAME_LIVE }}" *
 
       - name: Create Release For LIVE
         uses: ncipollo/release-action@v1
         with:
-          tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE }}-LIVE
-          commit: main
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+          tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE_REV }}-LIVE
+          commit: ${{ needs.get_context_info.outputs.COMMIT_LIVE }}
           name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }}
           body: ${{ vars.RELEASE_BODY_LIVE }}
           artifacts: ${{ vars.ZIP_NAME_LIVE }}
@@ -125,12 +140,14 @@ jobs:
     name: Create PTU Release
     runs-on: ubuntu-latest
     needs: [get_context_info, live_release]
-    if: always() && vars.TRIGGER_PTU_RELEASE == 1 && (needs.get_context_info.outputs.NEW_COMMIT_COUNT_PTU > 0)
+    if: always() && (vars.TRIGGER_PTU_RELEASE == 1) && (needs.get_context_info.outputs.NEW_COMMIT_COUNT_PTU > 0)
     permissions:
       contents: write
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.get_context_info.outputs.COMMIT_PTU }}
 
       - name: Create ZIP For PTU
         run: |
@@ -140,14 +157,15 @@ jobs:
           mkdir -p "release/data/Localization/german_(germany)"
           cp "ptu/global.ini" "release/data/Localization/german_(germany)/"
           cd release
-          echo "${{ vars.VERSION_FILE_TEXT_PTU }} ${{ needs.get_context_info.outputs.RELEASE_TITLE_PTU }} $(date '+%d.%m.%y - %H:%M Uhr')" >> Version.txt
+          echo "${{ vars.VERSION_FILE_TEXT_PTU }} ${{ needs.get_context_info.outputs.RELEASE_TITLE_PTU }} ${{ needs.get_context_info.outputs.DATE }} - ${{ needs.get_context_info.outputs.TIME }} Uhr" >> Version.txt
           zip -r -9 "../${{ vars.ZIP_NAME_PTU }}" *
 
       - name: Create Release For PTU
         uses: ncipollo/release-action@v1
         with:
-          tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE }}-PTU
-          commit: main
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+          tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE_REV }}-PTU
+          commit: ${{ needs.get_context_info.outputs.COMMIT_PTU }}
           name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_PTU }}
           body: ${{ vars.RELEASE_BODY_PTU }}
           artifacts: ${{ vars.ZIP_NAME_PTU }}
