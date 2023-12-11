@@ -39,6 +39,10 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set Timezone
+        id: timezone
+        run: sudo timedatectl set-timezone Europe/Berlin
+
       - name: Get Date
         id: date
         run: echo "DATE=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
