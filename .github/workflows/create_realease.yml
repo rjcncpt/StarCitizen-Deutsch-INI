@@ -159,7 +159,7 @@ jobs:
           tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE_REV }}-LIVE
           commit: ${{ needs.get_context_info.outputs.COMMIT_LIVE }}
           name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }}
-          body: ${{ vars.RELEASE_BODY_LIVE }} ${{ needs.get_context_info.outputs.LINK_LIVE }}
+          body: ${{ vars.RELEASE_BODY_LIVE }} [Änderungen zum letzten Release](${{ needs.get_context_info.outputs.LINK_LIVE }})
           artifacts: ${{ vars.ZIP_NAME_LIVE }}
 
   ptu_release: # runs only when ptu/global.ini was changed in the last 24 hours
@@ -193,6 +193,6 @@ jobs:
           tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE_REV }}-PTU
           commit: ${{ needs.get_context_info.outputs.COMMIT_PTU }}
           name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_PTU }}
-          body: ${{ vars.RELEASE_BODY_PTU }} ${{ needs.get_context_info.outputs.LINK_PTU }}
+          body: ${{ vars.RELEASE_BODY_PTU }} [Änderungen zum letzten Release](${{ needs.get_context_info.outputs.LINK_PTU }})
           artifacts: ${{ vars.ZIP_NAME_PTU }}
           makeLatest: true
