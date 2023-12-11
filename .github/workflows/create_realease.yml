@@ -33,11 +33,17 @@ jobs:
       COMMIT_PTU: ${{ steps.commit_ptu.outputs.COMMIT_PTU }}
       RELEASE_TITLE_LIVE: ${{ steps.title_live.outputs.RELEASE_TITLE_LIVE }}
       RELEASE_TITLE_PTU: ${{ steps.title_ptu.outputs.RELEASE_TITLE_PTU }}
+      LINK_LIVE: ${{ steps.link_live.outputs.LINK_LIVE }}
+      LINK_PTU: ${{ steps.link_ptu.outputs.LINK_PTU }}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Set Timezone
+        id: timezone
+        run: sudo timedatectl set-timezone Europe/Berlin
 
       - name: Get Date
         id: date
@@ -89,6 +95,22 @@ jobs:
           echo "RELEASE_TITLE_PTU=Star Citizen $(git log -1 --pretty=%s -- ptu/global.ini | cut -s -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
           fi
 
+      - name: Get Last Tag On LIVE
+        id: tag_live
+        run: echo "TAG_LIVE=$(git tag --list '*-LIVE' | tail -1)" >> $GITHUB_OUTPUT
+
+      - name: Get Last Tag On PTU
+        id: tag_PTU
+        run: echo "TAG_PTU=$(git tag --list '*-PTU' | tail -1)" >> $GITHUB_OUTPUT
+
+      - name: Create Compare Link For LIVE
+        id: link_live
+        run: echo "LINK_LIVE=https://github.com/${{ github.repository }}/compare/${{ steps.tag_live.outputs.TAG_LIVE }}...${{ steps.date_rev.outputs.DATE_REV }}-LIVE" >> $GITHUB_OUTPUT
+
+      - name: Create Compare Link For PTU
+        id: link_ptu
+        run: echo "LINK_PTU=https://github.com/${{ github.repository }}/compare/${{ steps.tag_PTU.outputs.TAG_PTU }}...${{ steps.date_rev.outputs.DATE_REV }}-PTU" >> $GITHUB_OUTPUT
+
       - name: Show Variables
         id: show_variable
         run: |
@@ -101,6 +123,10 @@ jobs:
           echo "Commit On PTU: ${{ steps.commit_ptu.outputs.COMMIT_PTU }}"
           echo "Release Title LIVE: ${{ steps.title_live.outputs.RELEASE_TITLE_LIVE }}"
           echo "Release Title PTU: ${{ steps.title_ptu.outputs.RELEASE_TITLE_PTU }}"
+          echo "Last Tag on LIVE: ${{ steps.tag_live.outputs.TAG_LIVE }}"
+          echo "Last Tag on PTU: ${{ steps.tag_PTU.outputs.TAG_PTU }}"
+          echo "Changelog Link for LIVE: ${{ steps.link_live.outputs.LINK_LIVE }}"
+          echo "Changelog Link for PTU: ${{ steps.link_ptu.outputs.LINK_PTU }}"
 
   live_release: # runs only when live/global.ini was changed in the last 24 hours
     name: Create LIVE Release
@@ -133,7 +159,7 @@ jobs:
           tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE_REV }}-LIVE
           commit: ${{ needs.get_context_info.outputs.COMMIT_LIVE }}
           name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }}
-          body: ${{ vars.RELEASE_BODY_LIVE }}
+          body: ${{ vars.RELEASE_BODY_LIVE }}(${{ needs.get_context_info.outputs.LINK_LIVE }})
           artifacts: ${{ vars.ZIP_NAME_LIVE }}
 
   ptu_release: # runs only when ptu/global.ini was changed in the last 24 hours
@@ -167,6 +193,6 @@ jobs:
           tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE_REV }}-PTU
           commit: ${{ needs.get_context_info.outputs.COMMIT_PTU }}
           name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_PTU }}
-          body: ${{ vars.RELEASE_BODY_PTU }}
+          body: ${{ vars.RELEASE_BODY_PTU }}(${{ needs.get_context_info.outputs.LINK_PTU }})
           artifacts: ${{ vars.ZIP_NAME_PTU }}
           makeLatest: true
