@@ -68,12 +68,12 @@ Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tes
 
 ### Das Team
 
-| Team                                        | Fokus Position       | Beschreibung                               |
+| Team Name                                   | Position             | Aufgaben                                   |
 |:--------------------------------------------|:---------------------|:-------------------------------------------|
 | [rjcncpt](https://github.com/rjcncpt)       | `Ansprechparter`     | Übersetzungen & GitHub                     |
 | [MaxM1211](https://github.com/MaxM1211)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing       |
-| [greluc](https://github.com/greluc)         | `Übersetzer`         | Übersetzungen (spez. militärisch) & GitHub |
-| [Norinofu](https://github.com/Norinofu)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing       |
+| [greluc](https://github.com/greluc)         | `Übersetzer`         | Übersetzungen, GitHub                      |
+| [Norinofu](https://github.com/Norinofu)     | `Dev & Bugfixing`    | Korrekturen, GitHub                        |
 | [Drakonhawk](https://github.com/Drakonhawk) | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing                    |
 | Boy7                                        | `Dev & Bugfixing`    | Übersetzungen, Dev & Bugfixing             |
 | Hikaruhoshi1                                | `Übersetzer`         | Übersetzungen                              |
