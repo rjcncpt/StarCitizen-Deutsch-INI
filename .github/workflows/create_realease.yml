@@ -97,11 +97,11 @@ jobs:
 
       - name: Get Last Tag On LIVE
         id: tag_live
-        run: echo "TAG_LIVE=$(git tag --list '*-LIVE' | tail -1)" >> $GITHUB_OUTPUT
+        run: echo "TAG_LIVE=$(git tag --sort=creatordate --list '*-LIVE' | tail -1)" >> $GITHUB_OUTPUT
 
       - name: Get Last Tag On PTU
         id: tag_PTU
-        run: echo "TAG_PTU=$(git tag --list '*-PTU' | tail -1)" >> $GITHUB_OUTPUT
+        run: echo "TAG_PTU=$(git tag --sort=creatordate --list '*-PTU' | tail -1)" >> $GITHUB_OUTPUT
 
       - name: Create Compare Link For LIVE
         id: link_live
