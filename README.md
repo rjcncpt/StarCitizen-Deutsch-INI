@@ -37,7 +37,7 @@ In der ZIP Datei befindet sich die **`global.ini`** und die **`user.cfg`** Datei
 
 #### Installation
 
-![image](https://i.imgur.com/QdOLiAy.png)
+![image](https://i.imgur.com/USRwGWM.png)
 
 1. Lade dir die **`StarCitizen.Deutsch.LIVE.zip`** oder **`StarCitizen.Deutsch.PTU.zip`** herunter
 2. Entpacke diese
