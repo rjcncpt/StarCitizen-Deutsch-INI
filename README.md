@@ -46,17 +46,19 @@ In der ZIP Datei befindet sich die **`global.ini`** und die **`user.cfg`** Datei
 
 Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)**, wenn du nicht immer die Zip-Datei herunterladen möchtest. Auch ist diese Datei immer auf einem aktuelleren Stand als die Release Datei.
 <br/><br/>
+
+- LIVE Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** und die `global.ini` Datei für LIVE öffnen
+- PTU Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/ptu/global.ini)** und die `global.ini` Datei für PTU öffnen
+- Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.<br/><br/>
+
 ![image](https://i.imgur.com/jTabj3V.png)
 <br/>
 
 #### Wohin muss die global.ini Datei?
 
-1. LIVE Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** und die `global.ini` Datei für LIVE öffnen
-1. PTU Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/ptu/global.ini)** und die `global.ini` Datei für PTU öffnen
-2. Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.
-3. Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
+- Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
 **`\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`**
-4. speichere ggf. die `user.cfg` in den LIVE oder PTU Ordner:<br/>
+- speichere ggf. die `user.cfg` in den LIVE oder PTU Ordner:<br/>
 **`\ Roberts Space Industries \ StarCitizen \ LIVE \`**<br/>
 **`\ Roberts Space Industries \ StarCitizen \ PTU \`**
 <br/><br/><br/><br/>
