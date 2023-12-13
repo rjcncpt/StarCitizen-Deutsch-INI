@@ -57,7 +57,9 @@ Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://githu
 #### Wohin muss die global.ini Datei?
 
 - Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
-**`\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`**
+**`\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`**<br/>
+**`\ Roberts Space Industries \ StarCitizen \ PTU \ data \ Localization \ german_(germany) \ global.ini`**
+
 - speichere ggf. die `user.cfg` in den LIVE oder PTU Ordner:<br/>
 **`\ Roberts Space Industries \ StarCitizen \ LIVE \`**<br/>
 **`\ Roberts Space Industries \ StarCitizen \ PTU \`**
