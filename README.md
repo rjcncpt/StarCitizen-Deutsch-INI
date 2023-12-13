@@ -2,7 +2,7 @@
 
 ### Willkommen zu unserer deutschen Lokalisierung für Star Citizen (inkl. Umlaute)
 
-**Diese Lokalisierung ist ein Gemeinschaftsprojekt und wird sich in vielen Bereichen unterscheiden. Es ist eine große Herausforderung, die englischen Begriffe ins verständliche Deutsch zu übertragen. Oft können wir keine 1:1-Übersetzung verwenden, da einige englische Begriffe in der deutschen Sprache mehrere Bedeutungen haben.**
+**Diese Lokalisierung ist ein Gemeinschaftsprojekt. Es ist eine große Herausforderung, die englischen Begriffe ins verständliche Deutsch zu übertragen. Oft können wir keine 1:1-Übersetzung verwenden, da einige englische Begriffe in der deutschen Sprache mehrere Bedeutungen haben.**
 <br/>
 
 ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?label=3.21%20LIVE) <!-- -->![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?label=3.22%20PTU) ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?label=Preview%20Channel) <br/>
