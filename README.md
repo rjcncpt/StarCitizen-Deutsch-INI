@@ -5,7 +5,7 @@
 **Diese Lokalisierung ist ein Gemeinschaftsprojekt. Es ist eine große Herausforderung, die englischen Begriffe in ein verständliches Deutsch zu übertragen. Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne unser [Formular für einen Fehlerbericht verwenden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=).**
 <br/><br/>
 
-![Static Badge](https://img.shields.io/badge/LIVE/PTU-%234cc71e?style=for-the-badge&label=3.22%20) <!-- ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?style=for-the-badge&label=3.22%20PTU)--> ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&label=Preview%20Channel) <br/>
+![Static Badge](https://img.shields.io/badge/LIVE-%234cc71e?style=for-the-badge&label=3.22.0%20) ![Static Badge](https://img.shields.io/badge/PTU-%234cc71e?style=for-the-badge&label=3.22.0%20) <!-- ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?style=for-the-badge&label=3.22%20PTU)--> ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&label=Preview%20Channel) <br/>
 ![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total?style=for-the-badge&)
 
 <br/>
@@ -16,7 +16,7 @@
 - **[Nur die global.ini herunterladen](#direktdownload-der-globalini)**
 - **[Preview/Test Channels](#previewtest-channels)**
 - **[Das Team](#das-team)**
-- **[Troubleshooting](#troubleshooting)**
+- **[Bekannte Fehler](#bekannte-fehler)**
   <br/><br/>
 
 Die **`global.ini`** ist ein Work In Progress (WIP) Projekt. Unsere Veröffentlichungen werden stets im Spiel getestet, aber dennoch können wir keine 100%ige Funktionalität garantieren. Es wird eine beträchtliche Zeit dauern, bis wir alle Texte von über 70000 Zeilen übersetzt und überprüft haben.
@@ -102,7 +102,7 @@ Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tes
 
 <br/><br/>
 
-### Troubleshooting
+### Bekannte Fehler
 
 <details>
 <summary>[Klick] Fehler: Es werden kryptische Variablen mit @-Zeichen am Anfang angezeigt</summary>
