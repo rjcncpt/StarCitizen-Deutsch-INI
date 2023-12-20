@@ -27,14 +27,14 @@ jobs:
       DATE: ${{ steps.date.outputs.DATE }}
       DATE_REV: ${{ steps.date_rev.outputs.DATE_REV }}
       TIME: ${{ steps.time.outputs.TIME }}
-      NEW_COMMIT_COUNT_LIVE: ${{ steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE }}
       NEW_COMMIT_COUNT_PTU: ${{ steps.new_commits_ptu.outputs.NEW_COMMIT_COUNT_PTU }}
-      COMMIT_LIVE: ${{ steps.commit_live.outputs.COMMIT_LIVE }}
+      NEW_COMMIT_COUNT_LIVE: ${{ steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE }}
       COMMIT_PTU: ${{ steps.commit_ptu.outputs.COMMIT_PTU }}
-      RELEASE_TITLE_LIVE: ${{ steps.title_live.outputs.RELEASE_TITLE_LIVE }}
+      COMMIT_LIVE: ${{ steps.commit_live.outputs.COMMIT_LIVE }}
       RELEASE_TITLE_PTU: ${{ steps.title_ptu.outputs.RELEASE_TITLE_PTU }}
-      LINK_LIVE: ${{ steps.link_live.outputs.LINK_LIVE }}
+      RELEASE_TITLE_LIVE: ${{ steps.title_live.outputs.RELEASE_TITLE_LIVE }}
       LINK_PTU: ${{ steps.link_ptu.outputs.LINK_PTU }}
+      LINK_LIVE: ${{ steps.link_live.outputs.LINK_LIVE }}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -57,32 +57,21 @@ jobs:
         id: time
         run: echo "TIME=$(date '+%H:%M')" >> $GITHUB_OUTPUT
 
-      - name: Count New Commits On LIVE # counts the commits to live/global.ini during the last 24 hours
-        id: new_commits_live
-        run: echo "NEW_COMMIT_COUNT_LIVE=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_OUTPUT
-
       - name: Count New Commits On PTU # counts the commits to ptu/global.ini during the last 24 hours
         id: new_commits_ptu
         run: echo "NEW_COMMIT_COUNT_PTU=$(git log --oneline --since '24 hours ago' -- ptu/global.ini | wc -l)" >> $GITHUB_OUTPUT
 
-      - name: Get Commit On LIVE
-        id: commit_live
-        run: echo "COMMIT_LIVE=$(git log --pretty=format:'%H' -n 1 --since '24 hours ago' -- live/global.ini)" >> $GITHUB_OUTPUT
+      - name: Count New Commits On LIVE # counts the commits to live/global.ini during the last 24 hours
+        id: new_commits_live
+        run: echo "NEW_COMMIT_COUNT_LIVE=$(git log --oneline --since '24 hours ago' -- live/global.ini | wc -l)" >> $GITHUB_OUTPUT
 
       - name: Get Commit On PTU
         id: commit_ptu
         run: echo "COMMIT_PTU=$(git log --pretty=format:'%H' -n 1 --since '24 hours ago' -- ptu/global.ini)" >> $GITHUB_OUTPUT
 
-      - name: Create Release Title For LIVE
-        id: title_live # creates a title for the release that shows the version number used in the title of the last commit that changed the live/global.ini
-        if: steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE > 0
-        run: |
-          if [$(git log -1 --pretty=%s -- live/global.ini | grep "|") == ""]
-          then
-          echo "RELEASE_TITLE_LIVE=${{ vars.RELEASE_TITLE_LIVE }}" >> $GITHUB_OUTPUT
-          else
-          echo "RELEASE_TITLE_LIVE=$(git log -1 --pretty=%s -- live/global.ini | cut -s -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
-          fi
+      - name: Get Commit On LIVE
+        id: commit_live
+        run: echo "COMMIT_LIVE=$(git log --pretty=format:'%H' -n 1 --since '24 hours ago' -- live/global.ini)" >> $GITHUB_OUTPUT
 
       - name: Create Release Title For PTU
         id: title_ptu # creates a title for the release that shows the version number used in the title of the last commit that changed the ptu/global.ini
@@ -95,21 +84,32 @@ jobs:
           echo "RELEASE_TITLE_PTU=$(git log -1 --pretty=%s -- ptu/global.ini | cut -s -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
           fi
 
-      - name: Get Last Tag On LIVE
-        id: tag_live
-        run: echo "TAG_LIVE=$(git tag --sort=creatordate --list '*-LIVE' | tail -1)" >> $GITHUB_OUTPUT
+      - name: Create Release Title For LIVE
+        id: title_live # creates a title for the release that shows the version number used in the title of the last commit that changed the live/global.ini
+        if: steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE > 0
+        run: |
+          if [$(git log -1 --pretty=%s -- live/global.ini | grep "|") == ""]
+          then
+          echo "RELEASE_TITLE_LIVE=${{ vars.RELEASE_TITLE_LIVE }}" >> $GITHUB_OUTPUT
+          else
+          echo "RELEASE_TITLE_LIVE=$(git log -1 --pretty=%s -- live/global.ini | cut -s -d'|' -f1 | rev | cut -c 2- | rev) [de]" >> $GITHUB_OUTPUT
+          fi
 
       - name: Get Last Tag On PTU
         id: tag_PTU
         run: echo "TAG_PTU=$(git tag --sort=creatordate --list '*-PTU' | tail -1)" >> $GITHUB_OUTPUT
 
-      - name: Create Compare Link For LIVE
-        id: link_live
-        run: echo "LINK_LIVE=https://github.com/${{ github.repository }}/compare/${{ steps.tag_live.outputs.TAG_LIVE }}...${{ steps.date_rev.outputs.DATE_REV }}-LIVE" >> $GITHUB_OUTPUT
+      - name: Get Last Tag On LIVE
+        id: tag_live
+        run: echo "TAG_LIVE=$(git tag --sort=creatordate --list '*-LIVE' | tail -1)" >> $GITHUB_OUTPUT
 
       - name: Create Compare Link For PTU
         id: link_ptu
         run: echo "LINK_PTU=https://github.com/${{ github.repository }}/compare/${{ steps.tag_PTU.outputs.TAG_PTU }}...${{ steps.date_rev.outputs.DATE_REV }}-PTU" >> $GITHUB_OUTPUT
+
+      - name: Create Compare Link For LIVE
+        id: link_live
+        run: echo "LINK_LIVE=https://github.com/${{ github.repository }}/compare/${{ steps.tag_live.outputs.TAG_LIVE }}...${{ steps.date_rev.outputs.DATE_REV }}-LIVE" >> $GITHUB_OUTPUT
 
       - name: Show Variables
         id: show_variable
@@ -127,40 +127,6 @@ jobs:
           echo "Last Tag on PTU: ${{ steps.tag_PTU.outputs.TAG_PTU }}"
           echo "Changelog Link for LIVE: ${{ steps.link_live.outputs.LINK_LIVE }}"
           echo "Changelog Link for PTU: ${{ steps.link_ptu.outputs.LINK_PTU }}"
-
-  live_release: # runs only when live/global.ini was changed in the last 24 hours
-    name: Create LIVE Release
-    runs-on: ubuntu-latest
-    needs: get_context_info
-    if: needs.get_context_info.outputs.NEW_COMMIT_COUNT_LIVE > 0
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ needs.get_context_info.outputs.COMMIT_LIVE }}
-
-      - name: Create ZIP For LIVE
-        run: |
-          sudo timedatectl set-timezone Europe/Berlin
-          mkdir release
-          cp "live/user.cfg" "release"
-          mkdir -p "release/data/Localization/german_(germany)"
-          cp "live/global.ini" "release/data/Localization/german_(germany)/"
-          cd release
-          echo "${{ vars.VERSION_FILE_TEXT_LIVE }} ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }} ${{ needs.get_context_info.outputs.DATE }} - ${{ needs.get_context_info.outputs.TIME }} Uhr" >> Version.txt
-          zip -r -9 "../${{ vars.ZIP_NAME_LIVE }}" *
-
-      - name: Create Release For LIVE
-        uses: ncipollo/release-action@v1
-        with:
-          token: ${{ secrets.WORKFLOW_TOKEN }}
-          tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE_REV }}-LIVE
-          commit: ${{ needs.get_context_info.outputs.COMMIT_LIVE }}
-          name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }}
-          body: ${{ vars.RELEASE_BODY_LIVE }}(${{ needs.get_context_info.outputs.LINK_LIVE }})
-          artifacts: ${{ vars.ZIP_NAME_LIVE }}
 
   ptu_release: # runs only when ptu/global.ini was changed in the last 24 hours
     name: Create PTU Release
@@ -195,4 +161,38 @@ jobs:
           name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_PTU }}
           body: ${{ vars.RELEASE_BODY_PTU }}(${{ needs.get_context_info.outputs.LINK_PTU }})
           artifacts: ${{ vars.ZIP_NAME_PTU }}
+
+  live_release: # runs only when live/global.ini was changed in the last 24 hours
+    name: Create LIVE Release
+    runs-on: ubuntu-latest
+    needs: get_context_info
+    if: needs.get_context_info.outputs.NEW_COMMIT_COUNT_LIVE > 0
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.get_context_info.outputs.COMMIT_LIVE }}
+
+      - name: Create ZIP For LIVE
+        run: |
+          sudo timedatectl set-timezone Europe/Berlin
+          mkdir release
+          cp "live/user.cfg" "release"
+          mkdir -p "release/data/Localization/german_(germany)"
+          cp "live/global.ini" "release/data/Localization/german_(germany)/"
+          cd release
+          echo "${{ vars.VERSION_FILE_TEXT_LIVE }} ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }} ${{ needs.get_context_info.outputs.DATE }} - ${{ needs.get_context_info.outputs.TIME }} Uhr" >> Version.txt
+          zip -r -9 "../${{ vars.ZIP_NAME_LIVE }}" *
+
+      - name: Create Release For LIVE
+        uses: ncipollo/release-action@v1
+        with:
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+          tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE_REV }}-LIVE
+          commit: ${{ needs.get_context_info.outputs.COMMIT_LIVE }}
+          name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }}
+          body: ${{ vars.RELEASE_BODY_LIVE }}(${{ needs.get_context_info.outputs.LINK_LIVE }})
+          artifacts: ${{ vars.ZIP_NAME_LIVE }}
           makeLatest: true
