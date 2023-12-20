@@ -5,7 +5,7 @@
 **Diese Lokalisierung ist ein Gemeinschaftsprojekt. Es ist eine große Herausforderung, die englischen Begriffe in ein verständliches Deutsch zu übertragen. Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne unser [Formular für einen Fehlerbericht verwenden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=).**
 <br/><br/>
 
-![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?style=for-the-badge&label=3.22%20LIVE) <!-- ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?style=for-the-badge&label=3.22%20PTU)--> ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&label=Preview%20Channel) <br/>
+![Static Badge](https://img.shields.io/badge/LIVE/PTU-%234cc71e?style=for-the-badge&label=3.22%20) <!-- ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?style=for-the-badge&label=3.22%20PTU)--> ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&label=Preview%20Channel) <br/>
 ![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total?style=for-the-badge&)
 
 <br/>
