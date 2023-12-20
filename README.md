@@ -61,6 +61,8 @@ Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb m
 
 #### Wohin muss die global.ini Datei?
 
+![image](https://i.imgur.com/lM3jimv.png)
+
 - Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
 **`\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`**<br/>
 **`\ Roberts Space Industries \ StarCitizen \ PTU \ data \ Localization \ german_(germany) \ global.ini`**
