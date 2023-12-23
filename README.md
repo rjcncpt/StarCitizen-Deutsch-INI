@@ -3,7 +3,7 @@
 
 ### Willkommen zur deutschen Lokalisierung für Star Citizen LIVE und PTU (inkl. Umlaute)
 
-**Diese Lokalisierung ist ein Gemeinschaftsprojekt. Es ist eine große Herausforderung, die englischen Begriffe in ein verständliches Deutsch zu übertragen. Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne unser [Formular für einen Fehlerbericht verwenden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=).**
+**Diese Lokalisierung ist ein Gemeinschaftsprojekt. Es ist eine große Herausforderung, die englischen Begriffe in ein verständliches Deutsch zu übertragen. Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) und deinen Vorschlag posten.**
 <br/><br/>
 
 ![Static Badge](https://img.shields.io/badge/LIVE-%234cc71e?style=for-the-badge&label=3.22.0%20) ![Static Badge](https://img.shields.io/badge/PTU-%234cc71e?style=for-the-badge&label=3.22.0%20) <!-- ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?style=for-the-badge&label=3.22%20PTU)--> ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&label=Preview%20Channel) <br/>
