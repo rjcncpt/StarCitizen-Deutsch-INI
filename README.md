@@ -1,3 +1,4 @@
+![image](https://i.imgur.com/PZPQfG7.png)
 # 🇩🇪 [WIP] Star Citizen deutsche Lokalisierung (global.ini)
 
 ### Willkommen zur deutschen Lokalisierung für Star Citizen LIVE und PTU (inkl. Umlaute)
