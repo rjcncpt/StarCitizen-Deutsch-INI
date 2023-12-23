@@ -7,7 +7,7 @@
 <br/><br/>
 
 ![Static Badge](https://img.shields.io/badge/LIVE-%234cc71e?style=for-the-badge&label=3.22.0%20) ![Static Badge](https://img.shields.io/badge/PTU-%234cc71e?style=for-the-badge&label=3.22.0%20) <!-- ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?style=for-the-badge&label=3.22%20PTU)--> ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&label=Preview%20Channel) <br/>
-![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total?style=for-the-badge&)
+![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total?style=for-the-badge&)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)
 
 <br/>
 
