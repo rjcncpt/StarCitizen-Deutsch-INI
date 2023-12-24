@@ -3,7 +3,7 @@ Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher
 
 ### So gehts
 
-1. Lade dir eine der beiden oder beide Dateien herunter
+1. Lade dir die Datei(en) herunter
 2. Speichere die Datei(en) in den Spielordner
 3. Klicke mit der rechten Maustaste auf die Datei(en) und wähle `bearbeiten` aus
 4. Passe den Pfad zum Star Citizen (1) Sprachdatei Ordner an
