@@ -18,4 +18,4 @@ Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher
 2. Klicke mit der rechten Maustaste auf die Datei(en) und wähle `Eigenschaften` aus
 3. Wähle `Anderes Symbol` -> `Duchsuchen` und suche dir ein Icon aus
 
-Tipp: Navigiere zum Star Citizen Ordner um das SC Icon zu verwenden oder zum RSI Launcher Oder um das Launcher Icon zu verwenden
+Tipp: Verwende die Spiel-Icons. Navigiere zum Star Citizen Ordner um das SC Icon zu verwenden oder zum RSI Launcher um das Launcher Icon zu verwenden
