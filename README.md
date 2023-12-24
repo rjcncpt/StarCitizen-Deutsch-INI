@@ -15,6 +15,7 @@
 
 - **[Download als Zip-Datei](#download-als-zip-datei)**
 - **[Nur die global.ini herunterladen](#direktdownload-der-globalini)**
+- **[ini-Updater (bat Datei)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/updater)**
 - **[Preview/Test Channels](#previewtest-channels)**
 - **[Das Team](#das-team)**
 - **[Bekannte Fehler](#bekannte-fehler)**
