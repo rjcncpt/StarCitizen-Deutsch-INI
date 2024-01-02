@@ -1,4 +1,4 @@
-![image](https://i.imgur.com/WmLuYEu.jpg)
+[![image](https://i.imgur.com/SKVSbej.jpg)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
 
 # [WIP] Star Citizen deutsche Lokalisierung (global.ini)
 
