@@ -23,7 +23,7 @@ Tipp: Verwende die Spiel-Icons. Navigiere zum Star Citizen Ordner um das SC Icon
 
 # SC Launch Configurator
 
-**<p>Eine andere Möglichkeit unsere Übersetzungsdatei für Star Citizen zu verwenden mit automatischer Update-Funktion, bietet der kostenlose [SC Launch Configurator](https://www.luftwerft.com/) von Luftwerft.</p>**
+**<p>Eine andere Möglichkeit unsere Übersetzungsdatei für Star Citizen automatisch zu updaten, bietet der kostenlose [SC Launch Configurator](https://www.luftwerft.com/) von Luftwerft.</p>**
 
 ![image](https://www.luftwerft.com/images/sclc_en.png)
 
