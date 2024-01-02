@@ -1,4 +1,4 @@
-[![image](https://i.imgur.com/SKVSbej.jpg)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
+[![Star Citizen in Deutsch](https://i.imgur.com/SKVSbej.jpg)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
 
 # [WIP] Star Citizen deutsche Lokalisierung (global.ini)
 
@@ -41,7 +41,7 @@ In der ZIP Datei befindet sich die **`global.ini`** und die **`user.cfg`** Datei
 
 #### Installation
 
-![image](https://i.imgur.com/USRwGWM.png)
+[![Ordnerstruktur - Star Citizen in Deutsch](https://i.imgur.com/USRwGWM.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
 
 1. Lade dir die **`StarCitizen.Deutsch.LIVE.zip`** oder **`StarCitizen.Deutsch.PTU.zip`** herunter
 2. Entpacke diese
@@ -59,12 +59,12 @@ Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://githu
 
 Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.<br/><br/>
 
-![image](https://i.imgur.com/jTabj3V.png)
+[![ini Datei herunterladen - Star Citizen in Deutsch](https://i.imgur.com/jTabj3V.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
 <br/>
 
 #### Wohin muss die global.ini Datei?
 
-![image](https://i.imgur.com/lM3jimv.png)
+[![Pfadstruktur - Star Citizen in Deutsch](https://i.imgur.com/lM3jimv.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
 
 - Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
 **`\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`**<br/>
@@ -160,6 +160,8 @@ ___________
 
 <br/><br/>
 Salut and stay tuned!
+
+[![Made by the Community](https://i.imgur.com/2RWyGPJ.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
 
 <br/><br/><br/><br/>
 -------<br/>
