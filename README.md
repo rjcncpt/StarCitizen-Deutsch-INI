@@ -1,6 +1,6 @@
 [![Star Citizen in Deutsch](https://i.imgur.com/SKVSbej.jpg)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
 
-# [WIP] Star Citizen deutsche Lokalisierung (global.ini)
+# Star Citizen in Deutsch - Lokalisierung (global.ini)
 
 ### Willkommen zur deutschen Lokalisierung für Star Citizen LIVE und PTU (inkl. Umlaute)
 
