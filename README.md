@@ -1,4 +1,4 @@
-[![Star Citizen in Deutsch](https://i.imgur.com/SKVSbej.jpg)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
+[![Star Citizen in Deutsch](https://i.imgur.com/HMhrxcK.jpg)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
 
 # Star Citizen in Deutsch - Lokalisierung (global.ini)
 
