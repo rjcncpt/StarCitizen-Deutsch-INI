@@ -98,10 +98,11 @@ Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tes
 
 <br/>
 
-| Dankeschön       | Position   | Beschreibung                                                                                                                       |
-|:-----------------|:-----------|:-----------------------------------------------------------------------------------------------------------------------------------|
-| Claudia Fröhlich | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld Korrektur gelesen.                                                               |
-| Knebel Discord   |            | Ein großes Dankeschön geht an die vielen Einsender der **[Knebel Discord Community](https://discord.com/invite/knebel)** \*Invite-Link |
+| Dankeschön          | Position   | Beschreibung                                                                                                                           |
+|:--------------------|:-----------|:---------------------------------------------------------------------------------------------------------------------------------------|
+| Claudia Fröhlich    | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld Korrektur gelesen.                                                                   |
+| Knebel              |            | Ein großes Dankeschön geht an die vielen Einsender der **[Knebel Discord Community](https://discord.com/invite/knebel)** \*Invite-Link |
+| Die Loge/Karolinger |            | Danke für die Erwähnung in einem YouTube Guide **[Die Loge](https://www.youtube.com/@DieLoge) (Youtube)**                              |
 
 <br/><br/>
 
