@@ -1,4 +1,4 @@
-[![Star Citizen in Deutsch](https://i.imgur.com/HMhrxcK.jpg)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
+[![Star Citizen in Deutsch](https://i.imgur.com/HMhrxcK.jpg)](#)
 
 # Star Citizen in Deutsch - Lokalisierung (global.ini)
 
@@ -7,8 +7,8 @@
 **Diese Lokalisierung ist ein Gemeinschaftsprojekt. Es ist eine große Herausforderung, die englischen Begriffe in ein verständliches Deutsch zu übertragen. Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) und deinen Vorschlag posten.**
 <br/><br/>
 
-![Static Badge](https://img.shields.io/badge/LIVE-%234cc71e?style=for-the-badge&label=3.22.0%20) ![Static Badge](https://img.shields.io/badge/PTU-%234cc71e?style=for-the-badge&label=3.22.0%20) <!-- ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?style=for-the-badge&label=3.22%20PTU)--> ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&label=Preview%20Channel) <br/>
-![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total?style=for-the-badge&)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)
+[![Static Badge](https://img.shields.io/badge/BEREIT-%234cc71e?style=for-the-badge&label=3.22.0%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) <!-- ![Static Badge](https://img.shields.io/badge/PTU-%234cc71e?style=for-the-badge&label=3.22.0%20)--> <!-- ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?style=for-the-badge&label=3.22%20PTU)--> [![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&label=Preview%20Channel)](#) <br/>
+[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total?style=for-the-badge&)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)
 
 <br/>
 
@@ -41,7 +41,7 @@ In der ZIP Datei befindet sich die **`global.ini`** und die **`user.cfg`** Datei
 
 #### Installation
 
-[![Ordnerstruktur - Star Citizen in Deutsch](https://i.imgur.com/USRwGWM.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
+[![Ordnerstruktur - Star Citizen in Deutsch](https://i.imgur.com/USRwGWM.png)](#)
 
 1. Lade dir die **`StarCitizen.Deutsch.LIVE.zip`** oder **`StarCitizen.Deutsch.PTU.zip`** herunter
 2. Entpacke diese
@@ -59,12 +59,12 @@ Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://githu
 
 Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.<br/><br/>
 
-[![ini Datei herunterladen - Star Citizen in Deutsch](https://i.imgur.com/jTabj3V.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
+[![ini Datei herunterladen - Star Citizen in Deutsch](https://i.imgur.com/jTabj3V.png)](#)
 <br/>
 
 #### Wohin muss die global.ini Datei?
 
-[![Pfadstruktur - Star Citizen in Deutsch](https://i.imgur.com/lM3jimv.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
+[![Pfadstruktur - Star Citizen in Deutsch](https://i.imgur.com/lM3jimv.png)](#)
 
 - Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
 **`\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`**<br/>
@@ -161,7 +161,7 @@ ___________
 <br/><br/>
 Salut and stay tuned!
 
-[![Made by the Community](https://i.imgur.com/2RWyGPJ.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
+[![Made by the Community](https://i.imgur.com/2RWyGPJ.png)](#)
 
 <br/><br/><br/><br/>
 -------<br/>
