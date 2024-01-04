@@ -102,7 +102,7 @@ Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tes
 |:--------------------|:-----------|:---------------------------------------------------------------------------------------------------------------------------------------|
 | Claudia Fröhlich    | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld Korrektur gelesen.                                                                   |
 | Knebel              |            | Ein großes Dankeschön geht an die vielen Einsender der **[Knebel Discord Community](https://discord.com/invite/knebel)** \*Invite-Link |
-| Die Loge/Karolinger |            | Danke für die Erwähnung in einem YouTube Guide **[Die Loge](https://www.youtube.com/@DieLoge) (Youtube)**                              |
+| Die Loge/Karolinger |            | Danke für die Erwähnung in einem **[YouTube Guide](https://www.youtube.com/@DieLoge) (Die Loge - Youtube)**                            |
 
 <br/><br/>
 
