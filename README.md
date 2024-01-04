@@ -84,7 +84,7 @@ Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tes
 
 | Team Name                                   | Position             | Aufgaben                                   |
 |:--------------------------------------------|:---------------------|:-------------------------------------------|
-| [rjcncpt/PYRO](https://github.com/rjcncpt)       | `Ansprechparter`     | Übersetzungen & GitHub                     |
+| [rjcncpt/PYRO](https://github.com/rjcncpt)  | `Ansprechparter`     | Übersetzungen & GitHub                     |
 | [MaxM1211](https://github.com/MaxM1211)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing       |
 | [greluc](https://github.com/greluc)         | `Übersetzer`         | Übersetzungen, GitHub                      |
 | [Norinofu](https://github.com/Norinofu)     | `Dev & Bugfixing`    | Korrekturen, GitHub                        |
@@ -102,7 +102,7 @@ Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tes
 |:--------------------|:-----------|:---------------------------------------------------------------------------------------------------------------------------------------|
 | Claudia Fröhlich    | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld Korrektur gelesen.                                                                   |
 | Knebel              |            | Ein großes Dankeschön geht an die vielen Einsender der **[Knebel Discord Community](https://discord.com/invite/knebel)** \*Invite-Link |
-| Die Loge/Karolinger |            | Danke für die Erwähnung in einem **[YouTube Guide](https://www.youtube.com/watch?v=6SQOSIkBCkU) (Die Loge - Youtube)**                 |
+| Die Loge            |            | Danke für die Erwähnung in einem **[YouTube Guide](https://www.youtube.com/watch?v=6SQOSIkBCkU) (Die Loge - Youtube)**                 |
 
 <br/><br/>
 
