@@ -1,10 +1,8 @@
 [![Star Citizen in Deutsch](https://i.imgur.com/HMhrxcK.jpg)](#)
 
-# Star Citizen in Deutsch - Lokalisierung (global.ini)
+# Star Citizen in Deutsch - Lokalisierung für LIVE und PTU
 
-### Willkommen zur deutschen Lokalisierung für Star Citizen LIVE und PTU (inkl. Umlaute)
-
-**Diese Lokalisierung ist ein Gemeinschaftsprojekt das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA.
+### Diese Lokalisierung ist ein Gemeinschaftsprojekt das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA.
 
 Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) und deinen Vorschlag posten.**
 <br/><br/>
