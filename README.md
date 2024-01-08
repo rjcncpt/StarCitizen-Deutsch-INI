@@ -2,9 +2,9 @@
 
 # Star Citizen in Deutsch - Lokalisierung für LIVE und PTU
 
-### Diese Lokalisierung ist ein Gemeinschaftsprojekt das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA. 
+#### Diese Lokalisierung ist ein Gemeinschaftsprojekt das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA. 
 
-### Es ist davon auszugehen, dass wir mit der deutschen Übersetzung das Tor für potenziell tausende und langfristig für millionen neuer Spieler öffnen und einladen, Star Citizen zu testen.
+#### Es ist davon auszugehen, dass eine deutsche Übersetzung das Tor für potenziell tausende und langfristig für millionen neuer Spieler öffnet und einlädt, Star Citizen zu testen.
 
 **Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [einen Issue schreiben](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=) und deinen Vorschlag posten.**
 <br/><br/>
