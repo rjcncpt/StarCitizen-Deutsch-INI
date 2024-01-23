@@ -2,9 +2,9 @@ import sys
 
 def check_brackets_balance(line):
     if ' ,' in line:
-        return true
+        return True
     else:
-        return false
+        return False
 
 def find_bad_lines(file_content):
     bad_lines = []
