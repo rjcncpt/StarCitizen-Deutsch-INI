@@ -20,7 +20,7 @@ def check_and_print_lines(file_lines):
 
 if __name__ == "__main__":
     # Passe den Dateipfad und die Zeichenkodierung entsprechend an
-    ini_file_path = "global.ini"
+    ini_file_path = "live/global.ini"
     file_encoding = "utf-8"  # Ändere dies entsprechend der tatsächlichen Zeichenkodierung
 
     lines = read_ini_file(ini_file_path, encoding=file_encoding)
