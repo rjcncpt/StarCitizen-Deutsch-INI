@@ -1,16 +1,10 @@
 import sys
 
-def check_brackets_balance(line):
-    if ' ,' in line:
-        return True
-    else:
-        return False
-
 def find_bad_lines(file_content):
     bad_lines = []
 
     for i, line in enumerate(file_content, start=1):
-        if not check_brackets_balance(line):
+        if ' ,' in line:
             bad_lines.append(i)
 
     return bad_lines
