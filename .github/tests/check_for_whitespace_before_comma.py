@@ -5,6 +5,7 @@ def find_bad_lines(file_content):
 
     for i, line in enumerate(file_content, start=1):
         if ' ,'  in line:
+            # Sonderfall mit allen Sonderzeichen ignorieren
             if not line.startswith("test_special_chars"):
                 bad_lines.append(i)
 
