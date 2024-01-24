@@ -9,7 +9,7 @@
 | `shop_ui_transactionResult_04 _InvalidPlayerInventoryId=`                       | `shop_ui_transactionResult_04_InvalidPlayerInventoryId=`                               |
 | `shop_ui_transactionResult_05 _InventoryContainerRequestFail=`                  | `shop_ui_transactionResult_05_InventoryContainerRequestFail=`                          |
 | `shop_ui_transactionResult_06 _InventoryItemFail=`                              | `shop_ui_transactionResult_06_InventoryItemFail=`                                      |
-| `~(Contractor|BountyFPSDescription)`                                            | `~mission(Contractor\|BountyFPSDescription)`                                           |
+| `~(Contractor`                                                                  | `~mission(Contractor`                                                                  |
 | `~misssion(Item)`                                                               | `~mission(Item)`                                                                       |
 | `~mission (description)`                                                        | `~mission(description)`                                                                |
 | `~mission (title)`                                                              | `~mission(title)`                                                                      |
