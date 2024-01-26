@@ -1,8 +1,9 @@
-from configparser import ConfigParser
 import json
+from configparser import ConfigParser
 
-filename_eng="en/live/global.ini"
-filename_ger="live/global.ini"
+filename_eng = "en/live/global.ini"
+filename_ger = "live/global.ini"
+
 
 def addLine(filename, line):
     with open(filename, encoding="utf_8_sig", mode="r+") as file:
