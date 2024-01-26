@@ -22,6 +22,7 @@
 - **[Preview/Test Channels](#previewtest-channels)**
 - **[Das Team](#das-team)**
 - **[Bekannte Fehler](#bekannte-fehler)**
+- **[Mehr von rjcncpt](#mehr-von-rjcncpt)**
   <br/><br/>
 
 Die **`global.ini`** ist ein Work In Progress (WIP) Projekt. Unsere Veröffentlichungen werden stets im Spiel getestet, aber dennoch können wir keine 100%ige Funktionalität garantieren. Es wird eine beträchtliche Zeit dauern, bis wir alle Texte von über 70000 Zeilen übersetzt und überprüft haben.
@@ -160,6 +161,10 @@ Alternativ lade dir unsere **`user.cfg`** Datei herunter, in der wir das bereits
 Das sollte das Problem beheben.
 ___________
 </details>
+
+<br/><br/>
+### Mehr von rjcncpt
+[![Better Spectrum Dark Mode](https://i.imgur.com/QqXnJJb.png)](https://github.com/rjcncpt/SpectrumDarkMode-Extension)
 
 <br/><br/>
 Salut and stay tuned!
