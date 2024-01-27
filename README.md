@@ -2,9 +2,9 @@
 
 # Star Citizen in Deutsch - Lokalisierung für LIVE und PTU
 
-#### Diese Lokalisierung ist ein Gemeinschaftsprojekt das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA. 
+#### Diese Lokalisierung ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA.
 
-#### Es ist davon auszugehen, dass eine deutsche Übersetzung das Tor für potenziell tausende und langfristig für millionen neuer Spieler öffnet und einlädt, Star Citizen zu testen.
+#### Es ist davon auszugehen, dass eine deutsche Übersetzung das Tor für potenziell tausende und langfristig für Millionen neuer Spieler öffnet und einlädt, Star Citizen zu testen.
 
 **Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [einen Issue schreiben](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=) und deinen Vorschlag posten.**
 <br/><br/>
@@ -29,13 +29,16 @@ Die **`global.ini`** ist ein Work In Progress (WIP) Projekt. Unsere Veröffentli
 <br/><br/>
 An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei Terminals oder MouseOver. Die Umlaute werden einfach weggelassen, und es entsteht eine Lücke. Dies ist keine Übersetzungspanne, sondern ein Spielfehler. Wir behalten diese Fehler absichtlich bei, damit CIG darauf reagieren kann, und wir selbst feststellen können, ob seitens CIG Fixes vorgenommen wurden.
 <br/>
-__________________
+
+---
+
 <br/>
 
 ## Anleitung zur Installation
+
 ### Download als Zip-Datei
 
-**Täglich um 4 Uhr Nachts wird aus den Fixes des Vortags automatisch ein LIVE und/oder PTU Release erstellt. Releases werden nur dann erstellt, wenn in den letzten 24h Änderungen an den jeweiligen ini-Dateien vorgenommen wurden.**<br/><br/>
+**Täglich um 4 Uhr nachts wird aus den Fixes des Vortags automatisch ein LIVE und/oder PTU Release erstellt. Releases werden nur dann erstellt, wenn in den letzten 24h Änderungen an den jeweiligen ini-Dateien vorgenommen wurden.**<br/><br/>
 
 Lade dir **[die für dich passende ZIP Datei herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)** und entpacke diese im LIVE bzw. PTU Ordner. (Nutzt du die INI Datei für LIVE im PTU und umgekehrt, kann es zu Darstellungsfehlern kommen wenn sich die Versionsnummern unterscheiden.)<br/><br/>
 
@@ -49,7 +52,7 @@ In der ZIP Datei befindet sich die **`global.ini`** und die **`user.cfg`** Datei
 1. Lade dir die **`StarCitizen.Deutsch.LIVE.zip`** oder **`StarCitizen.Deutsch.PTU.zip`** herunter
 2. Entpacke diese
 3. Kopiere den Inhalt in den LIVE bzw. PTU Ordner
-<br/><br/><br/><br/>
+   <br/><br/><br/><br/>
 
 ### Direktdownload der global.ini
 
@@ -58,7 +61,7 @@ Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://githu
 
 - LIVE Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** und die `global.ini` Datei für LIVE öffnen
 - PTU Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/ptu/global.ini)** und die `global.ini` Datei für PTU öffnen
-<br/>
+  <br/>
 
 Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.<br/><br/>
 
@@ -70,13 +73,13 @@ Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb m
 [![Pfadstruktur - Star Citizen in Deutsch](https://i.imgur.com/lM3jimv.png)](#)
 
 - Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
-**`\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`**<br/>
-**`\ Roberts Space Industries \ StarCitizen \ PTU \ data \ Localization \ german_(germany) \ global.ini`**
+  **`\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`**<br/>
+  **`\ Roberts Space Industries \ StarCitizen \ PTU \ data \ Localization \ german_(germany) \ global.ini`**
 
 - speichere ggf. die `user.cfg` in den LIVE oder PTU Ordner:<br/>
-**`\ Roberts Space Industries \ StarCitizen \ LIVE \`**<br/>
-**`\ Roberts Space Industries \ StarCitizen \ PTU \`**
-<br/><br/><br/><br/>
+  **`\ Roberts Space Industries \ StarCitizen \ LIVE \`**<br/>
+  **`\ Roberts Space Industries \ StarCitizen \ PTU \`**
+  <br/><br/><br/><br/>
 
 ### Preview/Test Channels
 
@@ -122,12 +125,13 @@ Unsere **`global.ini`** Datei liegt bereits im korrekten **`UTF-8-BOM`** im Form
 2. Klicke anschließend in der Symbolleiste auf "Codierung"
 3. Wähle **`UTF-8-BOM`**
 4. Speichern
-<br/><br/>
+   <br/><br/>
 
 Das sollte das Problem beheben.
-___________
-</details>
 
+---
+
+</details>
 
 <details>
 <summary>[Klick] Fehler: Ich habe alles richtig gemacht, aber es werden immer noch englische Texte angezeigt</summary>
@@ -142,12 +146,13 @@ Kontrolliere ob es die richtige Dateiendung ist:
 2. Klicke auf Ansicht am oberen Fensterrand
 3. Aktiviere im Bereich Ein-/ausblenden: **`Dateinamenerweiterungen`**
 4. Sollten die beiden Dateien nun **`global.ini.ini`** oder **`user.txt.cfg`** oder ähnlich heißen, musst du sie zurück in **`global.ini`** und **`user.cfg`** umbennenen.
-<br/><br/>
+   <br/><br/>
 
 Das sollte das Problem beheben.
-___________
-</details>
 
+---
+
+</details>
 
 <details>
 <summary>[Klick] Fehler: Keine englische Sprachausgabe im Spiel</summary>
@@ -159,11 +164,15 @@ Alternativ lade dir unsere **`user.cfg`** Datei herunter, in der wir das bereits
 <br/><br/>
 
 Das sollte das Problem beheben.
-___________
+
+---
+
 </details>
 
 <br/><br/>
+
 ### Mehr von rjcncpt
+
 [![Better Spectrum Dark Mode](https://i.imgur.com/QqXnJJb.png)](https://github.com/rjcncpt/SpectrumDarkMode-Extension)
 
 <br/><br/>
