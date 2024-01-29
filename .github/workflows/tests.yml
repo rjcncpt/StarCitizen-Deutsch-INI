@@ -43,7 +43,7 @@ jobs:
         run: python ./.github/tests/encoding_test.py
 
   check_whiteSpace_comma:
-    name: Check That There Are No Whitespaces Before A Comma
+    name: Check For Whitespaces Before A Comma
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
