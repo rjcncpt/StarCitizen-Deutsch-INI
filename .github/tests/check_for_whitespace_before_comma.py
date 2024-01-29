@@ -17,7 +17,7 @@ if __name__ == "__main__":
     file_path = "live/global.ini"
 
     try:
-        with open(file_path, "r", encoding="utf-8") as file:
+        with open(file_path, "r", encoding="UTF-8-SIG") as file:
             content = file.readlines()
         bad_lines = find_bad_lines(content)
         if bad_lines:
@@ -26,6 +26,6 @@ if __name__ == "__main__":
             sys.exit(1)
 
     except FileNotFoundError:
-        print(f"Die Datei '{file_path}' wurde nicht gefunden.")
+        print(f"Die Datei \"{file_path}\" wurde nicht gefunden.")
     except Exception as e:
         print(f"Ein Fehler ist aufgetreten: {e}")
