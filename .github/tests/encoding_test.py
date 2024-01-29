@@ -27,5 +27,7 @@ type_eng = get_type(filename_eng)
 type_ger = get_type(filename_ger)
 
 if type_ger != type_eng:
-    print(f"Enc. eng: {type_eng["encoding"]}\nEnc. ger: {type_ger["encoding"]}")
+    print("The encoding between the INI files differs!")
+    print(f"Encoding ENG: {type_eng['encoding']}")
+    print(f"Encoding DEU: {type_ger['encoding']}")
     exit(1)
