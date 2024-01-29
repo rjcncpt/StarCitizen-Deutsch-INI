@@ -38,7 +38,7 @@ if type_eng_live["encoding"] != type_ger_live["encoding"]:
     print(f"Encoding DEU: {type_ger_live['encoding']}")
     exit_code = 1
 else:
-    print("The encoding between the LIVE INI files mathes.")
+    print("The encoding between the LIVE files matches.")
 
 
 if type_eng_ptu["encoding"] != type_ger_ptu["encoding"]:
@@ -47,6 +47,6 @@ if type_eng_ptu["encoding"] != type_ger_ptu["encoding"]:
     print(f"Encoding DEU: {type_ger_ptu['encoding']}")
     exit_code = 1
 else:
-    print("The encoding between the PTU INI files mathes.")
+    print("The encoding between the PTU files matches.")
 
 exit(exit_code)
