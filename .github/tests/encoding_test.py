@@ -20,16 +20,33 @@ def get_type(file):
     return chardet.detect(raw)
 
 
-filename_eng = "en/live/global.ini"
-filename_ger = "live/global.ini"
+file_eng_live = "en/live/global.ini"
+file_ger_live = "live/global.ini"
+file_eng_ptu = "en/ptu/global.ini"
+file_ger_ptu = "ptu/global.ini"
 
-type_eng = get_type(filename_eng)
-type_ger = get_type(filename_ger)
+type_eng_live = get_type(file_eng_live)
+type_ger_live = get_type(file_ger_live)
+type_eng_ptu = get_type(file_eng_ptu)
+type_ger_ptu = get_type(file_ger_ptu)
 
-if type_ger != type_eng:
-    print("The encoding between the INI files differs!")
-    print(f"Encoding ENG: {type_eng['encoding']}")
-    print(f"Encoding DEU: {type_ger['encoding']}")
-    exit(1)
+exit_code = 0
+
+if type_eng_live["encoding"] == type_ger_live["encoding"]:
+    print("The encoding between the LIVE INI files differs!")
+    print(f"Encoding ENG: {type_eng_live['encoding']}")
+    print(f"Encoding DEU: {type_ger_live['encoding']}")
+    exit_code = 1
 else:
-    print("The encoding between the INI files mathes.")
+    print("The encoding between the LIVE INI files mathes.")
+
+
+if type_eng_ptu["encoding"] == type_ger_ptu["encoding"]:
+    print("The encoding between the PTU INI files differs!")
+    print(f"Encoding ENG: {type_eng_ptu['encoding']}")
+    print(f"Encoding DEU: {type_ger_ptu['encoding']}")
+    exit_code = 1
+else:
+    print("The encoding between the PTU INI files mathes.")
+
+exit(exit_code)
