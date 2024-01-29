@@ -1,55 +1,31 @@
-import json
-from configparser import ConfigParser
-
-filename_eng = "en/live/global.ini"
-filename_ger = "live/global.ini"
+import configparser
 
 
-def addLine(filename, line):
-    with open(filename, encoding="utf_8_sig", mode="r+") as file:
-        file_data = file.read()
-        file.seek(0, 0)
-        file.write(line + ("\n") + file_data)
+def keys_in_second_ini(first_file, second_file):
+    # Parse the two ini files
+    first_ini = configparser.ConfigParser()
+    with open(first_file, 'r', encoding='UTF-8-SIG') as file:
+        first_ini.read_string('[DEFAULT]\n' + file.read())
+
+    second_ini = configparser.ConfigParser()
+    with open(second_file, 'r', encoding='UTF-8-SIG') as file:
+        second_ini.read_string('[DEFAULT]\n' + file.read())
+
+    # Check that all keys in the first ini are present in the second
+    for key in first_ini.defaults():
+        if key not in second_ini.defaults():
+            print(f"Key \"{key}\" missing from second ini.")
+            return False
+    return True
 
 
-def removeFirstLine(filename):
-    with open(filename, encoding="utf_8_sig", mode="r+") as file:
-        lines = file.readlines()
-        file.seek(0, 0)
-        file.truncate()
-        file.writelines(lines[1:])
+# Files to be checked
+first_file = 'en/live/global.ini'
+second_file = 'live/global.ini'
 
-
-line = "[DEFAULT]"
-file_data = ""
-
-addLine(filename=filename_eng, line=line)
-addLine(filename=filename_ger, line=line)
-
-config_eng = ConfigParser(
-    allow_no_value=True, comment_prefixes=None, delimiters=("="), interpolation=None
-)
-config_ger = ConfigParser(
-    allow_no_value=True, comment_prefixes=None, delimiters=("="), interpolation=None
-)
-config_eng.read(filename_eng, "utf_8_sig")
-config_eng_section = config_eng["DEFAULT"]
-
-config_ger.read(filename_ger, "utf_8_sig")
-config_ger_section = config_ger["DEFAULT"]
-
-not_found_keys = {}
-
-line = 1
-for key in config_eng_section.keys():
-    value = config_ger_section.get(key)
-    if value == None:
-        not_found_keys[line] = key
-    line += 1
-
-removeFirstLine(filename_eng)
-removeFirstLine(filename_ger)
-
-if len(not_found_keys):
-    print(json.dumps(not_found_keys, indent=4))
+# Perform the check
+if keys_in_second_ini(first_file, second_file):
+    print('All keys are present.')
+else:
+    print('Some keys are missing.')
     exit(1)
