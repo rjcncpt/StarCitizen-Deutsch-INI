@@ -1,2 +1,5 @@
-.idea
+/.idea
 *.bak
+/venv
+/scripts/unp4k/
+/scripts/global.ini
