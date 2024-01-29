@@ -19,7 +19,7 @@ Dieses Dokument stellt die gesammelte Dokumentation zur Community-getriebenen Ü
 === Installation
 
 ==== Release-Download
-Täglich um 04:00 Uhr Nachts wird aus den Änderungen des Vortags automatisch ein LIVE-Release erstellt. Lade dir *https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases[die neuste ZIP Datei herunter]* und entpacke diese im LIVE Ordner. Wenn du die INI-Datei des LIVE-Channel im PTU-Channel nutzt, kann es zu Darstellungsfehlern kommen.
+Täglich gegen 04:00 Uhr Nachts wird aus den Änderungen des Vortags automatisch ein LIVE-Release erstellt. Lade dir *https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases[die neuste ZIP Datei herunter]* und entpacke diese im LIVE Ordner. Wenn du die INI-Datei des LIVE-Channel im PTU-Channel nutzt, kann es zu Darstellungsfehlern kommen.
 
 In der ZIP-Datei befinden sich die Dateien *`global.ini`* und *`user.cfg`*. Wenn du nicht möchtest das die *`user.cfg`* Datei deine eigene überschreibt, lade die *`global.ini`* einzeln als <<Direktdownload>>.
 
@@ -84,38 +84,21 @@ Alternativ lade dir unsere **`https://github.com/rjcncpt/StarCitizen-Deutsch-INI
 === GitHub Workflow
 Platzhalter
 
-=== Vorgang zur Korrektur der englischen `global.ini`
+=== Vorgang zum Erhalt der korrigierten englischen `global.ini`
 Hier wird der Vorgang zum Export und der Korrektur der englsichen global.ini aus Star Citizen dargestellt.
 
 ==== Vorbedingungen
 Folgende Software muss lokal auf deinem Rechner vorhanden/installiert sein.
 
     * https://github.com/dolkensp/unp4k[unp4k]
-    * https://notepad-plus-plus.org/[Notepad++] oder ein vergleichbarer Texteditor
+    * Das Script https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/scripts/prepare_cig_ini.py[`prepare_cig_ini.py`] und die Batch-Datei https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/scripts/start.bat[`start.bat`] aus dem Ordner scripts.
+    * https://www.python.org/[Python]
     * Star Citizen
 
-==== Entpacken der global.ini
-    1. unp4k am gewünschten Ablageort der global.ini entpacken.
-    2. Dort muss nun die Datei unp4k.exe vorhanden sein.
-    3. Die Kommandozeile in diesem Ordner öffnen.
-    4. Den Befehl `unp4k.exe "**C:\path\to\**Data.p4k" global.ini` eingeben. Hierbei muss **_c:\path\to\_** durch den Dateipfad zur Data.p4k im Star Citizen Verzeichnis ersetzt werden (Standardmäßig **_C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\_** ). Die "" müssen erhalten bleiben.
-    5. unp4k erstellt jetzt die Ordnerstruktur \Data\Localization\english\ im aktuellen Verzeichnis. Hier ist die `global.ini` zu finden.
-
-==== Korrektur der `global.ini`
-    1. Die global.ini in Notepad++ oder einem vergleichbaren Texteditor öffnen
-    2. Die Codierung auf `ANSI` einstellen. _Notepad++: Menüleiste -> Codierung -> ANSI_
-    3. Die Suche öffnen und den Suchmodus auf _Reguläre Ausdrücke_ einstellen
-    4. Nach der Zeichenkette `[^\xC2]\xA0` suchen.
-+
-.Korrekt eingestellte Suche in Notepad++
-image::bilder/korrektur-eng-ini-suche.png[Korrekt eingestellte Suche in Notepad++]
-+
-    5. Die Suche markiert nun mehrmals zwei Zeichen. Ein beliebiges Zeichen und darauffolgend ein Leerzeichen.
-+
-.Durch Suche markierte Zeichen in Notepad++
-image::bilder/korrektur-eng-ini-ersetzen.png[Durch Suche markierte Zeichen in Notepad++]
-+
-    6. Zwischen das erste (beliebige) Zeichen und das nachfolgende Leerzeichen das Zeichen `Â` einfügen.
-    7. Die Codierung wieder auf `UTF-8-BOM` stellen. _Notepad++: Menüleiste -> Codierung -> UTF-8-BOM_
-    8. Die `global.ini` speichern.
-    9. Die `global.ini` ist zu weiteren Verwendung bereit und kann z.B. entsprechend dem <<_github_workflow>> bereitgestellt werden
+==== Entpacken und Korrigieren der global.in
+1. In der Batch-Datei start.bat muss der Pfad zur `python.exe` angepasst werden. Dieser muss gem. der Python Installation auf deinem Rechner konfiguriert sein.
+2. Im Script `prepare_cig_ini.py` müssen die Pfade zu unp4k und zur Data.p4k angepasst werden.
+    * Von Haus aus ist das Script so konfiguriert, dass es die `unp4k.exe` im Unterordner unp4k des eigenen Verzeichnisses erwartet.
+    * Als Pfad zur `Data.p4k` ist der Standard-Installations-Pfad von Star Citizen vorkonfiguriert.
+3. Führe das Script durch einen Doppelklick auf die `start.bat` Datei aus.
+4. Im Ordner, in dem auch das Python Skript liegt wird die korrigierte `global.ini` gespeichert.
