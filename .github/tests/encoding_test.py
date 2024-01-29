@@ -31,3 +31,5 @@ if type_ger != type_eng:
     print(f"Encoding ENG: {type_eng['encoding']}")
     print(f"Encoding DEU: {type_ger['encoding']}")
     exit(1)
+else:
+    print("The encoding between the INI files mathes.")

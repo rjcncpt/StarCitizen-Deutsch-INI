@@ -19,18 +19,22 @@ def keys_in_second_ini(first_file, second_file):
     # Check that all keys in the first ini are present in the second
     for key in first_ini.defaults():
         if key not in second_ini.defaults():
-            print(f"Key \"{key}\" missing from second ini.")
+            print(f"Key \"{key}\" missing from {second_file}.")
             return False
     return True
 
 
 # Files to be checked
-first_file = "en/live/global.ini"
-second_file = "live/global.ini"
+eng_live_file = "en/live/global.ini"
+ger_live_file = "live/global.ini"
+eng_ptu_file = "en/ptu/global.ini"
+ger_ptu_file = "ptu/global.ini"
 
 # Perform the check
-if keys_in_second_ini(first_file, second_file):
-    print("All keys are present.")
+if keys_in_second_ini(eng_live_file, ger_live_file):
+    print("All keys in LIVE are present.")
+elif keys_in_second_ini(eng_ptu_file, ger_ptu_file):
+    print("All keys in PTU are present.")
 else:
     print("Some keys are missing.")
     exit(1)
