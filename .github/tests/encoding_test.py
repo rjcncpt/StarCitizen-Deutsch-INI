@@ -21,29 +21,29 @@ def get_type(file):
 
 
 file_eng_live = "en/live/global.ini"
-file_ger_live = "live/global.ini"
+file_deu_live = "live/global.ini"
 file_eng_ptu = "en/ptu/global.ini"
-file_ger_ptu = "ptu/global.ini"
+file_deu_ptu = "ptu/global.ini"
 
 type_eng_live = get_type(file_eng_live)
-type_ger_live = get_type(file_ger_live)
+type_deu_live = get_type(file_deu_live)
 type_eng_ptu = get_type(file_eng_ptu)
-type_ger_ptu = get_type(file_ger_ptu)
+type_deu_ptu = get_type(file_deu_ptu)
 
 exit_code = 0
 
-if type_eng_live["encoding"] != type_ger_live["encoding"]:
+if type_eng_live["encoding"] != type_deu_live["encoding"]:
     print("The encoding between the LIVE INI files differs!")
     print(f"Encoding ENG: {type_eng_live['encoding']}")
-    print(f"Encoding DEU: {type_ger_live['encoding']}")
+    print(f"Encoding DEU: {type_deu_live['encoding']}")
     exit_code = 1
 else:
     print("The encoding between the LIVE files matches.")
 
-if type_eng_ptu["encoding"] != type_ger_ptu["encoding"]:
+if type_eng_ptu["encoding"] != type_deu_ptu["encoding"]:
     print("The encoding between the PTU INI files differs!")
     print(f"Encoding ENG: {type_eng_ptu['encoding']}")
-    print(f"Encoding DEU: {type_ger_ptu['encoding']}")
+    print(f"Encoding DEU: {type_deu_ptu['encoding']}")
     exit_code = 1
 else:
     print("The encoding between the PTU files matches.")
