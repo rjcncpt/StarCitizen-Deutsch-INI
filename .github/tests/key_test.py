@@ -1,55 +1,46 @@
-import json
 from configparser import ConfigParser
 
-filename_eng = "en/live/global.ini"
-filename_ger = "live/global.ini"
+
+def keys_in_second_ini(first_file, second_file):
+    """
+    :param first_file: The path to the first ini file.
+    :param second_file: The path to the second ini file.
+    :return: True if all keys in the first ini file are present in the second ini file, False otherwise.
+    """
+    # Parse the two ini files
+    first_ini = ConfigParser(allow_no_value=True)
+    with open(first_file, "r", encoding="UTF-8-SIG") as file:
+        first_ini.read_string("[DEFAULT]\n" + file.read())
+
+    second_ini = ConfigParser(allow_no_value=True)
+    with open(second_file, "r", encoding="UTF-8-SIG") as file:
+        second_ini.read_string("[DEFAULT]\n" + file.read())
+
+    # Check that all keys in the first ini are present in the second
+    for key in first_ini.defaults():
+        if key not in second_ini.defaults():
+            print(f"Key \"{key}\" missing from {second_file}.")
+            return False
+    return True
 
 
-def addLine(filename, line):
-    with open(filename, encoding="utf_8_sig", mode="r+") as file:
-        file_data = file.read()
-        file.seek(0, 0)
-        file.write(line + ("\n") + file_data)
+# Files to be checked
+eng_live_file = "en/live/global.ini"
+deu_live_file = "live/global.ini"
+eng_ptu_file = "en/ptu/global.ini"
+deu_ptu_file = "ptu/global.ini"
 
+exit_code = 0
 
-def removeFirstLine(filename):
-    with open(filename, encoding="utf_8_sig", mode="r+") as file:
-        lines = file.readlines()
-        file.seek(0, 0)
-        file.truncate()
-        file.writelines(lines[1:])
+# Perform the check
+if keys_in_second_ini(eng_live_file, deu_live_file):
+    print("All keys in LIVE are present.")
+else:
+    print("Some keys in LIVE are missing.")
+    exit_code = 1
+if keys_in_second_ini(eng_ptu_file, deu_ptu_file):
+    print("All keys in PTU are present.")
+else:
+    print("Some keys in PTU are missing.")
 
-
-line = "[DEFAULT]"
-file_data = ""
-
-addLine(filename=filename_eng, line=line)
-addLine(filename=filename_ger, line=line)
-
-config_eng = ConfigParser(
-    allow_no_value=True, comment_prefixes=None, delimiters=("="), interpolation=None
-)
-config_ger = ConfigParser(
-    allow_no_value=True, comment_prefixes=None, delimiters=("="), interpolation=None
-)
-config_eng.read(filename_eng, "utf_8_sig")
-config_eng_section = config_eng["DEFAULT"]
-
-config_ger.read(filename_ger, "utf_8_sig")
-config_ger_section = config_ger["DEFAULT"]
-
-not_found_keys = {}
-
-line = 1
-for key in config_eng_section.keys():
-    value = config_ger_section.get(key)
-    if value == None:
-        not_found_keys[line] = key
-    line += 1
-
-removeFirstLine(filename_eng)
-removeFirstLine(filename_ger)
-
-if len(not_found_keys):
-    print(json.dumps(not_found_keys, indent=4))
-    exit(1)
+exit(exit_code)

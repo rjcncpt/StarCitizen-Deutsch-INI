@@ -42,8 +42,8 @@ jobs:
       - name: Execute Test
         run: python ./.github/tests/encoding_test.py
 
-  check_whiteSpace_comma:
-    name: Check no whitespace before a comma
+  Whitespace_Comma:
+    name: Check For Whitespaces Before Comma
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -53,11 +53,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install chardet
 
       - name: Execute Test
         run: python ./.github/tests/check_for_whitespace_before_comma.py

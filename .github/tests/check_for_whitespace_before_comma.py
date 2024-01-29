@@ -2,11 +2,17 @@ import sys
 
 
 def find_bad_lines(file_content):
+    """
+    Find lines in the given file that have a comma with a space before it.
+
+    :param file_content: A list of strings representing the contents of a file.
+    :return: A list of line numbers that contain a comma with a space before it.
+    """
     bad_lines = []
 
     for i, line in enumerate(file_content, start=1):
         if " ," in line:
-            # Sonderfall mit allen Sonderzeichen ignorieren
+            # Ignore CIG's special char test line
             if not line.startswith("test_special_chars"):
                 bad_lines.append(i)
 
@@ -17,15 +23,18 @@ if __name__ == "__main__":
     file_path = "live/global.ini"
 
     try:
-        with open(file_path, "r", encoding="utf-8") as file:
+        with open(file_path, "r", encoding="UTF-8-SIG") as file:
             content = file.readlines()
         bad_lines = find_bad_lines(content)
         if bad_lines:
-            print("Folgende Zeilen bitte überprüfen")
+            print("Following lines need to be checked:")
             print(bad_lines)
             sys.exit(1)
+        else:
+            print("There are no whitespaces before a comma.")
+            print("Test passed!")
 
     except FileNotFoundError:
-        print(f"Die Datei '{file_path}' wurde nicht gefunden.")
+        print(f"File \"{file_path}\" was not found.")
     except Exception as e:
-        print(f"Ein Fehler ist aufgetreten: {e}")
+        print(f"An error occured: {e}")
