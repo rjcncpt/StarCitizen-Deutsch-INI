@@ -32,7 +32,7 @@ type_ger_ptu = get_type(file_ger_ptu)
 
 exit_code = 0
 
-if type_eng_live["encoding"] == type_ger_live["encoding"]:
+if type_eng_live["encoding"] != type_ger_live["encoding"]:
     print("The encoding between the LIVE INI files differs!")
     print(f"Encoding ENG: {type_eng_live['encoding']}")
     print(f"Encoding DEU: {type_ger_live['encoding']}")
@@ -41,7 +41,7 @@ else:
     print("The encoding between the LIVE INI files mathes.")
 
 
-if type_eng_ptu["encoding"] == type_ger_ptu["encoding"]:
+if type_eng_ptu["encoding"] != type_ger_ptu["encoding"]:
     print("The encoding between the PTU INI files differs!")
     print(f"Encoding ENG: {type_eng_ptu['encoding']}")
     print(f"Encoding DEU: {type_ger_ptu['encoding']}")
