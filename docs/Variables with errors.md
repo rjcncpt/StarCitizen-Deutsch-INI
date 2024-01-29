@@ -1,18 +1,19 @@
 # Incorrect variables in the English global.ini
 
-| global.ini                                                     | Correct variable                                              |
-| -------------------------------------------------------------- | :------------------------------------------------------------ |
-| `seachbody_obj_short_02a=`                                     | `searchbody_obj_short_02a=`                                   |
-| `ea_ui_matchmaking_error_CanceledByService =`                  | `ea_ui_matchmaking_error_CanceledByService=`                  |
-| `Tut03_Part01_Obj01b_ToStation =`                              | `Tut03_Part01_Obj01b_ToStation=`                              |
-| `~mission (description)`                                       | `~mission(description)`                                       |
-| `~mission (title)`                                             | `~mission(title)`                                             |
-| `~mission (item)`                                              | `~mission(item)`                                              |
-| `~misssion(Item)`                                              | `~mission(Item)`                                              |
-| `shop_ui_transactionResult_04 _InvalidPlayerInventoryId=`      | `shop_ui_transactionResult_04_InvalidPlayerInventoryId=`      |
-| `shop_ui_transactionResult_05 _InventoryContainerRequestFail=` | `shop_ui_transactionResult_05_InventoryContainerRequestFail=` |
-| `shop_ui_transactionResult_06 _InventoryItemFail=`             | `shop_ui_transactionResult_06_InventoryItemFail=`             |
-| `Oxygen_Screen_ ErrorButtonMessage=`                           | `Oxygen_Screen_ErrorButtonMessage=`                           |
+| global.ini                                                                      | Correct variable                                                                       |
+|---------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
+| `Oxygen_Screen_ ErrorButtonMessage=`                                            | `Oxygen_Screen_ErrorButtonMessage=`                                                    |
+| `Tut03_Part01_Obj01b_ToStation =`                                               | `Tut03_Part01_Obj01b_ToStation=`                                                       |
+| `ea_ui_matchmaking_error_CanceledByService =`                                   | `ea_ui_matchmaking_error_CanceledByService=`                                           |
+| `seachbody_obj_short_02a=`                                                      | `searchbody_obj_short_02a=`                                                            |
+| `shop_ui_transactionResult_04 _InvalidPlayerInventoryId=`                       | `shop_ui_transactionResult_04_InvalidPlayerInventoryId=`                               |
+| `shop_ui_transactionResult_05 _InventoryContainerRequestFail=`                  | `shop_ui_transactionResult_05_InventoryContainerRequestFail=`                          |
+| `shop_ui_transactionResult_06 _InventoryItemFail=`                              | `shop_ui_transactionResult_06_InventoryItemFail=`                                      |
+| `~(Contractor`                                                                  | `~mission(Contractor`                                                                  |
+| `~misssion(Item)`                                                               | `~mission(Item)`                                                                       |
+| `~mission (description)`                                                        | `~mission(description)`                                                                |
+| `~mission (title)`                                                              | `~mission(title)`                                                                      |
+| `~mission (item)`                                                               | `~mission(item)`                                                                       |
 
 # Missing variables
 

@@ -1,76 +1,99 @@
-# [WIP] Star Citizen deutsche Lokalisierung (global.ini)
+[![Star Citizen in Deutsch](https://i.imgur.com/HMhrxcK.jpg)](#)
 
-### Willkommen zu unserer deutschen Lokalisierung für Star Citizen (inkl. Umlaute)
+# Star Citizen in Deutsch - Lokalisierung für LIVE und PTU
 
-**Diese Lokalisierung ist ein Gemeinschaftsprojekt und wird sich in vielen Bereichen unterscheiden. Es ist eine große Herausforderung, die englischen Begriffe ins verständliche Deutsch zu übertragen. Oft können wir keine 1:1-Übersetzung verwenden, da einige englische Begriffe in der deutschen Sprache mehrere Bedeutungen haben.**
+#### Diese Lokalisierung ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA.
+
+#### Es ist davon auszugehen, dass eine deutsche Übersetzung das Tor für potenziell tausende und langfristig für Millionen neuer Spieler öffnet und einlädt, Star Citizen zu testen.
+
+**Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [einen Issue schreiben](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=) und deinen Vorschlag posten.**
+<br/><br/>
+
+[![Static Badge](https://img.shields.io/badge/BEREIT-%234cc71e?style=for-the-badge&label=3.22.0%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) <!-- ![Static Badge](https://img.shields.io/badge/PTU-%234cc71e?style=for-the-badge&label=3.22.0%20)--> <!-- ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?style=for-the-badge&label=3.22%20PTU)--> [![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&label=Preview%20Channel)](#) <br/>
+[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total?style=for-the-badge&)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)
+
 <br/>
 
-![Static Badge](https://img.shields.io/badge/Bereit-%2339cb75?label=3.21.1%20LIVE) <!-- -->![Static Badge](https://img.shields.io/badge/Bereit-%2339cb75?label=3.22.0%20PTU) ![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?label=Preview%20Channel) 
-![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?label=ini) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?label=Star%20Citizen)](https://robertsspaceindustries.com/)
+### Inhaltsverzeichnis
 
-
-
-<br/>
-
-### Table of Content
-
-- [Preview/Test Channels](#previewtest-channels)
-- [Download als ZIP](#download)
-- [Direktdownload der global.ini](#direktdownload-der-globalini)
-- [Das Team](#das-team)
-- [Troubleshooting](#troubleshooting)
+- **[Download als Zip-Datei](#download-als-zip-datei)**
+- **[Nur die global.ini herunterladen](#direktdownload-der-globalini)**
+- **[Automatischer ini-Updater](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/updater)**
+- **[Preview/Test Channels](#previewtest-channels)**
+- **[Das Team](#das-team)**
+- **[Bekannte Fehler](#bekannte-fehler)**
+- **[Mehr von rjcncpt](#mehr-von-rjcncpt)**
   <br/><br/>
 
-Die **`global.ini`** ist ein Work In Progress (WIP) Projekt. Unsere Veröffentlichungen werden stets im Spiel getestet, aber dennoch können wir keine 100%ige Funktionalität garantieren. Es wird eine beträchtliche Zeit dauern, bis wir alle Texte manuell von Zeile 1 bis etwa Zeile 62000 übersetzt und überprüft haben.
+Die **`global.ini`** ist ein Work In Progress (WIP) Projekt. Unsere Veröffentlichungen werden stets im Spiel getestet, aber dennoch können wir keine 100%ige Funktionalität garantieren. Es wird eine beträchtliche Zeit dauern, bis wir alle Texte von über 70000 Zeilen übersetzt und überprüft haben.
 <br/><br/>
 An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei Terminals oder MouseOver. Die Umlaute werden einfach weggelassen, und es entsteht eine Lücke. Dies ist keine Übersetzungspanne, sondern ein Spielfehler. Wir behalten diese Fehler absichtlich bei, damit CIG darauf reagieren kann, und wir selbst feststellen können, ob seitens CIG Fixes vorgenommen wurden.
-<br/><br/><br/>
+<br/>
 
-### Preview/Test Channels
+---
 
-Preview und Test-Kanäle werden von uns nicht unterstützt. Damit du an den Tests problemlos teilhaben kannst, füge ein **`;`** vor die Zeile **`g_language = german_(germany)`** in der **`user.cfg`** ein, um Star Citizen in engl. Sprache zu spielen.
-<br/><br/><br/>
+<br/>
 
-### Download
+## Anleitung zur Installation
 
-Täglich um 4 Uhr Nachts wird aus den Fixes des Vortags automatisch ein LIVE-Release erstellt. Lade dir **[die neuste ZIP Datei herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)** und entpacke diese im LIVE Ordner. (Nutzt du die INI Datei für LIVE im PTU, kann es zu Darstellungsfehlern kommen wenn sich die Versionsnummern unterscheiden.)<br/><br/>
+### Download als Zip-Datei
 
-In der ZIP Datei befindet sich die **`global.ini`** und die **`user.cfg`** Datei. Wenn du nicht möchtest das die **`user.cfg`** Datei deine eigene überschreibt, lade die **`global.ini`** **[als einzelne Datei herunter](#direktdownload-der-globalini)**. Diese findest du im **`live`** Ordner. Im **`ptu`** Ordner liegt die **`global.ini`** die für den aktuellen PTU gedacht ist. Bitte nutzt nur die Dateien, welche für den jeweiligen Channel ausgelegt sind.
+**Täglich um 4 Uhr nachts wird aus den Fixes des Vortags automatisch ein LIVE und/oder PTU Release erstellt. Releases werden nur dann erstellt, wenn in den letzten 24h Änderungen an den jeweiligen ini-Dateien vorgenommen wurden.**<br/><br/>
+
+Lade dir **[die für dich passende ZIP Datei herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)** und entpacke diese im LIVE bzw. PTU Ordner. (Nutzt du die INI Datei für LIVE im PTU und umgekehrt, kann es zu Darstellungsfehlern kommen wenn sich die Versionsnummern unterscheiden.)<br/><br/>
+
+In der ZIP Datei befindet sich die **`global.ini`** und die **`user.cfg`** Datei. Wenn du nicht möchtest das die **`user.cfg`** Datei deine eigene überschreibt, lade die **`global.ini`** **[als einzelne Datei herunter](#direktdownload-der-globalini)**. Diese findest du im **`live`** und **`ptu`** Ordner. Bitte nutze nur die Dateien, welche für den jeweiligen Channel ausgelegt sind.
 <br/>
 
 #### Installation
 
-1. Lade dir die **`StarCitizen.Deutsch.zip`** herunter
+[![Ordnerstruktur - Star Citizen in Deutsch](https://i.imgur.com/USRwGWM.png)](#)
+
+1. Lade dir die **`StarCitizen.Deutsch.LIVE.zip`** oder **`StarCitizen.Deutsch.PTU.zip`** herunter
 2. Entpacke diese
 3. Kopiere den Inhalt in den LIVE bzw. PTU Ordner
-<br/><br/><br/><br/>
+   <br/><br/><br/><br/>
 
 ### Direktdownload der global.ini
 
-Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)**, wenn du nicht immer alles herunterladen möchtest. Der Vorteil ist, diese Datei ist immer auf einem aktuelleren Stand als die Release Datei.
+Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)**, wenn du nicht immer die Zip-Datei herunterladen möchtest. Auch ist diese Datei immer auf einem aktuelleren Stand als die Release Datei.
 <br/><br/>
-![image](https://i.imgur.com/jTabj3V.png)
+
+- LIVE Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** und die `global.ini` Datei für LIVE öffnen
+- PTU Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/ptu/global.ini)** und die `global.ini` Datei für PTU öffnen
+  <br/>
+
+Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.<br/><br/>
+
+[![ini Datei herunterladen - Star Citizen in Deutsch](https://i.imgur.com/jTabj3V.png)](#)
 <br/>
 
 #### Wohin muss die global.ini Datei?
 
-1. **[Klicke hier](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** und öffne die `global.ini` Datei
-2. Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.
-3. Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
-**`\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`**
-4. speichere ggf. die `user.cfg` in den LIVE oder PTU Ordner:<br/>
-**`\ Roberts Space Industries \ StarCitizen \ LIVE \`**<br/>
-**`\ Roberts Space Industries \ StarCitizen \ PTU \`**
+[![Pfadstruktur - Star Citizen in Deutsch](https://i.imgur.com/lM3jimv.png)](#)
+
+- Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
+  **`\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`**<br/>
+  **`\ Roberts Space Industries \ StarCitizen \ PTU \ data \ Localization \ german_(germany) \ global.ini`**
+
+- speichere ggf. die `user.cfg` in den LIVE oder PTU Ordner:<br/>
+  **`\ Roberts Space Industries \ StarCitizen \ LIVE \`**<br/>
+  **`\ Roberts Space Industries \ StarCitizen \ PTU \`**
+  <br/><br/><br/><br/>
+
+### Preview/Test Channels
+
+Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tests in englischer Sprache problemlos teilhaben kannst, füge in der **`user.cfg`** Datei ein **`;`** vor die Zeile **`g_language = german_(germany)`** hinzu. Du kannst selbstverständlich auch die aktuellste deutsche Übersetzung ausprobieren. Sei dir aber bewusst, dass es zu Darstellungsfehler kommen kann!
 <br/><br/><br/><br/>
 
 ### Das Team
 
-| Team                                        | Fokus Position       | Beschreibung                               |
+| Team Name                                   | Position             | Aufgaben                                   |
 |:--------------------------------------------|:---------------------|:-------------------------------------------|
-| [rjcncpt](https://github.com/rjcncpt)       | `Ansprechparter`     | Übersetzungen & GitHub                     |
+| [rjcncpt/PYRO](https://github.com/rjcncpt)  | `Ansprechparter`     | Übersetzungen & GitHub                     |
 | [MaxM1211](https://github.com/MaxM1211)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing       |
-| [greluc](https://github.com/greluc)         | `Übersetzer`         | Übersetzungen (spez. militärisch) & GitHub |
-| [Norinofu](https://github.com/Norinofu)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing       |
+| [greluc](https://github.com/greluc)         | `Übersetzer`         | Übersetzungen, GitHub                      |
+| [Norinofu](https://github.com/Norinofu)     | `Dev & Bugfixing`    | Korrekturen, GitHub                        |
 | [Drakonhawk](https://github.com/Drakonhawk) | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing                    |
 | Boy7                                        | `Dev & Bugfixing`    | Übersetzungen, Dev & Bugfixing             |
 | Hikaruhoshi1                                | `Übersetzer`         | Übersetzungen                              |
@@ -81,14 +104,15 @@ Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://githu
 
 <br/>
 
-| Dankeschön       | Position   | Beschreibung                                                                                                                       |
-|:-----------------|:-----------|:-----------------------------------------------------------------------------------------------------------------------------------|
-| Claudia Fröhlich | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld Korrektur gelesen.                                                               |
-| Knebel Discord   |            | Ein großes Dankeschön geht an die vielen Einsender der **[Knebel Discord Community](https://discord.com/invite/knebel)** \*Invite-Link |
+| Dankeschön          | Position   | Beschreibung                                                                                                                           |
+|:--------------------|:-----------|:---------------------------------------------------------------------------------------------------------------------------------------|
+| Claudia Fröhlich    | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld Korrektur gelesen.                                                                   |
+| Knebel              |            | Ein großes Dankeschön geht an die vielen Einsender der **[Knebel Discord Community](https://discord.com/invite/knebel)** \*Invite-Link |
+| NICDUS              |            | Danke für die Erwähnung in einem **[YouTube Guide](https://www.youtube.com/watch?v=5xuSRI0SlbE) (NICDUS - Youtube)**                   |
 
 <br/><br/>
 
-### Troubleshooting
+### Bekannte Fehler
 
 <details>
 <summary>[Klick] Fehler: Es werden kryptische Variablen mit @-Zeichen am Anfang angezeigt</summary>
@@ -101,12 +125,13 @@ Unsere **`global.ini`** Datei liegt bereits im korrekten **`UTF-8-BOM`** im Form
 2. Klicke anschließend in der Symbolleiste auf "Codierung"
 3. Wähle **`UTF-8-BOM`**
 4. Speichern
-<br/><br/>
+   <br/><br/>
 
 Das sollte das Problem beheben.
-___________
-</details>
 
+---
+
+</details>
 
 <details>
 <summary>[Klick] Fehler: Ich habe alles richtig gemacht, aber es werden immer noch englische Texte angezeigt</summary>
@@ -121,12 +146,13 @@ Kontrolliere ob es die richtige Dateiendung ist:
 2. Klicke auf Ansicht am oberen Fensterrand
 3. Aktiviere im Bereich Ein-/ausblenden: **`Dateinamenerweiterungen`**
 4. Sollten die beiden Dateien nun **`global.ini.ini`** oder **`user.txt.cfg`** oder ähnlich heißen, musst du sie zurück in **`global.ini`** und **`user.cfg`** umbennenen.
-<br/><br/>
+   <br/><br/>
 
 Das sollte das Problem beheben.
-___________
-</details>
 
+---
+
+</details>
 
 <details>
 <summary>[Klick] Fehler: Keine englische Sprachausgabe im Spiel</summary>
@@ -138,15 +164,25 @@ Alternativ lade dir unsere **`user.cfg`** Datei herunter, in der wir das bereits
 <br/><br/>
 
 Das sollte das Problem beheben.
-___________
+
+---
+
 </details>
 
 <br/><br/>
+
+### Mehr von rjcncpt
+
+[![Better Spectrum Dark Mode](https://i.imgur.com/QqXnJJb.png)](https://github.com/rjcncpt/SpectrumDarkMode-Extension)
+
+<br/><br/>
 Salut and stay tuned!
+
+[![Made by the Community](https://i.imgur.com/2RWyGPJ.png)](#)
 
 <br/><br/><br/><br/>
 -------<br/>
 **Note about lecturer**<br/>
 The entire repository is licensed under a [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/) license. To provide the best possible quality, we commission a lecturer to proofread some of the text modules. The copyright is held by Claudia Fröhlich. You may use our global.ini file privately and commercially, but you must not identify yourself as the author of this global.ini.
 <br/><br/>
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg?style=for-the-badge)](https://creativecommons.org/licenses/by/4.0/)
