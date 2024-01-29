@@ -3,6 +3,7 @@ import codecs
 import re
 import subprocess
 import shutil
+import logging
 
 # The following paths need to fit your setup
 exe_path = 'unp4k/unp4k.exe'  # Absolut or relativ path to the unp4k.exe
@@ -35,48 +36,47 @@ def run_exe(exe_path, args):
     command = [exe_path] + args
     try:
         subprocess.run(command, check=True)
-        print(f"The executable {exe_path} has been started successfully.")
+        logging.info("The executable %s has been started successfully.", exe_path)
     except subprocess.CalledProcessError as e:
-        print(f"The executable {exe_path} failed to run. Error: {str(e)}")
+        logging.error("The executable %s failed to run. Error: %s ", exe_path, str(e))
     except FileNotFoundError:
-        print(f"The executable {exe_path} does not exist.")
+        logging.error("The executable %s does not exist.", exe_path)
     except Exception as e:
-        print(f"An error occurred while running the executable {exe_path}: {str(e)}")
+        logging.error("An error occurred while running the executable %s: %s", exe_path, str(e))
 
 
 # Fixes the corrupted NBSP and writes the result in a temporary file
 def fix_ini(input_file_path, output_file_path):
-    with open(input_file_path, 'rb') as file:
-        content = file.read()
-    print(f"The file {input_file_path} has been read successfully.")
+    try:
+        with open(input_file_path, 'rb') as file:
+            content = file.read()
 
-    replacement = re.sub(b'(?<!\xc2)\xa0', b'\xc2\xa0', content)
-    print("The encoding of the file has been fixed successfully.")
+        replacement = re.sub(b'(?<!\xc2)\xa0', b'\xc2\xa0', content)
+        original_text = codecs.decode(replacement, 'UTF-8-SIG')
+        for old_text, new_text in replacements.items():
+            original_text = original_text.replace(old_text, new_text)
 
-    original_text = codecs.decode(replacement, 'UTF-8-SIG')
-    print("The fixed file has been read successfully as UTF-8-BOM.")
+        with codecs.open(output_file_path, 'w', 'UTF-8-SIG') as outfile:
+            outfile.write(original_text)
 
-    for old_text, new_text in replacements.items():
-        original_text = original_text.replace(old_text, new_text)
-    print("The variables have been fixed successfully.")
+        logging.info("Successfully fixed variables and wrote file as UTF-8-BOM to %s", output_file_path)
 
-    with codecs.open(output_file_path, 'w', 'UTF-8-SIG') as outfile:
-        outfile.write(original_text)
-    print(f"The file {output_file_path} has been written successfully as UTF-8-BOM.")
+    except Exception as e:
+        logging.error("An error occurred while fixing the INI file: %s", str(e))
 
 
 def delete_dir(dir_path):
     try:
         shutil.rmtree(dir_path)
-        print(f"The directory {dir_path} has been deleted successfully.")
+        logging.info("The directory %s has been deleted successfully.", dir_path)
     except FileNotFoundError:
-        print(f"The directory {dir_path} does not exist.")
+        logging.error("The directory %s does not exist.", dir_path)
     except PermissionError:
-        print(f"Permission denied for deleting the directory {dir_path}.")
+        logging.error("Permission denied for deleting the directory %s.", dir_path)
     except OSError as e:
-        print(f"Error: {e.filename} - {e.strerror}.")
+        logging.error("Error: %s - %s", e.filename, e.strerror)
     except Exception as e:
-        print(f"An error occurred while deleting the directory {dir_path}: {str(e)}")
+        logging.error("An error occurred while deleting the directory %s: %s", dir_path, str(e))
 
 
 run_exe(exe_path, [argument_data, input_file_path])
