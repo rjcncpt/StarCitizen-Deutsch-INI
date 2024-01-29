@@ -42,7 +42,7 @@ jobs:
       - name: Execute Test
         run: python ./.github/tests/encoding_test.py
 
-  check_whiteSpace_comma:
+  Whitespace_Comma:
     name: Check For Whitespaces Before A Comma
     runs-on: ubuntu-latest
     steps:
