@@ -40,7 +40,6 @@ if type_eng_live["encoding"] != type_ger_live["encoding"]:
 else:
     print("The encoding between the LIVE files matches.")
 
-
 if type_eng_ptu["encoding"] != type_ger_ptu["encoding"]:
     print("The encoding between the PTU INI files differs!")
     print(f"Encoding ENG: {type_eng_ptu['encoding']}")
