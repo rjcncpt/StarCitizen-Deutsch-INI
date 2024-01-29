@@ -5,6 +5,14 @@ import os
 import subprocess
 import shutil
 
+exe_path = 'unp4k/unp4k.exe'  # absolut or relativ path to the unp4k.exe
+argument_data = 'C:/Program Files/Roberts Space Industries/StarCitizen/LIVE/Data.p4k'  # absolut or relativ path to the Data.p4k
+argument_ini = 'Data/Localization/english/global.ini'  # filter argument for unp4k
+data_path = 'Data'  # temporary directory that will be deleted at the end of the script
+input_file_path = data_path + '/Localization/english/global.ini'  # relative path to the extracted global.ini
+temp_file_path = 'global_temp.ini'  # temporary file that will be deleted at the end of the script
+output_file_path = 'global.ini'  # path where the fixed global.ini will be saved
+
 # Define your replacements here
 replacements = {
     "Oxygen_Screen_ ErrorButtonMessage=": "Oxygen_Screen_ErrorButtonMessage=",
@@ -20,14 +28,6 @@ replacements = {
     "~mission (title)": "~mission(title)",
     "~mission (item)": "~mission(item)"
 }
-
-exe_path = 'unp4k/unp4k.exe'  # absolut or relativ path to the unp4k.exe
-argument_data = 'C:/Program Files/Roberts Space Industries/StarCitizen/LIVE/Data.p4k'  # absolut or relativ path to the Data.p4k
-argument_ini = 'Data/Localization/english/global.ini'  # filter argument for unp4k
-data_path = 'Data'  # temporary directory that will be deleted at the end of the script
-input_file_path = data_path + '/Localization/english/global.ini'  # relative path to the extracted global.ini
-temp_file_path = 'global_temp.ini'  # temporary file that will be deleted at the end of the script
-output_file_path = 'global.ini'  # path where the fixed global.ini will be saved
 
 
 # Runs an exe file with the given arguments
