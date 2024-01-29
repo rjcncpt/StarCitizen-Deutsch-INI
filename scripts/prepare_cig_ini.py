@@ -48,23 +48,29 @@ def run_exe_with_args(exe_path, args):
 def replace_bytes_in_file(input_file_path, temp_file_path):
     with open(input_file_path, 'rb') as file:
         content = file.read()
+    print(f"The file {input_file_path} has been read successfully.")
 
     replacement = re.sub(b'(?<!\xc2)\xa0', b'\xc2\xa0', content)
+    print("The encoding of the file has been fixed successfully.")
 
     with open(temp_file_path, 'wb') as file:
         file.write(replacement)
+    print(f"The file {temp_file_path} has been written successfully.")
 
 
 # Replaces the given text parts
 def replace_text(temp_file_path, output_file_path, replacements):
     with codecs.open(temp_file_path, 'r', 'utf-8-sig') as infile:
         original_text = infile.read()
+    print(f"The file {temp_file_path} has been read successfully as UTF-8-BOM.")
 
     for old_text, new_text in replacements.items():
         original_text = original_text.replace(old_text, new_text)
+    print("The variables have been fixed successfully.")
 
     with codecs.open(output_file_path, 'w', 'utf-8-sig') as outfile:
         outfile.write(original_text)
+    print(f"The file {output_file_path} has been written successfully as UTF-8-BOM.")
 
 
 # Deletes the temporary file
