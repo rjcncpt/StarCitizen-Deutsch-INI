@@ -26,19 +26,19 @@ def keys_in_second_ini(first_file, second_file):
 
 # Files to be checked
 eng_live_file = "en/live/global.ini"
-ger_live_file = "live/global.ini"
+deu_live_file = "live/global.ini"
 eng_ptu_file = "en/ptu/global.ini"
-ger_ptu_file = "ptu/global.ini"
+deu_ptu_file = "ptu/global.ini"
 
 exit_code = 0
 
 # Perform the check
-if keys_in_second_ini(eng_live_file, ger_live_file):
+if keys_in_second_ini(eng_live_file, deu_live_file):
     print("All keys in LIVE are present.")
 else:
     print("Some keys in LIVE are missing.")
     exit_code = 1
-if keys_in_second_ini(eng_ptu_file, ger_ptu_file):
+if keys_in_second_ini(eng_ptu_file, deu_ptu_file):
     print("All keys in PTU are present.")
 else:
     print("Some keys in PTU are missing.")
