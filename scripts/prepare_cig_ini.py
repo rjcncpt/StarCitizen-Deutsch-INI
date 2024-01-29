@@ -6,11 +6,11 @@ import shutil
 import logging
 
 # The following paths need to fit your setup
-exe_path = 'unp4k/unp4k.exe'  # Absolut or relativ path to the unp4k.exe
-argument_data = 'C:/Program Files/Roberts Space Industries/StarCitizen/LIVE/Data.p4k'  # Absolut or relativ path to the Data.p4k
+exe_path = 'unp4k/unp4k.exe'  # Path to the unp4k.exe
+argument_data = 'C:/Program Files/Roberts Space Industries/StarCitizen/LIVE/Data.p4k'  # Path to the Data.p4k
 
 # The following paths are internally used and do not need to be edited, but can be edited
-data_path = 'Data'  # Temporary directory that will be deleted at the end of the script
+data_path = 'Data'  # Temporary directory used by unp4k, that will be deleted at the end of the script
 input_file_path = data_path + '/Localization/english/global.ini'  # Relative path to the extracted global.ini. Also used als filter argument for unp4k.
 output_file_path = 'global.ini'  # Path where the fixed global.ini will be saved
 
