@@ -1,4 +1,4 @@
-import configparser
+from configparser import ConfigParser
 
 
 def keys_in_second_ini(first_file, second_file):
@@ -8,11 +8,11 @@ def keys_in_second_ini(first_file, second_file):
     :return: True if all keys in the first ini file are present in the second ini file, False otherwise.
     """
     # Parse the two ini files
-    first_ini = configparser.ConfigParser()
+    first_ini = ConfigParser(allow_no_value=True)
     with open(first_file, "r", encoding="UTF-8-SIG") as file:
         first_ini.read_string("[DEFAULT]\n" + file.read())
 
-    second_ini = configparser.ConfigParser()
+    second_ini = ConfigParser(allow_no_value=True)
     with open(second_file, "r", encoding="UTF-8-SIG") as file:
         second_ini.read_string("[DEFAULT]\n" + file.read())
 
