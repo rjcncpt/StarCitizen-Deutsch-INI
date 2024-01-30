@@ -16,9 +16,8 @@
 
 ### Inhaltsverzeichnis
 
-- **[Download als Zip-Datei](#download-als-zip-datei)**
-- **[Nur die global.ini herunterladen](#direktdownload-der-globalini)**
-- **[Automatischer ini-Updater](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/updater)**
+- **[Anleitung zur Installation](#anleitung-zur-installation)**
+- **[Automatisches ini-Update](#automatisches-ini-update)**
 - **[Preview/Test Channels](#previewtest-channels)**
 - **[Das Team](#das-team)**
 - **[Bekannte Fehler](#bekannte-fehler)**
@@ -36,28 +35,21 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 
 ## Anleitung zur Installation
 
-### Download als Zip-Datei
-
 **Täglich um 4 Uhr nachts wird aus den Fixes des Vortags automatisch ein LIVE und/oder PTU Release erstellt. Releases werden nur dann erstellt, wenn in den letzten 24h Änderungen an den jeweiligen ini-Dateien vorgenommen wurden.**<br/><br/>
-
-Lade dir **[die für dich passende ZIP Datei herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)** und entpacke diese im LIVE bzw. PTU Ordner. (Nutzt du die INI Datei für LIVE im PTU und umgekehrt, kann es zu Darstellungsfehlern kommen wenn sich die Versionsnummern unterscheiden.)<br/><br/>
-
-In der ZIP Datei befindet sich die **`global.ini`** und die **`user.cfg`** Datei. Wenn du nicht möchtest das die **`user.cfg`** Datei deine eigene überschreibt, lade die **`global.ini`** **[als einzelne Datei herunter](#direktdownload-der-globalini)**. Diese findest du im **`live`** und **`ptu`** Ordner. Bitte nutze nur die Dateien, welche für den jeweiligen Channel ausgelegt sind.
-<br/>
-
-#### Installation
 
 [![Ordnerstruktur - Star Citizen in Deutsch](https://i.imgur.com/USRwGWM.png)](#)
 
-1. Lade dir die **`StarCitizen.Deutsch.LIVE.zip`** oder **`StarCitizen.Deutsch.PTU.zip`** herunter
-2. Entpacke diese
-3. Kopiere den Inhalt in den LIVE bzw. PTU Ordner
+1. **Lade dir die [`StarCitizen.Deutsch.LIVE.zip`](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) oder [`StarCitizen.Deutsch.PTU.zip`](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) herunter**
+2. **Entpacke die ZIP Datei**
+3. **Kopiere den Inhalt in den LIVE bzw. PTU Ordner**
+   <br/><br/>
+
+In der ZIP Datei befindet sich neben der **`global.ini`** auch eine angepasste **`user.cfg`** Datei. Achte daher darauf, dass wenn du eine eigene **`user.cfg`** Datei verwendest, diese nicht zu überschreiben. Übertrage den Inhalt unserer Datei zu deiner Datei.
    <br/><br/><br/><br/>
 
 ### Direktdownload der global.ini
 
-Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)**, wenn du nicht immer die Zip-Datei herunterladen möchtest. Auch ist diese Datei immer auf einem aktuelleren Stand als die Release Datei.
-<br/><br/>
+Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)**, wenn du nicht immer die Zip-Datei herunterladen möchtest. Auch ist diese Datei immer auf einem aktuelleren Stand als die Release Datei.<br/>
 
 - LIVE Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** und die `global.ini` Datei für LIVE öffnen
 - PTU Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/ptu/global.ini)** und die `global.ini` Datei für PTU öffnen
@@ -81,7 +73,12 @@ Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb m
   **`\ Roberts Space Industries \ StarCitizen \ PTU \`**
   <br/><br/><br/><br/>
 
-### Preview/Test Channels
+### Automatisches ini-Update
+
+Um immer auf dem aktuellen Stand zu bleiben, kannst du die ini-Datei auch automatisch updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/updater)** welche Möglichkeiten du hast.
+<br/><br/><br/><br/>
+
+## Preview/Test Channels
 
 Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tests in englischer Sprache problemlos teilhaben kannst, füge in der **`user.cfg`** Datei ein **`;`** vor die Zeile **`g_language = german_(germany)`** hinzu. Du kannst selbstverständlich auch die aktuellste deutsche Übersetzung ausprobieren. Sei dir aber bewusst, dass es zu Darstellungsfehler kommen kann!
 <br/><br/><br/><br/>
