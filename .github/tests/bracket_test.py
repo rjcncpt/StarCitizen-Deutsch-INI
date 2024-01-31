@@ -1,6 +1,3 @@
-import re
-
-
 def check_brackets_balance(line):
     count_open = 0
     count_close = 0
@@ -9,9 +6,8 @@ def check_brackets_balance(line):
     for char in line:
         if char == '(':
             count_open += 1
-        elif char == ')' and not re.search(pattern, char):
-            if re.search(pattern, char):
-                count_close += 1
+        elif char == ')':
+            count_close += 1
 
     return count_open == count_close
 
