@@ -4,7 +4,7 @@ import re
 def check_brackets_balance(line):
     count_open = 0
     count_close = 0
-    pattern = r'[a-zA-Z0-9]\.\)'
+    pattern = r'[a-dA-D0-9]\.\)'
 
     for char in line:
         if char == '(':
