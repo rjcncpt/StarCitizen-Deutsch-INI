@@ -9,7 +9,7 @@ def check_brackets(filename) -> int:
             if line_number == 44749 or line_number == 44750:
                 break
             # Remove enumeration round brackets
-            clean_line = re.sub(r'(?:[0-9]\.\))|(?:\s[a-z]\))|:\)', '', line)
+            clean_line = re.sub(r'\d\.\)|\s[a-z]\)|:\)', '', line)
 
             bracket_stack = []
             for char in clean_line:
