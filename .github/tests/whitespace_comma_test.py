@@ -30,6 +30,7 @@ if __name__ == "__main__":
             print("Following lines need to be checked:")
             print(bad_lines)
             print("Test FAILED!")
+            exit(1)
         else:
             print("There are no whitespaces before a comma.")
             print("Test PASSED!")
