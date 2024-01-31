@@ -55,7 +55,7 @@ jobs:
           python-version: "3.12"
 
       - name: Execute Test
-        run: python ./.github/tests/check_for_whitespace_before_comma.py
+        run: python ./.github/tests/whitespace_comma_test.py
 
   Brackets:
     name: Check For Not Closed Brackets

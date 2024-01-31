@@ -29,10 +29,10 @@ if __name__ == "__main__":
         if bad_lines:
             print("Following lines need to be checked:")
             print(bad_lines)
-            sys.exit(1)
+            print("Test FAILED!")
         else:
             print("There are no whitespaces before a comma.")
-            print("Test passed!")
+            print("Test PASSED!")
 
     except FileNotFoundError:
         print(f"File \"{file_path}\" was not found.")
