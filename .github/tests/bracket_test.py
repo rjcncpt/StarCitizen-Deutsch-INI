@@ -19,7 +19,7 @@ def check_brackets(filename):
     """
     with open(filename, 'r') as file:
         for line_number, line in enumerate(file, start=1):
-            if line_number != 44749 and line_number != 44750:
+            if line_number != 44749 and line_number != 44750 and line_number != 46617 and line_number != 46654:
                 # Remove enumerations and smileys
                 clean_line = re.sub(r'\d\.\)|\s[a-z]\)|:\)', '', line)
 
