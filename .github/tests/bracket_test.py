@@ -17,7 +17,7 @@ def check_brackets(filename):
     Example usage:
     check_brackets("example.txt")
     """
-    with open(filename, 'r') as file:
+    with open(filename, 'r', encoding="UTF-8-SIG") as file:
         for line_number, line in enumerate(file, start=1):
             if line_number != 44749 and line_number != 44750 and line_number != 46617 and line_number != 46654:
                 # Remove enumerations and smileys
