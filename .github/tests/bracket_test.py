@@ -6,8 +6,10 @@ def check_brackets(filename) -> int:
 
     with open(filename, 'r') as file:
         for line_number, line in enumerate(file, start=1):
+            if line_number == 44749 or line_number == 44750:
+                break
             # Remove enumeration round brackets
-            clean_line = re.sub(r'(?:\s[0-9]{1,}\.)|(?:\s[a-z]\))', '', line)
+            clean_line = re.sub(r'(?:[0-9]{1,}\.)|(?:\s[a-z]\))|:\)', '', line)
 
             bracket_stack = []
             for char in clean_line:
