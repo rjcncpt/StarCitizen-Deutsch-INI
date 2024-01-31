@@ -8,7 +8,7 @@ def check_brackets(filename) -> int:
         for line_number, line in enumerate(file, start=1):
             if line_number == 44749 or line_number == 44750:
                 break
-            # Remove enumeration round brackets
+            # Remove enumerations and smileys
             clean_line = re.sub(r'\d\.\)|\s[a-z]\)|:\)', '', line)
 
             bracket_stack = []
@@ -33,9 +33,11 @@ if __name__ == "__main__":
     deu_live_file = "live/global.ini"
     deu_ptu_file = "ptu/global.ini"
     exit_code = 0
+    print("")
     print("Checking {}...".format(deu_live_file))
     if check_brackets(deu_live_file) != 0:
         exit_code = 1
+    print("")
     print("Checking {}...".format(deu_ptu_file))
     if check_brackets(deu_ptu_file) != 0:
         exit_code = 1
