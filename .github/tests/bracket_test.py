@@ -3,13 +3,27 @@ import re
 
 def check_brackets(filename) -> int:
     result = 0
+
     with open(filename, 'r') as file:
         for line_number, line in enumerate(file, start=1):
-            # Checks if all opened brackets are closed in the same line
-            if re.search(r'\([^\)]*$', line):
-                if line_number != 44749 and line_number != 46617:
-                    print(f"Line {line_number}: Open bracket is not closed in the same line.")
-                    result = 1
+            # Remove enumeration round brackets
+            clean_line = re.sub(r'[0-9]\.\)', '', line)
+
+            bracket_stack = []
+            for char in clean_line:
+                if char == '(':
+                    bracket_stack.append(char)
+                elif char == ')':
+                    try:
+                        bracket_stack.pop()
+                    except IndexError:
+                        print(f"Line {line_number}: Extra closing bracket detected.")
+                        break
+
+            if bracket_stack:
+                print(f"Line {line_number}: Open bracket is not closed.")
+                result = 1
+
     return result
 
 
