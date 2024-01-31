@@ -8,8 +8,6 @@ def check_brackets(filename) -> int:
             # Checks if all opened brackets are closed in the same line
             if re.search(r'\([^\)]*$', line):
                 if line_number != 44749 and line_number != 46617:
-                    result = 0
-                else:
                     print(f"Line {line_number}: Open bracket is not closed in the same line.")
                     result = 1
     return result
