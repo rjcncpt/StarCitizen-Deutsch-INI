@@ -1,25 +1,24 @@
 import re
 
 
-def check_brackets(filename):
+def check_brackets(filename, excluded):
     """
-    :param filename: The name of the file to be checked for balanced brackets.
+    :param filename: The name of the file to check for bracket matching.
+    :param excluded: A list of line numbers to exclude from checking.
     :return: None
 
-    This method checks if the brackets in a given file are balanced. It reads through each line of the file, strips any enumerations and smileys, and then checks if the brackets are balanced.
-
-    If a line contains an extra closing bracket that is not matched with an opening bracket, it will print a message indicating the line number and the issue.
-
-    If a line has an open bracket that is not closed, it will also print a message indicating the line number and the issue.
-
-    Note: The method does not return any value. It directly prints the error messages.
+    The check_brackets method reads the contents of the given file and checks for matching brackets. It skips the lines specified in the 'excluded' parameter. If any mismatched or unclosed
+    * brackets are found, an error message is printed with the line number.
 
     Example usage:
-    check_brackets("example.txt")
+
+    check_brackets('file.txt', [3, 5, 7])
+
+    This will check the contents of 'file.txt' for bracket matching, excluding lines 3, 5, and 7.
     """
     with open(filename, 'r', encoding="UTF-8-SIG") as file:
         for line_number, line in enumerate(file, start=1):
-            if line_number != 44749 and line_number != 44750 and line_number != 46617 and line_number != 46654:
+            if line_number not in excluded:
                 # Remove enumerations and smileys
                 clean_line = re.sub(r'\d\.\)|\s[a-z]\)|:\)', '', line)  # This regex should filter all "1.)" "a)" and ":)" parts.
 
@@ -39,11 +38,12 @@ def check_brackets(filename):
 
 
 if __name__ == "__main__":
+    excluded_lines = [44749, 44750, 46617, 46654]
     deu_live_file = "live/global.ini"
     deu_ptu_file = "ptu/global.ini"
-    print("")
-    print("Checking {}...".format(deu_live_file))
-    check_brackets(deu_live_file)
-    print("")
-    print("Checking {}...".format(deu_ptu_file))
-    check_brackets(deu_ptu_file)
+    print()
+    print(f"Checking {deu_live_file}...")
+    check_brackets(deu_live_file, excluded_lines)
+    print()
+    print(f"Checking {deu_ptu_file}...")
+    check_brackets(deu_ptu_file, excluded_lines)

@@ -1,6 +1,3 @@
-import sys
-
-
 def find_bad_lines(file_content):
     """
     Find lines in the given file that have a comma with a space before it.
