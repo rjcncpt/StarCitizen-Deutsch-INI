@@ -51,8 +51,8 @@ In der ZIP Datei befindet sich neben der **`global.ini`** auch eine angepasste *
 
 Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)**, wenn du nicht immer die Zip-Datei herunterladen möchtest. Auch ist diese Datei immer auf einem aktuelleren Stand als die Release Datei.<br/>
 
-- LIVE Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** und die `global.ini` Datei für LIVE öffnen
-- PTU Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/ptu/global.ini)** und die `global.ini` Datei für PTU öffnen
+- LIVE Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** und die **`global.ini`** Datei für LIVE öffnen
+- PTU Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/ptu/global.ini)** und die **`global.ini`** Datei für PTU öffnen
   <br/>
 
 Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.<br/><br/>
