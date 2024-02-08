@@ -46,7 +46,7 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 
 > 💡 In der ZIP Datei befindet sich neben der **`global.ini`** auch eine angepasste **`user.cfg`** Datei. Achte daher darauf, dass wenn du eine eigene **`user.cfg`** Datei verwendest, diese nicht zu überschreiben. Übertrage den Inhalt unserer Datei zu deiner Datei.
 
-<br/><br/><br/><br/>
+<br/><br/><br/>
 
 ### Direktdownload der global.ini
 
@@ -84,7 +84,7 @@ Um immer auf dem aktuellen Stand zu bleiben, kannst du die ini-Datei auch automa
 Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tests in englischer Sprache problemlos teilhaben kannst, füge in der **`user.cfg`** Datei ein **`;`** vor die Zeile **`g_language = german_(germany)`** hinzu. Du kannst selbstverständlich auch die aktuellste deutsche Übersetzung ausprobieren. Sei dir aber bewusst, dass es zu Darstellungsfehler kommen kann!
 <br/><br/><br/><br/>
 
-### Das Team
+## Das Team
 
 | Team Name                                   | Position             | Aufgaben                                   |
 |:--------------------------------------------|:---------------------|:-------------------------------------------|
@@ -110,7 +110,7 @@ Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tes
 
 <br/><br/>
 
-### Bekannte Fehler
+## Bekannte Fehler
 
 <details>
 <summary>[Klick] Fehler: Es werden kryptische Variablen mit @-Zeichen am Anfang angezeigt</summary>
@@ -169,7 +169,7 @@ Das sollte das Problem beheben.
 
 <br/><br/>
 
-### Mehr von rjcncpt
+## Mehr von rjcncpt
 
 [![Better Spectrum Dark Mode](https://i.imgur.com/QqXnJJb.png)](https://github.com/rjcncpt/SpectrumDarkMode-Extension)
 
