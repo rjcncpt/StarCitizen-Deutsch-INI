@@ -44,8 +44,9 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 3. **Kopiere den Inhalt in den LIVE bzw. PTU Ordner**
    <br/><br/>
 
-In der ZIP Datei befindet sich neben der **`global.ini`** auch eine angepasste **`user.cfg`** Datei. Achte daher darauf, dass wenn du eine eigene **`user.cfg`** Datei verwendest, diese nicht zu überschreiben. Übertrage den Inhalt unserer Datei zu deiner Datei.
-   <br/><br/><br/><br/>
+> 💡 In der ZIP Datei befindet sich neben der **`global.ini`** auch eine angepasste **`user.cfg`** Datei. Achte daher darauf, dass wenn du eine eigene **`user.cfg`** Datei verwendest, diese nicht zu überschreiben. Übertrage den Inhalt unserer Datei zu deiner Datei.
+
+<br/><br/><br/><br/>
 
 ### Direktdownload der global.ini
 
