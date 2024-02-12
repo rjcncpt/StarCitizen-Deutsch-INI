@@ -37,7 +37,7 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 
 **Täglich um 4 Uhr nachts wird aus den Fixes des Vortags automatisch ein LIVE und/oder PTU Release erstellt. Releases werden nur dann erstellt, wenn in den letzten 24h Änderungen an den jeweiligen ini-Dateien vorgenommen wurden.**<br/><br/>
 
-[![Ordnerstruktur - Star Citizen in Deutsch](https://i.imgur.com/USRwGWM.png)](#)
+[<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
 1. **Lade dir die neueste [`StarCitizen.Deutsch.LIVE.zip`](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true) oder [`StarCitizen.Deutsch.PTU.zip`](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true) herunter**
 2. **Entpacke die ZIP Datei**
