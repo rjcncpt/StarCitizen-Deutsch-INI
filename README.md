@@ -76,7 +76,7 @@ Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb m
 
 ### Automatisches ini-Update
 
-Um immer auf dem aktuellen Stand zu bleiben, kannst du die ini-Datei auch automatisch updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/updater)** welche Möglichkeiten du hast.
+Um immer auf dem aktuellen Stand zu bleiben, kannst du die ini-Datei auch automatisch updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/updater)** welche Möglichkeiten du hast.
 <br/><br/><br/><br/>
 
 ## Preview/Test Channels
