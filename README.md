@@ -39,7 +39,7 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 
 [![Ordnerstruktur - Star Citizen in Deutsch](https://i.imgur.com/USRwGWM.png)](#)
 
-1. **Lade dir die [`StarCitizen.Deutsch.LIVE.zip`](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) oder [`StarCitizen.Deutsch.PTU.zip`](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) herunter**
+1. **Lade dir die neueste [`StarCitizen.Deutsch.LIVE.zip`](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true) oder [`StarCitizen.Deutsch.PTU.zip`](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true) herunter**
 2. **Entpacke die ZIP Datei**
 3. **Kopiere den Inhalt in den LIVE bzw. PTU Ordner**
    <br/><br/>
