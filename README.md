@@ -50,7 +50,7 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 
 <br/><br/><br/>
 
-### Direktdownload der global.ini
+<!---### Direktdownload der global.ini
 
 Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)**, wenn du nicht immer die Zip-Datei herunterladen möchtest. Auch ist diese Datei immer auf einem aktuelleren Stand als die Release Datei.<br/>
 
@@ -74,7 +74,7 @@ Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb m
 - speichere ggf. die `user.cfg` in den LIVE oder PTU Ordner:<br/>
   **`\ Roberts Space Industries \ StarCitizen \ LIVE \`**<br/>
   **`\ Roberts Space Industries \ StarCitizen \ PTU \`**
-  <br/><br/><br/><br/>
+  <br/><br/><br/><br/>--->
 
 ### Automatisches ini-Update
 
