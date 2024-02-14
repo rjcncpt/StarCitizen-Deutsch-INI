@@ -39,8 +39,7 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 
 [<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
-1. **Lade dir die neueste ![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*LIVE*&display_name=release&style=flat-square&label=LIVE&link=https%3A%2F%2Fgithub.com%2Frjcncpt%2FStarCitizen-Deutsch-INI%2Freleases%3Fq%3Dlive%26expanded%3Dtrue)
- oder ![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*PTU*&display_name=release&style=flat-square&label=PTU&link=https%3A%2F%2Fgithub.com%2Frjcncpt%2FStarCitizen-Deutsch-INI%2Freleases%3Fq%3Dptu%26expanded%3Dtrue) herunter**
+1. **Lade dir die neueste <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*LIVE*&display_name=release&style=flat-square&label=LIVE)</a> oder <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*PTU*&display_name=release&style=flat-square&label=PTU)</a> herunter**
 2. **Entpacke die ZIP Datei**
 3. **Kopiere den Inhalt in den LIVE bzw. PTU Ordner**
    <br/><br/>
