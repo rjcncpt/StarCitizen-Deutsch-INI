@@ -1,3 +1,6 @@
+[![Static Badge](https://img.shields.io/badge/BEREIT-%234cc71e?style=for-the-badge&label=3.22.1%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) <!-- ![Static Badge](https://img.shields.io/badge/PTU-%234cc71e?style=for-the-badge&label=3.22.0%20)--> <!-- ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?style=for-the-badge&label=3.22%20PTU)--> [![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&label=Preview%20Channel)](#) <br/>
+[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total?style=for-the-badge&)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)
+
 [![Star Citizen in Deutsch](https://i.imgur.com/HMhrxcK.jpg)](#)
 
 # Star Citizen in Deutsch - Lokalisierung für LIVE und PTU
@@ -7,10 +10,6 @@
 #### Es ist davon auszugehen, dass eine deutsche Übersetzung das Tor für potenziell tausende und langfristig für Millionen neuer Spieler öffnet und einlädt, Star Citizen zu testen.
 
 **Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [einen Issue schreiben](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=), deinen Vorschlag posten und ein Teil der Übersetzung werden.**
-<br/><br/>
-
-[![Static Badge](https://img.shields.io/badge/BEREIT-%234cc71e?style=for-the-badge&label=3.22.1%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) <!-- ![Static Badge](https://img.shields.io/badge/PTU-%234cc71e?style=for-the-badge&label=3.22.0%20)--> <!-- ![Static Badge](https://img.shields.io/badge/Bereit-%234cc71e?style=for-the-badge&label=3.22%20PTU)--> [![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&label=Preview%20Channel)](#) <br/>
-[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total?style=for-the-badge&)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)
 
 <br/>
 
