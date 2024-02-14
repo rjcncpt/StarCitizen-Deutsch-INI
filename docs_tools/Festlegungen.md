@@ -29,7 +29,6 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `mission_client`                     | Sind Clients für Missionen                                        |
 | `mission_contractor`                 | Sind Locations für Missionen                                      |
 | `Titel für Standorte`                | z.B. `Stanton2b_` `Bacchus` `Pyro3_`. Meist über _desc angeordnet |
-| `Beacon`                             |                                                                   |
 | `Friendly Fire`                      |                                                                   |
 | `Repeater`                           |                                                                   |
 | `Cryptokey`                          |                                                                   |
@@ -172,11 +171,11 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Main Sequence star`                 | `Zentralstern`                                                            |                    |                                                                      |
 | `Acceleration Limiter`               | `Beschl.begrenzer`                                                        |                    | Abkürzen weil sonst zu lang                                          |
 | `Velocity Limiter`                   | `Geschw.begrenzer`                                                        |                    | Abkürzen weil sonst zu lang                                          |
+| `Beacon`                             | `Notsignal`			                                                   | `Notrufsignal`     | 							                                           |
+| `Spaceframe`                 		   | `Raumstruktur`                                                            |                    |                                                                      |
+| `Spinal mount`               		   | `Spinalhalterung`                                                         |                    |                                                                      |
 
 ### Offene Fragen
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
 |:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
 | `imaging services`                   | ??? Wird als `Bildgebungsdienste` übersetzt    |                                                                                   |                             |
-| `Spaceframe`                         | ??? Wird als `Raumrahmen` übersetzt            |                                                                                   |                             |
-| `Spinal mount`                       | ??? (bei `vehicle_DescAEGS_Idris=`)            |                                                                                   |                             |
-| `Quantum Enforcement`                | ??? (bei `vehicle_DescRSI_Mantis=`)            |                                                                                   |                             |
