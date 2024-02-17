@@ -7,7 +7,7 @@ import logging
 
 # The following paths need to fit your setup
 exe_path = "unp4k/unp4k.exe"  # Path to the unp4k.exe
-argument_data = "C:/Program Files/Roberts Space Industries/StarCitizen/LIVE/Data.p4k"  # Path to the Data.p4k
+argument_data = "C:/Program Files/Roberts Space Industries/StarCitizen/EPTU/Data.p4k"  # Path to the Data.p4k
 
 # The following paths are internally used and do not need to be edited, but can be edited
 data_path = "Data"  # Temporary directory used by unp4k, that will be deleted at the end of the script
