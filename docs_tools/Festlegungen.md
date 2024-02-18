@@ -148,12 +148,12 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Shields up`                         | `Schilde sind oben`                            |                                                                                   |                             |
 
 ### Berufe, Tätigkeit
-| Englisch                             | Deutsch Variante 1                             | Anmerkung                                                                         |                             |
-|:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
-| `Catastrophic Charge Rate`           | `Laderate des kritschen Energiebereichs`       | Tätigkeit: Mining                                                                 |                             |
-| `Optimal Charge Window Rate`         | `Laderate des optimalen Energiebereichs`       | Tätigkeit: Mining                                                                 |                             |
-| `Catastrophic Charge Windows Size`   | `Größe des kritischen Energiebereichs`         | Tätigkeit: Mining                                                                 |                             |
-| `Optimal Charge Windows Size`        | `Größe des optimalen Energiebereichs`          | Tätigkeit: Mining                                                                 |                             |
+| Englisch                             | Deutsch Variante 1                             | Anmerkung                                                                         |
+|:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|
+| `Catastrophic Charge Rate`           | `Laderate des kritschen Energiebereichs`       | Tätigkeit: Mining                                                                 |
+| `Optimal Charge Window Rate`         | `Laderate des optimalen Energiebereichs`       | Tätigkeit: Mining                                                                 |
+| `Catastrophic Charge Windows Size`   | `Größe des kritischen Energiebereichs`         | Tätigkeit: Mining                                                                 |
+| `Optimal Charge Windows Size`        | `Größe des optimalen Energiebereichs`          | Tätigkeit: Mining                                                                 |
 
 ### Sonstiges
 | Englisch                             | Deutsch Variante 1                                                        | Deutsch Variante 2 | Anmerkung                                                            |
