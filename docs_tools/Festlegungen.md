@@ -158,6 +158,9 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 ### Sonstiges
 | Englisch                             | Deutsch Variante 1                                                        | Deutsch Variante 2 | Anmerkung                                                            |
 |:-------------------------------------|:--------------------------------------------------------------------------|:-------------------|:---------------------------------------------------------------------|
+| `Surveillance Monitors`              | `Überwachungssensoren`                                                    |                    |                                                                      |
+| `Skimmers`                           | `Überwachungssatelliten`                                                  | `Datensammler`     | verkürzt bei HUD Texten                                              |
+| `Data Skimmers`                      | `Datensammler`                                                            |                    |                                                                      |
 | `Invalid Shop`                       | `Unzulässiger Shop`                                                       |                    |                                                                      |
 | `Light Goods`                        | `Leichte Fracht`                                                          |                    |                                                                      |
 | `Mainframe`                          | `Zentralrechner`                                                          |                    |                                                                      |
@@ -171,11 +174,11 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Main Sequence star`                 | `Zentralstern`                                                            |                    |                                                                      |
 | `Acceleration Limiter`               | `Beschl.begrenzer`                                                        |                    | Abkürzen weil sonst zu lang                                          |
 | `Velocity Limiter`                   | `Geschw.begrenzer`                                                        |                    | Abkürzen weil sonst zu lang                                          |
-| `Beacon`                             | `Notsignal`			                                                   | `Notrufsignal`     | 							                                           |
-| `Spaceframe`                 		   | `Raumstruktur`                                                            |                    |                                                                      |
-| `Spinal mount`               		   | `Spinalhalterung`                                                         |                    |                                                                      |
+| `Beacon`                             | `Notsignal`			                                                         | `Notrufsignal`     | 							                                                       |
+| `Spaceframe`                 		     | `Raumstruktur`                                                            |                    |                                                                      |
+| `Spinal mount`               		     | `Spinalhalterung`                                                         |                    |                                                                      |
 
 ### Offene Fragen
-| Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
-|:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
-| `imaging services`                   | ??? Wird als `Bildgebungsdienste` übersetzt    |                                                                                   |                             |
+| Englisch                             | Deutsch Variante 1                                                        | Deutsch Variante 2 | Deutsch Variante 3                                                   |
+|:-------------------------------------|:--------------------------------------------------------------------------|:-------------------|:---------------------------------------------------------------------|
+| `imaging services`                   | ??? Wird als `Bildgebungsdienste` übersetzt                               |                    |                                                                      |
