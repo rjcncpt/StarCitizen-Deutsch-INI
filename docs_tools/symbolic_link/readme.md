@@ -17,7 +17,7 @@ Der ständige Download von vielen Gigabyte Daten wenn man zwischen LIVE und PTU 
 2. Öffne die `SymlinkCreator.exe`
 3. **Type of Link:** Wähle die Option `Directory Symbolic Link (/D)`
 4. **Destination (Link):** Wähle dein Zielverzeichnis. Zum Beispiel PTU
-5. **Source (Target):** W#hle das Quellverzeichnis. In diesem Fall LIVE
+5. **Source (Target):** Wähle das Quellverzeichnis. In diesem Fall LIVE
 6. Klicke auf **Create Link**
 
 <br/>Wenn du alles richtig gemacht hast und alle Verknüpfungen erstellt hast die du brauchst, sollte es wie bei mir aussehen.
