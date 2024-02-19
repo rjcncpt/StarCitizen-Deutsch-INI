@@ -81,7 +81,7 @@ jobs:
       - name: Create Release Title For LIVE
         id: title_live # creates a title for the release that shows the version number used in the title of the last commit that changed the live/global.ini
         if: steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE > 0
-        run: echo "RELEASE_TITLE_PTU=$(cat 'en/live/build.live')" >> $GITHUB_OUTPUT
+        run: echo "RELEASE_TITLE_LIVE=$(cat 'en/live/build.live')" >> $GITHUB_OUTPUT
 
       - name: Get Last Tag On PTU
         id: tag_PTU
