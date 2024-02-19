@@ -42,7 +42,7 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 
    <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*LIVE*&display_name=release&style=for-the-badge&label=LIVE%20)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*PTU*&display_name=release&style=for-the-badge&label=PTU)</a><!-- https://shields.io/badges/git-hub-release -->
 3. **Entpacke die ZIP Datei**
-4. **Kopiere den Inhalt in den LIVE bzw. PTU/EPTU Ordner**
+4. **Kopiere den des ZIP Inhalts in den LIVE bzw. PTU/EPTU Ordner. Achte auf die Versionierung des ZIP und im RSI-Launcher**
    <br/><br/>
 
 > 💡 In der ZIP Datei befindet sich neben der **`global.ini`** auch eine angepasste **`user.cfg`** Datei. Achte daher darauf, dass wenn du eine eigene **`user.cfg`** Datei verwendest, diese nicht zu überschreiben. Übertrage den Inhalt unserer Datei zu deiner Datei.
