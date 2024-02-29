@@ -87,19 +87,19 @@ Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tes
 
 # Das Team
 
-| Team Name                                   | Position             | Aufgaben                                   |
-|:--------------------------------------------|:---------------------|:-------------------------------------------|
-| [rjcncpt/PYRO](https://github.com/rjcncpt)  | `Ansprechparter`     | Übersetzungen & GitHub                     |
-| [MaxM1211](https://github.com/MaxM1211)     | `Dev & Bugfixing`    | Korrekturen, GitHub, Dev & Bugfixing       |
-| [greluc](https://github.com/greluc)         | `Übersetzer`         | Übersetzungen, GitHub                      |
-| [Norinofu](https://github.com/Norinofu)     | `Dev & Bugfixing`    | Korrekturen, GitHub                        |
-| [Drakonhawk](https://github.com/Drakonhawk) | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing                    |
-| Boy7                                        | `Dev & Bugfixing`    | Übersetzungen, Dev & Bugfixing             |
-| Hikaruhoshi1                                | `Übersetzer`         | Übersetzungen                              |
-| electron0                                   | `Dev & Bugfixing`    | GitHub, Dev & Bugfixing                    |
-| APROVES                                     | `Übersetzer`         | Übersetzungen                              |
-| Asaya87                                     | `Discord Management` | Übersetzungen & Discord Admin              |
-| Fabi 18                                     | `Discord Management` | Discord Admin                              |
+| Team Name                                                                          | Position              | Aufgaben                                   |
+|:-----------------------------------------------------------------------------------|:----------------------|:-------------------------------------------|
+| [rjcncpt/PYRO](https://fwkart.de/star-citizen-free-fly-kostenlos-testen-spielen/)  | `Ansprechparter`      | Übersetzungen, GitHub                      |
+| [MaxM1211](https://github.com/MaxM1211)                                            | `GitHub & Übersetzer` | Übersetzungen, GitHub, Dev & Bugfixing     |
+| [greluc](https://github.com/greluc)                                                | `GitHub & Übersetzer` | Übersetzungen, GitHub, Dev & Bugfixing     |
+| [Norinofu](https://github.com/Norinofu)                                            | `GitHub & Übersetzer` | GitHub, Übersetzer                         |
+| [Drakonhawk](https://github.com/Drakonhawk)                                        | `GitHub & Übersetzer` | GitHub, Übersetzer                         |
+| Boy7                                                                               | `Software Dev`        | Erstellung von Software                    |
+| Hikaruhoshi1                                                                       | `Übersetzer`          | Übersetzungen                              |
+| electron0                                                                          | `Dev & Bugfixing`     | GitHub, Dev & Bugfixing                    |
+| APROVES                                                                            | `Übersetzer`          | Übersetzungen                              |
+| Asaya87                                                                            | `Discord Management`  | Übersetzungen & Discord Admin              |
+| Fabi 18                                                                            | `Discord Management`  | Discord Admin                              |
 
 <br/>
 
@@ -107,7 +107,8 @@ Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tes
 |:--------------------|:-----------|:---------------------------------------------------------------------------------------------------------------------------------------|
 | Claudia Fröhlich    | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld Korrektur gelesen.                                                                   |
 | Knebel              |            | Ein großes Dankeschön geht an die vielen Einsender der **[Knebel Discord Community](https://discord.com/invite/knebel)** \*Invite-Link |
-| NICDUS              |            | Danke für die Erwähnung in einem **[YouTube Guide](https://www.youtube.com/watch?v=5xuSRI0SlbE) (NICDUS - Youtube)**                   |
+| NICDUS              |            | Danke für die Erwähnung in einem **[YouTube Guide](https://www.youtube.com/watch?v=5xuSRI0SlbE)**                                      |
+| Hexenwerk Gaming    |            | Danke für die Erwähnung in einem **[TikTok Video](https://www.tiktok.com/@hexenwerk_gaming/video/7340605802723495200)**                |
 
 <br/><br/>
 
