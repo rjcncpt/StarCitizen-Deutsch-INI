@@ -5,13 +5,18 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 
 ### Allgemein
 
-* Bildungsauftrag erfüllen: Deutsche Übersetzung zur Beschreibung für METALLE/ERZE hinzufügen. Tin (Zinn), Tungsten (Wolfram), Titanium (Titan) etc.
+* Deutsche Übersetzung zur Beschreibung für METALLE/ERZE hinzufügen. Tin (Zinn), Tungsten (Wolfram), Titanium (Titan) etc.
 * Itemnamen, Schiffsklassen/-typen, Missionstitel und HUD-Elemente werden grundsätzlich nicht übersetzt. Dies ist darin begründet, dass oftmals in CIG's GUI zu wenig Platz für die deutsche Übersetzung ist oder eine Kompatibilität zu z.B. Drittanbieterwebsiten beibehalten werden soll. Beschreibungen der genannten Elemente werden hingegen ins Deutsche übersetzt.
 * Schiffe nutzen die weibliche Form (z.B. die Polaris)
 * Hovercraft nutzen die weibliche Form (z.B. die Nox)
 * Bodenfahrzeuge nutzen die männliche Form (z.B. der Cyclone)
 
 # Übersetzung von Eigennamen und feststehenden Begriffen
+
+### Eigene Festlegungen
+| Wort                                 | Bezeichnung                                    |
+|:-------------------------------------|:-----------------------------------------------|
+| `MGB`                                | `Medikamentengehalt im Blut`                   |
 
 ### Nicht übersetzen
 | Bezeichnung                          | Notizen                                                           |
