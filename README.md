@@ -1,5 +1,5 @@
 [![Static Badge](https://img.shields.io/badge/BEREIT-%234cc71e?style=for-the-badge&labelColor=232323&label=3.22.1%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) <!-- [![Static Badge](https://img.shields.io/badge/VORBEREITUNG-%23f3ac04?style=for-the-badge&label=3.23.0%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)--> [![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&labelColor=232323&label=Preview%20Channel)](#) <br/>
-[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&labelColor=232323&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Discord](https://img.shields.io/discord/1163823228637163581?style=for-the-badge&logo=discord&logoColor=fff&label=team&labelColor=232323&color=fff) [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total?style=for-the-badge&labelColor=232323&)](#anleitung-zur-installation)
+[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&labelColor=232323&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Discord](https://img.shields.io/discord/1163823228637163581?style=for-the-badge&logo=discord&logoColor=fff&label=team&labelColor=232323&color=fff) [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total?style=for-the-badge&labelColor=232323&)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)
 
 [![Star Citizen in Deutsch](https://i.imgur.com/HMhrxcK.jpg)](#)
 
@@ -19,7 +19,7 @@
 - **[Automatisches ini-Update](#automatisches-ini-update)**
 - **[Preview/Test Channels](#previewtest-channels)**
 - **[Das Team](#das-team)**
-- **[Bekannte Fehler](#bekannte-fehler)**
+- **[Fragen und Antworten](#fragen-und-antworten)**
 - **[Mehr von rjcncpt](#mehr-von-rjcncpt)**
   <br/><br/>
 
@@ -48,32 +48,6 @@ An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei 
 > 💡 In der ZIP Datei befindet sich neben der **`global.ini`** auch eine angepasste **`user.cfg`** Datei. Achte daher darauf, dass wenn du eine eigene **`user.cfg`** Datei verwendest, diese nicht zu überschreiben. Übertrage den Inhalt unserer Datei zu deiner Datei.
 
 <br/><br/><br/>
-
-<!---### Direktdownload der global.ini
-
-Du kannst die **[global.ini auch direkt aus dem Verzeichnis laden](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)**, wenn du nicht immer die Zip-Datei herunterladen möchtest. Auch ist diese Datei immer auf einem aktuelleren Stand als die Release Datei.<br/>
-
-- LIVE Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** und die **`global.ini`** Datei für LIVE öffnen
-- PTU Datei: **[Hier klicken](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/ptu/global.ini)** und die **`global.ini`** Datei für PTU öffnen
-  <br/>
-
-Klicke im neuen Fenster auf den Downloadbutton oben rechts. Im Screenshot gelb markiert.<br/><br/>
-
-[![ini Datei herunterladen - Star Citizen in Deutsch](https://i.imgur.com/jTabj3V.png)](#)
-<br/>
-
-#### Wohin muss die global.ini Datei?
-
-[![Pfadstruktur - Star Citizen in Deutsch](https://i.imgur.com/lM3jimv.png)](#)
-
-- Erstelle die Ordner im Star Citizen Verzeichnis und füge die Datei ein. So muss der Dateipfad aussehen:<br/>
-  **`\ Roberts Space Industries \ StarCitizen \ LIVE \ data \ Localization \ german_(germany) \ global.ini`**<br/>
-  **`\ Roberts Space Industries \ StarCitizen \ PTU \ data \ Localization \ german_(germany) \ global.ini`**
-
-- speichere ggf. die `user.cfg` in den LIVE oder PTU Ordner:<br/>
-  **`\ Roberts Space Industries \ StarCitizen \ LIVE \`**<br/>
-  **`\ Roberts Space Industries \ StarCitizen \ PTU \`**
-  <br/><br/><br/><br/>--->
 
 ### Automatisches ini-Update
 
@@ -111,12 +85,10 @@ Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tes
 
 <br/><br/>
 
-# Bekannte Fehler
+# Fragen und Antworten
 
 <details>
 <summary>[Klick] Fehler: Es werden kryptische Variablen mit @-Zeichen am Anfang angezeigt</summary>
-<br/>
-
 Unsere **`global.ini`** Datei liegt bereits im korrekten **`UTF-8-BOM`** im Format vor. Wenn bei dir Variablen angezeigt werden, die mit einem @-Zeichen beginnen, aber die Ordnerstuktur richtig ist, scheint deine Datei-Codierung falsch zu sein. Lade entweder **[unsere Datei erneut herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** oder stelle die Codierung deiner Datei manuell um:
 <br/><br/>
 
@@ -132,10 +104,10 @@ Das sollte das Problem beheben.
 
 </details>
 
-<details>
-<summary>[Klick] Fehler: Ich habe alles richtig gemacht, aber es werden immer noch englische Texte angezeigt</summary>
 <br/>
 
+<details>
+<summary>[Klick] Fehler: Ich habe alles richtig gemacht, aber es werden immer noch englische Texte angezeigt</summary>
 Achte bei den beiden Dateien **`global.ini`** und **`user.cfg`** auf die richtigen Dateiendungen.
 <br/><br/>
 
@@ -153,10 +125,10 @@ Das sollte das Problem beheben.
 
 </details>
 
-<details>
-<summary>[Klick] Fehler: Keine englische Sprachausgabe im Spiel</summary>
 <br/>
 
+<details>
+<summary>[Klick] Fehler: Keine englische Sprachausgabe im Spiel</summary>
 Es gibt einen Fix für das Audio Problem. Du musst deiner **`user.cfg`** Datei diese folgende Zeile hinzufügen:<br/>
 **`g_languageAudio = english`**<br/><br/>
 Alternativ lade dir unsere **`user.cfg`** Datei herunter, in der wir das bereits für dich übernommen haben.
@@ -165,6 +137,14 @@ Alternativ lade dir unsere **`user.cfg`** Datei herunter, in der wir das bereits
 Das sollte das Problem beheben.
 
 ---
+
+</details>
+
+<br/>
+
+<details>
+<summary>[Klick] Frage: Werden Evocati-Builds unterstützt?</summary>
+Nein. Obwohl wir Zugang zu den Evocati Build INI-Dateien hätten, halten wir uns mit der Einsicht bis PTU Wave 1 zurück, da sich die Inhalte der INI-Datei während des Evocati-Tests ändern. Daher planen wir, die neuen Zeilen erst mit dem Start von PTU Wave 1 zu integrieren. Dieser Ansatz ist eine Anerkennung gegenüber CIG und respektiert die NDA. Natürlich möchten wir auch vermeiden, unnötige Spoiler preiszugeben.
 
 </details>
 
