@@ -90,7 +90,6 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | Englisch                             | Deutsch Variante 1             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
 |:-------------------------------------|:-------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
 | `Quantum Drive`                      | `Quantumantrieb`               |                                                                                   |                             |
-| `Quantum Snare`                      | `Quantumfalle`                 |                                                                                   |                             |
 | `Quantum Travel`                     | `Quantumreise`                 | `Quantumjump` (je nach Kontext)                                                   |                             |
 | `Avionics`                           | `Avionik`                      | `Avioniksystem`                                                                   |                             |
 | `Thruster`                           | `Triebwerk`                    | `Schubdüse`                                                                       |                             |
