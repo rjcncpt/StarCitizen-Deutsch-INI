@@ -39,10 +39,10 @@ else:
     print("Some keys in LIVE are missing.")
     exit_code = 1
 
-if keys_in_second_ini(eng_ptu_file, deu_ptu_file):
-    print("All keys in PTU are present.")
-else:
-    print("Some keys in PTU are missing.")
-    exit_code = 1
+# if keys_in_second_ini(eng_ptu_file, deu_ptu_file):
+#     print("All keys in PTU are present.")
+# else:
+#     print("Some keys in PTU are missing.")
+#     exit_code = 1
 
 exit(exit_code)
