@@ -5,13 +5,18 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 
 ### Allgemein
 
-* Bildungsauftrag erfüllen: Deutsche Übersetzung zur Beschreibung für METALLE/ERZE hinzufügen. Tin (Zinn), Tungsten (Wolfram), Titanium (Titan) etc.
+* Deutsche Übersetzung zur Beschreibung für METALLE/ERZE hinzufügen. Tin (Zinn), Tungsten (Wolfram), Titanium (Titan) etc.
 * Itemnamen, Schiffsklassen/-typen, Missionstitel und HUD-Elemente werden grundsätzlich nicht übersetzt. Dies ist darin begründet, dass oftmals in CIG's GUI zu wenig Platz für die deutsche Übersetzung ist oder eine Kompatibilität zu z.B. Drittanbieterwebsiten beibehalten werden soll. Beschreibungen der genannten Elemente werden hingegen ins Deutsche übersetzt.
 * Schiffe nutzen die weibliche Form (z.B. die Polaris)
 * Hovercraft nutzen die weibliche Form (z.B. die Nox)
 * Bodenfahrzeuge nutzen die männliche Form (z.B. der Cyclone)
 
 # Übersetzung von Eigennamen und feststehenden Begriffen
+
+### Eigene Festlegungen
+| Wort                                 | Bezeichnung                                    |
+|:-------------------------------------|:-----------------------------------------------|
+| `MGB`                                | `Medikamentengehalt im Blut`                   |
 
 ### Nicht übersetzen
 | Bezeichnung                          | Notizen                                                           |
@@ -82,22 +87,22 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Lead PIP`                           | `Lead PIP (Ziel-basierter Vorhaltepunkt)`      |                                                                                   |                             |
 
 ### Schiff -und Komponenten
-| Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
-|:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
-| `Quantum Drive`                      | `Quantumantrieb`                               |                                                                                   |                             |
-| `Quantum Snare`                      | `Quantumfalle`                                 |                                                                                   |                             |
-| `Quantum Travel`                     | `Quantumreise`                                 | `Quantumjump` (je nach Kontext)                                                   |                             |
-| `Avionics`                           | `Avionik`                                      | `Avioniksystem`                                                                   |                             |
-| `Thruster`                           | `Triebwerk`                                    | `Schubdüse`                                                                       |                             |
-| `Engines`                            | `Triebwerke`                                   |                                                                                   |                             |
-| `Propulsion`                         | `Antrieb`                                      |                                                                                   |                             |
-| `Fuel Pod Summary`                   | `Treibstoffbehälter`                           |                                                                                   |                             |
-| `Missile Attach Point`               | `Raketenaufsatzpunkt`                          |                                                                                   |                             |
-| `Missile Rack`                       | `Raketengestell`                               |                                                                                   |                             |
-| `Turret`                             | `Geschützturm`                                 | `Geschütz` (je nach Kontext)                                                      |                             |
-| `Remote Turret`                      | `Ferngesteuerter Geschützturm`                 | `Ferngesteuerter Turm` (wenn nicht bewaffnet, z.B. für Scanning oder Traktorbeam) | Ferngesteuertes Geschütz    |
-| `Power Triangle Assignment`          | `Energie-Dreieck-Zuordnung`                    |                                                                                   |                             |
-| `Sub-Item Slot`                      | `Zusatzkomponenten-Slot`                       |                                                                                   |                             |
+| Englisch                             | Deutsch Variante 1             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
+|:-------------------------------------|:-------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
+| `Quantum Drive`                      | `Quantumantrieb`               |                                                                                   |                             |
+| `Quantum Travel`                     | `Quantumreise`                 | `Quantumjump` (je nach Kontext)                                                   |                             |
+| `Avionics`                           | `Avionik`                      | `Avioniksystem`                                                                   |                             |
+| `Thruster`                           | `Triebwerk`                    | `Schubdüse`                                                                       |                             |
+| `Engines`                            | `Triebwerke`                   |                                                                                   |                             |
+| `Propulsion`                         | `Antrieb`                      |                                                                                   |                             |
+| `Fuel`                   | `Kraftstoff`           |                                                                                   |                             |
+| `Fuel Pod Summary`                   | `Kraftstoffbehälter`           |                                                                                   |                             |
+| `Missile Attach Point`               | `Raketenaufsatzpunkt`          |                                                                                   |                             |
+| `Missile Rack`                       | `Raketengestell`               |                                                                                   |                             |
+| `Turret`                             | `Geschützturm`                 | `Geschütz` (je nach Kontext)                                                      |                             |
+| `Remote Turret`                      | `Ferngesteuerter Geschützturm` | `Ferngesteuerter Turm` (wenn nicht bewaffnet, z.B. für Scanning oder Traktorbeam) | Ferngesteuertes Geschütz    |
+| `Power Triangle Assignment`          | `Energie-Dreieck-Zuordnung`    |                                                                                   |                             |
+| `Sub-Item Slot`                      | `Zusatzkomponenten-Slot`       |                                                                                   |                             |
 
 ### FPS -und Komponenten
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
@@ -148,16 +153,19 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Shields up`                         | `Schilde sind oben`                            |                                                                                   |                             |
 
 ### Berufe, Tätigkeit
-| Englisch                             | Deutsch Variante 1                             | Anmerkung                                                                         |                             |
-|:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
-| `Catastrophic Charge Rate`           | `Laderate des kritschen Energiebereichs`       | Tätigkeit: Mining                                                                 |                             |
-| `Optimal Charge Window Rate`         | `Laderate des optimalen Energiebereichs`       | Tätigkeit: Mining                                                                 |                             |
-| `Catastrophic Charge Windows Size`   | `Größe des kritischen Energiebereichs`         | Tätigkeit: Mining                                                                 |                             |
-| `Optimal Charge Windows Size`        | `Größe des optimalen Energiebereichs`          | Tätigkeit: Mining                                                                 |                             |
+| Englisch                             | Deutsch Variante 1                             | Anmerkung                                                                         |
+|:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|
+| `Catastrophic Charge Rate`           | `Laderate des kritschen Energiebereichs`       | Tätigkeit: Mining                                                                 |
+| `Optimal Charge Window Rate`         | `Laderate des optimalen Energiebereichs`       | Tätigkeit: Mining                                                                 |
+| `Catastrophic Charge Windows Size`   | `Größe des kritischen Energiebereichs`         | Tätigkeit: Mining                                                                 |
+| `Optimal Charge Windows Size`        | `Größe des optimalen Energiebereichs`          | Tätigkeit: Mining                                                                 |
 
 ### Sonstiges
 | Englisch                             | Deutsch Variante 1                                                        | Deutsch Variante 2 | Anmerkung                                                            |
 |:-------------------------------------|:--------------------------------------------------------------------------|:-------------------|:---------------------------------------------------------------------|
+| `Surveillance Monitors`              | `Überwachungssensoren`                                                    |                    |                                                                      |
+| `Skimmers`                           | `Überwachungssatelliten`                                                  | `Datensammler`     | verkürzt bei HUD Texten                                              |
+| `Data Skimmers`                      | `Datensammler`                                                            |                    |                                                                      |
 | `Invalid Shop`                       | `Unzulässiger Shop`                                                       |                    |                                                                      |
 | `Light Goods`                        | `Leichte Fracht`                                                          |                    |                                                                      |
 | `Mainframe`                          | `Zentralrechner`                                                          |                    |                                                                      |
@@ -171,11 +179,11 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Main Sequence star`                 | `Zentralstern`                                                            |                    |                                                                      |
 | `Acceleration Limiter`               | `Beschl.begrenzer`                                                        |                    | Abkürzen weil sonst zu lang                                          |
 | `Velocity Limiter`                   | `Geschw.begrenzer`                                                        |                    | Abkürzen weil sonst zu lang                                          |
-| `Beacon`                             | `Notsignal`			                                                   | `Notrufsignal`     | 							                                           |
-| `Spaceframe`                 		   | `Raumstruktur`                                                            |                    |                                                                      |
-| `Spinal mount`               		   | `Spinalhalterung`                                                         |                    |                                                                      |
+| `Beacon`                             | `Notsignal`			                                                         | `Notrufsignal`     | 							                                                       |
+| `Spaceframe`                 		     | `Raumstruktur`                                                            |                    |                                                                      |
+| `Spinal mount`               		     | `Spinalhalterung`                                                         |                    |                                                                      |
 
 ### Offene Fragen
-| Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
-|:-------------------------------------|:-----------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
-| `imaging services`                   | ??? Wird als `Bildgebungsdienste` übersetzt    |                                                                                   |                             |
+| Englisch                             | Deutsch Variante 1                                                        | Deutsch Variante 2 | Deutsch Variante 3                                                   |
+|:-------------------------------------|:--------------------------------------------------------------------------|:-------------------|:---------------------------------------------------------------------|
+| `imaging services`                   | ??? Wird als `Bildgebungsdienste` übersetzt                               |                    |                                                                      |
