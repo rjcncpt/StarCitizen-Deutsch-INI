@@ -1,6 +1,8 @@
 [![Static Badge](https://img.shields.io/badge/BEREIT-%234cc71e?style=for-the-badge&labelColor=232323&label=3.22.1%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) <!-- [![Static Badge](https://img.shields.io/badge/VORBEREITUNG-%23f3ac04?style=for-the-badge&label=3.23.0%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)--> [![Static Badge](https://img.shields.io/badge/Kein%20Fokus-%23ff2f00?style=for-the-badge&labelColor=232323&label=Preview%20Channel)](#) <br/>
 [![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&labelColor=232323&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Discord](https://img.shields.io/discord/1163823228637163581?style=for-the-badge&logo=discord&logoColor=fff&label=team&labelColor=232323&color=fff) [![Github All Releases](https://img.shields.io/github/downloads/rjcncpt/StarCitizen-Deutsch-INI/total?style=for-the-badge&labelColor=232323&)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)
 
+<a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/Download%20LIVE-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*LIVE*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a> <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![Static Badge](https://img.shields.io/badge/Download%20PTU-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*PTU*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a>
+
 [![Star Citizen in Deutsch](https://i.imgur.com/HMhrxcK.jpg)](#)
 
 # Star Citizen in Deutsch - Lokalisierung für LIVE und PTU
@@ -36,7 +38,7 @@ Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu üb
 
 1. **Lade dir die neueste Übersetzung herunter**
 
-   <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*LIVE*&display_name=release&style=for-the-badge&label=LIVE%20)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*PTU*&display_name=release&style=for-the-badge&label=PTU)</a><!-- https://shields.io/badges/git-hub-release -->
+   <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*LIVE*&display_name=release&style=for-the-badge&labelColor=232323&label=LIVE%20)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*PTU*&display_name=release&style=for-the-badge&labelColor=232323&label=PTU)</a><!-- https://shields.io/badges/git-hub-release -->
 3. **Entpacke die ZIP Datei**
 4. **Kopiere den ZIP Inhalt in den LIVE bzw. PTU/EPTU Ordner. Achte auf die Versionierung des ZIP und im RSI-Launcher**
    <br/><br/>
