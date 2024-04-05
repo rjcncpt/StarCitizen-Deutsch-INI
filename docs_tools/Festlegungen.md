@@ -87,22 +87,24 @@ Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst
 | `Lead PIP`                           | `Lead PIP (Ziel-basierter Vorhaltepunkt)`      |                                                                                   |                             |
 
 ### Schiff -und Komponenten
-| Englisch                             | Deutsch Variante 1             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
-|:-------------------------------------|:-------------------------------|:----------------------------------------------------------------------------------|:----------------------------|
-| `Quantum Drive`                      | `Quantumantrieb`               |                                                                                   |                             |
-| `Quantum Travel`                     | `Quantumreise`                 | `Quantumjump` (je nach Kontext)                                                   |                             |
-| `Avionics`                           | `Avionik`                      | `Avioniksystem`                                                                   |                             |
-| `Thruster`                           | `Triebwerk`                    | `Schubdüse`                                                                       |                             |
-| `Engines`                            | `Triebwerke`                   |                                                                                   |                             |
-| `Propulsion`                         | `Antrieb`                      |                                                                                   |                             |
-| `Fuel`                   | `Kraftstoff`           |                                                                                   |                             |
-| `Fuel Pod Summary`                   | `Kraftstoffbehälter`           |                                                                                   |                             |
-| `Missile Attach Point`               | `Raketenaufsatzpunkt`          |                                                                                   |                             |
-| `Missile Rack`                       | `Raketengestell`               |                                                                                   |                             |
-| `Turret`                             | `Geschützturm`                 | `Geschütz` (je nach Kontext)                                                      |                             |
-| `Remote Turret`                      | `Ferngesteuerter Geschützturm` | `Ferngesteuerter Turm` (wenn nicht bewaffnet, z.B. für Scanning oder Traktorbeam) | Ferngesteuertes Geschütz    |
-| `Power Triangle Assignment`          | `Energie-Dreieck-Zuordnung`    |                                                                                   |                             |
-| `Sub-Item Slot`                      | `Zusatzkomponenten-Slot`       |                                                                                   |                             |
+| Englisch                    | Deutsch Variante 1             | Deutsch Variante 2                                                                | Deutsch Variante 3       |
+|:----------------------------|:-------------------------------|:----------------------------------------------------------------------------------|:-------------------------|
+| `Quantum Drive`             | `Quantumantrieb`               |                                                                                   |                          |
+| `Quantum Travel`            | `Quantumreise`                 | `Quantumjump` (je nach Kontext)                                                   |                          |
+| `Avionics`                  | `Avionik`                      | `Avioniksystem`                                                                   |                          |
+| `Engine`                    | `Triebwerk`                    |                                                                                   |                          |
+| `Thruster`                  | `Schubdüse`                    | `Triebwerk`                                                                       |                          |
+| `Manouvering Thruster`      | `Manövrierdüse`                |                                                                                   |                          |
+| `Mav Thruster`              | `Manövrierdüse`                |                                                                                   |                          |
+| `Propulsion`                | `Antrieb`                      |                                                                                   |                          |
+| `Fuel`                      | `Kraftstoff`                   |                                                                                   |                          |
+| `Fuel Pod Summary`          | `Kraftstoffbehälter`           |                                                                                   |                          |
+| `Missile Attach Point`      | `Raketenaufsatzpunkt`          |                                                                                   |                          |
+| `Missile Rack`              | `Raketengestell`               |                                                                                   |                          |
+| `Turret`                    | `Geschützturm`                 | `Geschütz` (je nach Kontext)                                                      |                          |
+| `Remote Turret`             | `Ferngesteuerter Geschützturm` | `Ferngesteuerter Turm` (wenn nicht bewaffnet, z.B. für Scanning oder Traktorbeam) | Ferngesteuertes Geschütz |
+| `Power Triangle Assignment` | `Energie-Dreieck-Zuordnung`    |                                                                                   |                          |
+| `Sub-Item Slot`             | `Zusatzkomponenten-Slot`       |                                                                                   |                          |
 
 ### FPS -und Komponenten
 | Englisch                             | Deutsch Variante 1                             | Deutsch Variante 2                                                                | Deutsch Variante 3          |
