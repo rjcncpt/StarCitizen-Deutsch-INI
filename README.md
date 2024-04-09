@@ -32,7 +32,7 @@ Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu üb
 
 ## Anleitung zur Installation
 
-**Täglich um 4 Uhr nachts wird aus den Fixes des Vortags automatisch ein LIVE und/oder PTU Release erstellt. Releases werden nur dann erstellt, wenn in den letzten 24h Änderungen an den jeweiligen ini-Dateien vorgenommen wurden.**<br/><br/>
+**Täglich um 4 Uhr nachts werden automatisch Live- und/oder PTU-Releases aus den Fixes des vorherigen Tages erstellt. Releases werden nur dann erstellt, wenn in den letzten 24h Änderungen an den jeweiligen INI-Dateien vorgenommen wurden.**<br/><br/>
 
 [<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
@@ -40,16 +40,16 @@ Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu üb
 
    <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*LIVE*&display_name=release&style=for-the-badge&labelColor=232323&label=LIVE%20)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*PTU*&display_name=release&style=for-the-badge&labelColor=232323&label=PTU)</a><!-- https://shields.io/badges/git-hub-release -->
 3. **Entpacke die ZIP Datei**
-4. **Kopiere den ZIP Inhalt in den LIVE bzw. PTU/EPTU Ordner. Achte auf die Versionierung des ZIP und im RSI-Launcher**
+4. **Kopiere den Inhalt des entpackten ZIP in den LIVE bzw. PTU/EPTU Ordner.**
    <br/><br/>
 
 > 💡 In der ZIP Datei befindet sich neben der **`global.ini`** auch eine angepasste **`user.cfg`** Datei. Achte daher darauf, dass wenn du eine eigene **`user.cfg`** Datei verwendest, diese nicht zu überschreiben. Übertrage den Inhalt unserer Datei zu deiner Datei.
 
 <br/><br/><br/>
 
-### Automatisches ini-Update
+### Automatisches INI-Update
 
-Um immer auf dem aktuellen Stand zu bleiben, kannst du die ini-Datei auch automatisch updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/updater)** welche Möglichkeiten du hast.
+Um immer auf dem aktuellen Stand zu bleiben, kannst du die INI-Datei auch automatisch updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/updater)** welche Möglichkeiten du hast.
 <br/><br/><br/><br/>
 
 ## Preview/Test Channels
