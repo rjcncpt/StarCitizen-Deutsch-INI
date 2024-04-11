@@ -2,7 +2,7 @@
 
 Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher Start ein Update der aktuellen Übersetzungsdatei durchzuführen. Bevor du startest, musst du ein paar Schritte durchführen. Nach dem ini-Update startet der RSI-Launcher automatisch.
 
-### So gehts
+### So geht's
 
 1. Lade dir die Datei(en) herunter
 2. Speichere die Datei(en) in den Spielordner
@@ -16,16 +16,16 @@ Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher
 
 ### Das Icon ändern
 
-1. Erstelle eine Verknüfung der Datei(en)
+1. Erstelle eine Verknüpfung der Datei(en)
 2. Klicke mit der rechten Maustaste auf die Datei(en) und wähle `Eigenschaften` aus
-3. Wähle `Anderes Symbol` -> `Duchsuchen` und suche dir ein Icon aus
+3. Wähle `Anderes Symbol` ⇾ `Duchsuchen` und suche dir ein Icon aus
 
-Tipp: Verwende die Spiel-Icons. Navigiere zum Star Citizen Ordner, um das SC Icon zu verwenden, oder zum RSI Launcher, um das Launcher Icon zu verwenden
+Tipp: Verwende die Spiel-Icons. Navigiere zum Star Citizen Ordner, um das SC Icon zu verwenden, oder zum RSI Launcher, um das Launcher Icon zu verwenden.
 <br/><br/><br/><br/>
 
 # SC Launch Configurator
 
-**<p>Eine andere Möglichkeit unsere Übersetzungsdatei für Star Citizen automatisch zu updaten, bietet der kostenlose [SC Launch Configurator](https://www.luftwerft.com/) von Luftwerft.</p>**
+**<p>Eine andere Möglichkeit, unsere Übersetzungsdatei für Star Citizen automatisch zu updaten, bietet der kostenlose [SC Launch Configurator](https://www.luftwerft.com/) von Luftwerft.</p>**
 
 ![image](https://www.luftwerft.com/images/sclc_en.png)
 
