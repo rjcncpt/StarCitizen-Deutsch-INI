@@ -27,8 +27,8 @@ def keys_in_second_ini(first_file, second_file):
 # Files to be checked
 eng_live_file = "en/live/global.ini"
 deu_live_file = "live/global.ini"
-eng_ptu_file = "en/ptu/global.ini"
-deu_ptu_file = "ptu/global.ini"
+# eng_ptu_file = "en/ptu/global.ini"
+# deu_ptu_file = "ptu/global.ini"
 
 exit_code = 0
 
