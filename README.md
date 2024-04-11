@@ -95,7 +95,7 @@ Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tes
 
 <details>
 <summary>[Klick] Fehler: Es werden kryptische Variablen mit @-Zeichen am Anfang angezeigt</summary>
-Unsere **`global.ini`** Datei liegt bereits im korrekten **`UTF-8-BOM`** im Format vor. Wenn bei dir Variablen angezeigt werden, die mit einem @-Zeichen beginnen, aber die Ordnerstuktur richtig ist, scheint deine Datei-Codierung falsch zu sein. Lade entweder **[unsere Datei erneut herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** oder stelle die Codierung deiner Datei manuell um:
+Unsere **`global.ini`** Datei liegt bereits im korrekten **`UTF-8-BOM`** im Format vor. Wenn bei dir Variablen angezeigt werden, die mit einem @-Zeichen beginnen, aber die Ordnerstruktur richtig ist, scheint deine Datei-Codierung falsch zu sein. Lade entweder **[unsere Datei erneut herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** oder stelle die Codierung deiner Datei manuell um:
 <br/><br/>
 
 1. Öffne die **`global.ini`** in einem Texteditor wie Notepad++ (kostenlos)
@@ -117,12 +117,12 @@ Das sollte das Problem beheben.
 Achte bei den beiden Dateien **`global.ini`** und **`user.cfg`** auf die richtigen Dateiendungen.
 <br/><br/>
 
-Kontrolliere ob es die richtige Dateiendung ist:
+Kontrolliere, ob es die richtige Dateiendung ist:
 
 1. Öffne den Windows Dateiexplorer
 2. Klicke auf Ansicht am oberen Fensterrand
 3. Aktiviere im Bereich Ein-/ausblenden: **`Dateinamenerweiterungen`**
-4. Sollten die beiden Dateien nun **`global.ini.ini`** oder **`user.txt.cfg`** oder ähnlich heißen, musst du sie zurück in **`global.ini`** und **`user.cfg`** umbennenen.
+4. Sollten die beiden Dateien nun **`global.ini.ini`** oder **`user.txt.cfg`** oder ähnlich heißen, musst du sie zurück in **`global.ini`** und **`user.cfg`** umbennennen.
    <br/><br/>
 
 Das sollte das Problem beheben.
@@ -135,7 +135,7 @@ Das sollte das Problem beheben.
 
 <details>
 <summary>[Klick] Fehler: Keine englische Sprachausgabe im Spiel</summary>
-Es gibt einen Fix für das Audio Problem. Du musst deiner **`user.cfg`** Datei diese folgende Zeile hinzufügen:<br/>
+Es gibt einen Fix für das Audioproblem. Du musst deiner **`user.cfg`** Datei diese folgende Zeile hinzufügen:<br/>
 **`g_languageAudio = english`**<br/><br/>
 Alternativ lade dir unsere **`user.cfg`** Datei herunter, in der wir das bereits für dich übernommen haben.
 <br/><br/>
