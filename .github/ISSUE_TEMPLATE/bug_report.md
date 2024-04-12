@@ -1,6 +1,6 @@
 ---
 name: Fehlermeldung
-about: Erstelle eine Fehlermeldung über eine falsche oder verbeserungswürdige Übersetzung.
+about: Erstelle eine Fehlermeldung über eine falsche oder verbesserungswürdige Übersetzung.
 title: ""
 labels: Fehler
 assignees: ""
@@ -24,4 +24,4 @@ Wenn möglich, füge Screenshots ein, damit wir den Fehler direkt sehen und eino
 - Build: [z.B. 8854374]
 
 ### Zusätzlicher Kontext
-Jegliche weitere Informationen die uns helfen können den Kontext zu verstehen.
+Jegliche weitere Informationen, die uns helfen können, den Kontext zu verstehen.

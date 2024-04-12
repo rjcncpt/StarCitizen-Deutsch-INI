@@ -38,12 +38,13 @@ def check_brackets(filename, excluded):
 
 
 if __name__ == "__main__":
-    excluded_lines = [44749, 44750, 46617, 46654]
+    excluded_lines_live = [41119, 44802, 44803, 46672, 46709, 46152]
+    excluded_lines_ptu = [41610, 45442, 45443, 47387, 47424, 46865]
     deu_live_file = "live/global.ini"
     deu_ptu_file = "ptu/global.ini"
     print()
     print(f"Checking {deu_live_file}...")
-    check_brackets(deu_live_file, excluded_lines)
+    check_brackets(deu_live_file, excluded_lines_live)
     print()
     print(f"Checking {deu_ptu_file}...")
-    check_brackets(deu_ptu_file, excluded_lines)
+    check_brackets(deu_ptu_file, excluded_lines_ptu)

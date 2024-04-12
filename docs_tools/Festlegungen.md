@@ -1,7 +1,7 @@
 ### Vorwort
 
 Hier werden grundlegende Festlegungen für die Übersetzungen getroffen.
-Es ist ein lebendes Dokument, dass bei Übereinkunft im Team jederzeit angepasst werden kann.
+Es ist ein lebendes Dokument, das bei Übereinkunft im Team jederzeit angepasst werden kann.
 
 ### Allgemein
 
