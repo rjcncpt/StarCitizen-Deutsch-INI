@@ -18,7 +18,7 @@
 ### Inhaltsverzeichnis
 
 - **[Anleitung zur Installation](#anleitung-zur-installation)**
-- **[Automatisches ini-Update](#automatisches-ini-update)**
+- **[Wie aktuell ist die deutsche Übersetzung?](#wie-aktuell-ist-die-deutsche-übersetzung)**
 - **[Evocati Builds & Preview Channels](#evocati-builds-und-preview-channels)**
 - **[Das Team](#das-team)**
 - **[Fragen und Antworten](#fragen-und-antworten)**
@@ -55,9 +55,14 @@ Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu üb
 
 <br/><br/><br/>
 
-### Automatisches INI-Update
+### Automatisches Übersetzungs-Update
 
 Um immer auf dem aktuellen Stand zu bleiben, kannst du die INI-Datei auch automatisch updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/updater)** welche Möglichkeiten du hast.
+<br/><br/><br/><br/>
+
+## Wie aktuell ist die deutsche Übersetzung?
+
+Zum aktuellen Zeitpunkt ist die deutsche Übersetzung tagesaktuell, allerdings mit einer Verzögerung von wenigen Stunden, da die neuen Zeilen erst übertragen und übersetzt werden müssen. In der Regel veröffentlicht CIG die neuen Patches zwischen 22 und 1 Uhr nachts. Die Übersetzung ist demnach zwischen 4 Uhr und 10 Uhr morgens verfügbar. Unsere Übersetzungsdatei ist zu 100% identisch mit der, die CIG zur Verfügung stellt. Sollten im Spiel Variablen mit einem @-Zeichen angezeigt werden, liegt der Fehler bei CIG und wird in späteren Patches korrigiert.
 <br/><br/><br/><br/>
 
 ## Evocati Builds und Preview Channels
