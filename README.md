@@ -19,7 +19,7 @@
 
 - **[Anleitung zur Installation](#anleitung-zur-installation)**
 - **[Automatisches ini-Update](#automatisches-ini-update)**
-- **[Preview/Test Channels](#previewtest-channels)**
+- **[Evocati Builds & Preview Channels](#evocati-builds-und-preview-channels)**
 - **[Das Team](#das-team)**
 - **[Fragen und Antworten](#fragen-und-antworten)**
 - **[Mehr von rjcncpt](#mehr-von-rjcncpt)**
@@ -60,9 +60,11 @@ Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu üb
 Um immer auf dem aktuellen Stand zu bleiben, kannst du die INI-Datei auch automatisch updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/updater)** welche Möglichkeiten du hast.
 <br/><br/><br/><br/>
 
-## Preview/Test Channels
+## Evocati Builds und Preview Channels
 
-Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tests in englischer Sprache problemlos teilhaben kannst, füge in der **`user.cfg`** Datei ein **`;`** vor die Zeile **`g_language = german_(germany)`** hinzu. Du kannst selbstverständlich auch die aktuellste deutsche Übersetzung ausprobieren. Sei dir aber bewusst, dass es zu Darstellungsfehler kommen kann!
+Preview-Channel werden von uns nicht unterstützt. Damit du an den Tests in englischer Sprache problemlos teilhaben kannst, füge in der **`user.cfg`** Datei ein **`;`** vor die Zeile **`g_language = german_(germany)`** hinzu. Du kannst selbstverständlich auch die aktuellste deutsche Übersetzung ausprobieren. Sei dir aber bewusst, dass es zu Darstellungsfehler kommen kann!<br/><br/>
+
+Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen die sich in den Evocati Builds befinden, erst mit dem Start von PTU Wave 1 zu veröffentlichen. Dieser Ansatz ist eine Anerkennung gegenüber CIG und respektiert die NDA vollumfänglich. Natürlich möchten wir auch vermeiden, unnötige Spoiler und Leaks preiszugeben.
 <br/><br/><br/><br/>
 
 ## Das Team
@@ -83,19 +85,21 @@ Test- und Preview-Kanäle werden von uns nicht unterstützt. Damit du an den Tes
 
 <br/>
 
-| Dankeschön          | Position   | Beschreibung                                                                                                                           |
-|:--------------------|:-----------|:---------------------------------------------------------------------------------------------------------------------------------------|
-| Claudia Fröhlich    | `Lektorin` | © Einige Textblöcke werden von ihr für etwas Geld Korrektur gelesen.                                                                   |
-| Knebel              |            | Ein großes Dankeschön geht an die vielen Einsender der **[Knebel Discord Community](https://discord.com/invite/knebel)** \*Invite-Link |
-| NICDUS              |            | Danke für die Erwähnung in einem **[YouTube Guide](https://www.youtube.com/watch?v=5xuSRI0SlbE)**                                      |
+| Dankeschön          | Position   | Beschreibung                                                                                                                 |
+|:--------------------|:-----------|:-----------------------------------------------------------------------------------------------------------------------------|
+| Claudia Fröhlich    | `Lektorin` | Einige Textblöcke werden von ihr Korrektur gelesen.                                                                          |
+| Knebel              |            | Danke an die vielen Einsender der Knebel Discord Community - **[Discord](https://discord.com/invite/knebel)** (*Invite-Link) |
+| NICDUS              |            | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=5xuSRI0SlbE)**                                         |
+| Tiicrown            |            | Tiicrown unterstützt unsere Übersetzung - **[Twitch](https://www.twitch.tv/tiicrown)**                                       |
 
 <br/><br/>
 
 ## Fragen und Antworten
 
 <details>
-<summary>[Klick] Fehler: Es werden kryptische Variablen mit @-Zeichen am Anfang angezeigt</summary>
-Unsere **`global.ini`** Datei liegt bereits im korrekten **`UTF-8-BOM`** im Format vor. Wenn bei dir Variablen angezeigt werden, die mit einem @-Zeichen beginnen, aber die Ordnerstruktur richtig ist, scheint deine Datei-Codierung falsch zu sein. Lade entweder **[unsere Datei erneut herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini)** oder stelle die Codierung deiner Datei manuell um:
+<summary>[Klick] Fehler: Es werden kryptische Variablen mit @-Zeichen angezeigt</summary>
+  ----<br/>
+Unsere global.ini Datei liegt bereits im korrekten UTF-8-BOM Format vor. Wenn bei dir Variablen angezeigt werden, die mit einem @-Zeichen beginnen, aber die Ordnerstruktur richtig ist, scheint deine Datei-Codierung falsch zu sein. Lade entweder [unsere Datei erneut herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) oder stelle die Codierung deiner Datei manuell um:
 <br/><br/>
 
 1. Öffne die **`global.ini`** in einem Texteditor wie Notepad++ (kostenlos)
@@ -114,7 +118,8 @@ Das sollte das Problem beheben.
 
 <details>
 <summary>[Klick] Fehler: Ich habe alles richtig gemacht, aber es werden immer noch englische Texte angezeigt</summary>
-Achte bei den beiden Dateien **`global.ini`** und **`user.cfg`** auf die richtigen Dateiendungen.
+  ----<br/>
+Achte bei den beiden Dateien global.ini und user.cfg auf die richtigen Dateiendungen.
 <br/><br/>
 
 Kontrolliere, ob es die richtige Dateiendung ist:
@@ -135,9 +140,10 @@ Das sollte das Problem beheben.
 
 <details>
 <summary>[Klick] Fehler: Keine englische Sprachausgabe im Spiel</summary>
-Es gibt einen Fix für das Audioproblem. Du musst deiner **`user.cfg`** Datei diese folgende Zeile hinzufügen:<br/>
-**`g_languageAudio = english`**<br/><br/>
-Alternativ lade dir unsere **`user.cfg`** Datei herunter, in der wir das bereits für dich übernommen haben.
+  ----<br/>
+Es gibt einen Fix für das Audioproblem. Du musst deiner user.cfg Datei diese folgende Zeile hinzufügen:<br/>
+g_languageAudio = english <br/><br/>
+Alternativ lade dir unsere user.cfg Datei herunter, in der wir das bereits für dich übernommen haben.
 <br/><br/>
 
 Das sollte das Problem beheben.
@@ -149,8 +155,13 @@ Das sollte das Problem beheben.
 <br/>
 
 <details>
-<summary>[Klick] Frage: Werden Evocati-Builds unterstützt?</summary>
-Nein. Obwohl wir Zugang zu den Evocati Build INI-Dateien hätten, halten wir uns mit der Einsicht bis PTU Wave 1 zurück, da sich die Inhalte der INI-Datei während des Evocati-Tests ändern. Daher planen wir, die neuen Zeilen erst mit dem Start von PTU Wave 1 zu integrieren. Dieser Ansatz ist eine Anerkennung gegenüber CIG und respektiert die NDA. Natürlich möchten wir auch vermeiden, unnötige Spoiler preiszugeben.
+<summary>[Klick] Frage: Ist diese Übersetzung eine Knebel-Übersetzung?</summary>
+  ----<br/>
+Diese Frage hören wir in Streams häufig. Aber nein, Knebel als Streamer ist in keiner Weise in das Projekt involviert. Er ist weder Mitglied unseres Team-Discords noch gibt er uns Anweisungen, wie die Übersetzung auszusehen hat. Unsere Übersetzung entstand auf seinem Discord-Server, und das ist die einzige Verbindung zwischen Knebel und unserer Übersetzung. Wir sind Knebel sehr dankbar für seine Unterstützung, da dies keineswegs selbstverständlich ist!<br/><br/>
+
+Diese Übersetzung komplett unabhängig und ist in erster Linie ein Community-Projekt, und das wird sie auch bleiben. Jeder von euch kann Teil der Übersetzung sein und Vorschläge einreichen, falls eine Übersetzung fehlerhaft oder optimierungsbedürftig ist.
+
+---
 
 </details>
 
