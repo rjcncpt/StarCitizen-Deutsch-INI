@@ -26,12 +26,12 @@
   <br/><br/>
 
 ## Über diese Übersetzung
-Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu übertragen, wobei wir gleichzeitig sicherstellen, dass sie nahtlos mit dem Issue Council von Star Citizen kompatibel sind, da das Spiel sich noch in der Alpha-Phase befindet. Aus diesem Grund bleiben die Titel der Missionen auf Englisch, ebenso wie Eigennamen und Gegenstände, um die Kompatibilität mit 3rd party websites und Datenbanken zu gewährleisten.
+Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu übertragen, wobei wir gleichzeitig sicherstellen, dass sie nahtlos mit dem Issue Council von Star Citizen kompatibel sind, da das Spiel sich noch in der Alpha-Phase befindet. Aus diesem Grund bleiben die Titel der Missionen auf Englisch, ebenso Eigennamen und Gegenstände, um die Kompatibilität mit 3rd Party Websites und Item-Datenbanken zu gewährleisten.
 <br/><br/>
 An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei Terminals oder MouseOver Einblendungen. Die Umlaute werden einfach weggelassen, und es entsteht eine Lücke. Dies ist kein Übersetzungsfehler, sondern ein Spielfehler. Wir behalten diese Fehler absichtlich bei, damit CIG darauf reagieren kann, und wir selbst feststellen können, ob seitens CIG Fixes vorgenommen wurden.
 <br/><br/>
 ### Wird es eine vollständige Übersetzung geben?
-Wir arbeiten derzeit daran, eine vollständige deutsche Übersetzung bereitzustellen, um das Spielerlebnis für die deutschsprachigen Spieler weiter zu verbessern. Dabei bleiben wir konsequent bei der Regel, Eigennamen nicht zu übersetzen. Dies ist entscheidend, um die Klarheit und Verständlichkeit der vielen Tutorials sicherzustellen und Verwirrung bei den Spielern zu vermeiden. In dieser komplett-Übersetzung werden selbstverständlich auch die Missionstitel übersetzt werden.
+Wir arbeiten derzeit daran, eine vollständige deutsche Übersetzung bereitzustellen, um das Spielerlebnis für Gelegenheitsspieler weiter zu verbessern. Dabei bleiben wir konsequent bei der Regel, Eigennamen nicht zu übersetzen. Dies ist entscheidend, um die Klarheit und Verständlichkeit der vielen Tutorials sicherzustellen und Verwirrung bei den Spielern zu vermeiden. In dieser vollständigen Übersetzung werden selbstverständlich auch die Missionstitel übersetzt werden.
 <br/><br/><br/><br/>
 
 ## Anleitung zur Installation
