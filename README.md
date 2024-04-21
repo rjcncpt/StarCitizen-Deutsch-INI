@@ -26,12 +26,13 @@
   <br/><br/>
 
 ## Über diese Übersetzung
-Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu übertragen, wobei wir gleichzeitig sicherstellen, dass sie nahtlos mit dem Issue Council von Star Citizen kompatibel sind, da das Spiel sich noch in der Alpha-Phase befindet. Aus diesem Grund bleiben die Titel der Missionen auf Englisch, ebenso Eigennamen und Gegenstände, um die Kompatibilität mit 3rd Party Websites und Item-Datenbanken zu gewährleisten.
+Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu übertragen, wobei wir gleichzeitig sicherstellen, dass Eigennamen, Missionstitel sowie Items nicht übersetzt werden. Das gewährleistet das gemeinsame zocken mit Spielern aus anderen Ländern dieser Erde und die Kompatibilität mit dem Issue Council auf der RSI-Webseite. Außerdem werden so Drittanbieter-Websites, Item-Datenbanken und Tutorials auf Youtube oder in Textform unterstützt.
 <br/><br/>
-An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei Terminals oder MouseOver Einblendungen. Die Umlaute werden einfach weggelassen, und es entsteht eine Lücke. Dies ist kein Übersetzungsfehler, sondern ein Spielfehler. Wir behalten diese Fehler absichtlich bei, damit CIG darauf reagieren kann, und wir selbst feststellen können, ob seitens CIG Fixes vorgenommen wurden.
+An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei Terminals oder MouseOver Einblendungen. Die Umlaute werden einfach weggelassen, und es entsteht eine Lücke. Dies ist kein Übersetzungsfehler, sondern ein UI-Fehler. Wir behalten diese Fehler absichtlich bei, damit CIG darauf reagieren kann, und wir selbst feststellen können, ob seitens CIG Fixes vorgenommen wurden.
 <br/><br/>
+
 ### Wird es eine vollständige Übersetzung geben?
-Wir arbeiten derzeit daran, eine vollständige deutsche Übersetzung bereitzustellen, um das Spielerlebnis für Gelegenheitsspieler weiter zu verbessern. Dabei bleiben wir konsequent bei der Regel, Eigennamen nicht zu übersetzen. Dies ist entscheidend, um die Klarheit und Verständlichkeit der vielen Tutorials sicherzustellen und Verwirrung bei den Spielern zu vermeiden. In dieser vollständigen Übersetzung werden selbstverständlich auch die Missionstitel übersetzt werden.
+Wir arbeiten derzeit daran, eine vollständige deutsche Übersetzung bereitzustellen, um das Spielerlebnis für Gelegenheitsspieler weiter zu verbessern, die keine Fehlerberichte schreiben, sondern nur zocken wollen. In dieser vollständigen Übersetzung werden selbstverständlich auch die Missionstitel übersetzt werden. Bis es soweit ist, nutze gern unsere bisherige Übersetzung.
 <br/><br/><br/><br/>
 
 ## Anleitung zur Installation
@@ -94,12 +95,15 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 
 <br/>
 
-| Dankeschön          | Position   | Beschreibung                                                                                                                 |
-|:--------------------|:-----------|:-----------------------------------------------------------------------------------------------------------------------------|
-| Claudia Fröhlich    | `Lektorin` | Einige Textblöcke werden von ihr Korrektur gelesen.                                                                          |
-| Knebel              |            | Danke an die vielen Einsender der Knebel Discord Community - **[Discord](https://discord.com/invite/knebel)** (*Invite-Link) |
-| NICDUS              |            | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=5xuSRI0SlbE)**                                         |
-| Tiicrown            |            | Tiicrown unterstützt unsere Übersetzung - **[Twitch](https://www.twitch.tv/tiicrown)**                                       |
+| Dankeschön          | Position   | Beschreibung                                                                                                         |
+|:--------------------|:-----------|:---------------------------------------------------------------------------------------------------------------------|
+| Claudia Fröhlich    | `Lektorin` | Einige Textblöcke werden von ihr Korrektur gelesen.                                                                  |
+| Knebel              |            | Danke an die vielen Einsender der Knebel Community - **[Discord](https://discord.com/invite/knebel)** (*Invite-Link) |
+| NICDUS              |            | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=5xuSRI0SlbE)**                                 |
+| Gaming mit Handicap |            | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=hT48OxNr_cA)**                                 |
+| Tiicrown            |            | Tiicrown unterstützt unsere Übersetzung - **[Twitch](https://www.twitch.tv/tiicrown)**                               |
+
+`Wenn wir feststellen, dass unsere Übersetzungen in Streams oder Videos verwendet werden oder ein besonderer Dank angebracht ist, fügen wir dieser Liste gerne weitere Quellen hinzu. Der Neutralität wegen geschieht die Auswahl völlig zufällig und nicht auf Anfrage. Vielen Dank für all die tolle Unterstützung!`
 
 <br/><br/>
 
