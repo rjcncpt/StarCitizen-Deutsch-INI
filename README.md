@@ -127,8 +127,6 @@ Das sollte das Problem beheben.
 
 </details>
 
-<br/>
-
 <details>
 <summary>[Klick] Fehler: Ich habe alles richtig gemacht, aber es werden immer noch englische Texte angezeigt</summary>
   ----<br/>
@@ -149,8 +147,6 @@ Das sollte das Problem beheben.
 
 </details>
 
-<br/>
-
 <details>
 <summary>[Klick] Fehler: Keine englische Sprachausgabe im Spiel</summary>
   ----<br/>
@@ -165,12 +161,10 @@ Das sollte das Problem beheben.
 
 </details>
 
-<br/>
-
 <details>
 <summary>[Klick] Frage: Ist diese Übersetzung eine Knebel-Übersetzung?</summary>
   ----<br/>
-Diese Frage hören wir in Streams häufig. Aber nein, Knebel als Streamer ist in keiner Weise in das Projekt involviert. Er ist weder Mitglied unseres Team-Discords noch gibt er uns Anweisungen, wie die Übersetzung auszusehen hat. Unsere Übersetzung entstand auf seinem Discord-Server, und das ist die einzige Verbindung zwischen Knebel und unserer Übersetzung. Wir sind Knebel sehr dankbar für seine Unterstützung, da dies keineswegs selbstverständlich ist!<br/><br/>
+Diese Frage hören wir in Streams häufig. Aber nein, Knebel als Streamer ist nicht in das Projekt involviert. Er ist weder Mitglied unseres Team-Discords noch gibt er uns Anweisungen, wie die Übersetzung auszusehen hat. Unsere Übersetzung entstand auf seinem Discord-Server, und das ist die einzige Verbindung zwischen Knebel und unserer Übersetzung. Wir sind Knebel sehr dankbar für seine Unterstützung, da dies keineswegs selbstverständlich ist!<br/><br/>
 
 Diese Übersetzung ist komplett unabhängig und in erster Linie ein Community-Projekt, und das wird sie auch bleiben. Jeder von euch kann Teil der Übersetzung sein und Vorschläge einreichen, falls eine Übersetzung fehlerhaft oder optimierungsbedürftig ist.
 
