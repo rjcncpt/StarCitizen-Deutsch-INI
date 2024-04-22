@@ -11,7 +11,7 @@
 
 Es ist davon auszugehen, dass eine deutsche Übersetzung das Tor für potenziell tausende und langfristig für Millionen neuer Spieler öffnet und einlädt, Star Citizen zu testen.
 
-Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [ein Issue schreiben](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=), deinen Vorschlag posten und ein Teil der Übersetzung werden.**
+Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [ein Issue schreiben](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=), deinen Vorschlag posten und ein Teil der Übersetzung werden.
 
 <br/>
 
