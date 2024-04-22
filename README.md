@@ -9,9 +9,9 @@
 
 #### Die deutsche Sprachdatei für Star Citizen ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA.
 
-#### Es ist davon auszugehen, dass eine deutsche Übersetzung das Tor für potenziell tausende und langfristig für Millionen neuer Spieler öffnet und einlädt, Star Citizen zu testen.
+Es ist davon auszugehen, dass eine deutsche Übersetzung das Tor für potenziell tausende und langfristig für Millionen neuer Spieler öffnet und einlädt, Star Citizen zu testen.
 
-**Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [ein Issue schreiben](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=), deinen Vorschlag posten und ein Teil der Übersetzung werden.**
+Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [ein Issue schreiben](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=), deinen Vorschlag posten und ein Teil der Übersetzung werden.**
 
 <br/>
 
@@ -95,15 +95,15 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 
 <br/>
 
-| Dankeschön          | Position   | Beschreibung                                                                                                         |
-|:--------------------|:-----------|:---------------------------------------------------------------------------------------------------------------------|
-| Claudia Fröhlich    | `Lektorin` | Einige Textblöcke werden von ihr Korrektur gelesen.                                                                  |
-| Knebel              |            | Danke an die vielen Einsender der Knebel Community - **[Discord](https://discord.com/invite/knebel)** (*Invite-Link) |
-| NICDUS              |            | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=5xuSRI0SlbE)**                                 |
-| Gaming mit Handicap |            | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=hT48OxNr_cA)**                                 |
-| Tiicrown            |            | Tiicrown unterstützt unsere Übersetzung - **[Twitch](https://www.twitch.tv/tiicrown)**                               |
+| Dankeschön          | Beschreibung                                                                                                         |
+|:--------------------|:---------------------------------------------------------------------------------------------------------------------|
+| Claudia Fröhlich    | `Lektorin` - Einige Textblöcke werden von ihr Korrektur gelesen.                                                     |
+| Knebel              | Danke an die vielen Einsender der Knebel Community - **[Discord](https://discord.com/invite/knebel)** (*Invite-Link) |
+| NICDUS              | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=5xuSRI0SlbE)**                                 |
+| Gaming mit Handicap | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=hT48OxNr_cA)**                                 |
+| Tiicrown            | Tiicrown unterstützt unsere Übersetzung - **[Twitch](https://www.twitch.tv/tiicrown)**                               |
 
-`Wenn wir feststellen, dass unsere Übersetzungen in Streams oder Videos verwendet werden oder ein besonderer Dank angebracht ist, fügen wir dieser Liste gerne weitere Quellen hinzu. Der Neutralität wegen geschieht die Auswahl völlig zufällig und nicht auf Anfrage. Vielen Dank für all die tolle Unterstützung!`
+> Wenn wir feststellen, dass unsere Übersetzungen in Streams oder Videos verwendet werden oder ein besonderer Dank angebracht ist, fügen wir dieser Liste gerne weitere Quellen hinzu. Der Neutralität wegen geschieht die Auswahl völlig zufällig und nicht auf Anfrage. Vielen Dank für all die tolle Unterstützung!
 
 <br/><br/>
 
