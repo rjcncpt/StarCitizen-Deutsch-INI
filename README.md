@@ -1,5 +1,5 @@
 [![Static Badge](https://img.shields.io/badge/PTU%203.23-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/LIVE%203.22.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) <!-- [![Static Badge](https://img.shields.io/badge/VORBEREITUNG-%23f3ac04?style=for-the-badge&label=3.23.0%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)--> [![Static Badge](https://img.shields.io/badge/Preview%20Builds-brightgreen?style=for-the-badge&color=232323)](#)[![Static Badge](https://img.shields.io/badge/✖-%23ff2f00?style=for-the-badge&labelColor=232323)](#) <br/>
-[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&labelColor=232323&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Discord](https://img.shields.io/discord/1163823228637163581?style=for-the-badge&logo=discord&logoColor=fff&label=team&labelColor=232323&color=fff) [![Static Badge](https://img.shields.io/badge/Downloads-232323?style=for-the-badge&logoColor=232323)![Static Badge](https://img.shields.io/badge/14,5k-%234cc71e?style=for-the-badge&labelColor=232323%20)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI)
+[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&labelColor=232323&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Discord](https://img.shields.io/discord/1163823228637163581?style=for-the-badge&logo=discord&logoColor=fff&label=team&labelColor=232323&color=fff) [![Static Badge](https://img.shields.io/badge/Downloads-232323?style=for-the-badge&logoColor=232323)![Static Badge](https://img.shields.io/badge/15k-%234cc71e?style=for-the-badge&labelColor=232323%20)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI)
 
 <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/Download%20LIVE-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*LIVE*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a> <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![Static Badge](https://img.shields.io/badge/Download%20PTU-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=date&filter=*PTU*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a>
 
@@ -8,8 +8,6 @@
 # Star Citizen in Deutsch - Lokalisierung für LIVE und PTU
 
 #### Die deutsche Sprachdatei für Star Citizen ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA.
-
-Es ist davon auszugehen, dass eine deutsche Übersetzung das Tor für potenziell tausende und langfristig für Millionen neuer Spieler öffnet und einlädt, Star Citizen zu testen.
 
 Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [ein Issue schreiben](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=), deinen Vorschlag posten und ein Teil der Übersetzung werden.
 
@@ -31,9 +29,10 @@ Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu üb
 An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei Terminals oder MouseOver Einblendungen. Die Umlaute werden einfach weggelassen, und es entsteht eine Lücke. Dies ist kein Übersetzungsfehler, sondern ein UI-Fehler. Wir behalten diese Fehler absichtlich bei, damit CIG darauf reagieren kann, und wir selbst feststellen können, ob seitens CIG Fixes vorgenommen wurden.
 <br/><br/>
 
-### Wird es eine vollständige Übersetzung geben?
-Wir arbeiten derzeit daran, eine vollständige deutsche Übersetzung bereitzustellen, um das Spielerlebnis für Gelegenheitsspieler weiter zu verbessern, die keine Fehlerberichte schreiben, sondern nur zocken wollen. In dieser vollständigen Übersetzung werden selbstverständlich auch die Missionstitel übersetzt werden. Bis es soweit ist, nutze gern unsere bisherige Übersetzung.
-<br/><br/><br/><br/>
+### Vollständige Übersetzung von Star Citizen
+Wir haben eine vollständige Übersetzung für Star Citizen bereitgestellt, um das Spielerlebnis für Gelegenheitsspieler weiter zu verbessern, die keine Fehlerberichte schreiben, sondern einfach nur zocken wollen. In dieser vollständigen Übersetzung werden Missionstitel, Items, Orte und teilweise Unternehmen übersetzt. Diese Komplettübersetzung ist aktuell nur für die LIVE-Server verfügbar und ist noch nicht fertig. Es gibt immer noch viele unübersetzte Items.
+
+Eröffne [eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [erstelle einen Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=) um deine Korrekturen vorzuschlagen.<br/><br/><br/><br/>
 
 ## Anleitung zur Installation
 
