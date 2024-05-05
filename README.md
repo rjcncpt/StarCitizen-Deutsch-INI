@@ -104,6 +104,7 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 | NICDUS              | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=5xuSRI0SlbE)**                                 |
 | Gaming mit Handicap | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=hT48OxNr_cA)**                                 |
 | Tiicrown            | Tiicrown unterstützt unsere Übersetzung - **[Twitch](https://www.twitch.tv/tiicrown)**                               |
+| GameStar            | Vorgestellt bei **[gamestar.de](https://www.gamestar.de/videos/star-citizen-das-sind-die-naechsten-schritte-auf-dem-weg-zu-version-10,130460.html)** und **[GameStar Youtube](https://www.youtube.com/watch?v=B-rOJOlDLm8)**                               |
 
 > Wenn wir feststellen, dass unsere Übersetzungen in Streams oder Videos verwendet werden oder ein besonderer Dank angebracht ist, fügen wir dieser Liste gerne weitere Quellen hinzu. Der Neutralität wegen geschieht die Auswahl völlig zufällig und nicht auf Anfrage. Vielen Dank für all die tolle Unterstützung!
 
