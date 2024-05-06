@@ -1,18 +1,18 @@
-> [!TIP]
-> `Mit 3.23 LIVE stellen wir eine vollständige Übersetzung bereit. Diese findest du in den Releases als Star.Citizen.Deutsch.LIVE_FULL.zip`
-
 [![Static Badge](https://img.shields.io/badge/LIVE%203.23.0-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/PTU%203.23.0-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) <!-- [![Static Badge](https://img.shields.io/badge/VORBEREITUNG-%23f3ac04?style=for-the-badge&label=3.23.0%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)--> [![Static Badge](https://img.shields.io/badge/Preview%20Builds-brightgreen?style=for-the-badge&color=232323)](#)[![Static Badge](https://img.shields.io/badge/✖-%23ff2f00?style=for-the-badge&labelColor=232323)](#) <br/>
 [![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&labelColor=232323&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Discord](https://img.shields.io/discord/1163823228637163581?style=for-the-badge&logo=discord&logoColor=fff&label=team&labelColor=232323&color=fff) [![Static Badge](https://img.shields.io/badge/Downloads-232323?style=for-the-badge&logoColor=232323)![Static Badge](https://img.shields.io/badge/15k-%234cc71e?style=for-the-badge&labelColor=232323%20)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI)
 
 <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/Download%20LIVE-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*LIVE*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a> <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![Static Badge](https://img.shields.io/badge/Download%20PTU-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=date&filter=*PTU*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a>
 
-[![Star Citizen in Deutsch](https://i.imgur.com/HMhrxcK.jpg)](#)
+[![Star Citizen in Deutsch](https://i.imgur.com/ojBcCRM.png)](#)
 
 # Star Citizen in Deutsch - Lokalisierung für LIVE und PTU
 
 #### Die deutsche Sprachdatei für Star Citizen ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA.
 
 Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [ein Issue schreiben](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=), deinen Vorschlag posten und ein Teil der Übersetzung werden.
+
+> [!TIP]
+> `Mit 3.23 LIVE stellen wir eine vollständige Übersetzung bereit. Diese findest du in den Releases als Star.Citizen.Deutsch.LIVE_FULL.zip`
 
 <br/>
 
