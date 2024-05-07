@@ -4,12 +4,14 @@ Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher
 
 ### So geht's
 
-1. Lade dir die Datei(en) herunter
+1. Lade dir die .bat Datei(en) herunter
 2. Speichere die Datei(en) in den Spielordner
 3. Klicke mit der rechten Maustaste auf die Datei(en) und wähle `bearbeiten` aus
 4. Passe den Pfad zum Star Citizen (1) Sprachdatei Ordner an
 5. Passe den Pfad zum RSI-Launcher (2) an
-6. Speichern
+6. Speichern <br/>
+
+💡 Die `LIVE FULL Updater.bat` ist für die Komplettübersetzung
 
 ![image](https://i.imgur.com/dbpGOEq.png)
 <br/>
