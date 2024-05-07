@@ -44,13 +44,14 @@ Wir arbeiten derzeit daran, eine vollständige deutsche Übersetzung bereitzuste
 ### Variante 1: Download ZIP (Empfohlen)
 1. **Lade dir die neueste Übersetzung als ZIP-Datei herunter**<br/>
     <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/LIVE-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*LIVE*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![Static Badge](https://img.shields.io/badge/PTU-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=date&filter=*PTU*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a> <!-- https://shields.io/badges/git-hub-release -->
-3. **Entpacke die ZIP-Datei auf deine Festplatte**
-4. **Kopiere den Inhalt der entpackten ZIP-Datei in den LIVE bzw. PTU/EPTU Ordner:** <br/>
-`\ Roberts Space Industries \ StarCitizen \ LIVE \` <br/>
-`\ Roberts Space Industries \ StarCitizen \ PTU \`
-   <br/><br/>
+2. **Entpacke die ZIP-Datei auf deine Festplatte**
+3. **Kopiere den Inhalt der entpackten ZIP-Datei in den LIVE bzw. PTU/EPTU Ordner:** <br/>
+  `\ Roberts Space Industries \ StarCitizen \ LIVE \` <br/>
+  `\ Roberts Space Industries \ StarCitizen \ PTU \` <br/>
 
-> 💡 In der ZIP Datei befindet sich neben der **`global.ini`** auch eine angepasste **`user.cfg`** Datei. Achte daher darauf, dass wenn du eine eigene **`user.cfg`** Datei verwendest, diese nicht zu überschreiben. Übertrage den Inhalt unserer Datei zu deiner Datei.
+4. 💡 Nutzt du eine eigene `user.cfg` Datei, ergänze deine Datei mit folgenden zwei Zeilen: <br/>
+  `g_language = german_(germany)` <br/>
+  `g_languageAudio = english`
 
 <br/><br/>
 ### Variante 2: global.ini herunterladen
