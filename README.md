@@ -43,7 +43,7 @@ Eröffne [eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/di
 
 ## Anleitung zur Installation
 
-**Täglich um 4 Uhr nachts werden automatisch Live- und/oder PTU-Releases aus den Fixes des vorherigen Tages erstellt. Releases werden nur dann erstellt, wenn in den letzten 24h Änderungen an den jeweiligen INI-Dateien vorgenommen wurden.**<br/><br/>
+**Sofern es Änderungen an der Übersetzungsdatei gibt, werden täglich um 4 Uhr nachts automatisch Live- und/oder PTU-Releases aus den Fixes des vorherigen Tages erstellt.**<br/><br/>
 
 [<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
