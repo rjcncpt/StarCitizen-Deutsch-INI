@@ -1,5 +1,5 @@
-[![Static Badge](https://img.shields.io/badge/PTU%203.23-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/LIVE%203.22.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) <!-- [![Static Badge](https://img.shields.io/badge/VORBEREITUNG-%23f3ac04?style=for-the-badge&label=3.23.0%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)--> [![Static Badge](https://img.shields.io/badge/Preview%20Builds-brightgreen?style=for-the-badge&color=232323)](#)[![Static Badge](https://img.shields.io/badge/✖-%23ff2f00?style=for-the-badge&labelColor=232323)](#) <br/>
-[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&labelColor=232323&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Discord](https://img.shields.io/discord/1163823228637163581?style=for-the-badge&logo=discord&logoColor=fff&label=team&labelColor=232323&color=fff) [![Static Badge](https://img.shields.io/badge/Downloads-232323?style=for-the-badge&logoColor=232323)![Static Badge](https://img.shields.io/badge/15k-%234cc71e?style=for-the-badge&labelColor=232323%20)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI)
+[![Static Badge](https://img.shields.io/badge/LIVE%203.23.0-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/PTU%203.23.0-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) <!-- [![Static Badge](https://img.shields.io/badge/VORBEREITUNG-%23f3ac04?style=for-the-badge&label=3.23.0%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)--> [![Static Badge](https://img.shields.io/badge/Preview%20Builds-brightgreen?style=for-the-badge&color=232323)](#)[![Static Badge](https://img.shields.io/badge/✖-%23ff2f00?style=for-the-badge&labelColor=232323)](#) <br/>
+[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&labelColor=232323&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Discord](https://img.shields.io/discord/1163823228637163581?style=for-the-badge&logo=discord&logoColor=fff&label=team&labelColor=232323&color=fff) [![Static Badge](https://img.shields.io/badge/Downloads-232323?style=for-the-badge&logoColor=232323)![Static Badge](https://img.shields.io/badge/15,5k-%234cc71e?style=for-the-badge&labelColor=232323%20)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI)
 
 <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/Download%20LIVE-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*LIVE*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a> <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![Static Badge](https://img.shields.io/badge/Download%20PTU-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=date&filter=*PTU*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a>
 
@@ -9,9 +9,10 @@
 
 #### Die deutsche Sprachdatei für Star Citizen ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA.
 
-Es ist davon auszugehen, dass eine deutsche Übersetzung das Tor für potenziell tausende und langfristig für Millionen neuer Spieler öffnet und einlädt, Star Citizen zu testen.
-
 Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [ein Issue schreiben](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=), deinen Vorschlag posten und ein Teil der Übersetzung werden.
+
+> [!TIP]
+> **Mit 3.23 LIVE stellen wir eine vollständige Übersetzung bereit. Diese findest du in den Releases. Lade dir dazu die `Star.Citizen.Deutsch.LIVE_FULL.zip` Datei herunter.**
 
 <br/>
 
@@ -23,7 +24,7 @@ Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Di
 - **[Das Team](#das-team)**
 - **[Fragen und Antworten](#fragen-und-antworten)**
 - **[Mehr von rjcncpt](#mehr-von-rjcncpt)**
-  <br/><br/>
+  <br/><br/><br/>
 
 ## Über diese Übersetzung
 Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu übertragen, wobei wir gleichzeitig sicherstellen, dass Eigennamen, Missionstitel sowie Items nicht übersetzt werden. Das gewährleistet das gemeinsame zocken mit Spielern aus anderen Ländern dieser Erde und die Kompatibilität mit dem Issue Council auf der RSI-Webseite. Außerdem werden so Drittanbieter-Websites, Item-Datenbanken und Tutorials auf Youtube oder in Textform unterstützt.
@@ -31,9 +32,14 @@ Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu üb
 An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei Terminals oder MouseOver Einblendungen. Die Umlaute werden einfach weggelassen, und es entsteht eine Lücke. Dies ist kein Übersetzungsfehler, sondern ein UI-Fehler. Wir behalten diese Fehler absichtlich bei, damit CIG darauf reagieren kann, und wir selbst feststellen können, ob seitens CIG Fixes vorgenommen wurden.
 <br/><br/>
 
-### Wird es eine vollständige Übersetzung geben?
-Wir arbeiten derzeit daran, eine vollständige deutsche Übersetzung bereitzustellen, um das Spielerlebnis für Gelegenheitsspieler weiter zu verbessern, die keine Fehlerberichte schreiben, sondern nur zocken wollen. In dieser vollständigen Übersetzung werden selbstverständlich auch die Missionstitel übersetzt werden. Bis es soweit ist, nutze gern unsere bisherige Übersetzung.
-<br/><br/><br/><br/>
+### Vollständige Übersetzung von Star Citizen
+Wir haben eine vollständige Übersetzung für Star Citizen bereitgestellt, um das Spielerlebnis für Gelegenheitsspieler weiter zu verbessern, die keine Fehlerberichte schreiben, sondern einfach nur zocken wollen. In dieser vollständigen Übersetzung werden Missionstitel, Items, Orte und teilweise Unternehmen übersetzt. Diese Komplettübersetzung ist aktuell nur für die LIVE-Server verfügbar und ist noch nicht fertig.
+
+Eröffne [eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [erstelle einen Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=) um deine Korrekturen vorzuschlagen.<br/><br/>
+
+------------------------------------
+
+<br/>
 
 ## Anleitung zur Installation
 
@@ -61,16 +67,22 @@ Wir arbeiten derzeit daran, eine vollständige deutsche Übersetzung bereitzuste
 `\ LIVE \ data \ Localization \ german_(germany) \ global.ini` <br/>
 `\ PTU \ data \ Localization \ german_(germany) \ global.ini`
 
-<br/><br/><br/>
+<br/><br/>
 
-### Automatisches Übersetzungs-Update
+### Variante 3: Automatisches Übersetzungs-Update
 
-Um immer auf dem aktuellen Stand zu bleiben, kannst du die INI-Datei auch automatisch updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/updater)** welche Möglichkeiten du hast.
-<br/><br/><br/><br/>
+Um immer auf dem aktuellen Stand zu bleiben, kannst du die INI-Datei auch automatisch mit dem Launcher Start updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/updater)** welche Möglichkeiten du hast.
+<br/><br/>
+
+------------------------------------
+
+<br/>
 
 ## Wie aktuell ist die deutsche Übersetzung?
 
-Zum aktuellen Zeitpunkt ist die deutsche Übersetzung tagesaktuell, allerdings mit einer Verzögerung von wenigen Stunden, da die neuen Zeilen erst übertragen und übersetzt werden müssen. In der Regel veröffentlicht CIG die neuen Patches zwischen 22 und 1 Uhr nachts. Die Übersetzung ist demnach zwischen 4 Uhr und 10 Uhr morgens verfügbar. Unsere Übersetzungsdatei ist zu 100% identisch mit der, die CIG zur Verfügung stellt. Sollten im Spiel Variablen mit einem @-Zeichen angezeigt werden, liegt der Fehler bei CIG und wird in späteren Patches korrigiert.
+Zum aktuellen Zeitpunkt ist die deutsche Übersetzung tagesaktuell, allerdings mit einer Verzögerung von wenigen Stunden, da die neuen Zeilen erst übertragen und übersetzt werden müssen. In der Regel veröffentlicht CIG die neuen Patches zwischen 22 und 1 Uhr nachts. Die Übersetzung ist demnach gegen 10 Uhr morgens verfügbar. Unsere Übersetzungsdatei ist zu 100% identisch mit der, die CIG zur Verfügung stellt. Sollten im Spiel Variablen mit einem @-Zeichen angezeigt werden, liegt der Fehler bei CIG und wird in späteren Patches korrigiert.
+
+💡 **Es kommt häufig vor, dass eine neue Spielversion veröffentlich aber hier kein Update hochgeladen wurde. In diesem Fall gab es keine Veränderungen an der ursprünglichen global.ini Sprachdatei.**
 <br/><br/><br/><br/>
 
 ## Evocati Builds und Preview Channels
@@ -78,7 +90,11 @@ Zum aktuellen Zeitpunkt ist die deutsche Übersetzung tagesaktuell, allerdings m
 Preview-Channel werden von uns nicht unterstützt. Damit du an den Tests in englischer Sprache problemlos teilhaben kannst, füge in der **`user.cfg`** Datei ein **`;`** vor die Zeile **`g_language = german_(germany)`** hinzu. Du kannst selbstverständlich auch die aktuellste deutsche Übersetzung ausprobieren. Sei dir aber bewusst, dass es zu Darstellungsfehler kommen kann!<br/><br/>
 
 Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen die sich in den Evocati Builds befinden, erst mit dem Start von PTU Wave 1 zu veröffentlichen. Dieser Ansatz ist eine Anerkennung gegenüber CIG und respektiert die NDA vollumfänglich. Natürlich möchten wir auch vermeiden, unnötige Spoiler und Leaks preiszugeben.
-<br/><br/><br/><br/>
+<br/><br/>
+
+------------------------------------
+
+<br/>
 
 ## Das Team
 
@@ -109,7 +125,11 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 
 > Wenn wir feststellen, dass unsere Übersetzungen in Streams oder Videos verwendet werden oder ein besonderer Dank angebracht ist, fügen wir dieser Liste gerne weitere Quellen hinzu. Der Neutralität wegen geschieht die Auswahl völlig zufällig und nicht auf Anfrage. Vielen Dank für all die tolle Unterstützung!
 
-<br/><br/>
+<br/>
+
+------------------------------------
+
+<br/>
 
 ## Fragen und Antworten
 
