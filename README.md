@@ -31,7 +31,7 @@ Unser Ziel mit dieser Übersetzung ist es, die Spieltexte von Star Citizen ins D
 <br/><br/>
 
 ### Wir interpretieren Missionstexte neu
-Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys schwer verständlich. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen, resultiert. Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet.
+Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys schwer verständlich. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen resultiert. Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet.
 <br/><br/>
 
 ### Vollständige Übersetzung von Star Citizen
