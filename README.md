@@ -9,7 +9,7 @@
 
 #### Die deutsche Sprachdatei für Star Citizen ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA.
 
-Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Diskussion eröffnen](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [ein Issue schreiben](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=), deinen Vorschlag posten und ein Teil der Übersetzung werden.
+Hilf gern dabei, diese Übersetzung besser zu machen und eröffne [eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [einen Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=), schreibe uns deinen Vorschlag und werde ein Teil dieser Übersetzung!
 
 > [!IMPORTANT]  
 > **Um @-Darstellungsfehler zu vermeiden, aktualisiere regelmäßig die Übersetzungsdatei. Mit nahezu jedem Patch kommen neue Zeilen hinzu, die dir sonst im Spiel fehlen und als @-Fehler dargestellt werden.**
@@ -27,13 +27,16 @@ Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Di
   <br/><br/><br/>
 
 ## Über diese Übersetzung
-Unser Ziel bei dieser Übersetzung ist es, die Spieltexte von Star Citizen ins Deutsche zu übertragen, um ein besseres Spielerlebnis für alle zu ermöglichen. Wir bieten zwei Versionen unserer Sprachdatei an: eine Standardversion und eine vollständige Übersetzung. Die Standardversion sorgt dafür, dass **Eigennamen, Missionstitel und Items nicht übersetzt** werden. Dadurch bleibt das Spielen mit internationalen Spieler konsistent, und die Kompatibilität mit dem Issue Council auf der RSI-Webseite bleibt erhalten. Außerdem unterstützen wir damit Drittanbieter-Websites, Item-Datenbanken sowie Tutorials auf Plattformen wie Youtube oder in Textform.
+Unser Ziel mit dieser Übersetzung ist es, die Spieltexte von Star Citizen ins Deutsche zu übertragen, um ein besseres Spielerlebnis für deutsche Spieler zu ermöglichen und die Immersion zu stärken. Wir bieten zwei Versionen unserer Sprachdatei an: eine Standardversion und eine vollständige Übersetzung. Die Standardversion sorgt dafür, dass **Eigennamen, Missionstitel und Items nicht übersetzt** werden. Dadurch bleibt das Spielen mit internationalen Spieler konsistent, und die Kompatibilität mit dem Issue Council auf der RSI-Webseite bleibt erhalten. Außerdem unterstützen wir damit Drittanbieter-Websites, Item-Datenbanken sowie Tutorials auf Plattformen wie Youtube oder in Textform.
+<br/><br/>
+
+### Wir interpretieren Missionstexte neu
+Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys schwer verständlich. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen, resultiert. Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet.
 <br/><br/>
 
 ### Vollständige Übersetzung von Star Citizen
 Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im Issue Council zu kümmern, haben wir eine vollständige Übersetzung der Sprachdatei entwickelt. Diese Version geht über die Standardübersetzung hinaus und übersetzt auch Missionstitel sowie teilweise Items, Ortsnamen und Unternehmen. Bitte beachte, dass diese Sprachdatei derzeit nur für die LIVE-Server verfügbar ist und noch nicht vollständig abgeschlossen ist.
-
-Eröffne [eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [erstelle einen Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=) um deine Korrekturen vorzuschlagen.<br/><br/>
+<br/><br/>
 
 ------------------------------------
 
@@ -198,13 +201,21 @@ Diese Übersetzung ist komplett unabhängig und in erster Linie ein Community-Pr
 
 </details>
 
-<br/><br/>
+<br/>
 
-## Mehr von rjcncpt
+------------------------------------
+
+<br/>
+
+### Mehr von rjcncpt
 
 [![Better Spectrum Dark Mode](https://i.imgur.com/QqXnJJb.png)](https://github.com/rjcncpt/SpectrumDarkMode-Extension)
 
-<br/><br/>
+<br/>
+
+------------------------------------
+
+<br/>
 Salut and stay tuned!
 
 [![Made by the Community](https://i.imgur.com/2RWyGPJ.png)](#)
