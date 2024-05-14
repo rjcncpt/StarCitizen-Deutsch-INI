@@ -1,5 +1,5 @@
 [![Static Badge](https://img.shields.io/badge/LIVE%203.23.0-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/PTU%203.23.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) <!-- [![Static Badge](https://img.shields.io/badge/VORBEREITUNG-%23f3ac04?style=for-the-badge&label=3.23.0%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)--> [![Static Badge](https://img.shields.io/badge/Preview%20Builds-brightgreen?style=for-the-badge&color=232323)](#)[![Static Badge](https://img.shields.io/badge/✖-%23ff2f00?style=for-the-badge&labelColor=232323)](#) <br/>
-[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&labelColor=232323&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Discord](https://img.shields.io/discord/1163823228637163581?style=for-the-badge&logo=discord&logoColor=fff&label=team&labelColor=232323&color=fff) [![Static Badge](https://img.shields.io/badge/Downloads-232323?style=for-the-badge&logoColor=232323)![Static Badge](https://img.shields.io/badge/18,5k-%234cc71e?style=for-the-badge&labelColor=232323%20)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI)
+[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&labelColor=232323&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) ![Discord](https://img.shields.io/discord/1163823228637163581?style=for-the-badge&logo=discord&logoColor=fff&label=team&labelColor=232323&color=fff) [![Static Badge](https://img.shields.io/badge/Downloads-232323?style=for-the-badge&logoColor=232323)![Static Badge](https://img.shields.io/badge/19k-%234cc71e?style=for-the-badge&labelColor=232323%20)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI)
 
 <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/Download%20LIVE-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=semver&filter=*LIVE*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a> <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![Static Badge](https://img.shields.io/badge/Download%20PTU-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?sort=date&filter=*PTU*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a>
 
@@ -30,13 +30,11 @@ Sollte es noch zu seltsamen Übersetzungen kommen, kannst du sehr gerne [eine Di
   <br/><br/><br/>
 
 ## Über diese Übersetzung
-Unsere Übersetzung konzentriert sich darauf, die Spieltexte ins Deutsche zu übertragen, wobei wir gleichzeitig sicherstellen, dass Eigennamen, Missionstitel sowie Items nicht übersetzt werden. Das gewährleistet das gemeinsame zocken mit Spielern aus anderen Ländern dieser Erde und die Kompatibilität mit dem Issue Council auf der RSI-Webseite. Außerdem werden so Drittanbieter-Websites, Item-Datenbanken und Tutorials auf Youtube oder in Textform unterstützt.
-<br/><br/>
-An manchen Stellen hat das Spiel Schwierigkeiten mit Umlauten, zum Beispiel bei Terminals oder MouseOver Einblendungen. Die Umlaute werden einfach weggelassen, und es entsteht eine Lücke. Dies ist kein Übersetzungsfehler, sondern ein UI-Fehler. Wir behalten diese Fehler absichtlich bei, damit CIG darauf reagieren kann, und wir selbst feststellen können, ob seitens CIG Fixes vorgenommen wurden.
+Unser Ziel bei dieser Übersetzung ist es, die Spieltexte von Star Citizen ins Deutsche zu übertragen, um ein besseres Spielerlebnis für alle zu ermöglichen. Wir bieten zwei Versionen unserer Sprachdatei an: eine Standardversion und eine vollständige Übersetzung. Die Standardversion sorgt dafür, dass **Eigennamen, Missionstitel und Items nicht übersetzt** werden. Dadurch bleibt das Spielen mit internationalen Spieler konsistent, und die Kompatibilität mit dem Issue Council auf der RSI-Webseite bleibt erhalten. Außerdem unterstützen wir damit Drittanbieter-Websites, Item-Datenbanken sowie Tutorials auf Plattformen wie Youtube oder in Textform.
 <br/><br/>
 
 ### Vollständige Übersetzung von Star Citizen
-Wir haben eine vollständige Übersetzung für Star Citizen bereitgestellt, um das Spielerlebnis für Gelegenheitsspieler weiter zu verbessern, die keine Fehlerberichte schreiben, sondern einfach nur zocken wollen. In dieser vollständigen Übersetzung werden Missionstitel, Items, Orte und teilweise Unternehmen übersetzt. Diese Komplettübersetzung ist aktuell nur für die LIVE-Server verfügbar und ist noch nicht fertig.
+Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im Issue Council zu kümmern, haben wir eine vollständige Übersetzung der Sprachdatei entwickelt. Diese Version geht über die Standardübersetzung hinaus und übersetzt auch Missionstitel sowie teilweise Items, Ortsnamen und Unternehmen. Bitte beachte, dass diese Sprachdatei derzeit nur für die LIVE-Server verfügbar ist und noch nicht vollständig abgeschlossen ist.
 
 Eröffne [eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [erstelle einen Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=) um deine Korrekturen vorzuschlagen.<br/><br/>
 
@@ -117,14 +115,18 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 
 <br/>
 
-| Dankeschön          | Beschreibung                                                                                                         |
-|:--------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Claudia Fröhlich    | `Lektorin` - Einige Textblöcke werden von ihr Korrektur gelesen.                                                     |
-| Knebel              | Danke an die vielen Einsender der Knebel Community - **[Discord](https://discord.com/invite/knebel)** (*Invite-Link) |
-| NICDUS              | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=5xuSRI0SlbE)**                                 |
-| Gaming mit Handicap | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=hT48OxNr_cA)**                                 |
-| Tiicrown            | Tiicrown unterstützt unsere Übersetzung - **[Twitch](https://www.twitch.tv/tiicrown)**                               |
-| GameStar            | Vorgestellt bei **[gamestar.de](https://www.gamestar.de/videos/star-citizen-das-sind-die-naechsten-schritte-auf-dem-weg-zu-version-10,130460.html)** und **[GameStar Youtube](https://www.youtube.com/watch?v=B-rOJOlDLm8)**                               |
+## Danksagungen
+
+| Name/Creator        | Beschreibung                                                                                                                |
+|:--------------------|:----------------------------------------------------------------------------------------------------------------------------|
+| Claudia Fröhlich    | `Lektorin` - Einige Textblöcke werden von ihr Korrektur gelesen.                                                            |
+| Knebel              | Danke an die vielen Einsender der Knebel Community - **[Discord](https://discord.com/invite/knebel)** (*Invite-Link)        |
+| NICDUS              | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=5xuSRI0SlbE)**                                        |
+| Gaming mit Handicap | Danke für die Erwähnung - **[YouTube](https://www.youtube.com/watch?v=hT48OxNr_cA)**                                        |
+| Tiicrown            | Unterstützt unsere Übersetzung - **[Twitch](https://www.twitch.tv/tiicrown)**                                               |
+| SpielerBlau         | Unterstützt unsere Übersetzung und modifiziert diese etwas auf seine Orga - **[Twitch](https://www.twitch.tv/spielerblau)** |
+| GameStar            | Erwähnt bei **[gamestar.de](https://www.gamestar.de/videos/star-citizen-das-sind-die-naechsten-schritte-auf-dem-weg-zu-version-10,130460.html)** und **[GameStar Youtube](https://www.youtube.com/watch?v=B-rOJOlDLm8)**                               |
+| FlatMoki            | Unterstützt unsere Übersetzung - **[Twitch](https://www.twitch.tv/flatmoki)**                                               |
 
 > Wenn wir feststellen, dass unsere Übersetzungen in Streams oder Videos verwendet werden oder ein besonderer Dank angebracht ist, fügen wir dieser Liste gerne weitere Quellen hinzu. Der Neutralität wegen geschieht die Auswahl völlig zufällig und nicht auf Anfrage. Vielen Dank für all die tolle Unterstützung!
 
