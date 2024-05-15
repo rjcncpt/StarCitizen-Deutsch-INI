@@ -13,7 +13,7 @@ Hilf gern dabei, diese Übersetzung besser zu machen und eröffne [eine Diskussi
 
 
 > [!TIP]  
-> **Wir laden dich herzlich auf unseren **[Übersetzungs Discord-Server](https://discord.gg/qUtwVCuUQ3)** ein. Werde Teil der deutschen Übersetzung und hinterlasse deinen Fingerabdruck mit deinem Übersetzungsvorschlag. Server seit 15. Mai.2023**
+> **Wir laden dich herzlich auf unseren **[Übersetzungs Discord-Server](https://discord.gg/qUtwVCuUQ3)** ein. Werde Teil der deutschen Übersetzung und hinterlasse deinen Fingerabdruck mit deinem Übersetzungsvorschlag. Server seit 15. Mai 2023**
 
 > [!IMPORTANT]  
 > **Um @-Darstellungsfehler zu vermeiden, aktualisiere regelmäßig die Übersetzungsdatei. Mit nahezu jedem Patch kommen neue Zeilen hinzu, die dir sonst im Spiel fehlen und als @-Fehler dargestellt werden.**
