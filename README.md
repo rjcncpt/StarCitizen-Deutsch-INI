@@ -123,11 +123,12 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 | Knebel              | Danke an die vielen Einsender der Knebel Community - **[Discord](https://discord.com/invite/knebel)** (*Invite-Link)        |
 | NICDUS              | Danke für das Tutorial und die Vorstellung der Übersetzung - **[YouTube](https://www.youtube.com/watch?v=5xuSRI0SlbE)**     |
 | Gaming mit Handicap | Danke für das Tutorial und die Vorstellung der Übersetzung - **[YouTube](https://www.youtube.com/watch?v=hT48OxNr_cA)**     |
-| Tiicrown            | Unterstützt unsere Übersetzung - **[Twitch](https://www.twitch.tv/tiicrown)**                                               |
+| Tiicrown            | Unterstützt unsere Übersetzung im Stream - **[Twitch](https://www.twitch.tv/tiicrown)**                                     |
 | SpielerBlau         | Unterstützt unsere Übersetzung und modifiziert diese etwas auf seine Orga - **[Twitch](https://www.twitch.tv/spielerblau)** |
 | GameStar            | Erwähnt bei **[gamestar.de](https://www.gamestar.de/videos/star-citizen-das-sind-die-naechsten-schritte-auf-dem-weg-zu-version-10,130460.html)** und **[GameStar Youtube](https://www.youtube.com/watch?v=B-rOJOlDLm8)**                               |
-| FlatMoki            | Unterstützt unsere Übersetzung - **[Twitch](https://www.twitch.tv/flatmoki)**                                               |
+| FlatMoki            | Unterstützt unsere Übersetzung im Stream - **[Twitch](https://www.twitch.tv/flatmoki)**                                     |
 | vanHAYDEN           | Danke für das Tutorial und die Vorstellung der Übersetzung - **[YouTube](https://www.youtube.com/watch?v=i6g_vLioBeU)**     |
+| Atropin_            | Unterstützt unsere Übersetzung im Stream - **[Twitch](https://www.twitch.tv/atropin_)**                                     |
 
 > Wenn wir feststellen, dass unsere Übersetzungen in Streams oder Videos verwendet werden oder ein besonderer Dank angebracht ist, fügen wir dieser Liste gerne weitere Quellen hinzu. Der Neutralität wegen geschieht die Auswahl völlig zufällig und nicht auf Anfrage. Vielen Dank für all die tolle Unterstützung!
 
