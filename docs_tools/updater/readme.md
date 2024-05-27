@@ -27,6 +27,9 @@ Tipp: Verwende die Spiel-Icons. Navigiere zum Star Citizen Ordner, um das SC Ico
 
 # SC Launch Configurator
 
+> [!IMPORTANT]  
+> **Aktuell scheint es Probleme mit dem SC LAUNCH CONFIGURATOR zu geben. Die ini-Dateien werden nicht automatisch aktualisiert.**
+
 **<p>Eine andere Möglichkeit, unsere Übersetzungsdatei für Star Citizen automatisch zu updaten, bietet der kostenlose [SC Launch Configurator](https://www.luftwerft.com/) von Luftwerft.</p>**
 
 ![image](https://www.luftwerft.com/images/sclc_en.png)
