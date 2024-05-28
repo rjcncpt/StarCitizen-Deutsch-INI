@@ -9,11 +9,21 @@ Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Key
 <br/><br/>
 
 ### Texte für Liefermissionen<br/>
-Das Problem bei Missionstexten sind häufig die Ortsangaben und deren vorangestellte deutsche Artikel und Präpositionen. Deshalb haben wir uns dafür entschieden, diese durch ein **`->`** zu ersetzen. So lassen sich die Texte etwas besser lesen.
+Das Problem bei Missionstexten sind häufig die Ortsangaben und deren vorangestellte deutsche Artikel und Präpositionen. Deshalb haben wir uns dafür entschieden, diese durch ein **`->`** zu ersetzen. Ebenso haben wir ein paar mehr Zeilenumbrüche hinzugefügt um den Text aufzulockern und besser lesbar zu gestalten.
 
-![image](https://i.imgur.com/Aj4I0SA.png)
-![image](https://i.imgur.com/FX0URYG.png)
-![image](https://i.imgur.com/ywJl0sp.png)
+![image](https://i.imgur.com/p2gUJ5O.png)
+![image](https://i.imgur.com/UywcE1C.png)
+![image](https://i.imgur.com/CQvYAFF.png)
+![image](https://i.imgur.com/4vJ6hwe.png)
+
+<br/><br/>
+
+### Weitere Missionstexte<br/>
+Auch in anderen Missionen haben wir Listen, Trennlinien und weitere Zeilenumbrüche hinzugefügt, um den Text besser lesbar zu gestalten.
+
+![image](https://i.imgur.com/MwVW6gh.png)
+![image](https://i.imgur.com/vatOtI0.png)
+![image](https://i.imgur.com/W9KzJcY.png)
 
 <br/><br/>
 
