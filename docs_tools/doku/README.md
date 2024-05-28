@@ -7,16 +7,16 @@ Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Key
 Nachfolgend ein paar Beispiele:
 (oben deutsch, unten english)
 
-![image](https://i.imgur.com/WDYRysX.png)
-![image](https://i.imgur.com/C6OXAPR.png)
+![image](https://i.imgur.com/Aj4I0SA.png)
+![image](https://i.imgur.com/0fgoe1P.png)
 
-![image](https://i.imgur.com/aYb8oWg.png)
-![image](https://i.imgur.com/AenlpMH.png)
+![image](https://i.imgur.com/FX0URYG.png)
+![image](https://i.imgur.com/qPeuikJ.png)
 
-![image](https://i.imgur.com/h9mNSkz.png)
-![image](https://i.imgur.com/ushanlQ.png)
+![image](https://i.imgur.com/ywJl0sp.png)
+![image](https://i.imgur.com/T1zIW2p.png)
 
-<br/><br/><br/>
+<br/><br/>
 
 Dokumentation befindet sich in Arbeit...
 <br/><br/>
