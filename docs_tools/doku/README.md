@@ -1,20 +1,19 @@
 # Dokumentation zu unserer deutschen Star Citizen Übersetzung
 Auf dieser Seite dokumentieren wir einige besondere Merkmale unserer deutschen Star Citizen-Übersetzung, die sich in ihrer Darstellung vom CIG-Original abheben und sich auch von anderen Übersetzungen unterscheiden.
 
+<br/><br/>
+
 ## Wir interpretieren Missionstexte neu
 Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys kompliziert aufgebaut. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen resultiert. Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet und ein eigenständiges Layout erschaffen, um die Lesbarbeit zu vereinfachen.
 
-Nachfolgend ein paar Beispiele:
-(oben deutsch, unten english)
+<br/><br/>
+
+### Texte für Liefermissionen<br/>
+Das Problem bei Missionstexten sind häufig die Ortsangaben und deren vorangestellte deutsche Artikel und Präpositionen. Deshalb haben wir uns dafür entschieden, diese durch ein **`->`** zu ersetzen. So lassen sich die Texte etwas besser lesen.
 
 ![image](https://i.imgur.com/Aj4I0SA.png)
-![image](https://i.imgur.com/0fgoe1P.png)
-
 ![image](https://i.imgur.com/FX0URYG.png)
-![image](https://i.imgur.com/qPeuikJ.png)
-
 ![image](https://i.imgur.com/ywJl0sp.png)
-![image](https://i.imgur.com/T1zIW2p.png)
 
 <br/><br/>
 
