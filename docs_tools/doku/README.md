@@ -1,5 +1,5 @@
 # Dokumentation zu unserer deutschen Star Citizen Übersetzung
-Auf dieser Seite dokumentieren wir einige besondere Merkmale unserer deutschen Star Citizen-Übersetzung, die sich in ihrer Darstellung vom CIG-Original abheben und sich auch von anderen Übersetzungen unterscheiden.
+Auf dieser Seite dokumentieren wir einige besondere Merkmale unserer deutschen Star Citizen-Übersetzung, die sich in ihrer Darstellung vom CIG-Original abheben. Unser Team und die Community hat intensiv daran gearbeitet, die Übersetzung nicht nur präzise, sondern auch ansprechend und benutzerfreundlich zu gestalten.
 
 <br/><br/>
 
