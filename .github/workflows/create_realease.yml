@@ -8,7 +8,7 @@
 # - the following steps are only run then the commit count is > 0
 # 4. create a release name with the correct version in it
 # 5. create the zip
-# 6. create the release
+# 6. create the release 
 
 name: Create Releases
 on:
