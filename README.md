@@ -61,8 +61,10 @@ Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im I
   `\ Roberts Space Industries \ StarCitizen \ PTU \` <br/>
 
 4. 💡 Nutzt du eine eigene `user.cfg` Datei, ergänze deine Datei mit folgenden zwei Zeilen: <br/>
-  `g_language = german_(germany)` <br/>
-  `g_languageAudio = english`
+  ```
+g_language = german_(germany)
+g_languageAudio = english
+```
 
 <br/><br/>
 ### Variante 2: global.ini herunterladen
