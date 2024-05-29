@@ -2,14 +2,14 @@
 
 <!-- Beschreibe kurz deine Änderungen -->
 
-<!-- Werden Issues hiermit bearbeitet? Dann diese auch mit #IssueNummer verlinken -->
+<!-- Werden Issues hiermit bearbeitet? Dann diese mit #IssueNummer verlinken (# eingeben und passenden Issue auswählen) -->
 
 ## Checkliste
 
 - [ ] Ich habe meine Änderungen selbst reviewed
 - [ ] Änderungen im Spiel getestet (soweit möglich)
 - [ ] Datum in erster Zeile aktuell
-- [ ] Tests sind erfolgreich
+- [ ] Alle Tests sind erfolgreich
 - [ ] PR und Merge Titel Format ist:
       `3.23.x LIVE/PTU.xxxxxx | Kurzer Titel`
-- [ ] Tags sind ausgewählt
+- [ ] Labels sind ausgewählt (rechte Spalte)
