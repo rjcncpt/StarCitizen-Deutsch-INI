@@ -47,11 +47,11 @@ jobs:
 
       - name: Get Date
         id: date
-        run: echo "DATE=$(date '+%d.%m.%y')" >> $GITHUB_OUTPUT
+        run: echo "DATE=$(date '+%d.%m.%Y')" >> $GITHUB_OUTPUT
 
       - name: Get Date Reverse
         id: date_rev
-        run: echo "DATE_REV=$(date '+%y.%m.%d')" >> $GITHUB_OUTPUT
+        run: echo "DATE_REV=$(date '+%Y.%m.%d')" >> $GITHUB_OUTPUT
 
       - name: Get Time
         id: time
