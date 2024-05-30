@@ -5,7 +5,7 @@ Auf dieser Seite dokumentieren wir einige besondere Merkmale unserer deutschen S
 
 ## Wir interpretieren Missionstexte neu
 
-![image](https://i.imgur.com/Sa2G4KF.png)
+![image](https://i.imgur.com/OLdZcaa.png)
 
 Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys kompliziert aufgebaut. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen resultiert. Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet und ein eigenständiges Layout erschaffen, um die Lesbarbeit zu vereinfachen.
 
