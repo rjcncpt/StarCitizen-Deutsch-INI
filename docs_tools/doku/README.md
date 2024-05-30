@@ -14,20 +14,14 @@ Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Key
 ### Texte für Liefermissionen<br/>
 Das Problem bei Missionstexten sind häufig die Ortsangaben und deren vorangestellte deutsche Artikel und Präpositionen. Deshalb haben wir uns dafür entschieden, diese durch ein **`->`** zu ersetzen. Ebenso haben wir ein paar mehr Zeilenumbrüche hinzugefügt um den Text aufzulockern und besser lesbar zu gestalten.
 
-![image](https://i.imgur.com/p2gUJ5O.png)
-![image](https://i.imgur.com/UywcE1C.png)
-![image](https://i.imgur.com/CQvYAFF.png)
-![image](https://i.imgur.com/4vJ6hwe.png)
+<img src="https://i.imgur.com/p2gUJ5O.png" width="400"> <img src="https://i.imgur.com/UywcE1C.png" width="400"> <img src="https://i.imgur.com/CQvYAFF.png" width="400"> <img src="https://i.imgur.com/4vJ6hwe.png" width="400">
 
 <br/><br/>
 
 ### Weitere Missionstexte<br/>
 Auch in anderen Missionen haben wir Listen, Trennlinien und weitere Zeilenumbrüche hinzugefügt, um den Text besser lesbar zu gestalten.
 
-![image](https://i.imgur.com/MwVW6gh.png)
-![image](https://i.imgur.com/vatOtI0.png)
-![image](https://i.imgur.com/W9KzJcY.png)
-
+<img src="https://i.imgur.com/MwVW6gh.png" width="400"> <img src="https://i.imgur.com/vatOtI0.png" width="400"> <img src="https://i.imgur.com/W9KzJcY.png" width="400">
 <br/><br/>
 
 Dokumentation befindet sich in Arbeit...
