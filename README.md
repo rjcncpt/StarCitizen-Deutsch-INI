@@ -48,7 +48,7 @@ Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im I
 
 ## Anleitung zur Installation
 
-**Sofern es Änderungen an der Übersetzungsdatei gibt, werden täglich um 4 Uhr nachts automatisch Live- und/oder PTU-Releases aus den Fixes des vorherigen Tages erstellt.**<br/><br/>
+**Wir fahren aktuell einen wöchentlichen Release Zyklus, um die Anzahl der Releases zu reduzieren und die Übersicht zu verbessern. An jedem Freitag wird aus den Änderungen der Woche ein Release erstellt, der dann heruntergeladen werden kann.**<br/><br/>
 
 [<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
