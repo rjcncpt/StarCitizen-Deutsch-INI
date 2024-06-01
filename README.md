@@ -9,7 +9,7 @@
 
 #### Die deutsche Sprachdatei für Star Citizen ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA.
 
-Hilf gern dabei, diese Übersetzung besser zu machen und eröffne [eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge) oder [einen Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=), schreibe uns deinen Vorschlag und werde ein Teil dieser Übersetzung!
+Hilf gern dabei, diese Übersetzung besser zu machen und **[tritt unserem öffentlichen Übersetzungs Discord](https://discord.gg/5VZsTk3qjR)** bei, oder eröffne **[eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge)** oder **[einen Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=)** und schreibe uns deinen Vorschlag und werde ein Teil dieser Übersetzung!
 
 > [!IMPORTANT]  
 > **Um @-Darstellungsfehler zu vermeiden, aktualisiere regelmäßig die Übersetzungsdatei. Mit nahezu jedem Patch kommen neue Zeilen hinzu, die sonst im Spiel fehlen und als @-Fehler angezeigt werden.**
