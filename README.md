@@ -11,11 +11,6 @@
 
 Hilf gern dabei, diese Übersetzung besser zu machen und **[tritt unserem öffentlichen Übersetzungs Discord](https://discord.gg/5VZsTk3qjR)** bei, oder eröffne **[eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge)** oder **[einen Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=)** und schreibe uns deinen Vorschlag und werde ein Teil dieser Übersetzung!
 
-> [!IMPORTANT]  
-> **Um @-Darstellungsfehler zu vermeiden, aktualisiere regelmäßig die Übersetzungsdatei. Mit nahezu jedem Patch kommen neue Zeilen hinzu, die sonst im Spiel fehlen und als @-Fehler angezeigt werden.**
-
-<br/>
-
 ### Inhaltsverzeichnis
 
 - **[Anleitung zur Installation](#anleitung-zur-installation)**
@@ -48,9 +43,14 @@ Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im I
 
 ## Anleitung zur Installation
 
-**Wir fahren aktuell einen wöchentlichen Release Zyklus, um die Anzahl der Releases zu reduzieren und die Übersicht zu verbessern. An jedem Freitag wird aus den Änderungen der Woche ein Release erstellt, der dann heruntergeladen werden kann.**<br/><br/>
+**Wir fahren aktuell einen wöchentlichen Release Zyklus, um die Anzahl der Releases zu reduzieren und die Übersicht zu verbessern. An jedem Freitag wird aus den Änderungen der Woche ein Release erstellt, der dann heruntergeladen werden kann.**
 
 [<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
+
+> [!IMPORTANT]  
+> **Um @-Darstellungsfehler zu vermeiden, aktualisiere regelmäßig die Übersetzungsdatei. Mit nahezu jedem Patch kommen neue Zeilen hinzu, die sonst im Spiel fehlen und als @-Fehler angezeigt werden.**
+
+<br/>
 
 ### Variante 1: Download ZIP (Empfohlen)
 1. **Lade dir die neueste Übersetzung als ZIP-Datei herunter**<br/>
