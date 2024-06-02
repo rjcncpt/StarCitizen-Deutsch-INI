@@ -11,6 +11,8 @@
 
 Hilf gern dabei, diese Übersetzung besser zu machen und **[tritt unserem öffentlichen Übersetzungs Discord](https://discord.gg/5VZsTk3qjR)** bei, oder eröffne **[eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge)** oder **[einen Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=)** und schreibe uns deinen Vorschlag und werde ein Teil dieser Übersetzung!
 
+<br/>
+
 ### Inhaltsverzeichnis
 
 - **[Anleitung zur Installation](#anleitung-zur-installation)**
