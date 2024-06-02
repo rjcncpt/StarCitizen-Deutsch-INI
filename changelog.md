@@ -1,5 +1,5 @@
 # Changelog
-Diese Liste wird nur bei größeren Updates gepflegt
+Aufgeführt werden ausschließlich die wöchentlichen Major Updates die jeden Freitag erscheinen. Kleinere Updates die aufgespielt werden, bei z.B. kritischen Übersetzungsfehlern, werden dann in der Major Updateliste aufgeführt.
 
 ### 3.23.1 LIVE.9179031
 **31.05.2024**
