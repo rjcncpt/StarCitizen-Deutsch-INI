@@ -1,13 +1,21 @@
 # Dokumentation zu unserer deutschen Star Citizen Übersetzung
-Auf dieser Seite dokumentieren wir einige besondere Merkmale unserer deutschen Star Citizen-Übersetzung, die sich in ihrer Darstellung vom CIG-Original abheben. Unser Team und die Community hat intensiv daran gearbeitet, die Übersetzung nicht nur präzise, sondern auch ansprechend und benutzerfreundlich zu gestalten.
+Auf dieser Seite dokumentieren wir einige besondere Merkmale unserer deutschen Star Citizen-Übersetzung, die sich in ihrer Darstellung an einigen Stellen vom CIG-Original abheben. Dabei bemühen wir uns, bestimmte Texte nicht einfach 1:1 zu übernehmen, sondern sie neu zu interpretieren, um eine bessere Lesbarkeit und Benutzerfreundlichkeit zu gewährleisten.
 
-<br/><br/>
+<br/>
+
+### Inhaltsverzeichnis
+
+- **[Wir interpretieren Missionstexte neu](#wir-interpretieren-missionstexte-neu)**
+- **[Fehlende @-Variablen](#fehlende-variablen)**
+- ...
+  <br/><br/><br/>
 
 ## Wir interpretieren Missionstexte neu
-
 ![image](https://i.imgur.com/OLdZcaa.png)
 
-Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys kompliziert aufgebaut. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen resultiert. Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet und ein eigenständiges Layout erschaffen, um die Lesbarbeit zu vereinfachen.
+Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys kompliziert aufgebaut. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen resultiert.
+
+Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet und ein eigenständiges Layout erschaffen, um die Lesbarbeit zu vereinfachen.
 
 <br/><br/>
 
@@ -24,9 +32,16 @@ Auch in anderen Missionen haben wir Listen, Trennlinien und weitere Zeilenumbrü
 <img src="https://i.imgur.com/MwVW6gh.png" width="500"> <img src="https://i.imgur.com/vatOtI0.png" width="500"> <img src="https://i.imgur.com/W9KzJcY.png" width="500">
 <br/><br/>
 
+## Fehlende Variablen
+![image](https://i.imgur.com/8kbHQY8.png)
+
+An wenigen Stellen (zum Beispiel im Menü) finden wir @-Variablen, die noch nicht zugeordnet sind. Diese wurden von CIG der originalen global.ini Datei noch nicht hinzugefügt. Wir fügen diese @-Variablen ans Ende unserer INI-Datei hinzu und versuchen eine passende Übersetzung hierfür zu finden. Sobald CIG die korrekte @-Variable hinzufügt, setzen wir unsere Lösung an die passende Stelle in der INI-Datei und korrigieren ggf. den Text.
+<br/><br/>
+
 Dokumentation befindet sich in Arbeit...
 <br/><br/>
 
+<br/><br/>
 Salut and stay tuned!
 
 [![Made by the Community](https://i.imgur.com/2RWyGPJ.png)](#)
