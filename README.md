@@ -7,7 +7,7 @@
 
 # Star Citizen in Deutsch - Lokalisierung für LIVE und PTU
 
-#### Die deutsche Sprachdatei für Star Citizen ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern, insbesondere da der deutschsprachige Raum weltweit der zweitgrößte Markt ist, direkt hinter den USA.
+#### Die deutsche Sprachdatei für Star Citizen ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern und ein besseres Spielerlebnis für deutsche Spieler zu schaffen, indem wir die Immersion und das Verständnis durch eine sorgfältig angepasste Übersetzung stärken.
 
 Hilf gern dabei, diese Übersetzung besser zu machen und **[tritt unserem öffentlichen Übersetzungs Discord](https://discord.gg/5VZsTk3qjR)** bei, oder eröffne **[eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge)** oder **[einen Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=)** und schreibe uns deinen Vorschlag und werde ein Teil dieser Übersetzung!
 
@@ -25,18 +25,22 @@ Hilf gern dabei, diese Übersetzung besser zu machen und **[tritt unserem öffen
 
 ## Über diese Übersetzung
 
-Unser Ziel mit dieser Übersetzung ist es, die Spieltexte von Star Citizen ins Deutsche zu übertragen, um ein besseres Spielerlebnis für deutsche Spieler zu ermöglichen und die Immersion zu stärken. Wir bieten zwei Versionen unserer Sprachdatei an: eine Standardversion und eine vollständige Übersetzung. Die Standardversion sorgt dafür, dass **Eigennamen, Missionstitel und Items nicht übersetzt** werden. Dadurch bleibt das Spielen mit internationalen Spieler konsistent, und die Kompatibilität mit dem Issue Council auf der RSI-Webseite bleibt erhalten. Außerdem unterstützen wir damit Drittanbieter-Websites, Item-Datenbanken sowie Tutorials auf Plattformen wie Youtube oder in Textform.
+Wir bieten zwei Versionen unserer Sprachdatei an: eine Standardversion und eine vollständige Übersetzung. Die Standardversion sorgt dafür, dass **Eigennamen, Missionstitel und Items** nicht übersetzt werden.
+
+Diese Version gewährleistet Konsistenz beim Spielen mit internationalen Mitspielern und erhält die Kompatibilität mit dem Issue Council auf der RSI-Webseite. Zudem unterstützen wir damit Drittanbieter-Webseiten, Item-Datenbanken sowie Video- und Texttutorials.
 
 ![image](https://i.imgur.com/0sW5TPo.png)
 
-### Wir interpretieren Missionstexte neu
-Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys kompliziert aufgebaut. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen resultiert. Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet und ein eigenständiges Layout erschaffen, um die Lesbarbeit zu vereinfachen.
-
-**Erfahre in der [Dokumentation zu unserer Übersetzung](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/doku/README.md) mehr darüber.**
+### Vollständige Übersetzung von Star Citizen
+Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im Issue Council zu kümmern, haben wir eine vollständige Übersetzung der Sprachdatei entwickelt. Diese Version geht über die Standardübersetzung hinaus und umfasst auch die Übersetzung von Missionstiteln sowie teilweise von Items, Ortsnamen und Unternehmen. Bitte beachte, dass diese Sprachdatei derzeit nur für die LIVE-Server verfügbar ist und viel Interpretationsspielraum enthält.
 <br/><br/>
 
-### Vollständige Übersetzung von Star Citizen
-Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im Issue Council zu kümmern, haben wir eine vollständige Übersetzung der Sprachdatei entwickelt. Diese Version geht über die Standardübersetzung hinaus und übersetzt auch Missionstitel sowie teilweise Items, Ortsnamen und Unternehmen. Bitte beachte, dass diese Sprachdatei derzeit nur für die LIVE-Server verfügbar ist und noch nicht vollständig abgeschlossen ist.
+### Wir interpretieren Missionstexte neu
+Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys kompliziert aufgebaut. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen resultiert.
+
+Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet und ein eigenständiges Layout erschaffen, um die Lesbarbeit zu vereinfachen.
+
+**Erfahre in der [Dokumentation zu unserer Übersetzung](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/doku/README.md) mehr über unsere Arbeit.**
 <br/><br/>
 
 ------------------------------------
