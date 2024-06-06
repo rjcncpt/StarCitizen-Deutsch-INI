@@ -6,6 +6,7 @@ Auf dieser Seite listen wir eingens entwicklete und 3rd party Tools und Web-Apps
 ### Inhaltsverzeichnis
 
 - **[INI File Viewer (Web-App)](#ini-file-viewer)**
+- **[Besseres Spectrum Dark Theme (Chrome Extension)](#besseres-spectrum-dark-theme-chrome-extension)**
 - **[Automatisches Übersetzungsupdate (.bat Tool)](#automatisches-übersetzungsupdate-bat)**
 - **[SC Launch Conigurator (Tool)](#sc-launch-conigurator)**
 
@@ -16,14 +17,30 @@ Auf dieser Seite listen wir eingens entwicklete und 3rd party Tools und Web-Apps
 
 Eine Web-App, um bei der Suche nach fehlerhaften Texten zu unterstützen. Dabei wird die aktuelle global.ini-Datei aus dem `/live`-Verzeichnis unseres GitHub-Repositorys ausgelesen und alle Einträge untereinander dargestellt.<br/>
 
-Zur Web-App: https://fwkart.de/apps/ini-file-viewer/
-
-#### Formatierung
+### Formatierung
 ![image](https://i.imgur.com/Hh4yn6i.png)
 Wenn du auf die "Formatieren"-Checkbox klickst, werden alle Anfangsvariablen entfernt und alle `\n` werden durch Zeilenumbrüche ersetzt. So siehst du, wie der Text im Spiel dargestellt wird.
 
-#### Suchfunktion
+### Suchfunktion
 Eine Suchfunktion, die es ermöglicht, den Text, den du als fehlerhaft empfindest, direkt zu suchen.
+
+### Webseite
+Zur Web App: https://fwkart.de/apps/ini-file-viewer/
+
+<br/><br/>
+
+## Besseres Spectrum Dark Theme (Chrome Extension)
+![image](https://i.imgur.com/tpAHE8n.png)
+
+Ich habe den CSS-Code für die Star Citizen Spectrum- und RSI-Website überarbeitet, da mir das ursprüngliche Farbschema nicht gefallen hat. Das auffällige Blau der Website habe ich dezenter gestaltet. Die Avatare sind jetzt rund, die Schriftarten sind besser lesbar, und ich habe die gelbe Staff-Schriftfarbe sowie die Hintergrundgrafiken entfernt. 
+
+Insgesamt wirkt Spectrum nun viel aufgeräumter. Die Galerie wurde komplett überarbeitet und zeigt die Bilder jetzt nebeneinander statt untereinander, was viel Platz spart.<br/>
+
+### Download
+
+SpectrumDarkMode auf GitHub: https://github.com/rjcncpt/SpectrumDarkMode-Chrome-Extension/releases/
+
+SpectrumDarkMode im Chrome Web-Shop: https://chrome.google.com/webstore/detail/star-citizen-better-spect/omcmgcldeclkpakdccipdajcfddhcdkj
 
 <br/><br/>
 
@@ -32,7 +49,7 @@ Eine Suchfunktion, die es ermöglicht, den Text, den du als fehlerhaft empfindes
 
 Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher Start ein Update der aktuellen Übersetzungsdatei durchzuführen. Bevor du startest, musst du ein paar Schritte durchführen. Nach dem ini-Update startet der RSI-Launcher automatisch.
 
-#### So geht's
+### So geht's
 
 1. Lade dir die .bat Datei(en) herunter
 2. Speichere die Datei(en) in den Spielordner
@@ -44,7 +61,7 @@ Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher
 💡 Die `LIVE FULL Updater.bat` ist für die vollständige Übersetzung
 <br/>
 
-#### Das Icon ändern
+### Das Icon ändern
 
 1. Erstelle eine Verknüpfung der Datei(en)
 2. Klicke mit der rechten Maustaste auf die Datei(en) und wähle `Eigenschaften` aus
