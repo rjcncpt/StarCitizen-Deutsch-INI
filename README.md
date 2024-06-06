@@ -86,7 +86,7 @@ g_languageAudio = english
 
 ### Variante 3: Automatisches Übersetzungs-Update
 
-Um immer auf dem aktuellen Stand zu bleiben, kannst du die INI-Datei auch automatisch mit dem Launcher Start updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/updater)** welche Möglichkeiten du hast.
+Um immer auf dem aktuellen Stand zu bleiben, kannst du die INI-Datei auch automatisch mit dem Launcher Start updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/apps#automatisches-%C3%BCbersetzungsupdate-bat)** welche Möglichkeiten du hast.
 <br/><br/>
 
 ------------------------------------
