@@ -6,7 +6,7 @@ Auf dieser Seite listen wir eingens entwicklete und 3rd party Tools und Web-Apps
 ### Inhaltsverzeichnis
 
 - **[INI File Viewer (Web-App)](#ini-file-viewer)**
-- **[Automatisches Übersetzungsupdate (.bat Tool)](#automatisches-übersetzungsupdate)**
+- **[Automatisches Übersetzungsupdate (.bat Tool)](#automatisches-übersetzungsupdate-bat)**
 - **[SC Launch Conigurator (Tool)](#sc-launch-conigurator)**
 
 <br/><br/>
