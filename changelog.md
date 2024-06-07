@@ -2,9 +2,54 @@
 Aufgeführt werden ausschließlich die wöchentlichen Major Updates die jeden Freitag erscheinen. Kleinere Updates die aufgespielt werden, bei z.B. kritischen Übersetzungsfehlern, werden dann in der Major Updateliste aufgeführt.
 
 ### 3.23.1 LIVE.9179031
+**07.06.2024**
+
+Dieses wöchentliche Update beinhaltet Änderungen für beide Übersetzungsversionen. U.a. wurde ein Questtext und der dazugehörige Buttontext gefixt und für weitere Missionen Listenpunkte und Zeilenumbrüche hinzugefügt, um die Lesbarkeit zu verbessern.
+
+**Community Fixes:**
+- `Etage` -> `Ebene` (Aufzüge)
+- `Aufzugs-Standort` -> `Standort des Aufzugs`
+	- **Quest Fixes:**
+	- `Daten senden` -> `Daten absenden` (Aufforderung)
+	- `Abschließen` -> `Absenden` (Button)
+
+**Polishing**
+- `Auslagerungs-Abteilung` -> `Abteilung für externe Vertragspartner`
+- `Auslagerungsmanager` -> `Vertragsmanager`
+- `Privateigentum` -> `Privatgrundstück`
+- `Datapad` -> `Datenpad`
+- `Wurfgegenstände` -> `Wurfwaffen`
+- `Wurfobjekte` -> `Wurfwaffen`
+- `Verstaut` -> `Gelagert` (zB. Waffen)
+- `Lieferservice-Pilot` -> `Lieferpilot`
+- `Massenauswurf` -> `Massenausstoß` (Sonne)
+- `Nicht förderfähig` -> `Nicht berechtigt`
+- `Jr.` -> `Junior`
+- `Sr.` -> `Senior`
+- `Wurfobjekte` -> `Wurfwaffen`
+- `Schadenstyp` -> `Schadensart`
+- `RepStanding_` polishing
+- `ShipSelector_` polishing
+- `comms_` polishing
+- `ui_interactor_` polishing
+- `salvage_` polishing
+- `SolarFlareHazard_` polishing
+
+**Verkürzt bzgl. Platzmangel**
+- `Verarbeitungszentrum` -> `Fertigungszentrum`
+- `Verarbeitungsanlage` -> `Fertigungsanlage`
+- `Benötigter Treibstoff` -> `Kraftstoff`
+- `Ausgerichtet` -> `Synched` (in engl. Aligned)
+
+**Änderungen bzgl. Umlaute**
+- `Verbrauchgüter` -> `Verbrauchsmittel`
+
+--------------------------
+
+### 3.23.1 LIVE.9179031
 **31.05.2024**
 
-Dieses Update beinhaltet Änderungen für beide Übersetzungsversionen. U.a. haben wir für weitere Missionen Listenpunkte, Zeilenumbrüche und Trenner hinzugefügt, für eine bessere Lesbarkeit. 
+Dieses wöchentliche Update beinhaltet Änderungen für beide Übersetzungsversionen. U.a. haben wir für weitere Missionen Listenpunkte, Zeilenumbrüche und Trenner hinzugefügt, für eine bessere Lesbarkeit. 
 
 **Community Fixes:**
 - `Anwärter` -> `Auszubildender`
@@ -36,7 +81,7 @@ Dieses Update beinhaltet Änderungen für beide Übersetzungsversionen. U.a. hab
 ### 3.23.1 LIVE.9179031
 **24.05.2024**
 
-Dieses Update beinhaltet Änderungen für beide Übersetzungsversionen.
+Dieses wöchentliche Update beinhaltet Änderungen für beide Übersetzungsversionen.
 
 **Änderungen:**
 Texte gekürzt da sie zu lang für Radmenüs und UI-Elemente waren.
