@@ -13,19 +13,22 @@ Auf dieser Seite listen wir eingens entwicklete und 3rd party Tools und Web-Apps
 <br/><br/>
 
 ## INI File Viewer (Web-App)
-![image](https://i.imgur.com/1Pf5D0e.png)
+Eine Web-App, um bei der Suche nach fehlerhaften Texten zu unterstützen. Dabei wird die aktuelle global.ini-Datei aus dem `/live`-Verzeichnis unseres GitHub-Repositorys ausgelesen und alle Einträge untereinander dargestellt.
 
-Eine Web-App, um bei der Suche nach fehlerhaften Texten zu unterstützen. Dabei wird die aktuelle global.ini-Datei aus dem `/live`-Verzeichnis unseres GitHub-Repositorys ausgelesen und alle Einträge untereinander dargestellt.<br/>
+![image](https://i.imgur.com/IzEfJKU.png)
 
 ### Formatierung
-![image](https://i.imgur.com/Hh4yn6i.png)
 Wenn du auf die "Formatieren"-Checkbox klickst, werden alle Anfangsvariablen entfernt und alle `\n` werden durch Zeilenumbrüche ersetzt. So siehst du, wie der Text im Spiel dargestellt wird.
 
-### Suchfunktion
-Eine Suchfunktion, die es ermöglicht, den Text, den du als fehlerhaft empfindest, direkt zu suchen.
+![image](https://i.imgur.com/Hh4yn6i.png)
+
+### Filter- und Suchfunktion
+Eine Filter- und Suchfunktion, die es ermöglicht, den Text, den du als fehlerhaft empfindest, direkt zu suchen oder aus vorgegebenen Filtern direkt die Kategorie anzuspringen. Filter und Suche sind kombinierbar, so dass du deine Suche auf einen Filter begrenzen kannst.
+
+![image](https://i.imgur.com/vr8AGqA.png)
 
 ### Webseite
-Zur Web App: https://fwkart.de/apps/ini-file-viewer/
+Hier geht es zur App: https://fwkart.de/apps/ini-file-viewer/
 
 <br/><br/>
 
