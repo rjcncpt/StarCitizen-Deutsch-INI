@@ -27,13 +27,19 @@ Dieses wöchentliche Update beinhaltet Änderungen für beide Übersetzungsversi
 - `Jr.` -> `Junior`
 - `Sr.` -> `Senior`
 - `Wurfobjekte` -> `Wurfwaffen`
-- `Schadenstyp` -> `Schadensart`
+- `Hurston-Höhle` -> `Höhle auf Hurston`
+- `Daymar-Höhle` -> `Höhle auf Daymar`
+- `Aberdeen-Höhle` -> `Höhle auf Aberdeen`
+- `Finde ~mission(Location)-Nest` -> `Finde das Nest bei der ~mission(Location)`
 - `RepStanding_` polishing
 - `ShipSelector_` polishing
 - `comms_` polishing
 - `ui_interactor_` polishing
 - `salvage_` polishing
 - `SolarFlareHazard_` polishing
+
+**Fix**
+- `Huston Dynamics Showcase` -> `Hurston Dynamics Showcase`
 
 **Verkürzt bzgl. Platzmangel**
 - `Verarbeitungszentrum` -> `Fertigungszentrum`
