@@ -223,9 +223,13 @@ Diese Übersetzung ist komplett unabhängig und in erster Linie ein Community-Pr
 
 <br/>
 
-### Mehr von rjcncpt
+## Mehr von rjcncpt
 
-[![Better Spectrum Dark Mode](https://i.imgur.com/QqXnJJb.png)](https://github.com/rjcncpt/SpectrumDarkMode-Extension)
+| Dark Mode Extension für Spectrum | INI FILE VIEWER (Web app) |
+|:---------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
+|[![Better Spectrum Dark Mode](https://i.imgur.com/C0PoJHG.png)](https://github.com/rjcncpt/SpectrumDarkMode-Extension)|[![INI FILE VIEWER](https://i.imgur.com/rSvr8H1.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/README.md#ini-file-viewer-web-app)|
+
+ 
 
 <br/>
 
