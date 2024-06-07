@@ -5,10 +5,10 @@ Auf dieser Seite listen wir eingens entwicklete und 3rd party Tools und Web-Apps
 
 ### Inhaltsverzeichnis
 
-- **[INI File Viewer (Web-App)](#ini-file-viewer)**
+- **[INI File Viewer (Web-App)](#ini-file-viewer-web-app)**
 - **[Besseres Spectrum Dark Theme (Chrome Extension)](#besseres-spectrum-dark-theme-chrome-extension)**
 - **[Automatisches Übersetzungsupdate (.bat Tool)](#automatisches-übersetzungsupdate-bat)**
-- **[SC Launch Conigurator (Tool)](#sc-launch-conigurator)**
+- **[SC Launch Conigurator (Tool)](#sc-launch-configurator)**
 
 <br/><br/>
 
