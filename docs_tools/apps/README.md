@@ -40,7 +40,7 @@ Hier geht es zur App: [https://fwkart.de/apps/ini-file-viewer/](https://fwkart.d
 Erspare dir den Weg über GitHub um den neuesten Release der Übersetzung herunterzuladen. Eine Web-App mit der du ganz leicht den neuesten Build aus einem Dropdown-Menü auswählen und herunterladen kannst.<br/>
 
 ### Webseite
-Hier geht es zur App: [https://fwkart.de/apps/ini-file-viewer/](https://fwkart.de/apps/sc_release/)
+Hier geht es zur App: [https://fwkart.de/apps/sc_release/](https://fwkart.de/apps/sc_release/)
 
 --------------------------------------------------------
 <br/><br/>
