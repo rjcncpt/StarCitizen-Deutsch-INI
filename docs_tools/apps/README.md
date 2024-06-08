@@ -6,6 +6,7 @@ Auf dieser Seite listen wir eingens entwicklete und 3rd party Tools und Web-Apps
 ### Inhaltsverzeichnis
 
 - **[INI File Viewer (Web-App)](#ini-file-viewer-web-app)**
+- **[Sprachdatei Downloader (Web-App)](#sprachdatei-downloader-web-app)**
 - **[Besseres Spectrum Dark Theme (Chrome Extension)](#besseres-spectrum-dark-theme-chrome-extension)**
 - **[Automatisches Übersetzungsupdate (.bat Tool)](#automatisches-übersetzungsupdate-bat)**
 - **[SC Launch Conigurator (Tool)](#sc-launch-configurator)**
@@ -28,8 +29,20 @@ Eine Filter- und Suchfunktion, die es ermöglicht, den Text, den du als fehlerha
 ![image](https://i.imgur.com/vr8AGqA.png)
 
 ### Webseite
-Hier geht es zur App: https://fwkart.de/apps/ini-file-viewer/
+Hier geht es zur App: [https://fwkart.de/apps/ini-file-viewer/](https://fwkart.de/apps/ini-file-viewer/)
 
+--------------------------------------------------------
+<br/><br/>
+
+## Sprachdatei Downloader (Web-App)
+![image](https://i.imgur.com/dkuXC2W.png)
+
+Erspare dir den Weg über GitHub um den neuesten Release der Übersetzung herunterzuladen. Eine Web-App mit der du ganz leicht den neuesten Build aus einem Dropdown-Menü auswählen und herunterladen kannst.<br/>
+
+### Webseite
+Hier geht es zur App: [https://fwkart.de/apps/ini-file-viewer/](https://fwkart.de/apps/sc_release/)
+
+--------------------------------------------------------
 <br/><br/>
 
 ## Besseres Spectrum Dark Theme (Chrome Extension)
@@ -45,6 +58,7 @@ SpectrumDarkMode auf GitHub: https://github.com/rjcncpt/SpectrumDarkMode-Chrome-
 
 SpectrumDarkMode im Chrome Web-Shop: https://chrome.google.com/webstore/detail/star-citizen-better-spect/omcmgcldeclkpakdccipdajcfddhcdkj
 
+--------------------------------------------------------
 <br/><br/>
 
 ## Automatisches Übersetzungsupdate (.bat)
@@ -71,7 +85,9 @@ Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher
 3. Wähle `Anderes Symbol` ⇾ `Duchsuchen` und suche dir ein Icon aus
 
 Tipp: Verwende die Spiel-Icons. Navigiere zum Star Citizen Ordner, um das SC Icon zu verwenden, oder zum RSI Launcher, um das Launcher Icon zu verwenden.
-<br/><br/><br/><br/>
+
+--------------------------------------------------------
+<br/><br/>
 
 ## SC Launch Configurator
 ![image](https://www.luftwerft.com/images/sclc_en.png)
