@@ -74,6 +74,11 @@ g_language = german_(germany)
 g_languageAudio = english
 ```
 
+> #### Alternativer Download
+> Erspare dir den Weg über GitHub um den neuesten Release der Übersetzung herunterzuladen. Eine Web-App mit der du ganz leicht den neuesten Build aus einem Dropdown-Menü auswählen und herunterladen kannst. Speichere dir die Seite als Bookmark ab.
+>
+> Webseite: https://fwkart.de/apps/sc_release/
+
 <br/><br/>
 ### Variante 2: global.ini herunterladen
 1. **Öffne die global.ini für [LIVE](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini) oder [PTU](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/ptu/global.ini)**
@@ -84,9 +89,10 @@ g_languageAudio = english
 
 <br/><br/>
 
-### Variante 3: Automatisches Übersetzungs-Update
+### Variante 3: Automatisches Übersetzungs-Update (experimentell)
+Um immer auf dem aktuellen Stand zu bleiben, kannst du die INI-Datei auch automatisch mit dem Launcher Start updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/apps#automatisches-%C3%BCbersetzungsupdate-bat)** welche Möglichkeiten du hast.<br/>
 
-Um immer auf dem aktuellen Stand zu bleiben, kannst du die INI-Datei auch automatisch mit dem Launcher Start updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/apps#automatisches-%C3%BCbersetzungsupdate-bat)** welche Möglichkeiten du hast.
+💡 Nicht empfohlen. Es können bei der aktualisierung gelegentlich Fehler auftreten. GitHub hat API Rate Limits die manchmal den Download blockieren. Lade dir wöchentlich unsere Releases (stable) herunter.
 <br/><br/>
 
 ------------------------------------
