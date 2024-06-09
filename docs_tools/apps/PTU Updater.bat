@@ -2,7 +2,6 @@
 set "url=https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/ptu/global.ini"
 
 
-
 rem PFAD ZUR STAR CITIZEN INSTALLATION
 set "path2=C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\data\Localization\german_(germany)"
 
