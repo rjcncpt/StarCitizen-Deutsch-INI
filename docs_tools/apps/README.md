@@ -108,12 +108,12 @@ Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher
 
 #### Verfügbare Update-Dateien
 
-| Dateiname                | Beschreibung                                                                  | Hinweis                                                                             |
-|:-------------------------|:------------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
-| `LIVE Updater.bat`       | Diese Datei updatet nur die LIVE Übersetzung                                  | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind |
-| `PTU Updater.bat`        | Diese Datei updatet nur die PTU Übersetzung                                   | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind |
-| `LIVE FULL Updater.bat`  | Diese Datei updatet nur die vollständige LIVE Übersetzung                     | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind |
-| `INI Updater.bat`        | Diese Datei updatet sowohl die LIVE als auch die PTU Übersetzung gleichzeitig | Verwenden, wenn die LIVE und PTU Verzeichnise eigenständige Ordner sind             |
+| Dateiname                | Beschreibung                                                  | Hinweis                                                                                                                                     |
+|:-------------------------|:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
+| `INI Updater.bat`        | Diese Datei updatet die LIVE und PTU Übersetzung gleichzeitig | Verwenden, wenn die LIVE und PTU Verzeichnise eigenständige Ordner sind                                                                     |
+| `LIVE Updater.bat`       | Diese Datei updatet nur die LIVE Übersetzung                  | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
+| `PTU Updater.bat`        | Diese Datei updatet nur die PTU Übersetzung                   | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
+| `LIVE FULL Updater.bat`  | Diese Datei updatet nur die vollständige LIVE Übersetzung     | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
 
 ### So geht's
 
