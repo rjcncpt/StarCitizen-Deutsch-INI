@@ -9,9 +9,8 @@ Dieses wöchentliche Update beinhaltet Änderungen für beide Übersetzungsversi
 **Community Fixes:**
 - `Etage` -> `Ebene` (Aufzüge)
 - `Aufzugs-Standort` -> `Standort des Aufzugs`</br>
-	**Quest Fixes:**
-	- `Daten senden` -> `Daten absenden` (Aufforderung)
-	- `Abschließen` -> `Absenden` (Button)
+- Quest Fixes: `Daten senden` -> `Daten absenden` (Aufforderung)
+- Quest Fixes: `Abschließen` -> `Absenden` (Button)
 
 **Polishing**
 - `Auslagerungs-Abteilung` -> `Abteilung für externe Vertragspartner`
