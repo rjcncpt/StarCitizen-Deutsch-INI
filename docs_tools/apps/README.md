@@ -8,6 +8,7 @@ Auf dieser Seite listen wir eingens entwicklete und 3rd party Tools und Web-Apps
 - **[INI File Viewer (Web-App)](#ini-file-viewer-web-app)**
 - **[Sprachdatei Downloader (Web-App)](#sprachdatei-downloader-web-app)**
 - **[Besseres Spectrum Dark Theme (Chrome Extension)](#besseres-spectrum-dark-theme-chrome-extension)**
+- **[Symbolic Link vom LIVE Ordner erstellen](#symbolic-link-vom-live-ordner-erstellen)**
 - **[Automatisches Übersetzungsupdate (.bat Tool)](#automatisches-übersetzungsupdate-bat)**
 - **[SC Launch Conigurator (Tool)](#sc-launch-configurator)**
 
@@ -61,10 +62,58 @@ SpectrumDarkMode im Chrome Web-Shop: https://chrome.google.com/webstore/detail/s
 --------------------------------------------------------
 <br/><br/>
 
+## Symbolic Link vom LIVE Ordner erstellen
+![image](https://i.imgur.com/HrASh6V.png)
+
+Der ständige Download von vielen Gigabyte Daten, wenn man zwischen LIVE und PTU wechselt, ist unnötig. Erstelle mit einem winzigen Tool eine symbolische Verknüpfung des LIVE Verzeichnisses und spare dir Zeit. Ein "Symbolic Link" ist nichts anderes als eine Verknüpfung, funktioniert jedoch anders.
+
+### Symbolic Link für Ordner
+
+- Ein Symbolic Link für einen Ordner ist eine Verknüpfung zu einem Verzeichnis, die einen Pfad zu einem anderen Verzeichnis darstellt.
+- Symbolic Links können auf andere Laufwerke oder Netzwerkpfade verweisen.
+- Änderungen am Zielordner beeinflussen den Symbolic Link und umgekehrt.
+- Symbolic Links sind flexibler, da sie auf nicht existierende Pfade zeigen können.
+
+### So geht's
+
+1. Lade dir das Tool herunter: https://sourceforge.net/projects/symlink-creator/
+2. Öffne die `SymlinkCreator.exe`
+3. **Type of Link:** Wähle die Option `Directory Symbolic Link (/D)`
+4. **Destination (Link):** Wähle dein Zielverzeichnis. Zum Beispiel PTU
+5. **Source (Target):** Wähle das Quellverzeichnis. In diesem Fall LIVE
+6. Klicke auf **Create Link**
+
+<br/>Wenn du alles richtig gemacht hast und alle Verknüpfungen erstellt hast, die du brauchst, sollte es wie bei mir aussehen.
+
+![image](https://i.imgur.com/VAsoJBz.png)
+
+<br/>Jetzt brauchst du im RSI-Launcher nur noch die entsprechende Testumgebung auswählen und es werden immer nur die fehlenden Daten installiert, weil die Grundlage der symbolischen Verknüpfung der LIVE Ordner ist. Damit entfällt das Umbenennen oder Kopieren der Ordner.
+
+![image](https://i.imgur.com/cEVsdeS.png)
+
+<br/>
+
+> [!IMPORTANT]  
+> **Wenn du die Reihenfolge im Tool vertauschst, löschst du den LIVE Ordner. Also achte auf Quell- und Zielverzeichnis. Orientiere dich an meinem Screenshot.**
+
+
+
+--------------------------------------------------------
+<br/><br/>
+
 ## Automatisches Übersetzungsupdate (.bat)
 ![image](https://i.imgur.com/dbpGOEq.png)
 
-Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher Start ein Update der aktuellen Übersetzungsdatei durchzuführen. Bevor du startest, musst du ein paar Schritte durchführen. Nach dem ini-Update startet der RSI-Launcher automatisch.
+Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher Start ein Update der aktuellen Übersetzungsdatei durchzuführen. Bevor du startest, musst du ein paar Schritte durchführen. Nachdem das ini-Update durchgeführt wurde, startet der RSI-Launcher automatisch.
+
+#### Verfügbare Update-Dateien
+
+| Dateiname                | Beschreibung                                                                  | Hinweis                                                                             |
+|:-------------------------|:------------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
+| `LIVE Updater.bat`       | Diese Datei updatet nur die LIVE Übersetzung                                  | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind |
+| `PTU Updater.bat`        | Diese Datei updatet nur die PTU Übersetzung                                   | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind |
+| `LIVE FULL Updater.bat`  | Diese Datei updatet nur die vollständige LIVE Übersetzung                     | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind |
+| `INI Updater.bat`        | Diese Datei updatet sowohl die LIVE als auch die PTU Übersetzung gleichzeitig | Verwenden, wenn die LIVE und PTU Verzeichnise eigenständige Ordner sind             |
 
 ### So geht's
 
