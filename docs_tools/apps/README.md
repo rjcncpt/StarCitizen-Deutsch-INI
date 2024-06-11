@@ -33,7 +33,7 @@ Eine Filter- und Suchfunktion, die es ermöglicht, den Text, den du als fehlerha
 Hier geht es zur App: [https://fwkart.de/apps/ini-file-viewer/](https://fwkart.de/apps/ini-file-viewer/)
 
 --------------------------------------------------------
-<br/><br/>
+<br/><br/><br/><br/>
 
 ## Sprachdatei Downloader (Web-App)
 ![image](https://i.imgur.com/dkuXC2W.png)
@@ -44,7 +44,7 @@ Erspare dir den Weg über GitHub um den neuesten Release der Übersetzung herunt
 Hier geht es zur App: [https://fwkart.de/apps/sc_release/](https://fwkart.de/apps/sc_release/)
 
 --------------------------------------------------------
-<br/><br/>
+<br/><br/><br/><br/>
 
 ## Besseres Spectrum Dark Theme (Chrome Extension)
 ![image](https://i.imgur.com/tpAHE8n.png)
@@ -55,12 +55,11 @@ Insgesamt wirkt Spectrum nun viel aufgeräumter. Die Galerie wurde komplett übe
 
 ### Download
 
-SpectrumDarkMode auf GitHub: https://github.com/rjcncpt/SpectrumDarkMode-Chrome-Extension/releases/
-
-SpectrumDarkMode im Chrome Web-Shop: https://chrome.google.com/webstore/detail/star-citizen-better-spect/omcmgcldeclkpakdccipdajcfddhcdkj
+- [SpectrumDarkMode auf GitHub](https://github.com/rjcncpt/SpectrumDarkMode-Chrome-Extension/releases/)
+- [SpectrumDarkMode im Chrome Web-Shop](https://chrome.google.com/webstore/detail/star-citizen-better-spect/omcmgcldeclkpakdccipdajcfddhcdkj)
 
 --------------------------------------------------------
-<br/><br/>
+<br/><br/><br/><br/>
 
 ## Symbolic Link vom LIVE Ordner erstellen
 ![image](https://i.imgur.com/HrASh6V.png)
@@ -99,7 +98,7 @@ Der ständige Download von vielen Gigabyte Daten, wenn man zwischen LIVE und PTU
 
 
 --------------------------------------------------------
-<br/><br/>
+<br/><br/><br/><br/>
 
 ## Automatisches Übersetzungsupdate (.bat)
 ![image](https://i.imgur.com/dbpGOEq.png)
@@ -108,18 +107,18 @@ Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher
 
 #### Verfügbare Update-Dateien
 
-| Dateiname                | Beschreibung                                                  | Hinweis                                                                                                                                     |
-|:-------------------------|:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| `INI Updater.bat`        | Diese Datei updatet die LIVE und PTU Übersetzung gleichzeitig | Verwenden, wenn die LIVE und PTU Verzeichnise eigenständige Ordner sind                                                                     |
-| `LIVE Updater.bat`       | Diese Datei updatet nur die LIVE Übersetzung                  | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
-| `PTU Updater.bat`        | Diese Datei updatet nur die PTU Übersetzung                   | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
-| `LIVE FULL Updater.bat`  | Diese Datei updatet nur die vollständige LIVE Übersetzung     | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
+| Dateiname                | Download                                                                                                           | Beschreibung                                                  | Hinweis                                                                                                                                     |
+|:-------------------------|:-------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
+| `INI Updater.bat`        | [Download](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/INI%20Updater.bat)         | Diese Datei updatet die LIVE und PTU Übersetzung gleichzeitig | Verwenden, wenn die LIVE und PTU Verzeichnise eigenständige Ordner und KEINE Symbolic Link Ordner sind                                      |
+| `LIVE Updater.bat`       | [Download](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/LIVE%20Updater.bat)        | Diese Datei updatet nur die LIVE Übersetzung                  | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
+| `PTU Updater.bat`        | [Download](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/PTU%20Updater.bat)         | Diese Datei updatet nur die PTU Übersetzung                   | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
+| `LIVE FULL Updater.bat`  | [Download](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/LIVE%20FULL%20Updater.bat) | Diese Datei updatet nur die vollständige LIVE Übersetzung     | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
 
 ### So geht's
 
 1. Lade dir die .bat Datei(en) herunter
 2. Speichere die Datei(en) in den Spielordner
-3. Klicke mit der rechten Maustaste auf die Datei(en) und wähle `bearbeiten` aus
+3. Klicke mit der rechten Maustaste auf die Datei(en) und wähle `Bearbeiten` aus
 4. Passe den Pfad zum Star Citizen (1) Sprachdatei Ordner an
 5. Passe den Pfad zum RSI-Launcher (2) an
 6. Speichern <br/>
@@ -136,7 +135,7 @@ Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher
 Tipp: Verwende die Spiel-Icons. Navigiere zum Star Citizen Ordner, um das SC Icon zu verwenden, oder zum RSI Launcher, um das Launcher Icon zu verwenden.
 
 --------------------------------------------------------
-<br/><br/>
+<br/><br/><br/><br/>
 
 ## SC Launch Configurator
 ![image](https://www.luftwerft.com/images/sclc_en.png)
