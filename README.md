@@ -53,12 +53,10 @@ Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen M
 
 **Wir fahren aktuell einen wöchentlichen Release Zyklus, um die Anzahl der Releases zu reduzieren und die Übersicht zu verbessern. An jedem Freitag wird aus den Änderungen der Woche ein Release erstellt, der dann heruntergeladen werden kann.**
 
-[<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
-
 > [!IMPORTANT]  
 > **Um @-Darstellungsfehler zu vermeiden, aktualisiere regelmäßig die Übersetzungsdatei. Mit nahezu jedem Patch kommen neue Zeilen hinzu, die sonst im Spiel fehlen und als @-Fehler angezeigt werden.**
 
-<br/>
+[<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
 ### Variante 1: Download ZIP (Empfohlen)
 1. **Lade dir die neueste Übersetzung als ZIP-Datei herunter**<br/>
@@ -74,9 +72,8 @@ g_language = german_(germany)
 g_languageAudio = english
 ```
 
-> #### Alternativer Download
-> Erspare dir den Weg über GitHub um den neuesten Release der Übersetzung herunterzuladen. Eine Web-App mit der du ganz leicht den neuesten Build aus einem Dropdown-Menü auswählen und herunterladen kannst. Speichere dir die Seite als Bookmark ab.
->
+> [!TIP]  
+> **Erspare dir den Weg über GitHub, um den neuesten Release der Übersetzung herunterzuladen. Nutze unsere Web-App, bei der du auf den ersten Blick siehst, wann die Übersetzung zuletzt aktualisiert wurde. Du kannst ganz einfach den neuesten Build aus einem Dropdown-Menü auswählen und herunterladen. Speichere dir die Seite als Lesezeichen ab.**
 > Webseite: https://fwkart.de/apps/sc_release/
 
 <br/><br/>
@@ -92,7 +89,7 @@ g_languageAudio = english
 ### Variante 3: Automatisches Übersetzungs-Update (experimentell)
 Um immer auf dem aktuellen Stand zu bleiben, kannst du die INI-Datei auch automatisch mit dem Launcher Start updaten lassen. Erfahre **[auf dieser Seite](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/apps#automatisches-%C3%BCbersetzungsupdate-bat)** welche Möglichkeiten du hast.<br/>
 
-💡 Nicht empfohlen. Es können bei der aktualisierung gelegentlich Fehler auftreten. GitHub hat API Rate Limits die manchmal den Download blockieren. Lade dir wöchentlich unsere Releases (stable) herunter.
+💡 **Nicht empfohlen. Es können beim Versuch der aktualisierung Fehler auftreten. GitHub hat API Rate Limits die manchmal, auf Grund der hohen Zugriffe, den Download blockieren. Lade dir wöchentlich unsere **[stabilen Releases über die Web-App](https://fwkart.de/apps/sc_release/)** herunter.**
 <br/><br/>
 
 ------------------------------------
