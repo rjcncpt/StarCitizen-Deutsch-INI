@@ -1,5 +1,5 @@
-[![Static Badge](https://img.shields.io/badge/LIVE%203.23.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/PTU%203.23.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) <!-- [![Static Badge](https://img.shields.io/badge/VORBEREITUNG-%23f3ac04?style=for-the-badge&label=3.23.0%20)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases)--><br/>
-[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23f3ac04?style=for-the-badge&labelColor=232323&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Static Badge](https://img.shields.io/badge/25k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI)
+[![Static Badge](https://img.shields.io/badge/LIVE%203.23.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/PTU%203.23.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/TECH%20PREVIEW-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/!-%23ff9800?style=for-the-badge&labelColor=red%20)](#) [![Static Badge](https://img.shields.io/badge/EVOCATI-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=red%20)](#) <br/>
+[![Static Badge](https://img.shields.io/badge/Work%20In%20Process-%23fff?style=for-the-badge&labelColor=232323&label=ini)](#) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Static Badge](https://img.shields.io/badge/25k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI)
 
 [![Star Citizen in Deutsch](https://i.imgur.com/WAP6UNa.png)](#)
 
@@ -15,7 +15,7 @@ Hilf gern dabei, diese Übersetzung besser zu machen und **[tritt unserem öffen
 
 - **[Anleitung zur Installation](#anleitung-zur-installation)**
 - **[Wie aktuell ist die deutsche Übersetzung?](#wie-aktuell-ist-die-deutsche-übersetzung)**
-- **[Evocati Builds & Preview Channels](#evocati-builds-und-preview-channels)**
+- **[Evocati Builds & Preview Channels](#evocati-builds-und-tech-preview-channels)**
 - **[Das Team](#das-team)**
 - **[Fragen und Antworten](#fragen-und-antworten)**
 - **[Mehr von rjcncpt](#mehr-von-rjcncpt)**
@@ -94,9 +94,13 @@ Zum aktuellen Zeitpunkt ist die deutsche Übersetzung tagesaktuell, allerdings m
 💡 **Es kommt häufig vor, dass eine neue Spielversion veröffentlich aber hier kein Update hochgeladen wurde. In diesem Fall gab es keine Veränderungen an der ursprünglichen global.ini Sprachdatei.**
 <br/><br/><br/><br/>
 
-## Evocati Builds und Preview Channels
+## Evocati Builds und Tech-Preview Channels
 
-Preview-Channel werden von uns nicht unterstützt. Damit du an den Tests in englischer Sprache problemlos teilhaben kannst, füge in der **`user.cfg`** Datei ein **`;`** vor die Zeile **`g_language = german_(germany)`** hinzu. Du kannst selbstverständlich auch die aktuellste deutsche Übersetzung ausprobieren. Sei dir aber bewusst, dass es zu Darstellungsfehler kommen kann!<br/><br/>
+Preview-Channel werden von uns nicht direkt unterstützt. Du kannst natürlich unsere Sprachdatei in den Tech-Preview Ordner kopieren und ausprobieren. Sei dir aber bewusst, dass es zu Darstellungsfehler kommen kann! Generell empfehlen wir jedoch die Sprachdatei zu deaktivieren. Öffne die **`user.cfg`** Datei und füge ein **Semikolon (`;`)** vor die Zeile **`g_language = german_(germany)`** hinzu.<br/>
+```
+;g_language = german_(germany)
+```
+<br/>
 
 Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen die sich in den Evocati Builds befinden, erst mit dem Start von PTU Wave 1 zu veröffentlichen. Dieser Ansatz ist eine Anerkennung gegenüber CIG und respektiert die NDA vollumfänglich. Natürlich möchten wir auch vermeiden, unnötige Spoiler und Leaks preiszugeben.
 <br/><br/>
