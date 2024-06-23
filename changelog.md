@@ -2,6 +2,32 @@
 Aufgeführt werden ausschließlich die wöchentlichen Major Updates die jeden Freitag erscheinen. Kleinere Updates die aufgespielt werden, bei z.B. kritischen Übersetzungsfehlern, werden dann in der Major Updateliste aufgeführt.
 
 ### 3.23.1a LIVE/PTU.9204897
+**21.06.2024**
+
+Dieses wöchentliche Update ist für die LIVE und PTU Server und beinhaltet Änderungen für beide Übersetzungsversionen. U.a. das Layout weiterer Missionen umgestaltet.
+
+**Polishing**
+- `Beam` -> `Strahl` (vereinheitlicht)
+- `Trägerlänge` -> `Strahllänge`
+- `3rd Person` -> `3. Person`
+- `Durchquerungsmodus` -> `Querungsmodus`
+- `Quantenreise` -> `Quantumflug`  (vereinheitlicht)
+- `Raffinerieanlage` -> `Raffinerie Anlage` (Führte zu falsch dargestellten Text)
+- `das Wrack auf ...` -> `Absturzstelle auf ...` (Artikel entfernt und vereinheitlicht da überall Absturzstelle [Wreck Site] verwendet wird. Und entsprechend die Missionstexte umgeschrieben. (der, die, das Problem))
+- Missionstexte im wording angepasst
+- Allgemeines polishing, Schreibfehler
+
+**Polishing (nur für vollständige Übersetzung)**
+- `Quantum Drive` -> `Quantum-Antrieb`
+- Ort: `Maker's Point` -> `Maker's Spitze`
+- Ort: `Astor's Clearing` -> `Astor's Lichtung`
+- Ort: `Moreland Hills` -> `Moreland Hügel`
+- `Covalex Vertriebszentrum` -> `Covalex Verteilzentrum`
+- Mission Keys korrigiert
+
+--------------------------
+
+### 3.23.1a LIVE/PTU.9204897
 **14.06.2024**
 
 Dieses wöchentliche Update ist für die LIVE und PTU Server und beinhaltet Änderungen für beide Übersetzungsversionen. U.a. das Layout weiterer Missionen (Söldner, Forschung, Lieferungen) umgestaltet.
