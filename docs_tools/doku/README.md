@@ -20,7 +20,7 @@ Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen M
 <br/><br/>
 
 ### Texte für Liefermissionen<br/>
-Das Problem bei Missionstexten sind häufig die Ortsangaben und deren vorangestellte deutsche Artikel und Präpositionen. Deshalb haben wir uns dafür entschieden, diese durch ein **`->`** zu ersetzen. Ebenso haben wir ein paar mehr Zeilenumbrüche hinzugefügt um den Text aufzulockern und besser lesbar zu gestalten.
+Das Problem bei Missionstexten sind häufig die Ortsangaben und deren vorangestellte deutsche Artikel und Präpositionen. Deshalb haben wir uns dafür entschieden, diese durch ein **`->`** zu ersetzen. Vor jeder Aufgabe ersetzen wir die von CIG verwendeten Bindestriche oder Sternchen durch **`•`** und wir fügen ein paar mehr Zeilenumbrüche hinzu, um den Text aufzulockern und besser lesbar zu gestalten.
 
 <img src="https://i.imgur.com/p2gUJ5O.png" width="500"> <img src="https://i.imgur.com/UywcE1C.png" width="500"> <img src="https://i.imgur.com/CQvYAFF.png" width="500"> <img src="https://i.imgur.com/4vJ6hwe.png" width="500">
 
