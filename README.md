@@ -53,7 +53,7 @@ Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen M
 [<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
 > [!IMPORTANT]  
-> **Um @-Darstellungsfehler zu vermeiden, aktualisiere regelmäßig die Übersetzungsdatei. Mit nahezu jedem Patch kommen neue Zeilen hinzu, die sonst im Spiel fehlen und als @-Fehler angezeigt werden.**
+> **Um @-Darstellungsfehler zu vermeiden, aktualisiere regelmäßig (wöchentlich) die Übersetzungsdatei. Wir optimieren regelmäßig unsere Übersetzung (durch Community Reports, Stream Beobachtungen etc.) und steigern ständig die Qualität. Außerdem kommen mit nahezu jedem Patch neue Zeilen hinzu, die Dir sonst im Spiel fehlen und als @-Fehler angezeigt werden.**
 
 <br/>
 
