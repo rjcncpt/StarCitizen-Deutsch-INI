@@ -2,6 +2,29 @@
 Aufgeführt werden ausschließlich die wöchentlichen Major Updates die jeden Freitag erscheinen. Kleinere Updates die aufgespielt werden, bei z.B. kritischen Übersetzungsfehlern, werden dann in der Major Updateliste aufgeführt.
 
 ### 3.23.1a LIVE/PTU.9204897
+**28.06.2024**
+
+Dieses wöchentliche Update ist für die LIVE Server und beinhaltet Änderungen für beide Übersetzungsversionen.
+
+**Polishing**
+- Umbruchfehler: `nn\` -> `\n`
+- Punkte entfernt bei texten die allein stehen
+- Teilweise anderes Wort für Transit
+- `Schalte %ls Kopfgeldjäger aus` -> `Kopfgeldjäger ausschalten: %ls`
+- `Manövrierdüse Retro` -> `Rückwärtsdüse`
+- `Retrodüse` -> `Rückwärtsdüse`
+- `Retro-Schubdüsen` -> `Rückwärtsdüse`
+- `Gelenk-Schubdüse` -> `Gelenkdüse`
+- `AA` -> `Luftabwehr`
+- `Flugabwehr` -> `Luftabwehr` (damit es Einheitlich ist)
+- `Geschütztürme` -> `Türme`
+- `Synched` -> `Justiert`
+- `Ausrichtung` -> `Justieren`
+- Allgemeines polishing
+
+--------------------------
+
+### 3.23.1a LIVE/PTU.9204897
 **21.06.2024**
 
 Dieses wöchentliche Update ist für die LIVE und PTU Server und beinhaltet Änderungen für beide Übersetzungsversionen. U.a. das Layout weiterer Missionen umgestaltet.
