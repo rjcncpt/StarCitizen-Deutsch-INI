@@ -13,9 +13,9 @@ Auf dieser Seite dokumentieren wir einige besondere Merkmale unserer deutschen S
 ## Wir interpretieren Missionstexte neu
 ![image](https://i.imgur.com/OLdZcaa.png)
 
-Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys kompliziert aufgebaut. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen resultiert.
+Besonders bei Liefermissionen treten oft Probleme mit Artikeln (der, die, das) und Präpositionen (von, bis, nach) auf, was in einer direkten 1:1-Übersetzung zu holprigen Formulierungen führt. Missionstexte sind häufig durch komplexe Verzweigungen und den Einsatz von Schlüsselwörtern (Keys) kompliziert gestaltet. Um diese Herausforderungen zu meistern, haben wir zahlreiche Missionstexte sorgfältig analysiert und einige davon eigenständig überarbeitet. Dabei haben wir ein eigenes Layout entwickelt, das die Lesbarkeit erheblich vereinfacht und ein angenehmeres Spielerlebnis bietet.
 
-Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet und ein eigenständiges Layout erschaffen, um die Lesbarbeit zu vereinfachen.
+Nachfolgend ein paar Beispiele unserer Missionstexte:
 
 <br/><br/>
 
@@ -39,16 +39,16 @@ An wenigen Stellen (zum Beispiel im Menü) finden wir @-Variablen, die noch nich
 <br/><br/>
 
 Dokumentation befindet sich in Arbeit...
-<br/><br/>
 
-<br/><br/>
-Salut and stay tuned!
+<br/>
 
-[![Made by the Community](https://i.imgur.com/2RWyGPJ.png)](#)
+------------------------------------
 
-<br/><br/><br/><br/>
--------<br/>
-**Urheberrecht und CC-Lizenz**<br/>
-Das gesamte GitHub-Repository sowie individuelle Texte in den global.ini-Dateien, die sich erheblich in ihrer Schöpfungshöhe vom Original abheben, sind urheberrechtlich geschützt und unterliegen der freien [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) Lizenz. Dies bedeutet, dass Sie die Inhalte für nicht-kommerzielle Zwecke nutzen, bearbeiten und weiterverbreiten dürfen, solange Sie die Urheberschaft angeben und die gleiche Lizenz für Ihre Weiterbearbeitungen verwenden.
+<br/>
+
+### Urheberrecht
+**Das gesamte GitHub-Repository sowie individuelle Texte in den global.ini-Dateien, die sich erheblich in ihrer Schöpfungshöhe vom Original abheben, sind urheberrechtlich geschützt und unterliegen der freien [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) Lizenz. Dies bedeutet, dass Sie die Inhalte für nicht-kommerzielle Zwecke nutzen, bearbeiten und weiterverbreiten dürfen, solange Sie die Urheberschaft angeben und die gleiche Lizenz für Ihre Weiterbearbeitungen verwenden.**
 <br/><br/>
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_NC_SA_4.0-lightgrey.svg?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+[![Made by the Community](https://i.imgur.com/2RWyGPJ.png)](#)
