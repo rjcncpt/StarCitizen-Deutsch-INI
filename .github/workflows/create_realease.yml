@@ -76,7 +76,7 @@ jobs:
       - name: Create Release Title For PTU
         id: title_ptu # creates a title for the release that shows the version number used in the title of the last commit that changed the ptu/global.ini
         if: steps.new_commits_ptu.outputs.NEW_COMMIT_COUNT_PTU > 0
-#        run: echo "RELEASE_TITLE_PTU=$(cat 'en/ptu/build.ptu')" >> $GITHUB_OUTPUT
+#        run: echo "RELEASE_TITLE_PTU=$(cat '.github/en/ptu/build.ptu')" >> $GITHUB_OUTPUT
         run: |
           if [$(git log -1 --pretty=%s -- ptu/global.ini | grep "|") == ""]
           then
@@ -88,7 +88,7 @@ jobs:
       - name: Create Release Title For LIVE
         id: title_live # creates a title for the release that shows the version number used in the title of the last commit that changed the live/global.ini
         if: steps.new_commits_live.outputs.NEW_COMMIT_COUNT_LIVE > 0
-#        run: echo "RELEASE_TITLE_LIVE=$(cat 'en/live/build.live')" >> $GITHUB_OUTPUT
+#        run: echo "RELEASE_TITLE_LIVE=$(cat '.github/en/live/build.live')" >> $GITHUB_OUTPUT
         run: |
           if [$(git log -1 --pretty=%s -- live/global.ini | grep "|") == ""]
           then
