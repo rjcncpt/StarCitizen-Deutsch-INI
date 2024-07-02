@@ -232,20 +232,15 @@ Diese Übersetzung ist komplett unabhängig und in erster Linie ein Community-Pr
 |:---------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
 |[![Better Spectrum Dark Mode](https://i.imgur.com/C0PoJHG.png)](https://github.com/rjcncpt/SpectrumDarkMode-Extension)|[![INI FILE VIEWER](https://i.imgur.com/rSvr8H1.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/README.md#ini-file-viewer-web-app)|
 
- 
-
 <br/>
 
 ------------------------------------
 
 <br/>
-Salut and stay tuned!
 
-[![Made by the Community](https://i.imgur.com/2RWyGPJ.png)](#)
-
-<br/><br/><br/><br/>
--------<br/>
-**Urheberrecht und CC-Lizenz**<br/>
-Das gesamte GitHub-Repository sowie individuelle Texte in den global.ini-Dateien, die sich erheblich in ihrer Schöpfungshöhe vom Original abheben, sind urheberrechtlich geschützt und unterliegen der freien [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) Lizenz. Dies bedeutet, dass Sie die Inhalte für nicht-kommerzielle Zwecke nutzen, bearbeiten und weiterverbreiten dürfen, solange Sie die Urheberschaft angeben und die gleiche Lizenz für Ihre Weiterbearbeitungen verwenden.
+### Urheberrecht
+**Das gesamte GitHub-Repository sowie individuelle Texte in den global.ini-Dateien, die sich erheblich in ihrer Schöpfungshöhe vom Original abheben, sind urheberrechtlich geschützt und unterliegen der freien [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) Lizenz. Dies bedeutet, dass Sie die Inhalte für nicht-kommerzielle Zwecke nutzen, bearbeiten und weiterverbreiten dürfen, solange Sie die Urheberschaft angeben und die gleiche Lizenz für Ihre Weiterbearbeitungen verwenden.**
 <br/><br/>
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_NC_SA_4.0-lightgrey.svg?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+[![Made by the Community](https://i.imgur.com/2RWyGPJ.png)](#)
