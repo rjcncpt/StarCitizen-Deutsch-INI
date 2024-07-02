@@ -1,5 +1,6 @@
 /.idea
 *.bak
+*.psd
 /venv
 /scripts/unp4k/
 /scripts/global.ini
