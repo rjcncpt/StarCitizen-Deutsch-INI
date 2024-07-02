@@ -20,9 +20,9 @@ def get_type(file):
     return chardet.detect(raw)
 
 
-file_eng_live = "en/live/global.ini"
+file_eng_live = ".github/en/live/global.ini"
 file_deu_live = "live/global.ini"
-file_eng_ptu = "en/ptu/global.ini"
+file_eng_ptu = ".github/en/ptu/global.ini"
 file_deu_ptu = "ptu/global.ini"
 
 type_eng_live = get_type(file_eng_live)
