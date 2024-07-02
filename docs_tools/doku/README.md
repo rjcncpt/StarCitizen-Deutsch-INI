@@ -26,7 +26,9 @@ Das Problem bei Missionstexten sind häufig die Ortsangaben und deren vorangeste
 
 <br/><br/>
 
-### Weitere Missionstexte<br/>
+### Weitere Missionstexte
+![image](https://i.imgur.com/vf0Ye1N.png)
+
 Auch in anderen Missionen haben wir Listen, Trennlinien und weitere Zeilenumbrüche hinzugefügt, um den Text besser lesbar zu gestalten.
 
 <img src="https://i.imgur.com/MwVW6gh.png" width="500"> <img src="https://i.imgur.com/vatOtI0.png" width="500"> <img src="https://i.imgur.com/W9KzJcY.png" width="500">
