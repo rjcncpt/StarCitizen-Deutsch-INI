@@ -15,7 +15,7 @@ Hilf gern dabei, diese Übersetzung besser zu machen und **[tritt unserem öffen
 
 - **[Anleitung zur Installation](#anleitung-zur-installation)**
 - **[Wie aktuell ist die deutsche Übersetzung?](#wie-aktuell-ist-die-deutsche-übersetzung)**
-- **[Evocati Builds & Preview Channels](#evocati-builds-und-tech-preview-channels)**
+- **[Tech-Preview Channels und Evocati Builds](#tech-preview-channels-und-evocati-builds)**
 - **[Das Team](#das-team)**
 - **[Fragen und Antworten](#fragen-und-antworten)**
 - **[Mehr von rjcncpt](#mehr-von-rjcncpt)**
@@ -98,7 +98,7 @@ Zum aktuellen Zeitpunkt ist die deutsche Übersetzung tagesaktuell. In der Regel
 💡 **Es kommt häufig vor, dass eine neue Spielversion veröffentlicht wird aber hier kein Update hochgeladen wurde. In diesem Fall gab es keine Veränderungen an der ursprünglichen global.ini Sprachdatei.**
 <br/><br/><br/><br/>
 
-## Evocati Builds und Tech-Preview Channels
+## Tech-Preview Channels und Evocati Builds
 
 Preview-Channel werden von uns nicht direkt unterstützt. Du kannst natürlich unsere Sprachdatei in den Tech-Preview Ordner kopieren und ausprobieren. Sei dir aber bewusst, dass es zu Darstellungsfehler kommen kann! Generell empfehlen wir jedoch die Sprachdatei zu deaktivieren. Öffne die **`user.cfg`** Datei und füge ein **Semikolon (`;`)** vor die Zeile **`g_language = german_(germany)`** hinzu.<br/>
 ```
