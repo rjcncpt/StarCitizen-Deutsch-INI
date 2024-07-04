@@ -23,7 +23,7 @@ Hilf gern dabei, diese Übersetzung besser zu machen und **[tritt unserem öffen
 
 ## Über diese Übersetzung
 
-![image](https://i.imgur.com/0sW5TPo.png)
+![Star Citizen Deutsch Hauptmenü](https://i.imgur.com/0sW5TPo.png)
 
 Wir bieten zwei Versionen unserer Sprachdatei an: eine Standardversion und eine vollständige Übersetzung. Die Standardversion sorgt dafür, dass Eigennamen, Missionstitel und Items nicht übersetzt werden. Diese Version gewährleistet Konsistenz beim Spielen mit internationalen Mitspielern und erhält die Kompatibilität mit dem Issue Council auf der RSI-Webseite. Zudem unterstützen wir damit Drittanbieter-Webseiten, Item-Datenbanken sowie Video- und Texttutorials.
 
