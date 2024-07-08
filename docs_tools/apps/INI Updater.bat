@@ -1,10 +1,10 @@
 @echo off
 
-rem URLs für die INI-Dateien
+rem URLs für die INI-Dateien (LIVE und PTU)
 set "url1=https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/ptu/global.ini"
 set "url2=https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/global.ini"
 
-rem PFAD ZUR STAR CITIZEN INSTALLATION
+rem PFAD ZUR STAR CITIZEN INSTALLATION (LIVE und PTU)
 set "path1=C:\Program Files\Roberts Space Industries\StarCitizen\PTU\data\Localization\german_(germany)"
 set "path2=C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\data\Localization\german_(germany)"
 
