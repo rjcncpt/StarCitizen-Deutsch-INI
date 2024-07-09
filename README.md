@@ -1,5 +1,5 @@
 [![Static Badge](https://img.shields.io/badge/LIVE%203.23.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/PTU%203.23.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/TECH%20PREVIEW-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/!-%23ff9800?style=for-the-badge&labelColor=red%20)](#evocati-builds-und-tech-preview-channels) [![Static Badge](https://img.shields.io/badge/EVOCATI-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=red%20)](#evocati-builds-und-tech-preview-channels) <br/>
-[![Static Badge](https://img.shields.io/badge/Team%20Unterstützen-%23fff?style=for-the-badge&labelColor=232323&label=Support)](https://fwkart.de/apps/support/) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Static Badge](https://img.shields.io/badge/26k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI)
+[![Static Badge](https://img.shields.io/badge/Sag%20Danke-%23fff?style=for-the-badge&labelColor=232323&label=Support)](https://fwkart.de/apps/support/) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Static Badge](https://img.shields.io/badge/26k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI)
 
 [![Star Citizen in Deutsch](https://i.imgur.com/WAP6UNa.png)](#)
 
@@ -39,7 +39,7 @@ Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen M
 
 <br/>
 
-[![Static Badge](https://img.shields.io/badge/Das%20Team%20Unterstützen-%23fff?style=for-the-badge&labelColor=232323&label=Support)](https://fwkart.de/apps/support/)
+[![Static Badge](https://img.shields.io/badge/Sag%20Danke-%23fff?style=for-the-badge&labelColor=232323&label=Support)](https://fwkart.de/apps/support/)
 <br/><br/>
 
 ------------------------------------
