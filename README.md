@@ -16,7 +16,7 @@ Hilf gern dabei, diese Übersetzung besser zu machen und **[tritt unserem öffen
 - **[Anleitung zur Installation](#anleitung-zur-installation)**
 - **[Wie aktuell ist die deutsche Übersetzung?](#wie-aktuell-ist-die-deutsche-übersetzung)**
 - **[Tech-Preview Channels und Evocati Builds](#tech-preview-channels-und-evocati-builds)**
-- **[Das Team](#das-team)**
+- **[Das Team](#das-team) / [Danksagungen](#danksagungen)**
 - **[Fragen und Antworten](#fragen-und-antworten)**
 - **[Mehr von rjcncpt](#mehr-von-rjcncpt)**
   <br/><br/><br/>
@@ -115,19 +115,19 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 
 ## Das Team
 
-| Team Name                                                                          | Position              | Aufgaben                                   |
-|:-----------------------------------------------------------------------------------|:----------------------|:-------------------------------------------|
-| [rjcncpt/PYRO](https://fwkart.de/star-citizen-free-fly-kostenlos-testen-spielen/)  | `Ansprechparter`      | Übersetzungen, GitHub                      |
-| [MaxM1211](https://github.com/MaxM1211)                                            | `GitHub & Übersetzer` | Übersetzungen, GitHub, Dev & Bugfixing     |
-| [greluc](https://github.com/greluc)                                                | `GitHub & Übersetzer` | Übersetzungen, GitHub, Dev & Bugfixing     |
-| [Norinofu](https://github.com/Norinofu)                                            | `GitHub & Übersetzer` | GitHub, Übersetzer                         |
-| [Drakonhawk](https://github.com/Drakonhawk)                                        | `GitHub & Übersetzer` | GitHub, Übersetzer                         |
-| Boy7                                                                               | `Software Dev`        | Erstellung von Software                    |
-| Hikaruhoshi1                                                                       | `Übersetzer`          | Übersetzungen                              |
-| electron0                                                                          | `Dev & Bugfixing`     | GitHub, Dev & Bugfixing                    |
-| APROVES                                                                            | `Übersetzer`          | Übersetzungen                              |
-| Asaya87                                                                            | `Discord Management`  | Übersetzungen & Discord Admin              |
-| Fabi 18                                                                            | `Discord Management`  | Discord Admin                              |
+| Team Name                                                                          | Position              | Aufgaben                               |
+|:-----------------------------------------------------------------------------------|:----------------------|:---------------------------------------|
+| [rjcncpt/PYRO](https://fwkart.de/star-citizen-free-fly-kostenlos-testen-spielen/)  | `Ansprechparter`      | Übersetzungen, GitHub                  |
+| [MaxM1211](https://github.com/MaxM1211)                                            | `GitHub & Übersetzer` | Übersetzungen, GitHub, Dev & Bugfixing |
+| [greluc](https://github.com/greluc)                                                | `GitHub & Übersetzer` | Übersetzungen, GitHub, Dev & Bugfixing |
+| [Norinofu](https://github.com/Norinofu)                                            | `GitHub & Übersetzer` | GitHub, Übersetzer                     |
+| [Drakonhawk](https://github.com/Drakonhawk)                                        | `GitHub & Übersetzer` | GitHub, Übersetzer                     |
+| Boy7                                                                               | `Software Dev`        | Software                               |
+| Hikaruhoshi1                                                                       | `Übersetzer`          | Übersetzungen                          |
+| electron0                                                                          | `Dev & Bugfixing`     | GitHub, Dev & Bugfixing                |
+| APROVES                                                                            | `Übersetzer`          | Übersetzungen                          |
+| Asaya87                                                                            | `Discord Management`  | Übersetzungen & Discord Admin          |
+| Fabi 18                                                                            | `Discord Management`  | Discord Admin                          |
 
 <br/>
 
@@ -140,14 +140,15 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 | NICDUS              | Danke für das Tutorial und die Vorstellung der Übersetzung - **[YouTube](https://www.youtube.com/watch?v=5xuSRI0SlbE)**     |
 | Gaming mit Handicap | Danke für das Tutorial und die Vorstellung der Übersetzung - **[YouTube](https://www.youtube.com/watch?v=hT48OxNr_cA)**     |
 | Tiicrown            | Unterstützt unsere Übersetzung im Stream - **[Twitch](https://www.twitch.tv/tiicrown)**                                     |
-| SpielerBlau         | Unterstützt unsere Übersetzung und modifiziert diese etwas auf seine Orga - **[Twitch](https://www.twitch.tv/spielerblau)** |
-| GameStar            | Erwähnt bei **[gamestar.de](https://www.gamestar.de/videos/star-citizen-das-sind-die-naechsten-schritte-auf-dem-weg-zu-version-10,130460.html)** und **[GameStar Youtube](https://www.youtube.com/watch?v=B-rOJOlDLm8)**                               |
+| SpielerBlau         | Unterstützt unsere Übersetzung und modifiziert diese auf seine Orga - **[Twitch](https://www.twitch.tv/spielerblau)**       |
+| GameStar            | Erwähnt bei **[gamestar.de](https://www.gamestar.de/videos/star-citizen-das-sind-die-naechsten-schritte-auf-dem-weg-zu-version-10,130460.html)** und **[GameStar Youtube](https://www.youtube.com/watch?v=B-rOJOlDLm8)** |
 | FlatMoki            | Unterstützt unsere Übersetzung im Stream - **[Twitch](https://www.twitch.tv/flatmoki)**                                     |
 | vanHAYDEN           | Danke für das Tutorial und die Vorstellung der Übersetzung - **[YouTube](https://www.youtube.com/watch?v=i6g_vLioBeU)**     |
 | Atropin_            | Unterstützt unsere Übersetzung im Stream - **[Twitch](https://www.twitch.tv/atropin)**                                      |
-| limitloot.de        | Danke für die Installationsanleitung - **[Website](https://limitloot.de/star-citizen/guides/so-laesst-sich-star-citizen-auf-deutsch-spielen)**                                     |
+| limitloot.de        | Danke für die Installationsanleitung - **[Website](https://limitloot.de/star-citizen/guides/so-laesst-sich-star-citizen-auf-deutsch-spielen)** |
+| Twitch Streamer     | [DerMaj0](https://www.twitch.tv/DerMaj0), [Seeebie90](https://www.twitch.tv/Seeebie90), [Palbig](https://www.twitch.tv/Palbig), [MrPaperBag465](https://www.twitch.tv/MrPaperBag465), [X_one_SGE](https://www.twitch.tv/X_one_SGE), [plattfussjo](https://www.twitch.tv/plattfussjo), [ic3crown](https://www.twitch.tv/ic3crown), [sick_workz](https://www.twitch.tv/sick_workz), [lartaxis](https://www.twitch.tv/lartaxis), [flatmoki](https://www.twitch.tv/flatmoki), [markesz_tv](https://www.twitch.tv/markesz_tv), [tiicrown](https://www.twitch.tv/tiicrown), [atropin_](https://www.twitch.tv/atropin_), [knebeltv](https://www.twitch.tv/knebeltv), [cpttoastey](https://www.twitch.tv/cpttoastey), [holyd3vil](https://www.twitch.tv/holyd3vil), [its_kenny_](https://www.twitch.tv/its_kenny_), [pandemik_su](https://www.twitch.tv/pandemik_su), [meska1985](https://www.twitch.tv/meska1985), [gonpoly](https://www.twitch.tv/gonpoly), [toryen](https://www.twitch.tv/toryen), [mrgodofhell](https://www.twitch.tv/mrgodofhell), [opa_ration_de](https://www.twitch.tv/opa_ration_de), [bloue_de](https://www.twitch.tv/bloue_de), [strawberrywolftv](https://www.twitch.tv/strawberrywolftv), [xmarcusx1283](https://www.twitch.tv/xmarcusx1283), [beardscope](https://www.twitch.tv/beardscope), [jonnyrabenschwarz](https://www.twitch.tv/jonnyrabenschwarz), [omozzo](https://www.twitch.tv/omozzo), [phiomet](https://www.twitch.tv/phiomet), [drakkarim_as_](https://www.twitch.tv/drakkarim_as_), [primellotv](https://www.twitch.tv/primellotv), [spielerblau](https://www.twitch.tv/spielerblau) |
 
-> Wenn wir feststellen, dass unsere Übersetzungen in Streams oder Videos verwendet werden oder ein besonderer Dank angebracht ist, fügen wir dieser Liste gerne weitere Quellen hinzu. Der Neutralität wegen geschieht die Auswahl völlig zufällig und nicht auf Anfrage. Vielen Dank für all die tolle Unterstützung!
+> Vielen Dank an die zahlreichen Content Creators und Streamer die dieses Projekt unterstützen. Wenn wir feststellen, dass unsere Übersetzungen in Streams oder Videos verwendet werden oder ein besonderer Dank angebracht ist, fügen wir dieser Liste gerne weitere Quellen hinzu. Der Neutralität wegen geschieht die Auswahl völlig zufällig und nicht auf Anfrage. Vielen Dank für all die tolle Unterstützung!
 
 <br/>
 
