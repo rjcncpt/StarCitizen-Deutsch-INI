@@ -25,9 +25,9 @@ Hilf gern dabei, diese Übersetzung besser zu machen und **[tritt unserem öffen
 
 ![Star Citizen Deutsch Hauptmenü](https://i.imgur.com/0sW5TPo.png)
 
-Wir bieten zwei Versionen unserer Sprachdatei an: eine Standardversion und eine vollständige Übersetzung. Die Standardversion sorgt dafür, dass Eigennamen, Missionstitel und Items nicht übersetzt werden. Diese Version gewährleistet Konsistenz beim Spielen mit internationalen Mitspielern und erhält die Kompatibilität mit dem Issue Council auf der RSI-Webseite. Zudem unterstützen wir damit Drittanbieter-Webseiten, Item-Datenbanken sowie Video- und Texttutorials.
+Wir bieten zwei Versionen unserer Sprachdatei an: eine hybride Übersetzung und eine vollständige (experimentelle) Übersetzung. In der hybriden Übersetzung sind Eigennamen, Missionstitel, Items und Orte/Unternehmen nicht übersetzt. Diese Version gewährleistet Konsistenz beim Spielen mit internationalen Mitspielern und erhält die Kompatibilität mit dem Issue Council auf der RSI-Webseite. Zudem unterstützen wir damit Drittanbieter-Webseiten, Item-Datenbanken sowie Video- und Texttutorials.
 
-Vollständige Übersetzung von Star Citizen: Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im Issue Council zu kümmern, haben wir eine vollständige Übersetzung der Sprachdatei entwickelt. Diese Version geht über die Standardübersetzung hinaus und umfasst auch die Übersetzung von Missionstiteln sowie teilweise von Items, Ortsnamen und Unternehmen. **Eigennamen sind auch in dieser Version nicht übersetzt.** Bitte beachte, dass diese Sprachdatei derzeit nur für die LIVE-Server verfügbar ist und viel Interpretationsspielraum enthält.
+Vollständige (experimentelle) Übersetzung: Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im Issue Council zu kümmern, haben wir eine vollständige (experimentelle) Übersetzung der Sprachdatei entwickelt. Diese Version geht über die Hybride Übersetzung hinaus und umfasst auch die Übersetzung von Missionstiteln sowie teilweise von Items, Ortsnamen und Unternehmen. **Eigennamen sind auch in dieser Version nicht übersetzt.** Bitte beachte, dass diese Sprachdatei derzeit nur für die LIVE-Server verfügbar ist und viel Interpretationsspielraum enthält.
 <br/><br/>
 
 ### Wir interpretieren Missionstexte neu
