@@ -48,12 +48,12 @@ Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen M
 
 ## Anleitung zur Installation
 
-**Wir fahren aktuell einen wöchentlichen Release Zyklus, um die Anzahl der Releases zu reduzieren und die Übersicht zu verbessern. An jedem Freitag wird aus den Änderungen der Woche ein Release erstellt, der dann heruntergeladen werden kann.**
+**Freitag ist Patchday. Jeden Freitag erstellen wir aus den Änderungen der Woche einen neuen Release.**
 
 [<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
 > [!IMPORTANT]  
-> **Um @-Darstellungsfehler zu vermeiden, aktualisiere regelmäßig (wöchentlich) die Übersetzungsdatei. Wir optimieren regelmäßig unsere Übersetzung (durch Community Reports, Stream Beobachtungen etc.) und steigern ständig die Qualität. Außerdem kommen mit nahezu jedem Patch neue Zeilen hinzu, die Dir sonst im Spiel fehlen und als @-Fehler angezeigt werden.**
+> **Um fehlende Übersetzungen und @-Fehler zu vermeiden, aktualisiere regelmäßig die Übersetzungsdatei. Wir optimieren regelmäßig unsere Übersetzung (durch Community Reports, Stream Beobachtungen etc.) und steigern ständig dessen Qualität. Außerdem kommen mit nahezu jedem Patch neue Zeilen hinzu, die Dir sonst im Spiel fehlen und als @-Fehler angezeigt werden.**
 
 <br/>
 
@@ -72,11 +72,12 @@ Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen M
    - `C:\ Program Files \Roberts Space Industries \ StarCitizen \ LIVE \` <br/>
    - `C:\ Program Files \Roberts Space Industries \ StarCitizen \ PTU \` <br/><br/>
 
-💡 **Nutzt du eine eigene `user.cfg` Datei mit eigenen Anpassungen, überschreibe deine Datei auf keinen Fall und ergänze diese mit folgenden zwei Zeilen:** <br/>
-  ```
-g_language = german_(germany)
-g_languageAudio = english
-```
+> [!WARNING]  
+> **Nutzt du eine eigene `user.cfg` Datei mit eigenen Anpassungen, überschreibe deine Datei auf keinen Fall. Ergänze deine Datei mit folgenden zwei Zeilen:** <br/>
+> ```
+> g_language = german_(germany)
+> g_languageAudio = english
+> ```
 
 <br/><br/>
 ### Variante 2: Direktdownload der global.ini Datei
@@ -101,7 +102,7 @@ Nicht empfohlen da GitHub API Rate Limits setzt und in Stoßzeiten der automatis
 
 ## Wie aktuell ist die deutsche Übersetzung?
 
-Zum aktuellen Zeitpunkt ist die deutsche Übersetzung tagesaktuell. In der Regel veröffentlicht CIG die neuen Patches zwischen 23 und 3 Uhr nachts. Nachdem wir die neuen und geänderten Zeilen übertragen und übersetzt haben, laden wir die neue Übersetzung gegen 10 Uhr morgens auf GitHub. Unsere Übersetzungsdatei ist zu 100% identisch mit der, die CIG zur Verfügung stellt. Sollten im Spiel Variablen mit einem @-Zeichen angezeigt werden, liegt der Fehler bei CIG und wird in späteren Patches korrigiert.
+Die deutsche Übersetzung ist tagesaktuell. In der Regel veröffentlicht CIG die neuen Patches zwischen 23 und 3 Uhr nachts. Nachdem wir die neuen und geänderten Zeilen übertragen und übersetzt haben, laden wir die neue Übersetzung gegen 10 Uhr morgens auf GitHub. Jeden Freitag erstellen wir ein neues Release. Unsere Übersetzungsdatei ist zu 100% identisch mit der, die CIG zur Verfügung stellt. Sollten im Spiel Variablen mit einem @-Zeichen angezeigt werden, liegt der Fehler bei CIG und wird in späteren Patches korrigiert.
 
 💡 **Es kommt häufig vor, dass eine neue Spielversion veröffentlicht wird aber hier kein Update hochgeladen wurde. In diesem Fall gab es keine Veränderungen an der ursprünglichen global.ini Sprachdatei.**
 <br/><br/><br/><br/>
@@ -167,8 +168,25 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 ## Fragen und Antworten
 
 <details>
+<summary>[Klick] Fehler: Das Bild wird plötzlich rot eingefärbt</summary>
+<br/>
+Wir haben Berichte erhalten, dass das Bild an verschiedenen Standorten plötzlich rot eingefärbt wird. Dieser Fehler konnte auf eine fehlerhafte `user.cfg` Datei zurückgeführt werden. Um dieses Problem zu beheben, vergewissere dich, dass die folgenden zwei Zeilen in deiner Datei Datei eingetragen sind:
+<br/><br/>
+
+```
+g_language = german_(germany)
+g_languageAudio = english
+```
+
+Der Fehler wird durch benutzerdefinierte .cfg Einstellungen verursacht, die Shader, Schatten, Tessellation usw. beeinflussen. Tritt der Fehler bei dir auf, lösche entweder alle Einstellungen in deiner `user.cfg` Datei bis auf die obigen zwei Zeilen oder ändere deine benutzerdefinierten Einstellungen entsprechend.
+
+---
+
+</details>
+
+<details>
 <summary>[Klick] Fehler: Es werden kryptische Variablen mit @-Zeichen angezeigt</summary>
-  ----<br/>
+<br/>
 Unsere global.ini Datei liegt bereits im korrekten UTF-8-BOM Format vor. Wenn bei dir Variablen angezeigt werden, die mit einem @-Zeichen beginnen, aber die Ordnerstruktur richtig ist, scheint deine Datei-Codierung falsch zu sein. Lade entweder [unsere Datei erneut herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) oder stelle die Codierung deiner Datei manuell um:
 <br/><br/>
 
@@ -186,7 +204,7 @@ Das sollte das Problem beheben.
 
 <details>
 <summary>[Klick] Fehler: Ich habe alles richtig gemacht, aber es werden immer noch englische Texte angezeigt</summary>
-  ----<br/>
+<br/>
 Achte bei den beiden Dateien global.ini und user.cfg auf die richtigen Dateiendungen.
 <br/><br/>
 
@@ -206,7 +224,7 @@ Das sollte das Problem beheben.
 
 <details>
 <summary>[Klick] Fehler: Keine englische Sprachausgabe im Spiel</summary>
-  ----<br/>
+<br/>
 Es gibt einen Fix für das Audioproblem. Du musst deiner user.cfg Datei diese folgende Zeile hinzufügen:<br/>
 g_languageAudio = english <br/><br/>
 Alternativ lade dir unsere user.cfg Datei herunter, in der wir das bereits für dich übernommen haben.
@@ -220,7 +238,7 @@ Das sollte das Problem beheben.
 
 <details>
 <summary>[Klick] Frage: Ist diese Übersetzung eine Knebel-Übersetzung?</summary>
-  ----<br/>
+<br/>
 Diese Frage hören wir in Streams häufig. Aber nein, Knebel als Streamer ist nicht in das Projekt involviert. Er ist weder Mitglied unseres Team-Discords noch gibt er uns Anweisungen, wie die Übersetzung auszusehen hat. Unsere Übersetzung entstand auf seinem Discord-Server, und das ist die einzige Verbindung zwischen Knebel und unserer Übersetzung. Wir sind Knebel sehr dankbar für seine Unterstützung, da dies keineswegs selbstverständlich ist!<br/><br/>
 
 Diese Übersetzung ist komplett unabhängig und in erster Linie ein Community-Projekt, und das wird sie auch bleiben. Jeder von euch kann Teil der Übersetzung sein und Vorschläge einreichen, falls eine Übersetzung fehlerhaft oder optimierungsbedürftig ist.
