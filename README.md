@@ -64,9 +64,7 @@ Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen M
 2. **Entpacke die ZIP-Datei auf deine Festplatte** <br/>
 3. **Kopiere den kompletten Inhalt der entpackten ZIP-Datei in den LIVE bzw. PTU/EPTU Ordner:** <br/>
 
-   Inhalt:
-   - `user` Ordner
-   - `user.cfg` Datei
+![image](https://i.imgur.com/MjBMF4y.png)
 
    Speicherort (Laufwerksbuchstaben kann bei dir ein anderer sein):
    - `C:\ Program Files \Roberts Space Industries \ StarCitizen \ LIVE \` <br/>
@@ -187,13 +185,14 @@ Der Fehler wird durch benutzerdefinierte .cfg Einstellungen verursacht, die Shad
 <details>
 <summary>[Klick] Fehler: Es werden kryptische Variablen mit @-Zeichen angezeigt</summary>
 <br/>
-Unsere global.ini Datei liegt bereits im korrekten UTF-8-BOM Format vor. Wenn bei dir Variablen angezeigt werden, die mit einem @-Zeichen beginnen, aber die Ordnerstruktur richtig ist, scheint deine Datei-Codierung falsch zu sein. Lade entweder [unsere Datei erneut herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) oder stelle die Codierung deiner Datei manuell um:
+Unsere `global.ini` Datei liegt bereits im korrekten UTF-8-BOM Format vor. Wenn bei dir Variablen angezeigt werden, die mit einem @-Zeichen beginnen, aber die Ordnerstruktur richtig ist, ist etweder deine Datei-Codierung falsch oder du hast vergessen die `user.cfg` Datei einzufügen. Lade entweder [unsere Datei erneut herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) oder stelle die Codierung deiner Datei manuell um:
 <br/><br/>
 
-1. Öffne die **`global.ini`** in einem Texteditor wie Notepad++ (kostenlos)
-2. Klicke anschließend in der Symbolleiste auf "Codierung"
-3. Wähle **`UTF-8-BOM`**
-4. Speichern
+1. Kontrolliere, ob sich die `user.cfg` Datei im LIVE bzw PTU/EPTU Ordner befindet
+2. Wenn ja, öffne die **`global.ini`** in einem Texteditor wie Notepad++ (kostenlos)
+3. Klicke anschließend in der Symbolleiste auf "Codierung"
+4. Wähle **`UTF-8-BOM`**
+5. Speichern
    <br/><br/>
 
 Das sollte das Problem beheben.
@@ -205,30 +204,13 @@ Das sollte das Problem beheben.
 <details>
 <summary>[Klick] Fehler: Ich habe alles richtig gemacht, aber es werden immer noch englische Texte angezeigt</summary>
 <br/>
-Achte bei den beiden Dateien global.ini und user.cfg auf die richtigen Dateiendungen.
-<br/><br/>
-
-Kontrolliere, ob es die richtige Dateiendung ist:
+Achte bei den beiden Dateien global.ini und user.cfg auf die richtigen Dateiendungen:
 
 1. Öffne den Windows Dateiexplorer
 2. Klicke auf Ansicht am oberen Fensterrand
 3. Aktiviere im Bereich Ein-/ausblenden: **`Dateinamenerweiterungen`**
 4. Sollten die beiden Dateien nun **`global.ini.ini`** oder **`user.txt.cfg`** oder ähnlich heißen, musst du sie zurück in **`global.ini`** und **`user.cfg`** umbennennen.
    <br/><br/>
-
-Das sollte das Problem beheben.
-
----
-
-</details>
-
-<details>
-<summary>[Klick] Fehler: Keine englische Sprachausgabe im Spiel</summary>
-<br/>
-Es gibt einen Fix für das Audioproblem. Du musst deiner user.cfg Datei diese folgende Zeile hinzufügen:<br/>
-g_languageAudio = english <br/><br/>
-Alternativ lade dir unsere user.cfg Datei herunter, in der wir das bereits für dich übernommen haben.
-<br/><br/>
 
 Das sollte das Problem beheben.
 
