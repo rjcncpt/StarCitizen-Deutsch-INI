@@ -123,18 +123,14 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 ## Das Team
 
 | Team Name                                                                          | Position              | Aufgaben                               |
-|:-----------------------------------------------------------------------------------|:----------------------|:---------------------------------------|
-| [rjcncpt/PYRO](https://fwkart.de/star-citizen-free-fly-kostenlos-testen-spielen/)  | `Ansprechparter`      | Übersetzungen, GitHub                  |
-| [MaxM1211](https://github.com/MaxM1211)                                            | `GitHub & Übersetzer` | Übersetzungen, GitHub, Dev & Bugfixing |
-| [greluc](https://github.com/greluc)                                                | `GitHub & Übersetzer` | Übersetzungen, GitHub, Dev & Bugfixing |
-| [Norinofu](https://github.com/Norinofu)                                            | `GitHub & Übersetzer` | GitHub, Übersetzer                     |
-| [Drakonhawk](https://github.com/Drakonhawk)                                        | `GitHub & Übersetzer` | GitHub, Übersetzer                     |
-| Boy7                                                                               | `Software Dev`        | Software                               |
-| Hikaruhoshi1                                                                       | `Übersetzer`          | Übersetzungen                          |
-| electron0                                                                          | `Dev & Bugfixing`     | GitHub, Dev & Bugfixing                |
-| APROVES                                                                            | `Übersetzer`          | Übersetzungen                          |
-| Asaya87                                                                            | `Discord Management`  | Übersetzungen & Discord Admin          |
-| Fabi 18                                                                            | `Discord Management`  | Discord Admin                          |
+|:-----------------------------------------------------------------------------------|:---------------------------|:----------------------------------|
+| [rjcncpt/PYRO](https://fwkart.de/star-citizen-free-fly-kostenlos-testen-spielen/)  | `Projektleiter`            | Übersetzung, Entwicklung, GitHub  |
+| [MaxM1211](https://github.com/MaxM1211)                                            | `Entwicklung & Übersetzer` | Entwicklung, GitHub, Übersetzung  |
+| [greluc](https://github.com/greluc)                                                | `Entwicklung & Übersetzer` | Entwicklung, GitHub, Übersetzung  |
+| [Drakonhawk](https://github.com/Drakonhawk)                                        | `Entwicklung & GitHub`     | Entwicklung, GitHub               |
+| Boy7                                                                               | `Software Dev`             | Software                          |
+| Asaya87                                                                            | `Discord Management`       |                                   |
+| Fabi 18                                                                            | `Discord Management`       |                                   |
 
 <br/>
 
