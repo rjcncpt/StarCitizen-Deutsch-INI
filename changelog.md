@@ -1,6 +1,34 @@
 # Changelog
 Aufgeführt werden ausschließlich die wöchentlichen Major Updates die jeden Freitag erscheinen. Kleinere Updates die aufgespielt werden, bei z.B. kritischen Übersetzungsfehlern, werden dann in der Major Updateliste aufgeführt.
 
+### 3.24.0 PTU.9266874
+Das neueste Übersetzungsupdate für 3.24.0 PTU ist verfügbar.
+
+### Details zur Übersetzung
+- 498 neue Zeilen
+- 42 von CIG überarbeite Zeilen
+
+### Fokus der neuen ini-Datei:
+- `Covalex_HaulCargo_` Missionen
+- `FreightElevator_`
+- Neue Items wie Hangar-Gegenstände
+- Neue Standorte
+- Neue UI Texte
+- Etliches an polishing vorhandener Texte
+- und vieles weitere
+
+Die Texte der neuen Frachtmissionen haben das eigens entwickelte Layout erhalten um eine bessere Lesbarkeit zu gewährleisten.
+
+### Bekannte Probleme 
+- es gibt noch in einigen Missionstexten **`der, die, das`** und **`von, nach, bis`** Probleme. Bitte gerne mit Screenshot melden.
+
+```Hinweis: Freitag ist Updatetag. Die Updates beinhalten erfahrungsgemäß Übersetzungskorrekturen und Optimierungen im wording. Besuche wöchentlich unseren GitHub Kanal um die Updates nicht zu verpassen. Die letzte Version siehst du im Hauptmenü des Spiels oben links.
+```
+
+### Vielen Dank an die tausenden Spieler und vielen Twitch Streamer, die unser Projekt unterstützen und uns motivieren.
+
+--------------------------
+
 ### 3.23.1a LIVE/PTU.9204897
 **28.06.2024**
 
