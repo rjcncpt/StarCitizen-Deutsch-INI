@@ -6,6 +6,8 @@
 
 > [!IMPORTANT]  
 > **Um fehlende Übersetzungen und @-Fehler zu vermeiden, aktualisiere regelmäßig die Übersetzungsdatei. Wir optimieren regelmäßig unsere Übersetzung (durch Community Reports, Stream Beobachtungen etc.) und steigern ständig dessen Qualität. Außerdem kommen mit nahezu jedem Patch neue Zeilen hinzu, die Dir sonst im Spiel fehlen und als @-Fehler angezeigt werden.**
+>
+> **Auf unserem [Übersetzungs Discord-Server](https://discord.gg/5VZsTk3qjR) wirst du immer bei neuen Updates informiert und kannst aktiv an der Übersetzung mitwirken und ein Teil dieser werden.**
 
 <br/>
 
