@@ -22,7 +22,8 @@ Die Texte der neuen Frachtmissionen haben das eigens entwickelte Layout erhalten
 #### Bekannte Probleme 
 - es gibt noch in einigen Missionstexten **`der, die, das`** und **`von, nach, bis`** Probleme. Bitte gerne mit Screenshot melden.
 
-```Hinweis: Freitag ist Updatetag. Die Updates beinhalten erfahrungsgemäß Übersetzungskorrekturen und Optimierungen im wording. Besuche wöchentlich unseren GitHub Kanal um die Updates nicht zu verpassen. Die letzte Version siehst du im Hauptmenü des Spiels oben links.
+```
+Hinweis: Freitag ist Updatetag. Die Updates beinhalten erfahrungsgemäß Übersetzungskorrekturen und Optimierungen im wording. Besuche wöchentlich unseren GitHub Kanal um die Updates nicht zu verpassen. Die letzte Version siehst du im Hauptmenü des Spiels oben links.
 ```
 
 ### Vielen Dank an die tausenden Spieler und vielen Twitch Streamer, die unser Projekt unterstützen und uns motivieren.
