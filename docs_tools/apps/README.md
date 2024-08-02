@@ -101,7 +101,7 @@ Der ständige Download von vielen Gigabyte Daten, wenn man zwischen LIVE und PTU
 <br/><br/><br/><br/>
 
 ## Automatisches Übersetzungsupdate (.bat)
-![image](https://i.imgur.com/dbpGOEq.png)
+![image](https://i.imgur.com/aEwZye3.png)
 
 Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher Start ein Update der aktuellen Übersetzungsdatei durchzuführen. Bevor du startest, musst du ein paar Schritte durchführen. Nachdem das ini-Update durchgeführt wurde, startet der RSI-Launcher automatisch.
 
@@ -110,8 +110,6 @@ Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher
 | Dateiname                | Download                                                                                                           | Beschreibung                                                  | Hinweis                                                                                                                                     |
 |:-------------------------|:-------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
 | `INI Updater.bat`        | [Download](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/INI%20Updater.bat)         | Diese Datei updatet die LIVE und PTU Übersetzung gleichzeitig | Verwenden, wenn die LIVE und PTU Verzeichnise eigenständige Ordner und KEINE Symbolic Link Ordner sind                                      |
-| `LIVE Updater.bat`       | [Download](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/LIVE%20Updater.bat)        | Diese Datei updatet nur die LIVE Übersetzung                  | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
-| `PTU Updater.bat`        | [Download](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/PTU%20Updater.bat)         | Diese Datei updatet nur die PTU Übersetzung                   | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
 | `LIVE FULL Updater.bat`  | [Download](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/LIVE%20FULL%20Updater.bat) | Diese Datei updatet nur die vollständige LIVE Übersetzung     | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
 
 ### So geht's
@@ -119,7 +117,7 @@ Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher
 1. Lade dir die .bat Datei(en) herunter
 2. Speichere die Datei(en) in den Spielordner
 3. Klicke mit der rechten Maustaste auf die Datei(en) und wähle `Bearbeiten` aus
-4. Passe den Pfad zum Star Citizen (1) Sprachdatei Ordner an
+4. Passe den Pfad zum Star Citizen (1) Ordner an
 5. Passe den Pfad zum RSI-Launcher (2) an
 6. Speichern <br/>
 
