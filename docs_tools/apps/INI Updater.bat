@@ -1,37 +1,72 @@
 @echo off
+setlocal
+
 REM PFAD ZUM SPIELVERZEICHNIS ANGEBEN
 set "BASE_PATH=E:\Roberts Space Industries\StarCitizen"
 
-REM Prüfe, ob der PTU-Ordner existiert
-if exist "%BASE_PATH%\PTU\" (
-    echo Erstelle die Ordnerstrukturen und lade alle Daten herunter.
-    
-    REM NICHTS ÄNDERN! Erstelle die Ordnerstrukturen
+REM PFAD ZUM RSI LAUNCHER ANGEBEN
+set "LAUNCHER_PATH=E:\Roberts Space Industries\RSI Launcher\RSI Launcher.exe"
+
+
+
+
+REM ==================================================
+REM = AB HIER NICHTS VERÄNDERN!
+REM ==================================================
+
+
+
+
+echo #################################################
+echo         STAR CITIZEN DEUTSCHE SPRACHDATEI
+echo               DOWNLOADER (LIVE/PTU)
+echo #################################################
+echo.
+echo Starte die Ordnererstellung und den Download...
+echo.
+
+REM LIVE
+echo Erstelle die LIVE-Ordnerstruktur...
+if not exist "%BASE_PATH%\LIVE\data\Localization\german_(germany)" (
     mkdir "%BASE_PATH%\LIVE\data\Localization"
-    mkdir "%BASE_PATH%\PTU\data\Localization"
-    mkdir "%BASE_PATH%\LIVE"
-    mkdir "%BASE_PATH%\PTU"
-
-    REM NICHTS ÄNDERN! Lade die Dateien herunter
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/global.ini' -OutFile '%BASE_PATH%\LIVE\data\Localization\global.ini'"
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/ptu/global.ini' -OutFile '%BASE_PATH%\PTU\data\Localization\global.ini'"
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/user.cfg' -OutFile '%BASE_PATH%\LIVE\user.cfg'"
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/user.cfg' -OutFile '%BASE_PATH%\PTU\user.cfg'"
-
+    mkdir "%BASE_PATH%\LIVE\data\Localization\german_(germany)"
+    echo LIVE-Ordnerstruktur wurde erstellt.
 ) else (
-    echo PTU-Ordner nicht vorhanden. Lade nur die LIVE-Daten herunter.
-    
-    REM NICHTS ÄNDERN! Erstelle die Ordnerstrukturen
-    mkdir "%BASE_PATH%\LIVE\data\Localization"
-
-    REM NICHTS ÄNDERN! Lade die Dateien herunter
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/global.ini' -OutFile '%BASE_PATH%\LIVE\data\Localization\global.ini'"
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/user.cfg' -OutFile '%BASE_PATH%\LIVE\user.cfg'"
+    echo LIVE-Ordnerstruktur existiert bereits.
 )
 
-echo Download abgeschlossen!
+echo.
+echo Lade die LIVE-Dateien herunter...
+powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/global.ini' -OutFile '%BASE_PATH%\LIVE\data\Localization\german_(germany)\global.ini'" && echo LIVE global.ini erfolgreich heruntergeladen. || echo Fehler beim Herunterladen von LIVE global.ini.
+powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/user.cfg' -OutFile '%BASE_PATH%\LIVE\user.cfg'" && echo LIVE user.cfg erfolgreich heruntergeladen. || echo Fehler beim Herunterladen von LIVE user.cfg.
 
-REM PFAD ZUM RSI LAUNCHER ANGEBEN
-start "" "E:\Roberts Space Industries\RSI Launcher\RSI Launcher.exe"
+echo.
+REM PTU
+if exist "%BASE_PATH%\PTU" (
+    echo Erstelle die PTU-Ordnerstruktur...
+    if not exist "%BASE_PATH%\PTU\data\Localization\german_(germany)" (
+        mkdir "%BASE_PATH%\PTU\data\Localization"
+        mkdir "%BASE_PATH%\PTU\data\Localization\german_(germany)"
+        echo PTU-Ordnerstruktur wurde erstellt.
+    ) else (
+        echo PTU-Ordnerstruktur existiert bereits.
+    )
+    echo.
+    echo Lade die PTU-Dateien herunter...
+    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/ptu/global.ini' -OutFile '%BASE_PATH%\PTU\data\Localization\german_(germany)\global.ini'" && echo PTU global.ini erfolgreich heruntergeladen. || echo Fehler beim Herunterladen von PTU global.ini.
+    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/ptu/user.cfg' -OutFile '%BASE_PATH%\PTU\user.cfg'" && echo PTU user.cfg erfolgreich heruntergeladen. || echo Fehler beim Herunterladen von PTU user.cfg.
+) else (
+    echo PTU-Ordner nicht gefunden. Keine PTU-Daten heruntergeladen.
+)
+
+REM Starte den RSI Launcher, falls er noch nicht läuft
+echo.
+tasklist /nh /fi "imagename eq rsi launcher.exe" | find /i "rsi launcher.exe" > nul || (
+    echo RSI Launcher wird gestartet...
+    start "" "%LAUNCHER_PATH%"
+)
+
+echo.
+echo Alle Aufgaben abgeschlossen.
 
 timeout /t 5
