@@ -68,5 +68,3 @@ tasklist /nh /fi "imagename eq rsi launcher.exe" | find /i "rsi launcher.exe" > 
 
 echo.
 echo Alle Aufgaben abgeschlossen.
-
-timeout /t 5
