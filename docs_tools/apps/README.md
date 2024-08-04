@@ -101,7 +101,7 @@ Der ständige Download von vielen Gigabyte Daten, wenn man zwischen LIVE und PTU
 <br/><br/><br/><br/>
 
 ## Automatisches Übersetzungsupdate (.bat)
-![image](https://i.imgur.com/aEwZye3.png)
+![image](https://i.imgur.com/RAIqcUf.png)
 
 Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher Start ein Update der aktuellen Übersetzungsdatei durchzuführen. Bevor du startest, musst du ein paar Schritte durchführen. Nachdem das ini-Update durchgeführt wurde, startet der RSI-Launcher automatisch.
 
