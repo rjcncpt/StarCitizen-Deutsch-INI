@@ -20,8 +20,8 @@ echo.
 echo.
 echo.
 echo #################################################
-echo         STAR CITIZEN DEUTSCHE SPRACHDATEI
-echo               DOWNLOADER (LIVE/PTU)
+echo   STAR CITIZEN DEUTSCHE SPRACHDATEI DOWNLOADER
+echo                  (LIVE UND PTU)
 echo #################################################
 echo.
 echo Starte die Ordnererstellung und den Download...
