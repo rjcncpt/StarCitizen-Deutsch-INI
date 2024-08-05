@@ -13,10 +13,12 @@ set "LAUNCHER_PATH=E:\Roberts Space Industries\RSI Launcher\RSI Launcher.exe"
 REM ==================================================
 REM = AB HIER NICHTS VERÄNDERN!
 REM ==================================================
-
-
-
-
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
 echo #################################################
 echo         STAR CITIZEN DEUTSCHE SPRACHDATEI
 echo               DOWNLOADER (LIVE/PTU)
