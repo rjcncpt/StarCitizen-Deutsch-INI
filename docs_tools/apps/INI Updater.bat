@@ -37,7 +37,7 @@ if not exist "%BASE_PATH%\LIVE\data\Localization\german_(germany)" (
 
 echo.
 echo Lade die LIVE-Dateien herunter...
-powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/global.ini' -OutFile '%BASE_PATH%\LIVE\data\Localization\german_(germany)\global.ini'" && echo LIVE global.ini erfolgreich heruntergeladen. || echo Fehler beim Herunterladen von LIVE global.ini.
+powershell -Command "Invoke-WebRequest -Uri 'https://www.fwkart.de/live-ini' -OutFile '%BASE_PATH%\LIVE\data\Localization\german_(germany)\global.ini'" && echo LIVE global.ini erfolgreich heruntergeladen. || echo Fehler beim Herunterladen von LIVE global.ini.
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/user.cfg' -OutFile '%BASE_PATH%\LIVE\user.cfg'" && echo LIVE user.cfg erfolgreich heruntergeladen. || echo Fehler beim Herunterladen von LIVE user.cfg.
 
 echo.
@@ -53,8 +53,8 @@ if exist "%BASE_PATH%\PTU" (
     )
     echo.
     echo Lade die PTU-Dateien herunter...
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/ptu/global.ini' -OutFile '%BASE_PATH%\PTU\data\Localization\german_(germany)\global.ini'" && echo PTU global.ini erfolgreich heruntergeladen. || echo Fehler beim Herunterladen von PTU global.ini.
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/ptu/user.cfg' -OutFile '%BASE_PATH%\PTU\user.cfg'" && echo PTU user.cfg erfolgreich heruntergeladen. || echo Fehler beim Herunterladen von PTU user.cfg.
+    powershell -Command "Invoke-WebRequest -Uri 'https://www.fwkart.de/ptu-ini' -OutFile '%BASE_PATH%\PTU\data\Localization\german_(germany)\global.ini'" && echo PTU global.ini erfolgreich heruntergeladen. || echo Fehler beim Herunterladen von PTU global.ini.
+    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/user.cfg' -OutFile '%BASE_PATH%\PTU\user.cfg'" && echo PTU user.cfg erfolgreich heruntergeladen. || echo Fehler beim Herunterladen von PTU user.cfg.
 ) else (
     echo PTU-Ordner nicht gefunden. Keine PTU-Daten heruntergeladen.
 )
