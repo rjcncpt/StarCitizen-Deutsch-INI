@@ -26,12 +26,12 @@ Der **`SC DEUTSCH LAUNCHER`** ist eine von uns erstellte kostenfreie App, welche
 
 ## So funktioniert SC Deutsch Launcher
 ### Registrierung der Star Citizen Installationen (LIVE, PTU, EPTU, TECH-PREVIEW)
-Der `SC DEUTSCH LAUNCHER` überprüft beim Start automatisch die Standard-Installation von Star Citizen (C:\Program Files\Roberts Space Industries\StarCitizen). Vorhandene Star Citizen-Installationen werden automatisch registriert und in pink hervorgehoben. Installationen, die nicht gefunden werden, erscheinen schwarz markiert.
+Der `SC DEUTSCH LAUNCHER` überprüft beim Start automatisch die Standard-Installation von Star Citizen `(C:\Program Files\Roberts Space Industries\StarCitizen)`. Vorhandene Star Citizen-Installationen werden automatisch registriert und in grün hervorgehoben. Installationen, die nicht gefunden werden, erscheinen schwarz markiert.
 
 Für Installationen, die nicht automatisch erkannt wurden, kannst du den Pfad manuell angeben. Gehe wie folgt vor:
 1. Klicke auf den Button für die zu suchende Installation (z.B. LIVE). Es öffnet sich ein Explorer-Dialog.
 2. Navigiere in den Ordner, der das Verzeichnis /LIVE enthält (z.B. `D:/Roberts Space Industries/StarCitizen/LIVE`) und wähle "öffnen".
-3. Die Installation wird registriert und erscheint nun in pink. Der Pfad wird intern gespeichert.
+3. Die Installation wird registriert und erscheint nun in grün. Der Pfad wird intern gespeichert.
 4. Wiederhole diesen Schritt für alle weiteren Installationen, die du verwendest.<br/><br/>
 
 ### Spracheinstellungen
