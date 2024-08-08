@@ -5,14 +5,55 @@ Auf dieser Seite listen wir eingens entwicklete und 3rd party Tools und Web-Apps
 
 ### Inhaltsverzeichnis
 
+- **[Automatisches Übersetzungsupdate](#automatisches-übersetzungsupdate)**
 - **[INI File Viewer (Web-App)](#ini-file-viewer-web-app)**
 - **[Sprachdatei Downloader (Web-App)](#sprachdatei-downloader-web-app)**
 - **[Besseres Spectrum Dark Theme (Chrome Extension)](#besseres-spectrum-dark-theme-chrome-extension)**
 - **[Symbolic Link vom LIVE Ordner erstellen](#symbolic-link-vom-live-ordner-erstellen)**
-- **[Automatisches Übersetzungsupdate (.bat Tool)](#automatisches-übersetzungsupdate-bat)**
 - **[SC Launch Conigurator (Tool)](#sc-launch-configurator)**
 
 <br/><br/>
+
+## Automatisches Übersetzungsupdate
+![image](https://i.imgur.com/MiWq4NQ.png)
+
+Der **`SC DEUTSCH LAUNCHER`** ist eine von uns erstellte kostenfreie App, welche es dir ermöglicht, deine Star Citizen Installation(en) bequem von Englisch auf Deutsch und wieder zurück zu stellen.<br/><br/>
+
+[![SC Deutsch Launcher Download](https://i.imgur.com/Ss5lVv1.png)](https://www.fwkart.de/sc-deutsch-launcher)
+- **[Dokumentation (PDF)](https://www.fwkart.de/apps/Dokumentation-SC-Deutsch-Launcher.pdf)**
+
+<br/>
+
+## So funktioniert SC Deutsch Launcher
+### Registrierung der Star Citizen Installationen (LIVE, PTU, EPTU, TECH-PREVIEW)
+Der `SC DEUTSCH LAUNCHER` überprüft beim Start automatisch die Standard-Installation von Star Citizen (C:\Program Files\Roberts Space Industries\StarCitizen). Vorhandene Star Citizen-Installationen werden automatisch registriert und in pink hervorgehoben. Installationen, die nicht gefunden werden, erscheinen schwarz markiert.
+
+Für Installationen, die nicht automatisch erkannt wurden, kannst du den Pfad manuell angeben. Gehe wie folgt vor:
+1. Klicke auf den Button für die zu suchende Installation (z.B. LIVE). Es öffnet sich ein Explorer-Dialog.
+2. Navigiere in den Ordner, der das Verzeichnis /LIVE enthält (z.B. `D:/Roberts Space Industries/StarCitizen/LIVE`) und wähle "öffnen".
+3. Die Installation wird registriert und erscheint nun in pink. Der Pfad wird intern gespeichert.
+4. Wiederhole diesen Schritt für alle weiteren Installationen, die du verwendest.<br/><br/>
+
+### Spracheinstellungen
+Rechts neben den Buttons für die Installationen kannst du die Sprache auswählen, die Star Citizen verwenden soll. Durch Klicken auf den “eng”- oder “de”-Button wird die jeweilige Sprache eingestellt. Für die LIVE-Version steht zusätzlich eine experimentelle Übersetzung (“de (voll)”) zur Verfügung, die alle Texte im Spiel übersetzt. Mehr zur experimentellen Übersetzung: https://github.com/rjcncpt/StarCitizen-Deutsch-INI.
+
+Die Sprachauswahl kann für alle vorhandenen Installationen getroffen werden. Die Konfiguration der Pfade, die Anpassung der user.cfg-Datei und das Update der Sprachdateien erfolgt automatisch im nächsten Schritt.<br/><br/>
+
+### Update & Launch
+Durch Klicken auf “Update + Launch” werden automatisch die erforderlichen Änderungen an den Dateien durchgeführt und die neuesten Übersetzungsdateien von GitHub heruntergeladen. Anschließend wird der RSI-Launcher gestartet.
+
+Falls sich der RSI-Launcher nicht im Standard-Installationspfad befindet, öffnet sich ein Explorer-Dialog. Hier lokalisiere die “RSI Launcher.exe” und wähle sie aus. Dieser Pfad wird ebenfalls intern gespeichert.<br/><br/>
+
+### Das Icon ändern
+
+1. Klicke auf dem Desktop mit der rechten Maustaste auf die **`SC Deutsch Launcher.exe`** Verknüpfung
+2. Wähle `Eigenschaften` aus
+3. Wähle `Anderes Symbol` ⇾ `Durchsuchen` und suche dir ein Icon aus
+
+Tipp: Verwende die Spiel-Icons. Navigiere zum Star Citizen Ordner, um das SC Icon zu verwenden, oder zum RSI Launcher, um das Launcher Icon zu verwenden.
+
+--------------------------------------------------------
+<br/><br/><br/><br/>
 
 ## INI File Viewer (Web-App)
 Eine Web-App, um bei der Suche nach fehlerhaften Texten zu unterstützen. Dabei wird die aktuelle global.ini-Datei aus dem `/live`-Verzeichnis unseres GitHub-Repositorys ausgelesen und alle Einträge untereinander dargestellt.
@@ -96,41 +137,6 @@ Der ständige Download von vielen Gigabyte Daten, wenn man zwischen LIVE und PTU
 > **Wenn du die Reihenfolge im Tool vertauschst, löschst du den LIVE Ordner. Also achte auf Quell- und Zielverzeichnis. Orientiere dich an meinem Screenshot.**
 
 
-
---------------------------------------------------------
-<br/><br/><br/><br/>
-
-## Automatisches Übersetzungsupdate (.bat)
-![image](https://i.imgur.com/RAIqcUf.png)
-
-Diese Datei(en) ermöglichen es dir auf einfachste Weise, vor jedem RSI-Launcher Start ein Update der aktuellen Übersetzungsdatei durchzuführen. Bevor du startest, musst du ein paar Schritte durchführen. Nachdem das ini-Update durchgeführt wurde, startet der RSI-Launcher automatisch.
-
-#### Verfügbare Update-Dateien
-
-| Dateiname                | Download                                                                                                           | Beschreibung                                                  | Hinweis                                                                                                                                     |
-|:-------------------------|:-------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| `INI Updater.bat`        | [Download](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/INI%20Updater.bat)         | Diese Datei updatet die LIVE und PTU Übersetzung gleichzeitig | Verwenden, wenn die LIVE und PTU Verzeichnise eigenständige Ordner und KEINE Symbolic Link Ordner sind                                      |
-| `LIVE FULL Updater.bat`  | [Download](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/LIVE%20FULL%20Updater.bat) | Diese Datei updatet nur die vollständige LIVE Übersetzung     | Verwenden, wenn deine LIVE und PTU Verzeichnise sogenante Symbolic Link Ordner sind. [Mehr Infos](#symbolic-link-vom-live-ordner-erstellen) |
-
-### So geht's
-
-1. Lade dir die .bat Datei(en) herunter
-2. Speichere die Datei(en) in den Spielordner
-3. Klicke mit der rechten Maustaste auf die Datei(en) und wähle `Bearbeiten` aus
-4. Passe den Pfad zum Star Citizen (1) Ordner an
-5. Passe den Pfad zum RSI-Launcher (2) an
-6. Speichern <br/>
-
-💡 Die `LIVE FULL Updater.bat` ist für die vollständige Übersetzung
-<br/>
-
-### Das Icon ändern
-
-1. Erstelle eine Verknüpfung der Datei(en)
-2. Klicke mit der rechten Maustaste auf die Datei(en) und wähle `Eigenschaften` aus
-3. Wähle `Anderes Symbol` ⇾ `Duchsuchen` und suche dir ein Icon aus
-
-Tipp: Verwende die Spiel-Icons. Navigiere zum Star Citizen Ordner, um das SC Icon zu verwenden, oder zum RSI Launcher, um das Launcher Icon zu verwenden.
 
 --------------------------------------------------------
 <br/><br/><br/><br/>
