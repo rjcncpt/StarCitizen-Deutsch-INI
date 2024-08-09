@@ -19,7 +19,7 @@ Auf dieser Seite listen wir eingens entwicklete und 3rd party Tools und Web-Apps
 
 Der **`SC DEUTSCH LAUNCHER`** ist eine von uns erstellte kostenfreie App, welche es dir ermöglicht, deine Star Citizen Installation(en) bequem von Englisch auf Deutsch und wieder zurück zu stellen.<br/><br/>
 
-[![SC Deutsch Launcher Download](https://i.imgur.com/Ss5lVv1.png)](https://www.fwkart.de/sc-deutsch-launcher)
+[![SC Deutsch Launcher Download](https://i.imgur.com/aZ0vkfF.png)](https://www.fwkart.de/sc-deutsch-launcher)
 - **[Dokumentation (PDF)](https://www.fwkart.de/apps/Dokumentation-SC-Deutsch-Launcher.pdf)**
 
 <br/>
