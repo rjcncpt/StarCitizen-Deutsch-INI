@@ -25,7 +25,7 @@ Es ist ein lebendes Dokument, das bei Übereinkunft im Team jederzeit angepasst 
 | `Advocacy`                           |                                                                   |
 | `Gadget/s`                           |                                                                   |
 | `item_Name`                          |                                                                   |
-| `item_SubType`                       | Nur teilwese Übersetzung                                          |
+| `item_SubType`                       | Nur teilweise Übersetzung                                          |
 | `item_corp`                          |                                                                   |
 | `item_Ship`                          |                                                                   |
 | `vehicle_Name`                       |                                                                   |

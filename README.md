@@ -33,7 +33,7 @@ Vollständige (experimentelle) Übersetzung: Für Spieler, die einfach nur spiel
 ### Wir interpretieren Missionstexte neu
 Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys kompliziert aufgebaut. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen resultiert.
 
-Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet und ein eigenständiges Layout erschaffen, um die Lesbarbeit zu vereinfachen.
+Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet und ein eigenständiges Layout erschaffen, um die Lesbarkeit zu vereinfachen.
 
 **Erfahre in der [Dokumentation zu unserer Übersetzung](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/doku/README.md) mehr über unsere Arbeit.**
 <br/><br/>
