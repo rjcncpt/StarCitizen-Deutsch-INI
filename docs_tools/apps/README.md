@@ -1,5 +1,5 @@
 # Tools & Web-Apps
-Auf dieser Seite listen wir eingens entwicklete und 3rd party Tools und Web-Apps auf.
+Auf dieser Seite listen wir eigens entwickelte und 3rd Party Tools und Web-Apps auf.
 
 <br/>
 
@@ -56,7 +56,7 @@ Tipp: Verwende die Spiel-Icons. Navigiere zum Star Citizen Ordner, um das SC Ico
 <br/><br/><br/><br/>
 
 ## INI File Viewer (Web-App)
-Eine Web-App, um bei der Suche nach fehlerhaften Texten zu unterstützen. Dabei wird die aktuelle global.ini-Datei aus dem `/live`-Verzeichnis unseres GitHub-Repositorys ausgelesen und alle Einträge untereinander dargestellt.
+Eine Web-App, um bei der Suche nach fehlerhaften Texten zu unterstützen. Dabei wird die aktuelle global.ini-Datei aus dem `/live`-Verzeichnis unseres GitHub-Repositories ausgelesen und alle Einträge untereinander dargestellt.
 
 ![image](https://i.imgur.com/IzEfJKU.png)
 

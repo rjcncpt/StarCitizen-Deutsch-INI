@@ -66,8 +66,8 @@ Dieses wöchentliche Update ist für die LIVE und PTU Server und beinhaltet Änd
 - `Quantenreise` -> `Quantumflug`  (vereinheitlicht)
 - `Raffinerieanlage` -> `Raffinerie Anlage` (Führte zu falsch dargestellten Text)
 - `das Wrack auf ...` -> `Absturzstelle auf ...` (Artikel entfernt und vereinheitlicht da überall Absturzstelle [Wreck Site] verwendet wird. Und entsprechend die Missionstexte umgeschrieben. (der, die, das Problem))
-- Missionstexte im wording angepasst
-- Allgemeines polishing, Schreibfehler
+- Missionstexte im Wording angepasst
+- Allgemeines Polishing, Schreibfehler
 
 **Polishing (nur für vollständige Übersetzung)**
 - `Quantum Drive` -> `Quantum-Antrieb`
@@ -97,7 +97,7 @@ Dieses wöchentliche Update ist für die LIVE und PTU Server und beinhaltet Änd
 - `hinterer Fernlenk-Turm` -> `Heck Fernlenk-Turm`
 - `Einsatzort aufsuchen` -> `Zum Abgabeort begeben`
 - `Probe` -> `Sonde`
-- Allgemeines polishing
+- Allgemeines Polishing
 
 **Polishing (nur für vollständige Übersetzung)**
 - `Citizens for Pyro` -> `Bürger für Pyro`
