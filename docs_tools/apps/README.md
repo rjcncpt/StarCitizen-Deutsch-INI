@@ -25,31 +25,27 @@ Der **`SC DEUTSCH LAUNCHER`** ist eine von uns erstellte kostenfreie App, welche
 
 <br/>
 
-## So funktioniert SC Deutsch Launcher
-### Installationserkennung (LIVE, PTU, EPTU, TECH-PREVIEW)
-Beim Start überprüft der `SC DEUTSCH LAUNCHER` automatisch, ob Star Citizen in dem Standard-Installationsverzeichnis `(C:\Program Files\Roberts Space Industries\StarCitizen)` installiert ist. Gefundene Installationen werden grün markiert, nicht erkannte Installationen bleiben schwarz.
+## Installationsanleitung
+Entpacke das Zip und führe die `Install SC Deutsch Launcher.exe` aus. Nach der Installation, doppelklicke auf dem Desktop oder im Startmenü die `SC Deutsch Launcher`"-Verknüpfung um die `SC DEUTSCH LAUNCHER`-App zu starten.
 
-Falls der Launcher eine Installation nicht automatisch erkennt, kannst du den Pfad manuell angeben:
+Beim Start überprüft der `SC DEUTSCH LAUNCHER` automatisch, ob Star Citizen im Standard-Installationsverzeichnis `(C:\Program Files\Roberts Space Industries\StarCitizen)` installiert ist. Gefundene Installationen werden grün markiert, nicht erkannte Installationen bleiben schwarz.
+
+Falls der Launcher eine Installation nicht automatisch erkennt, weil du Star Citizen in einem anderen Ordner oder auf einer anderen Festplatte installiert hast, kannst du den Pfad manuell angeben:
 1. Klicke auf den Button der gesuchten Installation (z.B. LIVE), um einen Datei-Explorer zu öffnen.
 2. Navigiere zu dem Ordner, der das Verzeichnis /LIVE enthält (z.B. `D:/Roberts Space Industries/StarCitizen/LIVE)` und wähle "Öffnen".
 3. Die Installation wird nun erkannt, grün markiert und der Pfad gespeichert.
 4. Wiederhole diesen Vorgang für alle weiteren Installationen, die du verwenden möchtest.<br/><br/>
 
-### Spracheinstellungen
-Rechts neben den Buttons für die Spiel-Installationen kannst du die Sprache auswählen, die in Star Citizen verwendet werden soll. Durch Klicken auf den Button “eng” oder “de” stellst du die gewünschte Sprache ein. Für die LIVE-Version gibt es eine experimentelle Übersetzung (“de (voll)”), die alle Spieltexte ins Deutsche übersetzt. Weitere Informationen dazu findest du unter: https://github.com/rjcncpt/StarCitizen-Deutsch-INI.
+### Sprachen konfigurieren
+Rechts neben den Buttons für die Spiel-Installationen (z.B. LIVE) kannst du die Sprache auswählen, die in Star Citizen verwendet werden soll. Durch Klicken auf den Button “eng” oder “de” stellst du die gewünschte Sprache ein. Für die LIVE-Version gibt es eine experimentelle Übersetzung (“de (voll)”), die alle Spieltexte ins Deutsche übersetzt. Weitere Informationen dazu findest du unter: https://github.com/rjcncpt/StarCitizen-Deutsch-INI
 
 Die Spracheinstellungen gelten für alle erkannten Installationen. Die Pfadkonfiguration, Anpassungen der user.cfg-Datei und Updates der Sprachdateien werden automatisch im nächsten Schritt vorgenommen.<br/><br/>
 
 ### Update & Start
-Wenn du auf “Update & Start” klickst, führt der Launcher automatisch alle notwendigen Dateianpassungen durch und lädt die neuesten Übersetzungsdateien von GitHub herunter. Anschließend wird der RSI-Launcher gestartet.
-
-Sollte sich der RSI-Launcher nicht im Standard-Installationspfad befinden, öffnet sich ein Datei-Explorer. Wähle dort die Datei “RSI Launcher.exe” aus, um den Pfad zu speichern.<br/><br/>
+Wenn du auf “Update & Start” klickst, führt der Launcher automatisch alle notwendigen Dateianpassungen durch und lädt die neuesten Übersetzungsdateien von GitHub herunter. Anschließend wird der RSI-Launcher gestartet. Sollte sich der RSI-Launcher nicht im Standard-Installationspfad befinden, öffnet sich ein Datei-Explorer. Wähle dort die Datei “RSI Launcher.exe” aus, um den Pfad zu speichern.<br/><br/>
 
 ### Automatische Updates und Launcher-Start
-Nach der ersten Konfiguration kannst du den gesamten Prozess, einschließlich Updates und Start des RSI-Launchers, vollständig automatisieren:
-1. Starte zunächst die "**`SC Deutsch Launcher.exe`**" und konfiguriere das Programm, inklusive der Zuordnung der Sprachdateien.
-2. Klicke auf **`Update & Start`** und wähle die "**`RSI Launcher.exe`**" aus. Der RSI-Launcher wird dann gestartet.
-3. Für zukünftige Starts verwende die "**`SC Deutsch Launcher (auto)`**"-Verknüpfung auf deinem Desktop oder im Startmenü, um den gesamten Vorgang automatisch ausführen zu lassen.<br/><br/>
+Nach der ersten Konfiguration kannst du den gesamten Prozess, einschließlich Updates und Start des RSI-Launchers, vollständig automatisieren: Nachdem du die `SC DEUTSCH LAUNCHER`-App konfiguriert hast, inklusive der Zuordnung der Sprachdateien, kannst du für zukünftige Starts die "**`SC Deutsch Launcher (auto)`**"-Verknüpfung auf deinem Desktop oder im Startmenü verwenden, um den gesamten Vorgang automatisch ausführen zu lassen.<br/><br/>
 
 ### Das Icon ändern
 
