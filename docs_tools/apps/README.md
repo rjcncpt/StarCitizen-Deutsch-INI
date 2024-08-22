@@ -28,7 +28,7 @@ Der **`SC DEUTSCH LAUNCHER`** ist eine von uns erstellte kostenfreie App, welche
 ## Installationsanleitung
 
 > [!IMPORTANT]  
-> **Falls du die Version 1.0 (08. August 2024) installiert hast: Für eine saubere Installation, lösche die alten Dateien von deiner Festplatte, lade das ZIP herunter, entpacke es und installiere den SC Deutsch Launcher über den Installer neu.**
+> **Falls du die Version 1.0 (08. August 2024) installiert hast: Für eine saubere Installation, lösche vor der Neuinstallation die alten Dateien komplett von deiner Festplatte.**
 
 Entpacke das Zip und führe die `Install SC Deutsch Launcher.exe` aus. Nach der Installation, doppelklicke auf dem Desktop oder im Startmenü die `SC Deutsch Launcher`"-Verknüpfung um die `SC DEUTSCH LAUNCHER`-App zu starten.
 
