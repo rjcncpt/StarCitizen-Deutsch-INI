@@ -26,6 +26,10 @@ Der **`SC DEUTSCH LAUNCHER`** ist eine von uns erstellte kostenfreie App, welche
 <br/>
 
 ## Installationsanleitung
+
+> [!IMPORTANT]  
+> **Falls du die Version 1.0 (08. August 2024) installiert hast: Für eine saubere Installation, lösche die alten Dateien von deiner Festplatte, lade das ZIP herunter, entpacke es und installiere den SC Deutsch Launcher über den Installer neu.**
+
 Entpacke das Zip und führe die `Install SC Deutsch Launcher.exe` aus. Nach der Installation, doppelklicke auf dem Desktop oder im Startmenü die `SC Deutsch Launcher`"-Verknüpfung um die `SC DEUTSCH LAUNCHER`-App zu starten.
 
 Beim Start überprüft der `SC DEUTSCH LAUNCHER` automatisch, ob Star Citizen im Standard-Installationsverzeichnis `(C:\Program Files\Roberts Space Industries\StarCitizen)` installiert ist. Gefundene Installationen werden grün markiert, nicht erkannte Installationen bleiben schwarz.
