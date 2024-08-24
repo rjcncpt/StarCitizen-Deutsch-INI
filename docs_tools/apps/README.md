@@ -7,7 +7,6 @@ Auf dieser Seite listen wir eigens entwickelte und 3rd Party Tools und Web-Apps 
 
 - **[SC Deutsch Launcher (Auto Übersetzungsupdate)](#automatisches-übersetzungsupdate)**
 - **[INI File Viewer (Web-App)](#ini-file-viewer-web-app)**
-- **[Sprachdatei Downloader (Web-App)](#sprachdatei-downloader-web-app)**
 - **[Besseres Spectrum Dark Theme (Chrome Extension)](#besseres-spectrum-dark-theme-chrome-extension)**
 - **[Symbolic Link vom LIVE Ordner erstellen](#symbolic-link-vom-live-ordner-erstellen)**
 - **[SC Launch Conigurator (Tool)](#sc-launch-configurator)**
@@ -80,17 +79,6 @@ Eine Filter- und Suchfunktion, die es ermöglicht, den Text, den du als fehlerha
 
 ### Webseite
 Hier geht es zur App: [https://fwkart.de/apps/ini-file-viewer/](https://fwkart.de/apps/ini-file-viewer/)
-
---------------------------------------------------------
-<br/><br/><br/><br/>
-
-## Sprachdatei Downloader (Web-App)
-![image](https://i.imgur.com/dkuXC2W.png)
-
-Erspare dir den Weg über GitHub um den neuesten Release der Übersetzung herunterzuladen. Eine Web-App mit der du ganz leicht den neuesten Build aus einem Dropdown-Menü auswählen und herunterladen kannst.<br/>
-
-### Webseite
-Hier geht es zur App: [https://fwkart.de/apps/sc_release/](https://fwkart.de/apps/sc_release/)
 
 --------------------------------------------------------
 <br/><br/><br/><br/>
