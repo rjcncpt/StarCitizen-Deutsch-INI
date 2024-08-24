@@ -63,6 +63,8 @@ Download und mehr Informationen zum [SC Deutsch Launcher findest du hier](https:
 
 [<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
+Wenn du unseren SC DEUTSCH LAUNCHER nicht verwenden möchtest, kannst du unsere Star Citizen Übersetzung auch händisch installieren.
+
 1. **Lade dir die neueste Übersetzung als ZIP-Datei herunter:** <br/>
    Ggf. musst du auf "Assets" klicken um die ZIP-Datei anzuzeigen.<br/><br/>
     <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/LIVE-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?include_prereleases&sort=date&filter=*LIVE*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![Static Badge](https://img.shields.io/badge/PTU-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?include_prereleases&sort=date&filter=*PTU*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a> <!-- https://shields.io/badges/git-hub-release --> <br/><br/>
