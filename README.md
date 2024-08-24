@@ -53,7 +53,7 @@ Mithilfe des **SC DEUTSCH LAUNCHER**, einer von uns entwickelten kostenlosen App
 
 [![SC Deutsch Launcher Download](https://i.imgur.com/LcQRK6l.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/apps#automatisches-übersetzungsupdate)
 
-Beim Start überprüft der `SC DEUTSCH LAUNCHER` automatisch, ob Star Citizen in dem Standard-Installationsverzeichnis `(C:\Program Files\Roberts Space Industries\StarCitizen)` installiert ist. Gefundene Installationen werden grün markiert, nicht erkannte Installationen bleiben schwarz.
+Beim erstmaligen Start überprüft der SC DEUTSCH LAUNCHER automatisch, ob und auf welcher Festplatte Star Citizen installiert ist. Gefundene Installationen werden grün markiert, nicht erkannte Installationen bleiben schwarz.
 
 Download und mehr Informationen zum [SC Deutsch Launcher findest du hier](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/apps#automatisches-übersetzungsupdate)
 <br/><br/><br/>
