@@ -5,7 +5,7 @@ Auf dieser Seite listen wir eigens entwickelte und 3rd Party Tools und Web-Apps 
 
 ### Inhaltsverzeichnis
 
-- **[Automatisches Übersetzungsupdate](#automatisches-übersetzungsupdate)**
+- **[SC Deutsch Launcher (Auto Übersetzungsupdate)](#automatisches-übersetzungsupdate)**
 - **[INI File Viewer (Web-App)](#ini-file-viewer-web-app)**
 - **[Sprachdatei Downloader (Web-App)](#sprachdatei-downloader-web-app)**
 - **[Besseres Spectrum Dark Theme (Chrome Extension)](#besseres-spectrum-dark-theme-chrome-extension)**
