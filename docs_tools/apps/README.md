@@ -20,7 +20,7 @@ Auf dieser Seite listen wir eigens entwickelte und 3rd Party Tools und Web-Apps 
 Der **`SC DEUTSCH LAUNCHER`** ist eine von uns erstellte kostenfreie App, welche es dir ermöglicht, deine Star Citizen Installation(en) bequem von Englisch auf Deutsch und wieder zurück zu stellen.<br/><br/>
 
 [![SC Deutsch Launcher Download](https://i.imgur.com/aZ0vkfF.png)](https://www.fwkart.de/sc-deutsch-launcher)
-- **Version 1.2.0 (22. August 2024)**
+- **Version 1.2.1 (24. August 2024)**
 - **[Dokumentation (PDF)](https://www.fwkart.de/apps/Dokumentation-SC-Deutsch-Launcher.pdf)**
 
 <br/>
@@ -28,13 +28,13 @@ Der **`SC DEUTSCH LAUNCHER`** ist eine von uns erstellte kostenfreie App, welche
 ## Installationsanleitung
 
 > [!IMPORTANT]  
-> **Falls du die Version 1.0 (08. August 2024) installiert hast: Für eine saubere Installation, lösche vor der Neuinstallation die alten Dateien komplett von deiner Festplatte.**
+> **Falls du die Version 1.0 (08. August 2024) installiert hast: Für eine saubere Installation, deinstalliere vor der Neuinstallation die alten Dateien komplett von deiner Festplatte.**
 
 Entpacke das Zip und führe die `Install SC Deutsch Launcher.exe` aus. Nach der Installation, doppelklicke auf dem Desktop oder im Startmenü die `SC Deutsch Launcher`"-Verknüpfung um die `SC DEUTSCH LAUNCHER`-App zu starten.
 
-Beim Start überprüft der `SC DEUTSCH LAUNCHER` automatisch, ob Star Citizen im Standard-Installationsverzeichnis `(C:\Program Files\Roberts Space Industries\StarCitizen)` installiert ist. Gefundene Installationen werden grün markiert, nicht erkannte Installationen bleiben schwarz.
+Beim Start überprüft der `SC DEUTSCH LAUNCHER` automatisch, ob und auf welcher Festplatte Star Citizen installiert ist. Gefundene Installationen werden grün markiert, nicht erkannte Installationen bleiben schwarz.
 
-Falls der Launcher eine Installation nicht automatisch erkennt, weil du Star Citizen in einem anderen Ordner oder auf einer anderen Festplatte installiert hast, kannst du den Pfad manuell angeben:
+Falls der Launcher eine Installation nicht automatisch erkennt, weil du Star Citizen in einem anderen Ordner installiert hast, den unsere App nicht findet, kannst du den Pfad manuell angeben:
 1. Klicke auf den Button der gesuchten Installation (z.B. LIVE), um einen Datei-Explorer zu öffnen.
 2. Navigiere zu dem Ordner, der das Verzeichnis /LIVE enthält (z.B. `D:/Roberts Space Industries/StarCitizen/LIVE)` und wähle "Öffnen".
 3. Die Installation wird nun erkannt, grün markiert und der Pfad gespeichert.
