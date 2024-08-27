@@ -16,7 +16,7 @@ Auf dieser Seite listen wir eigens entwickelte und 3rd Party Tools und Web-Apps 
 ## Automatisches Übersetzungsupdate
 ![SC Deutsch Launcher Download](https://i.imgur.com/lFIqop7.png)
 
-Der **SC DEUTSCH LAUNCHER** ist eine von uns entwickelte kostenfreie App, welche es dir ermöglicht, deine Star Citizen Installation(en) stets Aktuell zu halten und die Sprachen bequem von Englisch auf Deutsch und wieder zurück zu stellen.<br/><br/>
+Der **SC DEUTSCH LAUNCHER** ist eine von uns entwickelte kostenfreie App, welche es dir ermöglicht, die Sprachen deiner Star Citizen Installation(en) bequem von Englisch auf Deutsch und wieder zurück zu stellen. Darüberhinaus erfolgt nach dem Update der Übersetzungsdateien der Start des RSI Launcher.<br/><br/>
 
 [![SC Deutsch Launcher Download Installer](https://i.imgur.com/mIjUAfD.png)](https://www.fwkart.de/sc-deutsch-launcher) [![SC Deutsch Launcher Download Portable](https://i.imgur.com/CyI0QfQ.png)](https://www.fwkart.de/sc-deutsch-launcher-portable)
 - **Version 1.3.0.2 beta (27. August 2024)**
