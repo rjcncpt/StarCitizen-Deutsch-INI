@@ -36,19 +36,19 @@ Der **SC DEUTSCH LAUNCHER** ist eine von uns entwickelte kostenfreie App, welche
 2. Öffne nach der Installation die `SC Deutsch Launcher.exe` und konfiguriere das Programm.
 
 **Portable Version**
-1. Entpacke das Zip und kopiere das `SC Deutsch Launcher`-Verzeichnis an einen Ort deiner Wahl.
+1. Entpacke das Zip und kopiere das **SC Deutsch Launcher**-Verzeichnis an einen Ort deiner Wahl.
 2. Öffne die `SC Deutsch Launcher.exe` und konfiguriere das Programm.<br/><br/>
 
 ### 1. Der erste Start
-Beim erstmaligen Start überprüft der SC DEUTSCH LAUNCHER automatisch, ob und auf welcher Festplatte Star Citizen installiert ist. Gefundene Installationen werden grün markiert, nicht erkannte Installationen bleiben schwarz.
+Beim erstmaligen Start überprüft der **SC DEUTSCH LAUNCHER** automatisch, ob und auf welcher Festplatte Star Citizen installiert ist. Gefundene Installationen werden grün markiert, nicht erkannte Installationen bleiben schwarz.
 
-Falls der SC DEUTSCH LAUNCHER keine Installation(en) automatisch erkennt, weil du Star Citizen in einem anderen Ordner installiert hast, den unsere App nicht findet, kannst du den Pfad manuell angeben:
+Falls der **SC DEUTSCH LAUNCHER** keine Installation(en) automatisch erkennt, weil du Star Citizen in einem anderen Ordner installiert hast, den unsere App nicht findet, kannst du den Pfad manuell angeben:
 1. Klicke auf den Button der gesuchten Installation (z.B. LIVE), um einen Datei-Explorer zu öffnen.
 2. Navigiere zu dem Ordner, der das Verzeichnis /LIVE enthält (z.B. `D:/Roberts Space Industries/StarCitizen/LIVE)` und wähle "Öffnen".
 3. Die Installation wird nun erkannt, grün markiert und der Pfad gespeichert.
 4. Wiederhole diesen Vorgang für alle weiteren Installationen, die du verwenden möchtest.
 
-Zusätzlich bietet der SC DEUTSCH LAUNCHER die Möglichkeit, die Übersetzungsquelle (live oder ptu) für die TECH-PREVIEW und HOTFIX Installation zu wählen.<br/><br/>
+Zusätzlich bietet der **SC DEUTSCH LAUNCHER** die Möglichkeit, die Übersetzungsquelle (live oder ptu) für die TECH-PREVIEW und HOTFIX Installation zu wählen.<br/><br/>
 
 ### 2. Sprachen konfigurieren
 Rechts neben den Buttons für die Spiel-Installationen (z.B. LIVE) kannst du die Sprache auswählen, die in Star Citizen verwendet werden soll. Durch Klicken auf den Button “eng” oder “de” stellst du die gewünschte Sprache ein. Für die LIVE-Version gibt es eine experimentelle Übersetzung (“de (voll)”), die alle Spieltexte ins Deutsche übersetzt. Weitere Informationen dazu findest du unter: https://github.com/rjcncpt/StarCitizen-Deutsch-INI
@@ -59,7 +59,7 @@ Die Spracheinstellungen gelten für alle erkannten Installationen. Die Pfadkonfi
 Wenn du auf “Update & Start” klickst, führt der Launcher automatisch alle notwendigen Dateianpassungen durch und lädt die neuesten Übersetzungsdateien von GitHub herunter. Anschließend wird der RSI-Launcher gestartet. Sollte sich der RSI-Launcher nicht im Standard-Installationspfad befinden, öffnet sich ein Datei-Explorer. Wähle dort die Datei “RSI Launcher.exe” aus, um den Pfad zu speichern.<br/><br/>
 
 ### 4. Automatische Updates und Launcher-Start
-Nach der ersten Konfiguration kannst du den gesamten Prozess, einschließlich Updates und Start des RSI-Launchers, vollständig automatisieren: Nachdem du die `SC DEUTSCH LAUNCHER`-App konfiguriert hast, inklusive der Zuordnung der Sprachdateien, kannst du für zukünftige Starts die `SC Deutsch Launcher (auto)`-Verknüpfung auf deinem Desktop oder im Startmenü verwenden, um den gesamten Vorgang automatisch ausführen zu lassen.<br/><br/>
+Nach der ersten Konfiguration kannst du den gesamten Prozess, einschließlich Updates und Start des RSI-Launchers, vollständig automatisieren: Nachdem du die **SC DEUTSCH LAUNCHER**-App konfiguriert hast, inklusive der Zuordnung der Sprachdateien, kannst du für zukünftige Starts die `SC Deutsch Launcher (auto)`-Verknüpfung auf deinem Desktop oder im Startmenü (oder im **SC Deutsch Launcher**-Verzeichnis für die Portable Version) verwenden, um den gesamten Vorgang automatisch ausführen zu lassen.<br/><br/>
 
 ### 5. Überprüfung nach Updates
 Mit Version 1.3.0.0 haben wir eine InApp Updateüberprüfung integriert. Ist ein App-Update verfügbar, erscheint neben dem "UPDATE & START" Button ein "UPDATE VERFÜGBAR" Button.<br/><br/>
@@ -68,7 +68,7 @@ Mit Version 1.3.0.0 haben wir eine InApp Updateüberprüfung integriert. Ist ein
 
 1. Klicke auf dem Desktop oder im Startmenü mit der rechten Maustaste auf die `SC Deutsch Launcher` und/oder `SC Deutsch Launcher (auto)`-Verknüpfung
 2. Wähle `Eigenschaften` aus
-3. Wähle `Anderes Symbol` ⇾ `Durchsuchen` und navigiere zum **SC DEUTSCH LAUNCHER**-Verzeichnis -> `Ressourcen` -> `Icons` und suche dir ein Icon aus.
+3. Wähle `Anderes Symbol` ⇾ `Durchsuchen` und navigiere zum **SC Deutsch Launcher**-Verzeichnis -> `Ressourcen` -> `Icons` und suche dir ein Icon aus.
 
 Tipp: Verwende die Spiel-Icons. Navigiere zum Star Citizen Ordner, um das SC Icon zu verwenden, oder zum RSI Launcher, um das Launcher Icon zu verwenden.
 
