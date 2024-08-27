@@ -48,8 +48,8 @@ Wir erhalten hin und wieder Nachrichten, wie man das Übersetzer-Team unterstüt
 
 # Anleitung zur Installation
 
-### Variante 1: Automatischer Download - SC Deutsch Launcher (App)
-Der **SC DEUTSCH LAUNCHER** ist eine von uns entwickelte kostenfreie App, welche es dir ermöglicht, deine Star Citizen Installation(en) stets Aktuell zu halten und die Sprachen bequem von Englisch auf Deutsch und wieder zurück zu stellen.
+### Variante 1: Automatisches Update der Übersetzung (SC Deutsch Launcher)
+Der **SC DEUTSCH LAUNCHER** ist eine von uns entwickelte kostenfreie App, welche es dir ermöglicht, die Sprachen deine Star Citizen Installation(en) bequem von Englisch auf Deutsch und wieder zurück zu stellen. Darüberhinaus erfolgt nach dem Update der Übersetzungsdateien der Start des RSI Launcher.
 
 [![SC Deutsch Launcher Download](https://i.imgur.com/lFIqop7.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/docs_tools/apps#automatisches-übersetzungsupdate)
 
