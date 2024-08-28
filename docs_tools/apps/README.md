@@ -24,6 +24,12 @@ Der **SC DEUTSCH LAUNCHER** ist eine von uns entwickelte kostenfreie App, welche
 
 <br/>
 
+| Fehlermeldung | Beschreibung |
+|:--------------|:-------------|
+| <img src="https://www.fwkart.de/apps/scdl/img/fehlermeldung.png" width="350" height="auto"> | Die Fehlermeldung die beim Start angezeigt werden könnte, ist eine Warnung von Windows, dass es sich um eine unbekannte, nicht-signierte App handelt und der Start verhindert wird. Unsere **SC Deutsch Launcher**-App ist aktuell _nicht_ signiert. Eine Signatur würde uns mehrere 100 Euro pro Jahr kosten, die wir nicht aufbringen möchten. Um die App zu starten, klicke auf "Weitere Informationen". |
+
+<br/>
+
 ## Installationsanleitung
 
 > [!IMPORTANT]  
