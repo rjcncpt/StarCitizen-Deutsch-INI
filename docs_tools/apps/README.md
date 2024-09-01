@@ -66,9 +66,11 @@ Nach der ersten Konfiguration kannst du den gesamten Prozess, einschließlich Up
 Mit Version 1.3.0.0 haben wir eine InApp Updateüberprüfung integriert. Ist ein App-Update verfügbar, erscheint neben dem "PROZESS STARTEN" Button ein "UPDATE VERFÜGBAR" Button.<br/><br/>
 
 ### 6. Das Icon ändern
-1. Klicke auf dem Desktop oder im Startmenü mit der rechten Maustaste auf die `SC Deutsch Launcher` und/oder `SC Deutsch Launcher (auto)`-Verknüpfung
-2. Wähle `Eigenschaften` aus
-3. Wähle `Anderes Symbol` ⇾ `Durchsuchen` und navigiere zum **SC Deutsch Launcher**-Verzeichnis -> `Ressourcen` -> `Icons` und suche dir ein Icon aus.<br/><br/>
+1. Erstelle von der `SC Deutsch Launcher.exe` eine Verknüpfung
+2. Rechtsklick auf die soeben erstellte Verknüpfung
+3. Wähle `Eigenschaften`
+4. Wähle `Anderes Symbol` -> `Durchsuchen`
+5. Navigiere zum `SC Deutsch Launcher`-Verzeichnis -> `Resources` -> `Icons` und suche dir ein Icon aus.<br/><br/>
 
 ### Disclaimer
 Der SC Deutsch Launcher beeinträchtigt in keiner Weise die Dateien oder den Speicher von Star Citizen. Wir halten uns an die Nutzungsvereinbarung von Cloud Imperium Games und Star Citizen und versuchen nicht das Spielgleichgewicht zu stören. Der SC Deutsch Launcher ist ein Community-Projekt und kein offizielles Produkt von Cloud Imperium Games.
