@@ -59,11 +59,11 @@ Die Spracheinstellungen gelten für alle erkannten Installationen. Die Pfadkonfi
 ### 3. Update & Start
 Wenn du auf “PROZESS STARTEN” klickst, führt der Launcher automatisch alle notwendigen Dateianpassungen durch und lädt die neuesten Übersetzungsdateien von GitHub herunter. Anschließend wird der RSI-Launcher gestartet. Sollte sich der RSI-Launcher nicht im Standard-Installationspfad befinden, öffnet sich ein Datei-Explorer. Wähle dort die Datei “RSI Launcher.exe” aus, um den Pfad zu speichern.<br/><br/>
 
-### 4. Automatische Updates und Launcher-Start
-Nach der ersten Konfiguration kannst du den gesamten Prozess, einschließlich Updates und Start des RSI-Launchers, vollständig automatisieren: Nachdem du die **SC DEUTSCH LAUNCHER**-App konfiguriert hast, inklusive der Zuordnung der Sprachdateien, kannst du für zukünftige Starts die `SC Deutsch Launcher (auto)`-Verknüpfung auf deinem Desktop oder im Startmenü (oder im **SC Deutsch Launcher**-Verzeichnis für die Portable Version) verwenden, um den gesamten Vorgang automatisch ausführen zu lassen.<br/><br/>
-
-### 5. Überprüfung nach Updates
+### 4. Überprüfung nach Updates
 Mit Version 1.3.0.0 haben wir eine InApp Updateüberprüfung integriert. Ist ein App-Update verfügbar, erscheint neben dem "PROZESS STARTEN" Button ein "UPDATE VERFÜGBAR" Button.<br/><br/>
+
+### 5. Automatische Updates und Launcher-Start
+Nach der ersten Konfiguration kannst du den gesamten Prozess, einschließlich Updates und den Start des RSI Launchers, vollständig automatisieren. Erstelle von der `SC Deutsch Launcher.exe` eine Verknüpfung, klicke mit rechter Maustaste auf die Verknüpfung -> `Eigenschaften` und füge in der Zeile `Ziel` hinter dem letzten Gänsefüßchen "**` update`** hinzu. Übernehmen und OK.<br/><br/>
 
 ### 6. Das Icon ändern
 1. Erstelle von der `SC Deutsch Launcher.exe` eine Verknüpfung
