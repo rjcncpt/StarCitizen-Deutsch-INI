@@ -57,7 +57,7 @@ Rechts neben den Buttons für die Spiel-Installationen (z.B. LIVE) kannst du die
 Die Spracheinstellungen gelten für alle erkannten Installationen. Die Pfadkonfiguration, Anpassungen der user.cfg-Datei und Updates der Sprachdateien werden automatisch im nächsten Schritt vorgenommen.<br/><br/>
 
 ### 3. Update & Start
-Wenn du auf “PROZESS STARTEN” klickst, führt der Launcher automatisch alle notwendigen Dateianpassungen durch und lädt die neuesten Übersetzungsdateien von GitHub herunter. Anschließend wird der RSI-Launcher gestartet. Sollte sich der RSI-Launcher nicht im Standard-Installationspfad befinden, öffnet sich ein Datei-Explorer. Wähle dort die Datei “RSI Launcher.exe” aus, um den Pfad zu speichern.<br/><br/>
+Wenn du auf “PROZESS STARTEN” klickst, führt der Launcher automatisch alle notwendigen Dateianpassungen durch und lädt die neuesten Übersetzungsdateien von GitHub herunter. Anschließend wird der RSI-Launcher gestartet. Sollte der RSI Launcher nicht gestartet werden, öffnet sich ein Datei-Explorer. Navigiere zum "RSI Launcher"-Pfad und wähle dort die `RSI Launcher.exe` aus, um den Pfad zu speichern.<br/><br/>
 
 ### 4. Überprüfung nach Updates
 Mit Version 1.3.0.0 haben wir eine InApp Updateüberprüfung integriert. Ist ein App-Update verfügbar, erscheint neben dem "PROZESS STARTEN" Button ein "UPDATE VERFÜGBAR" Button.<br/><br/>
