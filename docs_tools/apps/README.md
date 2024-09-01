@@ -62,7 +62,7 @@ Wenn du auf “PROZESS STARTEN” klickst, führt der Launcher automatisch alle 
 ### 4. Überprüfung nach Updates
 Mit Version 1.3.0.0 haben wir eine InApp Updateüberprüfung integriert. Ist ein App-Update verfügbar, erscheint neben dem "PROZESS STARTEN" Button ein "UPDATE VERFÜGBAR" Button.<br/><br/>
 
-### 5. Automatische Updates und Launcher-Start
+### 5. Automatische Updates und RSI-Launcher-Start
 Nach der ersten Konfiguration kannst du den gesamten Prozess, einschließlich Updates und den Start des RSI Launchers, vollständig automatisieren. Erstelle von der `SC Deutsch Launcher.exe` eine Verknüpfung, klicke mit rechter Maustaste auf die Verknüpfung -> `Eigenschaften` und füge in der Zeile `Ziel` hinter dem letzten Gänsefüßchen "**` update`** hinzu. Übernehmen und OK.<br/><br/>
 
 ### 6. Das Icon ändern
