@@ -57,18 +57,20 @@ Rechts neben den Buttons für die Spiel-Installationen (z.B. LIVE) kannst du die
 Die Spracheinstellungen gelten für alle erkannten Installationen. Die Pfadkonfiguration, Anpassungen der user.cfg-Datei und Updates der Sprachdateien werden automatisch im nächsten Schritt vorgenommen.<br/><br/>
 
 ### 3. Update & Start
-Wenn du auf “PROZESS STARTEN” klickst, führt der Launcher automatisch alle notwendigen Dateianpassungen durch und lädt die neuesten Übersetzungsdateien von GitHub herunter. Anschließend wird der RSI-Launcher gestartet. Sollte sich der RSI-Launcher nicht im Standard-Installationspfad befinden, öffnet sich ein Datei-Explorer. Wähle dort die Datei “RSI Launcher.exe” aus, um den Pfad zu speichern.<br/><br/>
+Wenn du auf “PROZESS STARTEN” klickst, führt der Launcher automatisch alle notwendigen Dateianpassungen durch und lädt die neuesten Übersetzungsdateien von GitHub herunter. Anschließend wird der RSI-Launcher gestartet. Sollte der RSI Launcher nicht gestartet werden, öffnet sich ein Datei-Explorer. Navigiere zum "RSI Launcher"-Pfad und wähle dort die `RSI Launcher.exe` aus, um den Pfad zu speichern.<br/><br/>
 
-### 4. Automatische Updates und Launcher-Start
-Nach der ersten Konfiguration kannst du den gesamten Prozess, einschließlich Updates und Start des RSI-Launchers, vollständig automatisieren: Nachdem du die **SC DEUTSCH LAUNCHER**-App konfiguriert hast, inklusive der Zuordnung der Sprachdateien, kannst du für zukünftige Starts die `SC Deutsch Launcher (auto)`-Verknüpfung auf deinem Desktop oder im Startmenü (oder im **SC Deutsch Launcher**-Verzeichnis für die Portable Version) verwenden, um den gesamten Vorgang automatisch ausführen zu lassen.<br/><br/>
-
-### 5. Überprüfung nach Updates
+### 4. Überprüfung nach Updates
 Mit Version 1.3.0.0 haben wir eine InApp Updateüberprüfung integriert. Ist ein App-Update verfügbar, erscheint neben dem "PROZESS STARTEN" Button ein "UPDATE VERFÜGBAR" Button.<br/><br/>
 
+### 5. Automatische Updates und RSI-Launcher-Start
+Nach der ersten Konfiguration kannst du den gesamten Prozess, einschließlich Updates und den Start des RSI Launchers, vollständig automatisieren. Erstelle von der `SC Deutsch Launcher.exe` eine Verknüpfung, klicke mit rechter Maustaste auf die Verknüpfung -> `Eigenschaften` und füge in der Zeile `Ziel` hinter dem letzten Gänsefüßchen "**` update`** hinzu. Übernehmen und OK.<br/><br/>
+
 ### 6. Das Icon ändern
-1. Klicke auf dem Desktop oder im Startmenü mit der rechten Maustaste auf die `SC Deutsch Launcher` und/oder `SC Deutsch Launcher (auto)`-Verknüpfung
-2. Wähle `Eigenschaften` aus
-3. Wähle `Anderes Symbol` ⇾ `Durchsuchen` und navigiere zum **SC Deutsch Launcher**-Verzeichnis -> `Ressourcen` -> `Icons` und suche dir ein Icon aus.<br/><br/>
+1. Erstelle von der `SC Deutsch Launcher.exe` eine Verknüpfung
+2. Rechtsklick auf die soeben erstellte Verknüpfung
+3. Wähle `Eigenschaften`
+4. Wähle `Anderes Symbol` -> `Durchsuchen`
+5. Navigiere zum `SC Deutsch Launcher`-Verzeichnis -> `Resources` -> `Icons` und suche dir ein Icon aus.<br/><br/>
 
 ### Disclaimer
 Der SC Deutsch Launcher beeinträchtigt in keiner Weise die Dateien oder den Speicher von Star Citizen. Wir halten uns an die Nutzungsvereinbarung von Cloud Imperium Games und Star Citizen und versuchen nicht das Spielgleichgewicht zu stören. Der SC Deutsch Launcher ist ein Community-Projekt und kein offizielles Produkt von Cloud Imperium Games.
