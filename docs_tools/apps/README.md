@@ -39,7 +39,7 @@ Eine Filter- und Suchfunktion, die es ermöglicht, den Text, den du als fehlerha
 ![image](https://i.imgur.com/vr8AGqA.png)
 
 ### Webseite
-Hier geht es zur App: [https://fwkart.de/apps/ini-file-viewer/](https://fwkart.de/apps/ini-file-viewer/)
+Hier geht es zur App: [https://www.sc-deutsch-launcher.de/apps/ini-file-viewer/](https://www.sc-deutsch-launcher.de/apps/ini-file-viewer/)
 
 --------------------------------------------------------
 <br/><br/><br/><br/>
