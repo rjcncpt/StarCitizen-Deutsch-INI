@@ -28,7 +28,8 @@ Der **SC DEUTSCH LAUNCHER** ist eine von uns entwickelte kostenfreie App, welche
 
 Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest und stattdessen alles manuell erledigen willst, haben wir eine benutzerfreundliche Webapp entwickelt. Diese Webapp bietet dir die Möglichkeit, die aktuellen Releases für LIVE und PTU bequem als Zip-Archiv herunterzuladen, ohne dich durch GitHub-Seiten klicken zu müssen. Über ein Dropdown-Menü kannst du einfach auswählen, ob du den neuesten LIVE- oder PTU-Release herunterladen möchtest.<br/><br/>
 
-Zur Webapp: https://www.sc-deutsch-launcher.de/apps/sc_release/
+Zur Webapp: https://www.sc-deutsch-launcher.de/apps/sc_release/ <br/>
+Youtube Tutorial (Ab 0:15 Sekunden): https://youtu.be/_0H4Kc7s3Z4?si=wAe1GN7ylMPy4eCG&t=15
 
 --------------------------------------------------------
 <br/><br/><br/><br/>
