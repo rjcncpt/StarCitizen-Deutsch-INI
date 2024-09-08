@@ -23,6 +23,16 @@ Der **SC DEUTSCH LAUNCHER** ist eine von uns entwickelte kostenfreie App, welche
 --------------------------------------------------------
 <br/><br/><br/><br/>
 
+## Manueller Download über Webapp
+![SC Deutsch Launcher Download](https://www.sc-deutsch-launcher.de/img/sprachdatei-downloader-webapp.webp)
+
+Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest und stattdessen alles manuell erledigen willst, haben wir eine benutzerfreundliche Webapp entwickelt. Diese Webapp bietet dir die Möglichkeit, die aktuellen Releases für LIVE und PTU bequem als Zip-Archiv herunterzuladen, ohne dich durch GitHub-Seiten klicken zu müssen. Über ein Dropdown-Menü kannst du einfach auswählen, ob du den neuesten LIVE- oder PTU-Release herunterladen möchtest.<br/><br/>
+
+Zur Webapp: https://www.sc-deutsch-launcher.de/apps/sc_release/
+
+--------------------------------------------------------
+<br/><br/><br/><br/>
+
 ## INI File Viewer (Web-App)
 Eine Web-App, um bei der Suche nach fehlerhaften Texten zu unterstützen. Dabei wird die aktuelle global.ini-Datei aus dem `/live`-Verzeichnis unseres GitHub-Repositories ausgelesen und alle Einträge untereinander dargestellt.
 
