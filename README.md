@@ -49,7 +49,7 @@ Wir erhalten hin und wieder Nachrichten, wie man das Übersetzer-Team unterstüt
 # Anleitung zur Installation
 
 ### Variante 1: Automatisches Update der Übersetzung (SC Deutsch Launcher)
-Der **SC Deutsch Launcher** bietet eine einfache und benutzerfreundliche Lösung, die Spieltexte von Star Citizen auf Deutsch umzustellen. Unsere kostenfreie App verwaltet sämtliche Dateianpassungen automatisch, stellt sicher, dass stets die aktuellsten deutschen Sprachdateien für Star Citizen von unserem GitHub installiert werden, und startet anschließend den RSI Launcher automatisch für dich.
+Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zur Umstellung der Spieltexte von Star Citizen auf Deutsch. Unsere kostenlose App kümmert sich automatisch um alle Dateianpassungen, stellt sicher, dass immer die aktuellsten deutschen Sprachdateien für Star Citizen von unserem GitHub installiert werden und startet im Anschluss automatisch den RSI Launcher für dich.
 
 [<img src="https://www.sc-deutsch-launcher.de/img/sc-deutsch-launcher-social.webp" width="838">](https://www.sc-deutsch-launcher.de/ "SC Deutsch Launcher Download")
 
@@ -63,7 +63,7 @@ Beim erstmaligen Start überprüft der SC DEUTSCH LAUNCHER automatisch, ob und a
 
 [<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
-Wenn du unseren SC DEUTSCH LAUNCHER nicht verwenden möchtest, kannst du unsere Star Citizen Übersetzung auch händisch installieren.
+Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du unsere Star Citizen Übersetzung auch händisch installieren.
 
 1. **Lade dir die neueste Übersetzung als ZIP-Datei herunter:** <br/>
    Ggf. musst du auf "Assets" klicken um die ZIP-Datei anzuzeigen.<br/><br/>
