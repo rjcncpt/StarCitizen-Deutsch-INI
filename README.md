@@ -53,7 +53,7 @@ Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zu
 
 [<img src="https://www.sc-deutsch-launcher.de/img/sc-deutsch-launcher-social.webp" width="838">](https://www.sc-deutsch-launcher.de/ "SC Deutsch Launcher Download")
 
-Beim erstmaligen Start überprüft der SC DEUTSCH LAUNCHER automatisch, ob und auf welcher Festplatte Star Citizen installiert ist. Gefundene Installationen werden grün markiert, nicht erkannte Installationen bleiben schwarz.
+Beim erstmaligen Start überprüft der **SC Deutsch Launcher** automatisch, ob und auf welcher Festplatte Star Citizen installiert ist. Gefundene Installationen werden grün markiert, nicht erkannte Installationen bleiben schwarz.
 
 [![SC Deutsch Launcher Download Portable](https://www.sc-deutsch-launcher.de/img/herunterladen.png)](https://www.sc-deutsch-launcher.de)
 <br/><br/><br/>
