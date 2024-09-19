@@ -1,6 +1,64 @@
 # Changelog
 Aufgeführt werden ausschließlich die wöchentlichen Major Updates die jeden Freitag erscheinen. Kleinere Updates die aufgespielt werden, bei z.B. kritischen Übersetzungsfehlern, werden dann in der Major Updateliste aufgeführt.
 
+### 3.24.1 LIVE.9324446
+Dieses Update ist für den LIVE Server und beinhaltet 30 neue Zeilen und 32 überarbeitete Zeilen.
+
+--------------------------
+
+### 3.24.1 PTU.9315193
+Dieses Update ist für den PTU Server und beinhaltet 10 neue Zeilen und 32 überarbeitete Zeilen. 
+
+--------------------------
+
+### 3.24.0 LIVE.9296942
+Das neueste Übersetzungsupdate für 3.24.0 LIVE ist verfügbar.
+
+### Details zur Übersetzung
+- 616 neue Zeilen
+- 76 von CIG überarbeite Zeilen
+
+### Fokus der neuen ini-Datei:
+- `Covalex_HaulCargo_` Missionen
+- `FreightElevator_`
+- Neue Items wie Hangar-Gegenstände
+- Neue Standorte
+- Neue UI Texte
+- Etliches an polishing vorhandener Texte
+
+### Bekannte Probleme 
+- es gibt noch in einigen Missionstexten **`der, die, das`** und **`von, nach, bis`** Probleme. Bitte gerne mit Screenshot melden.
+
+--------------------------
+
+### 3.24.0 PTU.9290875
+**22.08.2024**
+
+Dieses Update ist für den PTU Server und beinhaltet 40 Änderungen an bestehenden Quest-Texten. 
+
+#### Community Fixes:
+- `%ls's\nS-Hangar` -> `S-Hangar von\n%ls`
+- `%ls's\nM-Hangar` -> `M-Hangar von\n%ls`
+- `%ls's\nL-Hangar` -> `L-Hangar von\n%ls`
+- `%ls's\nXL-Hangar` -> `XL-Hangar von\n%ls`
+
+#### Polishing
+- `Zeta-Prolanide Standort` -> `Zeta-Prolanide Vorräte:`
+
+--------------------------
+
+### 3.24.0 PTU.9286717
+Dieses Update ist für die PTU Server und beinhaltet 13 neue Zeilen.
+
+#### Neue Zeilen:
+- Texte für neue 1, 2, 4, 8 SCU Container
+- Texte für Sessel, Couch und Tisch
+
+#### Polishing
+- `Livery` -> `Paint`
+
+--------------------------
+
 ### 3.24.0 PTU.9266874
 Das neueste Übersetzungsupdate für 3.24.0 PTU ist verfügbar.
 
