@@ -250,7 +250,7 @@ Diese Übersetzung ist komplett unabhängig und in erster Linie ein Community-Pr
 
 <br />
 
-Für weitere Hilfe trete gerne unserem [Discord Server](https://discord.gg/5VZsTk3qjR) bei, bei dem dir die Community oder das Team gerne helfen.
+Für weitere Hilfe trete gerne unserem [Discord Server](https://discord.gg/5VZsTk3qjR) bei, auf dem dir die Community oder das Team gerne helfen.
 
 <br/>
 
