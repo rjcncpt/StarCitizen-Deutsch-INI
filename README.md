@@ -166,7 +166,7 @@ Es gab bereits öfters den Fall, dass das Spiel Englisch bleibt, obwohl die Übe
 1. Öffne deinen Star Citizen Ordner im Datei Explorer (Standard: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`).
 2. Wenn innerhalb des LIVE Ordners ein weiterer Star Citizen Ordner existiert, wird dies die aktuelle Installation sein
 3. (Um sich den Download zu sparen) Kopiere die Data.p4k von `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\StarCitizen\LIVE` zu `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`
-4. Lösche den Star Citizen Ordner im LIVE Ordner.
+4. Beachte die folgende Warnung und lösche danach den doppelten Star Citizen Ordner.
 
 > **WARNUNG**<br/>
 > Nutzt du eine eigene `user.cfg` Datei mit eigenen Anpassungen, lösche deine Datei auf keinen Fall und kopiere sie in den richtigen Ordner<br/>
