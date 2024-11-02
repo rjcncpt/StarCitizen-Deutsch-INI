@@ -167,9 +167,11 @@ Es gab bereits öfters den Fall, dass das Spiel Englisch bleibt, obwohl die Übe
 2. Wenn innerhalb des LIVE Ordners ein weiterer Star Citizen Ordner existiert, wird dies die aktuelle Installation sein
 3. (Um sich den Download zu sparen) Kopiere die Data.p4k von `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\StarCitizen\LIVE` zu `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`
 4. Lösche den Star Citizen Ordner im LIVE Ordner.
+
 > [!WARNING]
 > **Nutzt du eine eigene `user.cfg` Datei mit eigenen Anpassungen, lösche deine Datei auf keinen Fall und kopiere sie in den richtigen Ordner** <br/>
 > Vergiss auch nicht etwaige Charakter Dateien in den richtigen Ordner zu verschieben.
+
 5. Öffne den Star Citizen Ordner und drücke auf das Zahnrad neben dem Patch und wähle `Game Settings`
 6. Wähle unter `Game location` den Robert Space Industries Ordner (Standard: `C:\Program Files\Roberts Space Industries\`)
 7. Einmal `VERIFY GAME`
