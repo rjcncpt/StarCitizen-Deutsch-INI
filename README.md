@@ -158,6 +158,33 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 ## Fragen und Antworten
 
 <details>
+<summary>[Klick] Fehler: Das Spiel ist noch komplett auf Englisch</summary>
+<br/>
+Es gab bereits öfters den Fall, dass das Spiel Englisch bleibt, obwohl die Übersetzung manuell oder automatisch über den Launcher eingestellt wurde. Meistens liegt dies an einem doppelten Star Citizen Ordner.
+<br/><br/>
+
+1. Öffne deinen Star Citizen Ordner im Datei Explorer (Standard: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`).
+2. Wenn innerhalb des LIVE Ordners ein weiterer Star Citizen Ordner existiert, wird dies die aktuelle Installation sein
+3. (Um sich den Download zu sparen) Kopiere die Data.p4k von `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\StarCitizen\LIVE` zu `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`
+4. Beachte die folgende Warnung und lösche danach den doppelten Star Citizen Ordner.
+
+> **WARNUNG**<br/>
+> Nutzt du eine eigene `user.cfg` Datei mit eigenen Anpassungen, lösche deine Datei auf keinen Fall und kopiere sie in den richtigen Ordner<br/>
+> Vergiss auch nicht etwaige Charakter Dateien in den richtigen Ordner zu verschieben.
+
+5. Öffne den Star Citizen Ordner und drücke auf das Zahnrad neben dem Patch und wähle `Game Settings`
+6. Wähle unter `Game location` den Robert Space Industries Ordner (Standard: `C:\Program Files\Roberts Space Industries\`)
+7. Einmal `VERIFY GAME`
+8. Starte den SC Deutsch Launcher, klicke auf LIVE und wähle den LIVE Ordner (sollte bereits automatisch erkannt werden)
+9. Klicke auf den `Update und Start` bzw. `Update` Button
+
+Das Spiel sollte nun auf Englisch sein.
+
+---
+
+</details>
+
+<details>
 <summary>[Klick] Fehler: Das Bild wird plötzlich rot eingefärbt</summary>
 <br/>
 Wir haben Berichte erhalten, dass das Bild an verschiedenen Standorten plötzlich rot eingefärbt wird. Dieser Fehler konnte auf eine fehlerhafte `user.cfg` Datei zurückgeführt werden. Um dieses Problem zu beheben, vergewissere dich, dass die folgenden zwei Zeilen in deiner Datei Datei eingetragen sind:
@@ -220,6 +247,10 @@ Diese Übersetzung ist komplett unabhängig und in erster Linie ein Community-Pr
 ---
 
 </details>
+
+<br />
+
+Für weitere Hilfe trete gerne unserem [Discord Server](https://discord.gg/5VZsTk3qjR) bei, auf dem dir die Community oder das Team gerne helfen.
 
 <br/>
 
