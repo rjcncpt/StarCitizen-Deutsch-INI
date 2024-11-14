@@ -163,8 +163,8 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 Manchmal bleibt das Spiel auf Englisch, obwohl die Übersetzung manuell oder automatisch über den SC Deutsch Launcher eingestellt wurde. Häufig ist die Ursache hierfür ein doppelter StarCitizen-Ordner auf dem System.
 <br/><br/>
 
-1. Öffne deinen Star Citizen Ordner im Datei Explorer (Standard-Pfad: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`).
-2. Wenn innerhalb des LIVE Ordners ein weiterer StarCitizen Ordner existiert, wird dies die aktuelle Installation sein
+1. Öffne deinen StarCitizen-Ordner im Datei Explorer (Standard-Pfad: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`).
+2. Wenn innerhalb des LIVE Ordners ein weiterer StarCitizen-Ordner existiert, wird dies die aktuelle Installation sein
 3. Markiere alle Dateien im doppelten StarCitizen-Ordner `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\StarCitizen\LIVE` und schneide diese aus.
 4. Gehe eine Ordner-Ebene zurück und füge alle Dateien hier ein. Lösche anschließend den doppelten StarCitizen-Ordner.
 
