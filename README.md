@@ -160,23 +160,20 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 <details>
 <summary>[Klick] Fehler: Das Spiel ist noch komplett auf Englisch</summary>
 <br/>
-Es gab bereits öfters den Fall, dass das Spiel Englisch bleibt, obwohl die Übersetzung manuell oder automatisch über den Launcher eingestellt wurde. Meistens liegt dies an einem doppelten Star Citizen Ordner.
+Manchmal bleibt das Spiel auf Englisch, obwohl die Übersetzung manuell oder automatisch über den SC Deutsch Launcher eingestellt wurde. Häufig ist die Ursache hierfür ein doppelter Star-Citizen-Ordner auf dem System.
 <br/><br/>
 
-1. Öffne deinen Star Citizen Ordner im Datei Explorer (Standard: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`).
-2. Wenn innerhalb des LIVE Ordners ein weiterer Star Citizen Ordner existiert, wird dies die aktuelle Installation sein
-3. (Um sich den Download zu sparen) Kopiere die Data.p4k von `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\StarCitizen\LIVE` zu `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`
-4. Beachte die folgende Warnung und lösche danach den doppelten Star Citizen Ordner.
+1. Öffne deinen Star Citizen Ordner im Datei Explorer (Standard-Pfad: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`).
+2. Wenn innerhalb des LIVE Ordners ein weiterer StarCitizen Ordner existiert, wird dies die aktuelle Installation sein
+3. Markiere alle Dateien im doppelten StarCitizen-Ordner `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\StarCitizen\LIVE` und schneide diese aus.
+4. Gehe eine Ordner-Ebene zurück und füge alle Dateien hier ein. Lösche anschließend den doppelten StarCitizen-Ordner.
 
-> **WARNUNG**<br/>
-> Nutzt du eine eigene `user.cfg` Datei mit eigenen Anpassungen, lösche deine Datei auf keinen Fall und kopiere sie in den richtigen Ordner<br/>
-> Vergiss auch nicht etwaige Charakter Dateien in den richtigen Ordner zu verschieben.
-
-5. Öffne den Star Citizen Ordner und drücke auf das Zahnrad neben dem Patch und wähle `Game Settings`
+### Spieldateien neu Verifizieren
+5. Öffne den RSI-Launcher und drücke auf das Zahnrad neben dem Patch und wähle `Game Settings`
 6. Wähle unter `Game location` den Robert Space Industries Ordner (Standard: `C:\Program Files\Roberts Space Industries\`)
-7. Einmal `VERIFY GAME`
+7. Einmal `VERIFY GAME` klicken
 8. Starte den SC Deutsch Launcher, klicke auf LIVE und wähle den LIVE Ordner (sollte bereits automatisch erkannt werden)
-9. Klicke auf den `Update und Start` bzw. `Update` Button
+9. Klicke auf den `Update und Start` bzw. `Update Übersetzung` Button
 
 Das Spiel sollte nun auf Englisch sein.
 
