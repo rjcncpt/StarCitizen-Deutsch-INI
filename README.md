@@ -160,7 +160,7 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 <details>
 <summary>[Klick] Fehler: Das Spiel ist noch komplett auf Englisch</summary>
 <br/>
-Manchmal bleibt das Spiel auf Englisch, obwohl die Übersetzung manuell oder automatisch über den SC Deutsch Launcher eingestellt wurde. Häufig ist die Ursache hierfür ein doppelter Star-Citizen-Ordner auf dem System.
+Manchmal bleibt das Spiel auf Englisch, obwohl die Übersetzung manuell oder automatisch über den SC Deutsch Launcher eingestellt wurde. Häufig ist die Ursache hierfür ein doppelter StarCitizen-Ordner auf dem System.
 <br/><br/>
 
 1. Öffne deinen Star Citizen Ordner im Datei Explorer (Standard-Pfad: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`).
