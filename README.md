@@ -166,7 +166,7 @@ Manchmal bleibt das Spiel auf Englisch, obwohl die Übersetzung manuell oder aut
 1. Öffne deinen StarCitizen-Ordner im Datei Explorer (Standard-Pfad: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`).
 2. Wenn innerhalb des LIVE Ordners ein weiterer StarCitizen-Ordner existiert, wird dies die aktuelle Installation sein
 3. Markiere alle Dateien im doppelten StarCitizen-Ordner `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\StarCitizen\LIVE` und schneide diese aus.
-4. Gehe eine Ordner-Ebene zurück und füge alle Dateien hier ein. Lösche anschließend den doppelten StarCitizen-Ordner.
+4. Gehe zwei Ordner-Ebene zurück `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE` und füge alle Dateien hier ein. Lösche anschließend den doppelten StarCitizen-Ordner.
 
 ### Spieldateien neu Verifizieren
 5. Öffne den RSI-Launcher und drücke auf das Zahnrad neben dem Patch und wähle `Game Settings`
