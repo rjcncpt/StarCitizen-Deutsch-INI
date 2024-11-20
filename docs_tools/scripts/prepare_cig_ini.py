@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import codecs
 import re
 import subprocess
@@ -12,13 +11,13 @@ argument_data = "C:/Program Files/Roberts Space Industries/StarCitizen/EPTU/Data
 # The following paths are internally used and do not need to be edited, but can be edited
 data_path = "Data"  # Temporary directory used by unp4k, that will be deleted at the end of the script
 input_file_path = data_path + "/Localization/english/global.ini"  # Relative path to the extracted global.ini. Also used als filter argument for unp4k.
+#input_file_path = data_path + "/Localization/german_(germany)/global.ini"  # Relative path to the extracted global.ini. Also used als filter argument for unp4k.
 output_file_path = "global.ini"  # Path where the fixed global.ini will be saved
 
 # Define your replacements here
 replacements = {
     "Oxygen_Screen_ ErrorButtonMessage=": "Oxygen_Screen_ErrorButtonMessage=",
     "Tut03_Part01_Obj01b_ToStation =": "Tut03_Part01_Obj01b_ToStation=",
-    "ea_ui_matchmaking_error_CanceledByService =": "ea_ui_matchmaking_error_CanceledByService=",
     "seachbody_obj_short_02a=": "searchbody_obj_short_02a=",
     "shop_ui_transactionResult_04 _InvalidPlayerInventoryId=": "shop_ui_transactionResult_04_InvalidPlayerInventoryId=",
     "shop_ui_transactionResult_05 _InventoryContainerRequestFail=": "shop_ui_transactionResult_05_InventoryContainerRequestFail=",
@@ -27,7 +26,9 @@ replacements = {
     "~misssion(Item)": "~mission(Item)",
     "~mission (description)": "~mission(description)",
     "~mission (title)": "~mission(title)",
-    "~mission (item)": "~mission(item)"
+    "~mission (item)": "~mission(item)",
+    "vehicl_DescMISC_Hull_B": "vehicle_DescMISC_Hull_B",
+    "Event_ShipTItle_TheGladius": "Event_ShipTitle_TheGladius"
 }
 
 
@@ -64,12 +65,7 @@ def fix_ini(input_file_path, output_file_path):
     :param output_file_path: The path to the output fixed INI file.
     :return: None
 
-    The method reads the content of the input INI file, replaces specific characters, and writes the fixed content to the output file. It also logs the success or failure of the operation
-    *.
-
-    Example usage:
-
-    fix_ini("input.ini", "output.ini")
+    The method reads the content of the input INI file, replaces specific characters, and writes the fixed content to the output file. It also logs the success or failure of the operation.
     """
     try:
         with open(input_file_path, "rb") as file:
@@ -85,8 +81,43 @@ def fix_ini(input_file_path, output_file_path):
 
         logging.info("Successfully fixed variables and wrote file as UTF-8-BOM to %s", output_file_path)
 
+        # Move Frontend_PU_Version,P= to the top of the file
+        move_frontend_pu_version_to_top(output_file_path)
+
     except Exception as e:
         logging.error("An error occurred while fixing the INI file: %s", str(e))
+
+
+# Moves the line "Frontend_PU_Version,P=" to the top of the file
+def move_frontend_pu_version_to_top(file_path):
+    """
+    Moves the line "Frontend_PU_Version,P=" to the top of the specified file.
+
+    :param file_path: The path to the file.
+    :return: None
+    """
+    try:
+        with codecs.open(file_path, 'r', 'utf-8-sig') as infile:
+            lines = infile.readlines()
+
+        frontend_line = None
+        new_lines = []
+
+        for index, line in enumerate(lines):
+            if line.strip().startswith("Frontend_PU_Version,P="):
+                frontend_line = lines.pop(index)
+                break
+
+        if frontend_line:
+            new_lines.insert(0, frontend_line)
+
+            with codecs.open(file_path, 'w', 'utf-8-sig') as outfile:
+                outfile.write("".join(new_lines + lines))
+        else:
+            logging.warning("Line 'Frontend_PU_Version,P=' not found in %s", file_path)
+
+    except Exception as e:
+        logging.error("An error occurred while moving 'Frontend_PU_Version,P=' to the top: %s", str(e))
 
 
 def delete_dir(dir_path):
@@ -115,6 +146,10 @@ def delete_dir(dir_path):
         logging.error("An error occurred while deleting the directory %s: %s", dir_path, str(e))
 
 
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Execute the script
 run_exe(exe_path, [argument_data, input_file_path])
 fix_ini(input_file_path, output_file_path)
 delete_dir(data_path)
