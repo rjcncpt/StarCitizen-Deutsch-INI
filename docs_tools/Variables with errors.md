@@ -13,7 +13,7 @@
 | `~mission (description)`                                       | `~mission(description)`                                                                |
 | `~mission (title)`                                             | `~mission(title)`                                                                      |
 | `~mission (item)`                                              | `~mission(item)`                                                                       |
-| `vehicel_DescANVL_Valkyrie=`                                   | `vehicle_DescANVL_Valkyrie=`                                                                       |
+
 | `vehicl_DescMISC_Hull_B=`                                      | `vehicle_DescMISC_Hull_B=`                                                                       |
 
 
