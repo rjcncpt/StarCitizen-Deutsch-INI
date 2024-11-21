@@ -13,8 +13,8 @@
 | `~mission (description)`                                       | `~mission(description)`                                                                |
 | `~mission (title)`                                             | `~mission(title)`                                                                      |
 | `~mission (item)`                                              | `~mission(item)`                                                                       |
-
-| `vehicl_DescMISC_Hull_B=`                                      | `vehicle_DescMISC_Hull_B=`                                                                       |
+| `vehicl_DescMISC_Hull_B`                                       | `vehicle_DescMISC_Hull_B`                                                              |
+| `Event_ShipTItle_TheGladius`                                   | `Event_ShipTitle_TheGladius`                                                           |
 
 
 # Missing variables
