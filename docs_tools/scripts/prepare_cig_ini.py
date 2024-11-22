@@ -114,7 +114,7 @@ def move_frontend_pu_version_to_top(file_path):
         new_lines = []
 
         for index, line in enumerate(lines):
-            if line.strip().startswith("Frontend_PU_Version,P="):
+            if line.strip().startswith("Frontend_PU_Version="):
                 frontend_line = lines.pop(index)
                 break
 
@@ -124,10 +124,10 @@ def move_frontend_pu_version_to_top(file_path):
             with codecs.open(file_path, 'w', 'utf-8-sig') as outfile:
                 outfile.write("".join(new_lines + lines))
         else:
-            logging.warning("Line 'Frontend_PU_Version,P=' not found in %s", file_path)
+            logging.warning("Line 'Frontend_PU_Version=' not found in %s", file_path)
 
     except Exception as e:
-        logging.error("An error occurred while moving 'Frontend_PU_Version,P=' to the top: %s", str(e))
+        logging.error("An error occurred while moving 'Frontend_PU_Version=' to the top: %s", str(e))
 
 
 def delete_dir(dir_path):
