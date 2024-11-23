@@ -1,4 +1,24 @@
-from configparser import ConfigParser
+from configparser import ConfigParser, Error as configparserError, DuplicateOptionError
+import sys
+
+
+def parse_error(file_path: str, error: configparserError):
+    """
+    Parses an error and generates an error message. Stops the execution with error code 1.
+
+    :param file_path: Path to a inifile (just for better output)
+    :param error: The error thrown by the ConfigParser
+    """
+
+    if type(error) == DuplicateOptionError:
+        print(
+            f"Fehler in '{file_path}': Der Key '{error.args[1]}' exisitert bereits.",
+            file=sys.stderr,
+        )
+    else:
+        print(f"Fehler in '{file_path}': '{error.message}'", file=sys.stderr)
+
+    exit(1)
 
 
 def keys_in_second_ini(first_file, second_file):
@@ -8,18 +28,24 @@ def keys_in_second_ini(first_file, second_file):
     :return: True if all keys in the first ini file are present in the second ini file, False otherwise.
     """
     # Parse the two ini files
-    first_ini = ConfigParser(allow_no_value=True, delimiters=("="))
-    with open(first_file, "r", encoding="UTF-8-SIG") as file:
-        first_ini.read_string("[DEFAULT]\n" + file.read())
+    try:
+        first_ini = ConfigParser(allow_no_value=True, delimiters=("="))
+        with open(first_file, "r", encoding="UTF-8-SIG") as file:
+            first_ini.read_string("[DEFAULT]\n" + file.read())
+    except configparserError as e:
+        parse_error(first_file, e)
 
-    second_ini = ConfigParser(allow_no_value=True, delimiters=("="))
-    with open(second_file, "r", encoding="UTF-8-SIG") as file:
-        second_ini.read_string("[DEFAULT]\n" + file.read())
+    try:
+        second_ini = ConfigParser(allow_no_value=True, delimiters=("="))
+        with open(second_file, "r", encoding="UTF-8-SIG") as file:
+            second_ini.read_string("[DEFAULT]\n" + file.read())
+    except configparserError as e:
+        parse_error(second_file, e)
 
     # Check that all keys in the first ini are present in the second
     for key in first_ini.defaults():
         if key not in second_ini.defaults():
-            print(f"Key \"{key}\" missing from {second_file}.")
+            print(f"Key '{key}' missing from {second_file}.")
             return False
     return True
 
