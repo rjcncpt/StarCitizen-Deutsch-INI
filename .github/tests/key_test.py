@@ -12,11 +12,10 @@ def parse_error(file_path: str, error: configparserError):
 
     if type(error) == DuplicateOptionError:
         sys.exit(
-            f"Fehler in '{file_path}': Der Key '{error.args[1]}' exisitert bereits.",
-            file=sys.stderr,
+            f"Fehler in '{file_path}': Der Key '{error.args[1]}' exisitert bereits."
         )
     else:
-        sys.exit(f"Fehler in '{file_path}': '{error.message}'", file=sys.stderr)
+        sys.exit(f"Fehler in '{file_path}': '{error.message}'")
 
     # exit(1)
 
