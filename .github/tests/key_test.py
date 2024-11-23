@@ -4,15 +4,14 @@ import sys
 
 def parse_error(file_path: str, error: configparserError):
     """
-    Parses an error and generates an error message. Stops the execution with error code 1.
+    Parses an error and generates an error message. Stops the execution with error.
 
     :param file_path: Path to a (ini) file (just for better output)
     :param error: The error thrown by the ConfigParser
     """
-
     if type(error) == DuplicateOptionError:
         sys.exit(
-            f"**Fehler in '{file_path}': Der Key '{error.args[1]}' in Zeile {error.args[3]-1} exisitert bereits.**"
+            f"Fehler in '{file_path}': Der Key '{error.args[1]}' in Zeile {error.args[3]-1} exisitert bereits."
         )
     else:
         sys.exit(f"Fehler in '{file_path}': '{error.message}'")
