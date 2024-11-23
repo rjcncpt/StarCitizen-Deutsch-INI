@@ -11,14 +11,14 @@ def parse_error(file_path: str, error: configparserError):
     """
 
     if type(error) == DuplicateOptionError:
-        print(
+        sys.exit(
             f"Fehler in '{file_path}': Der Key '{error.args[1]}' exisitert bereits.",
             file=sys.stderr,
         )
     else:
-        print(f"Fehler in '{file_path}': '{error.message}'", file=sys.stderr)
+        sys.exit(f"Fehler in '{file_path}': '{error.message}'", file=sys.stderr)
 
-    exit(1)
+    # exit(1)
 
 
 def keys_in_second_ini(first_file, second_file):
