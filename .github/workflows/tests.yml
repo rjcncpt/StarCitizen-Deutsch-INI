@@ -1,7 +1,6 @@
 name: global.ini Tests
 on:
   workflow_dispatch:
-
   push:
     branches:
       - "main"
