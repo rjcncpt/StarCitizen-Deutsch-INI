@@ -1,5 +1,5 @@
-## Vorbereitung für einen möglichen EPTU Wave 1 Build
-Im Falle, dass CIG neben dem PTU auch einen EPTU Wave 1 Build veröffentlicht, wird hier künftig die passende Übersetzung bereitgestellt. Da dieser Vorgang voraussichtlich selten der Fall sein wird, beachte bitte die Buildnummern des PTU und EPTU Verzeichnis.
+## Hinweis zu EPTU Builds
+Sollte CIG zusätzlich zum PTU einen EPTU Wave 1 Build veröffentlichen, wird hierfür künftig ebenfalls die passende Übersetzung bereitgestellt. Da solche Fälle voraussichtlich selten auftreten, bitten wir dich, die Buildnummern der PTU- und EPTU-Verzeichnisse zu beachten, um sicherzustellen, dass die korrekte Version verwendet wird.
 
 ### Urheberrecht © rjcncpt. Alle Rechte vorbehalten.
 
