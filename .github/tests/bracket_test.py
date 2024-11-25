@@ -1,6 +1,5 @@
 import re
 
-
 def check_brackets(filename, excluded):
     """
     :param filename: The name of the file to check for bracket matching.

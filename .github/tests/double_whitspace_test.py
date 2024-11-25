@@ -1,20 +1,18 @@
 def find_bad_lines(file_content):
     """
-    Find lines in the given file that have a comma with a space before it.
+    Find lines in the given file that have double whitespaces around commas or full stops.
 
     :param file_content: A list of strings representing the contents of a file.
-    :return: A list of line numbers that contain a comma with a space before it.
+    :return: A list of line numbers that contain double whitespaces around commas or full stops.
     """
     internal_bad_lines = []
-
     for i, line in enumerate(file_content, start=1):
-        if " ," in line:
+        if ("  ." or ".  " or "  ," or ",  ") in line:
             # Ignore CIG's special char test line
             if not line.startswith("test_special_chars"):
                 internal_bad_lines.append(i)
 
     return internal_bad_lines
-
 
 if __name__ == "__main__":
     file_path = "live/global.ini"
@@ -29,7 +27,7 @@ if __name__ == "__main__":
             print("Test FAILED!")
             exit(1)
         else:
-            print("There are no whitespaces before a comma.")
+            print("There are no double whitespaces.")
             print("Test PASSED!")
 
     except FileNotFoundError:
