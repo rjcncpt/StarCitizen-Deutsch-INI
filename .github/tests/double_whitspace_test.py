@@ -15,6 +15,20 @@ def find_bad_lines(file_content):
 
     return internal_bad_lines
 
+def extract_keys_from_lines(file_content, line_numbers):
+    keys = []
+    # Iterate through the given line numbers
+    for line_number in line_numbers:
+         # Ensure the line number is within range
+         if 0 <= line_number < len(file_content):
+             line = file_content[line_number].strip()
+             if '=' in line:
+                 # Extract the key from the line
+                 key, _ = line.split('=', 1)
+                 keys.append(key.strip())
+
+    return keys
+
 if __name__ == "__main__":
     file_path = "live/global.ini"
 
@@ -24,7 +38,10 @@ if __name__ == "__main__":
         bad_lines = find_bad_lines(content)
         if bad_lines:
             print("Following lines need to be checked:")
+            keys_of_bad_lines = extract_keys_from_lines(content, bad_lines)
             print(bad_lines)
+            for string in keys_of_bad_lines:
+                print(string)
             print("Test FAILED!")
             exit(1)
         else:
