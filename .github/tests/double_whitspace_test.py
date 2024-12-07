@@ -7,7 +7,8 @@ def find_bad_lines(file_content):
     """
     internal_bad_lines = []
     for i, line in enumerate(file_content, start=1):
-        if ("  ." or ".  " or "  ," or ",  ") in line:
+        false_patterns = ["  .", ".  ", "  ,", ",  "]
+        if any(x in line for x in false_patterns):
             # Ignore CIG's special char test line
             if not line.startswith("test_special_chars"):
                 internal_bad_lines.append(i)
