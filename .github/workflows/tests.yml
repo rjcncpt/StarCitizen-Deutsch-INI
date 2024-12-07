@@ -18,7 +18,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
 
       - name: Execute Test
         run: python ./.github/tests/key_test.py
@@ -33,7 +33,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
 
       - name: Install Dependencies
         run: |
@@ -53,10 +53,25 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
 
       - name: Execute Test
         run: python ./.github/tests/whitespace_comma_test.py
+
+  Whitespace_Double:
+    name: Check For Double Whitespaces
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Execute Test
+        run: python ./.github/tests/double_whitspace_test.py
 
   Brackets:
     name: Check For Not Closed Brackets
@@ -68,7 +83,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
 
       - name: Execute Test
         run: python ./.github/tests/bracket_test.py

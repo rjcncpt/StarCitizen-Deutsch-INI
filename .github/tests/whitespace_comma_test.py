@@ -5,15 +5,15 @@ def find_bad_lines(file_content):
     :param file_content: A list of strings representing the contents of a file.
     :return: A list of line numbers that contain a comma with a space before it.
     """
-    bad_lines = []
+    internal_bad_lines = []
 
     for i, line in enumerate(file_content, start=1):
         if " ," in line:
             # Ignore CIG's special char test line
             if not line.startswith("test_special_chars"):
-                bad_lines.append(i)
+                internal_bad_lines.append(i)
 
-    return bad_lines
+    return internal_bad_lines
 
 
 if __name__ == "__main__":
@@ -35,4 +35,4 @@ if __name__ == "__main__":
     except FileNotFoundError:
         print(f"File \"{file_path}\" was not found.")
     except Exception as e:
-        print(f"An error occured: {e}")
+        print(f"An error occurred: {e}")
