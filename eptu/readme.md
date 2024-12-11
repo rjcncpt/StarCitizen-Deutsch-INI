@@ -14,7 +14,7 @@ Folge der Installationsanleitung: https://github.com/rjcncpt/StarCitizen-Deutsch
 
 --------------------
 
-### Urheberrecht © rjcncpt. Alle Rechte vorbehalten.
+### Urheberrecht © rjcncpt. Alle Rechte vorbehalten. 
 
 Diese deutsche Übersetzung der englischsprachigen global.ini-Datei wurde von rjcncpt[1] erstellt und ist lizenziert unter einer CC-BY-NC-SA (Creative Commons Namensnennung-Nicht kommerziell-Weitergabe unter gleichen Bedingungen 4.0 International)[2] Lizenz.
 
