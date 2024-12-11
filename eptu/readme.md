@@ -1,6 +1,17 @@
 ## Hinweis zu EPTU Builds
 Sollte CIG zusätzlich zum PTU einen EPTU Wave 1 Build veröffentlichen, wird hierfür künftig ebenfalls die passende Übersetzung bereitgestellt. Da solche Fälle voraussichtlich selten auftreten, bitten wir dich, die Buildnummern der PTU- und EPTU-Verzeichnisse zu beachten, um sicherzustellen, dass die korrekte Version verwendet wird.
 
+<br>
+
+### Manueller Download
+![image](https://i.imgur.com/eANRGHf.png)
+
+Öffne die [global.ini Datei für EPTU](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/eptu/global.ini) und klicke oben rechts auf das "Herunterladen"-Symbol.
+
+Folge der Installationsanleitung: https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/INSTALLATION.md
+
+--------------------
+
 ### Urheberrecht © rjcncpt. Alle Rechte vorbehalten.
 
 Diese deutsche Übersetzung der englischsprachigen global.ini-Datei wurde von rjcncpt[1] erstellt und ist lizenziert unter einer CC-BY-NC-SA (Creative Commons Namensnennung-Nicht kommerziell-Weitergabe unter gleichen Bedingungen 4.0 International)[2] Lizenz.
