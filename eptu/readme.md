@@ -10,6 +10,8 @@ Sollte CIG zusätzlich zum PTU einen EPTU Wave 1 Build veröffentlichen, wird hi
 
 Folge der Installationsanleitung: https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/INSTALLATION.md
 
+<br>
+
 --------------------
 
 ### Urheberrecht © rjcncpt. Alle Rechte vorbehalten.
