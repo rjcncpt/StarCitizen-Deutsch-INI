@@ -3,9 +3,9 @@ Sollte CIG zusätzlich zum PTU einen EPTU Wave 1 Build veröffentlichen, wird hi
 
 <br>
 
-### Manueller Download
 ![image](https://i.imgur.com/eANRGHf.png)
 
+### Manueller Download
 Öffne die [global.ini Datei für EPTU](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/eptu/global.ini) und klicke oben rechts auf das "Herunterladen"-Symbol.
 
 Folge der Installationsanleitung: https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/INSTALLATION.md
