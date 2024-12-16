@@ -23,7 +23,7 @@ Hilf gern dabei, diese Übersetzung besser zu machen und **[tritt unserem öffen
 
 ## Über diese Übersetzung
 
-![Star Citizen Deutsch Hauptmenü](https://i.imgur.com/0sW5TPo.png)
+![Star Citizen Deutsch Hauptmenü](https://www.sc-deutsch-launcher.de/img/star-citizen-hauptmenü.webp)
 
 Wir bieten zwei Versionen unserer Sprachdatei an: eine hybride Übersetzung und eine vollständige (experimentelle) Übersetzung. In der hybriden Übersetzung sind Eigennamen, Missionstitel, Items und Orte/Unternehmen nicht übersetzt. Diese Version gewährleistet Konsistenz beim Spielen mit internationalen Mitspielern und erhält die Kompatibilität mit dem Issue Council auf der RSI-Webseite. Zudem unterstützen wir damit Drittanbieter-Webseiten, Item-Datenbanken sowie Video- und Texttutorials.
 
