@@ -29,10 +29,11 @@ Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du uns
 
 1. **Lade die ZIP-Datei mit der Übersetzung herunter:** <br/>
    Manchmal musst du auf "Assets" klicken, um die Datei zu sehen.<br/><br/>
-    <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/LIVE-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?include_prereleases&sort=date&filter=*LIVE*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![Static Badge](https://img.shields.io/badge/PTU-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?include_prereleases&sort=date&filter=*PTU*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a> <!-- https://shields.io/badges/git-hub-release --> <br/><br/>
+    <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=preview&expanded=true">![Static Badge](https://img.shields.io/badge/4.0%20PREVIEW-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?include_prereleases&sort=date&filter=*PREVIEW*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/3.24%20LIVE-brightgreen?style=for-the-badge&color=232323)![GitHub Release](https://img.shields.io/github/v/release/rjcncpt/StarCitizen-Deutsch-INI?include_prereleases&sort=date&filter=*LIVE*&display_name=release&style=for-the-badge&labelColor=232323&label=%20)</a> <!-- https://shields.io/badges/git-hub-release --> <br/><br/>
 2. **Entpacke die ZIP-Datei auf deine Festplatte** <br/>
 3. **Kopiere den Inhalt der ZIP-Datei in den richtigen Ordner:**
-   - Für die LIVE-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\`
+   - Für die 3.24 LIVE-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\`
+   - Für die 4.0 PREVIEW-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\4.0_PREVIEW\`
    - Für die PTU-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\PTU\`
    - Für die EPTU-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\EPTU\`
    
