@@ -7,7 +7,7 @@
 
 #### Die deutsche Sprachdatei für Star Citizen ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern und ein besseres Spielerlebnis für deutsche Spieler zu schaffen, indem wir die Immersion und das Verständnis durch eine sorgfältig angepasste Übersetzung stärken.
 
-Hilf gern dabei, diese Übersetzung besser zu machen und **[tritt unserem öffentlichen Übersetzungs Discord](https://discord.gg/5VZsTk3qjR)** bei, oder eröffne **[eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge)** oder **[einen Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=)** und schreibe uns deinen Vorschlag und werde ein Teil dieser Übersetzung!
+Hilf mit, die Übersetzung zu verbessern! Trete **[unserem öffentlichen Übersetzungs-Discord](https://discord.gg/5VZsTk3qjR)** bei, starte **[eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge)** oder erstelle **[ein Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=)**, um uns deine Vorschläge mitzuteilen. Werde Teil des Übersetzungsteams!
 
 <br/>
 
@@ -64,7 +64,7 @@ Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zu
    - Nicht gefundene Ordner bleiben schwarz.
 6. Klicke auf "Update Übersetzung".
 7. Der Launcher lädt die neuesten deutschen Sprachdateien herunter.
-8. Der RSI Launcher startet automatisch wenn in den Einstellungen angegeben.
+8. Der RSI Launcher startet automatisch wenn in den Einstellungen aktiviert.
 
 [![SC Deutsch Launcher Download Portable](https://www.sc-deutsch-launcher.de/img/herunterladen.png)](https://www.sc-deutsch-launcher.de)
 <br/><br/><br/>
@@ -80,11 +80,11 @@ Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du uns
    Manchmal musst du auf "Assets" klicken, um die Datei zu sehen.<br/><br/>
     <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=preview&expanded=true">![Static Badge](https://img.shields.io/badge/ÜBERSETZUNG%20FÜR-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/4.0%20PREVIEW%20(ZIP)-brightgreen?style=for-the-badge&color=ffffff)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/ÜBERSETZUNG%20FÜR-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/3.24%20LIVE%20(ZIP)-brightgreen?style=for-the-badge&color=ffffff)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![Static Badge](https://img.shields.io/badge/ÜBERSETZUNG%20FÜR-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/PTU%20(ZIP)-brightgreen?style=for-the-badge&color=ffffff)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=eptu&expanded=true">![Static Badge](https://img.shields.io/badge/ÜBERSETZUNG%20FÜR-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/EPTU%20(ZIP)-brightgreen?style=for-the-badge&color=ffffff)</a> <!-- https://shields.io/badges/git-hub-release --> <br/><br/>
 2. **Entpacke die ZIP-Datei auf deine Festplatte** <br/>
-3. **Kopiere den Inhalt der ZIP-Datei in den richtigen Ordner:**
-   - Für die 3.24 LIVE-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\`
-   - Für die 4.0 PREVIEW-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\4.0_PREVIEW\`
-   - Für die PTU-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\PTU\`
-   - Für die EPTU-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\EPTU\`
+3. **Kopiere den Inhalt (`data` Ordner und `user.cfg` Datei) der ZIP-Datei in den richtigen Ordner:**
+   - Für die **3.24 LIVE**-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\`
+   - Für die **4.0 PREVIEW**-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\4.0_PREVIEW\`
+   - Für die **PTU**-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\PTU\`
+   - Für die **EPTU**-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\EPTU\`
    
    Der Pfad kann bei dir ein anderer sein.
 
