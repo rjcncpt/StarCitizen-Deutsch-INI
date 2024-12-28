@@ -1,4 +1,4 @@
-### Urheberrecht © 2024 rjcncpt. Alle Rechte vorbehalten.
+### Urheberrecht © rjcncpt. Alle Rechte vorbehalten.
 
 Diese deutsche Übersetzung der englischsprachigen global.ini-Datei wurde von rjcncpt[1] erstellt und ist lizenziert unter einer CC-BY-NC-SA (Creative Commons Namensnennung-Nicht kommerziell-Weitergabe unter gleichen Bedingungen 4.0 International)[2] Lizenz.
 
@@ -6,7 +6,4 @@ Diese Übersetzung darf kopiert, verbreitet und modifiziert werden, solange Sie 
 
 Individuelle Texte in den global.ini-Dateien, die sich erheblich in ihrer Schöpfungshöhe vom Original abheben, sind urheberrechtlich geschützt und unterliegen denselben Bedingungen.
 
-
-[1] https://github.com/rjcncpt/StarCitizen-Deutsch-INI
-
-[2] https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
+[1] https://github.com/rjcncpt/StarCitizen-Deutsch-INI [2] https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
