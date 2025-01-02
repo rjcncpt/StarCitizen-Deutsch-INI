@@ -55,18 +55,20 @@ Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zu
 
 ### So funktioniert’s:
 1. Lade den SC Deutsch Launcher herunter.
-   - Download-Link: [SC Deutsch Launcher](https://www.sc-deutsch-launcher.de)
+   - Download-Link: [SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)
 2. Entpacke die ZIP-Datei.
 3. Kopiere das "SC Deutsch Launcher"-Verzeichnis an einen Ort deiner Wahl.
-4. Starte die SC Deutsch Launcher.exe.
-5. Der Launcher sucht automatisch nach deinem Star Citizen Ordner.
+   - Zum Beispiel in das "Roberts Space Industries"-Verzeichnis
+5. Starte die SC Deutsch Launcher.exe.
+   - Unser Launcher benötigt die NET.8 Runtime. Diese wird möglicherweise vorher von microsoft.com heruntergeladen.
+7. Der Launcher sucht automatisch nach deinem Star Citizen Ordner.
    - Gefundene Ordner sind grün.
    - Nicht gefundene Ordner bleiben schwarz.
-6. Klicke auf "Update Übersetzung".
-7. Der Launcher lädt die neuesten deutschen Sprachdateien herunter.
-8. Der RSI Launcher startet automatisch wenn in den Einstellungen aktiviert.
+8. Klicke auf "Update Übersetzung".
+9. Der Launcher lädt die neuesten deutschen Sprachdateien herunter.
+10. Der RSI Launcher startet automatisch wenn in den Einstellungen aktiviert.
 
-[![SC Deutsch Launcher Download Portable](https://www.sc-deutsch-launcher.de/img/herunterladen.png)](https://www.sc-deutsch-launcher.de)
+[![SC Deutsch Launcher Download Portable](https://www.sc-deutsch-launcher.de/img/herunterladen.png)](https://www.sc-deutsch-launcher.de/download/)
 <br/><br/><br/>
 
 
