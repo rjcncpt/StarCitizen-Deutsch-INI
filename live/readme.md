@@ -1,4 +1,15 @@
-### Urheberrecht © rjcncpt. Alle Rechte vorbehalten.
+![image](https://i.imgur.com/eANRGHf.png)
+
+### Manueller Download
+Öffne die [global.ini Datei für LIVE](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/live/global.ini) und klicke oben rechts auf das "Herunterladen"-Symbol.
+
+Folge der Installationsanleitung: https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/INSTALLATION.md
+
+<br>
+
+--------------------
+
+### Urheberrecht © rjcncpt. Alle Rechte vorbehalten. 
 
 Diese deutsche Übersetzung der englischsprachigen global.ini-Datei wurde von rjcncpt[1] erstellt und ist lizenziert unter einer CC-BY-NC-SA (Creative Commons Namensnennung-Nicht kommerziell-Weitergabe unter gleichen Bedingungen 4.0 International)[2] Lizenz.
 
