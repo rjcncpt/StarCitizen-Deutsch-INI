@@ -5,7 +5,7 @@
 
 Folge der Installationsanleitung: https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/INSTALLATION.md
 
-<br>
+<br> 
 
 --------------------
 
