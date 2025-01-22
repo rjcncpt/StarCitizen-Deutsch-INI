@@ -4,17 +4,51 @@ import subprocess
 import shutil
 import logging
 
-# The following paths need to fit your setup
-exe_path =              "unp4k.exe"  # Path to the unp4k.exe
-argument_data =         "E:/Roberts Space Industries/StarCitizen/PTU/Data.p4k"  # Path to the Data.p4k
-build_manifest_path =   "E:/Roberts Space Industries/StarCitizen/PTU/build_manifest.id"  # Path to the build_manifest.id file
-output_file_path =      "../global.ini"  # Path where the fixed global.ini will be saved
+print("\n")
+print("#########################################################")
+print("# Extrahieren der global.ini Datei mit Umgebungsauswahl #")
+print("#########################################################")
+print("\n")
 
-# The following paths are internally used and do not need to be edited, but can be edited
-data_path = "Data"  # Temporary directory used by unp4k, that will be deleted at the end of the script
-input_file_path = data_path + "/Localization/english/global.ini"  # Relative path to the extracted global.ini. Also used als filter argument for unp4k.
+# Die verfügbaren Umgebungen
+environments = {
+    "1": "LIVE",
+    "2": "PTU",
+    "3": "4.0_PREVIEW",
+    "4": "EPTU",
+    "5": "HOTFIX",
+    "6": "TECH-PREVIEW"
+}
 
-# Define your replacements here
+# Funktion zur Auswahl der Umgebung
+def select_environment():
+    for key, value in environments.items():
+        print(f"{key}. {value}")
+    
+    selection = input("\nGib die Nummer ein, die der Umgebung entspricht: ")
+
+    if selection in environments:
+        return selection, environments[selection]
+    else:
+        print("Ungültige Auswahl, Standardeinstellung ist LIVE.")
+        return "1", "LIVE"
+
+# Pfad zur unp4k.exe
+exe_path = "unp4k.exe"
+
+# Benutzer wählt die Umgebung aus
+selected_number, selected_environment = select_environment()
+
+# Dynamische Pfadanpassung basierend auf der Auswahl
+argument_data = f"E:/Roberts Space Industries/StarCitizen/{selected_environment}/Data.p4k"  # Pfad zur Data.p4k
+build_manifest_path = f"E:/Roberts Space Industries/StarCitizen/{selected_environment}/build_manifest.id"  # Pfad zur build_manifest.id
+output_file_path = "../global.ini"  # Pfad, unter dem die bearbeitete global.ini gespeichert wird
+
+# Die folgenden Pfade sind intern und sollten nicht geändert werden
+data_path = "Data"  # Temporäres Verzeichnis, das von unp4k verwendet wird, wird am Ende des Skripts gelöscht
+input_file_path = data_path + "/Localization/english/global.ini"  # Relativer Pfad zur extrahierten global.ini. Wird auch als Filterargument für unp4k verwendet.
+
+# Ersetze Variablen hier
 replacements = {
     "Oxygen_Screen_ ErrorButtonMessage=": "Oxygen_Screen_ErrorButtonMessage=",
     "Tut03_Part01_Obj01b_ToStation =": "Tut03_Part01_Obj01b_ToStation=",
@@ -76,12 +110,12 @@ def extract_build_number(manifest_path):
         if branch_match and change_num_match:
             branch = branch_match.group(1).split('-')[-1]  # Extract the version, e.g., 4.0.0
             change_num = change_num_match.group(1)
-            return f"{branch} PTU.{change_num}"
+            return f"{branch} {selected_environment}.{change_num}"
         else:
-            logging.error("Branch or Change Number not found in build_manifest.id")
+            logging.error("Zweig- oder Änderungsnummer nicht in build_manifest.id gefunden")
             return None
     except Exception as e:
-        logging.error("Error while extracting build number: %s", str(e))
+        logging.error("Fehler beim Extrahieren der Build-Nummer: %s", str(e))
         return None
 
 def move_frontend_pu_version_to_top(temp_file_path):
@@ -112,22 +146,22 @@ def move_frontend_pu_version_to_top(temp_file_path):
         with codecs.open(temp_file_path, 'w', 'utf-8-sig') as outfile:
             outfile.write("".join(new_lines + lines))
 
-        logging.info("Moved 'Frontend_PU_Version' to the top in %s", temp_file_path)
+        logging.info("Frontend_PU_Version“ an den Anfang in %s verschoben", temp_file_path)
 
     except Exception as e:
-        logging.error("An error occurred while moving 'Frontend_PU_Version' to the top: %s", str(e))
+        logging.error("Beim Verschieben von 'Frontend_PU_Version' nach oben ist ein Fehler aufgetreten: %s", str(e))
 
 def run_exe(exe_path, args):
     command = [exe_path] + args
     try:
         subprocess.run(command, check=True)
-        logging.info("The executable %s has been started successfully.", exe_path)
+        logging.info("Die ausführbare Datei %s wurde erfolgreich gestartet.", exe_path)
     except subprocess.CalledProcessError as e:
-        logging.error("The executable %s failed to run. Error: %s ", exe_path, str(e))
+        logging.error("Die ausführbare Datei %s konnte nicht ausgeführt werden. Fehler: %s ", exe_path, str(e))
     except FileNotFoundError:
-        logging.error("The executable %s does not exist.", exe_path)
+        logging.error("Die ausführbare Datei %s existiert nicht.", exe_path)
     except Exception as e:
-        logging.error("An error occurred while running the executable %s: %s", exe_path, str(e))
+        logging.error("Beim Ausführen der ausführbaren Datei %s ist ein Fehler aufgetreten: %s", exe_path, str(e))
 
 def fix_ini(input_file_path, output_file_path):
     try:
@@ -145,25 +179,25 @@ def fix_ini(input_file_path, output_file_path):
         with codecs.open(output_file_path, "w", "UTF-8-SIG") as outfile:
             outfile.write("\n".join(lines))
 
-        logging.info("Successfully fixed variables and wrote file as UTF-8-BOM to %s", output_file_path)
+        logging.info("Variablen erfolgreich festgelegt und Datei als UTF-8-BOM nach %s geschrieben", output_file_path)
 
         move_frontend_pu_version_to_top(output_file_path)
 
     except Exception as e:
-        logging.error("An error occurred while fixing the INI file: %s", str(e))
+        logging.error("Beim Fixieren der INI-Datei ist ein Fehler aufgetreten: %s", str(e))
 
 def delete_dir(dir_path):
     try:
         shutil.rmtree(dir_path)
-        logging.info("The directory %s has been deleted successfully.", dir_path)
+        logging.info("Das Verzeichnis %s wurde erfolgreich gelöscht.", dir_path)
     except FileNotFoundError:
-        logging.error("The directory %s does not exist.", dir_path)
+        logging.error("Das Verzeichnis %s existiert nicht.", dir_path)
     except PermissionError:
-        logging.error("Permission denied for deleting the directory %s.", dir_path)
+        logging.error("Berechtigung zum Löschen des Verzeichnisses %s verweigert.", dir_path)
     except OSError as e:
-        logging.error("Error: %s - %s", e.filename, e.strerror)
+        logging.error("Fehler: %s - %s", e.filename, e.strerror)
     except Exception as e:
-        logging.error("An error occurred while deleting the directory %s: %s", dir_path, str(e))
+        logging.error("Beim Löschen des Verzeichnisses %s ist ein Fehler aufgetreten: %s", dir_path, str(e))
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
