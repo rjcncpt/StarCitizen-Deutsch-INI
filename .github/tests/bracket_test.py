@@ -1,5 +1,5 @@
+import os
 import re
-
 
 def check_brackets(filename, excluded):
     """
@@ -36,15 +36,24 @@ def check_brackets(filename, excluded):
                 if bracket_stack:
                     print(f"Line {line_number}: Open bracket is not closed.")
 
-
 if __name__ == "__main__":
     excluded_lines_live = [41119, 44802, 44803, 46672, 46709, 46152]
     excluded_lines_ptu = [41610, 45442, 45443, 47387, 47424, 46865]
     deu_live_file = "live/global.ini"
     deu_ptu_file = "ptu/global.ini"
+    
     print()
-    print(f"Checking {deu_live_file}...")
-    check_brackets(deu_live_file, excluded_lines_live)
+    
+    if os.path.exists(deu_live_file):
+        print(f"Checking {deu_live_file}...")
+        check_brackets(deu_live_file, excluded_lines_live)
+    else:
+        print(f"Skipping {deu_live_file}: File not found.")
+    
     print()
-    print(f"Checking {deu_ptu_file}...")
-    check_brackets(deu_ptu_file, excluded_lines_ptu)
+    
+    if os.path.exists(deu_ptu_file):
+        print(f"Checking {deu_ptu_file}...")
+        check_brackets(deu_ptu_file, excluded_lines_ptu)
+    else:
+        print(f"Skipping {deu_ptu_file}: File not found.")
