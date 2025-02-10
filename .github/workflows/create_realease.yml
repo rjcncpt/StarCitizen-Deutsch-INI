@@ -8,7 +8,7 @@
 # - the following steps are only run then the commit count is > 0
 # 4. create a release name with the correct version in it
 # 5. create the zip
-# 6. create the release 
+# 6. create the release
 
 name: Create Releases
 on:
@@ -90,15 +90,15 @@ jobs:
           ref: ${{ needs.get_context_info.outputs.COMMIT_PTU }}
 
       - name: Create ZIP For PTU
-          run: |
-            sudo timedatectl set-timezone Europe/Berlin
-            mkdir release
-            cp "ptu/user.cfg" "release"
-            mkdir -p "release/data/Localization/german_(germany)"
-            cp "ptu/global.ini" "release/data/Localization/german_(germany)/"
-            cd release
-            echo "${{ vars.VERSION_FILE_TEXT_PTU }} ${{ needs.get_context_info.outputs.RELEASE_TITLE_PTU }} ${{ needs.get_context_info.outputs.DATE }} - ${{ needs.get_context_info.outputs.TIME }} Uhr" >> Version.txt
-            zip -r -9 "../${{ vars.ZIP_NAME_PTU }}" *
+        run: |
+          sudo timedatectl set-timezone Europe/Berlin
+          mkdir release
+          cp "ptu/user.cfg" "release"
+          mkdir -p "release/data/Localization/german_(germany)"
+          cp "ptu/global.ini" "release/data/Localization/german_(germany)/"
+          cd release
+          echo "${{ vars.VERSION_FILE_TEXT_PTU }} ${{ needs.get_context_info.outputs.RELEASE_TITLE_PTU }} ${{ needs.get_context_info.outputs.DATE }} - ${{ needs.get_context_info.outputs.TIME }} Uhr" >> Version.txt
+          zip -r -9 "../${{ vars.ZIP_NAME_PTU }}" *
 
       - name: Create Release For PTU
         uses: ncipollo/release-action@v1
@@ -124,17 +124,17 @@ jobs:
           ref: ${{ needs.get_context_info.outputs.COMMIT_LIVE }}
 
       - name: Create ZIP For LIVE
-          run: |
-            sudo timedatectl set-timezone Europe/Berlin
-            mkdir release
-            cp "live/user.cfg" "release"
-            mkdir -p "release/data/Localization/german_(germany)"
-            cp "live/global.ini" "release/data/Localization/german_(germany)/"
-            cd release
-            echo "${{ vars.VERSION_FILE_TEXT_LIVE }} ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }} ${{ needs.get_context_info.outputs.DATE }} - ${{ needs.get_context_info.outputs.TIME }} Uhr" >> Version.txt
-            zip -r -9 "../${{ vars.ZIP_NAME_LIVE }}" *
-            cp "../live/full/global.ini" "../release/data/Localization/german_(germany)/"
-            zip -r -9 "../${{ vars.ZIP_NAME_FULL_LIVE }}" *
+        run: |
+          sudo timedatectl set-timezone Europe/Berlin
+          mkdir release
+          cp "live/user.cfg" "release"
+          mkdir -p "release/data/Localization/german_(germany)"
+          cp "live/global.ini" "release/data/Localization/german_(germany)/"
+          cd release
+          echo "${{ vars.VERSION_FILE_TEXT_LIVE }} ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }} ${{ needs.get_context_info.outputs.DATE }} - ${{ needs.get_context_info.outputs.TIME }} Uhr" >> Version.txt
+          zip -r -9 "../${{ vars.ZIP_NAME_LIVE }}" *
+          cp "../live/full/global.ini" "../release/data/Localization/german_(germany)/"
+          zip -r -9 "../${{ vars.ZIP_NAME_FULL_LIVE }}" *
 
       - name: Create Release For LIVE
         uses: ncipollo/release-action@v1
@@ -146,4 +146,3 @@ jobs:
           body: ${{ vars.RELEASE_BODY_LIVE }}(${{ needs.get_context_info.outputs.LINK_LIVE }})
           artifacts: ${{ vars.ZIP_NAME_LIVE }}, ${{ vars.ZIP_NAME_FULL_LIVE }}
           makeLatest: true
-          
