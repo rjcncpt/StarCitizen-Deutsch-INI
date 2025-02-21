@@ -52,8 +52,8 @@ def check_brackets(filename, excluded):
             if current_key not in excluded:
                 # Remove enumerations and smileys
                 clean_line = re.sub(
-                    r"\d\.\)|\s[a-z]\)|:\)", "", line
-                )  # This regex should filter all "1.)" "a)" and ":)" parts.
+                    r"\d\.\)|\s[a-z]\)|:\)|;\)", "", line
+                )  # This regex should filter all "1.)" "a)" ";)" and ":)" parts.
 
                 bracket_stack = []
                 for char in clean_line:
@@ -87,7 +87,6 @@ if __name__ == "__main__":
         "input_key_keyboard_leftParenthesis,P",
         "input_key_keyboard_rightParenthesis,P",
         "hurston_intro_desc",  # Aufzählung
-        "strawberry_A_datapad_notes",  # Emoji
     ]
     deu_live_file = "live/global.ini"
     deu_ptu_file = "ptu/global.ini"
