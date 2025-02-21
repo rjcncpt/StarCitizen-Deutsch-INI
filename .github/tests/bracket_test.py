@@ -24,7 +24,9 @@ def print_to_console(message, file, line_number, severity):
     print_to_console("Extra closing bracket detected.", "file.txt", 5)
     """
     if len(sys.argv) > 1 and "github" in sys.argv[1]:
-        print(f"{severities[severity]} file={file},line={line_number}:: {message}")
+        print(
+            f"{severities[severity]} title=Bracket Test file={file},line={line_number}:: {message}"
+        )
     else:
         print(f"{message}")
 
