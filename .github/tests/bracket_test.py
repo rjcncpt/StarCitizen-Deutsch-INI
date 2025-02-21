@@ -25,7 +25,7 @@ def print_to_console(message, file, line_number, severity):
     """
     if len(sys.argv) > 1 and "github" in sys.argv[1]:
         print(
-            f"{severities[severity]} title=Bracket Test file={file},line={line_number}:: {message}"
+            f"{severities[severity]} title=Bracket Test,file={file},line={line_number}:: {message}"
         )
     else:
         print(f"{message}")
