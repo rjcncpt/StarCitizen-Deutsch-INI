@@ -1,5 +1,32 @@
 import os
 import re
+import sys
+
+severities = {
+    "error": "::error",
+    "warning": "::warning",
+    "notice": "::notice",
+}
+
+
+def print_to_console(message, file, line_number, severity):
+    """
+    :param message: The message to print to the console.
+    :param file: The name of the file that the message is related to.
+    :param line_number: The line number that the message is related to.
+    :param severity: The severity of the message. Must be one of the following: "error", "warning", "notice".
+    :return: None
+
+    The print_to_console method prints a message to the console in the format that GitHub Actions expects for annotations. This method is used to print error messages for bracket mismatches.
+
+    Example usage:
+
+    print_to_console("Extra closing bracket detected.", "file.txt", 5)
+    """
+    if len(sys.argv) > 1 and "github" in sys.argv[1]:
+        print(f"{severities[severity]} file={file},line={line_number}:: {message}")
+    else:
+        print(f"{message}")
 
 
 def check_brackets(filename, excluded):
@@ -34,14 +61,20 @@ def check_brackets(filename, excluded):
                         try:
                             bracket_stack.pop()
                         except IndexError:
-                            print(
-                                f"::warning file={filename},line={line_number}:: {filename}:{line_number} / {current_key}: Extra closing bracket detected."
+                            print_to_console(
+                                f"{filename}:{line_number} / {current_key}: Extra closing bracket detected.",
+                                filename,
+                                line_number,
+                                "error",
                             )
                             break
 
                 if bracket_stack:
-                    print(
-                        f"::warning file={filename},line={line_number}:: {filename}:{line_number} / {current_key}: Open bracket is not closed."
+                    print_to_console(
+                        f"{filename}:{line_number} / {current_key}: Open bracket is not closed.",
+                        filename,
+                        line_number,
+                        "error",
                     )
 
 
@@ -63,7 +96,9 @@ if __name__ == "__main__":
         print(f"Checking {deu_live_file}...")
         check_brackets(deu_live_file, excluded_keys)
     else:
-        print(f"Skipping {deu_live_file}: File not found.")
+        print_to_console(
+            f"Skipping {deu_live_file}: File not found.", deu_live_file, 0, "warning"
+        )
 
     print()
 
@@ -71,4 +106,6 @@ if __name__ == "__main__":
         print(f"Checking {deu_ptu_file}...")
         check_brackets(deu_ptu_file, excluded_keys)
     else:
-        print(f"Skipping {deu_ptu_file}: File not found.")
+        print_to_console(
+            f"Skipping {deu_ptu_file}: File not found.", deu_ptu_file, 0, "warning"
+        )
