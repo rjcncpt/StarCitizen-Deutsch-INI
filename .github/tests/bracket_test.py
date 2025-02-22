@@ -21,7 +21,9 @@ def print_to_console(message, file, line_number, severity):
 
     Example usage:
 
-    print_to_console("Extra closing bracket detected.", "file.txt", 5)
+    print_to_console("Extra closing bracket detected.", "file.txt", 5, "error")
+
+    This will print the message "Extra closing bracket detected." for the file "file.txt" on line 5 with an error severity.
     """
     if len(sys.argv) > 1 and "github" in sys.argv[1]:
         print(
@@ -37,8 +39,7 @@ def check_brackets(filename, excluded):
     :param excluded: A list of keys to exclude from checking.
     :return: None
 
-    The check_brackets method reads the contents of the given file and checks for matching brackets. It skips the lines specified in the 'excluded' parameter. If any mismatched or unclosed
-    * brackets are found, an error message is printed with the line number.
+    The check_brackets method reads the contents of the given file and checks for matching brackets. It skips the lines which beginn with keys specified in the 'excluded' parameter. If any mismatched or unclosed brackets are found, an error message is printed with the line number.
 
     Example usage:
 
