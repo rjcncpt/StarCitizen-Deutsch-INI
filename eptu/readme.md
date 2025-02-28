@@ -12,20 +12,6 @@ Folge der Installationsanleitung: https://github.com/rjcncpt/StarCitizen-Deutsch
 
 <br>
 
-## Urheberrecht © rjcncpt. Alle Rechte vorbehalten. 
-
-Diese deutsche Übersetzung der englischsprachigen global.ini-Datei wurde von rjcncpt[1] erstellt und ist lizenziert unter einer CC-BY-NC-SA (Creative Commons Namensnennung-Nicht kommerziell-Weitergabe unter gleichen Bedingungen 4.0 International)[2] Lizenz.
-
-Diese Übersetzung darf kopiert, verbreitet und modifiziert werden, solange Sie die ursprüngliche Quelle angeben, einschließlich des Namens/GitHub Repository[1] und der CC BY-NC-SA 4.0 Lizenz. Die Verwendung ist nur zu nicht-kommerziellen Zwecken gestattet. Jegliche abgeleiteten Werke müssen ebenfalls unter derselben Lizenz (CC BY-NC-SA 4.0) veröffentlicht werden.
-
-**Individuelle Texte in den global.ini-Dateien, die sich erheblich in ihrer Schöpfungshöhe vom Original abheben, sind urheberrechtlich geschützt und unterliegen denselben Bedingungen.**
-
-<br>
-
-[1] https://github.com/rjcncpt/StarCitizen-Deutsch-INI [2] https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
-
-<br>
-
 ## Hinweis zur Quellenangabe
 
 ![image](https://www.sc-deutsch-launcher.de/uebersetzung/starcitizen-copyright.png)
@@ -37,3 +23,15 @@ Wenn du unsere Übersetzung als Grundlage für deine angepasste Übersetzung ver
 Star Citizen Alpha 4.0.2 PTU - Hybride Übersetzung\nDeutsche Community Übersetzung | Download: https://sc-deutsch-launcher.de\n\nÜbersetzung angepasst von: HierDeinName\nStand: 26. Februar 2025\n\n
 ```
 Kopiere die Zeile und trage bei "HierDeinName" deinen Namen, deine Organisation oder einem anderen Hinweis ein, um kenntlich zu machen, dass du die Übersetzung überarbeitet hast.
+
+## Urheberrecht © rjcncpt. Alle Rechte vorbehalten. 
+
+Diese deutsche Übersetzung der englischsprachigen global.ini-Datei wurde von rjcncpt[1] erstellt und ist lizenziert unter einer CC-BY-NC-SA (Creative Commons Namensnennung-Nicht kommerziell-Weitergabe unter gleichen Bedingungen 4.0 International)[2] Lizenz.
+
+Diese Übersetzung darf kopiert, verbreitet und modifiziert werden, solange Sie die ursprüngliche Quelle angeben, einschließlich des Namens/GitHub Repository[1] und der CC BY-NC-SA 4.0 Lizenz. Die Verwendung ist nur zu nicht-kommerziellen Zwecken gestattet. Jegliche abgeleiteten Werke müssen ebenfalls unter derselben Lizenz (CC BY-NC-SA 4.0) veröffentlicht werden.
+
+**Individuelle Texte in den global.ini-Dateien, die sich erheblich in ihrer Schöpfungshöhe vom Original abheben, sind urheberrechtlich geschützt und unterliegen denselben Bedingungen.**
+
+<br>
+
+[1] https://github.com/rjcncpt/StarCitizen-Deutsch-INI [2] https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
