@@ -13,7 +13,8 @@ Folge der Installationsanleitung: https://github.com/rjcncpt/StarCitizen-Deutsch
 
 Wenn du unsere Übersetzung als Grundlage für deine angepasste Übersetzung verwendest und in Streams und/oder Videos zeigst, belasse in der global.ini-Datei die erste Zeile mit der Angabe zur Ursprungsübersetzung bestehen. Das hilft anderen Spielern ohne Umwege an die ursprüngliche Übersetzung zu gelangen.
 
-**Kopiere diese Zeile und ersetze sie in der global.ini Datei**
+### Kopiere diese Zeile und ersetze sie in der global.ini Datei
+
 Damit Spieler nachvollziehen können, woher die ursprüngliche Übersetzung stammt, sollte in der `Frontend_PU_Version=` Zeile ein Hinweis auf das Original enthalten sein. Dies ermöglicht es Nutzern, die Originalversion auszuprobieren.
 
 Kopiere die folgende Zeile und ersetze damit die erste Zeile in der global.ini Datei:
