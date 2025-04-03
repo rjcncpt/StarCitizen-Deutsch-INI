@@ -271,18 +271,6 @@ Für weitere Hilfe trete gerne unserem [Discord Server](https://discord.gg/5VZsT
 
 <br/>
 
-## Mehr von rjcncpt
-
-| Dark Mode Extension für Spectrum | INI FILE VIEWER (Web app) |
-|:---------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
-|[![Better Spectrum Dark Mode](https://i.imgur.com/C0PoJHG.png)](https://github.com/rjcncpt/SpectrumDarkMode-Extension)|[![INI FILE VIEWER](https://i.imgur.com/rSvr8H1.png)](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/apps/README.md#ini-file-viewer-web-app)|
-
-<br/>
-
-------------------------------------
-
-<br/>
-
 ### Urheberrecht
 **Das gesamte GitHub-Repository sowie individuelle Texte in den global.ini-Dateien, die sich erheblich in ihrer Schöpfungshöhe vom Original abheben, sind urheberrechtlich geschützt und unterliegen der freien [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) Lizenz. Dies bedeutet, dass Sie die Inhalte für nicht-kommerzielle Zwecke nutzen, bearbeiten und weiterverbreiten dürfen, solange Sie die Urheberschaft angeben und die gleiche Lizenz für Ihre Weiterbearbeitungen verwenden.**
 <br/><br/>
