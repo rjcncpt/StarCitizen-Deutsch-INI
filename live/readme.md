@@ -15,7 +15,7 @@ Folge der Installationsanleitung: https://github.com/rjcncpt/StarCitizen-Deutsch
 
 Kopiere die folgende Zeile und ersetze damit die erste Zeile in der global.ini Datei:
 ```
-Frontend_PU_Version=Star Citizen Alpha x.x.x LIVE - Hybride Übersetzung\nDeutsche Community Übersetzung | Download: https://sc-deutsch-launcher.de\n\nÜbersetzung angepasst von: HierDeinName\nStand: 26. Februar 2025\n\n
+Frontend_PU_Version=Star Citizen Alpha x.x.x LIVE - Hybride Übersetzung\nDeutsche Community Übersetzung\nDownload: https://sc-deutsch-launcher.de\n\nÜbersetzung angepasst von: HierDeinName\nStand: 26. Februar 2025\n\n
 ```
 Trage bei "HierDeinName" deinen Namen, deine Organisation oder einen anderen Hinweis ein, um kenntlich zu machen, dass du die Übersetzung überarbeitet hast.
 
