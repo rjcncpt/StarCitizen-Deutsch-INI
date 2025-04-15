@@ -8,4 +8,7 @@ Dieses Python Script hilft dabei, die richtigen Artikel für Vehikel zu finden. 
 - Nach dem Scan wird eine "Vehikelnamen finden_global.html" Datei erstellt mit allen neuen Zeilen in denen Vehikelnamen vorkommen.
 - Möchtest du neu beginnen, lösche die "Vehikelnamen finden_prefixes.txt" Datei.
 
+### Hinweis
+Die "Vehikelnamen finden_prefixes.txt" darf gern aktualisiert werden wenn jemand aus dem Team das Script zu einem späteren Zeitpunkt durchlaufen lässt.
+
 Erstellt von rjcncpt | [Deutsche Star Citizen Übersetzung](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
