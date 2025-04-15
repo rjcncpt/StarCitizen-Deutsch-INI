@@ -11,4 +11,7 @@ Dieses Python Script hilft dabei, die richtigen Artikel für Vehikel zu finden. 
 ### Hinweis
 Die "Vehikelnamen finden_prefixes.txt" darf gern aktualisiert werden wenn jemand aus dem Team das Script zu einem späteren Zeitpunkt durchlaufen lässt.
 
+### Python requirements
+```pip install tqdm```
+
 Erstellt von rjcncpt | [Deutsche Star Citizen Übersetzung](https://github.com/rjcncpt/StarCitizen-Deutsch-INI)
