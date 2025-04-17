@@ -18,7 +18,6 @@ Hilf mit, die Übersetzung zu verbessern! Trete **[unserem öffentlichen Überse
 - **[Tech-Preview Channels und Evocati Builds](#tech-preview-channels-und-evocati-builds)**
 - **[Das Team](#das-team) / [Danksagungen](#danksagungen)**
 - **[Fragen und Antworten](#fragen-und-antworten)**
-- **[Mehr von rjcncpt](#mehr-von-rjcncpt)**
   <br/><br/><br/>
 
 ## Über diese Übersetzung
@@ -59,14 +58,15 @@ Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zu
 2. Entpacke die ZIP-Datei.
 3. Kopiere das "SC Deutsch Launcher"-Verzeichnis an einen Ort deiner Wahl.
    - Zum Beispiel in das "Roberts Space Industries"-Verzeichnis
-5. Starte die SC Deutsch Launcher.exe.
+5. Starte die SC Deutsch Launcher.exe
    - Unser Launcher benötigt die NET.8 Runtime. Diese wird möglicherweise vorher von microsoft.com heruntergeladen.
-7. Der Launcher sucht automatisch nach deinem Star Citizen Ordner.
-   - Gefundene Ordner sind grün.
-   - Nicht gefundene Ordner bleiben schwarz.
+7. Der Launcher sucht automatisch nach deinem Star Citizen Verzeichnis.
+   - Gefundene Installationen werden grün dargestellt.
+   - Nicht gefundene Installationen bleiben schwarz.
 8. Klicke auf "Update Übersetzung".
 9. Der Launcher lädt die neuesten deutschen Sprachdateien herunter.
 10. Der RSI Launcher startet automatisch wenn in den Einstellungen aktiviert.
+11. Benötigst du Hilfe? Komm auf unseren [Discord-Server](https://discord.gg/5VZsTk3qjR).
 
 [![SC Deutsch Launcher Download Portable](https://www.sc-deutsch-launcher.de/img/herunterladen.png)](https://www.sc-deutsch-launcher.de/download/)
 <br/><br/><br/>
@@ -76,13 +76,13 @@ Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zu
 
 [<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
-Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du unsere Star Citizen Übersetzung auch händisch installieren.
+Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du unsere Star Citizen Übersetzung auch händisch installieren. Wichtig: Über ein Actions Script wird der Release alle 14 Tage und zum Beginn des neuen Monats automatisch erstellt.
 
 1. **Lade die Neueste ZIP-Datei mit der Übersetzung herunter:** <br/>
    Manchmal musst du auf "Assets" klicken, um die Datei zu sehen.<br/><br/>
     <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/ÜBERSETZUNG%20FÜR-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/LIVE%20(ZIP)-brightgreen?style=for-the-badge&color=ffffff)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![Static Badge](https://img.shields.io/badge/ÜBERSETZUNG%20FÜR-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/PTU%20(ZIP)-brightgreen?style=for-the-badge&color=ffffff)</a> <!-- https://shields.io/badges/git-hub-release --> <br/><br/>
 2. **Entpacke die ZIP-Datei auf deine Festplatte** <br/>
-3. **Kopiere den Inhalt (`data` Ordner und `user.cfg` Datei) der ZIP-Datei in den richtigen Ordner:**
+3. **Kopiere den Inhalt (`data` Ordner und `user.cfg` Datei) aus der ZIP-Datei in den richtigen Ordner:**
    - Für die **LIVE**-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\`
    - Für die **PTU**-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\PTU\`
    
@@ -90,12 +90,14 @@ Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du uns
 
 ![image](https://i.imgur.com/MjBMF4y.png)
 
+4. Benötigst du Hilfe? Komm auf unseren [Discord-Server](https://discord.gg/5VZsTk3qjR).
+
 <br/><br/>
 
 ------------------------------------
 
 > [!IMPORTANT]  
-> **Die Übersetzungsdatei wird regelmäßig verbessert. Neue Star Citizen Patches fügen oft neue Texte hinzu. Lade die ZIP-Datei also immer wieder neu herunter, um Fehler zu vermeiden. Oder nutze unseren Launcher der die Aufgabe für dich erledigt.**
+> **Die Übersetzungsdatei wird regelmäßig verbessert. Neue Star Citizen Patches fügen oft neue Texte hinzu. Lade die ZIP-Datei regelmäßig herunter, um Fehler zu vermeiden. Oder nutze unseren Launcher der die Aufgabe für dich erledigt.**
 
 > [!WARNING]  
 > **Hast du eine eigene user.cfg Datei? Überschreibe sie nicht! Füge einfach diese zwei Zeilen hinzu:** <br/>
@@ -110,9 +112,9 @@ Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du uns
 
 ## Wie aktuell ist die deutsche Übersetzung?
 
-Die deutsche Übersetzung ist tagesaktuell. In der Regel veröffentlicht CIG die neuen Patches zwischen 23 und 3 Uhr nachts. Nachdem wir die neuen und geänderten Zeilen übertragen und übersetzt haben, laden wir die neue Übersetzung gegen 10 Uhr morgens auf GitHub. Jeden Freitag erstellen wir ein neues Release. Unsere Übersetzungsdatei ist zu 100% identisch mit der, die CIG zur Verfügung stellt. Sollten im Spiel Variablen mit einem @-Zeichen angezeigt werden, liegt der Fehler bei CIG und wird in späteren Patches korrigiert.
+Die deutsche Übersetzung ist tagesaktuell. In der Regel veröffentlicht CIG die neuen Patches zwischen 23 und 3 Uhr nachts. Nachdem wir die neuen und geänderten Zeilen übertragen und übersetzt haben, laden wir die neue Übersetzung gegen 10 Uhr morgens auf GitHub. Jeden Freitag erstellen wir ein neues Release. Variablen und Keys in der global.ini Datei sind identisch mit der, die CIG zur Verfügung stellt. Sollten im Spiel Variablen mit einem @-Zeichen angezeigt werden, liegt der Fehler bei CIG und wird in späteren Patches korrigiert.
 
-💡 **Es kommt häufig vor, dass eine neue Spielversion veröffentlicht wird aber hier kein Update hochgeladen wurde. In diesem Fall gab es keine Veränderungen an der ursprünglichen global.ini Sprachdatei.**
+💡 **Es kommt häufig vor, dass eine neue Spielversion veröffentlicht wird aber kein Update auf Github hochgeladen wurde. In diesem Fall gab es keine Veränderungen an den Spieltexten und demzufolge kann sich die Versionsnummer hier auf Github mit der Spielversion unterscheiden.**
 <br/><br/><br/><br/>
 
 ## Tech-Preview Channels und Evocati Builds
@@ -137,8 +139,8 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 | [rjcncpt/PYRO](https://fwkart.de/star-citizen-free-fly-kostenlos-testen-spielen/)  | `Projektleiter`            | Übersetzung, Entwicklung, GitHub  |
 | [MaxM1211](https://github.com/MaxM1211)                                            | `Entwicklung & Übersetzer` | Entwicklung, GitHub, Übersetzung  |
 | [greluc](https://github.com/greluc)                                                | `Entwicklung & Übersetzer` | Entwicklung, GitHub, Übersetzung  |
-| [Drakonhawk](https://github.com/Drakonhawk)                                        | `Entwicklung & GitHub`     | Entwicklung, GitHub               |
-| Boy7                                                                               | `Software Dev`             | Software                          |
+| Boy7                                                                               | `Software Dev`             | Software Entwicklung              |
+| [Drakonhawk](https://github.com/Drakonhawk)                                        | `GitHub`                   | GitHub                            |
 | Asaya87                                                                            | `Discord Management`       |                                   |
 | Fabi 18                                                                            | `Discord Management`       |                                   |
 
