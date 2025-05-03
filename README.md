@@ -136,7 +136,7 @@ Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen d
 
 | Team Name                                                                          | Position              | Aufgaben                               |
 |:-----------------------------------------------------------------------------------|:---------------------------|:----------------------------------|
-| [rjcncpt/PYRO](https://fwkart.de/star-citizen-free-fly-kostenlos-testen-spielen/)  | `Projektleiter`            | Übersetzung, Entwicklung, GitHub  |
+| [rjcncpt/PYRO](https://www.starcitizen-freefly.de/starcitizen-kostenlos-spielen-testen)  | `Projektleiter`            | Übersetzung, Entwicklung, GitHub  |
 | [MaxM1211](https://github.com/MaxM1211)                                            | `Entwicklung & Übersetzer` | Entwicklung, GitHub, Übersetzung  |
 | [greluc](https://github.com/greluc)                                                | `Entwicklung & Übersetzer` | Entwicklung, GitHub, Übersetzung  |
 | Boy7                                                                               | `Software Dev`             | Software Entwicklung              |
