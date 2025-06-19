@@ -11,17 +11,13 @@ Folge der Installationsanleitung: https://github.com/rjcncpt/StarCitizen-Deutsch
 
 ![image](https://www.sc-deutsch-launcher.de/uebersetzung/starcitizen-copyright.png)
 
-Wenn du unsere Übersetzung als Grundlage für deine angepasste Übersetzung verwendest und in Streams und/oder Videos zeigst, belasse in der global.ini-Datei die erste Zeile mit der Angabe zur Ursprungsübersetzung bestehen. Das hilft anderen Spielern ohne Umwege an die ursprüngliche Übersetzung zu gelangen.
-
-### Kopiere diese Zeile und ersetze sie in der global.ini Datei
-
-Damit Spieler nachvollziehen können, woher die ursprüngliche Übersetzung stammt, sollte in der `Frontend_PU_Version=` Zeile ein Hinweis auf das Original enthalten sein. Dies ermöglicht es Nutzern, die Originalversion auszuprobieren.
+**Wenn du unsere Übersetzung als Grundlage für deine angepasste Übersetzung verwendest und in Streams und/oder Videos zeigst, belasse in der global.ini-Datei die erste Zeile mit der Angabe zur Ursprungsübersetzung bestehen. Das hilft anderen Spielern ohne Umwege an die ursprüngliche Übersetzung zu gelangen.**
 
 Kopiere die folgende Zeile und ersetze damit die erste Zeile in der global.ini Datei:
 ```
-Frontend_PU_Version=Star Citizen Alpha x.x.x LIVE - Hybride Übersetzung\nDeutsche Community Übersetzung | Download: https://sc-deutsch-launcher.de\n\nÜbersetzung angepasst von: HierDeinName\nStand: 26. Februar 2025\n\n
+Frontend_PU_Version=Star Citizen Alpha x.x.x PTU - Hybride Übersetzung\nDeutsche Community Übersetzung\nDownload: https://sc-deutsch-launcher.de\n\nÜbersetzung angepasst von: HierDeinName\nStand: 26. Februar 2025\n\n
 ```
-Trage bei "HierDeinName" deinen Namen, deine Organisation oder einen anderen Hinweis ein, um kenntlich zu machen, dass du die Übersetzung überarbeitet hast. Nutzt du unsere Übersetzung nur Privat, ist keine Urheberkennzeichung erforderlich.
+Trage bei "HierDeinName" deinen Namen, deine Organisation oder einen anderen Hinweis ein, um kenntlich zu machen, dass du die Übersetzung überarbeitet hast.
 
 ## Warum so einen Aufwand?
 
