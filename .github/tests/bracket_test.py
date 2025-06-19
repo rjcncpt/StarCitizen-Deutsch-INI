@@ -87,7 +87,14 @@ if __name__ == "__main__":
         "ea_ui_player_count_bracket_right",
         "input_key_keyboard_leftParenthesis,P",
         "input_key_keyboard_rightParenthesis,P",
-        "hurston_intro_desc",  # Aufzählung
+        "hurston_intro_desc",
+        "item_Descbehr_glauncher_ballistic_01_shin",
+        "item_Descbehr_glauncher_ballistic_01_mat01",
+        "item_Descbehr_glauncher_ballistic_01_imp01",
+        "item_Descbehr_glauncher_ballistic_01_cen01",
+        "item_Descbehr_glauncher_ballistic_01_black01",
+        "item_Descbehr_glauncher_ballistic_01",
+        "hathor_laser_datapad_008_text",  # Aufzählung
     ]
     deu_live_file = "live/global.ini"
     deu_ptu_file = "ptu/global.ini"
