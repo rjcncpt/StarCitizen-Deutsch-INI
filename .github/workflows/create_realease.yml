@@ -222,8 +222,8 @@ jobs:
           cd release
           echo "${{ vars.VERSION_FILE_TEXT_LIVE }} ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }} ${{ needs.get_context_info.outputs.DATE }} - ${{ needs.get_context_info.outputs.TIME }} Uhr" >> Version.txt
           zip -r -9 "../${{ vars.ZIP_NAME_LIVE }}" *
-          # cp "../live/full/global.ini" "../release/data/Localization/german_(germany)/"
-          # zip -r -9 "../${{ vars.ZIP_NAME_FULL_LIVE }}" *
+          cp "../live/full/global.ini" "../release/data/Localization/german_(germany)/"
+          zip -r -9 "../${{ vars.ZIP_NAME_FULL_LIVE }}" *
 
       - name: Create Release For LIVE
         uses: ncipollo/release-action@v1
@@ -233,5 +233,5 @@ jobs:
           commit: ${{ needs.get_context_info.outputs.COMMIT_LIVE }}
           name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }}
           body: ${{ vars.RELEASE_BODY_LIVE }}(${{ needs.get_context_info.outputs.LINK_LIVE }})
-          artifacts: ${{ vars.ZIP_NAME_LIVE }}
+          artifacts: ${{ vars.ZIP_NAME_LIVE }}, ${{ vars.ZIP_NAME_FULL_LIVE }}
           makeLatest: true
