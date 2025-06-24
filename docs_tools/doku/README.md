@@ -11,7 +11,7 @@ Auf dieser Seite dokumentieren wir einige besondere Merkmale unserer deutschen S
   <br/><br/><br/>
 
 ## Wir interpretieren Missionstexte neu
-![image](https://i.imgur.com/OLdZcaa.png)
+![übersetzung-questlog](https://github.com/user-attachments/assets/0fa410d7-fca2-4629-9186-8b57e3c41db7)
 
 Besonders bei Liefermissionen treten oft Probleme mit Artikeln (der, die, das) und Präpositionen (von, bis, nach) auf, was in einer direkten 1:1-Übersetzung zu holprigen Formulierungen führt. Missionstexte sind häufig durch komplexe Verzweigungen und den Einsatz von Schlüsselwörtern (Keys) kompliziert gestaltet. Um diese Herausforderungen zu meistern, haben wir zahlreiche Missionstexte sorgfältig analysiert und einige davon eigenständig überarbeitet. Dabei haben wir ein eigenes Layout entwickelt, das die Lesbarkeit erheblich vereinfacht und ein angenehmeres Spielerlebnis bietet.
 
