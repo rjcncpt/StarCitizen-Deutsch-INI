@@ -14,6 +14,7 @@ Hilf mit, die Übersetzung zu verbessern! Trete **[unserem öffentlichen Überse
 ### Inhaltsverzeichnis
 
 - **[Anleitung zur Installation](#anleitung-zur-installation)**
+- **[Wir interpretieren Missionstexte neu](#wir-interpretieren-missionstexte-neu)**
 - **[Wie aktuell ist die deutsche Übersetzung?](#wie-aktuell-ist-die-deutsche-übersetzung)**
 - **[Tech-Preview Channels und Evocati Builds](#tech-preview-channels-und-evocati-builds)**
 - **[Das Team](#das-team) / [Danksagungen](#danksagungen)**
@@ -29,14 +30,6 @@ Wir bieten zwei Versionen unserer Sprachdatei an: eine hybride Übersetzung und 
 Vollständige (experimentelle) Übersetzung: Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im Issue Council zu kümmern, haben wir eine vollständige (experimentelle) Übersetzung der Sprachdatei entwickelt. Diese Version geht über die Hybride Übersetzung hinaus und umfasst auch die Übersetzung von Missionstiteln sowie teilweise von Items, Ortsnamen und Unternehmen. **Eigennamen sind auch in dieser Version nicht übersetzt.** Bitte beachte, dass diese Sprachdatei derzeit nur für die LIVE-Server verfügbar ist und viel Interpretationsspielraum enthält.
 <br/><br/>
 
-### Wir interpretieren Missionstexte neu
-Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys kompliziert aufgebaut. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen resultiert.
-
-Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet und ein eigenständiges Layout erschaffen, um die Lesbarkeit zu vereinfachen.
-
-**Erfahre in der [Dokumentation zu unserer Übersetzung](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/doku/README.md) mehr über unsere Arbeit.**
-<br/><br/>
-
 ### Das Team freut sich über ein Dankeschön
 Wir erhalten hin und wieder Nachrichten, wie man das Übersetzer-Team unterstützen kann, die maßgeblich an der Übersetzung beteiligt sind. Möchtest du dich in irgendeiner Form Dankbar zeigen, rufe **[die Support-Webseite auf](https://www.sc-deutsch-launcher.de/apps/support/)**, auf der per Zufall ein Teammitglied angezeigt wird.
 <br/><br/>
@@ -45,7 +38,7 @@ Wir erhalten hin und wieder Nachrichten, wie man das Übersetzer-Team unterstüt
 
 <br/>
 
-# Anleitung zur Installation
+## Anleitung zur Installation
 
 ### Variante 1: Automatisches Update der Übersetzung (SC Deutsch Launcher)
 Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zur Umstellung der Star Citizen Spieltexte von Englisch auf Deutsch. Unsere kostenlose App kümmert sich automatisch um alle Dateianpassungen, stellt sicher, dass immer die aktuellsten deutschen Sprachdateien für Star Citizen von unserem GitHub installiert werden und startet im Anschluss automatisch den RSI Launcher für dich.
@@ -110,12 +103,30 @@ Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du uns
 
 <br/>
 
+## Wir interpretieren Missionstexte neu
+
+![übersetzung-questlog](https://github.com/user-attachments/assets/9ead7030-2d51-4851-80b8-8eda966886ab)
+
+Missionstexte sind häufig durch komplexe Verzweigungen und den Gebrauch von Keys kompliziert aufgebaut. Dies führt insbesondere zu Problemen mit der korrekten Verwendung von Artikeln (der, die, das) und Präpositionen (von, bis, nach), was in holprigen Formulierungen, besonders bei Liefermissionen resultiert.
+
+Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen Missions-, Journal- und Reputationstexten analysiert und einige davon grundlegend überarbeitet und ein eigenständiges Layout mit einer Questlog erschaffen, um die Lesbarkeit zu vereinfachen.
+
+**Erfahre in der [Dokumentation zu unserer Übersetzung](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/docs_tools/doku/README.md) mehr über unsere Arbeit.**
+<br/><br/>
+
+------------------------------------
+
+<br/>
+
 ## Wie aktuell ist die deutsche Übersetzung?
 
 Die deutsche Übersetzung ist tagesaktuell. In der Regel veröffentlicht CIG die neuen Patches zwischen 23 und 3 Uhr nachts. Nachdem wir die neuen und geänderten Zeilen übertragen und übersetzt haben, laden wir die neue Übersetzung gegen 10 Uhr morgens auf GitHub. Jeden Freitag erstellen wir ein neues Release. Variablen und Keys in der global.ini Datei sind identisch mit der, die CIG zur Verfügung stellt. Sollten im Spiel Variablen mit einem @-Zeichen angezeigt werden, liegt der Fehler bei CIG und wird in späteren Patches korrigiert.
 
-💡 **Es kommt häufig vor, dass eine neue Spielversion veröffentlicht wird aber kein Update auf Github hochgeladen wurde. In diesem Fall gab es keine Veränderungen an den Spieltexten und demzufolge kann sich die Versionsnummer hier auf Github mit der Spielversion unterscheiden.**
-<br/><br/><br/><br/>
+💡 **Es kommt häufig vor, dass eine neue Spielversion veröffentlicht wird aber kein Update auf Github hochgeladen wurde. In diesem Fall gab es keine Veränderungen an den Spieltexten und demzufolge kann sich die Versionsnummer hier auf Github mit der Spielversion unterscheiden.**<br/><br/>
+
+------------------------------------
+
+<br/>
 
 ## Tech-Preview Channels und Evocati Builds
 
