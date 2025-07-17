@@ -95,6 +95,7 @@ if __name__ == "__main__":
         "item_Descbehr_glauncher_ballistic_01_black01",
         "item_Descbehr_glauncher_ballistic_01",
         "hathor_laser_datapad_008_text",  # Aufzählung
+        "PU_NPCVP16_BDC_ResponseRegenHospital_IG_003,P",  # Aufzählung
     ]
     deu_live_file = "live/global.ini"
     deu_ptu_file = "ptu/global.ini"
