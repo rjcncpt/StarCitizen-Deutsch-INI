@@ -42,6 +42,8 @@ def extract_desc_info(filename: str, excluded_keys: list) -> dict[str, dict[str,
         for key in item_dict.keys():
             if item_dict[key]:
                 item_dict[key] = item_dict[key].group(1).strip()
+                if key == "Typ (En)" and current_key.find("_helmet_") != -1:
+                    item_dict[key] = item_dict[key].replace("Armor", "Helmet")
             else:
                 item_dict[key] = None
 
@@ -77,7 +79,7 @@ def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: lis
             if eng_desc[current_key][field] is not None:
                 if (
                     eng_desc[current_key][field].lower().replace(".", ",")
-                    not in value.lower()
+                    not in value.lower().replace(".", ",")
                 ):
                     missing_fields.append(field)
 
