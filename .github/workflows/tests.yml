@@ -87,3 +87,18 @@ jobs:
 
       - name: Execute Test
         run: python ./.github/tests/bracket_test.py --github
+
+  Descriptions:
+    name: Check For wrong and missing descriptions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Execute Test
+        run: python ./.github/tests/item_desc_test.py --github

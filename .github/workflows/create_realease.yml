@@ -15,7 +15,7 @@ on:
   workflow_dispatch: # Ermöglicht manuelles Auslösen des Workflows von der GitHub-Website
     inputs:
       tag:
-        description: "Release Tag"
+        description: "Release Tag. Format: YYYY.MM.DD"
         type: string
   schedule: # Alle 14 Tage um 3 Uhr morgens
     - cron: "0 3 */14 * *"
