@@ -1,9 +1,9 @@
-[![Static Badge](https://img.shields.io/badge/LIVE%204.2.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/PTU%204.2.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/EVOCATI-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=red%20)](#evocati-builds-und-tech-preview-channels) <br/>
-[![Static Badge](https://img.shields.io/badge/Sag%20dem%20Team%20Danke-brightgreen?style=for-the-badge&logo=kofi&logoColor=fff&logoSize=auto&label=Ko-fi&labelColor=red&color=fff)](https://ko-fi.com/scdeutsch) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) [![Static Badge](https://img.shields.io/badge/46k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI) [![Discord](https://img.shields.io/discord/1234564972198236261?style=for-the-badge&logo=discord&logoColor=fff&label=Discord&labelColor=232323&color=4cc71e)](https://discord.gg/5VZsTk3qjR)
+[![Static Badge](https://img.shields.io/badge/LIVE%204.3.0-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/EVOCATI-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=red%20)](#evocati-builds-und-tech-preview-channels) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) <br/>
+[![Static Badge](https://img.shields.io/badge/Sag%20dem%20Team%20Danke-brightgreen?style=for-the-badge&logo=kofi&logoColor=fff&logoSize=auto&label=Ko-fi&labelColor=red&color=fff)](https://ko-fi.com/scdeutsch) [![Static Badge](https://img.shields.io/badge/47k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI) [![Discord](https://img.shields.io/discord/1234564972198236261?style=for-the-badge&logo=discord&logoColor=fff&label=Discord&labelColor=232323&color=4cc71e)](https://discord.gg/5VZsTk3qjR)
 
 [![Star Citizen in Deutsch](https://i.imgur.com/WAP6UNa.png)](#)
 
-# Star Citizen in Deutsch - Lokalisierung für LIVE und PTU
+# Star Citizen in Deutsch - Lokalisierung für LIVE
 
 #### Die deutsche Sprachdatei für Star Citizen ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern und ein besseres Spielerlebnis für deutsche Spieler zu schaffen, indem wir die Immersion und das Verständnis durch eine sorgfältig angepasste Übersetzung stärken.
 
@@ -73,11 +73,10 @@ Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du uns
 
 1. **Lade die Neueste ZIP-Datei mit der Übersetzung herunter:** <br/>
    Manchmal musst du auf "Assets" klicken, um die Datei zu sehen.<br/><br/>
-    <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/ÜBERSETZUNG%20FÜR-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/LIVE%20(ZIP)-brightgreen?style=for-the-badge&color=ffffff)</a><br/><a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=ptu&expanded=true">![Static Badge](https://img.shields.io/badge/ÜBERSETZUNG%20FÜR-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/PTU%20(ZIP)-brightgreen?style=for-the-badge&color=ffffff)</a> <!-- https://shields.io/badges/git-hub-release --> <br/><br/>
+    <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/ÜBERSETZUNG%20FÜR-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/LIVE%20(ZIP)-brightgreen?style=for-the-badge&color=ffffff)</a> <!-- https://shields.io/badges/git-hub-release --> <br/><br/>
 2. **Entpacke die ZIP-Datei auf deine Festplatte** <br/>
 3. **Kopiere den Inhalt (`data` Ordner und `user.cfg` Datei) aus der ZIP-Datei in den richtigen Ordner:**
    - Für die **LIVE**-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\`
-   - Für die **PTU**-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\PTU\`
    
    Der Pfad kann bei dir ein anderer sein.
 
@@ -136,7 +135,7 @@ Preview-Channel werden von uns nicht direkt unterstützt. Du kannst natürlich u
 ```
 <br/>
 
-Evocati Builds werden von uns nicht unterstützt. Wir planen, die neuen Zeilen die sich in den Evocati Builds befinden, erst mit dem Start von PTU Wave 1 zu veröffentlichen. Dieser Ansatz ist eine Anerkennung gegenüber CIG und respektiert die NDA vollumfänglich. Natürlich möchten wir auch vermeiden, unnötige Spoiler und Leaks preiszugeben.
+Evocati Builds werden von uns nicht unterstützt. Dieser Ansatz ist eine Anerkennung gegenüber CIG und respektiert die NDA vollumfänglich. Natürlich möchten wir auch vermeiden, unnötige Spoiler und Leaks preiszugeben.
 <br/><br/>
 
 ------------------------------------
@@ -233,7 +232,7 @@ Der Fehler wird durch benutzerdefinierte .cfg Einstellungen verursacht, die Shad
 Unsere `global.ini` Datei liegt bereits im korrekten UTF-8-BOM Format vor. Wenn bei dir Variablen angezeigt werden, die mit einem @-Zeichen beginnen, aber die Ordnerstruktur richtig ist, ist etweder deine Datei-Codierung falsch oder du hast vergessen die `user.cfg` Datei einzufügen. Lade entweder [unsere Datei erneut herunter](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases) oder stelle die Codierung deiner Datei manuell um:
 <br/><br/>
 
-1. Kontrolliere, ob sich die `user.cfg` Datei im LIVE bzw PTU/EPTU Ordner befindet
+1. Kontrolliere, ob sich die `user.cfg` Datei im LIVE Ordner befindet
 2. Wenn ja, öffne die **`global.ini`** in einem Texteditor wie Notepad++ (kostenlos)
 3. Klicke anschließend in der Symbolleiste auf "Codierung"
 4. Wähle **`UTF-8-BOM`**
