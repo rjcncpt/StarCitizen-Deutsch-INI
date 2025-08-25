@@ -15,7 +15,7 @@ on:
   workflow_dispatch: # Ermöglicht manuelles Auslösen des Workflows von der GitHub-Website
     inputs:
       tag:
-        description: "Release Tag. Format: YYYY.MM.DD"
+        description: "Kein Tag erforderlich. Erzeugt wird: YYYY.MM.DD-LIVE"
         type: string
         required: false # Tag ist nicht mehr erforderlich
         default: "" # Standardwert ist leer, wird später durch DATE_REV ersetzt
