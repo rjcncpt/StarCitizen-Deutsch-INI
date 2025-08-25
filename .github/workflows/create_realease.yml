@@ -18,7 +18,7 @@ on:
         description: "Release Tag. Format: YYYY.MM.DD"
         type: string
   schedule: # Alle 14 Tage um 3 Uhr morgens
-    - cron: "0 3 */14 * *"
+    - cron: "0 3 */7 * *"
   push:
     branches:
       - main
