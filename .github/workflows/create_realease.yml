@@ -17,7 +17,9 @@ on:
       tag:
         description: "Release Tag. Format: YYYY.MM.DD"
         type: string
-  schedule: # Alle 14 Tage um 3 Uhr morgens
+        required: false # Tag ist nicht mehr erforderlich
+        default: "" # Standardwert ist leer, wird später durch DATE_REV ersetzt
+  schedule: # Alle 7 Tage um 3 Uhr morgens
     - cron: "0 3 */7 * *"
   push:
     branches:
@@ -229,7 +231,7 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           token: ${{ secrets.WORKFLOW_TOKEN }}
-          tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE_REV }}-LIVE
+          tag: ${{ inputs.tag || needs.get_context_info.outputs.DATE_REV }}-LIVE # Standardwert ist DATE_REV
           commit: ${{ needs.get_context_info.outputs.COMMIT_LIVE }}
           name: ${{ needs.get_context_info.outputs.RELEASE_TITLE_LIVE }}
           body: ${{ vars.RELEASE_BODY_LIVE }}(${{ needs.get_context_info.outputs.LINK_LIVE }})
