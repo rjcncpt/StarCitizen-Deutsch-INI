@@ -1,6 +1,7 @@
 /.idea
 *.bak
 *.psd
+*.url
 /venv
 /ptu/full/
 /eptu/full/
