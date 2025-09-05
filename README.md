@@ -1,5 +1,5 @@
 [![Static Badge](https://img.shields.io/badge/LIVE%204.3.0-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/EVOCATI-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=red%20)](#evocati-builds-und-tech-preview-channels) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) <br/>
-[![Static Badge](https://img.shields.io/badge/Sag%20dem%20Team%20Danke-brightgreen?style=for-the-badge&logo=kofi&logoColor=fff&logoSize=auto&label=Ko-fi&labelColor=red&color=fff)](https://ko-fi.com/scdeutsch) [![Static Badge](https://img.shields.io/badge/47k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI) [![Discord](https://img.shields.io/discord/1234564972198236261?style=for-the-badge&logo=discord&logoColor=fff&label=Discord&labelColor=232323&color=4cc71e)](https://discord.gg/5VZsTk3qjR)
+[![Static Badge](https://img.shields.io/badge/Sag%20dem%20Team%20Danke-brightgreen?style=for-the-badge&logo=kofi&logoColor=fff&logoSize=auto&label=Ko-fi&labelColor=red&color=fff)](https://ko-fi.com/scdeutsch) [![Static Badge](https://img.shields.io/badge/48k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI) [![Discord](https://img.shields.io/discord/1234564972198236261?style=for-the-badge&logo=discord&logoColor=fff&label=Discord&labelColor=232323&color=4cc71e)](https://discord.gg/5VZsTk3qjR)
 
 [![Star Citizen in Deutsch](https://i.imgur.com/WAP6UNa.png)](#)
 
@@ -7,7 +7,7 @@
 
 #### Die deutsche Sprachdatei für Star Citizen ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern und ein besseres Spielerlebnis für deutsche Spieler zu schaffen, indem wir die Immersion und das Verständnis durch eine sorgfältig angepasste Übersetzung stärken.
 
-Hilf mit, die Übersetzung zu verbessern! Trete **[unserem öffentlichen Übersetzungs-Discord](https://discord.gg/5VZsTk3qjR)** bei, starte **[eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge)** oder erstelle **[ein Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=)**, um uns deine Vorschläge mitzuteilen. Werde Teil des Übersetzungsteams!
+Hilf mit, die Übersetzung zu verbessern! Trete **[unserem öffentlichen Übersetzungs-Discord](https://discord.gg/5VZsTk3qjR)** bei, starte **[eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge)** oder erstelle **[ein Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=)** hier auf Github, um uns deine Vorschläge mitzuteilen. Werde Teil des Übersetzungsteams!
 
 <br/>
 
@@ -27,11 +27,11 @@ Hilf mit, die Übersetzung zu verbessern! Trete **[unserem öffentlichen Überse
 
 Wir bieten zwei Versionen unserer Sprachdatei an: eine hybride Übersetzung und eine vollständige (experimentelle) Übersetzung. In der hybriden Übersetzung sind Eigennamen, Missionstitel, Items und Orte/Unternehmen nicht übersetzt. Diese Version gewährleistet Konsistenz beim Spielen mit internationalen Mitspielern und erhält die Kompatibilität mit dem Issue Council auf der RSI-Webseite. Zudem unterstützen wir damit Drittanbieter-Webseiten, Item-Datenbanken sowie Video- und Texttutorials.
 
-Vollständige (experimentelle) Übersetzung: Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im Issue Council zu kümmern, haben wir eine vollständige (experimentelle) Übersetzung der Sprachdatei entwickelt. Diese Version geht über die Hybride Übersetzung hinaus und umfasst auch die Übersetzung von Missionstiteln sowie teilweise von Items, Ortsnamen und Unternehmen. **Eigennamen sind auch in dieser Version nicht übersetzt.** Bitte beachte, dass diese Sprachdatei derzeit nur für die LIVE-Server verfügbar ist und viel Interpretationsspielraum enthält.
+Vollständige (experimentelle) Übersetzung: Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im Issue Council zu kümmern, haben wir eine vollständige (experimentelle) Übersetzung der Sprachdatei entwickelt. Diese Version geht über die Hybride Übersetzung hinaus und umfasst auch die Übersetzung von Missionstiteln sowie teilweise von Items, Ortsnamen und Unternehmen. **Eigennamen sind auch in dieser Version nicht übersetzt.**
 <br/><br/>
 
 ### Das Team freut sich über ein Dankeschön
-Wir erhalten hin und wieder Nachrichten, wie man das Übersetzer-Team unterstützen kann, die maßgeblich an der Übersetzung beteiligt sind. Möchtest du dich in irgendeiner Form Dankbar zeigen, rufe **[die Support-Webseite auf](https://www.sc-deutsch-launcher.de/apps/support/)**, auf der per Zufall ein Teammitglied angezeigt wird.
+Wir erhalten hin und wieder Nachrichten, wie man das Team unterstützen kann, die maßgeblich an der Übersetzung beteiligt sind. Möchtest du dich in irgendeiner Form Dankbar zeigen, kannst du das Team **[über die Kofi-Spenden-Webseite](https://ko-fi.com/scdeutsch)** per Paypal oder Stripe unterstützen.
 <br/><br/>
 
 ------------------------------------
@@ -69,7 +69,7 @@ Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zu
 
 [<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
-Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du unsere Star Citizen Übersetzung auch händisch installieren. Wichtig: Über ein Actions Script wird der Release alle 14 Tage und zum Beginn des neuen Monats automatisch erstellt.
+Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du unsere Star Citizen Übersetzung auch händisch installieren. Wichtig: Über ein Actions Script wird der Release alle 7 Tage und zum Beginn des neuen Monats automatisch erstellt.
 
 1. **Lade die Neueste ZIP-Datei mit der Übersetzung herunter:** <br/>
    Manchmal musst du auf "Assets" klicken, um die Datei zu sehen.<br/><br/>
@@ -119,7 +119,7 @@ Um diese Herausforderung zu bewältigen, haben wir eine Vielzahl von komplexen M
 
 ## Wie aktuell ist die deutsche Übersetzung?
 
-Die deutsche Übersetzung ist tagesaktuell. In der Regel veröffentlicht CIG die neuen Patches zwischen 23 und 3 Uhr nachts. Nachdem wir die neuen und geänderten Zeilen übertragen und übersetzt haben, laden wir die neue Übersetzung gegen 10 Uhr morgens auf GitHub. Jeden Freitag erstellen wir ein neues Release. Variablen und Keys in der global.ini Datei sind identisch mit der, die CIG zur Verfügung stellt. Sollten im Spiel Variablen mit einem @-Zeichen angezeigt werden, liegt der Fehler bei CIG und wird in späteren Patches korrigiert.
+Die deutsche Übersetzung ist tagesaktuell. Die LIVE-Übersetzung wird unmittelbar zur LIVE-Schaltung bereitgestellt und bis zum nächsten Patch mehrmals aktualisiert. Variablen und Keys in der global.ini Datei sind identisch mit der, die CIG zur Verfügung stellt. Sollten im Spiel Variablen mit einem **`@-Zeichen`** angezeigt werden, liegt der Fehler bei CIG und wird in späteren Patches korrigiert.
 
 💡 **Es kommt häufig vor, dass eine neue Spielversion veröffentlicht wird aber kein Update auf Github hochgeladen wurde. In diesem Fall gab es keine Veränderungen an den Spieltexten und demzufolge kann sich die Versionsnummer hier auf Github mit der Spielversion unterscheiden.**<br/><br/>
 
