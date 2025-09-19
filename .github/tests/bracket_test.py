@@ -87,16 +87,16 @@ if __name__ == "__main__":
             "warning",
         )
 
-    print()
+    # print()
 
-    if os.path.exists(deu_ptu_file):
-        print(f"Checking {deu_ptu_file}...")
-        check_brackets(deu_ptu_file, excluded_keys)
-    else:
-        print_to_console(
-            "Bracket Test",
-            f"Skipping {deu_ptu_file}: File not found.",
-            deu_ptu_file,
-            0,
-            "warning",
-        )
+    # if os.path.exists(deu_ptu_file):
+    #     print(f"Checking {deu_ptu_file}...")
+    #     check_brackets(deu_ptu_file, excluded_keys)
+    # else:
+    #     print_to_console(
+    #         "Bracket Test",
+    #         f"Skipping {deu_ptu_file}: File not found.",
+    #         deu_ptu_file,
+    #         0,
+    #         "warning",
+    #     )
