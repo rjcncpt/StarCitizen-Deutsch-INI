@@ -1,36 +1,7 @@
 import os
 import re
-import sys
 
-severities = {
-    "error": "::error",
-    "warning": "::warning",
-    "notice": "::notice",
-}
-
-
-def print_to_console(message, file, line_number, severity):
-    """
-    :param message: The message to print to the console.
-    :param file: The name of the file that the message is related to.
-    :param line_number: The line number that the message is related to.
-    :param severity: The severity of the message. Must be one of the following: "error", "warning", "notice".
-    :return: None
-
-    The print_to_console method prints a message to the console in the format that GitHub Actions expects for annotations. This method is used to print error messages for bracket mismatches.
-
-    Example usage:
-
-    print_to_console("Extra closing bracket detected.", "file.txt", 5, "error")
-
-    This will print the message "Extra closing bracket detected." for the file "file.txt" on line 5 with an error severity.
-    """
-    if len(sys.argv) > 1 and "github" in sys.argv[1]:
-        print(
-            f"{severities[severity]} title=Bracket Test,file={file},line={line_number}:: {message}"
-        )
-    else:
-        print(f"{message}")
+from helper import print_to_console
 
 
 def check_brackets(filename, excluded):
@@ -65,6 +36,7 @@ def check_brackets(filename, excluded):
                             bracket_stack.pop()
                         except IndexError:
                             print_to_console(
+                                "Bracket Test",
                                 f"{filename}:{line_number} / {current_key}: Extra closing bracket detected.",
                                 filename,
                                 line_number,
@@ -74,6 +46,7 @@ def check_brackets(filename, excluded):
 
                 if bracket_stack:
                     print_to_console(
+                        "Bracket Test",
                         f"{filename}:{line_number} / {current_key}: Open bracket is not closed.",
                         filename,
                         line_number,
@@ -107,7 +80,11 @@ if __name__ == "__main__":
         check_brackets(deu_live_file, excluded_keys)
     else:
         print_to_console(
-            f"Skipping {deu_live_file}: File not found.", deu_live_file, 0, "warning"
+            "Bracket Test",
+            f"Skipping {deu_live_file}: File not found.",
+            deu_live_file,
+            0,
+            "warning",
         )
 
     print()
@@ -117,5 +94,9 @@ if __name__ == "__main__":
         check_brackets(deu_ptu_file, excluded_keys)
     else:
         print_to_console(
-            f"Skipping {deu_ptu_file}: File not found.", deu_ptu_file, 0, "warning"
+            "Bracket Test",
+            f"Skipping {deu_ptu_file}: File not found.",
+            deu_ptu_file,
+            0,
+            "warning",
         )
