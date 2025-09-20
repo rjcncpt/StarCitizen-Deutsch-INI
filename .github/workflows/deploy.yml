@@ -6,6 +6,8 @@ on:
     branches: [main]
     paths: ["live/**"] # Nur ausführen wenn Dateien im live/ Ordner geändert wurden
 
+  workflow_dispatch: # Ermöglicht manuelles Auslösen des Workflows
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
