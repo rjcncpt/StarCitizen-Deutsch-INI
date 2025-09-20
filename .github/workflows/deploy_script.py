@@ -3,8 +3,8 @@ name: Deploy to FTP and Reload Website
 
 on:
   push:
-    branches: [ main ]
-    paths: [ 'live/**' ]  # Nur ausführen wenn Dateien im live/ Ordner geändert wurden
+    branches: [main]
+    paths: ['live/**']  # Nur ausführen wenn Dateien im live/ Ordner geändert wurden
 
 jobs:
   deploy:
