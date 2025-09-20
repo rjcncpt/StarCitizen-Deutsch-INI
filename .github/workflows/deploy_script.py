@@ -1,0 +1,32 @@
+# .github/workflows/deploy.yml
+name: Deploy to FTP and Reload Website
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'live/**' ]  # Nur ausführen wenn Dateien im live/ Ordner geändert wurden
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        pip install requests
+        
+    - name: Execute deployment script
+      env:
+        FTP_HOST: ${{ secrets.FTP_HOST }}
+        FTP_USER: ${{ secrets.FTP_USER }}
+        FTP_PASS: ${{ secrets.FTP_PASS }}
+        WEBSITE_URL: ${{ secrets.WEBSITE_URL }}
+      run: python .github/workflows/deploy_script.py
