@@ -15,13 +15,14 @@ def find_bad_lines(file_content):
 
     return internal_bad_lines
 
+
 def extract_keys_from_lines(file_content, line_numbers):
     """
     Extract keys from specific lines in the file content.
-    
+
     This function scans specified lines in the provided file content to identify and extract keys.
     A key is considered to be the part before the '=' character in a line.
-    
+
     :param file_content: A list of strings, where each string represents a line from the file.
     :param line_numbers: A list of integers, where each integer is a line number from which to extract a key.
                          Line numbers are 1-based, meaning the first line is line number 1.
@@ -35,12 +36,13 @@ def extract_keys_from_lines(file_content, line_numbers):
         # Ensure the line number is within range
         if 0 <= line_number < len(file_content) - 1:
             line = file_content[line_number].strip()
-            if '=' in line:
+            if "=" in line:
                 # Extract the key from the line
-                key, _ = line.split('=', 1)
+                key, _ = line.split("=", 1)
                 keys.append(key.strip())
 
     return keys
+
 
 if __name__ == "__main__":
     file_path = "live/global.ini"
@@ -62,6 +64,6 @@ if __name__ == "__main__":
             print("Test PASSED!")
 
     except FileNotFoundError:
-        print(f"File \"{file_path}\" was not found.")
+        print(f'File "{file_path}" was not found.')
     except Exception as e:
         print(f"An error occurred: {e}")

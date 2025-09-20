@@ -1,6 +1,7 @@
 import os
-from bracket_test import print_to_console
 import re
+
+from helper import print_to_console
 
 
 def is_item_desc(current_key: str, value: str) -> bool:
@@ -69,6 +70,7 @@ def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: lis
         missing_fields = []
         if eng_desc.get(current_key) is None:
             print_to_console(
+                "Item Description Test",
                 f"{filename}:{line_number} / {current_key}: No English description found.",
                 filename,
                 line_number,
@@ -77,10 +79,9 @@ def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: lis
             continue
         for field in eng_desc[current_key]:
             if eng_desc[current_key][field] is not None:
-                if (
-                    eng_desc[current_key][field].lower().replace(".", ",")
-                    not in value.lower().replace(".", ",")
-                ):
+                if eng_desc[current_key][field].lower().replace(
+                    ".", ","
+                ) not in value.lower().replace(".", ","):
                     missing_fields.append(field)
 
         if missing_fields:
@@ -90,6 +91,7 @@ def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: lis
                 if v is not None and k in missing_fields
             }
             print_to_console(
+                "Item Description Test",
                 f"{filename}:{line_number} / {current_key}: Missing information: {missing_fields}. Expected: {expected_fields}",
                 filename,
                 line_number,
@@ -113,6 +115,7 @@ if __name__ == "__main__":
             check_armor_desc(deu_live_file, eng_desc, excluded_keys)
         else:
             print_to_console(
+                "Item Description Test",
                 f"Skipping {deu_live_file}: File not found.",
                 deu_live_file,
                 0,
@@ -120,5 +123,9 @@ if __name__ == "__main__":
             )
     else:
         print_to_console(
-            f"Skipping {en_live_file}: File not found.", en_live_file, 0, "warning"
+            "Item Description Test",
+            f"Skipping {en_live_file}: File not found.",
+            en_live_file,
+            0,
+            "warning",
         )
