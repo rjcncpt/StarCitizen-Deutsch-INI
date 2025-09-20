@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import logging
 import os
 import sys
 import time
@@ -7,46 +8,48 @@ from ftplib import FTP
 
 import requests
 
-
-def log_message(message):
-    """Log-Nachricht ausgeben."""
-    print(f"[LOG] {message}")
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
 
 
 def reload_website(retry_count=3):
     """Funktion, um die Webseite neu zu laden."""
-    log_message("Webseite wird neu geladen...")
+    logger.info("Webseite wird neu geladen...")
 
     # Website-URL aus Umgebungsvariable
     website_url = os.getenv("WEBSITE_URL")
     if not website_url:
-        log_message("FEHLER: WEBSITE_URL fehlt in den Umgebungsvariablen")
+        logger.error("WEBSITE_URL fehlt in den Umgebungsvariablen")
         return False
 
     for attempt in range(retry_count):
         try:
             response = requests.get(website_url, timeout=30)
             if response.status_code == 200:
-                log_message("Die Website wurde erfolgreich neu geladen.")
+                logger.info("Die Website wurde erfolgreich neu geladen.")
                 return True
             else:
-                log_message(
+                logger.warning(
                     f"Website konnte nicht neu geladen werden. Status: {response.status_code}"
                 )
         except Exception as e:
-            log_message(
+            logger.warning(
                 f"Fehler beim Neuladen der Website (Versuch {attempt + 1}): {e}"
             )
             if attempt < retry_count - 1:
                 time.sleep(5)  # Warte 5 Sekunden vor dem nächsten Versuch
 
-    log_message("Alle Versuche zum Neuladen der Website fehlgeschlagen")
+    logger.error("Alle Versuche zum Neuladen der Website fehlgeschlagen")
     return False
 
 
 def delete_files():
     """Löschen von Cache-Dateien auf dem FTP-Server."""
-    log_message("Löschen von Dateien auf dem FTP-Server...")
+    logger.info("Löschen von Dateien auf dem FTP-Server...")
 
     # FTP-Credentials aus Umgebungsvariablen
     ftp_host = os.getenv("FTP_HOST")
@@ -54,7 +57,7 @@ def delete_files():
     ftp_pass = os.getenv("FTP_PASS")
 
     if not all([ftp_host, ftp_user, ftp_pass]):
-        log_message("FEHLER: FTP-Credentials fehlen in den Umgebungsvariablen")
+        logger.error("FTP-Credentials fehlen in den Umgebungsvariablen")
         sys.exit(1)
 
     files_to_delete = [
@@ -65,49 +68,49 @@ def delete_files():
     try:
         ftp = FTP(ftp_host)
         ftp.login(ftp_user, ftp_pass)
-        log_message("Verbindung zum FTP-Server hergestellt.")
+        logger.info("Verbindung zum FTP-Server hergestellt.")
 
         for file_path in files_to_delete:
             try:
                 ftp.delete(file_path)
-                log_message(f"Datei gelöscht: {file_path}")
+                logger.info(f"Datei gelöscht: {file_path}")
             except Exception as e:
-                log_message(f"Fehler beim Löschen der Datei '{file_path}': {e}")
+                logger.error(f"Fehler beim Löschen der Datei '{file_path}': {e}")
 
         ftp.quit()
-        log_message("Die Verbindung zum FTP-Server wurde getrennt.")
+        logger.info("Die Verbindung zum FTP-Server wurde getrennt.")
         return True
 
     except Exception as e:
-        log_message(f"Verbindung zum FTP-Server fehlgeschlagen: {e}")
+        logger.error(f"Verbindung zum FTP-Server fehlgeschlagen: {e}")
         return False
 
 
 def main():
     """Hauptfunktion des Deployment-Scripts."""
-    log_message("=== Deployment Script gestartet ===")
+    logger.info("=== Deployment Script gestartet ===")
 
     # Schritt 1: Cache-Dateien löschen
-    log_message("\n--- Schritt 1: Cache-Dateien löschen ---")
+    logger.info("\n--- Schritt 1: Cache-Dateien löschen ---")
     if not delete_files():
-        log_message("FEHLER: Cache-Dateien konnten nicht gelöscht werden")
+        logger.error("Cache-Dateien konnten nicht gelöscht werden")
         sys.exit(1)
 
     # Schritt 2: Erste Website-Aktualisierung
-    log_message("\n--- Schritt 2: Erste Website-Aktualisierung ---")
+    logger.info("\n--- Schritt 2: Erste Website-Aktualisierung ---")
     if not reload_website():
-        log_message("WARNUNG: Erste Website-Aktualisierung fehlgeschlagen")
+        logger.warning("Erste Website-Aktualisierung fehlgeschlagen")
 
     # Schritt 3: Warte 5 Sekunden
-    log_message("\n--- Warte 5 Sekunden ---")
+    logger.info("\n--- Warte 5 Sekunden ---")
     time.sleep(5)
 
     # Schritt 4: Zweite Website-Aktualisierung
-    log_message("\n--- Schritt 3: Zweite Website-Aktualisierung ---")
+    logger.info("\n--- Schritt 3: Zweite Website-Aktualisierung ---")
     if not reload_website():
-        log_message("WARNUNG: Zweite Website-Aktualisierung fehlgeschlagen")
+        logger.warning("Zweite Website-Aktualisierung fehlgeschlagen")
 
-    log_message("\n=== Deployment abgeschlossen ===")
+    logger.info("\n=== Deployment abgeschlossen ===")
 
 
 if __name__ == "__main__":
