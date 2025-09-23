@@ -4,6 +4,7 @@ import logging
 import os
 import sys
 import time
+from datetime import datetime
 from ftplib import FTP
 
 import requests
@@ -86,6 +87,43 @@ def delete_files():
         return False
 
 
+def send_dicord_message(title: str, message: str, color: int = 3066993) -> bool:
+    """Sendet eine Discord-Nachricht als Embed über einen Webhook.
+
+    Args:
+        title (str): Der Titel der Nachricht.
+        message (str): Der Inhalt der Nachricht.
+        color (int): Die Farbe des Embeds Bsp: 3066993 (grün), 15158332 (rot), 15844367 (gelb), 3447003 (blau), 10181046 (lila), 0 (schwarz)
+    Returns:
+        bool: True wenn die Nachricht erfolgreich gesendet wurde, sonst False.
+    """
+    webhook_url = os.getenv("DISCORD_WEBHOOK_URL")
+    if not webhook_url:
+        logger.error("DISCORD_WEBHOOK_URL fehlt in den Umgebungsvariablen")
+        return False
+
+    embed = {
+        "title": title,
+        "description": message,
+        "color": color,
+    }
+    payload = {"embeds": [embed]}
+
+    try:
+        response = requests.post(webhook_url, json=payload, timeout=10)
+        if response.status_code == 204:
+            logger.info("Discord-Nachricht erfolgreich gesendet.")
+            return True
+        else:
+            logger.error(
+                f"Fehler beim Senden der Discord-Nachricht: {response.status_code} {response.text}"
+            )
+            return False
+    except Exception as e:
+        logger.error(f"Exception beim Senden der Discord-Nachricht: {e}")
+        return False
+
+
 def main():
     """Hauptfunktion des Deployment-Scripts."""
     logger.info("=== Deployment Script gestartet ===")
@@ -111,6 +149,12 @@ def main():
         logger.warning("Zweite Website-Aktualisierung fehlgeschlagen")
 
     logger.info("\n=== Deployment abgeschlossen ===")
+
+    # Schritt 5: Sende Discord-Nachricht
+    logger.info("\n--- Schritt 4: Sende Discord-Nachricht ---")
+    now = datetime.now()
+    message = f"Die Übersetzung für LIVE wurde am {now.strftime('%d. %B %Y / %H:%M Uhr')} aktualisiert."
+    send_dicord_message("Neue Übersetzung verfügbar!", message)
 
 
 if __name__ == "__main__":
