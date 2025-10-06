@@ -1,5 +1,6 @@
-from configparser import ConfigParser, Error as configparserError, DuplicateOptionError
 import sys
+from configparser import ConfigParser, DuplicateOptionError
+from configparser import Error as configparserError
 
 
 def parse_error(file_path: str, error: configparserError):
