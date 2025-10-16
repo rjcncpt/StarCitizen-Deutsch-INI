@@ -88,10 +88,13 @@ Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du uns
 
 ------------------------------------
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
+> **Wir haben die Übersetzung für das PTU eingestellt. Die genauen <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/ptu/readme.md">Hintergrunde haben wir dir hier</a> notiert.**
+
+> [!IMPORTANT]
 > **Die Übersetzungsdatei wird regelmäßig verbessert. Neue Star Citizen Patches fügen oft neue Texte hinzu. Lade die ZIP-Datei regelmäßig herunter, um Fehler zu vermeiden. Oder nutze unseren Launcher der die Aufgabe für dich erledigt.**
 
-> [!WARNING]  
+> [!WARNING]
 > **Hast du eine eigene user.cfg Datei? Überschreibe sie nicht! Füge einfach diese zwei Zeilen hinzu:** <br/>
 > ```
 > g_language = german_(germany)
