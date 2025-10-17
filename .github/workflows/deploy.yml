@@ -30,6 +30,10 @@ jobs:
 
       - name: Execute deployment script
         env:
+          LANG: de_DE.UTF-8
+          LANGUAGE: de_DE:de
+          LC_ALL: de_DE.UTF-8
+          TZ: "Europe/Berlin"
           CREATE_FILES: ${{ secrets.CREATE_FILES }}
           WEBSITE_URL: ${{ secrets.WEBSITE_URL }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
