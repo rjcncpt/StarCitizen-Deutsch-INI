@@ -26,7 +26,9 @@ def execute_create_files():
         sys.exit(1)
 
     try:
-        result = subprocess.run(create_files_cmd, shell=True, capture_output=True, text=True)
+        result = subprocess.run(
+            create_files_cmd, shell=True, capture_output=True, text=True
+        )
         if result.returncode == 0:
             logger.info("CREATE_FILES Kommando erfolgreich ausgeführt.")
             return True
