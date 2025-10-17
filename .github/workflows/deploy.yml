@@ -26,7 +26,7 @@ jobs:
         run: |
           pip install requests
           sudo apt-get update && sudo apt-get install -y locales
-          sed -i '/de_DE.UTF-8/s/^# //g' /etc/locale.gen && locale-gen
+          sudo sed -i '/de_DE.UTF-8/s/^# //g' /etc/locale.gen && locale-gen
 
       - name: Execute deployment script
         env:
