@@ -7,6 +7,7 @@ import time
 from datetime import datetime
 import requests
 import subprocess
+import re
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
@@ -107,6 +108,23 @@ def send_dicord_message(title: str, message: str, color: int = 3066993) -> bool:
         return False
 
 
+def get_patch_number() -> str:
+    """Parst den commit titel um die Patch-Nummer zu extrahieren."""
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--pretty=%s", "live/global.ini"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        commit_title = result.stdout.strip()
+        clean_title = re.sub(r"\s*\([^)]*\)\s*$", "", commit_title).strip()
+        return clean_title
+    except Exception as e:
+        logger.error(f"Fehler beim Abrufen der Patch-Nummer: {e}")
+        return ""
+
+
 def main():
     """Hauptfunktion des Deployment-Scripts."""
     logger.info("=== Deployment Script gestartet ===")
@@ -129,7 +147,9 @@ def main():
     # Schritt 4: Sende Discord-Nachricht
     logger.info("\n--- Schritt 4: Sende Discord-Nachricht ---")
     now = datetime.now()
-    message = f"Die Übersetzung für LIVE wurde am {now.strftime('%d. %B %Y / %H:%M Uhr')} aktualisiert."
+    patch_number = get_patch_number()
+
+    message = f"Die Star Citizen Übersetzung für LIVE wurde am {now.strftime('%d. %B %Y / %H:%M Uhr')} aktualisiert.\n{patch_number}"
     send_dicord_message("Neue Übersetzung verfügbar!", message)
 
     logger.info("\n=== Deployment abgeschlossen ===")
