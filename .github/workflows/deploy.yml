@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1 # Vollständigen Verlauf abrufen, um Commit-Nachrichten zu lesen
+          fetch-depth: 30 # Vollständigen Verlauf abrufen, um Commit-Nachrichten zu lesen
 
       - name: Set up Python
         uses: actions/setup-python@v4
