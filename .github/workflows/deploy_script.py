@@ -149,7 +149,7 @@ def main():
     now = datetime.now()
     patch_number = get_patch_number()
 
-    message = f"Die Star Citizen Übersetzung für LIVE wurde am {now.strftime('%d. %B %Y / %H:%M Uhr')} aktualisiert.\n{patch_number}"
+    message = f"Die Star Citizen Übersetzung für LIVE wurde am {now.strftime('%d. %B %Y / %H:%M Uhr')} aktualisiert.\n\n{patch_number}"
     send_dicord_message("Neue Übersetzung verfügbar!", message)
 
     logger.info("\n=== Deployment abgeschlossen ===")
