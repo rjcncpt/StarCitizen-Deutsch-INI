@@ -26,14 +26,14 @@ def execute_create_files():
         sys.exit(1)
 
     try:
-        result = subprocess.run(
-            create_files_cmd, shell=True, capture_output=True, text=True
-        )
-        if result.returncode == 0:
+        response = requests.get(create_files_cmd, timeout=30)
+        if response.status_code == 200:
             logger.info("CREATE_FILES Kommando erfolgreich ausgeführt.")
             return True
         else:
-            logger.error(f"Fehler beim Ausführen von CREATE_FILES: {result.stderr}")
+            logger.error(
+                f"Fehler beim Ausführen von CREATE_FILES: {response.status_code}"
+            )
             return False
     except Exception as e:
         logger.error(f"Exception beim Ausführen von CREATE_FILES: {e}")
