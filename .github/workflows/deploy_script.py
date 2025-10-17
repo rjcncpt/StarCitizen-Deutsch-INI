@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 
+import locale
 import logging
 import os
+import re
+import subprocess
 import sys
 import time
 from datetime import datetime
+
 import requests
-import subprocess
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
@@ -26,14 +29,14 @@ def execute_create_files():
         sys.exit(1)
 
     try:
-        result = subprocess.run(
-            create_files_cmd, shell=True, capture_output=True, text=True
-        )
-        if result.returncode == 0:
+        response = requests.get(create_files_cmd, timeout=30)
+        if response.status_code == 200:
             logger.info("CREATE_FILES Kommando erfolgreich ausgeführt.")
             return True
         else:
-            logger.error(f"Fehler beim Ausführen von CREATE_FILES: {result.stderr}")
+            logger.error(
+                f"Fehler beim Ausführen von CREATE_FILES: {response.status_code}"
+            )
             return False
     except Exception as e:
         logger.error(f"Exception beim Ausführen von CREATE_FILES: {e}")
@@ -107,6 +110,25 @@ def send_dicord_message(title: str, message: str, color: int = 3066993) -> bool:
         return False
 
 
+def get_patch_number() -> str:
+    """Parst den commit titel um die Patch-Nummer zu extrahieren."""
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--pretty=%s", "live/global.ini"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        commit_title = result.stdout.strip()
+        if "|" not in commit_title:
+            return ""
+        clean_title = re.sub(r"\s*\([^)]*\)\s*$", "", commit_title).strip()
+        return clean_title
+    except Exception as e:
+        logger.error(f"Fehler beim Abrufen der Patch-Nummer: {e}")
+        return ""
+
+
 def main():
     """Hauptfunktion des Deployment-Scripts."""
     logger.info("=== Deployment Script gestartet ===")
@@ -128,8 +150,11 @@ def main():
 
     # Schritt 4: Sende Discord-Nachricht
     logger.info("\n--- Schritt 4: Sende Discord-Nachricht ---")
+    locale.setlocale(locale.LC_ALL, "de_DE.utf-8")
     now = datetime.now()
-    message = f"Die Übersetzung für LIVE wurde am {now.strftime('%d. %B %Y / %H:%M Uhr')} aktualisiert."
+    patch_number = get_patch_number()
+
+    message = f"Die Star Citizen Übersetzung für LIVE wurde am {now.strftime('%d. %B %Y / %H:%M Uhr')} aktualisiert.\n\n{patch_number}"
     send_dicord_message("Neue Übersetzung verfügbar!", message)
 
     logger.info("\n=== Deployment abgeschlossen ===")
