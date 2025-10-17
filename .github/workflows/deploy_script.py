@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 
+import locale
 import logging
 import os
+import re
+import subprocess
 import sys
 import time
 from datetime import datetime
+
 import requests
-import subprocess
-import re
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
@@ -148,6 +150,7 @@ def main():
 
     # Schritt 4: Sende Discord-Nachricht
     logger.info("\n--- Schritt 4: Sende Discord-Nachricht ---")
+    locale.setlocale(locale.LC_ALL, "de_DE.utf-8")
     now = datetime.now()
     patch_number = get_patch_number()
 
