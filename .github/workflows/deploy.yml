@@ -1,0 +1,32 @@
+name: Deploy to FTP and Reload Website
+
+on:
+  push:
+    branches: [main]
+    paths: ["live/**"] # Nur ausführen wenn Dateien im live/ Ordner geändert wurden
+
+  workflow_dispatch: # Ermöglicht manuelles Auslösen des Workflows
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Execute deployment script
+        env:
+          CREATE_FILES: ${{ secrets.CREATE_FILES }}
+          WEBSITE_URL: ${{ secrets.WEBSITE_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python .github/workflows/deploy_script.py
