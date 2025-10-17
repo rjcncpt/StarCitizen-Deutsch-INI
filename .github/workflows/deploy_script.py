@@ -118,6 +118,8 @@ def get_patch_number() -> str:
             check=True,
         )
         commit_title = result.stdout.strip()
+        if "|" not in commit_title:
+            return ""
         clean_title = re.sub(r"\s*\([^)]*\)\s*$", "", commit_title).strip()
         return clean_title
     except Exception as e:
