@@ -1,4 +1,3 @@
-# .github/workflows/deploy.yml
 name: Deploy to FTP and Reload Website
 
 on:
@@ -27,9 +26,7 @@ jobs:
 
       - name: Execute deployment script
         env:
-          FTP_HOST: ${{ secrets.FTP_HOST }}
-          FTP_USER: ${{ secrets.FTP_USER }}
-          FTP_PASS: ${{ secrets.FTP_PASS }}
+          CREATE_FILES: ${{ secrets.CREATE_FILES }}
           WEBSITE_URL: ${{ secrets.WEBSITE_URL }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python .github/workflows/deploy_script.py

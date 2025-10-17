@@ -5,9 +5,8 @@ import os
 import sys
 import time
 from datetime import datetime
-from ftplib import FTP
-
 import requests
+import subprocess
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
@@ -17,11 +16,32 @@ logging.basicConfig(
 )
 
 
+def execute_create_files():
+    """Führt das Kommando aus dem CREATE_FILES Secret aus."""
+    logger.info("Ausführen des CREATE_FILES Kommandos...")
+
+    create_files_cmd = os.getenv("CREATE_FILES")
+    if not create_files_cmd:
+        logger.error("CREATE_FILES fehlt in den Umgebungsvariablen")
+        sys.exit(1)
+
+    try:
+        result = subprocess.run(create_files_cmd, shell=True, capture_output=True, text=True)
+        if result.returncode == 0:
+            logger.info("CREATE_FILES Kommando erfolgreich ausgeführt.")
+            return True
+        else:
+            logger.error(f"Fehler beim Ausführen von CREATE_FILES: {result.stderr}")
+            return False
+    except Exception as e:
+        logger.error(f"Exception beim Ausführen von CREATE_FILES: {e}")
+        return False
+
+
 def reload_website(retry_count=3):
     """Funktion, um die Webseite neu zu laden."""
     logger.info("Webseite wird neu geladen...")
 
-    # Website-URL aus Umgebungsvariable
     website_url = os.getenv("WEBSITE_URL")
     if not website_url:
         logger.error("WEBSITE_URL fehlt in den Umgebungsvariablen")
@@ -46,45 +66,6 @@ def reload_website(retry_count=3):
 
     logger.error("Alle Versuche zum Neuladen der Website fehlgeschlagen")
     return False
-
-
-def delete_files():
-    """Löschen von Cache-Dateien auf dem FTP-Server."""
-    logger.info("Löschen von Dateien auf dem FTP-Server...")
-
-    # FTP-Credentials aus Umgebungsvariablen
-    ftp_host = os.getenv("FTP_HOST")
-    ftp_user = os.getenv("FTP_USER")
-    ftp_pass = os.getenv("FTP_PASS")
-
-    if not all([ftp_host, ftp_user, ftp_pass]):
-        logger.error("FTP-Credentials fehlen in den Umgebungsvariablen")
-        sys.exit(1)
-
-    files_to_delete = [
-        "/httpdocs/inc/cache/total_accesses.cache",
-        "/httpdocs/inc/commit_info.txt",
-    ]
-
-    try:
-        ftp = FTP(ftp_host)
-        ftp.login(ftp_user, ftp_pass)
-        logger.info("Verbindung zum FTP-Server hergestellt.")
-
-        for file_path in files_to_delete:
-            try:
-                ftp.delete(file_path)
-                logger.info(f"Datei gelöscht: {file_path}")
-            except Exception as e:
-                logger.error(f"Fehler beim Löschen der Datei '{file_path}': {e}")
-
-        ftp.quit()
-        logger.info("Die Verbindung zum FTP-Server wurde getrennt.")
-        return True
-
-    except Exception as e:
-        logger.error(f"Verbindung zum FTP-Server fehlgeschlagen: {e}")
-        return False
 
 
 def send_dicord_message(title: str, message: str, color: int = 3066993) -> bool:
@@ -128,33 +109,28 @@ def main():
     """Hauptfunktion des Deployment-Scripts."""
     logger.info("=== Deployment Script gestartet ===")
 
-    # Schritt 1: Cache-Dateien löschen
-    logger.info("\n--- Schritt 1: Cache-Dateien löschen ---")
-    if not delete_files():
-        logger.error("Cache-Dateien konnten nicht gelöscht werden")
+    # Schritt 1: CREATE_FILES ausführen
+    logger.info("\n--- Schritt 1: CREATE_FILES ausführen ---")
+    if not execute_create_files():
+        logger.error("CREATE_FILES konnte nicht ausgeführt werden")
         sys.exit(1)
 
-    # Schritt 2: Erste Website-Aktualisierung
-    logger.info("\n--- Schritt 2: Erste Website-Aktualisierung ---")
+    # Schritt 2: Website-Aktualisierung
+    logger.info("\n--- Schritt 2: Website-Aktualisierung ---")
     if not reload_website():
-        logger.warning("Erste Website-Aktualisierung fehlgeschlagen")
+        logger.warning("Website-Aktualisierung fehlgeschlagen")
 
     # Schritt 3: Warte 5 Sekunden
-    logger.info("\n--- Warte 5 Sekunden ---")
+    logger.info("\n--- Schritt 3: Warte 5 Sekunden ---")
     time.sleep(5)
 
-    # Schritt 4: Zweite Website-Aktualisierung
-    logger.info("\n--- Schritt 3: Zweite Website-Aktualisierung ---")
-    if not reload_website():
-        logger.warning("Zweite Website-Aktualisierung fehlgeschlagen")
-
-    logger.info("\n=== Deployment abgeschlossen ===")
-
-    # Schritt 5: Sende Discord-Nachricht
+    # Schritt 4: Sende Discord-Nachricht
     logger.info("\n--- Schritt 4: Sende Discord-Nachricht ---")
     now = datetime.now()
     message = f"Die Übersetzung für LIVE wurde am {now.strftime('%d. %B %Y / %H:%M Uhr')} aktualisiert."
     send_dicord_message("Neue Übersetzung verfügbar!", message)
+
+    logger.info("\n=== Deployment abgeschlossen ===")
 
 
 if __name__ == "__main__":
