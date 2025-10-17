@@ -25,6 +25,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests
+          apt-get install -y locales
+          sed -i '/de_DE.UTF-8/s/^# //g' /etc/locale.gen && locale-gen
 
       - name: Execute deployment script
         env:
