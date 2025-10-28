@@ -69,7 +69,12 @@ Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zu
 
 [<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
 
-Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du unsere Star Citizen Übersetzung auch händisch installieren. Wichtig: Über ein Actions Script wird der Release alle 7 Tage und zum Beginn des neuen Monats automatisch erstellt.
+Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du unsere Star Citizen Übersetzung auch händisch installieren.
+
+> [!IMPORTANT]
+> **Die Übersetzung als ZIP-Download wird alle 7 Tage und zum Beginn des neuen Monats automatisch erstellt. Fixes in der Erstübersetzung eines neuen Patches sind demzufolge erst nach 7 Tagen im ZIP enthalten.**
+
+<br/>
 
 1. **Lade die Neueste ZIP-Datei mit der Übersetzung herunter:** <br/>
    Manchmal musst du auf "Assets" klicken, um die Datei zu sehen.<br/><br/>
@@ -87,6 +92,7 @@ Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du uns
 <br/><br/>
 
 ------------------------------------
+
 
 > [!IMPORTANT]
 > **Wir haben die Übersetzung für das PTU eingestellt. Die genauen <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/ptu/readme.md">Hintergrunde haben wir dir hier</a> notiert.**
