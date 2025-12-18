@@ -102,6 +102,7 @@ def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: lis
 if __name__ == "__main__":
     excluded_keys = [
         "item_Desc_cds_medium_armor_01_Shared",  # Forgotten ° character
+        "item_Desc_cds_medium_armor_01_core",  # Forgotten ° character
     ]
     en_live_file = ".github/en/live/global.ini"
     deu_live_file = "live/global.ini"
