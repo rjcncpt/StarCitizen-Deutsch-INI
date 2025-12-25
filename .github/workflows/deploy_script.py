@@ -73,7 +73,13 @@ def reload_website(retry_count=3):
     return False
 
 
-def send_dicord_message(title: str, message: str, color: int = 3066993, footer_text: str = None, footer_url: str = None) -> bool:
+def send_dicord_message(
+    title: str,
+    message: str,
+    color: int = 3066993,
+    footer_text: str = None,
+    footer_url: str = None,
+) -> bool:
     """Sendet eine Discord-Nachricht als Embed über einen Webhook.
 
     Args:
@@ -95,12 +101,12 @@ def send_dicord_message(title: str, message: str, color: int = 3066993, footer_t
         "description": message,
         "color": color,
     }
-    
+
     if footer_text and footer_url:
         embed["footer"] = {"text": f"{footer_text}\n{footer_url}"}
     elif footer_text:
         embed["footer"] = {"text": footer_text}
-    
+
     payload = {"embeds": [embed]}
 
     try:
@@ -139,7 +145,7 @@ def get_patch_number() -> str:
 
 def get_commit_url() -> tuple[str, str]:
     """Erstellt die URL zum letzten Commit für live/global.ini.
-    
+
     Returns:
         tuple[str, str]: (commit_url, short_hash) oder ("", "") bei Fehler
     """
@@ -153,7 +159,7 @@ def get_commit_url() -> tuple[str, str]:
         )
         commit_hash = result.stdout.strip()
         short_hash = commit_hash[:7]  # Kurze Version für Anzeige
-        
+
         # Hole die Remote-URL
         result = subprocess.run(
             ["git", "config", "--get", "remote.origin.url"],
@@ -162,15 +168,15 @@ def get_commit_url() -> tuple[str, str]:
             check=True,
         )
         remote_url = result.stdout.strip()
-        
+
         # Konvertiere SSH/HTTPS URL zu HTTPS Web-URL
         if remote_url.startswith("git@"):
             # git@github.com:user/repo.git -> https://github.com/user/repo
             remote_url = remote_url.replace(":", "/").replace("git@", "https://")
-        
+
         # Entferne .git am Ende
         remote_url = remote_url.rstrip("/").removesuffix(".git")
-        
+
         # Erstelle Commit-URL
         commit_url = f"{remote_url}/commit/{commit_hash}"
         return commit_url, short_hash
@@ -206,15 +212,15 @@ def main():
     commit_url, commit_hash = get_commit_url()
 
     message = f"Die Star Citizen Übersetzung wurde am {now.strftime('%d. %B %Y um %H:%M Uhr')} aktualisiert. Bitte aktualisiere deine Übersetzung für das bestmögliche Spielerlebnis.\n\n{patch_number}"
-    
+
     if commit_url and commit_hash:
         message += f"\nAlle Änderungen zum Update: [{commit_hash}]({commit_url})"
-    
+
     send_dicord_message(
-        "Neue LIVE-Übersetzung verfügbar!", 
+        "Neue LIVE-Übersetzung verfügbar!",
         message,
         footer_text="An SCDL-Team spenden",
-        footer_url="https://ko-fi.com/scdeutsch"
+        footer_url="https://ko-fi.com/scdeutsch",
     )
 
     logger.info("\n=== Deployment abgeschlossen ===")
