@@ -78,7 +78,7 @@ def send_dicord_message(
     message: str,
     color: int = 3066993,
     footer_text: str = None,
-    footer_url: str = None,
+    footer_icon_url: str = None,
 ) -> bool:
     """Sendet eine Discord-Nachricht als Embed über einen Webhook.
 
@@ -87,7 +87,7 @@ def send_dicord_message(
         message (str): Der Inhalt der Nachricht.
         color (int): Die Farbe des Embeds Bsp: 3066993 (grün), 15158332 (rot), 15844367 (gelb), 3447003 (blau), 10181046 (lila), 0 (schwarz)
         footer_text (str): Optionaler Footer-Text
-        footer_url (str): Optionale URL für den Footer
+        footer_icon_url (str): Optionale URL für das Footer Icon
     Returns:
         bool: True wenn die Nachricht erfolgreich gesendet wurde, sonst False.
     """
@@ -102,10 +102,13 @@ def send_dicord_message(
         "color": color,
     }
 
-    if footer_text and footer_url:
-        embed["footer"] = {"text": f"{footer_text}\n{footer_url}"}
-    elif footer_text:
-        embed["footer"] = {"text": footer_text}
+    embed["footer"] = {}
+
+    if footer_text:
+        embed["footer"]["text"] = f"{footer_text}"
+
+    if footer_icon_url:
+        embed["footer"]["icon_url"] = f"{footer_icon_url}"
 
     payload = {"embeds": [embed]}
 
@@ -214,13 +217,13 @@ def main():
     message = f"Die Star Citizen Übersetzung wurde am {now.strftime('%d. %B %Y um %H:%M Uhr')} aktualisiert. Bitte aktualisiere deine Übersetzung für das bestmögliche Spielerlebnis.\n\n{patch_number}"
 
     if commit_url and commit_hash:
-        message += f"\nAlle Änderungen zum Update: [{commit_hash}]({commit_url})"
+        message += f"\n\nAlle Änderungen zum Update: [#{commit_hash}]({commit_url})"
+
+    message += "\n<:kofi:1319086302116708444> An SCDL-Team spenden: [ko-fi.com/scdeutsch](https://ko-fi.com/scdeutsch)"
 
     send_dicord_message(
         "Neue LIVE-Übersetzung verfügbar!",
         message,
-        footer_text="An SCDL-Team spenden",
-        footer_url="https://ko-fi.com/scdeutsch",
     )
 
     logger.info("\n=== Deployment abgeschlossen ===")
