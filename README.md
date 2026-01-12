@@ -1,4 +1,4 @@
-[![Static Badge](https://img.shields.io/badge/LIVE%204.5.0-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/EVOCATI-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=red%20)](#evocati-builds-und-tech-preview-channels) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) <br/>
+ [![Static Badge](https://img.shields.io/badge/LIVE%204.5.0-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/EVOCATI-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=red%20)](#evocati-builds-und-tech-preview-channels) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) <br/>
 [![Static Badge](https://img.shields.io/badge/Sag%20dem%20Team%20Danke-brightgreen?style=for-the-badge&logo=kofi&logoColor=fff&logoSize=auto&label=Ko-fi&labelColor=red&color=fff)](https://ko-fi.com/scdeutsch) [![Static Badge](https://img.shields.io/badge/53k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://hanadigital.github.io/grev/?user=rjcncpt&repo=StarCitizen-Deutsch-INI) [![Discord](https://img.shields.io/discord/1234564972198236261?style=for-the-badge&logo=discord&logoColor=fff&label=Discord&labelColor=232323&color=4cc71e)](https://discord.gg/5VZsTk3qjR)
 
 [![Star Citizen in Deutsch](https://i.imgur.com/WAP6UNa.png)](#)
@@ -17,7 +17,7 @@ Hilf mit, die Übersetzung zu verbessern! Trete **[unserem öffentlichen Überse
 - **[Wir interpretieren Missionstexte neu](#wir-interpretieren-missionstexte-neu)**
 - **[Wie aktuell ist die deutsche Übersetzung?](#wie-aktuell-ist-die-deutsche-übersetzung)**
 - **[Tech-Preview Channels und Evocati Builds](#tech-preview-channels-und-evocati-builds)**
-- **[Das Team](#das-team) / [Danksagungen](#danksagungen)**
+- **[Danksagungen](#danksagungen)**
 - **[Fragen und Antworten](#fragen-und-antworten)**
   <br/><br/><br/>
 
