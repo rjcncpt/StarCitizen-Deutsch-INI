@@ -73,13 +73,12 @@ def reload_website(retry_count=3):
     return False
 
 
-def send_discord_message(
+def send_dicord_message(
     title: str,
     message: str,
     color: int = 3066993,
     footer_text: str = None,
     footer_icon_url: str = None,
-    content: str = None,
 ) -> bool:
     """Sendet eine Discord-Nachricht als Embed über einen Webhook.
 
@@ -89,7 +88,6 @@ def send_discord_message(
         color (int): Die Farbe des Embeds Bsp: 3066993 (grün), 15158332 (rot), 15844367 (gelb), 3447003 (blau), 10181046 (lila), 0 (schwarz)
         footer_text (str): Optionaler Footer-Text
         footer_icon_url (str): Optionale URL für das Footer Icon
-        content (str): Optionaler Inhalt außerhalb des Embeds
     Returns:
         bool: True wenn die Nachricht erfolgreich gesendet wurde, sonst False.
     """
@@ -112,7 +110,7 @@ def send_discord_message(
     if footer_icon_url:
         embed["footer"]["icon_url"] = f"{footer_icon_url}"
 
-    payload = {"content": content, "embeds": [embed]}
+    payload = {"embeds": [embed]}
 
     try:
         response = requests.post(webhook_url, json=payload, timeout=10)
@@ -223,10 +221,9 @@ def main():
 
     message += "\n<:kofi:1319086302116708444> An SCDL-Team spenden: [ko-fi.com/scdeutsch](https://ko-fi.com/scdeutsch)"
 
-    send_discord_message(
+    send_dicord_message(
         "Neue LIVE-Übersetzung verfügbar!",
         message,
-        content="<@&1319635148471406724>",
     )
 
     logger.info("\n=== Deployment abgeschlossen ===")
