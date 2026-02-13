@@ -9,6 +9,9 @@
 
 Hilf mit, die Übersetzung zu verbessern! Trete **[unserem öffentlichen Übersetzungs-Discord](https://discord.gg/5VZsTk3qjR)** bei, starte **[eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge)** oder erstelle **[ein Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=)** hier auf Github, um uns deine Vorschläge mitzuteilen. Werde Teil des Übersetzungsteams!
 
+Offizielle Erlaubnis zur Erstellung eigener Übersetzungen:<br/>
+Quelle: [https://robertsspaceindustries.com/spectrum/.../star-citizen-community-localization-update](https://robertsspaceindustries.com/spectrum/community/SC/forum/1/thread/star-citizen-community-localization-update/383653) (@Zyloh-CIG)
+
 <br/>
 
 ### Inhaltsverzeichnis
