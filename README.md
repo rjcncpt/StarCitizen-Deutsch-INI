@@ -1,5 +1,5 @@
 [![Static Badge](https://img.shields.io/badge/LIVE%204.6.0-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/EVOCATI-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=red%20)](#evocati-builds-und-tech-preview-channels) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) <br/>
-[![Static Badge](https://img.shields.io/badge/Sag%20dem%20Team%20Danke-brightgreen?style=for-the-badge&logo=kofi&logoColor=fff&logoSize=auto&label=Ko-fi&labelColor=red&color=fff)](https://ko-fi.com/scdeutsch) [![Static Badge](https://img.shields.io/badge/54k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://grev.shehryar.ae/?owner=rjcncpt&repo=StarCitizen-Deutsch-INI) [![Discord](https://img.shields.io/discord/1234564972198236261?style=for-the-badge&logo=discord&logoColor=fff&label=Discord&labelColor=232323&color=4cc71e)](https://discord.gg/5VZsTk3qjR)
+[![Static Badge](https://img.shields.io/badge/Sag%20dem%20Team%20Danke-brightgreen?style=for-the-badge&logo=kofi&logoColor=fff&logoSize=auto&label=Ko-fi&labelColor=red&color=fff)](https://ko-fi.com/scdeutsch) [![Static Badge](https://img.shields.io/badge/56k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://grev.shehryar.ae/?owner=rjcncpt&repo=StarCitizen-Deutsch-INI) [![Discord](https://img.shields.io/discord/1234564972198236261?style=for-the-badge&logo=discord&logoColor=fff&label=Discord&labelColor=232323&color=4cc71e)](https://discord.gg/5VZsTk3qjR)
 
 [![Star Citizen in Deutsch](https://i.imgur.com/WAP6UNa.png)](#)
 
@@ -46,23 +46,14 @@ Wir erhalten hin und wieder Nachrichten, wie man das Team unterstützen kann, di
 ### Variante 1: Automatisches Update der Übersetzung (SC Deutsch Launcher)
 Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zur Umstellung der Star Citizen Spieltexte von Englisch auf Deutsch. Unsere kostenlose App kümmert sich automatisch um alle Dateianpassungen, stellt sicher, dass immer die aktuellsten deutschen Sprachdateien für Star Citizen von unserem GitHub installiert werden und startet im Anschluss automatisch den RSI Launcher für dich.
 
-[<img src="https://www.sc-deutsch-launcher.de/img/sc-deutsch-launcher-ui_v2.webp">](https://www.sc-deutsch-launcher.de/download/ "SC Deutsch Launcher Download")
+[<img src="https://www.sc-deutsch-launcher.de/img/features/2026/sc-deutsch-launcher-ui_v2026.webp">](https://www.sc-deutsch-launcher.de/download/ "SC Deutsch Launcher Download")
 
 ### So funktioniert’s:
-1. Lade den SC Deutsch Launcher herunter.
+1. Lade den SC Deutsch Launcher herunter und installiere ihn.
    - Download-Link: [SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)
-2. Entpacke die ZIP-Datei.
-3. Kopiere das "SC Deutsch Launcher"-Verzeichnis an einen Ort deiner Wahl.
-   - Zum Beispiel in das "Roberts Space Industries"-Verzeichnis
-5. Starte die SC Deutsch Launcher.exe
-   - Unser Launcher benötigt die NET.8 Runtime. Diese wird möglicherweise vorher von microsoft.com heruntergeladen.
-7. Der Launcher sucht automatisch nach deinem Star Citizen Verzeichnis.
-   - Gefundene Installationen werden grün dargestellt.
-   - Nicht gefundene Installationen bleiben schwarz.
-8. Klicke auf "Update Übersetzung".
-9. Der Launcher lädt die neuesten deutschen Sprachdateien herunter.
-10. Der RSI Launcher startet automatisch wenn in den Einstellungen aktiviert.
-11. Benötigst du Hilfe? Komm auf unseren [Discord-Server](https://discord.gg/5VZsTk3qjR).
+2. Nach der Installation, starte den SC Deutsch Launcher
+3. Der Launcher sucht automatisch nach deinem Star Citizen Verzeichnis.
+4. Benötigst du Hilfe? Komm auf unseren [Discord-Server](https://discord.gg/5VZsTk3qjR).
 
 [![SC Deutsch Launcher Download Portable](https://www.sc-deutsch-launcher.de/img/herunterladen.png)](https://www.sc-deutsch-launcher.de/download/)
 <br/><br/><br/>
