@@ -28,9 +28,14 @@ Quelle: [https://robertsspaceindustries.com/spectrum/.../star-citizen-community-
 
 ![Star Citizen Deutsch Hauptmenü](https://www.sc-deutsch-launcher.de/img/thumbnails/alpha-4.0-home.png)
 
-Wir bieten zwei Versionen unserer Sprachdatei an: eine hybride Übersetzung und eine vollständige (experimentelle) Übersetzung. In der hybriden Übersetzung sind Eigennamen, Missionstitel, Items und Orte/Unternehmen nicht übersetzt. Diese Version gewährleistet Konsistenz beim Spielen mit internationalen Mitspielern und erhält die Kompatibilität mit dem Issue Council auf der RSI-Webseite. Zudem unterstützen wir damit Drittanbieter-Webseiten, Item-Datenbanken sowie Video- und Texttutorials.
+Wir stellen zwei Varianten unserer Sprachdatei bereit:
+- eine Standard-Übersetzung (Hybrid) sowie
+- eine darauf basierende erweiterte Version (Deutsch+)
 
-Vollständige (experimentelle) Übersetzung: Für Spieler, die einfach nur spielen möchten, ohne sich um Fehlerberichte im Issue Council zu kümmern, haben wir eine vollständige (experimentelle) Übersetzung der Sprachdatei entwickelt. Diese Version geht über die Hybride Übersetzung hinaus und umfasst auch die Übersetzung von Missionstiteln sowie teilweise von Items, Ortsnamen und Unternehmen. **Eigennamen sind auch in dieser Version nicht übersetzt.**
+Grundsätzlich sind in unserer Übersetzung Eigennamen, Missionstitel, Items und Orte/Unternehmen nicht übersetzt. Dadurch stellen wir eine konsistente Spielerfahrung im internationalen Umfeld sicher und erhalten gleichzeitig die Kompatibilität mit dem Issue Council auf der RSI-Webseite. Zusätzlich erleichtert dies die Nutzung von Drittanbieter-Webseiten, Item-Datenbanken sowie Video- und Text-Tutorials.
+
+Die erweiterte Version unterscheidet sich nur in zwei Punkten:
+Hier werden die Missionstitel ebenfalls übersetzt und in den Item-Beschreibungen entfällt die englische Typbezeichnung. Abgesehen davon entspricht sie vollständig der Standard-Übersetzung.
 <br/><br/>
 
 ### Das Team freut sich über ein Dankeschön
