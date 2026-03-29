@@ -48,7 +48,7 @@ jobs:
       VERSION_CHANGED_LIVE: ${{ steps.version_jump_live.outputs.VERSION_CHANGED_LIVE }}
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -178,7 +178,7 @@ jobs:
   #     contents: write
   #   steps:
   #     - name: Checkout Code
-  #       uses: actions/checkout@v4
+  #       uses: actions/checkout@v6
   #       with:
   #         ref: ${{ needs.get_context_info.outputs.COMMIT_PTU }}
   #     - name: Create ZIP For PTU
@@ -210,7 +210,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ needs.get_context_info.outputs.COMMIT_LIVE }}
 
