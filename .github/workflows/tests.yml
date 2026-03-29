@@ -21,7 +21,7 @@ jobs:
           python-version: "3.13"
 
       - name: Execute Test
-        run: python ./.github/tests/key_test.py
+        run: python ./.github/tests/key_test.py --github
 
   Matching_Encoding:
     name: Ensure Matching Encodings

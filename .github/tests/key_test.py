@@ -1,6 +1,6 @@
-import sys
 from configparser import ConfigParser, DuplicateOptionError
 from configparser import Error as configparserError
+from helper import print_to_console
 
 
 def parse_error(file_path: str, error: configparserError):
@@ -10,15 +10,51 @@ def parse_error(file_path: str, error: configparserError):
     :param file_path: Path to a (ini) file (just for better output)
     :param error: The error thrown by the ConfigParser
     """
-    if type(error) == DuplicateOptionError:
-        sys.exit(
-            f"Fehler in '{file_path}': Der Key '{error.args[1]}' in Zeile {error.args[3]-1} exisitert bereits."
+    if type(error) is DuplicateOptionError:
+        print_to_console(
+            "Duplicate Key Error",
+            f"Fehler in '{file_path}': Der Key '{error.args[1]}'"
+            f" in Zeile {error.args[3]-1} exisitert bereits.",
+            file_path,
+            error.args[3],
+            "error",
         )
     else:
-        sys.exit(f"Fehler in '{file_path}': '{error.message}'")
+        print_to_console(
+            "Ini Read Error",
+            f"Fehler in '{file_path}': '{error.message}'",
+            file_path,
+            0,
+            "error",
+        )
 
 
-def keys_in_second_ini(first_file, second_file):
+def test_duplicate_keys():
+    """
+    Tests that there are no duplicate keys in the ini files. If there are, the test will fail with an error message.
+    """
+    files_to_check = [
+        ".github/en/live/global.ini",
+        "live/global.ini",
+        # ".github/en/ptu/global.ini",
+        # "ptu/global.ini"
+    ]
+
+    for file in files_to_check:
+        try:
+            with open(file, "r", encoding="UTF-8-SIG") as f:
+                content = f.read()
+                parser = ConfigParser(
+                    allow_no_value=True, delimiters=("="), strict=True
+                )
+                parser.read_string("[DEFAULT]\n" + content)
+        except configparserError as e:
+            parse_error(file, e)
+            return False
+    return True
+
+
+def keys_in_second_ini(first_file, second_file) -> bool:
     """
     :param first_file: The path to the first ini file.
     :param second_file: The path to the second ini file.
@@ -26,14 +62,14 @@ def keys_in_second_ini(first_file, second_file):
     """
     # Parse the two ini files
     try:
-        first_ini = ConfigParser(allow_no_value=True, delimiters=("="))
+        first_ini = ConfigParser(allow_no_value=True, delimiters=("="), strict=False)
         with open(first_file, "r", encoding="UTF-8-SIG") as file:
             first_ini.read_string("[DEFAULT]\n" + file.read())
     except configparserError as e:
         parse_error(first_file, e)
 
     try:
-        second_ini = ConfigParser(allow_no_value=True, delimiters=("="))
+        second_ini = ConfigParser(allow_no_value=True, delimiters=("="), strict=False)
         with open(second_file, "r", encoding="UTF-8-SIG") as file:
             second_ini.read_string("[DEFAULT]\n" + file.read())
     except configparserError as e:
@@ -42,7 +78,13 @@ def keys_in_second_ini(first_file, second_file):
     # Check that all keys in the first ini are present in the second
     for key in first_ini.defaults():
         if key not in second_ini.defaults():
-            print(f"Key '{key}' missing from {second_file}.")
+            print_to_console(
+                "Key Missing",
+                f"Key '{key}' missing from {second_file}.",
+                second_file,
+                0,
+                "error",
+            )
             return False
     return True
 
@@ -59,13 +101,17 @@ exit_code = 0
 if keys_in_second_ini(eng_live_file, deu_live_file):
     print("All keys in LIVE are present.")
 else:
-    print("Some keys in LIVE are missing.")
     exit_code = 1
 
 # if keys_in_second_ini(eng_ptu_file, deu_ptu_file):
 #     print("All keys in PTU are present.")
 # else:
-#     print("Some keys in PTU are missing.")
 #     exit_code = 1
+
+# Perform duplicate key check
+if test_duplicate_keys():
+    print("No duplicate keys found.")
+else:
+    exit_code = 1
 
 exit(exit_code)
