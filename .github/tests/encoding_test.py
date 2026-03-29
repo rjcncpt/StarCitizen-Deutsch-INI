@@ -1,6 +1,7 @@
 import os
 
 import chardet
+from helper import print_to_console
 
 
 def get_type(file):
@@ -34,7 +35,13 @@ type_deu_live = get_type(file_deu_live)
 exit_code = 0
 
 if type_eng_live["encoding"] != type_deu_live["encoding"]:
-    print("The encoding between the LIVE INI files differs!")
+    print_to_console(
+        "Encoding Mismatch",
+        "The encoding between the english and german INI files differs!",
+        file_deu_live,
+        0,
+        "error",
+    )
     print(f"Encoding ENG: {type_eng_live['encoding']}")
     print(f"Encoding DEU: {type_deu_live['encoding']}")
     exit_code = 1

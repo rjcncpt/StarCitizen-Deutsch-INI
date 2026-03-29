@@ -41,7 +41,7 @@ jobs:
           pip install chardet
 
       - name: Execute Test
-        run: python ./.github/tests/encoding_test.py
+        run: python ./.github/tests/encoding_test.py --github
 
   Whitespace_Comma:
     name: Check For Whitespaces Before Comma
