@@ -56,7 +56,7 @@ jobs:
           python-version: "3.13"
 
       - name: Execute Test
-        run: python ./.github/tests/whitespace_comma_test.py
+        run: python ./.github/tests/whitespace_comma_test.py --github
 
   Whitespace_Double:
     name: Check For Double Whitespaces

@@ -1,3 +1,6 @@
+from helper import print_to_console
+
+
 def find_bad_lines(file_content):
     """
     Find lines in the given file that have a comma with a space before it.
@@ -26,13 +29,27 @@ if __name__ == "__main__":
         if bad_lines:
             print("Following lines need to be checked:")
             print(bad_lines)
-            print("Test FAILED!")
+            print_to_console(
+                "Whitespace Comma Test",
+                f"Test FAILED! Lines: {bad_lines}",
+                file_path,
+                0,
+                "error",
+            )
             exit(1)
         else:
             print("There are no whitespaces before a comma.")
             print("Test PASSED!")
 
     except FileNotFoundError:
-        print(f"File \"{file_path}\" was not found.")
+        print_to_console(
+            "File not found",
+            f'File "{file_path}" was not found.',
+            file_path,
+            0,
+            "error",
+        )
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print_to_console(
+            "An error occurred", f"An error occurred: {e}", file_path, 0, "error"
+        )
