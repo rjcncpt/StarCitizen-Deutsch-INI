@@ -1,3 +1,6 @@
+from helper import print_to_console
+
+
 def find_bad_lines(file_content):
     """
     Find lines in the given file that have double whitespaces around commas or full stops.
@@ -52,18 +55,31 @@ if __name__ == "__main__":
             content = file.readlines()
         bad_lines = find_bad_lines(content)
         if bad_lines:
+            print("Double Whitespace Test FAILED!")
             print("Following lines need to be checked:")
             keys_of_bad_lines = extract_keys_from_lines(content, bad_lines)
-            print(bad_lines)
-            for string in keys_of_bad_lines:
-                print(string)
-            print("Test FAILED!")
+            for index, line_number in enumerate(bad_lines):
+                print_to_console(
+                    "Double Whitespace Test",
+                    f"Text contains double whitespace: {keys_of_bad_lines[index]}",
+                    file_path,
+                    line_number,
+                    "error",
+                )
             exit(1)
         else:
             print("There are no double whitespaces.")
             print("Test PASSED!")
 
     except FileNotFoundError:
-        print(f'File "{file_path}" was not found.')
+        print_to_console(
+            "Double Whitespace Test",
+            f'File "{file_path}" was not found.',
+            file_path,
+            0,
+            "error",
+        )
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print_to_console(
+            "Double Whitespace Test", f"An error occurred: {e}", file_path, 0, "error"
+        )

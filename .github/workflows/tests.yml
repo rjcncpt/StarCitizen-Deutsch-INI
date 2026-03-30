@@ -71,7 +71,7 @@ jobs:
           python-version: "3.13"
 
       - name: Execute Test
-        run: python ./.github/tests/double_whitspace_test.py
+        run: python ./.github/tests/double_whitspace_test.py --github
 
   Brackets:
     name: Check For Not Closed Brackets
