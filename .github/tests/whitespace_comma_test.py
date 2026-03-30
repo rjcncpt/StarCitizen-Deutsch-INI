@@ -1,4 +1,4 @@
-from helper import print_to_console
+from helper import print_to_console, extract_keys_from_lines
 
 
 def find_bad_lines(file_content):
@@ -27,15 +27,19 @@ if __name__ == "__main__":
             content = file.readlines()
         bad_lines = find_bad_lines(content)
         if bad_lines:
+            keys = extract_keys_from_lines(content, bad_lines)
+
+            print("Whitespace Comma Test FAILED!")
             print("Following lines need to be checked:")
-            print(bad_lines)
-            print_to_console(
-                "Whitespace Comma Test",
-                f"Test FAILED! Lines: {bad_lines}",
-                file_path,
-                0,
-                "error",
-            )
+            for index, line_number in enumerate(bad_lines):
+                print_to_console(
+                    "Whitespace Comma Test",
+                    f"Text contains whitespace before a comma: {keys[index]}",
+                    file_path,
+                    line_number,
+                    "error",
+                )
+
             exit(1)
         else:
             print("There are no whitespaces before a comma.")

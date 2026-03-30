@@ -37,13 +37,13 @@ exit_code = 0
 if type_eng_live["encoding"] != type_deu_live["encoding"]:
     print_to_console(
         "Encoding Mismatch",
-        "The encoding between the english and german INI files differs!",
+        "The encoding between the english and german INI files differs!\n"
+        f"Encoding ENG: {type_eng_live['encoding']}\n"
+        f"Encoding DEU: {type_deu_live['encoding']}",
         file_deu_live,
         0,
         "error",
     )
-    print(f"Encoding ENG: {type_eng_live['encoding']}")
-    print(f"Encoding DEU: {type_deu_live['encoding']}")
     exit_code = 1
 else:
     print("The encoding between the LIVE files matches.")
