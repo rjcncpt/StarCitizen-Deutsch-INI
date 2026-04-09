@@ -102,3 +102,18 @@ jobs:
 
       - name: Execute Test
         run: python ./.github/tests/item_desc_test.py --github
+
+  N_Without_Backslash:
+    name: Check For n Without Backslash
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Execute Test
+        run: python ./.github/tests/n_without_backslash_test.py --github
