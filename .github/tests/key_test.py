@@ -43,8 +43,6 @@ def test_duplicate_keys() -> bool:
     files_to_check = [
         ".github/en/live/global.ini",
         "live/global.ini",
-        # ".github/en/ptu/global.ini",
-        # "ptu/global.ini"
     ]
 
     for file in files_to_check:
@@ -112,8 +110,6 @@ if __name__ == "__main__":
     # Files to be checked
     eng_live_file = ".github/en/live/global.ini"
     deu_live_file = "live/global.ini"
-    # eng_ptu_file = ".github/en/ptu/global.ini"
-    # deu_ptu_file = "ptu/global.ini"
 
     has_errors = False
 
@@ -122,11 +118,6 @@ if __name__ == "__main__":
         print("All keys in LIVE are present.")
     else:
         has_errors = True
-
-    # if keys_in_second_ini(eng_ptu_file, deu_ptu_file):
-    #     print("All keys in PTU are present.")
-    # else:
-    #     exit_code = 1
 
     # Perform duplicate key check
     if test_duplicate_keys():

@@ -81,7 +81,6 @@ if __name__ == "__main__":
         "PU_NPCVP16_BDC_ResponseRegenHospital_IG_003,P",  # Aufzählung
     ]
     deu_live_file = "live/global.ini"
-    deu_ptu_file = "ptu/global.ini"
 
     has_errors = False
 
@@ -96,20 +95,6 @@ if __name__ == "__main__":
             0,
             "warning",
         )
-
-    # print()
-
-    # if os.path.exists(deu_ptu_file):
-    #     print(f"Checking {deu_ptu_file}...")
-    #     check_brackets(deu_ptu_file, excluded_keys)
-    # else:
-    #     print_to_console(
-    #         "Bracket Test",
-    #         f"Skipping {deu_ptu_file}: File not found.",
-    #         deu_ptu_file,
-    #         0,
-    #         "warning",
-    #     )
 
     if has_errors and args.fail_on_error:
         exit(1)
