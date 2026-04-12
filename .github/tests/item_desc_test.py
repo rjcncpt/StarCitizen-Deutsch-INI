@@ -6,13 +6,32 @@ from helper import print_to_console
 
 
 def is_item_desc(current_key: str, value: str) -> bool:
+    """
+    Check if the given key represents an item description entry.
+
+    :param current_key: The key to check.
+    :param value: The value associated with the key.
+    :return: True if the key contains "item_Desc_", False otherwise.
+    """
     if "item_Desc_".lower() in current_key.lower():
         return True
     else:
         return False
 
 
-def extract_desc_info(filename: str, excluded_keys: list) -> dict[str, dict[str, str]]:
+def extract_desc_info(
+    filename: str, excluded_keys: list[str]
+) -> dict[str, dict[str, str]]:
+    """
+    Extract item description information from an INI file.
+
+    Parses the file and extracts armor/item description data including type, damage reduction,
+    temperature rating, radiation protection, and decontamination rate.
+
+    :param filename: Path to the INI file to parse.
+    :param excluded_keys: A list of keys to ignore while extracting.
+    :return: A dictionary mapping item keys to their extracted description information.
+    """
     return_dict = {}
 
     with open(filename, "r", encoding="utf-8") as file:
@@ -53,10 +72,19 @@ def extract_desc_info(filename: str, excluded_keys: list) -> dict[str, dict[str,
     return return_dict
 
 
-def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: list):
+def check_armor_desc(
+    filename: str, eng_desc: dict[str, str], excluded_keys: list[str]
+) -> bool:
     """
-    Check the armor description file for specific keys and validate their content.
-    Returns True if errors were found.
+    Validate German armor descriptions against English descriptions.
+
+    Checks that all required fields from the English description are present
+    in the German description.
+
+    :param filename: Path to the German INI file to validate.
+    :param eng_desc: Dictionary of English item descriptions to compare against.
+    :param excluded_keys: A list of keys to ignore while checking.
+    :return: True if errors were found, False otherwise.
     """
     has_errors = False
     with open(filename, "r", encoding="utf-8") as file:

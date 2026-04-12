@@ -5,19 +5,16 @@ import re
 from helper import print_to_console
 
 
-def check_brackets(filename, excluded):
+def check_brackets(filename: str, excluded: list[str]) -> bool:
     """
+    Validate that all brackets in an INI file are properly matched and closed.
+
+    Reads the file and checks for matching brackets, skipping lines with keys
+    in the excluded list. Removes enumerations and smileys before checking.
+
     :param filename: The name of the file to check for bracket matching.
     :param excluded: A list of keys to exclude from checking.
     :return: True if errors were found, False otherwise.
-
-    The check_brackets method reads the contents of the given file and checks for matching brackets. It skips the lines which beginn with keys specified in the 'excluded' parameter. If any mismatched or unclosed brackets are found, an error message is printed with the line number.
-
-    Example usage:
-
-    check_brackets('file.txt', [3, 5, 7])
-
-    This will check the contents of 'file.txt' for bracket matching, excluding lines 3, 5, and 7.
     """
     has_errors = False
     with open(filename, "r", encoding="UTF-8-SIG") as file:

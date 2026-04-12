@@ -4,12 +4,13 @@ from configparser import Error as configparserError
 from helper import print_to_console
 
 
-def parse_error(file_path: str, error: configparserError):
+def parse_error(file_path: str, error: configparserError) -> None:
     """
-    Parses an error and generates an error message. Stops the execution with error.
+    Parse a ConfigParser error and print a formatted error message.
 
-    :param file_path: Path to a (ini) file (just for better output)
-    :param error: The error thrown by the ConfigParser
+    :param file_path: Path to a (ini) file (just for better output).
+    :param error: The error thrown by the ConfigParser.
+    :return: None
     """
     if type(error) is DuplicateOptionError:
         print_to_console(
@@ -29,9 +30,15 @@ def parse_error(file_path: str, error: configparserError):
         )
 
 
-def test_duplicate_keys():
+def test_duplicate_keys() -> bool:
     """
-    Tests that there are no duplicate keys in the ini files. If there are, the test will fail with an error message.
+    Test that there are no duplicate keys in the ini files.
+
+    Checks both English and German INI files for duplicate keys.
+    If duplicates are found, prints error messages and returns False.
+
+    :param: None
+    :return: True if test passed, False if duplicates were found.
     """
     files_to_check = [
         ".github/en/live/global.ini",
@@ -54,8 +61,12 @@ def test_duplicate_keys():
     return True
 
 
-def keys_in_second_ini(first_file, second_file) -> bool:
+def keys_in_second_ini(first_file: str, second_file: str) -> bool:
     """
+    Check if all keys from the first ini file are present in the second ini file.
+
+    Parses both files and verifies that every key from the first file exists in the second.
+
     :param first_file: The path to the first ini file.
     :param second_file: The path to the second ini file.
     :return: True if all keys in the first ini file are present in the second ini file, False otherwise.

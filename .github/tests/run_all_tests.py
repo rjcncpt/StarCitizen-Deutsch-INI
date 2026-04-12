@@ -3,8 +3,16 @@ import sys
 from pathlib import Path
 
 
-def run_all_tests():
-    """Run all test files in the current directory."""
+def run_all_tests() -> int:
+    """
+    Run all test files in the current directory.
+
+    Discovers all files matching *_test.py pattern and executes them sequentially.
+    Collects and reports pass/fail statistics.
+
+    :param: None
+    :return: 1 if any tests failed, 0 if all tests passed.
+    """
     test_dir = Path(__file__).parent
     test_files = sorted(test_dir.glob("*_test.py"))
 

@@ -3,7 +3,7 @@ import argparse
 from helper import print_to_console, extract_keys_from_lines
 
 
-def find_bad_lines(file_content):
+def find_bad_lines(file_content: list[str]) -> list[int]:
     """
     Find lines in the given file that have a comma with a space before it.
 

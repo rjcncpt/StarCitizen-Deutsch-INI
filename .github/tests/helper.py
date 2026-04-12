@@ -7,18 +7,20 @@ severities = {
 }
 
 
-def print_to_console(title, message, file, line_number, severity):
+def print_to_console(
+    title: str, message: str, file: str, line_number: int, severity: str
+) -> None:
     """
+    Print a message to the console in GitHub Actions or VS Code format.
+
+    Formats the output based on context: GitHub Actions annotation format or VS Code format.
+
+    :param title: The title of the message.
     :param message: The message to print to the console.
     :param file: The name of the file that the message is related to.
     :param line_number: The line number that the message is related to.
-    :param severity: The severity of the message. Must be one of the following:
-    "error", "warning", "notice".
+    :param severity: The severity of the message. Must be one of: "error", "warning", "notice".
     :return: None
-
-    The print_to_console method prints a message to the console in the format that best
-    suits the current context. If GitHub Actions is being used, it will format the
-    message accordingly. Otherwise it will print the message optimized for VS Code.
     """
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -35,7 +37,9 @@ def print_to_console(title, message, file, line_number, severity):
         print(f"{file}:{line_number} | {message}")
 
 
-def extract_keys_from_lines(file_content, line_numbers):
+def extract_keys_from_lines(
+    file_content: list[str], line_numbers: list[int]
+) -> list[str]:
     """
     Extract keys from specific lines in the file content.
 

@@ -4,7 +4,7 @@ import re
 from helper import print_to_console, extract_keys_from_lines
 
 
-def find_bad_lines(file_content, excluded_keys):
+def find_bad_lines(file_content: list[str], excluded_keys: list[str]) -> list[int]:
     """
     Find lines in the given file where a lowercase n appears before a capital letter
     without a preceding backslash, only in the value part of INI entries.

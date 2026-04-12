@@ -5,18 +5,14 @@ import chardet
 from helper import print_to_console
 
 
-def get_type(file):
+def get_type(file: str) -> dict:
     """
-    Determines the character encoding of a file.
+    Determine the character encoding of a file.
+
+    Reads the first 32 bytes of the file and uses chardet library to detect encoding.
 
     :param file: Path to the file to be analyzed.
-    :type file: str
-    :return: Dictionary containing information about the character encoding.
-             The dictionary has keys "encoding", "confidence", and "language".
-             The "encoding" key represents the character encoding,
-             the "confidence" key represents the confidence level of the detection,
-             and the "language" key represents the detected language.
-    :rtype: dict
+    :return: Dictionary containing encoding detection info with keys "encoding", "confidence", and "language".
     """
     _bytes = min(32, os.path.getsize(file))
     raw = open(file, "rb").read(_bytes)
