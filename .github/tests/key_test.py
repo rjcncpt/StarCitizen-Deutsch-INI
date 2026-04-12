@@ -14,7 +14,7 @@ def parse_error(file_path: str, error: configparserError) -> None:
     if type(error) is DuplicateOptionError:
         print_to_console(
             "Duplicate Key Error",
-            f"{error.args[1]}: Key exisitert bereits.",
+            f"{error.args[1]}: Key already exists.",
             file_path,
             error.args[3] - 1,
             "error",
@@ -22,7 +22,7 @@ def parse_error(file_path: str, error: configparserError) -> None:
     else:
         print_to_console(
             "Ini Read Error",
-            f"Fehler in '{file_path}': '{error.message}'",
+            f"Error in '{file_path}': '{error.message}'",
             file_path,
             0,
             "error",
