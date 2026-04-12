@@ -1,8 +1,7 @@
-import argparse
 import os
 import re
 
-from helper import print_to_console
+from helper import print_to_console, get_argument_parser
 
 
 def is_item_desc(current_key: str, value: str) -> bool:
@@ -134,13 +133,7 @@ def check_armor_desc(
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--fail-on-error",
-        action="store_true",
-        help="Exit with code 1 if errors are found",
-    )
-    args, unknown = parser.parse_known_args()
+    parser, args = get_argument_parser()
 
     excluded_keys = [
         "item_Desc_cds_medium_armor_01_Shared",  # Forgotten ° character

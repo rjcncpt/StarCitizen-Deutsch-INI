@@ -22,13 +22,7 @@ def print_to_console(
     :param severity: The severity of the message. Must be one of: "error", "warning", "notice".
     :return: None
     """
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--github",
-        action="store_true",
-        help="Use GitHub Actions annotation format for console output",
-    )
-    args, unknown = parser.parse_known_args()
+    parser, args = get_argument_parser()
     if args.github:
         print(
             f"{severities[severity]} title={title},file={file},line={line_number}:: {message}"
@@ -65,3 +59,25 @@ def extract_keys_from_lines(
                 keys.append(key.strip())
 
     return keys
+
+
+def get_argument_parser() -> tuple[argparse.ArgumentParser, argparse.Namespace]:
+    """
+    Create and return a standardized argument parser for all scripts.
+
+    :return: A tuple containing the parser and parsed arguments.
+    """
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--fail-on-error",
+        action="store_true",
+        help="Exit with code 1 if errors are found",
+    )
+    parser.add_argument(
+        "--github",
+        action="store_true",
+        help="Use GitHub Actions annotation format for console output",
+    )
+
+    args, unknown = parser.parse_known_args()
+    return parser, args

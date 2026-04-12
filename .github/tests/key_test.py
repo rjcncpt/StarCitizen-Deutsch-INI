@@ -1,7 +1,6 @@
-import argparse
 from configparser import ConfigParser, DuplicateOptionError
 from configparser import Error as configparserError
-from helper import print_to_console
+from helper import print_to_console, get_argument_parser
 
 
 def parse_error(file_path: str, error: configparserError) -> None:
@@ -99,13 +98,7 @@ def keys_in_second_ini(first_file: str, second_file: str) -> bool:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--fail-on-error",
-        action="store_true",
-        help="Exit with code 1 if errors are found",
-    )
-    args, unknown = parser.parse_known_args()
+    parser, args = get_argument_parser()
 
     # Files to be checked
     eng_live_file = ".github/en/live/global.ini"

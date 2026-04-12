@@ -1,8 +1,7 @@
-import argparse
 import os
 
 import chardet
-from helper import print_to_console
+from helper import print_to_console, get_argument_parser
 
 
 def get_type(file: str) -> dict:
@@ -20,13 +19,7 @@ def get_type(file: str) -> dict:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--fail-on-error",
-        action="store_true",
-        help="Exit with code 1 if errors are found",
-    )
-    args, unknown = parser.parse_known_args()
+    parser, args = get_argument_parser()
 
     file_eng_live = ".github/en/live/global.ini"
     file_deu_live = "live/global.ini"

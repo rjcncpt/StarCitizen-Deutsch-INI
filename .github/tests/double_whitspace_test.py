@@ -1,6 +1,4 @@
-import argparse
-
-from helper import print_to_console, extract_keys_from_lines
+from helper import print_to_console, extract_keys_from_lines, get_argument_parser
 
 
 def find_bad_lines(file_content: list[str]) -> list[int]:
@@ -22,13 +20,7 @@ def find_bad_lines(file_content: list[str]) -> list[int]:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--fail-on-error",
-        action="store_true",
-        help="Exit with code 1 if errors are found",
-    )
-    args, unknown = parser.parse_known_args()
+    parser, args = get_argument_parser()
 
     file_path = "live/global.ini"
 
