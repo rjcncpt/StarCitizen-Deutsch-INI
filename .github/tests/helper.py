@@ -1,4 +1,4 @@
-import sys
+import argparse
 
 severities = {
     "error": "::error",
@@ -23,7 +23,14 @@ def print_to_console(title, message, file, line_number, severity):
 
     This will print the message "Extra closing bracket detected." for the file "file.txt" on line 5 with an error severity.
     """
-    if len(sys.argv) > 1 and "github" in sys.argv[1]:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--github",
+        action="store_true",
+        help="Use GitHub Actions annotation format for console output",
+    )
+    args, unknown = parser.parse_known_args()
+    if args.github:
         print(
             f"{severities[severity]} title={title},file={file},line={line_number}:: {message}"
         )

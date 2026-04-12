@@ -1,3 +1,4 @@
+import argparse
 import os
 import re
 
@@ -55,7 +56,9 @@ def extract_desc_info(filename: str, excluded_keys: list) -> dict[str, dict[str,
 def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: list):
     """
     Check the armor description file for specific keys and validate their content.
+    Returns True if errors were found.
     """
+    has_errors = False
     with open(filename, "r", encoding="utf-8") as file:
         lines = file.readlines()
     for line_number, line in enumerate(lines, start=1):
@@ -76,6 +79,7 @@ def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: lis
                 line_number,
                 "error",
             )
+            has_errors = True
             continue
         for field in eng_desc[current_key]:
             if eng_desc[current_key][field] is not None:
@@ -97,9 +101,19 @@ def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: lis
                 line_number,
                 "error",
             )
+            has_errors = True
+    return has_errors
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--fail-on-error",
+        action="store_true",
+        help="Exit with code 1 if errors are found",
+    )
+    args, unknown = parser.parse_known_args()
+
     excluded_keys = [
         "item_Desc_cds_medium_armor_01_Shared",  # Forgotten ° character
         "item_Desc_cds_medium_armor_01_core",  # Forgotten ° character
@@ -107,13 +121,16 @@ if __name__ == "__main__":
     en_live_file = ".github/en/live/global.ini"
     deu_live_file = "live/global.ini"
 
+    has_errors = False
+
     if os.path.exists(en_live_file):
         print(f"Extracting English descriptions from {en_live_file}...")
         eng_desc = extract_desc_info(en_live_file, excluded_keys)
 
         if os.path.exists(deu_live_file):
             print(f"Checking {deu_live_file}...")
-            check_armor_desc(deu_live_file, eng_desc, excluded_keys)
+            if check_armor_desc(deu_live_file, eng_desc, excluded_keys):
+                has_errors = True
         else:
             print_to_console(
                 "Item Description Test",
@@ -130,3 +147,6 @@ if __name__ == "__main__":
             0,
             "warning",
         )
+
+    if has_errors and args.fail_on_error:
+        exit(1)

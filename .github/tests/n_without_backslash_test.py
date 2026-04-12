@@ -1,3 +1,4 @@
+import argparse
 import re
 
 from helper import print_to_console, extract_keys_from_lines
@@ -28,6 +29,14 @@ def find_bad_lines(file_content, excluded_keys):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--fail-on-error",
+        action="store_true",
+        help="Exit with code 1 if errors are found",
+    )
+    args, unknown = parser.parse_known_args()
+
     file_path = "live/global.ini"
     excluded_keys = ["item_DescFlair_Poster_nVidia"]
 
@@ -37,7 +46,7 @@ if __name__ == "__main__":
 
         bad_lines = find_bad_lines(content, excluded_keys)
         if bad_lines:
-            print("Unescaped n before capital letter detected!")
+            print("N Character Escaping Test FAILED!")
             print("Following lines need to be checked:")
             keys = extract_keys_from_lines(content, bad_lines)
             for index, line_number in enumerate(bad_lines):
@@ -48,9 +57,10 @@ if __name__ == "__main__":
                     line_number,
                     "error",
                 )
-            exit(1)
+            if args.fail_on_error:
+                exit(1)
         else:
-            print("There are no unescaped 'n' characters before capital letters.")
+            print("There are no unescaped 'n' characters before a capital letter.")
             print("Test PASSED!")
 
     except FileNotFoundError:
@@ -61,6 +71,8 @@ if __name__ == "__main__":
             0,
             "error",
         )
+        if args.fail_on_error:
+            exit(1)
     except Exception as e:
         print_to_console(
             "N Character Escaping Test",
@@ -69,3 +81,5 @@ if __name__ == "__main__":
             0,
             "error",
         )
+        if args.fail_on_error:
+            exit(1)

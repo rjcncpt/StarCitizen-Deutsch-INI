@@ -1,3 +1,4 @@
+import argparse
 import os
 import re
 
@@ -8,7 +9,7 @@ def check_brackets(filename, excluded):
     """
     :param filename: The name of the file to check for bracket matching.
     :param excluded: A list of keys to exclude from checking.
-    :return: None
+    :return: True if errors were found, False otherwise.
 
     The check_brackets method reads the contents of the given file and checks for matching brackets. It skips the lines which beginn with keys specified in the 'excluded' parameter. If any mismatched or unclosed brackets are found, an error message is printed with the line number.
 
@@ -18,6 +19,7 @@ def check_brackets(filename, excluded):
 
     This will check the contents of 'file.txt' for bracket matching, excluding lines 3, 5, and 7.
     """
+    has_errors = False
     with open(filename, "r", encoding="UTF-8-SIG") as file:
         for line_number, line in enumerate(file, start=1):
             current_key = line.split("=")[0]
@@ -42,6 +44,7 @@ def check_brackets(filename, excluded):
                                 line_number,
                                 "error",
                             )
+                            has_errors = True
                             break
 
                 if bracket_stack:
@@ -52,9 +55,19 @@ def check_brackets(filename, excluded):
                         line_number,
                         "error",
                     )
+                    has_errors = True
+    return has_errors
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--fail-on-error",
+        action="store_true",
+        help="Exit with code 1 if errors are found",
+    )
+    args, unknown = parser.parse_known_args()
+
     excluded_keys = [
         "ea_ui_player_count_bracket_left",
         "ea_ui_player_count_bracket_right",
@@ -73,11 +86,14 @@ if __name__ == "__main__":
     deu_live_file = "live/global.ini"
     deu_ptu_file = "ptu/global.ini"
 
+    has_errors = False
+
     print()
 
     if os.path.exists(deu_live_file):
         print(f"Checking {deu_live_file}...")
-        check_brackets(deu_live_file, excluded_keys)
+        if check_brackets(deu_live_file, excluded_keys):
+            has_errors = True
     else:
         print_to_console(
             "Bracket Test",
@@ -100,3 +116,6 @@ if __name__ == "__main__":
     #         0,
     #         "warning",
     #     )
+
+    if has_errors and args.fail_on_error:
+        exit(1)

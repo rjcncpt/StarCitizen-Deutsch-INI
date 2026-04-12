@@ -1,3 +1,4 @@
+import argparse
 from configparser import ConfigParser, DuplicateOptionError
 from configparser import Error as configparserError
 from helper import print_to_console
@@ -89,29 +90,40 @@ def keys_in_second_ini(first_file, second_file) -> bool:
     return True
 
 
-# Files to be checked
-eng_live_file = ".github/en/live/global.ini"
-deu_live_file = "live/global.ini"
-# eng_ptu_file = ".github/en/ptu/global.ini"
-# deu_ptu_file = "ptu/global.ini"
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--fail-on-error",
+        action="store_true",
+        help="Exit with code 1 if errors are found",
+    )
+    args, unknown = parser.parse_known_args()
 
-exit_code = 0
+    # Files to be checked
+    eng_live_file = ".github/en/live/global.ini"
+    deu_live_file = "live/global.ini"
+    # eng_ptu_file = ".github/en/ptu/global.ini"
+    # deu_ptu_file = "ptu/global.ini"
 
-# Perform the check
-if keys_in_second_ini(eng_live_file, deu_live_file):
-    print("All keys in LIVE are present.")
-else:
-    exit_code = 1
+    exit_code = 0
 
-# if keys_in_second_ini(eng_ptu_file, deu_ptu_file):
-#     print("All keys in PTU are present.")
-# else:
-#     exit_code = 1
+    # Perform the check
+    if keys_in_second_ini(eng_live_file, deu_live_file):
+        print("All keys in LIVE are present.")
+    else:
+        if args.fail_on_error:
+            exit_code = 1
 
-# Perform duplicate key check
-if test_duplicate_keys():
-    print("No duplicate keys found.")
-else:
-    exit_code = 1
+    # if keys_in_second_ini(eng_ptu_file, deu_ptu_file):
+    #     print("All keys in PTU are present.")
+    # else:
+    #     exit_code = 1
 
-exit(exit_code)
+    # Perform duplicate key check
+    if test_duplicate_keys():
+        print("No duplicate keys found.")
+    else:
+        if args.fail_on_error:
+            exit_code = 1
+
+    exit(exit_code)

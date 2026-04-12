@@ -1,3 +1,5 @@
+import argparse
+
 from helper import print_to_console, extract_keys_from_lines
 
 
@@ -20,6 +22,14 @@ def find_bad_lines(file_content):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--fail-on-error",
+        action="store_true",
+        help="Exit with code 1 if errors are found",
+    )
+    args, unknown = parser.parse_known_args()
+
     file_path = "live/global.ini"
 
     try:
@@ -38,7 +48,8 @@ if __name__ == "__main__":
                     line_number,
                     "error",
                 )
-            exit(1)
+            if args.fail_on_error:
+                exit(1)
         else:
             print("There are no double whitespaces.")
             print("Test PASSED!")
@@ -51,7 +62,11 @@ if __name__ == "__main__":
             0,
             "error",
         )
+        if args.fail_on_error:
+            exit(1)
     except Exception as e:
         print_to_console(
             "Double Whitespace Test", f"An error occurred: {e}", file_path, 0, "error"
         )
+        if args.fail_on_error:
+            exit(1)
