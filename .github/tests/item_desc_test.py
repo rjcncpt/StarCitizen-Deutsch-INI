@@ -124,11 +124,9 @@ if __name__ == "__main__":
     has_errors = False
 
     if os.path.exists(en_live_file):
-        print(f"Extracting English descriptions from {en_live_file}...")
         eng_desc = extract_desc_info(en_live_file, excluded_keys)
 
         if os.path.exists(deu_live_file):
-            print(f"Checking {deu_live_file}...")
             if check_armor_desc(deu_live_file, eng_desc, excluded_keys):
                 has_errors = True
         else:
@@ -150,3 +148,6 @@ if __name__ == "__main__":
 
     if has_errors and args.fail_on_error:
         exit(1)
+
+    if not has_errors:
+        print("No errors found in item descriptions.\nTest PASSED!")

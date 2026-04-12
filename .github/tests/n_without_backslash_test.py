@@ -46,8 +46,6 @@ if __name__ == "__main__":
 
         bad_lines = find_bad_lines(content, excluded_keys)
         if bad_lines:
-            print("N Character Escaping Test FAILED!")
-            print("Following lines need to be checked:")
             keys = extract_keys_from_lines(content, bad_lines)
             for index, line_number in enumerate(bad_lines):
                 print_to_console(

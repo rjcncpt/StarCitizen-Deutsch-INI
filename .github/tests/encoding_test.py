@@ -57,7 +57,7 @@ if __name__ == "__main__":
         if args.fail_on_error:
             exit_code = 1
     else:
-        print("The encoding between the LIVE files matches.")
+        print("The encoding between the LIVE files matches.\nTest PASSED!")
 
     # if type_eng_ptu["encoding"] != type_deu_ptu["encoding"]:
     #     print("The encoding between the PTU INI files differs!")

@@ -16,7 +16,7 @@ def parse_error(file_path: str, error: configparserError):
             "Duplicate Key Error",
             f"{error.args[1]}: Key exisitert bereits.",
             file_path,
-            error.args[3]-1,
+            error.args[3] - 1,
             "error",
         )
     else:
@@ -104,14 +104,13 @@ if __name__ == "__main__":
     # eng_ptu_file = ".github/en/ptu/global.ini"
     # deu_ptu_file = "ptu/global.ini"
 
-    exit_code = 0
+    has_errors = False
 
     # Perform the check
     if keys_in_second_ini(eng_live_file, deu_live_file):
         print("All keys in LIVE are present.")
     else:
-        if args.fail_on_error:
-            exit_code = 1
+        has_errors = True
 
     # if keys_in_second_ini(eng_ptu_file, deu_ptu_file):
     #     print("All keys in PTU are present.")
@@ -122,7 +121,10 @@ if __name__ == "__main__":
     if test_duplicate_keys():
         print("No duplicate keys found.")
     else:
-        if args.fail_on_error:
-            exit_code = 1
+        has_errors = True
 
-    exit(exit_code)
+    if has_errors and args.fail_on_error:
+        exit(1)
+
+    if not has_errors:
+        print("Test PASSED!")

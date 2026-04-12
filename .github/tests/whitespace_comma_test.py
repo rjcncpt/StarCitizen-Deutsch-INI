@@ -39,8 +39,6 @@ if __name__ == "__main__":
         if bad_lines:
             keys = extract_keys_from_lines(content, bad_lines)
 
-            print("Whitespace Comma Test FAILED!")
-            print("Following lines need to be checked:")
             for index, line_number in enumerate(bad_lines):
                 print_to_console(
                     "Whitespace Comma Test",

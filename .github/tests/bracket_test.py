@@ -88,10 +88,7 @@ if __name__ == "__main__":
 
     has_errors = False
 
-    print()
-
     if os.path.exists(deu_live_file):
-        print(f"Checking {deu_live_file}...")
         if check_brackets(deu_live_file, excluded_keys):
             has_errors = True
     else:
@@ -119,3 +116,5 @@ if __name__ == "__main__":
 
     if has_errors and args.fail_on_error:
         exit(1)
+    if not has_errors:
+        print("No bracket errors found.\nTest PASSED!")

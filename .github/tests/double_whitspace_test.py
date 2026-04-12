@@ -37,8 +37,6 @@ if __name__ == "__main__":
             content = file.readlines()
         bad_lines = find_bad_lines(content)
         if bad_lines:
-            print("Double Whitespace Test FAILED!")
-            print("Following lines need to be checked:")
             keys_of_bad_lines = extract_keys_from_lines(content, bad_lines)
             for index, line_number in enumerate(bad_lines):
                 print_to_console(
