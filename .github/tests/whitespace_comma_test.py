@@ -44,7 +44,7 @@ if __name__ == "__main__":
             for index, line_number in enumerate(bad_lines):
                 print_to_console(
                     "Whitespace Comma Test",
-                    f"Text contains whitespace before a comma: {keys[index]}",
+                    f"{keys[index]}: Whitespace before comma detected.",
                     file_path,
                     line_number,
                     "error",

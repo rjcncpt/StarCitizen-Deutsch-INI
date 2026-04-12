@@ -52,7 +52,7 @@ if __name__ == "__main__":
             for index, line_number in enumerate(bad_lines):
                 print_to_console(
                     "N Character Escaping Test",
-                    f"Text contains unescaped 'n' before a capital letter: {keys[index]}",
+                    f"{keys[index]}: Unescaped 'n' before a capital letter detected",
                     file_path,
                     line_number,
                     "error",

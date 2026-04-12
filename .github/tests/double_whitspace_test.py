@@ -43,7 +43,7 @@ if __name__ == "__main__":
             for index, line_number in enumerate(bad_lines):
                 print_to_console(
                     "Double Whitespace Test",
-                    f"Text contains double whitespace: {keys_of_bad_lines[index]}",
+                    f"{keys_of_bad_lines[index]}: Double whitespace detected around a comma or full stop",
                     file_path,
                     line_number,
                     "error",

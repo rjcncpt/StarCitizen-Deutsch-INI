@@ -14,10 +14,9 @@ def parse_error(file_path: str, error: configparserError):
     if type(error) is DuplicateOptionError:
         print_to_console(
             "Duplicate Key Error",
-            f"Fehler in '{file_path}': Der Key '{error.args[1]}'"
-            f" in Zeile {error.args[3]-1} exisitert bereits.",
+            f"{error.args[1]}: Key exisitert bereits.",
             file_path,
-            error.args[3],
+            error.args[3]-1,
             "error",
         )
     else:

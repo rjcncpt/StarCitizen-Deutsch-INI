@@ -96,7 +96,7 @@ def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: lis
             }
             print_to_console(
                 "Item Description Test",
-                f"{filename}:{line_number} / {current_key}: Missing information: {missing_fields}. Expected: {expected_fields}",
+                f"{current_key}: Missing information: {missing_fields}. Expected: {expected_fields}",
                 filename,
                 line_number,
                 "error",

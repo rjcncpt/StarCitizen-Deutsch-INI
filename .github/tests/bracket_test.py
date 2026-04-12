@@ -39,7 +39,7 @@ def check_brackets(filename, excluded):
                         except IndexError:
                             print_to_console(
                                 "Bracket Test",
-                                f"{filename}:{line_number} / {current_key}: Extra closing bracket detected.",
+                                f"{current_key}: Extra closing bracket detected.",
                                 filename,
                                 line_number,
                                 "error",
@@ -50,7 +50,7 @@ def check_brackets(filename, excluded):
                 if bracket_stack:
                     print_to_console(
                         "Bracket Test",
-                        f"{filename}:{line_number} / {current_key}: Open bracket is not closed.",
+                        f"{current_key}: Open bracket is not closed.",
                         filename,
                         line_number,
                         "error",
