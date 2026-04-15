@@ -43,7 +43,7 @@ Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 ### In wenigen Schritten zu Bauplänen in Missionstexten:
 - Update (inGame) oder lade unseren **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** und installiere ihn.
 - Öffne den SC Deutsch Launcher und aktualisiere die Übersetzung
-- Gehe in die Einstellungen, scrolle etwas nach unten unterhaplb der SC-Pfade und aktiviere das Baupläne-Modul
+- Gehe in die Einstellungen, scrolle etwas nach unten unterhalb der SC-Pfade und aktiviere das Baupläne-Modul
 - Auf der Hauptseite erscheint ein neues Icon <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" /> in der Titelleiste
 - Klicke darauf, um das Modul "Injections für global.ini" zu öffnen
 - Klicke auf den **"Baupläne injizieren"**-Button – fertig
