@@ -1,0 +1,17 @@
+RegionA		= Pyro, Region A (Monox) - Gefahr 3/10
+RegionB		= Pyro, Region B (Bloom) - Gefahr 4/10
+RegionC		= Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10
+RegionD 	= Pyro, Region D (Terminus) - Gefahr 7/10
+Pyro		= Pyro System - Gefahr 2-5/10
+Pyro1		= Pyro 1 - Gefahr 2/10
+Pyro2		= Pyro 2 (Monox) - Gefahr 3/10
+Pyro3		= Pyro 3 (Bloom) - Gefahr 4/10
+Pyro4		= Pyro 4 - Gefahr 5/10
+Pyro5		= Pyro 5 - Gefahr 5/10
+Pyro6 		= Pyro 6 (Terminus) - Gefahr 7/10
+Stanton 	= Stanton System - Gefahr 4-6/10
+Stanton1 	= Stanton 1 (Hurston) - Gefahr 4/10
+Stanton2 	= Stanton 2 (Crusader) - Gefahr 4/10
+Stanton3 	= Stanton 3 (ArcCorp) - Gefahr 6/10
+Stanton4 	= Stanton 4 (microTech) - Gefahr 5/10
+Nyx 		= Nyx System - Gefahr 3-6/10

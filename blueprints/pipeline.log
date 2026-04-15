@@ -1,0 +1,33 @@
+[2026-04-15 10:11:06] ========================================================
+[2026-04-15 10:11:06] Star Citizen Data Pipeline – Lauf gestartet
+[2026-04-15 10:11:06] Log-Datei : F:\...\pipeline.log
+[2026-04-15 10:11:06] Script    : F:\...\sc_data_pipeline.py
+[2026-04-15 10:11:06] ========================================================
+[2026-04-15 10:11:06] 
+[2026-04-15 10:11:06] [STEP] Kopiere global.ini Dateien...
+[2026-04-15 10:11:06] [OK]   global.ini  →  F:\...\Data\live\global.ini
+[2026-04-15 10:11:06] [OK]   global.ini  →  F:\...\Data\live\full\global.ini
+[2026-04-15 10:11:06] 
+[2026-04-15 10:11:06] [STEP] Lade Spielversion von scmdb.net/data/versions.json...
+[2026-04-15 10:11:06] [OK]   Aktuelle Version: 4.7.1-live.11617053
+[2026-04-15 10:11:06] [OK]   Gespeichert: F:\...\Data\version.json
+[2026-04-15 10:11:06] 
+[2026-04-15 10:11:06] [STEP] Extrahiere Daten von scmdb.net...
+[2026-04-15 10:11:06] [OK]   Gespeichert: 4.7.1-live.11617053.json
+[2026-04-15 10:11:06] 
+[2026-04-15 10:11:06] [STEP] Erstelle BP-Titel Log aus lokaler global.ini...
+[2026-04-15 10:11:06] [OK]   Titel-Log erstellt: 211/212 Keys → bp_titles_log.txt
+[2026-04-15 10:11:06] 
+[2026-04-15 10:11:06] [STEP] Erstelle bp-contracts.json...
+[2026-04-15 10:11:06] [OK]   Standing-Cache unveraendert (46 Keys) - wird verwendet.
+[2026-04-15 10:11:06] [OK]   CIG-Bug-Korrekturen angewendet: 2 Contract(s) gepatcht.
+[2026-04-15 10:11:06] [OK]   218 Einträge gespeichert → F:\...\Data\bp-contracts.json
+[2026-04-15 10:11:06] [OK]     Davon Single-Pool : 190
+[2026-04-15 10:11:06] [OK]     Davon Multi-Pool  : 28
+[2026-04-15 10:11:06] 
+[2026-04-15 10:11:06] [STEP] Erstelle bp-contracts_short.json für SCDL injection...
+[2026-04-15 10:11:06] [OK]   218 Einträge gespeichert → F:\...\Data\bp-contracts_short.json
+[2026-04-15 10:11:06] 
+[2026-04-15 10:11:06] ========================================================
+[2026-04-15 10:11:06] Alle Aufgaben erfolgreich abgeschlossen.
+[2026-04-15 10:11:06] ========================================================
