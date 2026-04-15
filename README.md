@@ -51,7 +51,7 @@ Wir erhalten hin und wieder Nachrichten, wie man das Team unterstützen kann, di
 
 <img width="1159" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/mission_details_01.png?1" />
 
-#### Mit dem SCD Launcher kannst du Baupläne direkt im Missionstext einfügen. Folge dazu der **[Anleitung zur integration der Baupläne in Missionstexte](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/edit/main/blueprints/README.md)** über den SCDL.
+#### Mit dem SCD Launcher kannst du Baupläne direkt im Missionstext einfügen. Folge dazu der **[Anleitung zur integration der Baupläne in Missionstexte](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/blueprints)** über den SCDL.
 
 ### In wenigen Schritten zu Bauplänen in Missionstexten:
 - Update (inGame) oder lade unseren **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** und installiere ihn.
