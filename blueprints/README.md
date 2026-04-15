@@ -41,7 +41,7 @@ Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 <img width="780" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/blueprint-modul-aktivieren.png?1" />
 
 ### In wenigen Schritten zu Bauplänen in Missionstexten:
-- Lade unseren **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** herunter und installiere ihn.
+- Update oder lade unseren **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** und installiere ihn.
 - Öffne den SC Deutsch Launcher und aktualisiere die Übersetzung
 - Gehe in die Einstellungen, scrolle nach unten und aktiviere das Baupläne-Modul
 - Auf der Hauptseite erscheint ein neues Icon <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" /> in der Titelleiste
