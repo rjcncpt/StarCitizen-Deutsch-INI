@@ -1,34 +1,33 @@
-[2026-04-15 13:57:46] ========================================================
-[2026-04-15 13:57:46] Star Citizen Data Pipeline – Lauf gestartet
-[2026-04-15 13:57:46] Log-Datei : F:\...\pipeline.log
-[2026-04-15 13:57:46] Script    : F:\...\sc_data_pipeline.py
-[2026-04-15 13:57:46] ========================================================
-[2026-04-15 13:57:46] 
-[2026-04-15 13:57:46] [STEP] Kopiere global.ini Dateien...
-[2026-04-15 13:57:46] [OK]   global.ini  →  F:\...\Data\live\global.ini
-[2026-04-15 13:57:46] [OK]   global.ini  →  F:\...\Data\live\full\global.ini
-[2026-04-15 13:57:46] 
-[2026-04-15 13:57:46] [STEP] Lade Spielversion von scmdb.net...
-[2026-04-15 13:57:46] [OK]   Aktuelle Version: 4.7.1-live.11617053
-[2026-04-15 13:57:46] [OK]   Gespeichert: F:\...\Data\version.json
-[2026-04-15 13:57:46] 
-[2026-04-15 13:57:46] [STEP] Extrahiere Daten von scmdb.net...
-[2026-04-15 13:57:47] [OK]   Gespeichert: 4.7.1-live.11617053.json
-[2026-04-15 13:57:47] 
-[2026-04-15 13:57:47] [STEP] Erstelle BP-Titel Log aus lokaler global.ini...
-[2026-04-15 13:57:47] [OK]   Titel-Log erstellt: 212/213 Keys → bp_titles_log.txt
-[2026-04-15 13:57:47] 
-[2026-04-15 13:57:47] [STEP] Erstelle bp-contracts.json...
-[2026-04-15 13:57:47] [OK]   global.ini hat sich geaendert - Standing-Cache wird neu aufgebaut.
-[2026-04-15 13:57:47] [OK]   Standing-Cache neu erstellt: 46/46 Keys -> standings_de.json
-[2026-04-15 13:57:47] [OK]   CIG-Bug-Korrekturen angewendet: 3 Contract(s) gepatcht.
-[2026-04-15 13:57:47] [OK]   219 Einträge gespeichert → F:\...\Data\bp-contracts.json
-[2026-04-15 13:57:47] [OK]     Davon Single-Pool : 191
-[2026-04-15 13:57:47] [OK]     Davon Multi-Pool  : 28
-[2026-04-15 13:57:47] 
-[2026-04-15 13:57:47] [STEP] Erstelle bp-contracts_short.json für SCDL injection...
-[2026-04-15 13:57:47] [OK]   219 Einträge gespeichert → F:\...\Data\bp-contracts_short.json
-[2026-04-15 13:57:47] 
-[2026-04-15 13:57:47] ========================================================
-[2026-04-15 13:57:47] Alle Aufgaben erfolgreich abgeschlossen.
-[2026-04-15 13:57:47] ========================================================
+[2026-04-15 20:27:32] ========================================================
+[2026-04-15 20:27:32] Star Citizen Data Pipeline – Lauf gestartet
+[2026-04-15 20:27:32] Log-Datei : F:\...\pipeline.log
+[2026-04-15 20:27:32] Script    : F:\...\sc_data_pipeline.py
+[2026-04-15 20:27:32] ========================================================
+[2026-04-15 20:27:32] 
+[2026-04-15 20:27:32] [STEP] Kopiere global.ini Dateien...
+[2026-04-15 20:27:32] [OK]   global.ini  →  F:\...\Data\live\global.ini
+[2026-04-15 20:27:32] [OK]   global.ini  →  F:\...\Data\live\full\global.ini
+[2026-04-15 20:27:32] 
+[2026-04-15 20:27:32] [STEP] Lade Spielversion von scmdb.net...
+[2026-04-15 20:27:32] [OK]   Aktuelle Version: 4.7.1-live.11617053
+[2026-04-15 20:27:32] [OK]   Gespeichert: F:\...\Data\version.json
+[2026-04-15 20:27:32] 
+[2026-04-15 20:27:32] [STEP] Extrahiere Daten von scmdb.net...
+[2026-04-15 20:27:33] [OK]   Gespeichert: 4.7.1-live.11617053.json
+[2026-04-15 20:27:33] 
+[2026-04-15 20:27:33] [STEP] Erstelle BP-Titel Log aus lokaler global.ini...
+[2026-04-15 20:27:33] [OK]   Titel-Log erstellt: 212/213 Keys → bp_titles_log.txt
+[2026-04-15 20:27:33] 
+[2026-04-15 20:27:33] [STEP] Erstelle bp-contracts.json...
+[2026-04-15 20:27:33] [OK]   Standing-Cache unveraendert (46 Keys) - wird verwendet.
+[2026-04-15 20:27:33] [OK]   CIG-Bug-Korrekturen angewendet: 3 Contract(s) gepatcht.
+[2026-04-15 20:27:33] [OK]   219 Einträge gespeichert → F:\...\Data\bp-contracts.json
+[2026-04-15 20:27:33] [OK]     Davon Single-Pool : 191
+[2026-04-15 20:27:33] [OK]     Davon Multi-Pool  : 28
+[2026-04-15 20:27:33] 
+[2026-04-15 20:27:33] [STEP] Erstelle bp-contracts_short.json für SCDL injection...
+[2026-04-15 20:27:33] [OK]   219 Einträge gespeichert → F:\...\Data\bp-contracts_short.json
+[2026-04-15 20:27:33] 
+[2026-04-15 20:27:33] ========================================================
+[2026-04-15 20:27:33] Alle Aufgaben erfolgreich abgeschlossen.
+[2026-04-15 20:27:33] ========================================================

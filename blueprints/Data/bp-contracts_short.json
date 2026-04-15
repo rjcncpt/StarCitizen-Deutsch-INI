@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generiert": "2026-04-15 13:57:47",
+    "generiert": "2026-04-15 20:27:33",
     "eintraege": 219,
     "version": "Beta 15.04.2026",
     "github": "/rjcncpt"
@@ -1259,7 +1259,7 @@
       "descriptionLocKey": "headhunters_EliminateSpecific_Asteroid_Generic_VE_desc_001",
       "titleLocKey": "headhunters_EliminateSpecific_Asteroid_Generic_VE_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10# Min. Reputation: Neutral\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Scalpel Sniper Rifle\\n- Coda Pistol\\n- Coda \"Nighthawk\" Pistol\\n- Coda \"Big Boss\" Pistol\\n- Morozov-SH Arms\\n- Morozov-SH Core\\n- Morozov-SH Legs\\n- Morozov-SH Helmet\\n- Scalpel Sniper Rifle Magazine (12 Schuss)\\n- Coda Pistol Magazine (6 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Scalpel Sniper Rifle\\n- Coda Pistol\\n- Coda \"Nighthawk\" Pistol\\n- Coda \"Big Boss\" Pistol\\n- Morozov-SH Arms\\n- Morozov-SH Core\\n- Morozov-SH Legs\\n- Morozov-SH Helmet\\n- Scalpel Sniper Rifle Magazine (12 Schuss)\\n- Coda Pistol Magazine (6 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10# Min. Reputation: Neutral\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Devastator Shotgun\\n- Devastator \"Warhawk\" Shotgun\\n- Devastator \"Midnight\" Shotgun\\n- Morozov-SH Core Thule\\n- Morozov-SH Arms Thule\\n- Morozov-SH Legs Thule\\n- Morozov-SH Helmet Thule\\n- Devastator Shotgun Battery (12 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Devastator Shotgun\\n- Devastator \"Warhawk\" Shotgun\\n- Devastator \"Midnight\" Shotgun\\n- Morozov-SH Core Thule\\n- Morozov-SH Arms Thule\\n- Morozov-SH Legs Thule\\n- Morozov-SH Helmet Thule\\n- Devastator Shotgun Battery (12 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n# Min. Reputation: Neutral\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Scalpel Sniper Rifle\\n- Coda Pistol\\n- Coda \"Nighthawk\" Pistol\\n- Coda \"Big Boss\" Pistol\\n- Morozov-SH Arms\\n- Morozov-SH Core\\n- Morozov-SH Legs\\n- Morozov-SH Helmet\\n- Scalpel Sniper Rifle Magazine (12 Schuss)\\n- Coda Pistol Magazine (6 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Scalpel Sniper Rifle\\n- Coda Pistol\\n- Coda \"Nighthawk\" Pistol\\n- Coda \"Big Boss\" Pistol\\n- Morozov-SH Arms\\n- Morozov-SH Core\\n- Morozov-SH Legs\\n- Morozov-SH Helmet\\n- Scalpel Sniper Rifle Magazine (12 Schuss)\\n- Coda Pistol Magazine (6 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n# Min. Reputation: Neutral\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Devastator Shotgun\\n- Devastator \"Warhawk\" Shotgun\\n- Devastator \"Midnight\" Shotgun\\n- Morozov-SH Core Thule\\n- Morozov-SH Arms Thule\\n- Morozov-SH Legs Thule\\n- Morozov-SH Helmet Thule\\n- Devastator Shotgun Battery (12 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Devastator Shotgun\\n- Devastator \"Warhawk\" Shotgun\\n- Devastator \"Midnight\" Shotgun\\n- Morozov-SH Core Thule\\n- Morozov-SH Arms Thule\\n- Morozov-SH Legs Thule\\n- Morozov-SH Helmet Thule\\n- Devastator Shotgun Battery (12 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "location": [
@@ -1340,7 +1340,7 @@
       "descriptionLocKey": "cfp_defend-criminals_desc_001",
       "titleLocKey": "cfp_defend-criminals_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n# Min. Reputation: Neutral\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Karna Rifle\\n- Artimex Arms\\n- Artimex Core\\n- Artimex Legs\\n- Artimex Helmet\\n- Karna Rifle Battery (35 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10# Min. Reputation: Auftragnehmer\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Karna \"Fate\" Rifle\\n- Artimex Core (Modified)\\n- Artimex Arms (Modified)\\n- Karna Rifle Battery (35 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n# Min. Reputation: Neutral\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Karna Rifle\\n- Artimex Arms\\n- Artimex Core\\n- Artimex Legs\\n- Artimex Helmet\\n- Karna Rifle Battery (35 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n# Min. Reputation: Auftragnehmer\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Karna \"Fate\" Rifle\\n- Artimex Core (Modified)\\n- Artimex Arms (Modified)\\n- Karna Rifle Battery (35 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "locality": [
@@ -1414,7 +1414,7 @@
       "descriptionLocKey": "cfp_eliminateall_fromCFP_hh_M_desc_001",
       "titleLocKey": "cfp_eliminateall_fromCFP_hh_M_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Karna Rifle\\n- Artimex Core Canuto\\n- Artimex Arms Canuto\\n- Artimex Legs Canuto\\n- Artimex Helmet Canuto\\n- Karna Rifle Battery (35 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10# Min. Reputation: Auftragnehmer\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Karna \"Rager\" Rifle\\n- Artimex Core Wildwood\\n- Artimex Arms Wildwood\\n- Artimex Legs Wildwood\\n- Artimex Helmet Wildwood\\n- Karna Rifle Battery (35 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Karna Rifle\\n- Artimex Core Canuto\\n- Artimex Arms Canuto\\n- Artimex Legs Canuto\\n- Artimex Helmet Canuto\\n- Karna Rifle Battery (35 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n# Min. Reputation: Auftragnehmer\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Karna \"Rager\" Rifle\\n- Artimex Core Wildwood\\n- Artimex Arms Wildwood\\n- Artimex Legs Wildwood\\n- Artimex Helmet Wildwood\\n- Karna Rifle Battery (35 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "locality": [
@@ -1498,7 +1498,7 @@
       "descriptionLocKey": "cfp_sabotage_servers_M_HH_desc_001",
       "titleLocKey": "cfp_sabotage_servers_M_HH_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10# Min. Reputation: Neutral\\n# Max. Reputation: -\\n\\n- FS-9 LMG\\n- BR-2 Shotgun\\n- Gallant Rifle\\n- ADP Arms Woodland\\n- ADP Core\\n- ADP Legs Woodland\\n- Balor HCH Helmet\\n- ADP-mk4 Arms Woodland\\n- ADP-mk4 Legs Woodland\\n- ADP-mk4 Core Woodland\\n- ADP-mk4 Helmet Woodland\\n- FS-9 Magazine (75 Schuss)\\n- BR-2 Shotgun Magazine (12 Schuss)\\n- Gallant Rifle Battery (45 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10# Min. Reputation: Auftragnehmer\\n# Max. Reputation: -\\n\\n- FS-9 LMG\\n- BR-2 Shotgun\\n- Gallant Rifle\\n- ADP Arms Woodland\\n- ADP Core\\n- ADP Legs Woodland\\n- Balor HCH Helmet\\n- ADP-mk4 Arms Woodland\\n- ADP-mk4 Legs Woodland\\n- ADP-mk4 Core Woodland\\n- ADP-mk4 Helmet Woodland\\n- FS-9 Magazine (75 Schuss)\\n- BR-2 Shotgun Magazine (12 Schuss)\\n- Gallant Rifle Battery (45 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- P6-LR Sniper Rifle\\n- A03 Sniper Rifle\\n- CBH-3 Helmet Base\\n- PAB-1 Arms\\n- PAB-1 Core\\n- PAB-1 Legs\\n- TrueDef-Pro Arms\\n- TrueDef-Pro Core Base\\n- Argus Helmet\\n- TrueDef-Pro Legs\\n- A03 Sniper Rifle Magazine (15 Schuss)\\n- P6-LR Magazine (8 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n# Min. Reputation: Neutral\\n# Max. Reputation: -\\n\\n- FS-9 LMG\\n- BR-2 Shotgun\\n- Gallant Rifle\\n- ADP Arms Woodland\\n- ADP Core\\n- ADP Legs Woodland\\n- Balor HCH Helmet\\n- ADP-mk4 Arms Woodland\\n- ADP-mk4 Legs Woodland\\n- ADP-mk4 Core Woodland\\n- ADP-mk4 Helmet Woodland\\n- FS-9 Magazine (75 Schuss)\\n- BR-2 Shotgun Magazine (12 Schuss)\\n- Gallant Rifle Battery (45 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n# Min. Reputation: Auftragnehmer\\n# Max. Reputation: -\\n\\n- FS-9 LMG\\n- BR-2 Shotgun\\n- Gallant Rifle\\n- ADP Arms Woodland\\n- ADP Core\\n- ADP Legs Woodland\\n- Balor HCH Helmet\\n- ADP-mk4 Arms Woodland\\n- ADP-mk4 Legs Woodland\\n- ADP-mk4 Core Woodland\\n- ADP-mk4 Helmet Woodland\\n- FS-9 Magazine (75 Schuss)\\n- BR-2 Shotgun Magazine (12 Schuss)\\n- Gallant Rifle Battery (45 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- P6-LR Sniper Rifle\\n- A03 Sniper Rifle\\n- CBH-3 Helmet Base\\n- PAB-1 Arms\\n- PAB-1 Core\\n- PAB-1 Legs\\n- TrueDef-Pro Arms\\n- TrueDef-Pro Core Base\\n- Argus Helmet\\n- TrueDef-Pro Legs\\n- A03 Sniper Rifle Magazine (15 Schuss)\\n- P6-LR Magazine (8 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "locality": [
@@ -1688,7 +1688,7 @@
       "descriptionLocKey": "cfp_sabotage_servers_H_XT_desc_001",
       "titleLocKey": "cfp_sabotage_servers_H_XT_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10# Min. Reputation: Auftragnehmer Veteran\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- FS-9 LMG\\n- BR-2 Shotgun\\n- Gallant Rifle\\n- ADP Arms Woodland\\n- ADP Core\\n- ADP Legs Woodland\\n- Balor HCH Helmet\\n- ADP-mk4 Arms Woodland\\n- ADP-mk4 Legs Woodland\\n- ADP-mk4 Core Woodland\\n- ADP-mk4 Helmet Woodland\\n- FS-9 Magazine (75 Schuss)\\n- BR-2 Shotgun Magazine (12 Schuss)\\n- Gallant Rifle Battery (45 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10# Min. Reputation: Auftragnehmer\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- P6-LR Sniper Rifle\\n- A03 Sniper Rifle\\n- CBH-3 Helmet Base\\n- PAB-1 Arms\\n- PAB-1 Core\\n- PAB-1 Legs\\n- TrueDef-Pro Arms\\n- TrueDef-Pro Core Base\\n- Argus Helmet\\n- TrueDef-Pro Legs\\n- A03 Sniper Rifle Magazine (15 Schuss)\\n- P6-LR Magazine (8 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n# Min. Reputation: Auftragnehmer Veteran\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- FS-9 LMG\\n- BR-2 Shotgun\\n- Gallant Rifle\\n- ADP Arms Woodland\\n- ADP Core\\n- ADP Legs Woodland\\n- Balor HCH Helmet\\n- ADP-mk4 Arms Woodland\\n- ADP-mk4 Legs Woodland\\n- ADP-mk4 Core Woodland\\n- ADP-mk4 Helmet Woodland\\n- FS-9 Magazine (75 Schuss)\\n- BR-2 Shotgun Magazine (12 Schuss)\\n- Gallant Rifle Battery (45 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n# Min. Reputation: Auftragnehmer\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- P6-LR Sniper Rifle\\n- A03 Sniper Rifle\\n- CBH-3 Helmet Base\\n- PAB-1 Arms\\n- PAB-1 Core\\n- PAB-1 Legs\\n- TrueDef-Pro Arms\\n- TrueDef-Pro Core Base\\n- Argus Helmet\\n- TrueDef-Pro Legs\\n- A03 Sniper Rifle Magazine (15 Schuss)\\n- P6-LR Magazine (8 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "locality": [
@@ -1743,7 +1743,7 @@
       "descriptionLocKey": "cfp_sabotage_generators_VE_desc_001",
       "titleLocKey": "cfp_sabotage_generators_VE_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10# Min. / Max. Reputation: Neutral\\n\\n- FS-9 LMG\\n- BR-2 Shotgun\\n- Gallant Rifle\\n- ADP Arms Woodland\\n- ADP Core\\n- ADP Legs Woodland\\n- Balor HCH Helmet\\n- ADP-mk4 Arms Woodland\\n- ADP-mk4 Legs Woodland\\n- ADP-mk4 Core Woodland\\n- ADP-mk4 Helmet Woodland\\n- FS-9 Magazine (75 Schuss)\\n- BR-2 Shotgun Magazine (12 Schuss)\\n- Gallant Rifle Battery (45 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- FS-9 LMG\\n- BR-2 Shotgun\\n- Gallant Rifle\\n- ADP Arms Woodland\\n- ADP Core\\n- ADP Legs Woodland\\n- Balor HCH Helmet\\n- ADP-mk4 Arms Woodland\\n- ADP-mk4 Legs Woodland\\n- ADP-mk4 Core Woodland\\n- ADP-mk4 Helmet Woodland\\n- FS-9 Magazine (75 Schuss)\\n- BR-2 Shotgun Magazine (12 Schuss)\\n- Gallant Rifle Battery (45 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10# Min. / Max. Reputation: Neutral\\n\\n- P6-LR Sniper Rifle\\n- A03 Sniper Rifle\\n- CBH-3 Helmet Base\\n- PAB-1 Arms\\n- PAB-1 Core\\n- PAB-1 Legs\\n- TrueDef-Pro Arms\\n- TrueDef-Pro Core Base\\n- Argus Helmet\\n- TrueDef-Pro Legs\\n- A03 Sniper Rifle Magazine (15 Schuss)\\n- P6-LR Magazine (8 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- P6-LR Sniper Rifle\\n- A03 Sniper Rifle\\n- CBH-3 Helmet Base\\n- PAB-1 Arms\\n- PAB-1 Core\\n- PAB-1 Legs\\n- TrueDef-Pro Arms\\n- TrueDef-Pro Core Base\\n- Argus Helmet\\n- TrueDef-Pro Legs\\n- A03 Sniper Rifle Magazine (15 Schuss)\\n- P6-LR Magazine (8 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n# Min. / Max. Reputation: Neutral\\n\\n- FS-9 LMG\\n- BR-2 Shotgun\\n- Gallant Rifle\\n- ADP Arms Woodland\\n- ADP Core\\n- ADP Legs Woodland\\n- Balor HCH Helmet\\n- ADP-mk4 Arms Woodland\\n- ADP-mk4 Legs Woodland\\n- ADP-mk4 Core Woodland\\n- ADP-mk4 Helmet Woodland\\n- FS-9 Magazine (75 Schuss)\\n- BR-2 Shotgun Magazine (12 Schuss)\\n- Gallant Rifle Battery (45 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- FS-9 LMG\\n- BR-2 Shotgun\\n- Gallant Rifle\\n- ADP Arms Woodland\\n- ADP Core\\n- ADP Legs Woodland\\n- Balor HCH Helmet\\n- ADP-mk4 Arms Woodland\\n- ADP-mk4 Legs Woodland\\n- ADP-mk4 Core Woodland\\n- ADP-mk4 Helmet Woodland\\n- FS-9 Magazine (75 Schuss)\\n- BR-2 Shotgun Magazine (12 Schuss)\\n- Gallant Rifle Battery (45 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n# Min. / Max. Reputation: Neutral\\n\\n- P6-LR Sniper Rifle\\n- A03 Sniper Rifle\\n- CBH-3 Helmet Base\\n- PAB-1 Arms\\n- PAB-1 Core\\n- PAB-1 Legs\\n- TrueDef-Pro Arms\\n- TrueDef-Pro Core Base\\n- Argus Helmet\\n- TrueDef-Pro Legs\\n- A03 Sniper Rifle Magazine (15 Schuss)\\n- P6-LR Magazine (8 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- P6-LR Sniper Rifle\\n- A03 Sniper Rifle\\n- CBH-3 Helmet Base\\n- PAB-1 Arms\\n- PAB-1 Core\\n- PAB-1 Legs\\n- TrueDef-Pro Arms\\n- TrueDef-Pro Core Base\\n- Argus Helmet\\n- TrueDef-Pro Legs\\n- A03 Sniper Rifle Magazine (15 Schuss)\\n- P6-LR Magazine (8 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "locality": [
@@ -3877,7 +3877,7 @@
       "descriptionLocKey": "headhunters_EliminateSpecific_CFP_M_desc_001",
       "titleLocKey": "headhunters_EliminateSpecific_CFP_M_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Scalpel Sniper Rifle\\n- Coda Pistol\\n- Coda \"Nighthawk\" Pistol\\n- Coda \"Big Boss\" Pistol\\n- Morozov-SH Arms\\n- Morozov-SH Core\\n- Morozov-SH Legs\\n- Morozov-SH Helmet\\n- Scalpel Sniper Rifle Magazine (12 Schuss)\\n- Coda Pistol Magazine (6 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10# Min. Reputation: Auftragnehmer\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Devastator Shotgun\\n- Devastator \"Warhawk\" Shotgun\\n- Devastator \"Midnight\" Shotgun\\n- Morozov-SH Core Thule\\n- Morozov-SH Arms Thule\\n- Morozov-SH Legs Thule\\n- Morozov-SH Helmet Thule\\n- Devastator Shotgun Battery (12 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Scalpel Sniper Rifle\\n- Coda Pistol\\n- Coda \"Nighthawk\" Pistol\\n- Coda \"Big Boss\" Pistol\\n- Morozov-SH Arms\\n- Morozov-SH Core\\n- Morozov-SH Legs\\n- Morozov-SH Helmet\\n- Scalpel Sniper Rifle Magazine (12 Schuss)\\n- Coda Pistol Magazine (6 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n# Min. Reputation: Auftragnehmer\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Devastator Shotgun\\n- Devastator \"Warhawk\" Shotgun\\n- Devastator \"Midnight\" Shotgun\\n- Morozov-SH Core Thule\\n- Morozov-SH Arms Thule\\n- Morozov-SH Legs Thule\\n- Morozov-SH Helmet Thule\\n- Devastator Shotgun Battery (12 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "location": [
@@ -4502,7 +4502,7 @@
       "descriptionLocKey": "Foxwell_SecurityPatrol_H_Desc_001",
       "titleLocKey": "Foxwell_SecurityPatrol_H_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10# Min. Reputation: Auftragnehmer Senior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Parallax \"Sanguine\" Energy Assault Rifle\\n- Antium Arms Sand\\n- Antium Core Sand\\n- Antium Legs Sand\\n- Antium Helmet Sand\\n- Parallax Rifle Battery (80 Schuss)\\n\\n---------------------------------------------------------\\n\\n# Min. Reputation: Auftragnehmer Senior\\n# Max. Reputation: Auftragnehmer Leitend\\n\\n- Parallax \"Sanguine\" Energy Assault Rifle\\n- Antium Arms Sand\\n- Antium Core Sand\\n- Antium Legs Sand\\n- Antium Helmet Sand\\n- Parallax Rifle Battery (80 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n# Min. Reputation: Auftragnehmer Senior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Parallax \"Sanguine\" Energy Assault Rifle\\n- Antium Arms Sand\\n- Antium Core Sand\\n- Antium Legs Sand\\n- Antium Helmet Sand\\n- Parallax Rifle Battery (80 Schuss)\\n\\n---------------------------------------------------------\\n\\n# Min. Reputation: Auftragnehmer Senior\\n# Max. Reputation: Auftragnehmer Leitend\\n\\n- Parallax \"Sanguine\" Energy Assault Rifle\\n- Antium Arms Sand\\n- Antium Core Sand\\n- Antium Legs Sand\\n- Antium Helmet Sand\\n- Parallax Rifle Battery (80 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "crimeStat": {
@@ -5571,7 +5571,7 @@
       "descriptionLocKey": "Foxwell_ShipAmbush_M_desc_001",
       "titleLocKey": "Foxwell_ShipAmbush_M_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10# Min. Reputation: Auftragnehmer\\n# Max. Reputation: Auftragnehmer Veteran\\n\\n- Parallax \"Sunstone\" Energy Assault Rifle\\n- Antium Arms Jet\\n- Antium Core Jet\\n- Antium Legs Jet\\n- Antium Helmet Jet\\n- Parallax Rifle Battery (80 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Stanton 1 (Hurston) - Gefahr 4/10\\n# Region: Stanton 2 (Crusader) - Gefahr 4/10\\n# Region: Stanton 3 (ArcCorp) - Gefahr 6/10\\n# Region: Stanton 4 (microTech) - Gefahr 5/10# Min. Reputation: Auftragnehmer\\n# Max. Reputation: -\\n\\n- Parallax \"Sunstone\" Energy Assault Rifle\\n- Antium Arms Jet\\n- Antium Core Jet\\n- Antium Legs Jet\\n- Antium Helmet Jet\\n- Parallax Rifle Battery (80 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n# Min. Reputation: Auftragnehmer\\n# Max. Reputation: Auftragnehmer Veteran\\n\\n- Parallax \"Sunstone\" Energy Assault Rifle\\n- Antium Arms Jet\\n- Antium Core Jet\\n- Antium Legs Jet\\n- Antium Helmet Jet\\n- Parallax Rifle Battery (80 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Stanton 1 (Hurston) - Gefahr 4/10\\n# Region: Stanton 2 (Crusader) - Gefahr 4/10\\n# Region: Stanton 3 (ArcCorp) - Gefahr 6/10\\n# Region: Stanton 4 (microTech) - Gefahr 5/10\\n\\n# Min. Reputation: Auftragnehmer\\n# Max. Reputation: -\\n\\n- Parallax \"Sunstone\" Energy Assault Rifle\\n- Antium Arms Jet\\n- Antium Core Jet\\n- Antium Legs Jet\\n- Antium Helmet Jet\\n- Parallax Rifle Battery (80 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "completedContractTags": {
@@ -6454,6 +6454,22 @@
           {
             "name": "Levski",
             "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
           }
         ],
         "locality": []
@@ -8140,7 +8156,7 @@
       "descriptionLocKey": "headhunters_eliminateall_outpost_desc_01",
       "titleLocKey": "headhunters_eliminateall_outpost_title_01",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10# Min. / Max. Reputation: Neutral\\n\\n- Yubarev Pistol\\n- Yubarev \"Mirage\" Pistol\\n- Yubarev \"Igniter\" Pistol\\n- DustUp Arms Tactical\\n- DustUp Core Tactical\\n- DustUp Legs Tactical\\n- DustUp Helmet Tactical\\n- Yubarev Pistol Battery (10 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10# Min. Reputation: Auftragnehmer Senior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Yubarev Pistol\\n- Yubarev \"Mirage\" Pistol\\n- Yubarev \"Igniter\" Pistol\\n- DustUp Arms Tactical\\n- DustUp Core Tactical\\n- DustUp Legs Tactical\\n- DustUp Helmet Tactical\\n- Yubarev Pistol Battery (10 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n# Min. / Max. Reputation: Neutral\\n\\n- Yubarev Pistol\\n- Yubarev \"Mirage\" Pistol\\n- Yubarev \"Igniter\" Pistol\\n- DustUp Arms Tactical\\n- DustUp Core Tactical\\n- DustUp Legs Tactical\\n- DustUp Helmet Tactical\\n- Yubarev Pistol Battery (10 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n# Min. Reputation: Auftragnehmer Senior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n- Yubarev Pistol\\n- Yubarev \"Mirage\" Pistol\\n- Yubarev \"Igniter\" Pistol\\n- DustUp Arms Tactical\\n- DustUp Core Tactical\\n- DustUp Legs Tactical\\n- DustUp Helmet Tactical\\n- Yubarev Pistol Battery (10 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "location": [
@@ -9558,6 +9574,50 @@
           {
             "name": "Arial",
             "navIcon": "Moon"
+          },
+          {
+            "name": "Aberdeen",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Magda",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Ita",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Lyria",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Wala",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Calliope",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Clio",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Euterpe",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Cellin",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Daymar",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Yela",
+            "navIcon": "Moon"
           }
         ],
         "completedContractTags": {
@@ -9600,6 +9660,50 @@
         "location": [
           {
             "name": "Arial",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Aberdeen",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Magda",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Ita",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Lyria",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Wala",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Calliope",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Clio",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Euterpe",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Cellin",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Daymar",
+            "navIcon": "Moon"
+          },
+          {
+            "name": "Yela",
             "navIcon": "Moon"
           }
         ],
@@ -10051,7 +10155,7 @@
       "descriptionLocKey": "Shubin_Industrial_ShipMining_Nyx_VH_Secondary_Desc_001",
       "titleLocKey": "Shubin_Industrial_ShipMining_Nyx_VH_Secondary_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Nyx System - Gefahr 3-6/10# Min. / Max. Reputation: Auftragnehmer Veteran\\n\\n- Arclight \"Stormfall\" Pistol\\n- Arclight Pistol\\n- Venture Arms\\n- Venture Core\\n- Venture Legs\\n- Horizon Helmet\\n- Arclight Pistol Battery (30 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Nyx System - Gefahr 3-6/10# Min. Reputation: Auftragnehmer Senior\\n# Max. Reputation: Auftragnehmer Veteran\\n\\n- Arclight \"Stormfall\" Pistol\\n- Arclight Pistol\\n- Venture Arms\\n- Venture Core\\n- Venture Legs\\n- Horizon Helmet\\n- Arclight Pistol Battery (30 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Nyx System - Gefahr 3-6/10\\n\\n# Min. / Max. Reputation: Auftragnehmer Veteran\\n\\n- Arclight \"Stormfall\" Pistol\\n- Arclight Pistol\\n- Venture Arms\\n- Venture Core\\n- Venture Legs\\n- Horizon Helmet\\n- Arclight Pistol Battery (30 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Nyx System - Gefahr 3-6/10\\n\\n# Min. Reputation: Auftragnehmer Senior\\n# Max. Reputation: Auftragnehmer Veteran\\n\\n- Arclight \"Stormfall\" Pistol\\n- Arclight Pistol\\n- Venture Arms\\n- Venture Core\\n- Venture Legs\\n- Horizon Helmet\\n- Arclight Pistol Battery (30 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "crimeStat": {
@@ -10399,7 +10503,7 @@
       "descriptionLocKey": "Foxwell_ShipAmbush_VE_desc_001",
       "titleLocKey": "Foxwell_ShipAmbush_VE_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10# Min. Reputation: Neutral\\n# Max. Reputation: Auftragnehmer\\n\\n- Parallax \"Sunstone\" Energy Assault Rifle\\n- Antium Arms Jet\\n- Antium Core Jet\\n- Antium Legs Jet\\n- Antium Helmet Jet\\n- Parallax Rifle Battery (80 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Stanton 1 (Hurston) - Gefahr 4/10\\n# Region: Stanton 2 (Crusader) - Gefahr 4/10\\n# Region: Stanton 3 (ArcCorp) - Gefahr 6/10\\n# Region: Stanton 4 (microTech) - Gefahr 5/10# Min. Reputation: Neutral\\n# Max. Reputation: -\\n\\n- Parallax \"Sunstone\" Energy Assault Rifle\\n- Antium Arms Jet\\n- Antium Core Jet\\n- Antium Legs Jet\\n- Antium Helmet Jet\\n- Parallax Rifle Battery (80 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n# Min. Reputation: Neutral\\n# Max. Reputation: Auftragnehmer\\n\\n- Parallax \"Sunstone\" Energy Assault Rifle\\n- Antium Arms Jet\\n- Antium Core Jet\\n- Antium Legs Jet\\n- Antium Helmet Jet\\n- Parallax Rifle Battery (80 Schuss)\\n\\n---------------------------------------------------------\\n\\n\\n# Region: Stanton 1 (Hurston) - Gefahr 4/10\\n# Region: Stanton 2 (Crusader) - Gefahr 4/10\\n# Region: Stanton 3 (ArcCorp) - Gefahr 6/10\\n# Region: Stanton 4 (microTech) - Gefahr 5/10\\n\\n# Min. Reputation: Neutral\\n# Max. Reputation: -\\n\\n- Parallax \"Sunstone\" Energy Assault Rifle\\n- Antium Arms Jet\\n- Antium Core Jet\\n- Antium Legs Jet\\n- Antium Helmet Jet\\n- Parallax Rifle Battery (80 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "completedContractTags": {
@@ -11170,7 +11274,7 @@
       "descriptionLocKey": "Foxwell_SecurityPatrol_VE_Desc_001",
       "titleLocKey": "Foxwell_SecurityPatrol_VE_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10# Min. Reputation: Neutral\\n# Max. Reputation: Auftragnehmer Senior\\n\\n- Parallax \"Sanguine\" Energy Assault Rifle\\n- Antium Arms Sand\\n- Antium Core Sand\\n- Antium Legs Sand\\n- Antium Helmet Sand\\n- Parallax Rifle Battery (80 Schuss)\\n\\n---------------------------------------------------------\\n\\n# Min. Reputation: Neutral\\n# Max. Reputation: Auftragnehmer\\n\\n- Parallax \"Sanguine\" Energy Assault Rifle\\n- Antium Arms Sand\\n- Antium Core Sand\\n- Antium Legs Sand\\n- Antium Helmet Sand\\n- Parallax Rifle Battery (80 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n# Min. Reputation: Neutral\\n# Max. Reputation: Auftragnehmer Senior\\n\\n- Parallax \"Sanguine\" Energy Assault Rifle\\n- Antium Arms Sand\\n- Antium Core Sand\\n- Antium Legs Sand\\n- Antium Helmet Sand\\n- Parallax Rifle Battery (80 Schuss)\\n\\n---------------------------------------------------------\\n\\n# Min. Reputation: Neutral\\n# Max. Reputation: Auftragnehmer\\n\\n- Parallax \"Sanguine\" Energy Assault Rifle\\n- Antium Arms Sand\\n- Antium Core Sand\\n- Antium Legs Sand\\n- Antium Helmet Sand\\n- Parallax Rifle Battery (80 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
       "prerequisites": {
         "crimeStat": {
