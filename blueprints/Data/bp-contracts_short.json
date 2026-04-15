@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generiert": "2026-04-15 10:11:06",
-    "eintraege": 218,
+    "generiert": "2026-04-15 13:57:47",
+    "eintraege": 219,
     "version": "Beta 15.04.2026",
     "github": "/rjcncpt"
   },
@@ -2694,6 +2694,55 @@
             "P8-SC SMG Magazine (45 Schuss)",
             "C54 SMG Magazine (50 Schuss)",
             "S71 Rifle Magazine (30 Schuss)"
+          ]
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "Hockrow_FacilityDelve_P3M1_desc",
+      "titleLocKey": "Hockrow_FacilityDelve_P3M1_title",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n# Min. Reputation: -\\n# Max. Reputation: -\\n\\n# Region: Stanton 1 (Hurston) - Gefahr 4/10\\n# Region: Stanton 2 (Crusader) - Gefahr 4/10\\n# Region: Stanton 3 (ArcCorp) - Gefahr 6/10\\n# Region: Stanton 4 (microTech) - Gefahr 5/10\\n\\n- Zenith \"Darkwave\" Laser Sniper Rifle\\n- Fresnel \"Molten\" Energy LMG\\n- Geist Armor Arms ASD Edition\\n- Geist Armor Core ASD Edition\\n- Geist Armor Legs ASD Edition\\n- Geist Armor Helmet ASD Edition\\n- Zenith Laser Sniper Rifle Battery (22 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
+      "prerequisites": {
+        "locality": [
+          {
+            "name": "Stanton1"
+          },
+          {
+            "name": "Stanton2"
+          },
+          {
+            "name": "Stanton3"
+          },
+          {
+            "name": "Stanton4"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "a127e80a-4b3d-4ceb-87d2-d575b1cdf7b3",
+            "b6608043-961f-4357-86a1-77333f23ffe1",
+            "169b2216-5dd3-4c9e-b91f-b8daf02e6102",
+            "84874242-cc7e-4b55-a25f-561fee0ff5ff",
+            "56c5d5e4-ddc8-42a5-9aa7-ae7aeb5f9bda",
+            "56ceb2f4-ca5e-40e2-a558-af48f8880c5f",
+            "cde66420-fede-421b-ba50-478ccd0693fc"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "- / -",
+          "reward_items": [
+            "Zenith \"Darkwave\" Laser Sniper Rifle",
+            "Fresnel \"Molten\" Energy LMG",
+            "Geist Armor Arms ASD Edition",
+            "Geist Armor Core ASD Edition",
+            "Geist Armor Legs ASD Edition",
+            "Geist Armor Helmet ASD Edition",
+            "Zenith Laser Sniper Rifle Battery (22 Schuss)"
           ]
         }
       ]

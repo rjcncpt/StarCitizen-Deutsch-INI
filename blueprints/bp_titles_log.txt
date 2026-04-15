@@ -1,5 +1,5 @@
 === Blueprint Contract Titles (aus lokaler global.ini) ===
-Generiert: 2026-04-15 10:11:06
+Generiert: 2026-04-15 13:57:47
 Quelle:    /Data/live/global.ini
 GitHub:    /rjcncpt
 ==========================================================
@@ -68,6 +68,7 @@ Hockrow_FacilityDelve_P2M1_Repeat_title=Jorrit Dossier: Updated Energy Anomaly D
 Hockrow_FacilityDelve_P2M2_Repeat_title=Jorrit Dossier: Updated Security Data
 Hockrow_FacilityDelve_P2M3_Repeat_title=Jorrit Dossier: Updated Seismic Data
 Hockrow_FacilityDelve_P2M4_Repeat_title=Jorrit Dossier: Updated Power Usage Data
+Hockrow_FacilityDelve_P3M1_title=Jorrit Dossier: Project Hyperion
 InterSec_KillShip_Vanduul_Title_Super_001=Eliminate Vanduul Ship
 InterSec_ResourceGathering_Cryopods_Title=Recover Vanduul Corpses
 InterSec_ResourceGathering_Tech_Title=Recover Vanduul Tech
