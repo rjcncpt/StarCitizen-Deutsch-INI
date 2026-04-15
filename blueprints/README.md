@@ -49,6 +49,10 @@ Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 - Klicke auf den **"Baupläne injizieren"**-Button – fertig
 
 #### Überprüfe nach jedem neuen Star Citizen Patch, ob neue Baupläne verfügbar sind. Falls ja, wird dies durch einen orangenen Indikator-Punkt am Modul-Icon angezeigt.
+### Indikator-Punkt
+- Grüner Punkt: Baupläne sind aktuell
+- Orangener Punkt: Baupläne haben ein Update
+- Kein Punkt: Baupläne nicht installiert
 
 <br><br><br>
 
