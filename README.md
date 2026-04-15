@@ -16,7 +16,8 @@ Quelle: [https://robertsspaceindustries.com/spectrum/.../star-citizen-community-
 
 ### Inhaltsverzeichnis
 
-- **[Anleitung zur Installation](#anleitung-zur-installation)**
+- **❗ [Baupläne für Missionstexte](#baupläne-für-missionstexte)**
+- **❗ [Anleitung zur Installation der Übersetzung](#anleitung-zur-installation)**
 - **[Wir interpretieren Missionstexte neu](#wir-interpretieren-missionstexte-neu)**
 - **[Wie aktuell ist die deutsche Übersetzung?](#wie-aktuell-ist-die-deutsche-übersetzung)**
 - **[Tech-Preview Channels und Evocati Builds](#tech-preview-channels-und-evocati-builds)**
@@ -40,6 +41,25 @@ Hier werden die Missionstitel ebenfalls übersetzt und in den Item-Beschreibunge
 
 ### Das Team freut sich über ein Dankeschön
 Wir erhalten hin und wieder Nachrichten, wie man das Team unterstützen kann, die maßgeblich an der Übersetzung beteiligt sind. Möchtest du dich in irgendeiner Form Dankbar zeigen, kannst du das Team **[über die Kofi-Spenden-Webseite](https://ko-fi.com/scdeutsch)** per Paypal oder Stripe unterstützen.
+<br/><br/>
+
+------------------------------------
+
+<br/>
+
+## Baupläne für Missionstexte
+
+<img width="1159" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/mission_details_01.png?1" />
+
+#### Mit dem SCD Launcher kannst du Baupläne direkt im Missionstext einfügen. Folge dazu der **[Anleitung zur integration der Baupläne in Missionstexte](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/edit/main/blueprints/README.md)** über den SCDL.
+
+### In wenigen Schritten zu Bauplänen in Missionstexten:
+- Update (inGame) oder lade unseren **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** und installiere ihn.
+- Öffne den SC Deutsch Launcher und aktualisiere die Übersetzung
+- Gehe in die Einstellungen, scrolle etwas nach unten unterhalb der SC-Pfade und aktiviere das Baupläne-Modul
+- Auf der Hauptseite erscheint ein neues Icon <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" /> in der Titelleiste
+- Klicke darauf, um das Modul "Injections für global.ini" zu öffnen
+- Klicke auf den **"Baupläne injizieren"**-Button – fertig
 <br/><br/>
 
 ------------------------------------
