@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "generiert": "2026-04-15 10:11:06",
+    "eintraege": 218,
+    "version": "Nur ein test",
+    "github": "/rjcncpt"
+  },
+  "entries": [
+    {
+      "descriptionLocKey": "headhunters_eliminateall_cfp_M_desc_001",
+      "titleLocKey": "headhunters_eliminateall_cfp_M_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n\\n---------------------------------------------------------\\n\\n<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>\\n\\n# Min. Reputation: Auftragnehmer Junior\\n# Max. Reputation: Auftragnehmer Elite\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n- Atzkav Sniper Rifle\\n- Atzkav \"Igniter\" Sniper Rifle\\n- Atzkav \"Mirage\" Sniper Rifle\\n- Calico Arms Tactical\\n- Calico Core Tactical\\n- Calico Legs Tactical\\n- Calico Helmet Tactical\\n- Atzkav Sniper Rifle Battery (8 Schuss)\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>Baupläne enthalten</EM4> (Beta 15.04.2026)\\n\\n",
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Pyro",
+            "navIcon": "Star"
+          }
+        ],
+        "locality": [
+          {
+            "name": "RegionB"
+          }
+        ]
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior / Auftragnehmer Elite",
+          "reward_items": [
+            "Atzkav Sniper Rifle",
+            "Atzkav \"Igniter\" Sniper Rifle",
+            "Atzkav \"Mirage\" Sniper Rifle",
+            "Calico Arms Tactical",
+            "Calico Core Tactical",
+            "Calico Legs Tactical",
+            "Calico Helmet Tactical",
+            "Atzkav Sniper Rifle Battery (8 Schuss)"
+          ]
+        }
+      ]
+    }
+  ]
+}
