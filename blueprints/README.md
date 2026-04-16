@@ -10,6 +10,7 @@ Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung,
 - **[Wie funktionieren die Baupläne?](#wie-funktionieren-die-baupläne)**
 - **[Installation der Baupläne](#installation)**
 - **[Features](#features)**
+- **[Was machen wir anders?](#was-machen-wir-anders)**
 
 ---
 
@@ -21,16 +22,23 @@ Unsere Integration liest diese Daten direkt aus der **([scmdb.net](https://scmdb
 Das Ergebnis sieht im Spiel z. B. so aus:
 
 ```
-─────────────────────────────────────────────────────
-MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP
+---------------------------------------------------------
 
-# Min. Reputation: Vertraut
-# Max. Reputation: Berühmt
+<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>
 
-# Region: Stanton 1
+# Min. Reputation: Auftragnehmer Junior
+# Max. Reputation: Auftragnehmer Elite
 
-- S1 FixedGun Laser Repeater (10 Schuss)
-- S2 FixedGun Laser Cannon (5 Schuss)
+# Region: Pyro, Region B (Bloom) - Gefahr 4/10
+
+- Atzkav Sniper Rifle
+- Atzkav "Igniter" Sniper Rifle
+- Atzkav "Mirage" Sniper Rifle
+- Calico Arms Tactical
+- Calico Core Tactical
+- Calico Legs Tactical
+- Calico Helmet Tactical
+- Atzkav Sniper Rifle Battery (8 Schuss)
 
 Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 ```
@@ -64,22 +72,123 @@ Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 ### Baupläne direkt in der Missionsbeschreibung
 <img width="1159" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/mission_details_01.png?1" />
 Missionen mit Bauplänen werden in der Missionsliste direkt mit einem blauen [BP] markiert. Öffnest du eine solche Mission, findest du gleich zu Beginn der Beschreibung einen Hinweis darauf. Scrollst du weiter nach unten, werden dir die möglichen Baupläne für diesen Auftragstyp angezeigt.
+<br><br>
 
 ### Hinweistext bei unvorhersehbaren Missionen
 <img width="1159" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/mission_details_02.png?1" />
 Manche Missionstypen werden vom Spiel dynamisch generiert. Die Bauplan-Vergabe ist dabei nicht eindeutig vorhersagbar. Statt falscher Sicherheit bekommst du einen klaren Hinweis in blau, dass die Ergebnisse variieren können. Diese Missionstypen geben je nach Reputation, Region und interner Spiellogik verschiedene Blueprint-Pools die nicht genau vorhersagbar sind.
+<br><br>
 
 ### Reputationsanforderungen auf einen Blick
 Manche Baupläne sind nur bei einer bestimmten Reputationsstufe verfügbar. Die Beschreibung zeigt dir die minimale und maximale Reputation, die du für den jeweiligen Bauplan benötigst. So weißt du sofort, ob sich die Mission für deinen aktuellen Fortschritt lohnt.
+<br><br>
 
 ### Regionsgebundene Missionen klar gekennzeichnet
 Wenn eine Mission nur in einer bestimmten Region des Spiels verfügbar ist, wird dir genau das angezeigt. Du siehst auf Anhieb, in welchem Gebiet du die Mission finden kannst.
+<br><br>
 
 ### Manuelle Korrekturen (CIG-Bug-Patches)
-Bekannte Fehler in den Spielrohdaten (falsche `descriptionKey`- oder `titleKey`-Zuweisungen) wurden automatisch durch ein internes Override-System korrigiert
+Bekannte Fehler in den Spielrohdaten (falsche `descriptionKey`- oder `titleKey`-Zuweisungen) wurden automatisch durch ein internes Override-System korrigiert.
+<br><br>
 
 ### Immer aktuell
 Die Daten werden bei jedem Update direkt aus der aktuellen Spielversion gezogen. Sobald CIG neue Missionen oder Baupläne hinzufügt, wird die Integration entsprechend aktualisiert.
+
+<br><br><br>
+
+## Was machen wir anders?
+Die englische Community war Vorreiter bei der Integration von Bauplänen in Missionstexte. Das Problem der bisherigen Lösungen ist, dass es mehrere Baupläne für den gleichen Missionstypen gibt, diese aber je nach Region, Reputation oder interner Spiellogik ausgeliefert werden.
+
+Da alle Missionstexte in einer statischen Datei liegen, liefern wir alle verfügbaren Baupläne für den jeweiligen Missionstypen nach Reputation und-/oder Region aus. Deshalb können in einigen Missionstexten 2 oder mehr Blueprint-Pools angezeigt werden. Zwei Beispiele weiter unten.
+
+Wir als deutsches Team haben die bisherige englische Umsetzung um einige weitere Aspekte ergänzt:
+- Ein dezenter Hinweis **`Baupläne enthalten`** an erster Position in Missionstexten die Baupläne enthalten
+- Angaben der minimalen und maximalen Reputaion die für den Bauplan erforderlich ist
+- Angaben zur Region mit Gefahrenlage: **`Pyro, Region B (Bloom) - Gefahr 4/10`**
+- Unterstützung für mehrere Baupläne je Missionstyp (abhängig von Region, Reputation oder Spiellogik)
+
+
+### Beispiele unterschiedlicher Bauplan-Auflistungen
+#### Einzel-Bauplan
+```
+---------------------------------------------------------
+
+<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>
+
+# Min. Reputation: Auftragnehmer Junior
+# Max. Reputation: Auftragnehmer Elite
+
+# Region: Pyro, Region B (Bloom) - Gefahr 4/10
+
+- Atzkav Sniper Rifle
+- Atzkav "Igniter" Sniper Rifle
+- Atzkav "Mirage" Sniper Rifle
+- Calico Arms Tactical
+- Calico Core Tactical
+- Calico Legs Tactical
+- Calico Helmet Tactical
+- Atzkav Sniper Rifle Battery (8 Schuss)
+
+Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
+```
+#### Multi-Baupläne
+```
+---------------------------------------------------------
+
+<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.
+Die Vergabe der Baupläne ist nicht eindeutig vorhersagbar und
+wird je nach Region, Reputation oder interner Spiellogik ausgeben.
+
+Bitte mit Datenbanken wie star-head.de oder scmdb.net vergleichen.</EM4>
+
+
+MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP
+
+# Region: Nyx System - Gefahr 3-6/10
+
+# Min. Reputation: Auftragnehmer Junior
+
+- R97 "Kismet" Shotgun
+- R97 "Righteous" Shotgun
+- Monde Arms Delta Camo
+- Monde Legs Delta Camo
+- Monde Core Delta Camo
+- R97 Shotgun Magazine (18 Schuss)
+
+---------------------------------------------------------
+
+# Region: Nyx System - Gefahr 3-6/10
+
+# Min. Reputation: Auftragnehmer Junior
+# Max. Reputation: Auftragnehmer Elite
+
+- Custodian SMG
+- Custodian "Midnight" SMG
+- Custodian "Scorched" SMG
+- Arden-SL Arms
+- Arden-SL Core
+- Arden-SL Legs
+
+---------------------------------------------------------
+
+# Region: Stanton System - Gefahr 4-6/10
+# Region: Stanton 1 (Hurston) - Gefahr 4/10
+# Region: Stanton 2 (Crusader) - Gefahr 4/10
+# Region: Stanton 3 (ArcCorp) - Gefahr 6/10
+# Region: Stanton 4 (microTech) - Gefahr 5/10
+
+# Max. Reputation: Auftragnehmer Elite
+
+- Lumin V SMG
+- Inquisitor Core Black
+- Inquisitor Arms Black
+- Inquisitor Legs Black
+- Morningstar Helmet Icefall
+
+Dieser Service ist experimentell. Daten können Fehlerhaft sein.
+```
+Die Baupläne sind in der [bp-contracts_short.json](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/blob/main/blueprints/Data/bp-contracts_short.json) Datei gespeichert.
+
 
 <br><br><br>
 
