@@ -41,14 +41,18 @@ Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 <img width="780" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/blueprint-modul-aktivieren.png?1" />
 
 ### In wenigen Schritten zu Bauplänen in Missionstexten:
-- Update (inGame) oder lade unseren **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** und installiere ihn.
+- Update (inGame) oder lade unseren **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** herunter und installiere ihn
 - Öffne den SC Deutsch Launcher und aktualisiere die Übersetzung
-- Gehe in die Einstellungen, scrolle etwas nach unten unterhalb der SC-Pfade und aktiviere das Baupläne-Modul
-- Auf der Hauptseite erscheint ein neues Icon <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" /> in der Titelleiste
-- Klicke darauf, um das Modul "Injections für global.ini" zu öffnen
+- Klicke im Hauptfenster auf das <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" />-Icon in der Titelleiste
+- Das Modul "Injections für global.ini" öffnet sich
 - Klicke auf den **"Baupläne injizieren"**-Button – fertig
 
-#### Überprüfe nach jedem neuen Star Citizen Patch, ob neue Baupläne verfügbar sind. Falls ja, wird dies durch einen orangenen Indikator-Punkt am Modul-Icon angezeigt.
+> [!TIP]
+> Möchtest du keine Baupläne in den Missionstexten, kannst du diese in den Einstellungen deaktivieren. Rufe dazu die Einstellungen auf, scrolle etwas herunter (unterhalb der SC-Pfade) und deaktiviere das Baupläne-Modul.
+
+> [!IMPORTANT]
+> Überprüfe nach jedem neuen Star Citizen Patch, ob neue Baupläne verfügbar sind. Falls ja, wird dies durch einen orangenen Indikator-Punkt am Modul-Icon angezeigt.
+
 ### Indikator-Punkt
 - Grüner Punkt: Baupläne sind aktuell
 - Orangener Punkt: Baupläne haben ein Update
