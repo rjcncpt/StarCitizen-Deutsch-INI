@@ -97,9 +97,9 @@ Die Daten werden bei jedem Update direkt aus der aktuellen Spielversion gezogen.
 <br><br><br>
 
 ## Was machen wir anders?
-Die englische Community war Vorreiter bei der Integration von Bauplänen in Missionstexte. Das Problem der bisherigen Lösungen ist, dass es mehrere Baupläne für den gleichen Missionstypen gibt, diese aber je nach Region, Reputation oder interner Spiellogik ausgeliefert werden.
+Die englische Community war Vorreiter bei der Integration von Bauplänen in Missionstexte. Das Problem bisheriger Lösungen ist, dass wenn es mehrere Baupläne für den gleichen Missionstypen gibt, diese nicht dargestellt wurden. Baupläne werden je nach Region, Reputation und interner Spiellogik ausgeliefert.
 
-Da alle Missionstexte in einer statischen Datei liegen, liefern wir alle verfügbaren Baupläne für den jeweiligen Missionstypen nach Reputation und-/oder Region aus. Deshalb können in einigen Missionstexten 2 oder mehr Blueprint-Pools angezeigt werden. Zwei Beispiele weiter unten.
+Da alle Missionstexte in einer statischen Datei liegen, stellen wir alle verfügbaren Baupläne für den jeweiligen Missionstyp – abhängig von Reputation und/oder Region – gesammelt dar. Dadurch kann es vorkommen, dass in einzelnen Missionstexten zwei oder mehr Blueprint-Pools angezeigt werden. Zwei Beispiele dazu folgen weiter unten.
 
 Wir als deutsches Team haben die bisherige englische Umsetzung um einige weitere Aspekte ergänzt:
 - Ein dezenter Hinweis **`Baupläne enthalten`** an erster Position in Missionstexten die Baupläne enthalten
