@@ -48,7 +48,7 @@ Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 - Klicke auf den **"Baupläne injizieren"**-Button – fertig
 
 > [!TIP]
-> Möchtest du keine Baupläne in den Missionstexten, kannst du diese in den Einstellungen deaktivieren. Rufe dazu die Einstellungen auf, scrolle etwas herunter (unterhalb der SC-Pfade) und deaktiviere das Baupläne-Modul.
+> > Möchtest du das Baupläne-Modul deaktivieren, kannst du dieses in den Einstellungen erledigen. Rufe dazu die Einstellungen auf, scrolle etwas herunter (unterhalb der SC-Pfade) und deaktiviere das Baupläne-Modul. Das Icon verschwindet in der Titelleiste.
 
 > [!IMPORTANT]
 > Überprüfe nach jedem neuen Star Citizen Patch, ob neue Baupläne verfügbar sind. Falls ja, wird dies durch einen orangenen Indikator-Punkt am Modul-Icon angezeigt.
