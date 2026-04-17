@@ -17,7 +17,7 @@ Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung,
 ## Wie funktionieren die Baupläne?
 Star Citizen vergibt bei bestimmten Missionen Baupläne (Blueprints) als Belohnung. Welche Baupläne vergeben werden, hängt von der Missionsbeschreibung, dem sogenannten **Blueprint Pool**, sowie von Reputationsstufe und Region ab. Diese Informationen sind in den Spieldaten vorhanden, werden dem Spieler aber standardmäßig nicht angezeigt.
 
-Unsere Integration liest diese Daten direkt aus der **([scmdb.net](https://scmdb.net))**-Spieldatenbank aus und fügt sie als lesbaren Text in die Missionsbeschreibung ein. So sieht man bereits vor Annahme einer Mission, welche Baupläne möglich sind.
+Unsere Integration liest diese Daten direkt aus der **([scmdb.net](https://scmdb.net))**-Datenbank aus und fügt sie als lesbaren Text in die Missionsbeschreibung ein. So sieht man bereits vor Annahme einer Mission, welche Baupläne möglich sind.
 
 Das Ergebnis sieht im Spiel z. B. so aus:
 
@@ -93,6 +93,8 @@ Bekannte Fehler in den Spielrohdaten (falsche `descriptionKey`- oder `titleKey`-
 
 ### Immer aktuell
 Die Daten werden bei jedem Update direkt aus der aktuellen Spielversion gezogen. Sobald CIG neue Missionen oder Baupläne hinzufügt, wird die Integration entsprechend aktualisiert.
+
+Die Bauplandaten werden zur Zeit aus der **([scmdb.net](https://scmdb.net))**-Datenbank extrahiert. Vielen Dank für deine hervorragende Arbeit!
 
 <br><br><br>
 
