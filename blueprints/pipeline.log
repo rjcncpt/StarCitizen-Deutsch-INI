@@ -1,39 +1,34 @@
-[2026-04-16 12:02:58] ========================================================
-[2026-04-16 12:02:58] Star Citizen Data Pipeline – Lauf gestartet
-[2026-04-16 12:02:58] Log-Datei : F:\...\pipeline.log
-[2026-04-16 12:02:58] Script    : F:\...\sc_data_pipeline.py
-[2026-04-16 12:02:58] ========================================================
-[2026-04-16 12:02:58] 
-[2026-04-16 12:02:58] [STEP] Kopiere global.ini Dateien...
-[2026-04-16 12:02:58] [OK]   global.ini  →  F:\...\Data\live\global.ini
-[2026-04-16 12:02:58] [OK]   global.ini  →  F:\...\Data\live\full\global.ini
-[2026-04-16 12:02:58] 
-[2026-04-16 12:02:58] [STEP] Lade Spielversion von scmdb.net...
-[2026-04-16 12:02:59] [OK]   Aktuelle Version: 4.7.1-live.11638371
-[2026-04-16 12:02:59] [OK]   Gespeichert: F:\...\Data\version.json
-[2026-04-16 12:02:59] 
-[2026-04-16 12:02:59] [STEP] Extrahiere Daten von scmdb.net...
-[2026-04-16 12:02:59] [OK]   Gespeichert: 4.7.1-live.11638371.json
-[2026-04-16 12:02:59] 
-[2026-04-16 12:02:59] [STEP] Lade crafting_blueprints JSON herunter...
-[2026-04-16 12:02:59] [OK]   Gespeichert: crafting_blueprints-4.7.1-live.11638371.json
-[2026-04-16 12:02:59] 
-[2026-04-16 12:02:59] [STEP] Erstelle BP-Titel Log aus lokaler global.ini...
-[2026-04-16 12:02:59] [OK]   Titel-Log erstellt: 212/213 Keys → bp_titles_log.txt
-[2026-04-16 12:02:59] 
-[2026-04-16 12:02:59] [STEP] Erstelle bp-contracts.json...
-[2026-04-16 12:02:59] [OK]   Standing-Cache unveraendert (46 Keys) - wird verwendet.
-[2026-04-16 12:02:59] [OK]   CIG-Bug-Korrekturen angewendet: 3 Contract(s) gepatcht.
-[2026-04-16 12:02:59] [OK]   219 Einträge gespeichert → F:\...\Data\bp-contracts.json
-[2026-04-16 12:02:59] [OK]     Davon Single-Pool : 191
-[2026-04-16 12:02:59] [OK]     Davon Multi-Pool  : 28
-[2026-04-16 12:02:59] 
-[2026-04-16 12:02:59] [STEP] Erstelle bp-contracts_short.json für SCDL injection...
-[2026-04-16 12:02:59] [OK]   219 Einträge gespeichert → F:\...\Data\bp-contracts_short.json
-[2026-04-16 12:02:59] 
-[2026-04-16 12:02:59] [STEP] Extrahiere Crafting Blueprint Daten...
-[2026-04-16 12:02:59] [OK]   2713 Einträge gespeichert → F:\...\Data\crafting_blueprints_extracted.json
-[2026-04-16 12:02:59] 
-[2026-04-16 12:02:59] ========================================================
-[2026-04-16 12:02:59] Alle Aufgaben erfolgreich abgeschlossen.
-[2026-04-16 12:02:59] ========================================================
+[2026-04-17 17:17:24] ========================================================
+[2026-04-17 17:17:24] Star Citizen Data Pipeline – Lauf gestartet
+[2026-04-17 17:17:24] Modus     : Nur Blueprints
+[2026-04-17 17:17:24] Log-Datei : F:\...\pipeline.log
+[2026-04-17 17:17:24] Script    : F:\...\sc_data_pipeline.py
+[2026-04-17 17:17:24] ========================================================
+[2026-04-17 17:17:24] 
+[2026-04-17 17:17:24] [STEP] Kopiere global.ini Dateien...
+[2026-04-17 17:17:24] [OK]   global.ini  →  F:\...\Data\live\global.ini
+[2026-04-17 17:17:24] [OK]   global.ini  →  F:\...\Data\live\full\global.ini
+[2026-04-17 17:17:24] 
+[2026-04-17 17:17:24] [STEP] Lade Spielversion von scmdb.net...
+[2026-04-17 17:17:24] [OK]   Aktuelle Version: 4.7.1-live.11638371
+[2026-04-17 17:17:24] [OK]   Gespeichert: F:\...\Data\version.json
+[2026-04-17 17:17:24] 
+[2026-04-17 17:17:24] [STEP] Lade merged-4.7.1-live.11638371.json von scmdb.net...
+[2026-04-17 17:17:24] [OK]   Gespeichert: merged-4.7.1-live.11638371.json
+[2026-04-17 17:17:24] 
+[2026-04-17 17:17:24] [STEP] Erstelle BP-Titel Log aus lokaler global.ini...
+[2026-04-17 17:17:24] [OK]   Titel-Log erstellt: 212/213 Keys → bp_titles_log.txt
+[2026-04-17 17:17:24] 
+[2026-04-17 17:17:24] [STEP] Erstelle bp-contracts.json...
+[2026-04-17 17:17:24] [OK]   Standing-Cache unveraendert (46 Keys) - wird verwendet.
+[2026-04-17 17:17:24] [OK]   CIG-Bug-Korrekturen angewendet: 3 Contract(s) gepatcht.
+[2026-04-17 17:17:24] [OK]   219 Einträge gespeichert → F:\...\Data\bp-contracts.json
+[2026-04-17 17:17:24] [OK]     Davon Single-Pool : 191
+[2026-04-17 17:17:24] [OK]     Davon Multi-Pool  : 28
+[2026-04-17 17:17:24] 
+[2026-04-17 17:17:24] [STEP] Erstelle bp-contracts_short.json für SCDL injection...
+[2026-04-17 17:17:24] [OK]   219 Einträge gespeichert → F:\...\Data\bp-contracts_short.json
+[2026-04-17 17:17:24] 
+[2026-04-17 17:17:24] ========================================================
+[2026-04-17 17:17:24] Alle Aufgaben erfolgreich abgeschlossen.
+[2026-04-17 17:17:24] ========================================================
