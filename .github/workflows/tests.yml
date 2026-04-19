@@ -37,6 +37,9 @@ jobs:
           - name: "Check For n Without Backslash"
             script: "n_without_backslash_test.py"
             custom-args: ""
+          - name: "Check For Emphasis Tags"
+            script: "emphasis_tag_test.py"
+            custom-args: ""
     steps:
       - name: Checkout
         uses: actions/checkout@v6
