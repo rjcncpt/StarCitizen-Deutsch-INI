@@ -10,7 +10,7 @@ def find_bad_lines(file_content: list[str]) -> list[int]:
     """
     internal_bad_lines = []
     for i, line in enumerate(file_content, start=1):
-        false_patterns = ["  .", ".  ", "  ,", ",  "]
+        false_patterns = ["  .", ".  ", "  ,", ",  ", ":  ", "  :"]
         if any(x in line for x in false_patterns):
             # Ignore CIG's special char test line
             if not line.startswith("test_special_chars"):
