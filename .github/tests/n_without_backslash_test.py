@@ -21,6 +21,8 @@ def find_bad_lines(file_content: list[str], excluded_keys: list[str]) -> list[in
             continue
 
         value = line.split("=", 1)[1] if "=" in line else line
+        # Replace valid \n with space to also catch cases where \n is used correctly before a invalid pattern
+        value = value.replace("\\n", " ")
         if invalid_pattern.search(value):
             internal_bad_lines.append(i)
 
