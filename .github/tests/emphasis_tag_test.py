@@ -75,6 +75,7 @@ if __name__ == "__main__":
                     line_number,
                     "error",
                 )
+            print(f"\nFound {len(bad_lines)} line(s) with improperly used emphasis tags.")
             if args.fail_on_error:
                 exit(1)
         else:

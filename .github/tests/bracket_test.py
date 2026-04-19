@@ -4,7 +4,7 @@ import re
 from helper import print_to_console, get_argument_parser
 
 
-def check_brackets(filename: str, excluded: list[str]) -> bool:
+def check_brackets(filename: str, excluded: list[str]) -> int:
     """
     Validate that all brackets in an INI file are properly matched and closed.
 
@@ -13,9 +13,9 @@ def check_brackets(filename: str, excluded: list[str]) -> bool:
 
     :param filename: The name of the file to check for bracket matching.
     :param excluded: A list of keys to exclude from checking.
-    :return: True if errors were found, False otherwise.
+    :return: The number of lines with bracket errors.
     """
-    has_errors = False
+    error_count = 0
     with open(filename, "r", encoding="UTF-8-SIG") as file:
         for line_number, line in enumerate(file, start=1):
             current_key = line.split("=")[0]
@@ -40,7 +40,7 @@ def check_brackets(filename: str, excluded: list[str]) -> bool:
                                 line_number,
                                 "error",
                             )
-                            has_errors = True
+                            error_count += 1
                             break
 
                 if bracket_stack:
@@ -51,8 +51,8 @@ def check_brackets(filename: str, excluded: list[str]) -> bool:
                         line_number,
                         "error",
                     )
-                    has_errors = True
-    return has_errors
+                    error_count += 1
+    return error_count
 
 
 if __name__ == "__main__":
@@ -75,11 +75,15 @@ if __name__ == "__main__":
     ]
     deu_live_file = "live/global.ini"
 
-    has_errors = False
+    error_count = 0
 
     if os.path.exists(deu_live_file):
-        if check_brackets(deu_live_file, excluded_keys):
-            has_errors = True
+        error_count = check_brackets(deu_live_file, excluded_keys)
+        if error_count > 0:
+            print(f"\nFound {error_count} line(s) with bracket issues.")
+        else:
+            print("All brackets are properly matched and closed.")
+            print("Test PASSED!")
     else:
         print_to_console(
             "Bracket Test",
@@ -89,7 +93,5 @@ if __name__ == "__main__":
             "warning",
         )
 
-    if has_errors and args.fail_on_error:
+    if error_count > 0 and args.fail_on_error:
         exit(1)
-    if not has_errors:
-        print("No bracket errors found.\nTest PASSED!")

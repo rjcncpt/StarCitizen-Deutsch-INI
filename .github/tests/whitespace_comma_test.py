@@ -40,6 +40,7 @@ if __name__ == "__main__":
                     "error",
                 )
 
+            print(f"\nFound {len(bad_lines)} line(s) with whitespace before comma.")
             if args.fail_on_error:
                 exit(1)
         else:

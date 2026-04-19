@@ -73,7 +73,7 @@ def extract_desc_info(
 
 def check_armor_desc(
     filename: str, eng_desc: dict[str, str], excluded_keys: list[str]
-) -> bool:
+) -> int:
     """
     Validate German armor descriptions against English descriptions.
 
@@ -83,9 +83,9 @@ def check_armor_desc(
     :param filename: Path to the German INI file to validate.
     :param eng_desc: Dictionary of English item descriptions to compare against.
     :param excluded_keys: A list of keys to ignore while checking.
-    :return: True if errors were found, False otherwise.
+    :return: The number of lines with missing item description information.
     """
-    has_errors = False
+    error_count = 0
     with open(filename, "r", encoding="utf-8") as file:
         lines = file.readlines()
     for line_number, line in enumerate(lines, start=1):
@@ -106,7 +106,7 @@ def check_armor_desc(
                 line_number,
                 "error",
             )
-            has_errors = True
+            error_count += 1
             continue
         for field in eng_desc[current_key]:
             if eng_desc[current_key][field] is not None:
@@ -128,8 +128,8 @@ def check_armor_desc(
                 line_number,
                 "error",
             )
-            has_errors = True
-    return has_errors
+            error_count += 1
+    return error_count
 
 
 if __name__ == "__main__":
@@ -142,14 +142,18 @@ if __name__ == "__main__":
     en_live_file = ".github/en/live/global.ini"
     deu_live_file = "live/global.ini"
 
-    has_errors = False
+    error_count = 0
 
     if os.path.exists(en_live_file):
         eng_desc = extract_desc_info(en_live_file, excluded_keys)
 
         if os.path.exists(deu_live_file):
-            if check_armor_desc(deu_live_file, eng_desc, excluded_keys):
-                has_errors = True
+            error_count = check_armor_desc(deu_live_file, eng_desc, excluded_keys)
+            if error_count > 0:
+                print(f"\nFound {error_count} line(s) with missing item description information.")
+            else:
+                print("All item descriptions are complete.")
+                print("Test PASSED!")
         else:
             print_to_console(
                 "Item Description Test",
@@ -167,8 +171,5 @@ if __name__ == "__main__":
             "warning",
         )
 
-    if has_errors and args.fail_on_error:
+    if error_count > 0 and args.fail_on_error:
         exit(1)
-
-    if not has_errors:
-        print("No errors found in item descriptions.\nTest PASSED!")
