@@ -51,7 +51,7 @@ if __name__ == "__main__":
             for index, line_number in enumerate(bad_lines):
                 print_to_console(
                     "Double Whitespace Test",
-                    f"{keys_of_bad_lines[index]}: Double whitespace detected.",
+                    f"{keys_of_bad_lines[index]}: Multiple consecutive whitespaces detected.",
                     file_path,
                     line_number,
                     "error",
@@ -59,7 +59,7 @@ if __name__ == "__main__":
             if args.fail_on_error:
                 exit(1)
         else:
-            print("There are no double whitespaces.")
+            print("There are no multiple consecutive whitespaces.")
             print("Test PASSED!")
 
     except FileNotFoundError:
