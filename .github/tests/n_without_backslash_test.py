@@ -33,7 +33,9 @@ if __name__ == "__main__":
     parser, args = get_argument_parser()
 
     file_path = "live/global.ini"
-    excluded_keys = ["item_DescFlair_Poster_nVidia"]
+    excluded_keys = [
+        "item_DescFlair_Poster_nVidia",
+    ]
 
     try:
         with open(file_path, "r", encoding="UTF-8-SIG") as file:
@@ -50,7 +52,9 @@ if __name__ == "__main__":
                     line_number,
                     "error",
                 )
-            print(f"\nFound {len(bad_lines)} line(s) with unescaped 'n' before a capital letter.")
+            print(
+                f"\nFound {len(bad_lines)} line(s) with unescaped 'n' before a capital letter."
+            )
             if args.fail_on_error:
                 exit(1)
         else:

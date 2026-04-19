@@ -56,7 +56,9 @@ if __name__ == "__main__":
                     line_number,
                     "error",
                 )
-            print(f"\nFound {len(bad_lines)} line(s) with multiple consecutive whitespaces.")
+            print(
+                f"\nFound {len(bad_lines)} line(s) with multiple consecutive whitespaces."
+            )
             if args.fail_on_error:
                 exit(1)
         else:
