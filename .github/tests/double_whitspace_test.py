@@ -38,6 +38,8 @@ if __name__ == "__main__":
         "ui_hacking_terminal_command_move_desc",
         "ui_hacking_terminal_command_move_invalid_arg_",
         "ui_hacking_terminal_command_swap_desc",
+        "journal_shopAlerts_itemAboveThreshold",
+        "journal_shopAlerts_itemBelowThreshold",
     ]
 
     file_path = "live/global.ini"
