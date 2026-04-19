@@ -20,7 +20,9 @@ Wenn möglich, füge Screenshots ein, damit wir den Fehler direkt sehen und eino
 
 ### Version
 - Channel: [z.B. LIVE, PTU, EPTU, HOTFIX, TECH-PREVIEW]
-- Version: [z.B. 3.21.1]
+- Patch: [z.B. 4.7.1]
+- Version: [z.B. Hybrid, Deutsch+, Baupläne]
+- Aktualisierungsart: [z.B. SC Deutsch Launcher, (eigenes) Skript, SC Launch Configurator]
 
 ### Zusätzlicher Kontext
 Jegliche weitere Informationen, die uns helfen können, den Kontext zu verstehen.
