@@ -150,7 +150,9 @@ if __name__ == "__main__":
         if os.path.exists(deu_live_file):
             error_count = check_armor_desc(deu_live_file, eng_desc, excluded_keys)
             if error_count > 0:
-                print(f"\nFound {error_count} line(s) with missing item description information.")
+                print(
+                    f"\nFound {error_count} line(s) with missing item description information."
+                )
             else:
                 print("All item descriptions are complete.")
                 print("Test PASSED!")
