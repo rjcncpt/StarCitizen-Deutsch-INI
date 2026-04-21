@@ -1,4 +1,7 @@
-def find_bad_lines(file_content):
+from helper import print_to_console, extract_keys_from_lines, get_argument_parser
+
+
+def find_bad_lines(file_content: list[str]) -> list[int]:
     """
     Find lines in the given file that have a comma with a space before it.
 
@@ -17,6 +20,8 @@ def find_bad_lines(file_content):
 
 
 if __name__ == "__main__":
+    parser, args = get_argument_parser()
+
     file_path = "live/global.ini"
 
     try:
@@ -24,15 +29,37 @@ if __name__ == "__main__":
             content = file.readlines()
         bad_lines = find_bad_lines(content)
         if bad_lines:
-            print("Following lines need to be checked:")
-            print(bad_lines)
-            print("Test FAILED!")
-            exit(1)
+            keys = extract_keys_from_lines(content, bad_lines)
+
+            for index, line_number in enumerate(bad_lines):
+                print_to_console(
+                    "Whitespace Comma Test",
+                    f"{keys[index]}: Whitespace before comma detected.",
+                    file_path,
+                    line_number,
+                    "error",
+                )
+
+            print(f"\nFound {len(bad_lines)} line(s) with whitespace before comma.")
+            if args.fail_on_error:
+                exit(1)
         else:
             print("There are no whitespaces before a comma.")
             print("Test PASSED!")
 
     except FileNotFoundError:
-        print(f"File \"{file_path}\" was not found.")
+        print_to_console(
+            "File not found",
+            f'File "{file_path}" was not found.',
+            file_path,
+            0,
+            "error",
+        )
+        if args.fail_on_error:
+            exit(1)
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print_to_console(
+            "An error occurred", f"An error occurred: {e}", file_path, 0, "error"
+        )
+        if args.fail_on_error:
+            exit(1)

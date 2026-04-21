@@ -1,17 +1,36 @@
 import os
 import re
 
-from helper import print_to_console
+from helper import print_to_console, get_argument_parser
 
 
 def is_item_desc(current_key: str, value: str) -> bool:
+    """
+    Check if the given key represents an item description entry.
+
+    :param current_key: The key to check.
+    :param value: The value associated with the key.
+    :return: True if the key contains "item_Desc_", False otherwise.
+    """
     if "item_Desc_".lower() in current_key.lower():
         return True
     else:
         return False
 
 
-def extract_desc_info(filename: str, excluded_keys: list) -> dict[str, dict[str, str]]:
+def extract_desc_info(
+    filename: str, excluded_keys: list[str]
+) -> dict[str, dict[str, str]]:
+    """
+    Extract item description information from an INI file.
+
+    Parses the file and extracts armor/item description data including type, damage reduction,
+    temperature rating, radiation protection, and decontamination rate.
+
+    :param filename: Path to the INI file to parse.
+    :param excluded_keys: A list of keys to ignore while extracting.
+    :return: A dictionary mapping item keys to their extracted description information.
+    """
     return_dict = {}
 
     with open(filename, "r", encoding="utf-8") as file:
@@ -52,10 +71,21 @@ def extract_desc_info(filename: str, excluded_keys: list) -> dict[str, dict[str,
     return return_dict
 
 
-def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: list):
+def check_armor_desc(
+    filename: str, eng_desc: dict[str, str], excluded_keys: list[str]
+) -> int:
     """
-    Check the armor description file for specific keys and validate their content.
+    Validate German armor descriptions against English descriptions.
+
+    Checks that all required fields from the English description are present
+    in the German description.
+
+    :param filename: Path to the German INI file to validate.
+    :param eng_desc: Dictionary of English item descriptions to compare against.
+    :param excluded_keys: A list of keys to ignore while checking.
+    :return: The number of lines with missing item description information.
     """
+    error_count = 0
     with open(filename, "r", encoding="utf-8") as file:
         lines = file.readlines()
     for line_number, line in enumerate(lines, start=1):
@@ -76,6 +106,7 @@ def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: lis
                 line_number,
                 "error",
             )
+            error_count += 1
             continue
         for field in eng_desc[current_key]:
             if eng_desc[current_key][field] is not None:
@@ -92,14 +123,18 @@ def check_armor_desc(filename: str, eng_desc: dict[str, str], excluded_keys: lis
             }
             print_to_console(
                 "Item Description Test",
-                f"{filename}:{line_number} / {current_key}: Missing information: {missing_fields}. Expected: {expected_fields}",
+                f"{current_key}: Missing information: {missing_fields}. Expected: {expected_fields}",
                 filename,
                 line_number,
                 "error",
             )
+            error_count += 1
+    return error_count
 
 
 if __name__ == "__main__":
+    parser, args = get_argument_parser()
+
     excluded_keys = [
         "item_Desc_cds_medium_armor_01_Shared",  # Forgotten ° character
         "item_Desc_cds_medium_armor_01_core",  # Forgotten ° character
@@ -107,13 +142,20 @@ if __name__ == "__main__":
     en_live_file = ".github/en/live/global.ini"
     deu_live_file = "live/global.ini"
 
+    error_count = 0
+
     if os.path.exists(en_live_file):
-        print(f"Extracting English descriptions from {en_live_file}...")
         eng_desc = extract_desc_info(en_live_file, excluded_keys)
 
         if os.path.exists(deu_live_file):
-            print(f"Checking {deu_live_file}...")
-            check_armor_desc(deu_live_file, eng_desc, excluded_keys)
+            error_count = check_armor_desc(deu_live_file, eng_desc, excluded_keys)
+            if error_count > 0:
+                print(
+                    f"\nFound {error_count} line(s) with missing item description information."
+                )
+            else:
+                print("All item descriptions are complete.")
+                print("Test PASSED!")
         else:
             print_to_console(
                 "Item Description Test",
@@ -130,3 +172,6 @@ if __name__ == "__main__":
             0,
             "warning",
         )
+
+    if error_count > 0 and args.fail_on_error:
+        exit(1)

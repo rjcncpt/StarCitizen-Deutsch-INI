@@ -1,69 +1,85 @@
-def find_bad_lines(file_content):
+from helper import print_to_console, extract_keys_from_lines, get_argument_parser
+
+
+def find_bad_lines(file_content: list[str], ignored_lines: list[str]) -> list[int]:
     """
-    Find lines in the given file that have double whitespaces around commas or full stops.
+    Find lines in the given file that have double whitespaces (except indentation after
+    \n which represents indentation of embedded newlines).
 
     :param file_content: A list of strings representing the contents of a file.
-    :return: A list of line numbers that contain double whitespaces around commas or full stops.
+    :param ignored_lines: A list of keys to ignore when checking.
+    :return: A list of line numbers that contain bad whitespaces.
     """
     internal_bad_lines = []
     for i, line in enumerate(file_content, start=1):
-        false_patterns = ["  .", ".  ", "  ,", ",  "]
-        if any(x in line for x in false_patterns):
-            # Ignore CIG's special char test line
-            if not line.startswith("test_special_chars"):
+        # Extract key and check if it should be ignored
+        current_key = line.split("=")[0]
+        if current_key in ignored_lines:
+            continue
+
+        # Check for any multiple consecutive spaces within text
+        # Split by \n to check each logical line separately
+        # Allow spaces after \n (indentation of newlines)
+        for part in line.split("\\n"):
+            stripped_part = part.lstrip()
+            if "  " in stripped_part:
                 internal_bad_lines.append(i)
+                break
 
     return internal_bad_lines
 
 
-def extract_keys_from_lines(file_content, line_numbers):
-    """
-    Extract keys from specific lines in the file content.
-
-    This function scans specified lines in the provided file content to identify and extract keys.
-    A key is considered to be the part before the '=' character in a line.
-
-    :param file_content: A list of strings, where each string represents a line from the file.
-    :param line_numbers: A list of integers, where each integer is a line number from which to extract a key.
-                         Line numbers are 1-based, meaning the first line is line number 1.
-    :return: A list of strings representing the keys extracted from the specified lines.
-             If a line does not have an '=', no key is extracted from that line.
-    """
-    keys = []
-    # Iterate through the given line numbers
-    for line_number in line_numbers:
-        line_number = line_number - 1
-        # Ensure the line number is within range
-        if 0 <= line_number < len(file_content) - 1:
-            line = file_content[line_number].strip()
-            if "=" in line:
-                # Extract the key from the line
-                key, _ = line.split("=", 1)
-                keys.append(key.strip())
-
-    return keys
-
-
 if __name__ == "__main__":
+    parser, args = get_argument_parser()
+
+    ignored_lines = [
+        "test_special_chars",
+        "cockpit_screen_loading",
+        "ui_hacking_terminal_command_move_desc",
+        "ui_hacking_terminal_command_move_invalid_arg_",
+        "ui_hacking_terminal_command_swap_desc",
+        "journal_shopAlerts_itemAboveThreshold",
+        "journal_shopAlerts_itemBelowThreshold",
+    ]
+
     file_path = "live/global.ini"
 
     try:
         with open(file_path, "r", encoding="UTF-8-SIG") as file:
             content = file.readlines()
-        bad_lines = find_bad_lines(content)
+        bad_lines = find_bad_lines(content, ignored_lines)
         if bad_lines:
-            print("Following lines need to be checked:")
             keys_of_bad_lines = extract_keys_from_lines(content, bad_lines)
-            print(bad_lines)
-            for string in keys_of_bad_lines:
-                print(string)
-            print("Test FAILED!")
-            exit(1)
+            for index, line_number in enumerate(bad_lines):
+                print_to_console(
+                    "Double Whitespace Test",
+                    f"{keys_of_bad_lines[index]}: Multiple consecutive whitespaces detected.",
+                    file_path,
+                    line_number,
+                    "error",
+                )
+            print(
+                f"\nFound {len(bad_lines)} line(s) with multiple consecutive whitespaces."
+            )
+            if args.fail_on_error:
+                exit(1)
         else:
-            print("There are no double whitespaces.")
+            print("There are no multiple consecutive whitespaces.")
             print("Test PASSED!")
 
     except FileNotFoundError:
-        print(f'File "{file_path}" was not found.')
+        print_to_console(
+            "Double Whitespace Test",
+            f'File "{file_path}" was not found.',
+            file_path,
+            0,
+            "error",
+        )
+        if args.fail_on_error:
+            exit(1)
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print_to_console(
+            "Double Whitespace Test", f"An error occurred: {e}", file_path, 0, "error"
+        )
+        if args.fail_on_error:
+            exit(1)

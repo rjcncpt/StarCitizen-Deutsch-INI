@@ -8,24 +8,38 @@ on:
     branches:
       - "main"
 jobs:
-  No_Missing_Keys:
-    name: Check For Missing Keys
+  test:
+    name: ${{ matrix.test.name }}
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-
-      - name: Execute Test
-        run: python ./.github/tests/key_test.py
-
-  Matching_Encoding:
-    name: Ensure Matching Encodings
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        test:
+          - name: "Ensure matching encodings"
+            script: "encoding_test.py"
+            deps: "chardet"
+            custom-args: ""
+          - name: "Check for missing keys"
+            script: "key_test.py"
+            custom-args: ""
+          - name: "Check for whitespaces before commas"
+            script: "whitespace_comma_test.py"
+            custom-args: ""
+          - name: "Check for double whitespace"
+            script: "double_whitspace_test.py"
+            custom-args: ""
+          - name: "Check for unclosed brackets"
+            script: "bracket_test.py"
+            custom-args: ""
+          - name: "Check for wrong and missing descriptions"
+            script: "item_desc_test.py"
+            custom-args: ""
+          - name: "Check for 'n' without backslash"
+            script: "n_without_backslash_test.py"
+            custom-args: ""
+          - name: "Check for unclosed emphasis tags"
+            script: "emphasis_tag_test.py"
+            custom-args: ""
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -36,69 +50,10 @@ jobs:
           python-version: "3.13"
 
       - name: Install Dependencies
+        if: matrix.test.deps
         run: |
           python -m pip install --upgrade pip
-          pip install chardet
+          pip install ${{ matrix.test.deps }}
 
       - name: Execute Test
-        run: python ./.github/tests/encoding_test.py
-
-  Whitespace_Comma:
-    name: Check For Whitespaces Before Comma
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-
-      - name: Execute Test
-        run: python ./.github/tests/whitespace_comma_test.py
-
-  Whitespace_Double:
-    name: Check For Double Whitespaces
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-
-      - name: Execute Test
-        run: python ./.github/tests/double_whitspace_test.py
-
-  Brackets:
-    name: Check For Not Closed Brackets
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-
-      - name: Execute Test
-        run: python ./.github/tests/bracket_test.py --github
-
-  Descriptions:
-    name: Check For wrong and missing descriptions
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-
-      - name: Execute Test
-        run: python ./.github/tests/item_desc_test.py --github
+        run: python ./.github/tests/${{ matrix.test.script }} --github ${{ (github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch') && '--fail-on-error' || '' }} ${{ matrix.test.custom-args }}

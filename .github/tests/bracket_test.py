@@ -1,23 +1,21 @@
 import os
 import re
 
-from helper import print_to_console
+from helper import print_to_console, get_argument_parser
 
 
-def check_brackets(filename, excluded):
+def check_brackets(filename: str, excluded: list[str]) -> int:
     """
+    Validate that all brackets in an INI file are properly matched and closed.
+
+    Reads the file and checks for matching brackets, skipping lines with keys
+    in the excluded list. Removes enumerations and smileys before checking.
+
     :param filename: The name of the file to check for bracket matching.
     :param excluded: A list of keys to exclude from checking.
-    :return: None
-
-    The check_brackets method reads the contents of the given file and checks for matching brackets. It skips the lines which beginn with keys specified in the 'excluded' parameter. If any mismatched or unclosed brackets are found, an error message is printed with the line number.
-
-    Example usage:
-
-    check_brackets('file.txt', [3, 5, 7])
-
-    This will check the contents of 'file.txt' for bracket matching, excluding lines 3, 5, and 7.
+    :return: The number of lines with bracket errors.
     """
+    error_count = 0
     with open(filename, "r", encoding="UTF-8-SIG") as file:
         for line_number, line in enumerate(file, start=1):
             current_key = line.split("=")[0]
@@ -37,24 +35,29 @@ def check_brackets(filename, excluded):
                         except IndexError:
                             print_to_console(
                                 "Bracket Test",
-                                f"{filename}:{line_number} / {current_key}: Extra closing bracket detected.",
+                                f"{current_key}: Extra closing bracket detected.",
                                 filename,
                                 line_number,
                                 "error",
                             )
+                            error_count += 1
                             break
 
                 if bracket_stack:
                     print_to_console(
                         "Bracket Test",
-                        f"{filename}:{line_number} / {current_key}: Open bracket is not closed.",
+                        f"{current_key}: Open bracket is not closed.",
                         filename,
                         line_number,
                         "error",
                     )
+                    error_count += 1
+    return error_count
 
 
 if __name__ == "__main__":
+    parser, args = get_argument_parser()
+
     excluded_keys = [
         "ea_ui_player_count_bracket_left",
         "ea_ui_player_count_bracket_right",
@@ -71,13 +74,16 @@ if __name__ == "__main__":
         "PU_NPCVP16_BDC_ResponseRegenHospital_IG_003,P",  # Aufzählung
     ]
     deu_live_file = "live/global.ini"
-    deu_ptu_file = "ptu/global.ini"
 
-    print()
+    error_count = 0
 
     if os.path.exists(deu_live_file):
-        print(f"Checking {deu_live_file}...")
-        check_brackets(deu_live_file, excluded_keys)
+        error_count = check_brackets(deu_live_file, excluded_keys)
+        if error_count > 0:
+            print(f"\nFound {error_count} line(s) with bracket issues.")
+        else:
+            print("All brackets are properly matched and closed.")
+            print("Test PASSED!")
     else:
         print_to_console(
             "Bracket Test",
@@ -87,16 +93,5 @@ if __name__ == "__main__":
             "warning",
         )
 
-    # print()
-
-    # if os.path.exists(deu_ptu_file):
-    #     print(f"Checking {deu_ptu_file}...")
-    #     check_brackets(deu_ptu_file, excluded_keys)
-    # else:
-    #     print_to_console(
-    #         "Bracket Test",
-    #         f"Skipping {deu_ptu_file}: File not found.",
-    #         deu_ptu_file,
-    #         0,
-    #         "warning",
-    #     )
+    if error_count > 0 and args.fail_on_error:
+        exit(1)
