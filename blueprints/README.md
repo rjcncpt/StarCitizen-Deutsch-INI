@@ -15,9 +15,11 @@ Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung,
 ---
 
 ## Wie funktionieren die Baupläne?
-Star Citizen vergibt bei bestimmten Missionen Baupläne (Blueprints) als Belohnung. Welche Baupläne vergeben werden, hängt von der Missionsbeschreibung, dem sogenannten **Blueprint Pool**, sowie von Reputationsstufe und Region ab. Diese Informationen sind in den Spieldaten vorhanden, werden dem Spieler aber standardmäßig nicht angezeigt.
+Star Citizen vergibt bei bestimmten Missionen Baupläne (Blueprints) als Belohnung. Welche Baupläne vergeben werden, hängt von der Missionsbeschreibung, dem sogenannten **Blueprint Pool**, sowie von Reputationsstufe und Regionen ab. Diese Informationen sind in den Spieldaten vorhanden, werden dem Spieler aber standardmäßig nicht angezeigt.
 
-Unsere Integration liest diese Daten direkt aus der **([scmdb.net](https://scmdb.net))**-Datenbank aus und fügt sie als lesbaren Text in die Missionsbeschreibung ein. So sieht man bereits vor Annahme einer Mission, welche Baupläne möglich sind.
+Unsere Integration liest diese Daten direkt aus der **([scmdb.net](https://scmdb.net))**-Datenbank aus und fügt sie als lesbaren Text in die Missionsbeschreibung ein. In den Missionstitel wir ein `[BP]`-Kürzel hinzugefügt, so das man bereits vor Annahme einer Mission zieht, welche Mission Baupläne enthält.
+
+Update: Wir haben das `[BP]`-Kürzel um ein Sternchen `[BP]*` erweitert, wenn zu einem Missionstitel mehrere Missionstexten existieren.
 
 Das Ergebnis sieht im Spiel z. B. so aus:
 
@@ -73,9 +75,11 @@ Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 <br><br><br>
 
 ## Features
-### Baupläne direkt in der Missionsbeschreibung
+### Baupläne direkt in den Missionstexten
 <img width="1159" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/mission_details_01.png?1" />
-Missionen mit Bauplänen werden in der Missionsliste direkt mit einem blauen [BP] markiert. Öffnest du eine solche Mission, findest du gleich zu Beginn der Beschreibung einen Hinweis darauf. Scrollst du weiter nach unten, werden dir die möglichen Baupläne für diesen Auftragstyp angezeigt.
+Missionen mit Bauplänen werden in der Missionsliste direkt mit einem farbigen `[BP]` bzw `[BP]*` markiert. Scrollst du weiter nach unten, werden dir die möglichen Baupläne für diesen Auftragstyp angezeigt.
+
+Besonderheit: Manche Missionen haben mehrere Missionstexte unter demselben Titel. In solchen Fällen wird `[BP]*`-Kürzel mit Sternchen verwendet. Zusätzlich erscheint am Anfang des Missionstextes ein Hinweis wie: `[!] Baupläne nur für 57.750 aUEC Mission enthalten`. So erkennst du eindeutig, welche Variante die Baupläne enthält.
 <br><br>
 
 ### Hinweistext bei unvorhersehbaren Missionen
@@ -84,7 +88,7 @@ Manche Missionstypen werden vom Spiel dynamisch generiert. Die Bauplan-Vergabe i
 <br><br>
 
 ### Reputationsanforderungen auf einen Blick
-Manche Baupläne sind nur bei einer bestimmten Reputationsstufe verfügbar. Die Beschreibung zeigt dir die minimale und maximale Reputation, die du für den jeweiligen Bauplan benötigst. So weißt du sofort, ob sich die Mission für deinen aktuellen Fortschritt lohnt.
+Manche Baupläne sind nur bei einer bestimmten Reputationsstufe verfügbar. Die Beschreibung zeigt dir die minimale und maximale Reputation mit den erforderlichen XP, die du für den jeweiligen Bauplan benötigst. So weißt du sofort, ob sich die Mission für deinen aktuellen Fortschritt lohnt.
 <br><br>
 
 ### Regionsgebundene Missionen klar gekennzeichnet
