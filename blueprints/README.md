@@ -24,21 +24,25 @@ Das Ergebnis sieht im Spiel z. B. so aus:
 ```
 ---------------------------------------------------------
 
-<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>
+MÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP
 
-# Min. Reputation: Auftragnehmer Junior
-# Max. Reputation: Auftragnehmer Elite
+# Baupläne für die 43.750 / 54.500 / 81.250 aUEC Mission
+# Min. / Max. Rep.: Auftragnehmer Senior (5.800 XP)
 
-# Region: Pyro, Region B (Bloom) - Gefahr 4/10
+# Baupläne:
+  - Arclight "Stormfall" Pistol
+  - Arclight Pistol
+  - Venture Arms
+...
 
-- Atzkav Sniper Rifle
-- Atzkav "Igniter" Sniper Rifle
-- Atzkav "Mirage" Sniper Rifle
-- Calico Arms Tactical
-- Calico Core Tactical
-- Calico Legs Tactical
-- Calico Helmet Tactical
-- Atzkav Sniper Rifle Battery (8 Schuss)
+# Abgabe für 43.750 aUEC Mission:
+  - Torite (min. 8 SCU)
+
+# Abgabe für 54.500 aUEC Mission:
+  - Agricium (min. 8 SCU) oder
+  - Beryl (min. 7 SCU)
+
+# Region: Nyx-System - Gefahr 3-6/10
 
 Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 ```
@@ -113,79 +117,75 @@ Wir als deutsches Team haben die bisherige englische Umsetzung um einige weitere
 ### Beispiele unterschiedlicher Bauplan-Auflistungen
 #### Einzel-Bauplan
 ```
+Lima Endicott
+Leitende Einsatzkoordinatorin
+Citizens for Prosperity
 ---------------------------------------------------------
 
-<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>
+MÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP
 
-# Min. Reputation: Auftragnehmer Junior
-# Max. Reputation: Auftragnehmer Elite
+# Baupläne für die 43.750 / 54.500 / 81.250 aUEC Mission
+# Min. / Max. Rep.: Auftragnehmer Senior (5.800 XP)
 
-# Region: Pyro, Region B (Bloom) - Gefahr 4/10
+# Baupläne:
+  - Arclight "Stormfall" Pistol
+  - Arclight Pistol
+  - Venture Arms
+...
 
-- Atzkav Sniper Rifle
-- Atzkav "Igniter" Sniper Rifle
-- Atzkav "Mirage" Sniper Rifle
-- Calico Arms Tactical
-- Calico Core Tactical
-- Calico Legs Tactical
-- Calico Helmet Tactical
-- Atzkav Sniper Rifle Battery (8 Schuss)
+# Abgabe für 43.750 aUEC Mission:
+  - Torite (min. 8 SCU)
+
+# Abgabe für 54.500 aUEC Mission:
+  - Agricium (min. 8 SCU) oder
+  - Beryl (min. 7 SCU)
+
+# Region: Nyx-System - Gefahr 3-6/10
 
 Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 ```
 #### Multi-Baupläne
 ```
 ---------------------------------------------------------
-
-<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.
+Dieser Missionstyp wird vom Spiel dynamisch erzeugt.
 Die Vergabe der Baupläne ist nicht eindeutig vorhersagbar und
 wird je nach Region, Reputation oder interner Spiellogik ausgeben.
+Vergleiche mit Datenbanken wie star-head.de oder scmdb.net.
+---------------------------------------------------------
 
-Bitte mit Datenbanken wie star-head.de oder scmdb.net vergleichen.</EM4>
+MÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP
 
+# Baupläne für 400.250 aUEC Mission
 
-MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP
+# Min. Rep.: Auftragnehmer Senior (5.800 XP)
+# Max. Rep.: Auftragnehmer Elite (95.250 XP)
 
-# Region: Nyx System - Gefahr 3-6/10
+# Baupläne:
+  - Prism "Deep Sea" Laser Shotgun
+  - Prism "Bonedust" Laser Shotgun
+  - Prism "Firesteel" Laser Shotgun
+...
 
-# Min. Reputation: Auftragnehmer Junior
-
-- R97 "Kismet" Shotgun
-- R97 "Righteous" Shotgun
-- Monde Arms Delta Camo
-- Monde Legs Delta Camo
-- Monde Core Delta Camo
-- R97 Shotgun Magazine (18 Schuss)
+# Abgabe:
+  - Irradiated Valakkar Pearl (Grade AAA) (min. 1x) oder
+  - Irradiated Valakkar Pearl (Grade AA) (min. 10x)
 
 ---------------------------------------------------------
 
-# Region: Nyx System - Gefahr 3-6/10
+# Baupläne für 113.750 aUEC Mission
 
-# Min. Reputation: Auftragnehmer Junior
-# Max. Reputation: Auftragnehmer Elite
+# Min. Rep.: Auftragnehmer Senior (5.800 XP)
+# Max. Rep.: Auftragnehmer Elite (95.250 XP)
 
-- Custodian SMG
-- Custodian "Midnight" SMG
-- Custodian "Scorched" SMG
-- Arden-SL Arms
-- Arden-SL Core
-- Arden-SL Legs
+# Baupläne:
+  - P8-AR Rifle
+  - Palatino Arms
+  - Palatino Core
+  - Palatino Legs
+...
 
----------------------------------------------------------
-
-# Region: Stanton System - Gefahr 4-6/10
-# Region: Stanton 1 (Hurston) - Gefahr 4/10
-# Region: Stanton 2 (Crusader) - Gefahr 4/10
-# Region: Stanton 3 (ArcCorp) - Gefahr 6/10
-# Region: Stanton 4 (microTech) - Gefahr 5/10
-
-# Max. Reputation: Auftragnehmer Elite
-
-- Lumin V SMG
-- Inquisitor Core Black
-- Inquisitor Arms Black
-- Inquisitor Legs Black
-- Morningstar Helmet Icefall
+# Abgabe:
+  - Yormandi Eye (min. 4x)
 
 Dieser Service ist experimentell. Daten können Fehlerhaft sein.
 ```
