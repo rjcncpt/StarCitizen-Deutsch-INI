@@ -105,12 +105,13 @@ Die Bauplandaten werden zur Zeit aus der **([scmdb.net](https://scmdb.net))**-Da
 ## Was machen wir anders?
 Die englische Community war Vorreiter bei der Integration von Bauplänen in Missionstexte. Das Problem bisheriger Lösungen ist, dass wenn es mehrere Baupläne für den gleichen Missionstypen gibt, diese nicht dargestellt wurden. Baupläne werden je nach Region, Reputation und interner Spiellogik ausgeliefert.
 
-Da alle Missionstexte in einer statischen Datei liegen, stellen wir alle verfügbaren Baupläne für den jeweiligen Missionstyp – abhängig von Reputation und/oder Region – gesammelt dar. Dadurch kann es vorkommen, dass in einzelnen Missionstexten zwei oder mehr Blueprint-Pools angezeigt werden. Zwei Beispiele dazu folgen weiter unten.
+Da alle Missionstexte in einer statischen Datei liegen, stellen wir alle verfügbaren Baupläne für den jeweiligen Missionstyp – abhängig von Reputation (XP) und/oder Region – gesammelt dar. Dadurch kann es vorkommen, dass in einzelnen Missionstexten zwei oder mehr Blueprint-Pools angezeigt werden. Zwei Beispiele dazu folgen weiter unten.
 
 Wir als deutsches Team haben die bisherige englische Umsetzung um einige weitere Aspekte ergänzt:
 - Ein dezenter Hinweis **`Baupläne enthalten`** an erster Position in Missionstexten die Baupläne enthalten
-- Angaben der minimalen und maximalen Reputaion die für den Bauplan erforderlich ist
-- Angaben zur Region mit Gefahrenlage: **`Pyro, Region B (Bloom) - Gefahr 4/10`**
+- Selektierung durch aUEC Angaben für welche Mission(en) die BP-Pools gültig sind
+- Selektierung durch minimalen und maximalen Reputaion mit benötigten XP, die für den Bauplan erforderlich sind
+- Selektierung durch Regionen mit Gefahrenlage: **`Pyro, Region B (Bloom) - Gefahr 4/10`**
 - Unterstützung für mehrere Baupläne je Missionstyp (abhängig von Region, Reputation oder Spiellogik)
 
 
@@ -146,6 +147,10 @@ Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 ```
 #### Multi-Baupläne
 ```
+Lima Endicott
+Leitende Einsatzkoordinatorin
+Citizens for Prosperity
+
 ---------------------------------------------------------
 Dieser Missionstyp wird vom Spiel dynamisch erzeugt.
 Die Vergabe der Baupläne ist nicht eindeutig vorhersagbar und
