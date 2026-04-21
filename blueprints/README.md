@@ -15,30 +15,36 @@ Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung,
 ---
 
 ## Wie funktionieren die Baupläne?
-Star Citizen vergibt bei bestimmten Missionen Baupläne (Blueprints) als Belohnung. Welche Baupläne vergeben werden, hängt von der Missionsbeschreibung, dem sogenannten **Blueprint Pool**, sowie von Reputationsstufe und Region ab. Diese Informationen sind in den Spieldaten vorhanden, werden dem Spieler aber standardmäßig nicht angezeigt.
+Star Citizen vergibt bei bestimmten Missionen Baupläne (Blueprints) als Belohnung. Welche Baupläne vergeben werden, hängt von der Missionsbeschreibung, dem sogenannten **Blueprint Pool**, sowie von Reputationsstufe und Regionen ab. Diese Informationen sind in den Spieldaten vorhanden, werden dem Spieler aber standardmäßig nicht angezeigt.
 
-Unsere Integration liest diese Daten direkt aus der **([scmdb.net](https://scmdb.net))**-Datenbank aus und fügt sie als lesbaren Text in die Missionsbeschreibung ein. So sieht man bereits vor Annahme einer Mission, welche Baupläne möglich sind.
+Unsere Integration liest diese Daten direkt aus der **([scmdb.net](https://scmdb.net))**-Datenbank aus und fügt sie als lesbaren Text in die Missionsbeschreibung ein. In den Missionstitel wir ein `[BP]`-Kürzel hinzugefügt, so das man bereits vor Annahme einer Mission zieht, welche Mission Baupläne enthält.
+
+Update: Wir haben das `[BP]`-Kürzel um ein Sternchen `[BP]*` erweitert, wenn zu einem Missionstitel mehrere Missionstexten existieren.
 
 Das Ergebnis sieht im Spiel z. B. so aus:
 
 ```
 ---------------------------------------------------------
 
-<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>
+MÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP
 
-# Min. Reputation: Auftragnehmer Junior
-# Max. Reputation: Auftragnehmer Elite
+# Baupläne für die 43.750 / 54.500 / 81.250 aUEC Mission
+# Min. / Max. Rep.: Auftragnehmer Senior (5.800 XP)
 
-# Region: Pyro, Region B (Bloom) - Gefahr 4/10
+# Baupläne:
+  - Arclight "Stormfall" Pistol
+  - Arclight Pistol
+  - Venture Arms
+...
 
-- Atzkav Sniper Rifle
-- Atzkav "Igniter" Sniper Rifle
-- Atzkav "Mirage" Sniper Rifle
-- Calico Arms Tactical
-- Calico Core Tactical
-- Calico Legs Tactical
-- Calico Helmet Tactical
-- Atzkav Sniper Rifle Battery (8 Schuss)
+# Abgabe für 43.750 aUEC Mission:
+  - Torite (min. 8 SCU)
+
+# Abgabe für 54.500 aUEC Mission:
+  - Agricium (min. 8 SCU) oder
+  - Beryl (min. 7 SCU)
+
+# Region: Nyx-System - Gefahr 3-6/10
 
 Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 ```
@@ -69,9 +75,11 @@ Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 <br><br><br>
 
 ## Features
-### Baupläne direkt in der Missionsbeschreibung
+### Baupläne direkt in den Missionstexten
 <img width="1159" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/mission_details_01.png?1" />
-Missionen mit Bauplänen werden in der Missionsliste direkt mit einem blauen [BP] markiert. Öffnest du eine solche Mission, findest du gleich zu Beginn der Beschreibung einen Hinweis darauf. Scrollst du weiter nach unten, werden dir die möglichen Baupläne für diesen Auftragstyp angezeigt.
+Missionen mit Bauplänen werden in der Missionsliste direkt mit einem farbigen `[BP]` bzw `[BP]*` markiert. Scrollst du weiter nach unten, werden dir die möglichen Baupläne für diesen Auftragstyp angezeigt.
+
+Besonderheit: Manche Missionen haben mehrere Missionstexte unter demselben Titel. In solchen Fällen wird `[BP]*`-Kürzel mit Sternchen verwendet. Zusätzlich erscheint am Anfang des Missionstextes ein Hinweis wie: `[!] Baupläne nur für 57.750 aUEC Mission enthalten`. So erkennst du eindeutig, welche Variante die Baupläne enthält.
 <br><br>
 
 ### Hinweistext bei unvorhersehbaren Missionen
@@ -80,7 +88,7 @@ Manche Missionstypen werden vom Spiel dynamisch generiert. Die Bauplan-Vergabe i
 <br><br>
 
 ### Reputationsanforderungen auf einen Blick
-Manche Baupläne sind nur bei einer bestimmten Reputationsstufe verfügbar. Die Beschreibung zeigt dir die minimale und maximale Reputation, die du für den jeweiligen Bauplan benötigst. So weißt du sofort, ob sich die Mission für deinen aktuellen Fortschritt lohnt.
+Manche Baupläne sind nur bei einer bestimmten Reputationsstufe verfügbar. Die Beschreibung zeigt dir die minimale und maximale Reputation mit den erforderlichen XP, die du für den jeweiligen Bauplan benötigst. So weißt du sofort, ob sich die Mission für deinen aktuellen Fortschritt lohnt.
 <br><br>
 
 ### Regionsgebundene Missionen klar gekennzeichnet
@@ -101,91 +109,92 @@ Die Bauplandaten werden zur Zeit aus der **([scmdb.net](https://scmdb.net))**-Da
 ## Was machen wir anders?
 Die englische Community war Vorreiter bei der Integration von Bauplänen in Missionstexte. Das Problem bisheriger Lösungen ist, dass wenn es mehrere Baupläne für den gleichen Missionstypen gibt, diese nicht dargestellt wurden. Baupläne werden je nach Region, Reputation und interner Spiellogik ausgeliefert.
 
-Da alle Missionstexte in einer statischen Datei liegen, stellen wir alle verfügbaren Baupläne für den jeweiligen Missionstyp – abhängig von Reputation und/oder Region – gesammelt dar. Dadurch kann es vorkommen, dass in einzelnen Missionstexten zwei oder mehr Blueprint-Pools angezeigt werden. Zwei Beispiele dazu folgen weiter unten.
+Da alle Missionstexte in einer statischen Datei liegen, stellen wir alle verfügbaren Baupläne für den jeweiligen Missionstyp – abhängig von Reputation (XP) und/oder Region – gesammelt dar. Dadurch kann es vorkommen, dass in einzelnen Missionstexten zwei oder mehr Blueprint-Pools angezeigt werden. Zwei Beispiele dazu folgen weiter unten.
 
 Wir als deutsches Team haben die bisherige englische Umsetzung um einige weitere Aspekte ergänzt:
 - Ein dezenter Hinweis **`Baupläne enthalten`** an erster Position in Missionstexten die Baupläne enthalten
-- Angaben der minimalen und maximalen Reputaion die für den Bauplan erforderlich ist
-- Angaben zur Region mit Gefahrenlage: **`Pyro, Region B (Bloom) - Gefahr 4/10`**
+- Selektierung durch aUEC Angaben für welche Mission(en) die BP-Pools gültig sind
+- Selektierung durch minimalen und maximalen Reputaion mit benötigten XP, die für den Bauplan erforderlich sind
+- Selektierung durch Regionen mit Gefahrenlage: **`Pyro, Region B (Bloom) - Gefahr 4/10`**
 - Unterstützung für mehrere Baupläne je Missionstyp (abhängig von Region, Reputation oder Spiellogik)
 
 
 ### Beispiele unterschiedlicher Bauplan-Auflistungen
 #### Einzel-Bauplan
 ```
+Lima Endicott
+Leitende Einsatzkoordinatorin
+Citizens for Prosperity
 ---------------------------------------------------------
 
-<EM4>MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP</EM4>
+MÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP
 
-# Min. Reputation: Auftragnehmer Junior
-# Max. Reputation: Auftragnehmer Elite
+# Baupläne für die 43.750 / 54.500 / 81.250 aUEC Mission
+# Min. / Max. Rep.: Auftragnehmer Senior (5.800 XP)
 
-# Region: Pyro, Region B (Bloom) - Gefahr 4/10
+# Baupläne:
+  - Arclight "Stormfall" Pistol
+  - Arclight Pistol
+  - Venture Arms
+...
 
-- Atzkav Sniper Rifle
-- Atzkav "Igniter" Sniper Rifle
-- Atzkav "Mirage" Sniper Rifle
-- Calico Arms Tactical
-- Calico Core Tactical
-- Calico Legs Tactical
-- Calico Helmet Tactical
-- Atzkav Sniper Rifle Battery (8 Schuss)
+# Abgabe für 43.750 aUEC Mission:
+  - Torite (min. 8 SCU)
+
+# Abgabe für 54.500 aUEC Mission:
+  - Agricium (min. 8 SCU) oder
+  - Beryl (min. 7 SCU)
+
+# Region: Nyx-System - Gefahr 3-6/10
 
 Dieser Service ist experimentell. Die Daten können Fehlerhaft sein.
 ```
 #### Multi-Baupläne
 ```
----------------------------------------------------------
+Lima Endicott
+Leitende Einsatzkoordinatorin
+Citizens for Prosperity
 
-<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.
+---------------------------------------------------------
+Dieser Missionstyp wird vom Spiel dynamisch erzeugt.
 Die Vergabe der Baupläne ist nicht eindeutig vorhersagbar und
 wird je nach Region, Reputation oder interner Spiellogik ausgeben.
+Vergleiche mit Datenbanken wie star-head.de oder scmdb.net.
+---------------------------------------------------------
 
-Bitte mit Datenbanken wie star-head.de oder scmdb.net vergleichen.</EM4>
+MÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP
 
+# Baupläne für 400.250 aUEC Mission
 
-MÖGLICHE BAUPLÄNE FÜR DIESEN AUFTRAGSTYP
+# Min. Rep.: Auftragnehmer Senior (5.800 XP)
+# Max. Rep.: Auftragnehmer Elite (95.250 XP)
 
-# Region: Nyx System - Gefahr 3-6/10
+# Baupläne:
+  - Prism "Deep Sea" Laser Shotgun
+  - Prism "Bonedust" Laser Shotgun
+  - Prism "Firesteel" Laser Shotgun
+...
 
-# Min. Reputation: Auftragnehmer Junior
-
-- R97 "Kismet" Shotgun
-- R97 "Righteous" Shotgun
-- Monde Arms Delta Camo
-- Monde Legs Delta Camo
-- Monde Core Delta Camo
-- R97 Shotgun Magazine (18 Schuss)
+# Abgabe:
+  - Irradiated Valakkar Pearl (Grade AAA) (min. 1x) oder
+  - Irradiated Valakkar Pearl (Grade AA) (min. 10x)
 
 ---------------------------------------------------------
 
-# Region: Nyx System - Gefahr 3-6/10
+# Baupläne für 113.750 aUEC Mission
 
-# Min. Reputation: Auftragnehmer Junior
-# Max. Reputation: Auftragnehmer Elite
+# Min. Rep.: Auftragnehmer Senior (5.800 XP)
+# Max. Rep.: Auftragnehmer Elite (95.250 XP)
 
-- Custodian SMG
-- Custodian "Midnight" SMG
-- Custodian "Scorched" SMG
-- Arden-SL Arms
-- Arden-SL Core
-- Arden-SL Legs
+# Baupläne:
+  - P8-AR Rifle
+  - Palatino Arms
+  - Palatino Core
+  - Palatino Legs
+...
 
----------------------------------------------------------
-
-# Region: Stanton System - Gefahr 4-6/10
-# Region: Stanton 1 (Hurston) - Gefahr 4/10
-# Region: Stanton 2 (Crusader) - Gefahr 4/10
-# Region: Stanton 3 (ArcCorp) - Gefahr 6/10
-# Region: Stanton 4 (microTech) - Gefahr 5/10
-
-# Max. Reputation: Auftragnehmer Elite
-
-- Lumin V SMG
-- Inquisitor Core Black
-- Inquisitor Arms Black
-- Inquisitor Legs Black
-- Morningstar Helmet Icefall
+# Abgabe:
+  - Yormandi Eye (min. 4x)
 
 Dieser Service ist experimentell. Daten können Fehlerhaft sein.
 ```
