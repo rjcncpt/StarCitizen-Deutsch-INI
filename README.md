@@ -54,11 +54,10 @@ Wir erhalten hin und wieder Nachrichten, wie man das Team unterstützen kann, di
 #### Mit dem SCD Launcher kannst du Baupläne direkt im Missionstext einfügen. Folge dazu der **[Anleitung zur integration der Baupläne in Missionstexte](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/tree/main/blueprints)** über den SCDL.
 
 ### In wenigen Schritten zu Bauplänen in Missionstexten:
-- Update (inGame) oder lade unseren **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** und installiere ihn.
+- Update (inGame) oder lade unseren **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** herunter und installiere ihn
 - Öffne den SC Deutsch Launcher und aktualisiere die Übersetzung
-- Gehe in die Einstellungen, scrolle etwas nach unten unterhalb der SC-Pfade und aktiviere das Baupläne-Modul
-- Auf der Hauptseite erscheint ein neues Icon <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" /> in der Titelleiste
-- Klicke darauf, um das Modul "Injections für global.ini" zu öffnen
+- Klicke im Hauptfenster auf das <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" />-Icon in der Titelleiste
+- Das Modul "Injections für global.ini" öffnet sich
 - Klicke auf den **"Baupläne injizieren"**-Button – fertig
 <br/><br/>
 
