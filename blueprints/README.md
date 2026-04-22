@@ -7,12 +7,25 @@ Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung,
 
 ### Inhaltsverzeichnis
 
+- **[Baupläne-Datenbank](https://rjcncpt.github.io/StarCitizen-Deutsch-INI/)**
 - **[Wie funktionieren die Baupläne?](#wie-funktionieren-die-baupläne)**
 - **[Installation der Baupläne](#installation)**
 - **[Features](#features)**
 - **[Was machen wir anders?](#was-machen-wir-anders)**
 
 ---
+
+## Baupläne-Datenbank
+<img width="1788" height="1294" alt="Baupläne-DB-·-Star-Citizen-Deutsch-23-04-2026_01_17" src="https://github.com/user-attachments/assets/67121f98-5812-4dbf-b1d0-652a1e159e01" />
+<br>
+Die Baupläne DB ist ein übersichtliches Tracking-Tool für Star Citizen, mit dem du deinen Fortschritt beim Sammeln von Bauplänen organisieren und im Blick behalten kannst.
+
+### Die wichtigsten Funktionen im Überblick:
+- Fortschritt tracken: Markiere einzelne Baupläne ganz einfach als "Erledigt" (bereits gesammelt) oder "Vorgemerkt" (auf deiner To-do-Liste).
+- Suchen & Filtern: Finde gezielt Baupläne anhand von Missionstiteln, Orten oder ganzen Sonnensystemen (wie Stanton, Pyro oder Nyx).
+- Lokale Speicherung & Export: Dein Fortschritt wird automatisch in deinem Browser gespeichert. Für Backups oder zur Übertragung kannst du deine Daten jederzeit als JSON oder CSV exportieren.
+
+<br><br><br>
 
 ## Wie funktionieren die Baupläne?
 Star Citizen vergibt bei bestimmten Missionen Baupläne (Blueprints) als Belohnung. Welche Baupläne vergeben werden, hängt von der Missionsbeschreibung, dem sogenannten **Blueprint Pool**, sowie von Reputationsstufe und Regionen ab. Diese Informationen sind in den Spieldaten vorhanden, werden dem Spieler aber standardmäßig nicht angezeigt.
