@@ -7,7 +7,7 @@ Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung,
 
 ### Inhaltsverzeichnis
 
-- **[Baupläne-Datenbank](https://rjcncpt.github.io/StarCitizen-Deutsch-INI/)**
+- **[Baupläne-Datenbank](baupläne-datenbank)**
 - **[Wie funktionieren die Baupläne?](#wie-funktionieren-die-baupläne)**
 - **[Installation der Baupläne](#installation)**
 - **[Features](#features)**
@@ -24,6 +24,8 @@ Die Baupläne DB ist ein übersichtliches Tracking-Tool für Star Citizen, mit d
 - Fortschritt tracken: Markiere einzelne Baupläne ganz einfach als "Erledigt" (bereits gesammelt) oder "Vorgemerkt" (auf deiner To-do-Liste).
 - Suchen & Filtern: Finde gezielt Baupläne anhand von Missionstiteln, Orten oder ganzen Sonnensystemen (wie Stanton, Pyro oder Nyx).
 - Lokale Speicherung & Export: Dein Fortschritt wird automatisch in deinem Browser gespeichert. Für Backups oder zur Übertragung kannst du deine Daten jederzeit als JSON oder CSV exportieren.
+
+#### Zur Baupläne-Datenbank: [https://rjcncpt.github.io/StarCitizen-Deutsch-INI/](https://rjcncpt.github.io/StarCitizen-Deutsch-INI/)
 
 <br><br><br>
 
