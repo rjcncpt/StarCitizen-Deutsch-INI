@@ -7,7 +7,7 @@ Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung,
 
 ### Inhaltsverzeichnis
 
-- **[Baupläne-Datenbank](baupläne-datenbank)**
+- **[Baupläne-Datenbank](#baupläne-datenbank)**
 - **[Wie funktionieren die Baupläne?](#wie-funktionieren-die-baupläne)**
 - **[Installation der Baupläne](#installation)**
 - **[Features](#features)**
