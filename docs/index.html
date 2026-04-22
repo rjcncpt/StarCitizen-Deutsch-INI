@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baupläne DB · Star Citizen Deutsch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+/* ── Design Tokens ─────────────────────────────────────── */
+:root {
+  --bg:          #14171f;
+  --bg2:         #1c2030;
+  --bg-card:     #1e2333;
+  --bg-card-h:   #232841;
+  --border:      rgba(120, 140, 185, 0.18);
+  --border-h:    rgba(140, 165, 220, 0.35);
+
+  /* Accent: blue – readable on dark */
+  --accent:      #3a96f4;
+  --accent-dk:   #1e78c9;
+  --accent-bg:   rgba(58, 150, 244, 0.14);
+  --accent-bdr:  rgba(58, 150, 244, 0.38);
+
+  /* Blue for info tags */
+  --blue:        #5aa6f8;
+  --blue-bg:     rgba(90, 166, 248, 0.12);
+  --blue-bdr:    rgba(90, 166, 248, 0.35);
+
+  /* Text scale */
+  --tx-h:        #eef1f8;   
+  --tx:          #c4cde0;   
+  --tx-s:        #8a96b0;   
+  --tx-muted:    #556079;   
+
+  /* Status colours */
+  --done:        #2fcc85;
+  --done-bg:     rgba(47, 204, 133, 0.13);
+  --done-bdr:    rgba(47, 204, 133, 0.38);
+  --mark:        #f4bc38;
+  --mark-bg:     rgba(244, 188, 56, 0.13);
+  --mark-bdr:    rgba(244, 188, 56, 0.38);
+  --danger:      #f16b6b;
+  --danger-bg:   rgba(241, 107, 107, 0.12);
+  --danger-bdr:  rgba(241, 107, 107, 0.38);
+
+  /* System colour tags */
+  --c-stanton:   #5aa6f8;
+  --c-pyro:      #f47c5a;
+  --c-nyx:       #3dd68c;
+  --c-both:      #b59cf7;
+
+  /* Typography */
+  --font:        'Open Sans', system-ui, sans-serif;
+
+  /* Geometry */
+  --rad-sm:      6px;
+  --rad:         10px;
+  --rad-lg:      14px;
+
+  /* Transitions */
+  --ease:        0.18s ease;
+}
+
+/* ── Reset & Base ───────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  font-family: var(--font);
+  font-size: 1rem;
+  line-height: 1.6;
+  background: var(--bg);
+  color: var(--tx);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--rad-sm);
+}
+
+/* ── Loading Screen ─────────────────────────────────────── */
+#loading {
+  position: fixed; inset: 0;
+  background: var(--bg);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  z-index: 9999; gap: 18px; padding: 24px;
+}
+.ld-logo { font-size: 1.75rem; font-weight: 800; color: var(--tx-h); letter-spacing: -0.01em; text-align: center; margin-bottom: 10px; }
+.ld-logo span { color: var(--accent); }
+.ld-sub { font-size: 0.9rem; color: var(--tx-s); margin-top: -12px; }
+.ld-bar { width: 280px; height: 4px; background: var(--border); border-radius: 99px; position: relative; overflow: hidden; }
+.ld-fill {
+  position: absolute; left: 0; top: 0; height: 100%;
+  background: var(--accent); border-radius: 99px;
+  animation: ldpulse 1.8s ease-in-out infinite;
+}
+@keyframes ldpulse { 0% { width: 0%; opacity: 1; } 70% { width: 80%; opacity: 1; } 100% { width: 100%; opacity: 0; } }
+.ld-msg { font-size: 0.9rem; color: var(--tx-s); }
+.ld-error {
+  display: none; font-size: 0.95rem; color: var(--danger); text-align: center; padding: 14px 24px; max-width: 440px;
+  background: var(--danger-bg); border: 1px solid var(--danger-bdr); border-radius: var(--rad); line-height: 1.6;
+}
+
+/* ── Header ─────────────────────────────────────────────── */
+header {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(20, 23, 31, 0.97); border-bottom: 1px solid var(--border); backdrop-filter: blur(16px);
+}
+.hd-inner { margin: 0 auto; padding: 0 20px; display: flex; align-items: center; gap: 20px; min-height: 68px; }
+.hd-brand { display: flex; align-items: center; gap: 13px; }
+.hd-icon { width: 42px; height: 42px; flex-shrink: 0; background: var(--accent-bg); border: 2px solid var(--accent-bdr); border-radius: var(--rad); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }
+.hd-title { font-size: 1.15rem; font-weight: 800; color: var(--tx-h); line-height: 1.2; letter-spacing: -0.01em; }
+.hd-title span { display: block; font-size: 0.8rem; font-weight: 400; color: var(--tx-s); margin-top: 1px; }
+.hd-sep { width: 1px; height: 32px; background: var(--border); flex-shrink: 0; }
+.hd-stats { display: flex; gap: 24px; }
+.hd-stat { display: flex; flex-direction: column; align-items: center; gap: 1px; font-size: 0.78rem; color: var(--tx-s); }
+.hd-stat-n { font-size: 1.25rem; font-weight: 700; color: var(--tx-h); line-height: 1; }
+.hd-stat-n.c-done { color: var(--done); }
+.hd-stat-n.c-mark { color: var(--mark); }
+.hd-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+.ver-tag { font-size: 0.8rem; font-weight: 500; color: var(--tx-s); padding: 4px 10px; }
+a.ver-tag { text-decoration: none; transition: color var(--ease); }
+a.ver-tag:hover { color: var(--accent); }
+
+/* ── Primary Button ─────────────────────────────────────── */
+.btn {
+  display: inline-flex; align-items: center; gap: 7px; padding: 9px 16px; min-height: 40px;
+  border: 2px solid var(--border); background: var(--bg2); color: var(--tx); text-decoration: none;
+  font-family: var(--font); font-size: 0.9rem; font-weight: 600; cursor: pointer; border-radius: var(--rad-sm);
+  transition: border-color var(--ease), color var(--ease), background var(--ease); white-space: nowrap; letter-spacing: 0.01em;
+}
+.btn.github { padding: 7px 16px; }
+.btn:hover { border-color: var(--accent-bdr); color: var(--accent); background: var(--accent-bg); }
+.btn svg { width: 15px; height: 15px; flex-shrink: 0; }
+.btn-primary { border-color: var(--accent-bdr); color: var(--accent); background: var(--accent-bg); }
+.btn-primary:hover { background: rgba(58,150,244,0.22); }
+
+/* ── Controls Bar ───────────────────────────────────────── */
+.ctrl-wrap { position: sticky; top: 68px; z-index: 99; background: rgba(20, 23, 31, 0.97); border-bottom: 1px solid var(--border); backdrop-filter: blur(12px); }
+.ctrl-inner { margin: 0 auto; padding: 10px 20px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.search-wrap { position: relative; flex: 1; min-width: 200px; max-width: 400px; }
+.search-wrap > svg.s-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--tx-s); pointer-events: none; }
+.search-in {
+  width: 100%; padding: 9px 40px 9px 38px; min-height: 47px; background: var(--bg-card); border: 2px solid var(--border);
+  color: var(--tx-h); font-family: var(--font); font-size: 0.95rem; border-radius: var(--rad-sm); outline: none; transition: border-color var(--ease), box-shadow var(--ease);
+}
+.search-in::placeholder { color: var(--tx-muted); }
+.search-in:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(90,166,248,0.12); }
+.search-clear {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; background: transparent; border: none;
+  color: var(--tx-s); cursor: pointer; display: none; align-items: center; justify-content: center; padding: 0; border-radius: var(--rad-sm); transition: all var(--ease);
+}
+.search-clear:hover { color: var(--danger); background: var(--danger-bg); }
+.search-clear svg { width: 15px; height: 15px; pointer-events: none; }
+.search-wrap.has-val .search-clear { display: flex; }
+
+.ftabs { display: flex; gap: 4px; background: var(--bg2); border: 2px solid var(--border); border-radius: var(--rad-sm); padding: 4px; }
+.ftab {
+  padding: 6px 14px; min-height: 34px; border: 2px solid transparent; background: transparent; color: var(--tx-s); font-family: var(--font); font-size: 0.88rem;
+  font-weight: 600; cursor: pointer; border-radius: 6px; transition: all var(--ease); white-space: nowrap;
+}
+.ftab:hover { color: var(--tx); background: rgba(255,255,255,0.05); }
+.ftab.active { background: var(--accent-bg); color: var(--accent); border-color: var(--accent-bdr); }
+.ftab.active.t-done { background: var(--done-bg); color: var(--done); border-color: var(--done-bdr); }
+.ftab.active.t-mark { background: var(--mark-bg); color: var(--mark); border-color: var(--mark-bdr); }
+
+.sys-chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.sys-chip {
+  padding: 6px 14px; min-height: 42px; border: 2px solid var(--border); background: var(--bg2); color: var(--tx-s); font-family: var(--font); font-size: 0.85rem;
+  font-weight: 600; cursor: pointer; border-radius: 99px; transition: all var(--ease); white-space: nowrap;
+}
+.sys-chip:hover { color: var(--tx); border-color: var(--border-h); }
+.sys-chip.sc-stanton { --c: var(--c-stanton); }
+.sys-chip.sc-pyro    { --c: var(--c-pyro); }
+.sys-chip.sc-nyx     { --c: var(--c-nyx); }
+.sys-chip.sc-both    { --c: var(--c-both); }
+.sys-chip.active { background: color-mix(in srgb, var(--c) 15%, transparent); border-color: color-mix(in srgb, var(--c) 55%, transparent); color: var(--c); }
+
+.sort-sel {
+  padding: 8px 12px; min-height: 42px; background: var(--bg-card); border: 2px solid var(--border);
+  color: var(--tx); font-family: var(--font); font-size: 0.9rem; font-weight: 500; border-radius: var(--rad-sm); outline: none; cursor: pointer;
+}
+.sort-sel:focus { border-color: var(--blue); }
+.res-count { font-size: 0.85rem; font-weight: 500; color: var(--tx-s); white-space: nowrap; padding: 0 4px; align-self: center; }
+.ctrl-right { margin-left: auto; display: flex; gap: 8px; align-items: center; }
+
+/* ── Export dropdown ────────────────────────────────────── */
+.exp-wrap { position: relative; }
+.exp-menu {
+  position: absolute; top: calc(100% + 6px); right: 0; background: var(--bg2); border: 2px solid var(--border);
+  border-radius: var(--rad); overflow: hidden; display: none; z-index: 200; min-width: 210px; box-shadow: 0 12px 40px rgba(0,0,0,0.55);
+}
+.exp-menu.open { display: block; }
+.exp-item {
+  display: block; width: 100%; padding: 12px 18px; min-height: 44px; background: transparent; border: none; color: var(--tx);
+  font-family: var(--font); font-size: 0.9rem; font-weight: 600; cursor: pointer; text-align: left; transition: background var(--ease);
+}
+.exp-item:hover { background: var(--accent-bg); color: var(--accent); }
+.exp-sep { height: 1px; background: var(--border); margin: 4px 0; }
+.exp-item.danger:hover { background: var(--danger-bg); color: var(--danger); }
+
+/* ── Grid ───────────────────────────────────────────────── */
+.main { margin: 0 auto; padding: 20px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 14px; }
+
+/* ── Card ───────────────────────────────────────────────── */
+.card {
+  background: var(--bg-card); border: 2px solid var(--border); border-radius: var(--rad-lg); overflow: hidden;
+  transition: border-color var(--ease), box-shadow var(--ease), transform var(--ease); position: relative; display: flex; flex-direction: column;
+}
+.card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: transparent; transition: background var(--ease); pointer-events: none; }
+.card:hover { border-color: var(--border-h); box-shadow: 0 6px 28px rgba(0,0,0,0.32); transform: translateY(-1px); }
+.card.done  {  }
+.card.done::before  { background: var(--done); }
+.card.marked::before { background: var(--mark); }
+.card.done.marked::before { background: linear-gradient(90deg, var(--mark) 50%, var(--done) 50%); }
+
+.c-top { padding: 14px 15px 0; display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+.c-badges { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; flex: 1; min-width: 0; }
+.sys-badge { font-size: 0.72rem; font-weight: 700; padding: 3px 10px; border-radius: 99px; white-space: nowrap; flex-shrink: 0; border: 1.5px solid transparent; }
+.sb-stanton { background: rgba(90,166,248,0.14);  color: var(--c-stanton); border-color: rgba(90,166,248,0.3); }
+.sb-pyro    { background: rgba(244,124,90,0.14);  color: var(--c-pyro);    border-color: rgba(244,124,90,0.3); }
+.sb-nyx     { background: rgba(61,214,140,0.14);  color: var(--c-nyx);     border-color: rgba(61,214,140,0.3); }
+.sb-both    { background: rgba(181,156,247,0.14); color: var(--c-both);    border-color: rgba(181,156,247,0.3); }
+.sb-other   { background: rgba(130,140,165,0.12); color: var(--tx-s);      border-color: rgba(130,140,165,0.25); }
+
+.loc-label { font-size: 0.8rem; font-weight: 500; color: var(--tx-s); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200px; }
+.c-title { padding: 10px 15px; font-size: 1rem; font-weight: 700; color: var(--tx-h); line-height: 1.4; letter-spacing: -0.01em; }
+.c-variants { padding: 0 15px; display: flex; flex-direction: column; gap: 8px; }
+.vgroup { background: rgba(255,255,255,0.025); border: 1.5px solid var(--border); border-radius: var(--rad-sm); padding: 10px 12px; }
+.vmeta { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; min-height: 24px; }
+.v-stand { font-size: 0.78rem; font-weight: 600; color: var(--blue); background: var(--blue-bg); border: 1.5px solid var(--blue-bdr); padding: 3px 9px; border-radius: 99px; white-space: nowrap; overflow: hidden; max-width: 220px; text-overflow: ellipsis; }
+.v-uec { font-size: 0.78rem; font-weight: 600; color: var(--accent); background: var(--accent-bg); border: 1.5px solid var(--accent-bdr); padding: 3px 9px; border-radius: 99px; white-space: nowrap; }
+.v-haul { font-size: 0.78rem; font-weight: 600; color: var(--c-both); background: rgba(181,156,247,0.1); border: 1.5px solid rgba(181,156,247,0.3); padding: 3px 9px; border-radius: 99px; white-space: nowrap; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip-row {
+  display: inline-flex; align-items: center; gap: 4px; background: rgba(120,140,200,0.09); border: 1.5px solid rgba(120,140,200,0.2);
+  border-radius: 6px; padding: 3px 5px 3px 10px; transition: border-color var(--ease);
+}
+.chip-row:hover { border-color: rgba(120,140,200,0.35); }
+.chip-name { font-size: 0.83rem; font-weight: 600; color: var(--tx); cursor: pointer; white-space: nowrap; transition: color var(--ease); }
+.chip-name:hover { color: var(--blue); }
+.chip-row.bp-done .chip-name { color: var(--done); }
+.chip-row.bp-marked .chip-name { color: var(--mark); }
+.chip-bti {
+  min-width: 30px; max-width: 30px; height: 22px; border: 1.5px solid var(--border); background: transparent; color: var(--tx-s); cursor: pointer; border-radius: 4px;
+  display: flex; align-items: center; justify-content: center; transition: all var(--ease); padding: 0; flex-shrink: 0;
+}
+.chip-bti.bm { margin-left: 5px; }
+.chip-bti svg { width: 11px; height: 11px; pointer-events: none; }
+.chip-bti.bm:hover, .chip-bti.bm.on { border-color: var(--mark-bdr); color: var(--mark); background: var(--mark-bg); }
+.chip-bti.ck:hover, .chip-bti.ck.on { border-color: var(--done-bdr); color: var(--done); background: var(--done-bg); }
+
+.c-foot {
+  padding: 11px 15px; display: flex; align-items: center; justify-content: flex-end;
+  border-top: 1px solid var(--border); margin-top: 10px;
+}
+.bpcnt { font-size: 0.82rem; font-weight: 500; color: var(--tx-s); }
+
+/* ── Empty state ────────────────────────────────────────── */
+.empty { padding: 80px 20px; text-align: center; color: var(--tx-s); display: none; }
+.empty.on { display: block; }
+.empty h2 { font-size: 1.2rem; font-weight: 700; color: var(--tx-s); margin-bottom: 10px; }
+.empty p { font-size: 0.95rem; }
+
+/* ── Toast notification ─────────────────────────────────── */
+.toast {
+  position: fixed; bottom: 20px; right: 20px; background: var(--bg2); border: 2px solid var(--border); border-left: 4px solid var(--accent); color: var(--tx-h);
+  font-family: var(--font); font-size: 0.92rem; font-weight: 600; padding: 12px 18px; border-radius: var(--rad); box-shadow: 0 8px 32px rgba(0,0,0,0.5); z-index: 9999;
+  transform: translateY(80px); opacity: 0; transition: all 0.28s cubic-bezier(.22,.68,0,1.2); pointer-events: none; max-width: 340px;
+}
+.toast.on { transform: translateY(0); opacity: 1; }
+
+/* ── Scrollbar ──────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: rgba(120,140,185,0.22); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(120,140,185,0.4); }
+
+/* ── Bulk action bar ────────────────────────────────────── */
+.bulk-bar { margin: 0 auto; padding: 8px 20px; display: none; align-items: center; gap: 10px; flex-wrap: wrap; background: var(--accent-bg); border-bottom: 1px solid var(--accent-bdr); }
+.bulk-bar.on { display: flex; }
+.bulk-msg { font-size: 0.88rem; font-weight: 600; color: var(--tx-h); flex: 1; }
+.bulk-btn {
+  padding: 7px 14px; min-height: 36px; border: 2px solid var(--border); background: #00000021; color: var(--tx-s);
+  font-family: var(--font); font-size: 0.85rem; font-weight: 600; cursor: pointer; border-radius: var(--rad-sm); transition: all var(--ease);
+}
+.bulk-btn:hover { border-color: var(--accent-bdr); color: var(--accent); background: rgba(58,150,244,0.1); }
+.bulk-btn.done-all:hover { border-color: var(--done-bdr); color: var(--done); background: var(--done-bg); }
+.bulk-btn.clear-all:hover { border-color: var(--danger-bdr); color: var(--danger); background: var(--danger-bg); }
+
+/* ── Modal ──────────────────────────────────────────────── */
+.modal-wrap { position: fixed; inset: 0; background: rgba(0,0,0,0.7); backdrop-filter: blur(4px); z-index: 1000; display: none; align-items: center; justify-content: center; padding: 20px; opacity: 0; transition: opacity var(--ease); }
+.modal-wrap.open { display: flex; opacity: 1; }
+.modal-inner { background: var(--bg2); border: 2px solid var(--border); border-radius: var(--rad-lg); width: 100%; max-width: 60vw; max-height: 90vh; display: flex; flex-direction: column; box-shadow: 0 20px 60px rgba(0,0,0,0.6); transform: translateY(20px); transition: transform var(--ease); }
+.modal-wrap.open .modal-inner { transform: translateY(0); }
+.m-head { padding: 16px 20px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+.m-head h3 { font-size: 1.1rem; color: var(--tx-h); font-weight: 700; margin: 0; }
+.m-close { background: transparent; border: none; color: var(--tx-s); cursor: pointer; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: var(--rad-sm); transition: background var(--ease), color var(--ease); }
+.m-close:hover { background: var(--danger-bg); color: var(--danger); }
+.m-close svg { width: 18px; height: 18px; }
+.m-body { padding: 20px; overflow-y: auto; color: var(--tx); font-size: 0.95rem; line-height: 1.6; }
+.m-body h4 { color: var(--tx-h); margin: 16px 0 8px; font-size: 1rem; margin-top: 30px; }
+.m-body ul { margin-left: 20px; margin-bottom: 16px; margin-top: 10px; }
+.m-body li { margin-bottom: 6px; }
+
+/* ── Responsive ─────────────────────────────────────────── */
+@media (max-width: 960px) { .hd-stats { display: none; } .sys-chips { display: none; } .grid { grid-template-columns: 1fr; } }
+@media (max-width: 640px) { .ctrl-inner { gap: 8px; } .ftabs { order: 2; width: 100%; } .sort-sel { display: none; } .hd-inner { gap: 12px; } .hd-title { font-size: 1rem; } }
+</style>
+</head>
+<body>
+
+<div id="loading">
+  <div>
+    <div class="ld-logo">Bauplan <span>DB</span></div>
+    <div class="ld-sub">Star Citizen Deutsch · github/rjcncpt</div>
+  </div>
+  <div class="ld-bar"><div class="ld-fill"></div></div>
+  <div class="ld-msg" id="ld-msg">Verbinde mit GitHub...</div>
+  <div class="ld-error" id="ld-err"></div>
+</div>
+
+<div id="app" style="display:none">
+
+<header>
+  <div class="hd-inner">
+    <div class="hd-brand">
+      <div class="hd-icon">📋</div>
+      <div class="hd-title">
+        Baupläne DB
+        <span>Star Citizen Deutsch · github/rjcncpt</span>
+      </div>
+    </div>
+    <div class="hd-sep"></div>
+    <div class="hd-stats">
+      <div class="hd-stat"><span class="hd-stat-n" id="sn-total">—</span><span>Gesamt</span></div>
+      <div class="hd-stat"><span class="hd-stat-n" id="sn-open">—</span><span>Offen</span></div>
+      <div class="hd-stat"><span class="hd-stat-n c-mark" id="sn-marked">—</span><span>Vorgemerkt</span></div>
+      <div class="hd-stat"><span class="hd-stat-n c-done" id="sn-done">—</span><span>Erledigt</span></div>
+    </div>
+    <div class="hd-right">
+      <span class="ver-tag" id="ver-tag"></span>
+      <a href="https://scmdb.net/" target="_blank" rel="noopener noreferrer" class="ver-tag">Daten von scmdb.net</a>
+      <button class="btn" onclick="openHelpModal()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+        </svg>
+        Hilfe
+      </button>
+      <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI" target="_blank" rel="noopener noreferrer" class="btn github">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+        </svg>
+        GitHub
+      </a>
+      <button class="btn" onclick="doRefresh()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
+          <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+        </svg>
+        Aktualisieren
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="ctrl-wrap">
+  <div class="ctrl-inner">
+    <div class="search-wrap" id="s-wrap">
+      <svg class="s-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <input type="text" class="search-in" id="s-in" placeholder="Bauplan, Mission, Region suchen…" oninput="onSearch(this.value)">
+      <button class="search-clear" onclick="clearSearch()" title="Suche löschen">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="ftabs" id="ftabs">
+      <button class="ftab active"   data-f="all"      onclick="setF('all')">Alle</button>
+      <button class="ftab"          data-f="open"     onclick="setF('open')">Offen</button>
+      <button class="ftab t-mark"   data-f="marked"   onclick="setF('marked')">Vorgemerkt</button>
+      <button class="ftab t-done"   data-f="done"     onclick="setF('done')">Erledigt</button>
+    </div>
+
+    <div class="sys-chips" id="sys-chips">
+      <button class="sys-chip active" data-s="all"     onclick="setSys('all')">Alle Systeme</button>
+      <button class="sys-chip sc-stanton" data-s="stanton" onclick="setSys('stanton')">Stanton</button>
+      <button class="sys-chip sc-pyro"    data-s="pyro"    onclick="setSys('pyro')">Pyro</button>
+      <button class="sys-chip sc-nyx"     data-s="nyx"     onclick="setSys('nyx')">Nyx</button>
+      <button class="sys-chip sc-both"    data-s="both"    onclick="setSys('both')">Stanton + Pyro</button>
+    </div>
+
+    <select class="sort-sel" id="sort-sel" onchange="setSort(this.value)">
+      <option value="title">Titel A→Z</option>
+      <option value="system">System</option>
+      <option value="bpcount">Bauplan-Anzahl</option>
+    </select>
+
+    <span class="res-count" id="res-cnt"></span>
+
+    <div class="ctrl-right">
+      <div class="exp-wrap">
+        <button class="btn btn-primary" onclick="toggleExpMenu()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7,10 12,15 17,10"/><line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Export
+        </button>
+        <div class="exp-menu" id="exp-menu">
+          <button class="exp-item" onclick="exportJson('all')">Alle als JSON</button>
+          <button class="exp-item" onclick="exportCsv()">Alle als CSV</button>
+          <div class="exp-sep"></div>
+          <button class="exp-item" onclick="exportJson('marked')">Vorgemerkte als JSON</button>
+          <button class="exp-item" onclick="exportJson('done')">Erledigte als JSON</button>
+          <div class="exp-sep"></div>
+          <button class="exp-item danger" onclick="clearAllState()">Alle Status zurücksetzen</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bulk-bar" id="bulk-bar">
+    <span class="bulk-msg" id="bulk-msg"></span>
+    <button class="bulk-btn done-all" onclick="bulkDone()">Alle als erledigt markieren</button>
+    <button class="bulk-btn" onclick="bulkMark()">Alle vormerken</button>
+    <button class="bulk-btn clear-all" onclick="bulkClear()">Status dieser Ansicht löschen</button>
+  </div>
+</div>
+
+<div class="main">
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty">
+    <h2>KEINE EINTRÄGE GEFUNDEN</h2>
+    <p>Suchbegriff anpassen oder Filter zurücksetzen.</p>
+  </div>
+  <div id="scroll-sentinel" style="height: 20px;"></div>
+</div>
+
+</div>
+
+<div class="modal-wrap" id="help-modal" onclick="if(event.target===this) closeHelpModal()">
+  <div class="modal-inner">
+    <div class="m-head">
+      <h3>Anleitung: Baupläne DB & SCD-Launcher</h3>
+      <button class="m-close" onclick="closeHelpModal()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="m-body">
+      <p>Willkommen in der Baupläne-Datenbank. Hier kannst du deinen Fortschritt beim Sammeln von Bauplänen verfolgen.</p>
+      
+      <h4>Baupläne im Spiel aktivieren (SC Deutsch Launcher):</h4>
+      <p>Damit die Baupläne im Spiel angezeigt werden, befolge folgende Schritte:</p>
+      <ul>
+        <li>Lade den SC Deutsch Launcher herunter, installiere ihn und aktualisiere die Übersetzung.</li>
+        <li>Klicke im Hauptfenster auf das <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6c5c0fd7bb53fa4c628380a546605058bcb9ac3dd15c727756cb894193208695/68747470733a2f2f7777772e73632d646575747363682d6c61756e636865722e64652f696d672f66656174757265732f626c75657072696e74732f696e6a656374696f6e735f69636f6e2e706e673f31"><img width="27" alt="image" src="https://camo.githubusercontent.com/6c5c0fd7bb53fa4c628380a546605058bcb9ac3dd15c727756cb894193208695/68747470733a2f2f7777772e73632d646575747363682d6c61756e636865722e64652f696d672f66656174757265732f626c75657072696e74732f696e6a656374696f6e735f69636f6e2e706e673f31" data-canonical-src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" style="max-width: 100%;"></a>-Icon in der Titelleiste</li>
+        <li>Klicke auf den <strong>"Baupläne injizieren"</strong>-Button – fertig!</li>
+      </ul>
+
+      <h4>Grundfunktionen:</h4>
+      <ul>
+        <li><strong>Suchen & Filtern:</strong> Nutze die Suchleiste oder die System-Filter, um gezielt nach Missionen oder Regionen zu suchen.</li>
+        <li><strong>Status setzen:</strong> Klicke bei einem Bauplan auf das Häkchen (Erledigt) oder das Lesezeichen (Vorgemerkt).</li>
+        <li><strong>Massenauswahl:</strong> Sobald du einen Filter aktivierst oder die Suche nutzt, erscheint eine Leiste, um alle gefilterten Baupläne auf einmal zu markieren.</li>
+      </ul>
+      <h4>Speicherung & Export:</h4>
+      <ul>
+        <li>Dein Fortschritt wird lokal in deinem Browser gespeichert.</li>
+        <li>Nutze den <strong>Export-Button</strong>, um deinen Fortschritt als JSON oder CSV lokal zu sichern.</li>
+        <li>Wir testen eine Funktion im SC Deutsch Launcher, mit der exportierte, erledigte Baupläne importiert und im Spiel als "erledigt" markiert werden können.</li>
+      </ul>
+
+      <div style="margin-top: 24px; padding: 14px; background: rgba(255,255,255,0.03); border-radius: var(--rad-sm); border: 1px solid var(--border); display: flex; align-items: center; gap: 14px;">
+        <svg style="width: 42px; height: 42px; color: #ff5e5b; flex-shrink: 0;" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20.9 5.38a4.93 4.93 0 0 0-4.04-3.32C15.63 1.9 14 1.84 14 1.84H4.51C3.68 1.84 3 2.5 3 3.32v12.45c0 .83.67 1.48 1.5 1.48h8.48c1.35 0 2.57-.46 3.55-1.23a6.83 6.83 0 0 0 4.14-3.5 5.04 5.04 0 0 0 .23-7.14zm-3.4 5.67a3.86 3.86 0 0 1-2.28 2.05c.42-.58.74-1.25.9-1.97h1.4c.54 0 .97-.43.97-.96 0-.52-.43-.95-.97-.95h-1.63a4.7 4.7 0 0 0-.25-1.26h2.15c1.07 0 1.93.85 1.93 1.9 0 .82-.47 1.55-1.22 1.81z"/>
+          <path d="M4 19h14v2H4z"/>
+        </svg>
+        <div>
+          <h4 style="margin: 0 0 4px 0;">Unterstütze das Projekt</h4>
+          <p style="margin: 0 0 10px 0; font-size: 0.85rem; color: var(--tx-s); line-height: 1.4;">Wenn dir die Star Citizen Übersetzung und die Bauplan-Integration gefällt, freuen wir uns riesig über einen Kaffee auf Ko-fi!</p>
+          <a href="https://ko-fi.com/scdeutsch" target="_blank" style="display: inline-block; color: #fff; background: #13C3FF; text-decoration: none; padding: 6px 14px; border-radius: 99px; font-weight: 700; font-size: 0.85rem; transition: filter var(--ease);" onmouseover="this.style.filter='brightness(1.1)'" onmouseout="this.style.filter='none'">Auf Ko-fi unterstützen</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// ── URLs & Storage Keys ──────────────────────────────────
+const URL_JSON   = 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/refs/heads/main/blueprints/Data/bp-contracts_short.json';
+const URL_TITLES = 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/refs/heads/main/blueprints/bp_titles_log.txt';
+
+const LS_DONE     = 'sc_bp_done_bp_v2';
+const LS_MARKED   = 'sc_bp_marked_bp_v2';
+const LS_CACHE    = 'sc_bp_cache_v1';
+
+// ── App State ────────────────────────────────────────────
+let entries       = [];
+let bpCards       = [];
+let sortedBpCards = [];
+let filteredCards = [];
+let titleMap      = {};
+let doneSet       = new Set();
+let markSet       = new Set();
+let fStatus       = 'all';
+let fSys          = 'all';
+let fQuery        = '';
+let sortKey       = 'title';
+
+// Auto-Load Setup
+let currentRenderCount = 0;
+const INITIAL_BATCH = 15; // ca. 5 Reihen (bei 3 Cards pro Reihe)
+const SCROLL_BATCH  = 6;  // ca. 2 Reihen (bei 3 Cards pro Reihe)
+
+// ── LocalStorage (no expiry) ─────────────────────────────
+function lsLoad() {
+  try {
+    const d = localStorage.getItem(LS_DONE);
+    const m = localStorage.getItem(LS_MARKED);
+    if (d) doneSet = new Set(JSON.parse(d));
+    if (m) markSet = new Set(JSON.parse(m));
+  } catch (e) { /* ignore */ }
+}
+
+function lsSave() {
+  try {
+    localStorage.setItem(LS_DONE,   JSON.stringify([...doneSet]));
+    localStorage.setItem(LS_MARKED, JSON.stringify([...markSet]));
+  } catch (e) { /* quota, ignore */ }
+}
+
+// ── Data Loading ─────────────────────────────────────────
+function setMsg(t) {
+  const el = document.getElementById('ld-msg');
+  if (el) el.textContent = t;
+}
+
+async function loadData(force = false) {
+  setMsg('Lade Daten von GitHub…');
+
+  if (!force) {
+    const raw = localStorage.getItem(LS_CACHE);
+    if (raw) {
+      try {
+        const c = JSON.parse(raw);
+        if (Date.now() - c.ts < 3_600_000) {
+          entries  = c.entries;
+          titleMap = c.titleMap;
+          applyMeta(c.meta);
+          setMsg('Cache geladen ✓');
+          return;
+        }
+      } catch (e) { /* stale */ }
+    }
+  }
+
+  try {
+    setMsg('Lade Blueprints von GitHub…');
+    const [rj, rt] = await Promise.all([fetch(URL_JSON), fetch(URL_TITLES)]);
+    if (!rj.ok) throw new Error('JSON ' + rj.status);
+    if (!rt.ok) throw new Error('Titles ' + rt.status);
+
+    setMsg('Verarbeite Daten…');
+    const [jd, tt] = await Promise.all([rj.json(), rt.text()]);
+
+    titleMap = parseTitles(tt);
+    entries  = (jd.entries || []).map((e, i) => ({
+      ...e,
+      _k: e.descriptionLocKey || e.titleLocKey || ('entry_' + i)
+    }));
+
+    const meta = jd._meta || {};
+    applyMeta(meta);
+
+    try {
+      localStorage.setItem(LS_CACHE, JSON.stringify({ ts: Date.now(), entries, titleMap, meta }));
+    } catch (e) { /* quota */ }
+
+    setMsg('Fertig ✓');
+  } catch (err) {
+    console.error(err);
+    const raw = localStorage.getItem(LS_CACHE);
+    if (raw) {
+      try {
+        const c = JSON.parse(raw);
+        entries  = c.entries;
+        titleMap = c.titleMap;
+        applyMeta(c.meta);
+        showToast('GitHub offline – verwende Cache', 'warn');
+        return;
+      } catch (e) { /* give up */ }
+    }
+    const errEl = document.getElementById('ld-err');
+    if (errEl) { errEl.style.display = 'block'; errEl.textContent = 'Fehler: ' + err.message + '\nBitte Internetverbindung prüfen und Seite neu laden.'; }
+    setMsg('Ladefehler');
+    throw err;
+  }
+}
+
+function applyMeta(meta) {
+  if (!meta) return;
+  const vtag = document.getElementById('ver-tag');
+  if (vtag && meta.version_patch) vtag.textContent = meta.version_patch;
+}
+
+function parseTitles(text) {
+  const map = {};
+  for (const line of text.split('\n')) {
+    const t = line.trim();
+    if (!t || t.startsWith('=') || t.startsWith('Generiert') || t.startsWith('Quelle') || t.startsWith('GitHub')) continue;
+    const eq = t.indexOf('=');
+    if (eq <= 0) continue;
+    const k = t.slice(0, eq).trim().toLowerCase();
+    const v = t.slice(eq + 1).trim();
+    if (k && v) map[k] = v;
+  }
+  return map;
+}
+
+// ── Entry Helpers ────────────────────────────────────────
+function getTitle(e) {
+  const k = (e.titleLocKey || '').toLowerCase();
+  if (titleMap[k]) return titleMap[k];
+  const raw = e.titleLocKey || e.descriptionLocKey || 'Unbekannte Mission';
+  return raw.replace(/_/g, ' ').replace(/\s*(title|desc)\s*\d*$/i, '').trim();
+}
+
+function getLoc(e) {
+  return e.prerequisites?.locality?.[0]?.name || '';
+}
+
+const LOC_MAP = {
+  RegionA:'Pyro Region A', RegionB:'Pyro Region B', RegionC:'Pyro Region C', RegionD:'Pyro Region D',
+  Stanton1:'Stanton 1 (Hurston)', Stanton2:'Stanton 2 (Crusader)', Stanton3:'Stanton 3 (ArcCorp)', Stanton4:'Stanton 4 (microTech)',
+  Stanton:'Stanton', Pyro:'Pyro', Nyx:'Nyx',
+  Pyro1:'Pyro 1', Pyro2:'Pyro 2 (Monox)', Pyro3:'Pyro 3 (Bloom)', Pyro4:'Pyro 4', Pyro5:'Pyro 5', Pyro6:'Pyro 6 (Terminus)',
+  StantonAndNyx:'Stanton + Nyx', StantonAndPyro:'Stanton + Pyro',
+};
+
+function fmtLoc(s) {
+  if (!s) return '—';
+  return s.split(', ').map(t => LOC_MAP[t.trim()] || t.trim()).join(', ');
+}
+
+function getSys(locStr) {
+  if (!locStr) return 'other';
+  const hasS = /Stanton/i.test(locStr);
+  const hasP = /Pyro|Region[ABCD]/i.test(locStr);
+  const hasN = /Nyx/i.test(locStr);
+  if (hasS && hasP) return 'both';
+  if (hasP) return 'pyro';
+  if (hasS) return 'stanton';
+  if (hasN) return 'nyx';
+  return 'other';
+}
+
+const SYS_LABEL = { stanton:'Stanton', pyro:'Pyro', nyx:'Nyx', both:'Stan+Pyro', other:'—' };
+const SYS_CLASS = { stanton:'sb-stanton', pyro:'sb-pyro', nyx:'sb-nyx', both:'sb-both', other:'sb-other' };
+
+function esc(s) {
+  if (s == null) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Pool Card Helpers ─────────────────────────────────────
+function buildPoolCards(rawEntries) {
+  const out = [];
+  let idx = 0;
+  for (const e of rawEntries) {
+    for (const v of (e.variants || [])) {
+      if (v.reward_items && v.reward_items.length > 0) {
+        out.push({ _entry: e, _variant: v, _idx: idx++ });
+      }
+    }
+  }
+  return out;
+}
+
+function buildKeyBadges(rawKey) {
+  if (!rawKey) return '';
+  const matches = rawKey.match(/\(([^)]+)\)/g);
+  if (!matches) return '';
+  return matches.map(m => {
+    const content = m.slice(1, -1).trim();
+    const label = LOC_MAP[content] || content;
+    return `<span class="sys-badge sb-other">${esc(label)}</span>`;
+  }).join('');
+}
+
+function buildStandBadges(standingLabel) {
+  if (!standingLabel || standingLabel === 'Keine Angaben') return '';
+  const parts = standingLabel.split('/').map(s => s.trim()).filter(Boolean);
+  
+  if (parts.length === 2) {
+    return `<span style="font-size:0.8rem; color:var(--tx-s); font-weight:600;">Min. Rep.:</span> <span class="v-stand" title="Reputation">${esc(parts[0])}</span> ` +
+           `<span style="font-size:0.8rem; color:var(--tx-s); font-weight:600;">Max. Rep.:</span> <span class="v-stand" title="Reputation">${esc(parts[1])}</span>`;
+  } else {
+    // Fallback für 1 Wert oder >2 Werte
+    return parts.map(s => `<span class="v-stand" title="Reputation">${esc(s)}</span>`).join(' ');
+  }
+}
+
+function buildUecBadges(rewardStr) {
+  if (!rewardStr) return '';
+  // Bereinige den String von eventuellem " aUEC" am Ende, damit wir es sauber jedem Wert hinzufügen können
+  const cleanStr = String(rewardStr).replace(/aUEC/gi, '').trim();
+  const parts = cleanStr.split('/').map(s => s.trim()).filter(Boolean);
+  
+  return parts.map(p => `<span class="v-uec" title="Gilt für die ${esc(p)} aUEC Mission">${esc(p)} aUEC</span>`).join(' ');
+}
+
+function updateCardState(cardEl) {
+  const bps = [...cardEl.querySelectorAll('.chip-row')].map(el => el.dataset.bp);
+  const allDone = bps.length > 0 && bps.every(b => doneSet.has(b));
+  const anyMark = bps.some(b => markSet.has(b));
+  cardEl.classList.toggle('done', allDone);
+  cardEl.classList.toggle('marked', anyMark);
+}
+
+// ── Card Rendering ────────────────────────────────────────
+function buildCard(pc) {
+  const e      = pc._entry;
+  const v      = pc._variant;
+  const totalBpCount = v.reward_items ? v.reward_items.length : 0;
+  
+  // Use pre-filtered visible chips ONLY
+  const visibleBps = pc._visibleChips || [];
+  
+  const title  = getTitle(e);
+  const loc    = getLoc(e);
+  const locFmt = fmtLoc(loc);
+  const sys    = getSys(loc);
+
+  const allDone = visibleBps.length > 0 && visibleBps.every(b => doneSet.has(b));
+  const anyMark = visibleBps.some(b => markSet.has(b));
+  const cls = ['card', allDone ? 'done' : '', anyMark ? 'marked' : ''].filter(Boolean).join(' ');
+
+  let sysBadgesHtml = sys === 'both' 
+    ? `<span class="sys-badge sb-stanton">Stanton</span><span class="sys-badge sb-pyro">Pyro</span>` 
+    : `<span class="sys-badge ${SYS_CLASS[sys]}">${SYS_LABEL[sys]}</span>`;
+
+  const keyBadgesHtml   = buildKeyBadges(e.titleLocKey || e.descriptionLocKey || '');
+  const standBadgesHtml = buildStandBadges(v.standing_label);
+  const uecBadgesHtml   = buildUecBadges(v.rewardUEC);
+  const haulBadge       = (v.haulingOrders && v.haulingOrders.length) ? `<span class="v-haul">Abgabe</span>` : '';
+
+  const chips = visibleBps.map(bp => {
+    const bpDone = doneSet.has(bp);
+    const bpMark = markSet.has(bp);
+    const rowCls = ['chip-row', bpDone ? 'bp-done' : '', bpMark ? 'bp-marked' : ''].filter(Boolean).join(' ');
+    return `<div class="${rowCls}" data-bp="${esc(bp)}">
+      <span class="chip-name" data-action="search-bp" data-bp="${esc(bp)}">${esc(bp)}</span>
+      <button class="chip-bti bm${bpMark ? ' on' : ''}" data-action="chip-mark" data-bp="${esc(bp)}" title="Vormerken">
+        <svg viewBox="0 0 24 24" fill="${bpMark ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+      </button>
+      <button class="chip-bti ck${bpDone ? ' on' : ''}" data-action="chip-done" data-bp="${esc(bp)}" title="Erledigt">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20,6 9,17 4,12"/></svg>
+      </button>
+    </div>`;
+  }).join('');
+
+  return `<div class="${cls}" data-key="${pc._idx}">
+    <div class="c-top">
+      <div class="c-badges">
+        ${sysBadgesHtml}
+        ${keyBadgesHtml}
+        <span class="loc-label" title="${esc(locFmt)}">${esc(locFmt)}</span>
+      </div>
+    </div>
+    <div class="c-title">${esc(title)}</div>
+    <div class="c-variants">
+      <div class="vgroup">
+        <div class="vmeta">${uecBadgesHtml} </div>
+        <div class="chips">${chips}</div>
+      </div>
+    </div>
+    <div class="c-foot">
+      <span class="bpcnt">${totalBpCount} Bauplan${totalBpCount !== 1 ? 'e' : ''} (gesamt)</span>
+    </div>
+  </div>`;
+}
+
+// Initializes Data
+function getUecNum(variant) {
+  if (!variant || !variant.rewardUEC) return 0;
+  // Entfernt Punkte, Kommas und Leerzeichen, greift dann die erste Zahl
+  const match = String(variant.rewardUEC).replace(/[.,\s]/g, '').match(/\d+/);
+  return match ? parseInt(match[0], 10) : 0;
+}
+
+// Initializes Data
+function prepareData() {
+  bpCards = buildPoolCards(entries);
+
+  // Sorting
+  sortedBpCards = [...bpCards].sort((a, b) => {
+    const titleA = getTitle(a._entry);
+    const titleB = getTitle(b._entry);
+    // Wenn Titel identisch sind, sortiere aufsteigend nach aUEC
+    const uecDiff = getUecNum(a._variant) - getUecNum(b._variant);
+
+    if (sortKey === 'title') {
+      const cmp = titleA.localeCompare(titleB, 'de');
+      return cmp !== 0 ? cmp : uecDiff;
+      
+    } else if (sortKey === 'system') {
+      const o = { stanton:0, both:1, pyro:2, nyx:3, other:4 };
+      const cmp = (o[getSys(getLoc(a._entry))] ?? 4) - (o[getSys(getLoc(b._entry))] ?? 4);
+      if (cmp !== 0) return cmp;
+      
+      const cmpTitle = titleA.localeCompare(titleB, 'de');
+      return cmpTitle !== 0 ? cmpTitle : uecDiff;
+      
+    } else {
+      const cmp = (b._variant.reward_items?.length || 0) - (a._variant.reward_items?.length || 0);
+      if (cmp !== 0) return cmp;
+      
+      const cmpTitle = titleA.localeCompare(titleB, 'de');
+      return cmpTitle !== 0 ? cmpTitle : uecDiff;
+    }
+  });
+
+  applyFilters();
+}
+
+// ── Filters & Rendering ───────────────────────────────────────────────
+function applyFilters() {
+  const q = fQuery.toLowerCase().trim();
+  let visChipsCount = 0;
+
+  // Filter Data Level
+  filteredCards = sortedBpCards.filter(pc => {
+    const bps = pc._variant.reward_items || [];
+    const validChips = [];
+    
+    bps.forEach(bp => {
+       const isDone = doneSet.has(bp);
+       const isMarked = markSet.has(bp);
+       
+       let sm = true;
+       if (fStatus === 'done') sm = isDone;
+       else if (fStatus === 'marked') sm = isMarked;
+       else if (fStatus === 'open') sm = !isDone;
+       
+       let qm = true;
+       if (q) {
+         const cardMatches = getTitle(pc._entry).toLowerCase().includes(q) || getLoc(pc._entry).toLowerCase().includes(q);
+         const chipMatches = bp.toLowerCase().includes(q);
+         qm = cardMatches || chipMatches;
+       }
+       
+       if (sm && qm) {
+         validChips.push(bp);
+       }
+    });
+    
+    pc._visibleChips = validChips;
+    
+    const sys = getSys(getLoc(pc._entry));
+    let sys_m = (fSys === 'all') || (sys === fSys);
+    
+    // Only include cards with matching systems AND matching chips
+    if (sys_m && validChips.length > 0) {
+        visChipsCount += validChips.length;
+        return true;
+    }
+    return false;
+  });
+
+  // Update Stats UI
+  const cnt = document.getElementById('res-cnt');
+  if (cnt) cnt.textContent = `${visChipsCount} Baupläne (in ${filteredCards.length} Missionen)`;
+
+  const empty = document.getElementById('empty');
+  if (empty) empty.classList.toggle('on', filteredCards.length === 0);
+
+  const bb = document.getElementById('bulk-bar');
+  const bm = document.getElementById('bulk-msg');
+  if (bb && bm) {
+    if (visChipsCount > 0) {
+      bb.classList.add('on');
+      bm.textContent = `${visChipsCount} Baupläne in aktueller Ansicht`;
+    } else {
+      bb.classList.remove('on');
+    }
+  }
+
+  updateStats();
+
+  // Reset and load first batch
+  document.getElementById('grid').innerHTML = '';
+  currentRenderCount = 0;
+  renderNextBatch(INITIAL_BATCH);
+}
+
+function renderNextBatch(limit) {
+  const grid = document.getElementById('grid');
+  const start = currentRenderCount;
+  const end = Math.min(start + limit, filteredCards.length);
+  
+  if (start >= end) return;
+  
+  let html = '';
+  for (let i = start; i < end; i++) {
+    html += buildCard(filteredCards[i]);
+  }
+  
+  const wrap = document.createElement('div');
+  wrap.innerHTML = html;
+  while(wrap.firstChild) {
+     grid.appendChild(wrap.firstChild);
+  }
+  
+  currentRenderCount = end;
+}
+
+// ── UI Filter Callbacks ──────────────────────────────────
+function onSearch(v) { 
+  fQuery = v; 
+  document.getElementById('s-wrap')?.classList.toggle('has-val', v.length > 0);
+  applyFilters(); 
+}
+
+function clearSearch() {
+  const si = document.getElementById('s-in');
+  if (si) { 
+    si.value = ''; 
+    onSearch(''); 
+    si.focus();
+  }
+}
+
+function setF(f) {
+  fStatus = f;
+  document.querySelectorAll('.ftab').forEach(t => t.classList.toggle('active', t.dataset.f === f));
+  applyFilters();
+}
+function setSys(s) {
+  fSys = s;
+  document.querySelectorAll('.sys-chip').forEach(c => c.classList.toggle('active', c.dataset.s === s));
+  applyFilters();
+}
+function setSort(v) { sortKey = v; prepareData(); }
+
+function updateStats() {
+  const allBpKeys  = new Set(bpCards.flatMap(pc => pc._variant.reward_items || []));
+  const totalUniq  = allBpKeys.size;
+  const doneCount  = [...doneSet].filter(k => allBpKeys.has(k)).length;
+  const markCount  = [...markSet].filter(k => allBpKeys.has(k)).length;
+  const openCount  = totalUniq - doneCount;
+  const set = (n, v) => { const el = document.getElementById(n); if (el) el.textContent = v; };
+  set('sn-total',  totalUniq);
+  set('sn-done',   doneCount);
+  set('sn-marked', markCount);
+  set('sn-open',   openCount);
+}
+
+// ── Card Actions (Event Delegation) ──────────────────────
+document.addEventListener('click', e => {
+  if (!e.target.closest('.exp-wrap')) {
+    document.getElementById('exp-menu')?.classList.remove('open');
+  }
+
+  const ae = e.target.closest('[data-action]');
+  if (!ae) return;
+  const action = ae.dataset.action;
+
+  if (action === 'chip-mark') {
+    const bp = ae.dataset.bp;
+    const wasOn = markSet.has(bp);
+    
+    if (wasOn) {
+      markSet.delete(bp);
+    } else {
+      markSet.add(bp);
+      doneSet.delete(bp); // Schließt 'Erledigt' aus
+    }
+    
+    // Smooth DOM Update without reloading batch list
+    document.querySelectorAll(`.chip-row[data-bp="${CSS.escape(bp)}"]`).forEach(cr => {
+      cr.classList.toggle('bp-marked', !wasOn);
+      cr.classList.remove('bp-done'); // Visuellen Erledigt-Status entfernen
+      
+      const btnM = cr.querySelector('.chip-bti.bm');
+      if (btnM) { btnM.classList.toggle('on', !wasOn); btnM.querySelector('svg')?.setAttribute('fill', !wasOn ? 'currentColor' : 'none'); }
+      cr.querySelector('.chip-bti.ck')?.classList.remove('on'); // Erledigt-Button zurücksetzen
+    });
+    document.querySelectorAll('#grid .card').forEach(updateCardState);
+    lsSave(); updateStats();
+
+  } else if (action === 'chip-done') {
+    const bp = ae.dataset.bp;
+    const wasOn = doneSet.has(bp);
+    
+    if (wasOn) {
+      doneSet.delete(bp);
+    } else {
+      doneSet.add(bp);
+      markSet.delete(bp); // Schließt 'Vorgemerkt' aus
+    }
+    
+    // Smooth DOM Update without reloading batch list
+    document.querySelectorAll(`.chip-row[data-bp="${CSS.escape(bp)}"]`).forEach(cr => {
+      cr.classList.toggle('bp-done', !wasOn);
+      cr.classList.remove('bp-marked'); // Visuellen Vorgemerkt-Status entfernen
+      
+      cr.querySelector('.chip-bti.ck')?.classList.toggle('on', !wasOn);
+      const btnM = cr.querySelector('.chip-bti.bm');
+      if (btnM) { btnM.classList.remove('on'); btnM.querySelector('svg')?.setAttribute('fill', 'none'); } // Vorgemerkt-Button zurücksetzen
+    });
+    document.querySelectorAll('#grid .card').forEach(updateCardState);
+    lsSave(); updateStats();
+
+  } else if (action === 'chip-done') {
+    const bp = ae.dataset.bp;
+    const wasOn = doneSet.has(bp);
+    wasOn ? doneSet.delete(bp) : doneSet.add(bp);
+    
+    // Smooth DOM Update without reloading batch list
+    document.querySelectorAll(`.chip-row[data-bp="${CSS.escape(bp)}"]`).forEach(cr => {
+      cr.classList.toggle('bp-done', !wasOn);
+      cr.querySelector('.chip-bti.ck')?.classList.toggle('on', !wasOn);
+    });
+    document.querySelectorAll('#grid .card').forEach(updateCardState);
+    lsSave(); updateStats();
+
+  } else if (action === 'search-bp') {
+    const bp = ae.dataset.bp;
+    const si = document.getElementById('s-in');
+    if (si) { si.value = bp; onSearch(bp); }
+    si?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+});
+
+// ── Bulk Actions ─────────────────────────────────────────
+function getVisibleBpKeys() {
+  const seen = new Set();
+  filteredCards.forEach(pc => pc._visibleChips.forEach(bp => seen.add(bp)));
+  return [...seen];
+}
+
+function bulkDone() {
+  const bpKeys = getVisibleBpKeys();
+  bpKeys.forEach(bp => doneSet.add(bp));
+  lsSave(); applyFilters();
+  showToast(`${bpKeys.length} Baupläne als erledigt markiert`);
+}
+
+function bulkMark() {
+  const bpKeys = getVisibleBpKeys();
+  bpKeys.forEach(bp => markSet.add(bp));
+  lsSave(); applyFilters();
+  showToast(`${bpKeys.length} Baupläne vorgemerkt`);
+}
+
+function bulkClear() {
+  if (!confirm(`Status aller sichtbaren Baupläne zurücksetzen?`)) return;
+  const bpKeys = getVisibleBpKeys();
+  bpKeys.forEach(bp => { doneSet.delete(bp); markSet.delete(bp); });
+  lsSave(); applyFilters();
+  showToast(`${bpKeys.length} Status gelöscht`);
+}
+
+function clearAllState() {
+  document.getElementById('exp-menu')?.classList.remove('open');
+  if (!confirm('Alle Fortschritte (Erledigt & Vorgemerkt) löschen?')) return;
+  doneSet.clear(); markSet.clear(); lsSave();
+  applyFilters();
+  showToast('Alle Status zurückgesetzt');
+}
+
+// ── Export ────────────────────────────────────────────────
+function toggleExpMenu() {
+  document.getElementById('exp-menu')?.classList.toggle('open');
+}
+
+function exportJson(mode) {
+  document.getElementById('exp-menu')?.classList.remove('open');
+  const allBpKeys = new Set(bpCards.flatMap(pc => pc._variant.reward_items || []));
+  let srcBps = [...allBpKeys];
+  if (mode === 'marked') srcBps = srcBps.filter(bp => markSet.has(bp));
+  if (mode === 'done')   srcBps = srcBps.filter(bp => doneSet.has(bp));
+
+  const out = {
+    exported:   new Date().toISOString(),
+    mode:       mode === 'all' ? 'vollständig' : mode === 'marked' ? 'vorgemerkt' : 'erledigt',
+    total:      srcBps.length,
+    done_count: [...doneSet].filter(k => allBpKeys.has(k)).length,
+    mark_count: [...markSet].filter(k => allBpKeys.has(k)).length,
+    blueprints: srcBps.map(bp => ({ key: bp, isDone: doneSet.has(bp), isMarked: markSet.has(bp) }))
+  };
+
+  const fname = mode === 'marked' ? 'sc_bp_vorgemerkt.json' : mode === 'done' ? 'sc_bp_erledigt.json' : 'sc_blueprints.json';
+  dlFile(JSON.stringify(out, null, 2), fname, 'application/json');
+  showToast(`${srcBps.length} Baupläne exportiert (JSON)`);
+}
+
+function exportCsv() {
+  document.getElementById('exp-menu')?.classList.remove('open');
+  const rows = [['Bauplan', 'Mission', 'System', 'Lokation', 'Standing', 'Belohnung (aUEC)', 'Abgabe', 'Status']];
+  for (const pc of bpCards) {
+    const e = pc._entry;
+    const v = pc._variant;
+    for (const bp of (v.reward_items || [])) {
+      const st = doneSet.has(bp) ? 'Erledigt' : markSet.has(bp) ? 'Vorgemerkt' : 'Offen';
+      rows.push([ csvQ(bp), csvQ(getTitle(e)), getSys(getLoc(e)), csvQ(fmtLoc(getLoc(e))), csvQ(v.standing_label || ''), csvQ(v.rewardUEC || ''), (v.haulingOrders && v.haulingOrders.length) ? 'Ja' : 'Nein', st ]);
+    }
+  }
+  dlFile('\ufeff' + rows.map(r => r.join(',')).join('\r\n'), 'sc_blueprints.csv', 'text/csv;charset=utf-8');
+  showToast(`${rows.length - 1} Baupläne exportiert (CSV)`);
+}
+
+function csvQ(s) {
+  if (!s) return '';
+  const t = String(s);
+  return (t.includes(',') || t.includes('"') || t.includes('\n')) ? '"' + t.replace(/"/g,'""') + '"' : t;
+}
+
+function dlFile(content, name, type) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([content], { type }));
+  a.download = name; a.click(); URL.revokeObjectURL(a.href);
+}
+
+// ── Toast ─────────────────────────────────────────────────
+let _tt = null;
+function showToast(msg, type = 'info') {
+  const t = document.getElementById('toast');
+  if (!t) return;
+  t.textContent = msg;
+  t.style.borderLeftColor = type === 'warn' ? 'var(--mark)' : type === 'error' ? '#ef4444' : 'var(--accent)';
+  t.classList.add('on');
+  clearTimeout(_tt);
+  _tt = setTimeout(() => t.classList.remove('on'), 3200);
+}
+
+// ── Refresh ───────────────────────────────────────────────
+async function doRefresh() {
+  document.getElementById('loading').style.display = 'flex';
+  document.getElementById('app').style.display = 'none';
+  document.getElementById('ld-err').style.display = 'none';
+  localStorage.removeItem(LS_CACHE);
+  try {
+    await loadData(true);
+    prepareData();
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    showToast('Daten erfolgreich aktualisiert');
+  } catch (e) {
+    /* error already shown in loading screen */
+  }
+}
+
+// ── Init ──────────────────────────────────────────────────
+(async () => {
+  lsLoad();
+  
+  // Set up Auto-Load Observer
+  const sentinel = document.getElementById('scroll-sentinel');
+  const observer = new IntersectionObserver((e) => {
+    if (e[0].isIntersecting && currentRenderCount < filteredCards.length) {
+      renderNextBatch(SCROLL_BATCH);
+    }
+  }, { rootMargin: '200px' });
+  if (sentinel) observer.observe(sentinel);
+
+  try {
+    await loadData();
+    prepareData();
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+  } catch (e) {
+    console.error('Init failed:', e);
+  }
+})();
+
+// ── Modal Actions ────────────────────────────────────────
+function openHelpModal() {
+  document.getElementById('help-modal').classList.add('open');
+}
+function closeHelpModal() {
+  document.getElementById('help-modal').classList.remove('open');
+}
+</script>
+</body>
+</html>
