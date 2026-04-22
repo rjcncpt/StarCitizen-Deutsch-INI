@@ -115,7 +115,7 @@ header {
 .hd-inner { margin: 0 auto; padding: 0 20px; display: flex; align-items: center; gap: 20px; min-height: 68px; }
 .hd-brand { display: flex; align-items: center; gap: 13px; }
 .hd-icon { width: 42px; height: 42px; flex-shrink: 0; background: var(--accent-bg); border: 2px solid var(--accent-bdr); border-radius: var(--rad); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }
-.hd-title { font-size: 1.15rem; font-weight: 800; color: var(--tx-h); line-height: 1.2; letter-spacing: -0.01em; }
+.hd-title { font-size: 1.15rem; font-weight: 800; color: var(--tx-h); line-height: 1.2; letter-spacing: -0.01em; transition: opacity var(--ease); }
 .hd-title span { display: block; font-size: 0.8rem; font-weight: 400; color: var(--tx-s); margin-top: 1px; }
 .hd-sep { width: 1px; height: 32px; background: var(--border); flex-shrink: 0; }
 .hd-stats { display: flex; gap: 24px; }
@@ -127,6 +127,23 @@ header {
 .ver-tag { font-size: 0.8rem; font-weight: 500; color: var(--tx-s); padding: 4px 10px; }
 a.ver-tag { text-decoration: none; transition: color var(--ease); }
 a.ver-tag:hover { color: var(--accent); }
+
+/* Hamburger Menu Button */
+.hamburger {
+  display: none;
+  background: transparent;
+  border: 2px solid var(--border);
+  color: var(--tx);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: var(--rad-sm);
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--ease);
+}
+.hamburger:hover { background: var(--accent-bg); border-color: var(--accent-bdr); color: var(--accent); }
+.hamburger svg { width: 22px; height: 22px; pointer-events: none; }
 
 /* ── Primary Button ─────────────────────────────────────── */
 .btn {
@@ -313,7 +330,43 @@ a.ver-tag:hover { color: var(--accent); }
 
 /* ── Responsive ─────────────────────────────────────────── */
 @media (max-width: 960px) { .hd-stats { display: none; } .sys-chips { display: none; } .grid { grid-template-columns: 1fr; } }
-@media (max-width: 640px) { .ctrl-inner { gap: 8px; } .ftabs { order: 2; width: 100%; } .sort-sel { display: none; } .hd-inner { gap: 12px; } .hd-title { font-size: 1rem; } }
+@media (max-width: 640px) { 
+  .ctrl-inner { gap: 8px; } 
+  .ftabs { order: 2; width: 100%; } 
+  .sort-sel { display: none; } 
+  .hd-inner { gap: 12px; } 
+
+  /* Hide the Title completely on mobile */
+  .hd-title { display: none !important; }
+
+  /* Hamburger Menu additions */
+  .hamburger { display: flex; }
+
+  .hd-right {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    flex-direction: column;
+    padding: 15px 20px;
+    align-items: stretch;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+  }
+  .hd-right.menu-open {
+    display: flex;
+	align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .hd-right .btn {  }
+  .hd-right .ver-tag { text-align: center; margin-bottom: 12px; display: block; }
+  .bulk-bar.on { display: none; }
+  a.ver-tag { max-width: 100px; text-align: right; }
+}
 </style>
 </head>
 <body>
@@ -346,10 +399,19 @@ a.ver-tag:hover { color: var(--accent); }
       <div class="hd-stat"><span class="hd-stat-n c-mark" id="sn-marked">—</span><span>Vorgemerkt</span></div>
       <div class="hd-stat"><span class="hd-stat-n c-done" id="sn-done">—</span><span>Erledigt</span></div>
     </div>
-    <div class="hd-right">
-      <span class="ver-tag" id="ver-tag"></span>
-      <a href="https://scmdb.net/" target="_blank" rel="noopener noreferrer" class="ver-tag">Daten von scmdb.net</a>
-      <button class="btn" onclick="openHelpModal()">
+    <span class="ver-tag" id="ver-tag"></span>
+    <a href="https://scmdb.net/" target="_blank" rel="noopener noreferrer" class="ver-tag">Daten von scmdb.net</a>
+    
+    <button class="hamburger" id="hamburger-btn" onclick="toggleMobileMenu()" title="Menü">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+
+    <div class="hd-right" id="nav-menu">
+      <button class="btn" onclick="openHelpModal(); toggleMobileMenu();">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>
         </svg>
@@ -361,7 +423,7 @@ a.ver-tag:hover { color: var(--accent); }
         </svg>
         GitHub
       </a>
-      <button class="btn" onclick="doRefresh()">
+      <button class="btn" onclick="doRefresh(); toggleMobileMenu();">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
           <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
@@ -499,6 +561,11 @@ a.ver-tag:hover { color: var(--accent); }
 <div class="toast" id="toast"></div>
 
 <script>
+// ── Mobile Menu Toggle ───────────────────────────────────
+function toggleMobileMenu() {
+  document.getElementById('nav-menu').classList.toggle('menu-open');
+}
+
 // ── URLs & Storage Keys ──────────────────────────────────
 const URL_JSON   = 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/refs/heads/main/blueprints/Data/bp-contracts_short.json';
 const URL_TITLES = 'https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/refs/heads/main/blueprints/bp_titles_log.txt';
@@ -1020,19 +1087,6 @@ document.addEventListener('click', e => {
       cr.querySelector('.chip-bti.ck')?.classList.toggle('on', !wasOn);
       const btnM = cr.querySelector('.chip-bti.bm');
       if (btnM) { btnM.classList.remove('on'); btnM.querySelector('svg')?.setAttribute('fill', 'none'); } // Vorgemerkt-Button zurücksetzen
-    });
-    document.querySelectorAll('#grid .card').forEach(updateCardState);
-    lsSave(); updateStats();
-
-  } else if (action === 'chip-done') {
-    const bp = ae.dataset.bp;
-    const wasOn = doneSet.has(bp);
-    wasOn ? doneSet.delete(bp) : doneSet.add(bp);
-    
-    // Smooth DOM Update without reloading batch list
-    document.querySelectorAll(`.chip-row[data-bp="${CSS.escape(bp)}"]`).forEach(cr => {
-      cr.classList.toggle('bp-done', !wasOn);
-      cr.querySelector('.chip-bti.ck')?.classList.toggle('on', !wasOn);
     });
     document.querySelectorAll('#grid .card').forEach(updateCardState);
     lsSave(); updateStats();
