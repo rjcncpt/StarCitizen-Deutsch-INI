@@ -123,7 +123,7 @@ header {
 .hd-stat-n { font-size: 1.25rem; font-weight: 700; color: var(--tx-h); line-height: 1; }
 .hd-stat-n.c-done { color: var(--done); }
 .hd-stat-n.c-mark { color: var(--mark); }
-.hd-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+.hd-right { display: flex; align-items: center; gap: 10px; }
 .ver-tag { font-size: 0.8rem; font-weight: 500; color: var(--tx-s); padding: 4px 10px; }
 a.ver-tag { text-decoration: none; transition: color var(--ease); }
 a.ver-tag:hover { color: var(--accent); }
@@ -247,8 +247,29 @@ a.ver-tag:hover { color: var(--accent); }
 .sb-both    { background: rgba(181,156,247,0.14); color: var(--c-both);    border-color: rgba(181,156,247,0.3); }
 .sb-other   { background: rgba(130,140,165,0.12); color: var(--tx-s);      border-color: rgba(130,140,165,0.25); }
 
-.loc-label { font-size: 0.8rem; font-weight: 500; color: var(--tx-s); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200px; }
+.loc-label { 
+  font-size: 0.8rem; 
+  font-weight: 500; 
+  color: var(--tx-s); 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  flex: 1;
+  min-width: 0;
+  display: block;
+}
 .c-title { padding: 10px 15px; font-size: 1rem; font-weight: 700; color: var(--tx-h); line-height: 1.4; letter-spacing: -0.01em; }
+.c-key { 
+  padding: 0 15px 10px; 
+  font-size: 0.75rem; 
+  color: var(--tx-muted); 
+  font-family: monospace; 
+  margin-top: -6px; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
 .c-variants { padding: 0 15px; display: flex; flex-direction: column; gap: 8px; }
 .vgroup { background: rgba(255,255,255,0.025); border: 1.5px solid var(--border); border-radius: var(--rad-sm); padding: 10px 12px; }
 .vmeta { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; min-height: 24px; }
@@ -332,11 +353,21 @@ a.ver-tag:hover { color: var(--accent); }
 
 /* ── Responsive ─────────────────────────────────────────── */
 @media (max-width: 960px) { .hd-stats { display: none; } .sys-chips { display: none; } .grid { grid-template-columns: 1fr; } }
+@media (min-width: 641px) {
+  #ver-tag { 
+    margin-left: auto; 
+  }
+}
 @media (max-width: 640px) { 
   .ctrl-inner { gap: 8px; } 
   .ftabs { order: 2; width: 100%; } 
   .sort-sel { display: none; } 
   .hd-inner { gap: 12px; } 
+  .ver-tag { 
+    display: inline-block; 
+    font-size: 0.7rem;
+    padding: 2px 5px;
+  }
 
   /* Hide the Title completely on mobile */
   .hd-title { display: none !important; }
@@ -500,7 +531,7 @@ a.ver-tag:hover { color: var(--accent); }
     <span class="bulk-msg" id="bulk-msg"></span>
     <button class="bulk-btn done-all" onclick="bulkDone()">Alle als erledigt markieren</button>
     <button class="bulk-btn" onclick="bulkMark()">Alle vormerken</button>
-    <button class="bulk-btn clear-all" onclick="bulkClear()">Status dieser Ansicht löschen</button>
+    <button class="bulk-btn clear-all" onclick="clearAllState()">Status dieser Ansicht löschen</button>
   </div>
 </div>
 
@@ -812,6 +843,7 @@ function buildCard(pc) {
   const visibleBps = pc._visibleChips || [];
   
   const title  = getTitle(e);
+  const descKey = e.descriptionLocKey || e.titleLocKey || ''; // <--- HINZUGEFÜGT
   const loc    = getLoc(e);
   const locFmt = fmtLoc(loc);
   const sys    = getSys(loc);
@@ -853,7 +885,7 @@ function buildCard(pc) {
       </div>
     </div>
     <div class="c-title">${esc(title)}</div>
-    <div class="c-variants">
+    ${descKey ? `<div class="c-key" title="${esc(descKey)}">Desc-Key: ${esc(descKey)}</div>` : ''} <div class="c-variants">
       <div class="vgroup">
         <div class="vmeta">${uecBadgesHtml} </div>
         <div class="chips">${chips}</div>
@@ -929,7 +961,8 @@ function applyFilters() {
        
        let qm = true;
        if (q) {
-         const cardMatches = getTitle(pc._entry).toLowerCase().includes(q) || getLoc(pc._entry).toLowerCase().includes(q);
+         const formattedLoc = fmtLoc(getLoc(pc._entry)).toLowerCase(); // Wandelt den internen Key in den angezeigten Text um
+         const cardMatches = getTitle(pc._entry).toLowerCase().includes(q) || formattedLoc.includes(q);
          const chipMatches = bp.toLowerCase().includes(q);
          qm = cardMatches || chipMatches;
        }
@@ -966,7 +999,7 @@ function applyFilters() {
   if (bb && bm) {
     if (visChipsCount > 0) {
       bb.classList.add('on');
-      bm.textContent = `${visChipsCount} Baupläne in aktueller Ansicht`;
+      bm.textContent = `${visChipsCount} Baupläne gefunden`;
     } else {
       bb.classList.remove('on');
     }
