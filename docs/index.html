@@ -911,7 +911,7 @@ function prepareData() {
 // ── Filters & Rendering ───────────────────────────────────────────────
 function applyFilters() {
   const q = fQuery.toLowerCase().trim();
-  let visChipsCount = 0;
+  const uniqueVisChips = new Set();
 
   // Filter Data Level
   filteredCards = sortedBpCards.filter(pc => {
@@ -946,11 +946,13 @@ function applyFilters() {
     
     // Only include cards with matching systems AND matching chips
     if (sys_m && validChips.length > 0) {
-        visChipsCount += validChips.length;
+        validChips.forEach(bp => uniqueVisChips.add(bp));
         return true;
     }
     return false;
   });
+
+  const visChipsCount = uniqueVisChips.size;
 
   // Update Stats UI
   const cnt = document.getElementById('res-cnt');
