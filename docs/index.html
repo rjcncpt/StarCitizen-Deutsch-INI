@@ -224,6 +224,7 @@ a.ver-tag:hover { color: var(--accent); }
 }
 .btn.github, .btn.discord { padding: 6px 16px; }
 .btn.reload { padding: 9px 12px; }
+.btn.export { padding: 9px 12px; }
 .btn:hover { border-color: var(--accent-bdr); color: var(--accent); background: var(--accent-bg); }
 .btn svg { width: 15px; height: 15px; flex-shrink: 0; }
 .btn-primary { border-color: var(--accent-bdr); color: var(--accent); background: var(--accent-bg); }
@@ -278,7 +279,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
 .sys-chip.active { background: color-mix(in srgb, var(--c) 15%, transparent); border-color: color-mix(in srgb, var(--c) 55%, transparent); }
 
 .sort-sel {
-  padding: 8px 12px; min-height: 42px; background: var(--bg-card); border: 2px solid var(--border);
+  padding: 8px; min-height: 42px; background: var(--bg-card); border: 2px solid var(--border);
   color: var(--tx); font-family: var(--font); font-size: 0.9rem; font-weight: 500; border-radius: var(--rad-sm); outline: none; cursor: pointer;
 }
 .sort-sel:focus { border-color: var(--blue); }
@@ -628,7 +629,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
 
     <div class="ctrl-right">
       <div class="exp-wrap">
-        <button class="btn btn-primary" onclick="toggleExpMenu()">
+        <button class="btn btn-primary export" onclick="toggleExpMenu()">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
             <polyline points="7,10 12,15 17,10"/><line x1="12" y1="15" x2="12" y2="3"/>
@@ -697,7 +698,10 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
 		  <ul>
 			<li>Dein Fortschritt wird lokal in deinem Browser gespeichert.</li>
 			<li>Nutze den <strong>Export-Button</strong>, um deinen Fortschritt als JSON oder CSV lokal zu sichern.</li>
-			<li>Wir testen eine Funktion im SC Deutsch Launcher, mit der exportierte, erledigte Baupläne importiert und im Spiel als "erledigt" markiert werden können.</li>
+		  </ul>
+		  <h4>In Entwicklung:</h4>
+		  <ul>
+			<li>Wir arbeiten an einer Möglichkeit, erledigte Baupläne in die Spieltexte zu integrieren. Daher kannst du auf der Baupläne-Datenbankseite erledigte Baupläne als .json-Datei exportieren. Aktuell prüfen wir eine Lösung, mit der der SCDL diese Datei einliest und deine Baupläne-Integration entsprechend anpasst.</li>
 		  </ul>
 	  </div>
 
