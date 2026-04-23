@@ -280,6 +280,7 @@ a.ver-tag:hover { color: var(--accent); }
   border-top: 1px solid var(--border); margin-top: 10px;
 }
 .bpcnt { font-size: 0.82rem; font-weight: 500; color: var(--tx-s); }
+.kofi_container { margin-top: 24px; padding: 14px; background: rgba(255,255,255,0.03); border-radius: var(--rad-sm); border: 1px solid var(--border); display: flex; align-items: center; gap: 14px; }
 
 /* ── Empty state ────────────────────────────────────────── */
 .empty { padding: 80px 20px; text-align: center; color: var(--tx-s); display: none; }
@@ -324,6 +325,7 @@ a.ver-tag:hover { color: var(--accent); }
 .m-close:hover { background: var(--danger-bg); color: var(--danger); }
 .m-close svg { width: 18px; height: 18px; }
 .m-body { padding: 20px; overflow-y: auto; color: var(--tx); font-size: 0.95rem; line-height: 1.6; }
+.modal_text {}
 .m-body h4 { color: var(--tx-h); margin: 16px 0 8px; font-size: 1rem; margin-top: 30px; }
 .m-body ul { margin-left: 20px; margin-bottom: 16px; margin-top: 10px; }
 .m-body li { margin-bottom: 6px; }
@@ -366,6 +368,7 @@ a.ver-tag:hover { color: var(--accent); }
   .hd-right .ver-tag { text-align: center; margin-bottom: 12px; display: block; }
   .bulk-bar.on { display: none; }
   a.ver-tag { max-width: 100px; text-align: right; }
+  .modal-inner { max-width: 90vw; }
 }
 </style>
 </head>
@@ -521,30 +524,32 @@ a.ver-tag:hover { color: var(--accent); }
       </button>
     </div>
     <div class="m-body">
-      <p>Willkommen in der Baupläne-Datenbank. Hier kannst du deinen Fortschritt beim Sammeln von Bauplänen verfolgen.</p>
-      
-      <h4>Baupläne im Spiel aktivieren (SC Deutsch Launcher):</h4>
-      <p>Damit die Baupläne im Spiel angezeigt werden, befolge folgende Schritte:</p>
-      <ul>
-        <li>Lade den SC Deutsch Launcher herunter, installiere ihn und aktualisiere die Übersetzung.</li>
-        <li>Klicke im Hauptfenster auf das <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6c5c0fd7bb53fa4c628380a546605058bcb9ac3dd15c727756cb894193208695/68747470733a2f2f7777772e73632d646575747363682d6c61756e636865722e64652f696d672f66656174757265732f626c75657072696e74732f696e6a656374696f6e735f69636f6e2e706e673f31"><img width="27" alt="image" src="https://camo.githubusercontent.com/6c5c0fd7bb53fa4c628380a546605058bcb9ac3dd15c727756cb894193208695/68747470733a2f2f7777772e73632d646575747363682d6c61756e636865722e64652f696d672f66656174757265732f626c75657072696e74732f696e6a656374696f6e735f69636f6e2e706e673f31" data-canonical-src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" style="max-width: 100%;"></a>-Icon in der Titelleiste</li>
-        <li>Klicke auf den <strong>"Baupläne injizieren"</strong>-Button – fertig!</li>
-      </ul>
+	  <div class="modal_text">
+		  <p>Willkommen in der Baupläne-Datenbank. Hier kannst du deinen Fortschritt beim Sammeln von Bauplänen verfolgen.</p>
+		  
+		  <h4>Baupläne im Spiel aktivieren (SC Deutsch Launcher):</h4>
+		  <p>Damit die Baupläne im Spiel angezeigt werden, befolge folgende Schritte:</p>
+		  <ul>
+			<li>Lade den SC Deutsch Launcher herunter, installiere ihn und aktualisiere die Übersetzung.</li>
+			<li>Klicke im Hauptfenster auf das <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6c5c0fd7bb53fa4c628380a546605058bcb9ac3dd15c727756cb894193208695/68747470733a2f2f7777772e73632d646575747363682d6c61756e636865722e64652f696d672f66656174757265732f626c75657072696e74732f696e6a656374696f6e735f69636f6e2e706e673f31"><img width="27" alt="image" src="https://camo.githubusercontent.com/6c5c0fd7bb53fa4c628380a546605058bcb9ac3dd15c727756cb894193208695/68747470733a2f2f7777772e73632d646575747363682d6c61756e636865722e64652f696d672f66656174757265732f626c75657072696e74732f696e6a656374696f6e735f69636f6e2e706e673f31" data-canonical-src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" style="max-width: 100%;"></a>-Icon in der Titelleiste</li>
+			<li>Klicke auf den <strong>"Baupläne injizieren"</strong>-Button – fertig!</li>
+		  </ul>
 
-      <h4>Grundfunktionen:</h4>
-      <ul>
-        <li><strong>Suchen & Filtern:</strong> Nutze die Suchleiste oder die System-Filter, um gezielt nach Missionen oder Regionen zu suchen.</li>
-        <li><strong>Status setzen:</strong> Klicke bei einem Bauplan auf das Häkchen (Erledigt) oder das Lesezeichen (Vorgemerkt).</li>
-        <li><strong>Massenauswahl:</strong> Sobald du einen Filter aktivierst oder die Suche nutzt, erscheint eine Leiste, um alle gefilterten Baupläne auf einmal zu markieren.</li>
-      </ul>
-      <h4>Speicherung & Export:</h4>
-      <ul>
-        <li>Dein Fortschritt wird lokal in deinem Browser gespeichert.</li>
-        <li>Nutze den <strong>Export-Button</strong>, um deinen Fortschritt als JSON oder CSV lokal zu sichern.</li>
-        <li>Wir testen eine Funktion im SC Deutsch Launcher, mit der exportierte, erledigte Baupläne importiert und im Spiel als "erledigt" markiert werden können.</li>
-      </ul>
+		  <h4>Grundfunktionen:</h4>
+		  <ul>
+			<li><strong>Suchen & Filtern:</strong> Nutze die Suchleiste oder die System-Filter, um gezielt nach Missionen oder Regionen zu suchen.</li>
+			<li><strong>Status setzen:</strong> Klicke bei einem Bauplan auf das Häkchen (Erledigt) oder das Lesezeichen (Vorgemerkt).</li>
+			<li><strong>Massenauswahl:</strong> Sobald du einen Filter aktivierst oder die Suche nutzt, erscheint eine Leiste, um alle gefilterten Baupläne auf einmal zu markieren.</li>
+		  </ul>
+		  <h4>Speicherung & Export:</h4>
+		  <ul>
+			<li>Dein Fortschritt wird lokal in deinem Browser gespeichert.</li>
+			<li>Nutze den <strong>Export-Button</strong>, um deinen Fortschritt als JSON oder CSV lokal zu sichern.</li>
+			<li>Wir testen eine Funktion im SC Deutsch Launcher, mit der exportierte, erledigte Baupläne importiert und im Spiel als "erledigt" markiert werden können.</li>
+		  </ul>
+	  </div>
 
-      <div style="margin-top: 24px; padding: 14px; background: rgba(255,255,255,0.03); border-radius: var(--rad-sm); border: 1px solid var(--border); display: flex; align-items: center; gap: 14px;">
+      <div class="kofi_container">
         <svg style="width: 42px; height: 42px; color: #ff5e5b; flex-shrink: 0;" viewBox="0 0 24 24" fill="currentColor">
           <path d="M20.9 5.38a4.93 4.93 0 0 0-4.04-3.32C15.63 1.9 14 1.84 14 1.84H4.51C3.68 1.84 3 2.5 3 3.32v12.45c0 .83.67 1.48 1.5 1.48h8.48c1.35 0 2.57-.46 3.55-1.23a6.83 6.83 0 0 0 4.14-3.5 5.04 5.04 0 0 0 .23-7.14zm-3.4 5.67a3.86 3.86 0 0 1-2.28 2.05c.42-.58.74-1.25.9-1.97h1.4c.54 0 .97-.43.97-.96 0-.52-.43-.95-.97-.95h-1.63a4.7 4.7 0 0 0-.25-1.26h2.15c1.07 0 1.93.85 1.93 1.9 0 .82-.47 1.55-1.22 1.81z"/>
           <path d="M4 19h14v2H4z"/>
