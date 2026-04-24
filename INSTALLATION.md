@@ -1,3 +1,12 @@
+### Inhaltsverzeichnis
+
+- **[Anleitung zur Installation](#anleitung-zur-installation)**
+- **[Baupläne-Missionsintegration & Datenbank](#baupläne-missionsintegration)**
+
+---
+
+<br>
+
 ## Anleitung zur Installation
 
 ### Variante 1: Automatisches Update der Übersetzung (SC Deutsch Launcher)
