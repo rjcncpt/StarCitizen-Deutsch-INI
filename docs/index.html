@@ -628,6 +628,16 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
     </select>
 
     <div class="ctrl-right">
+      <input type="file" id="import-file" accept=".json" style="display: none;" onchange="handleImport(event)">
+      <button class="btn" onclick="document.getElementById('import-file').click()" title="JSON importieren">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+          <polyline points="17 8 12 3 7 8"/>
+          <line x1="12" y1="3" x2="12" y2="15"/>
+        </svg>
+        Import
+      </button>
+
       <div class="exp-wrap">
         <button class="btn btn-primary export" onclick="toggleExpMenu()">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1321,6 +1331,57 @@ function clearAllState() {
   doneSet.clear(); markSet.clear(); lsSave();
   applyFilters();
   showToast('Alle Status zurückgesetzt');
+}
+
+// ── Import ────────────────────────────────────────────────
+function handleImport(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const data = JSON.parse(e.target.result);
+
+      // Prüfen, ob die Datei das richtige Format hat
+      if (!data.blueprints || !Array.isArray(data.blueprints)) {
+        throw new Error("Ungültiges Dateiformat. Keine 'blueprints' gefunden.");
+      }
+
+      let importedCount = 0;
+
+      // Daten mergen (zusammenführen)
+      data.blueprints.forEach(bp => {
+        if (bp.key) {
+          if (bp.isDone) {
+            doneSet.add(bp.key);
+            markSet.delete(bp.key); // Sicherstellen, dass es nicht gleichzeitig vorgemerkt ist
+            importedCount++;
+          } else if (bp.isMarked) {
+            markSet.add(bp.key);
+            doneSet.delete(bp.key); // Sicherstellen, dass es nicht gleichzeitig erledigt ist
+            importedCount++;
+          }
+        }
+      });
+
+      // Speichern und UI aktualisieren
+      lsSave();
+      applyFilters();
+      updateStats();
+      
+      showToast(`${importedCount} Status-Einträge erfolgreich importiert`);
+
+    } catch (err) {
+      console.error("Import Fehler:", err);
+      showToast("Fehler beim Importieren: Ungültige Datei", "error");
+    } finally {
+      // Setzt das Input-Feld zurück, damit man dieselbe Datei bei Bedarf erneut hochladen kann
+      event.target.value = "";
+    }
+  };
+  
+  reader.readAsText(file);
 }
 
 // ── Export ────────────────────────────────────────────────
