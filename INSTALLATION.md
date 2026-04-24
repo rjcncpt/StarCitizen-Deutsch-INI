@@ -1,55 +1,62 @@
-# Anleitung zur Installation
+## Anleitung zur Installation
 
 ### Variante 1: Automatisches Update der Übersetzung (SC Deutsch Launcher)
-Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zur Umstellung der Spieltexte von Star Citizen auf Deutsch. Unsere kostenlose App kümmert sich automatisch um alle Dateianpassungen, stellt sicher, dass immer die aktuellsten deutschen Sprachdateien für Star Citizen von unserem GitHub installiert werden und startet im Anschluss automatisch den RSI Launcher für dich.
+Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zur Umstellung der Star Citizen Spieltexte von Englisch auf Deutsch. Unsere kostenlose App kümmert sich automatisch um alle Dateianpassungen und stellt sicher, dass immer die aktuellsten deutschen Sprachdateien installiert werden.
 
-[<img src="https://www.sc-deutsch-launcher.de/img/features/2026/sc-deutsch-launcher-ui_v2026.webp?t=1774518510">](https://www.sc-deutsch-launcher.de/download/ "SC Deutsch Launcher Download")
+[<img src="https://www.sc-deutsch-launcher.de/img/features/2026/sc-deutsch-launcher-ui_v2026.webp?t=177451851">](https://www.sc-deutsch-launcher.de/download/ "SC Deutsch Launcher Download")
 
-### So funktioniert’s:
-1. Lade den SC Deutsch Launcher herunter und installiere ihn.
-   - Download-Link: [SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)
-2. Nach der Installation, starte den SC Deutsch Launcher
+1. Lade den **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** herunter und installiere ihn.
+2. Nach der Installation, starte den SC Deutsch Launcher.
 3. Der Launcher sucht automatisch nach deinem Star Citizen Verzeichnis.
-4. Benötigst du Hilfe? Komm auf unseren [Discord-Server](https://discord.gg/5VZsTk3qjR).
+4. Wird keine Star Citizen Installation gefunden oder treten andere Probleme auf, komme gern auf **[unseren Support-Discord](https://discord.gg/5VZsTk3qjR)** und wir helfen dir bei dem Problem.
 
-[![SC Deutsch Launcher Download Portable](https://www.sc-deutsch-launcher.de/img/herunterladen.png)](https://www.sc-deutsch-launcher.de/download/)
-<br/><br/><br/>
+<br>
 
+### Variante 2: Manueller Download (ZIP-Datei)
 
-### Variante 2: Manueller Download - ZIP-Datei herunterladen
+1. Lade die **[Neueste ZIP-Datei](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true)** mit der Übersetzung herunter.
+2. Entpacke die ZIP-Datei auf deine Festplatte.
+3. Kopiere den Inhalt (`data` Ordner und `user.cfg` Datei) in den richtigen Ordner (Standard: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\`).
 
-[<img src="https://i.imgur.com/rbsGtww.png" width="100%">](https://www.youtube.com/watch?v=_0H4Kc7s3Z4 "Installationsanleitung - Star Citizen in Deutsch")
-
-Wenn du unseren **SC Deutsch Launcher** nicht verwenden möchtest, kannst du unsere Star Citizen Übersetzung auch händisch installieren.
+<img width="1040" height="415" alt="installationspfad" src="https://github.com/user-attachments/assets/1d28aa53-8138-4f02-aa7e-869c35288089" />
+<br>
 
 > [!IMPORTANT]
-> **Die Übersetzung als ZIP-Download wird alle 7 Tage und zum Beginn des neuen Monats automatisch erstellt. Fixes in der Erstübersetzung eines neuen Patches sind demzufolge erst nach 7 Tagen im ZIP enthalten.**
+> **Die Übersetzungsdatei wird regelmäßig verbessert. Neue Star Citizen Patches fügen oft neue Texte hinzu. Lade die ZIP-Datei regelmäßig herunter, um Fehler zu vermeiden. Oder nutze unseren Launcher der die Aufgabe für dich erledigt.**
 
-<br/>
-
-1. **Lade die Neueste ZIP-Datei mit der Übersetzung herunter:** <br/>
-   Manchmal musst du auf "Assets" klicken, um die Datei zu sehen.<br/><br/>
-    <a href="https://github.com/rjcncpt/StarCitizen-Deutsch-INI/releases?q=live&expanded=true">![Static Badge](https://img.shields.io/badge/ÜBERSETZUNG%20FÜR-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/LIVE%20(ZIP)-brightgreen?style=for-the-badge&color=ffffff)</a> <!-- https://shields.io/badges/git-hub-release --> <br/><br/>
-2. **Entpacke die ZIP-Datei auf deine Festplatte** <br/>
-3. **Kopiere den Inhalt (`data` Ordner und `user.cfg` Datei) aus der ZIP-Datei in den richtigen Ordner:**
-   - Für die **LIVE**-Version: `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\`
-   
-   Der Pfad kann bei dir ein anderer sein.
-
-![image](https://i.imgur.com/MjBMF4y.png)
-
-4. Benötigst du Hilfe? Komm auf unseren [Discord-Server](https://discord.gg/5VZsTk3qjR).
-
-<br/><br/>
-
-------------------------------------
-
-> [!IMPORTANT]  
-> **Die Übersetzungsdatei wird regelmäßig verbessert. Neue Star Citizen Patches fügen oft neue Texte hinzu. Lade die ZIP-Datei also immer wieder neu herunter, um Fehler zu vermeiden. Oder nutze unseren Launcher der die Aufgabe für dich erledigt.**
-
-> [!WARNING]  
+> [!WARNING]
 > **Hast du eine eigene user.cfg Datei? Überschreibe sie nicht! Füge einfach diese zwei Zeilen hinzu:** <br/>
 > ```
 > g_language = german_(germany)
 > g_languageAudio = english
 > ```
+
+---
+
+<br>
+
+## Baupläne-Missionsintegration
+
+Star Citizen vergibt bei bestimmten Missionen Baupläne (Blueprints) als Belohnung. Welche Baupläne vergeben werden, hängt vom Blueprint Pool, der Reputationsstufe und Regionen ab. Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung, Baupläne den Missionen hinzuzufügen.
+
+### 🛠️ Installation der Baupläne für Missionstexte (InGame)
+Über unseren **SC Deutsch Launcher** kannst du den aktuellen Stand der Baupläne bequem direkt in die Übersetzungsdatei **(`global.ini`)** integrieren.
+
+1. Öffne den SC Deutsch Launcher und aktualisiere die Übersetzung.
+2. Klicke im Hauptfenster auf das **Injections-Icon** <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" /> in der Titelleiste.
+3. Das Modul "Injections für global.ini" öffnet sich.
+4. Klicke auf den **"Baupläne injizieren"**-Button – fertig.
+
+**Features der InGame-Integration:**
+- Missionen mit Bauplänen werden direkt im Titel mit einem `[BP]` oder `[BP]*` markiert.
+- Anzeige der minimalen und maximalen Reputationsanforderungen (XP) auf einen Blick.
+- Regionsgebundene Missionen werden klar gekennzeichnet.
+- Ein Indikator-Punkt am Modul-Icon im Launcher zeigt dir an, ob nach einem Star Citizen Patch neue Baupläne verfügbar sind.
+
+### 📊 Baupläne-Datenbank (Web-Tool)
+Die Baupläne DB ist ein übersichtliches Tracking-Tool für Star Citizen, mit dem du deinen Fortschritt beim Sammeln von Bauplänen organisieren und im Blick behalten kannst.
+- **Fortschritt tracken:** Markiere einzelne Baupläne ganz einfach als "Erledigt" oder "Vorgemerkt".
+- **Suchen & Filtern:** Finde gezielt Baupläne anhand von Missionstiteln, Orten oder ganzen Sonnensystemen.
+- **Zur Baupläne-Datenbank:** [https://rjcncpt.github.io/StarCitizen-Deutsch-INI/](https://rjcncpt.github.io/StarCitizen-Deutsch-INI/)
+
+💡 **Wir arbeiten an einer Möglichkeit, erledigte Baupläne in die Spieltexte zu integrieren. Daher kannst du auf der [Baupläne-Datenbankseite](https://rjcncpt.github.io/StarCitizen-Deutsch-INI/) erledigte Baupläne als `.json`-Datei exportieren. Aktuell prüfen wir eine Lösung, mit der der SCDL diese Datei einliest und deine Baupläne-Integration entsprechend anpasst.**
