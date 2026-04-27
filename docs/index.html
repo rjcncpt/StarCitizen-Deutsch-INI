@@ -402,7 +402,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
   border-top: 1px solid var(--border); margin-top: 10px;
 }
 .bpcnt { font-size: 0.82rem; font-weight: 500; color: var(--tx-s); }
-.kofi_container { margin-top: 24px; padding: 14px; background: var(--bg-group); border-radius: var(--rad-sm); border: 1px solid var(--border); display: flex; align-items: center; gap: 14px; transition: background var(--ease); }
+.kofi_container { margin-top: 24px; padding: 14px; background: var(--accent-bg); border-radius: var(--rad-sm); border: 1px solid var(--border); display: flex; align-items: center; gap: 14px; transition: background var(--ease); }
 
 /* ── Empty state ────────────────────────────────────────── */
 .empty { padding: 80px 20px; text-align: center; color: var(--tx-s); display: none; }
@@ -451,6 +451,78 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
 .m-body h4 { color: var(--tx-h); margin: 16px 0 8px; font-size: 1rem; margin-top: 30px; }
 .m-body ul { margin-left: 20px; margin-bottom: 16px; margin-top: 10px; }
 .m-body li { margin-bottom: 6px; }
+
+/* ── Help Modal – erweiterte Stile ─────────────────────── */
+.h-section { margin-top: 28px; }
+.h-section:first-child { margin-top: 0; }
+.h-section-title {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 0.85rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--tx-s); margin-bottom: 12px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.h-section-title svg { width: 15px; height: 15px; flex-shrink: 0; }
+
+/* Nummerierte Schritte */
+.h-steps { display: flex; flex-direction: column; gap: 8px; }
+.h-step {
+  display: flex; align-items: flex-start; gap: 12px;
+  background: var(--bg-group); border: 1px solid var(--border);
+  border-radius: var(--rad); padding: 10px 14px;
+}
+.h-step-num {
+  flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%;
+  background: var(--accent-bg); border: 1.5px solid var(--accent-bdr);
+  color: var(--accent); font-size: 0.75rem; font-weight: 800;
+  display: flex; align-items: center; justify-content: center; margin-top: 1px;
+}
+.h-step-body { font-size: 0.88rem; line-height: 1.55; color: var(--tx); }
+.h-step-body strong { color: var(--tx-h); }
+
+/* Callout-Boxen */
+.h-box {
+  border-radius: var(--rad); padding: 11px 14px; font-size: 0.88rem; line-height: 1.55;
+  border-left: 3px solid; margin-bottom: 8px;
+}
+.h-box-info  { background: var(--accent-bg); border-color: var(--accent); color: var(--tx); }
+.h-box-done  { background: var(--done-bg);   border-color: var(--done);   color: var(--tx); }
+.h-box-warn  { background: var(--mark-bg);   border-color: var(--mark);   color: var(--tx); }
+.h-box strong { color: var(--tx-h); }
+.h-box code   { font-size: 0.82rem; background: rgba(0,0,0,0.18); padding: 1px 5px; border-radius: 4px; font-family: monospace; }
+
+/* Import-Kacheln (2-Spalten) */
+.h-import-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 640px) { .h-import-grid { grid-template-columns: 1fr; } }
+.h-import-card {
+  border: 1.5px solid var(--border); border-radius: var(--rad);
+  padding: 13px 15px; background: var(--bg-group);
+}
+.h-import-card-head {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 0.8rem; font-weight: 700; color: var(--tx-h);
+  text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;
+}
+.h-import-card-head svg { width: 14px; height: 14px; flex-shrink: 0; }
+.h-import-card p { font-size: 0.85rem; line-height: 1.55; color: var(--tx); margin: 0 0 6px; }
+.h-import-card p:last-child { margin-bottom: 0; }
+.h-import-card code { font-size: 0.8rem; background: rgba(0,0,0,0.18); padding: 1px 5px; border-radius: 4px; font-family: monospace; color: var(--blue); }
+.h-badge {
+  display: inline-block; font-size: 0.72rem; font-weight: 700; padding: 2px 8px;
+  border-radius: 99px; white-space: nowrap; vertical-align: middle;
+}
+.h-badge-done { background: var(--done-bg); color: var(--done); border: 1.5px solid var(--done-bdr); }
+.h-badge-mark { background: var(--mark-bg); color: var(--mark); border: 1.5px solid var(--mark-bdr); }
+.h-badge-info { background: var(--accent-bg); color: var(--accent); border: 1.5px solid var(--accent-bdr); }
+
+/* Feature-Liste */
+.h-feat-list { display: flex; flex-direction: column; gap: 6px; }
+.h-feat {
+  display: flex; align-items: flex-start; gap: 10px;
+  font-size: 0.88rem; line-height: 1.5; color: var(--tx); padding: 4px 0;
+}
+.h-feat-icon { flex-shrink: 0; margin-top: 2px; }
+.h-feat-icon svg { width: 15px; height: 15px; }
+.h-feat strong { color: var(--tx-h); }
 
 /* ── Toggle Switch ──────────────────────────────────────── */
 .switch { position: relative; display: inline-block; width: 36px; height: 20px; flex-shrink: 0; }
@@ -738,48 +810,155 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
 <div class="modal-wrap" id="help-modal" onclick="if(event.target===this) closeHelpModal()">
   <div class="modal-inner">
     <div class="m-head">
-      <h3>Anleitung: Baupläne DB & SCD-Launcher</h3>
+      <h3>Anleitung: Baupläne DB &amp; SCD-Launcher</h3>
       <button class="m-close" onclick="closeHelpModal()">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
       </button>
     </div>
     <div class="m-body">
-	  <div class="modal_text">
-		  <p>Willkommen in der Baupläne-Datenbank. Hier kannst du deinen Fortschritt beim Sammeln von Bauplänen verfolgen.</p>
-		  
-		  <h4>Baupläne im Spiel aktivieren (SC Deutsch Launcher):</h4>
-		  <p>Damit die Baupläne im Spiel angezeigt werden, befolge folgende Schritte:</p>
-		  <ul>
-			<li>Lade den SC Deutsch Launcher herunter, installiere ihn und aktualisiere die Übersetzung.</li>
-			<li>Klicke im Hauptfenster auf das <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6c5c0fd7bb53fa4c628380a546605058bcb9ac3dd15c727756cb894193208695/68747470733a2f2f7777772e73632d646575747363682d6c61756e636865722e64652f696d672f66656174757265732f626c75657072696e74732f696e6a656374696f6e735f69636f6e2e706e673f31"><img width="27" alt="image" src="https://camo.githubusercontent.com/6c5c0fd7bb53fa4c628380a546605058bcb9ac3dd15c727756cb894193208695/68747470733a2f2f7777772e73632d646575747363682d6c61756e636865722e64652f696d672f66656174757265732f626c75657072696e74732f696e6a656374696f6e735f69636f6e2e706e673f31" data-canonical-src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" style="max-width: 100%;"></a>-Icon in der Titelleiste</li>
-			<li>Klicke auf den <strong>"Baupläne injizieren"</strong>-Button – fertig!</li>
-		  </ul>
+      <div class="modal_text">
 
-		  <h4>Grundfunktionen:</h4>
-		  <ul>
-			<li><strong>Suchen & Filtern:</strong> Nutze die Suchleiste oder die System-Filter, um gezielt nach Missionen oder Regionen zu suchen.</li>
-			<li><strong>Status setzen:</strong> Klicke bei einem Bauplan auf das Häkchen (Erledigt) oder das Lesezeichen (Vorgemerkt).</li>
-			<li><strong>Massenauswahl:</strong> Sobald du einen Filter aktivierst oder die Suche nutzt, erscheint eine Leiste, um alle gefilterten Baupläne auf einmal zu markieren.</li>
-		  </ul>
-		  <h4>Speicherung & Export:</h4>
-		  <ul>
-			<li>Dein Fortschritt wird lokal in deinem Browser gespeichert.</li>
-			<li>Nutze den <strong>Export-Button</strong>, um deinen Fortschritt als JSON oder CSV lokal zu sichern.</li>
-		  </ul>
-		  <h4>In Entwicklung:</h4>
-		  <ul>
-			<li>Wir arbeiten an einer Möglichkeit, erledigte Baupläne in die Spieltexte zu integrieren. Daher kannst du auf der Baupläne-Datenbankseite erledigte Baupläne als .json-Datei exportieren. Aktuell prüfen wir eine Lösung, mit der der SCDL diese Datei einliest und deine Baupläne-Integration entsprechend anpasst.</li>
-		  </ul>
-	  </div>
+        <!-- ── Intro ──────────────────────────────────────── -->
+        <p style="margin-bottom: 20px; line-height: 1.65;">
+          Willkommen in der <strong style="color:var(--tx-h)">Baupläne-Datenbank</strong>. Hier kannst du alle verfügbaren Auftragstypen mit Bauplan-Belohnungen durchsuchen, deinen Sammelfortschritt verfolgen und erledigte Baupläne direkt in die Spieltexte des SC Deutsch Launchers integrieren.
+        </p>
+
+        <!-- ── Grundfunktionen ────────────────────────────── -->
+        <div class="h-section">
+          <div class="h-section-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Grundfunktionen
+          </div>
+          <div class="h-feat-list">
+            <div class="h-feat">
+              <span class="h-feat-icon" style="color:var(--accent)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
+              <span><strong>Suchen &amp; Filtern:</strong> Nutze die Suchleiste, um gezielt nach Missionen zu suchen. Mit den System-Chips (Stanton, Pyro, Nyx) kannst du nach Herkunftsregion filtern. Die Tabs <span class="h-badge h-badge-done">Erledigt</span> und <span class="h-badge h-badge-mark">Vorgemerkt</span> zeigen nur Karten mit dem jeweiligen Status.</span>
+            </div>
+            <div class="h-feat">
+              <span class="h-feat-icon" style="color:var(--done)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></span>
+              <span><strong>Status setzen:</strong> Klicke auf das <strong>✓-Symbol</strong> (Erledigt) oder das <strong>Lesezeichen</strong> (Vorgemerkt) auf einer Karte. Ein Bauplan kann nicht gleichzeitig erledigt und vorgemerkt sein – der jeweils neuere Status überschreibt den alten.</span>
+            </div>
+            <div class="h-feat">
+              <span class="h-feat-icon" style="color:var(--mark)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></span>
+              <span><strong>Massenauswahl:</strong> Sobald ein Filter oder eine Suche aktiv ist, erscheint eine Aktionsleiste unterhalb der Filter. Damit lassen sich alle sichtbaren Baupläne auf einmal als erledigt oder vorgemerkt markieren – oder der Status aller sichtbaren Karten wird zurückgesetzt.</span>
+            </div>
+          </div>
+        </div>
 
       <div class="kofi_container">
-		<svg viewBox="0 0 24 24" fill="currentColor" style="width: 42px; height: 42px; color: #ff5e5b; flex-shrink: 0;"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z"></path></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor" style="width: 42px; height: 42px; color: #ff5e5b; flex-shrink: 0;"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z"></path></svg>
         <div>
           <h4 style="margin: 0 0 4px 0;">Unterstütze das Projekt</h4>
-          <p style="margin: 0 0 10px 0; font-size: 0.85rem; color: var(--tx-s); line-height: 1.4;">Wenn dir die Star Citizen Übersetzung und die Bauplan-Integration gefällt, freuen wir uns riesig über einen Kaffee auf Ko-fi!</p>
+          <p style="margin: 0 0 10px 0; font-size: 0.85rem; line-height: 1.4;">Wenn dir die Star Citizen Übersetzung und die Bauplan-Integration gefällt, freuen wir uns riesig über einen Kaffee auf Ko-fi!</p>
           <a href="https://ko-fi.com/scdeutsch" target="_blank" style="display: inline-block; color: #fff; background: #13C3FF; text-decoration: none; padding: 6px 14px; border-radius: 99px; font-weight: 700; font-size: 0.85rem; transition: filter var(--ease);" onmouseover="this.style.filter='brightness(1.1)'" onmouseout="this.style.filter='none'">Auf Ko-fi unterstützen</a>
         </div>
       </div>
+
+        <!-- ── Speicherung ─────────────────────────────────── -->
+        <div class="h-section">
+          <div class="h-section-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+            Speicherung
+          </div>
+          <div class="h-box h-box-warn" style="margin-bottom:0">
+            <strong>Achtung – Browser-Speicher:</strong> Dein Fortschritt wird im <code>localStorage</code> deines Browsers gespeichert und ist nur auf diesem Gerät und Browser verfügbar. Browser-Plugins, das Leeren des Caches oder der Inkognito-Modus können diese Daten löschen. <strong>Sichere deinen Fortschritt regelmäßig per Export-Button.</strong>
+          </div>
+        </div>
+
+        <!-- ── Import ─────────────────────────────────────── -->
+        <div class="h-section">
+          <div class="h-section-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            Import
+          </div>
+          <p style="font-size:0.88rem; color:var(--tx); margin-bottom:10px; line-height:1.55;">
+            Der <strong style="color:var(--tx-h)">Import-Button</strong> enthält zwei Methoden, um Baupläne als <span class="h-badge h-badge-done">Erledigt</span> in die Datenbank zu laden. Beide Methoden <strong style="color:var(--tx-h)">mergen</strong> den Inhalt – vorhandene Einträge werden nicht überschrieben, sondern ergänzt.
+          </p>
+          <div class="h-import-grid">
+
+            <!-- JSON-Import -->
+            <div class="h-import-card">
+              <div class="h-import-card-head">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                JSON importieren
+              </div>
+              <p>Lädt eine zuvor <strong>exportierte JSON-Datei</strong> (<code>.json</code>) und übernimmt alle darin enthaltenen Status-Einträge (<span class="h-badge h-badge-done">Erledigt</span> und <span class="h-badge h-badge-mark">Vorgemerkt</span>).</p>
+              <p><strong>Geeignet für:</strong> Backup wiederherstellen, Fortschritt auf ein anderes Gerät übertragen oder eine zuvor gesicherte Datei importieren.</p>
+              <p style="color:var(--tx-s); font-size:0.82rem; margin-top:4px;">Akzeptiert Dateien im Format der Export-Funktion dieser Seite (<code>sc_bp_*.json</code>).</p>
+            </div>
+
+            <!-- Log-Scan-Import -->
+            <div class="h-import-card" style="border-color: var(--accent-bdr);">
+              <div class="h-import-card-head" style="color:var(--accent)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                Log-Dateien scannen
+              </div>
+              <p>Scannt <strong>Game-Logdateien</strong> aus dem <code>logbackups</code>-Ordner deiner Star Citizen LIVE- oder HOTFIX-Installation auf den Eintrag <code>Bauplan erhalten:</code> und markiert alle gefundenen Baupläne automatisch als <span class="h-badge h-badge-done">Erledigt</span>.</p>
+              <p><strong>Geeignet für:</strong> Erstmalige automatische Erfassung aller bereits im Spiel erspielten Baupläne, ohne manuelles Durchklicken.</p>
+              <p style="color:var(--tx-s); font-size:0.82rem; margin-top:4px;">Akzeptiert mehrere <code>.log</code>-Dateien gleichzeitig. Nur LIVE &amp; HOTFIX enthalten auswertbare Bauplan-Einträge.</p>
+            </div>
+          </div>
+
+          <div class="h-box h-box-info" style="margin-top:10px; margin-bottom:0;">
+            <strong>Wo finde ich die Log-Dateien?</strong> Im Installationsverzeichnis deiner LIVE-Version: <code>StarCitizen\LIVE\logbackups\</code>. Wähle alle <code>.log</code>-Dateien in diesem Ordner aus – je mehr, desto vollständiger das Ergebnis.
+          </div>
+        </div>
+
+        <!-- ── Export ─────────────────────────────────────── -->
+        <div class="h-section">
+          <div class="h-section-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Export
+          </div>
+          <div class="h-feat-list">
+            <div class="h-feat">
+              <span class="h-feat-icon" style="color:var(--done)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></span>
+              <span><strong>Erledigte als JSON:</strong> Exportiert ausschließlich die als <span class="h-badge h-badge-done">Erledigt</span> markierten Baupläne. Diese Datei kann direkt in den SC Deutsch Launcher importiert werden, um die Bauplan-Integration dort zu aktivieren.</span>
+            </div>
+            <div class="h-feat">
+              <span class="h-feat-icon" style="color:var(--mark)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></span>
+              <span><strong>Vorgemerkte als JSON:</strong> Exportiert nur die als <span class="h-badge h-badge-mark">Vorgemerkt</span> markierten Einträge – nützlich als persönliche To-Do-Liste.</span>
+            </div>
+            <div class="h-feat">
+              <span class="h-feat-icon" style="color:var(--tx-s)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg></span>
+              <span><strong>Alle als JSON / CSV:</strong> Vollständiger Export aller Baupläne mit aktuellem Status – ideal als Gesamt-Backup oder zur Weiterverarbeitung in Excel o.ä.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Launcher-Integration ───────────────────────── -->
+        <div class="h-section">
+          <div class="h-section-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            Baupläne im Spiel aktivieren
+          </div>
+          <p style="font-size:0.88rem; color:var(--tx); margin-bottom:10px; line-height:1.55;">
+            Mit dem <strong style="color:var(--tx-h)">SC Deutsch Launcher</strong> lassen sich erledigte Baupläne direkt in die deutschen Spieltexte einpflegen – sodass du im Spiel auf einen Blick siehst, welche Baupläne du von einem Auftrag bereits gesammelt hast.
+          </p>
+          <div class="h-steps">
+            <div class="h-step">
+              <div class="h-step-num">1</div>
+              <div class="h-step-body">SC Deutsch Launcher <strong>herunterladen, installieren</strong> und die Übersetzung mindestens einmal aktualisieren.</div>
+            </div>
+            <div class="h-step">
+              <div class="h-step-num">2</div>
+              <div class="h-step-body">Auf dieser Seite auf <strong>Export → Erledigte als JSON</strong> klicken und die Datei speichern.</div>
+            </div>
+            <div class="h-step">
+              <div class="h-step-num">3</div>
+              <div class="h-step-body">Im Launcher das <strong>Bauplan-Icon</strong> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6c5c0fd7bb53fa4c628380a546605058bcb9ac3dd15c727756cb894193208695/68747470733a2f2f7777772e73632d646575747363682d6c61756e636865722e64652f696d672f66656174757265732f626c75657072696e74732f696e6a656374696f6e735f69636f6e2e706e673f31"><img width="20" alt="BP-Icon" src="https://camo.githubusercontent.com/6c5c0fd7bb53fa4c628380a546605058bcb9ac3dd15c727756cb894193208695/68747470733a2f2f7777772e73632d646575747363682d6c61756e636865722e64652f696d672f66656174757265732f626c75657072696e74732f696e6a656374696f6e735f69636f6e2e706e673f31" style="vertical-align:middle; max-width:100%;"></a> in der Titelleiste anklicken, dann die JSON-Datei importieren.</div>
+            </div>
+            <!-- <div class="h-step">
+              <div class="h-step-num">4</div>
+              <div class="h-step-body">Den Button <strong>„Baupläne injizieren"</strong> klicken – fertig! Die Spieltexte werden aktualisiert.</div>
+            </div> -->
+          </div>
+          <div class="h-box h-box-done" style="margin-top:10px; margin-bottom:0;">
+            <strong>Tipp – Log-Scan im Launcher:</strong> Alternativ kannst du im Launcher-eigenen Baupläne-Dialog den <strong>Log-Scan</strong> starten. Er durchsucht deinen <code>logbackups</code>-Ordner automatisch und erstellt die JSON-Datei direkt – ohne den Umweg über diese Seite.
+          </div>
+        </div>
+
+      </div><!-- /.modal_text -->
     </div>
   </div>
 </div>
