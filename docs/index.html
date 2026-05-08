@@ -630,7 +630,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
       <div class="hd-stat"><span class="hd-stat-n" id="sn-total">—</span><span>Gesamt</span></div>
       <div class="hd-stat"><span class="hd-stat-n" id="sn-open">—</span><span>Offen</span></div>
       <div class="hd-stat"><span class="hd-stat-n c-mark" id="sn-marked">—</span><span>Vorgemerkt</span></div>
-      <div class="hd-stat"><span class="hd-stat-n c-done" id="sn-done">—</span><span>Erledigt</span></div>
+      <div class="hd-stat"><span class="hd-stat-n c-done" id="sn-done">—</span><span>Erspielt</span></div>
     </div>
     <span class="ver-tag" id="ver-tag"></span>
     <a href="https://scmdb.net/" target="_blank" rel="noopener noreferrer" class="ver-tag">Daten von scmdb.net</a>
@@ -716,7 +716,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
       <button class="ftab active"   data-f="all"      onclick="setF('all')">Alle</button>
       <button class="ftab"          data-f="open"     onclick="setF('open')">Offen</button>
       <button class="ftab t-mark"   data-f="marked"   onclick="setF('marked')">Vorgemerkt</button>
-      <button class="ftab t-done"   data-f="done"     onclick="setF('done')">Erledigt</button>
+      <button class="ftab t-done"   data-f="done"     onclick="setF('done')">Erspielt</button>
     </div>
 
     <div class="sys-chips" id="sys-chips">
@@ -776,7 +776,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
           Export
         </button>
         <div class="exp-menu" id="exp-menu">
-          <button class="exp-item" onclick="exportJson('done')">Erledigte als JSON</button>
+          <button class="exp-item" onclick="exportJson('done')">Erspielte als JSON</button>
           <button class="exp-item" onclick="exportJson('marked')">Vorgemerkte als JSON</button>
           <div class="exp-sep"></div>
           <button class="exp-item" onclick="exportJson('all')">Alle als JSON</button>
@@ -790,7 +790,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
 
   <div class="bulk-bar" id="bulk-bar">
     <span class="bulk-msg" id="bulk-msg"></span>
-    <button class="bulk-btn done-all" onclick="bulkDone()">Alle als erledigt markieren</button>
+    <button class="bulk-btn done-all" onclick="bulkDone()">Alle als erspielt markieren</button>
     <button class="bulk-btn" onclick="bulkMark()">Alle vormerken</button>
     <button class="bulk-btn clear-all" onclick="clearAllState()">Status dieser Ansicht löschen</button>
   </div>
@@ -820,7 +820,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
 
         <!-- ── Intro ──────────────────────────────────────── -->
         <p style="margin-bottom: 20px; line-height: 1.65;">
-          Willkommen in der <strong style="color:var(--tx-h)">Baupläne-Datenbank</strong>. Hier kannst du alle verfügbaren Auftragstypen mit Bauplan-Belohnungen durchsuchen, deinen Sammelfortschritt verfolgen und erledigte Baupläne direkt in die Spieltexte des SC Deutsch Launchers integrieren.
+          Willkommen in der <strong style="color:var(--tx-h)">Baupläne-Datenbank</strong>. Hier kannst du alle verfügbaren Auftragstypen mit Bauplan-Belohnungen durchsuchen, deinen Sammelfortschritt verfolgen und erspielte Baupläne direkt in die Spieltexte des SC Deutsch Launchers integrieren.
         </p>
 
         <!-- ── Grundfunktionen ────────────────────────────── -->
@@ -832,15 +832,15 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
           <div class="h-feat-list">
             <div class="h-feat">
               <span class="h-feat-icon" style="color:var(--accent)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
-              <span><strong>Suchen &amp; Filtern:</strong> Nutze die Suchleiste, um gezielt nach Missionen zu suchen. Mit den System-Chips (Stanton, Pyro, Nyx) kannst du nach Herkunftsregion filtern. Die Tabs <span class="h-badge h-badge-done">Erledigt</span> und <span class="h-badge h-badge-mark">Vorgemerkt</span> zeigen nur Karten mit dem jeweiligen Status.</span>
+              <span><strong>Suchen &amp; Filtern:</strong> Nutze die Suchleiste, um gezielt nach Missionen zu suchen. Mit den System-Chips (Stanton, Pyro, Nyx) kannst du nach Herkunftsregion filtern. Die Tabs <span class="h-badge h-badge-done">Erspielt</span> und <span class="h-badge h-badge-mark">Vorgemerkt</span> zeigen nur Karten mit dem jeweiligen Status.</span>
             </div>
             <div class="h-feat">
               <span class="h-feat-icon" style="color:var(--done)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></span>
-              <span><strong>Status setzen:</strong> Klicke auf das <strong>✓-Symbol</strong> (Erledigt) oder das <strong>Lesezeichen</strong> (Vorgemerkt) auf einer Karte. Ein Bauplan kann nicht gleichzeitig erledigt und vorgemerkt sein – der jeweils neuere Status überschreibt den alten.</span>
+              <span><strong>Status setzen:</strong> Klicke auf das <strong>✓-Symbol</strong> (Erspielt) oder das <strong>Lesezeichen</strong> (Vorgemerkt) auf einer Karte. Ein Bauplan kann nicht gleichzeitig erspielt und vorgemerkt sein – der jeweils neuere Status überschreibt den alten.</span>
             </div>
             <div class="h-feat">
               <span class="h-feat-icon" style="color:var(--mark)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></span>
-              <span><strong>Massenauswahl:</strong> Sobald ein Filter oder eine Suche aktiv ist, erscheint eine Aktionsleiste unterhalb der Filter. Damit lassen sich alle sichtbaren Baupläne auf einmal als erledigt oder vorgemerkt markieren – oder der Status aller sichtbaren Karten wird zurückgesetzt.</span>
+              <span><strong>Massenauswahl:</strong> Sobald ein Filter oder eine Suche aktiv ist, erscheint eine Aktionsleiste unterhalb der Filter. Damit lassen sich alle sichtbaren Baupläne auf einmal als erspielt oder vorgemerkt markieren – oder der Status aller sichtbaren Karten wird zurückgesetzt.</span>
             </div>
           </div>
         </div>
@@ -872,7 +872,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
             Import
           </div>
           <p style="font-size:0.88rem; color:var(--tx); margin-bottom:10px; line-height:1.55;">
-            Der <strong style="color:var(--tx-h)">Import-Button</strong> enthält zwei Methoden, um Baupläne als <span class="h-badge h-badge-done">Erledigt</span> in die Datenbank zu laden. Beide Methoden <strong style="color:var(--tx-h)">mergen</strong> den Inhalt – vorhandene Einträge werden nicht überschrieben, sondern ergänzt.
+            Der <strong style="color:var(--tx-h)">Import-Button</strong> enthält zwei Methoden, um Baupläne als <span class="h-badge h-badge-done">Erspielt</span> in die Datenbank zu laden. Beide Methoden <strong style="color:var(--tx-h)">mergen</strong> den Inhalt – vorhandene Einträge werden nicht überschrieben, sondern ergänzt.
           </p>
           <div class="h-import-grid">
 
@@ -882,7 +882,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
                 JSON importieren
               </div>
-              <p>Lädt eine zuvor <strong>exportierte JSON-Datei</strong> (<code>.json</code>) und übernimmt alle darin enthaltenen Status-Einträge (<span class="h-badge h-badge-done">Erledigt</span> und <span class="h-badge h-badge-mark">Vorgemerkt</span>).</p>
+              <p>Lädt eine zuvor <strong>exportierte JSON-Datei</strong> (<code>.json</code>) und übernimmt alle darin enthaltenen Status-Einträge (<span class="h-badge h-badge-done">Erspielt</span> und <span class="h-badge h-badge-mark">Vorgemerkt</span>).</p>
               <p><strong>Geeignet für:</strong> Backup wiederherstellen, Fortschritt auf ein anderes Gerät übertragen oder eine zuvor gesicherte Datei importieren.</p>
               <p style="color:var(--tx-s); font-size:0.82rem; margin-top:4px;">Akzeptiert Dateien im Format der Export-Funktion dieser Seite (<code>sc_bp_*.json</code>).</p>
             </div>
@@ -893,7 +893,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
                 Log-Dateien scannen
               </div>
-              <p>Scannt <strong>Game-Logdateien</strong> aus dem <code>logbackups</code>-Ordner deiner Star Citizen LIVE- oder HOTFIX-Installation auf den Eintrag <code>Bauplan erhalten:</code> und markiert alle gefundenen Baupläne automatisch als <span class="h-badge h-badge-done">Erledigt</span>.</p>
+              <p>Scannt <strong>Game-Logdateien</strong> aus dem <code>logbackups</code>-Ordner deiner Star Citizen LIVE- oder HOTFIX-Installation auf den Eintrag <code>Bauplan erhalten:</code> und markiert alle gefundenen Baupläne automatisch als <span class="h-badge h-badge-done">Erspielt</span>.</p>
               <p><strong>Geeignet für:</strong> Erstmalige automatische Erfassung aller bereits im Spiel erspielten Baupläne, ohne manuelles Durchklicken.</p>
               <p style="color:var(--tx-s); font-size:0.82rem; margin-top:4px;">Akzeptiert mehrere <code>.log</code>-Dateien gleichzeitig. Nur LIVE &amp; HOTFIX enthalten auswertbare Bauplan-Einträge.</p>
             </div>
@@ -913,7 +913,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
           <div class="h-feat-list">
             <div class="h-feat">
               <span class="h-feat-icon" style="color:var(--done)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></span>
-              <span><strong>Erledigte als JSON:</strong> Exportiert ausschließlich die als <span class="h-badge h-badge-done">Erledigt</span> markierten Baupläne. Diese Datei kann direkt in den SC Deutsch Launcher importiert werden, um die Bauplan-Integration dort zu aktivieren.</span>
+              <span><strong>Erspielte als JSON:</strong> Exportiert ausschließlich die als <span class="h-badge h-badge-done">Erspielt</span> markierten Baupläne. Diese Datei kann direkt in den SC Deutsch Launcher importiert werden, um die Bauplan-Integration dort zu aktivieren.</span>
             </div>
             <div class="h-feat">
               <span class="h-feat-icon" style="color:var(--mark)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></span>
@@ -933,7 +933,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
             Baupläne im Spiel aktivieren
           </div>
           <p style="font-size:0.88rem; color:var(--tx); margin-bottom:10px; line-height:1.55;">
-            Mit dem <strong style="color:var(--tx-h)">SC Deutsch Launcher</strong> lassen sich erledigte Baupläne direkt in die deutschen Spieltexte einpflegen – sodass du im Spiel auf einen Blick siehst, welche Baupläne du von einem Auftrag bereits gesammelt hast.
+            Mit dem <strong style="color:var(--tx-h)">SC Deutsch Launcher</strong> lassen sich erspielte Baupläne direkt in die deutschen Spieltexte einpflegen – sodass du im Spiel auf einen Blick siehst, welche Baupläne du von einem Auftrag bereits gesammelt hast.
           </p>
           <div class="h-steps">
             <div class="h-step">
@@ -942,7 +942,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: none !important; }
             </div>
             <div class="h-step">
               <div class="h-step-num">2</div>
-              <div class="h-step-body">Auf dieser Seite auf <strong>Export → Erledigte als JSON</strong> klicken und die Datei speichern.</div>
+              <div class="h-step-body">Auf dieser Seite auf <strong>Export → Erspielte als JSON</strong> klicken und die Datei speichern.</div>
             </div>
             <div class="h-step">
               <div class="h-step-num">3</div>
@@ -1289,7 +1289,7 @@ function buildCard(pc) {
       <button class="chip-bti bm${bpMark ? ' on' : ''}" data-action="chip-mark" data-bp="${esc(bp)}" title="Vormerken">
         <svg viewBox="0 0 24 24" fill="${bpMark ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
       </button>
-      <button class="chip-bti ck${bpDone ? ' on' : ''}" data-action="chip-done" data-bp="${esc(bp)}" title="Erledigt">
+      <button class="chip-bti ck${bpDone ? ' on' : ''}" data-action="chip-done" data-bp="${esc(bp)}" title="Erspielt">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20,6 9,17 4,12"/></svg>
       </button>
     </div>`;
@@ -1515,17 +1515,17 @@ document.addEventListener('click', e => {
       markSet.delete(bp);
     } else {
       markSet.add(bp);
-      doneSet.delete(bp); // Schließt 'Erledigt' aus
+      doneSet.delete(bp); // Schließt 'Erspielt' aus
     }
     
     // Smooth DOM Update without reloading batch list
     document.querySelectorAll(`.chip-row[data-bp="${CSS.escape(bp)}"]`).forEach(cr => {
       cr.classList.toggle('bp-marked', !wasOn);
-      cr.classList.remove('bp-done'); // Visuellen Erledigt-Status entfernen
+      cr.classList.remove('bp-done'); // Visuellen Erspielt-Status entfernen
       
       const btnM = cr.querySelector('.chip-bti.bm');
       if (btnM) { btnM.classList.toggle('on', !wasOn); btnM.querySelector('svg')?.setAttribute('fill', !wasOn ? 'currentColor' : 'none'); }
-      cr.querySelector('.chip-bti.ck')?.classList.remove('on'); // Erledigt-Button zurücksetzen
+      cr.querySelector('.chip-bti.ck')?.classList.remove('on'); // Erspielt-Button zurücksetzen
     });
     document.querySelectorAll('#grid .card').forEach(updateCardState);
     lsSave(); updateStats();
@@ -1572,7 +1572,7 @@ function bulkDone() {
   const bpKeys = getVisibleBpKeys();
   bpKeys.forEach(bp => doneSet.add(bp));
   lsSave(); applyFilters();
-  showToast(`${bpKeys.length} Baupläne als erledigt markiert`);
+  showToast(`${bpKeys.length} Baupläne als erspielt markiert`);
 }
 
 function bulkMark() {
@@ -1592,7 +1592,7 @@ function bulkClear() {
 
 function clearAllState() {
   document.getElementById('exp-menu')?.classList.remove('open');
-  if (!confirm('Alle Fortschritte (Erledigt & Vorgemerkt) löschen?')) return;
+  if (!confirm('Alle Fortschritte (Erspielt & Vorgemerkt) löschen?')) return;
   doneSet.clear(); markSet.clear(); lsSave();
   applyFilters();
   showToast('Alle Status zurückgesetzt');
@@ -1629,7 +1629,7 @@ function handleImport(event) {
             importedCount++;
           } else if (bp.isMarked) {
             markSet.add(bp.key);
-            doneSet.delete(bp.key); // Sicherstellen, dass es nicht gleichzeitig erledigt ist
+            doneSet.delete(bp.key); // Sicherstellen, dass es nicht gleichzeitig erspielt ist
             importedCount++;
           }
         }
@@ -1679,7 +1679,7 @@ function handleLogImport(event) {
       applyFilters();
       updateStats();
       if (foundKeys.size > 0) {
-        showToast(`${foundKeys.size} Baupläne aus ${files.length} Log-Datei(en) gefunden, ${added} neu als erledigt markiert`);
+        showToast(`${foundKeys.size} Baupläne aus ${files.length} Log-Datei(en) gefunden, ${added} neu als erspielt markiert`);
       } else {
         showToast(`Keine Baupläne in ${files.length} Log-Datei(en) gefunden`, 'warn');
       }
@@ -1719,7 +1719,7 @@ function exportJson(mode) {
 
   const out = {
     exported:   new Date().toISOString(),
-    mode:       mode === 'all' ? 'vollständig' : mode === 'marked' ? 'vorgemerkt' : 'erledigt',
+    mode:       mode === 'all' ? 'vollständig' : mode === 'marked' ? 'vorgemerkt' : 'erspielt',
     total:      srcBps.length,
     done_count: [...doneSet].filter(k => allBpKeys.has(k)).length,
     mark_count: [...markSet].filter(k => allBpKeys.has(k)).length,
@@ -1738,7 +1738,7 @@ function exportCsv() {
     const e = pc._entry;
     const v = pc._variant;
     for (const bp of (v.reward_items || [])) {
-      const st = doneSet.has(bp) ? 'Erledigt' : markSet.has(bp) ? 'Vorgemerkt' : 'Offen';
+      const st = doneSet.has(bp) ? 'Erspielt' : markSet.has(bp) ? 'Vorgemerkt' : 'Offen';
       rows.push([ csvQ(bp), csvQ(getTitle(e)), getSys(getLoc(e)), csvQ(fmtLoc(getLoc(e))), csvQ(v.standing_label || ''), csvQ(v.rewardUEC || ''), (v.haulingOrders && v.haulingOrders.length) ? 'Ja' : 'Nein', st ]);
     }
   }
