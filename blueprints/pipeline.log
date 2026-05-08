@@ -1,53 +1,54 @@
-[2026-05-07 00:47:08] ========================================================
-[2026-05-07 00:47:08] Star Citizen Data Pipeline – Lauf gestartet
-[2026-05-07 00:47:08] Modus     : Nur Blueprints
-[2026-05-07 00:47:08] Log-Datei : F:\...\pipeline.log
-[2026-05-07 00:47:08] Script    : F:\...\sc_data_pipeline.py
-[2026-05-07 00:47:08] ========================================================
-[2026-05-07 00:47:08] 
-[2026-05-07 00:47:08] [STEP] Kopiere global.ini Dateien...
-[2026-05-07 00:47:08] [OK]   global.ini  →  F:\...\Data\live\global.ini
-[2026-05-07 00:47:08] [OK]   global.ini  →  F:\...\Data\live\full\global.ini
-[2026-05-07 00:47:08] 
-[2026-05-07 00:47:08] [STEP] Lade Spielversion von scmdb.net...
-[2026-05-07 00:47:09] [OK]   Gewählte Version: 4.7.2-live.11715810
-[2026-05-07 00:47:09] [OK]   Gespeichert: F:\...\Data\version.json
-[2026-05-07 00:47:09] 
-[2026-05-07 00:47:09] [STEP] Lade merged-4.8.0-ptu.11777743.json von scmdb.net...
-[2026-05-07 00:47:10] [OK]   Gespeichert: merged-4.8.0-ptu.11777743.json
-[2026-05-07 00:47:10] 
-[2026-05-07 00:47:10] [STEP] Lade merged-4.7.2-live.11715810.json von scmdb.net...
-[2026-05-07 00:47:10] [OK]   Gespeichert: merged-4.7.2-live.11715810.json
-[2026-05-07 00:47:10] 
-[2026-05-07 00:47:10] [STEP] Erstelle BP-Titel Log aus lokaler global.ini...
-[2026-05-07 00:47:10] [OK]   Titel-Log erstellt: 212/213 Keys → bp_titles_log.txt
-[2026-05-07 00:47:10] 
-[2026-05-07 00:47:10] [STEP] Überprüfe und aktualisiere overrides_locality.txt...
-[2026-05-07 00:47:10] [OK]   overrides_locality.txt ist aktuell (49 Einträge, 44 Kombinationen geprüft).
-[2026-05-07 00:47:10] 
-[2026-05-07 00:47:10] [STEP] Prüfe unzugeordnete Blueprint-Pools...
-[2026-05-07 00:47:10] [WARN] Unzugeordneter Pool: 61b089a0-880c-41da-a2c2-482a1bffe96f (poolName='<kein poolName>', 11 Blueprints)
-[2026-05-07 00:47:10] [WARN]   → 8 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-05-07 00:47:10] [WARN]        R97 "Scorched" Shotgun
-[2026-05-07 00:47:10] [WARN]        Monde Arms Daimyo
-[2026-05-07 00:47:10] [WARN]        Monde Core Daimyo
-[2026-05-07 00:47:10] [WARN]        Monde Legs Daimyo
-[2026-05-07 00:47:10] [WARN]        Monde Arms Crimson Camo
-[2026-05-07 00:47:10] [WARN]        Monde Core Crimson Camo
-[2026-05-07 00:47:10] [WARN]        Monde Legs Crimson Camo
-[2026-05-07 00:47:10] [WARN]        Monde Helmet Crimson Camo
-[2026-05-07 00:47:10] [WARN] GESAMT: 8 Blueprint(s) sind keinem Contract zugeordnet (CIG-Datenlücke – Script kann diese nicht ausgeben).
-[2026-05-07 00:47:10] 
-[2026-05-07 00:47:10] [STEP] Erstelle bp-contracts.json...
-[2026-05-07 00:47:10] [OK]   Standing-Cache unveraendert (46 Keys) - wird verwendet.
-[2026-05-07 00:47:10] [OK]   CIG-Bug-Korrekturen angewendet: 3 Contract(s) gepatcht.
-[2026-05-07 00:47:10] [OK]   219 Einträge gespeichert → F:\...\Data\bp-contracts.json
-[2026-05-07 00:47:10] [OK]     Davon Single-Pool : 191
-[2026-05-07 00:47:10] [OK]     Davon Multi-Pool  : 28
-[2026-05-07 00:47:10] 
-[2026-05-07 00:47:10] [STEP] Erstelle bp-contracts_short.json für SCDL injection...
-[2026-05-07 00:47:10] [OK]   219 Einträge gespeichert → F:\...\Data\bp-contracts_short.json
-[2026-05-07 00:47:10] 
-[2026-05-07 00:47:10] ========================================================
-[2026-05-07 00:47:10] Alle Aufgaben erfolgreich abgeschlossen.
-[2026-05-07 00:47:10] ========================================================
+[2026-05-08 08:06:48] ========================================================
+[2026-05-08 08:06:48] Star Citizen Data Pipeline – Lauf gestartet
+[2026-05-08 08:06:48] Modus     : Nur Blueprints
+[2026-05-08 08:06:48] Log-Datei : F:\...\pipeline.log
+[2026-05-08 08:06:48] Script    : F:\...\sc_data_pipeline.py
+[2026-05-08 08:06:48] ========================================================
+[2026-05-08 08:06:48] 
+[2026-05-08 08:06:48] [STEP] Kopiere global.ini Dateien...
+[2026-05-08 08:06:48] [OK]   global.ini  →  F:\...\Data\live\global.ini
+[2026-05-08 08:06:48] [OK]   global.ini  →  F:\...\Data\live\full\global.ini
+[2026-05-08 08:06:48] 
+[2026-05-08 08:06:48] [STEP] Lade Spielversion von scmdb.net...
+[2026-05-08 08:06:50] [OK]   Gewählte Version: 4.7.2-live.11715810
+[2026-05-08 08:06:50] [OK]   Gespeichert: F:\...\Data\version.json
+[2026-05-08 08:06:50] 
+[2026-05-08 08:06:50] [STEP] Lade merged-4.8.0-ptu.11777743.json von scmdb.net...
+[2026-05-08 08:06:50] [OK]   Gespeichert: merged-4.8.0-ptu.11777743.json
+[2026-05-08 08:06:50] 
+[2026-05-08 08:06:50] [STEP] Lade merged-4.7.2-live.11715810.json von scmdb.net...
+[2026-05-08 08:06:50] [OK]   Gespeichert: merged-4.7.2-live.11715810.json
+[2026-05-08 08:06:50] 
+[2026-05-08 08:06:50] [STEP] Erstelle BP-Titel Log aus lokaler global.ini...
+[2026-05-08 08:06:50] [OK]   Titel-Log erstellt: 212/213 Keys → bp_titles_log.txt
+[2026-05-08 08:06:50] 
+[2026-05-08 08:06:50] [STEP] Überprüfe und aktualisiere overrides_locality.txt...
+[2026-05-08 08:06:50] [OK]   overrides_locality.txt ist aktuell (49 Einträge, 44 Kombinationen geprüft).
+[2026-05-08 08:06:50] 
+[2026-05-08 08:06:50] [STEP] Prüfe unzugeordnete Blueprint-Pools...
+[2026-05-08 08:06:50] [WARN] Unzugeordneter Pool: 61b089a0-880c-41da-a2c2-482a1bffe96f (poolName='<kein poolName>', 11 Blueprints)
+[2026-05-08 08:06:50] [WARN]   → 8 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-05-08 08:06:50] [WARN]        R97 "Scorched" Shotgun
+[2026-05-08 08:06:50] [WARN]        Monde Arms Daimyo
+[2026-05-08 08:06:50] [WARN]        Monde Core Daimyo
+[2026-05-08 08:06:50] [WARN]        Monde Legs Daimyo
+[2026-05-08 08:06:50] [WARN]        Monde Arms Crimson Camo
+[2026-05-08 08:06:50] [WARN]        Monde Core Crimson Camo
+[2026-05-08 08:06:50] [WARN]        Monde Legs Crimson Camo
+[2026-05-08 08:06:50] [WARN]        Monde Helmet Crimson Camo
+[2026-05-08 08:06:50] [WARN] GESAMT: 8 Blueprint(s) sind keinem Contract zugeordnet (CIG-Datenlücke – Script kann diese nicht ausgeben).
+[2026-05-08 08:06:50] 
+[2026-05-08 08:06:50] [STEP] Erstelle bp-contracts.json...
+[2026-05-08 08:06:50] [OK]   global.ini hat sich geaendert - Standing-Cache wird neu aufgebaut.
+[2026-05-08 08:06:50] [OK]   Standing-Cache neu erstellt: 46/46 Keys -> standings_de.json
+[2026-05-08 08:06:50] [OK]   CIG-Bug-Korrekturen angewendet: 3 Contract(s) gepatcht.
+[2026-05-08 08:06:50] [OK]   219 Einträge gespeichert → F:\...\Data\bp-contracts.json
+[2026-05-08 08:06:50] [OK]     Davon Single-Pool : 191
+[2026-05-08 08:06:50] [OK]     Davon Multi-Pool  : 28
+[2026-05-08 08:06:50] 
+[2026-05-08 08:06:50] [STEP] Erstelle bp-contracts_short.json für SCDL injection...
+[2026-05-08 08:06:51] [OK]   219 Einträge gespeichert → F:\...\Data\bp-contracts_short.json
+[2026-05-08 08:06:51] 
+[2026-05-08 08:06:51] ========================================================
+[2026-05-08 08:06:51] Alle Aufgaben erfolgreich abgeschlossen.
+[2026-05-08 08:06:51] ========================================================
