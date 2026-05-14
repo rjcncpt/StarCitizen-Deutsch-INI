@@ -1,5 +1,5 @@
 === Blueprint Contract Titles (aus lokaler global.ini) ===
-Generiert: 2026-05-13 23:04:52
+Generiert: 2026-05-14 15:19:18
 Quelle:    /Data/live/global.ini
 GitHub:    /rjcncpt
 ==========================================================
@@ -49,6 +49,18 @@ Eckhart_ShipAmbush_VH_title=Dangerous Ambush
 FTL_Courier_Nyx_Easy_Title_001=ENTRY LVL. COURIER NEEDED IN NYX
 FTL_Courier_Stanton_Easy_Title_001=ENTRY LVL. COURIER NEEDED IN STANTON
 FTL_Courier_Stanton_Medium_Title_001=JR. LVL. COURIER NEEDED IN STANTON
+Foxwell_DefendDestructibleEntites_E_Title_001=Yellow Lvl. Contract: Protect ~mission(Objects)
+Foxwell_DefendDestructibleEntites_H_Title_001=Orange Lvl. Contract: Protect ~mission(Objects)
+Foxwell_DefendDestructibleEntites_M_Title_001=Orange Lvl. Contract: Defend ~mission(Objects)
+Foxwell_DefendDestructibleEntites_S_Title_001=Red Lvl. Contract: Protect ~mission(Objects)
+Foxwell_DefendDestructibleEntites_VE_Title_001=Yellow Lvl. Contract: Defend ~mission(Objects)
+Foxwell_DefendDestructibleEntites_VH_Title_001=Red Lvl. Contract: Defend ~mission(Objects)
+Foxwell_DefendEntitesAndEscort_E_Title=Yellow Lvl. Contract: Protect ~mission(Objects) and Escort Employees
+Foxwell_DefendEntitesAndEscort_H_Title=Orange Lvl. Contract: Protect ~mission(Objects) and Escort Employees
+Foxwell_DefendEntitesAndEscort_M_Title=Orange Lvl. Contract: Defend ~mission(Objects) and Escort Employees
+Foxwell_DefendEntitesAndEscort_S_Title=Red Lvl. Contract: Protect ~mission(Objects) and Escort Employees
+Foxwell_DefendEntitesAndEscort_VE_Title=Yellow Lvl. Contract: Defend ~mission(Objects) and Escort Employees
+Foxwell_DefendEntitesAndEscort_VH_Title=Red Lvl. Contract: Defend ~mission(Objects) and Escort Employees
 Foxwell_DefendLocation_E_Title_001=Yellow Level Contract: Defend ~mission(DefendLocationWrapperLocation)
 Foxwell_DefendLocation_H_Title_001=Orange Level Contract: Protect Our Client's Interests
 Foxwell_DefendLocation_M_Title_001=Orange Level Contract: Ship Protection Needed
@@ -92,6 +104,12 @@ Foxwell_bombingrun_S_title_001=Red Level Contract: Destroy Outlaw Infrastructure
 Foxwell_bombingrun_VE_title_001=Yellow Level Contract: Limiting Potential Threat
 Foxwell_bombingrun_VH_title_001=Red Level Contract: Fuel Container Demolition
 Foxwell_destroyprobe_M_name_001=Orange Level Contract: Handle Security Threat
+HeadHunters_DefendEntitesAndEscort_E_Title=Provide Protection at ~mission(Location)
+HeadHunters_DefendEntitesAndEscort_H_Title=Stop Rival Attack at ~mission(Location)
+HeadHunters_DefendEntitesAndEscort_M_Title=Secure ~mission(Location) from Upstarts
+HeadHunters_DefendEntitesAndEscort_S_Title=Guard ~mission(Location) From Rivals
+HeadHunters_DefendEntitesAndEscort_VE_Title=Keep ~mission(Location) Safe
+HeadHunters_DefendEntitesAndEscort_VH_Title=Defend ~mission(Location) From Mercs
 Headhunters_defend_XT_VH_title_001=Block XenoThreat Expansion
 Headhunters_eliminateall_caves_title_01=A Swift Reprisal
 Highpoint_KillAnimals_rockcracker_title_E_001=Reduce Valakkar Breaker Station Population
@@ -116,6 +134,9 @@ Intersec_KillShip_Title_Hard_001=Preemptive Strike On ~mission(TargetName)
 Intersec_KillShip_Title_Intro_001=New Defense Contract: ~mission(TargetName) Elimination
 Intersec_KillShip_Title_Medium_001=Neutralize UEE Threat: ~mission(TargetName)
 Intersec_KillShip_Vanduul_Title_VeryHard_001=Neutralize Vanduul Target
+Intersec_TSG_Assist_Solo_Title_001=Assist People's Alliance Vessel Tranquility
+Intersec_TSG_BombRun_Solo_Title_001=Strategic Bombing
+Intersec_TSG_Group_Title_001=Tactical Strike Group Needed
 Kaboos_Mission_Title=Retrieve Additional Smuggler Intel
 LingFamily_HaulCargo_AToB_Intro_title=Cargo Hauling Opportunity with Ling Hauling
 LingFamily_HaulCargo_AToB_title=Ling Family - Rang: ~mission(ReputationRank) | Frachtlieferung - Umfang: ~mission(CargoGradeToken)
@@ -159,6 +180,13 @@ Shubin_Industrial_ShipMining_Stanton_VH_Interstellar_Title_001=XL Purchase Order
 Shubin_Industrial_ShipMining_Stanton_VH_Secondary_Interstellar_Title_001=XL Purchase Order: Ship Mined Ore
 Shubin_Industrial_ShipMining_Stanton_VH_Secondary_Title_001=XL Purchase Order: Ship Mined Ore
 Shubin_Industrial_ShipMining_VH_Org_Title_001=Special Purchase Order: Mined Materials
+TheCollector_Recipes_Title_L22Wolf=Extra Special Wolf
+TheCollector_Recipes_Title_NoneAR=Your Best Shot
+TheCollector_Recipes_Title_VGLflightsuit=Suit Up Take Off
+UWC_Refueling_easy_title_001=REFUEL REQUEST: ~mission(Ship)
+UWC_Refueling_high_title_001=CRITICAL REFUEL REQUEST: ~mission(Ship)
+UWC_Refueling_moderate_title_001=URGENT REFUEL REQUEST: ~mission(Ship)
+UWC_Refueling_multiple_med_title_001=URGENT FLEET REFUEL
 Vaughn_EliminateSpecific_FPS_Rockcracker_title_001=A Well Deserved Break
 bhg_bounty_title_ASD_Engineering_001=Verified Bounty: ~mission(TargetName) at ~mission(Location)
 bhg_bounty_title_ASD_Research_001=Verified Bounty: ~mission(TargetName) at ~mission(Location)
