@@ -1,9 +1,21 @@
 === Blueprint Contract Titles (aus lokaler global.ini) ===
-Generiert: 2026-05-08 08:06:50
+Generiert: 2026-05-13 23:04:52
 Quelle:    /Data/live/global.ini
 GitHub:    /rjcncpt
 ==========================================================
 
+Adagio_Industrial_Component_Salvage_Levski_H_Title_001=Salvager Needed (Lrg. Special Order of RMC / UCM / Components)
+Adagio_Industrial_Component_Salvage_Levski_M_Title_001=Salvager Needed (Med. Special Order of RMC / UCM / Components)
+Adagio_Industrial_Component_Salvage_Pyro_H_Title_001=Salvager Needed (Lrg. Special Order of RMC / UCM / Components)
+Adagio_Industrial_Component_Salvage_Pyro_M_Title_001=Salvager Needed (Med. Special Order of RMC / UCM / Components)
+Adagio_Industrial_Component_Salvage_Stanton_H_Title_001=Salvager Needed (Lrg. Special Order of RMC / UCM / Components)
+Adagio_Industrial_Component_Salvage_Stanton_M_Title_001=Salvager Needed (Med. Special Order of RMC / UCM / Components)
+Adagio_Industrial_Component_Salvage_Universal_H_Title_001=Salvager Needed (Lrg. Supply of RMC / UCM / Components)
+Adagio_Industrial_Component_Salvage_Universal_M_Title_001=Salvager Needed (Med. Supply of RMC / UCM / Components)
+Adagio_Industrial_Salvage_Universal_E_Title_001=Salvager Needed (Small Supply of RMC)
+Adagio_Industrial_Salvage_Universal_E_Title_002=Salvager Needed (Small Supply of RMC / UCM)
+Adagio_Industrial_Salvage_Universal_Intro_Title_001=Adagio Holdings in Need of Salvagers
+Adagio_Industrial_Salvage_Universal_M_Title_001=Salvager Needed (Med. Supply of RMC)
 BitZeros_RecoverItem_Generic_Title_001=Bleeding Edge Tech
 BitZeros_blackbox_E_Title_001=Getting To the Bottom of It
 BitZeros_blackbox_H_Title_001=Legendary Info?
@@ -17,7 +29,26 @@ CFP_RecoverCargo_Hard_Title=Crucial Supplies Need Retrieving
 CFP_RecoverCargo_Medium_Title=Recovering Valuable Supplies
 CFP_RecoverCargo_Super_Title=Special Recovery Operation
 CFP_RecoverCargo_VeryHard_Title=Cargo Shipment Must Be Completed
+Covalex_HaulCargo_AToB_title=Rang: ~mission(ReputationRank) | Direktroute: ~mission(CargoGradeToken) - Frachttransport
+Covalex_HaulCargo_SingleToMulti_title=Rang: ~mission(ReputationRank) | Route: ~mission(CargoGradeToken) - Mehrere Transporte
 DeadSaints_RecoverItem_Generic_Title_001=Getting Our Gear Back
+EckhartSecurity_EliminateBoss_DC_Title_001=High-Risk Bounty: ~mission(TargetName)
+Eckhart_EscortShips_E_title=Executive Protection Detail
+Eckhart_EscortShips_H_title=VIP Client Needs Protection
+Eckhart_EscortShips_M_title=Experienced Protection Detail Needed
+Eckhart_EscortShips_S_title=Top Tier Operator Needed
+Eckhart_EscortShips_VE_title=Low Risk Protection Detail
+Eckhart_EscortShips_VH_title=Personenschutz benötigt - Hohes Risiko
+Eckhart_ShipAmbush_E_title=Time to Teach a Lesson
+Eckhart_ShipAmbush_H_title=Tricky Ambush
+Eckhart_ShipAmbush_Intro_title=New Opportunity - Ambush Strike
+Eckhart_ShipAmbush_M_title=Launch Surprise Attack
+Eckhart_ShipAmbush_S_title=Highly Dangerous Ambush
+Eckhart_ShipAmbush_VE_title=Settle a Score
+Eckhart_ShipAmbush_VH_title=Dangerous Ambush
+FTL_Courier_Nyx_Easy_Title_001=ENTRY LVL. COURIER NEEDED IN NYX
+FTL_Courier_Stanton_Easy_Title_001=ENTRY LVL. COURIER NEEDED IN STANTON
+FTL_Courier_Stanton_Medium_Title_001=JR. LVL. COURIER NEEDED IN STANTON
 Foxwell_DefendLocation_E_Title_001=Yellow Level Contract: Defend ~mission(DefendLocationWrapperLocation)
 Foxwell_DefendLocation_H_Title_001=Orange Level Contract: Protect Our Client's Interests
 Foxwell_DefendLocation_M_Title_001=Orange Level Contract: Ship Protection Needed
@@ -86,6 +117,9 @@ Intersec_KillShip_Title_Intro_001=New Defense Contract: ~mission(TargetName) Eli
 Intersec_KillShip_Title_Medium_001=Neutralize UEE Threat: ~mission(TargetName)
 Intersec_KillShip_Vanduul_Title_VeryHard_001=Neutralize Vanduul Target
 Kaboos_Mission_Title=Retrieve Additional Smuggler Intel
+LingFamily_HaulCargo_AToB_Intro_title=Cargo Hauling Opportunity with Ling Hauling
+LingFamily_HaulCargo_AToB_title=Ling Family - Rang: ~mission(ReputationRank) | Frachtlieferung - Umfang: ~mission(CargoGradeToken)
+LingFamily_HaulCargo_MultiToSingle_title=Ling Family - Rang: ~mission(ReputationRank) | Frachtlieferung - Umfang: ~mission(CargoGradeToken)
 RAIN_collectresources_multiple_GEN_name_01=Additional Resources For Research
 RAIN_collectresources_multiple_OLP_name_01=Vital Resources Needed For Research
 RAIN_collectresources_single_OLP_name_01=Need Resource for Research
@@ -163,7 +197,6 @@ cfp_eliminateall_fromCFP_XT_M_title_001=Protecting outpost from XenoThreat
 cfp_eliminateall_fromCFP_hh_M_title_001=Defenders needed against Headhunters
 cfp_eliminateall_hh_E_title_001=Reclaim Headhunter Outpost
 cfp_sabotage_VH_title_001=Destroy Outlaw Data Servers
-cfp_sabotage_drugs_M_title_001=Halt Narcotics Operation
 cfp_sabotage_generators_M_title_001=Take Outlaws at ~mission(Location) Offline
 cfp_sabotage_generators_VE_title_001=Disable Outlaw Stronghold at ~mission(Location)
 cfp_sabotage_server_elimiatespecific_HH_title_001=Eradicate All Traces of Headhunter Data
@@ -211,6 +244,18 @@ headhunters_eliminateall_cfp_title_001=Looking for a little revenge
 headhunters_eliminateall_outpost_title_01=Reputation Management
 headhunters_eliminateall_retrievestolen_base_Generic_M_title_001=Death and cargo
 headhunters_eliminateall_xt_title_001=Green light on ~mission(Location)
+headhunters_killship_asteroid_rank0_title_001=Target takedown for a fast track in
+headhunters_killship_asteroid_rank1_title_001=Target at ~mission(Location)
+headhunters_killship_cfp_hrt_title_001=Kill Order
+headhunters_killship_cfp_mrt_title_001=Hit a CFP Ship
+headhunters_killship_cfp_vhrt_title_001=Primo Target
+headhunters_killship_gen_hrt_title_001=Wanted: ~mission(TargetName)
+headhunters_killship_gen_lrt_title_001=Simple Hit
+headhunters_killship_gen_mrt_title_001=Treat yourself to a fight
+headhunters_killship_gen_vlrt_rank0_title_001=Wanna be a Headhunter?
+headhunters_killship_gen_vlrt_title_001=~mission(TargetName) needs stomping
+headhunters_killship_xenothreat_ert_title_001=Ghost some XenoTrash
+headhunters_multikillship_base_Generic_M_title_001=Crash some ships
 northrock_bounty_fps_title_001=Bounty Assignment: ~mission(TargetName) (HRT)
 shubin_rockcracker_pvp_title_01=QV Breaker Station Mining Rights (Shared)
 shubin_rockcracker_solo_title_01=QV Breaker Station Mining Rights (Exclusive)
