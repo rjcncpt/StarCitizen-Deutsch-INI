@@ -1604,6 +1604,14 @@ function toggleImpMenu() {
   document.getElementById('exp-menu')?.classList.remove('open');
 }
 
+// Normalisiert Bauplan-Schlüssel: "(X Schuss)" → "(X Cap)" für die Datenbankzuordnung.
+// Die Datenbank verwendet "Cap"; Importe aus dem SCDL-Launcher oder deutschen Game-Logs
+// können "Schuss" enthalten. Die Anzeige des Originalnamens bleibt unverändert.
+// Beispiel: "Atzkav Sniper Rifle Battery (8 Schuss)" → "Atzkav Sniper Rifle Battery (8 Cap)"
+function normalizeCapToSchuss(name) {
+  return name.replace(/\((\d+)\s+Schuss\)/g, '($1 Cap)');
+}
+
 function handleImport(event) {
   const file = event.target.files[0];
   if (!file) return;
@@ -1623,13 +1631,14 @@ function handleImport(event) {
       // Daten mergen (zusammenführen)
       data.blueprints.forEach(bp => {
         if (bp.key) {
+          const normKey = normalizeCapToSchuss(bp.key);
           if (bp.isDone) {
-            doneSet.add(bp.key);
-            markSet.delete(bp.key); // Sicherstellen, dass es nicht gleichzeitig vorgemerkt ist
+            doneSet.add(normKey);
+            markSet.delete(normKey); // Sicherstellen, dass es nicht gleichzeitig vorgemerkt ist
             importedCount++;
           } else if (bp.isMarked) {
-            markSet.add(bp.key);
-            doneSet.delete(bp.key); // Sicherstellen, dass es nicht gleichzeitig erspielt ist
+            markSet.add(normKey);
+            doneSet.delete(normKey); // Sicherstellen, dass es nicht gleichzeitig erspielt ist
             importedCount++;
           }
         }
@@ -1692,7 +1701,7 @@ function handleLogImport(event) {
       for (const line of lines) {
         if (!line.includes('Bauplan erhalten')) continue;
         const m = line.match(BP_PATTERN);
-        if (m && m[1].trim()) foundKeys.add(m[1].trim());
+        if (m && m[1].trim()) foundKeys.add(normalizeCapToSchuss(m[1].trim()));
       }
       processed++;
       readNext(i + 1);
