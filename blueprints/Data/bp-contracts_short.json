@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "generiert": "2026-05-18 11:14:11",
+    "generiert": "2026-05-19 22:12:22",
     "version_patch": "4.8.0 LIVE.11825000",
     "eintraege": 299,
-    "version": "Beta 18.05.2026",
+    "version": "Beta 19.05.2026",
     "github": "/rjcncpt"
   },
   "entries": [
@@ -1791,7 +1791,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "UWC_Refueling_high_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 198.500 / 238.500 / 451.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\nPyro, Region A (Monox) - Gefahr 3/10\\nStanton 1 (Hurston) - Gefahr 4/10\\nStanton 2 (Crusader) - Gefahr 4/10\\nStanton 3 (ArcCorp) - Gefahr 6/10\\nStanton 4 (microTech) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 198.500 / 238.500 / 451.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\nPyro, Region A (Monox) - Gefahr 3/10\\nStanton 1 (Hurston) - Gefahr 4/10\\nStanton 2 (Crusader) - Gefahr 4/10\\nStanton 3 (ArcCorp) - Gefahr 6/10\\nStanton 4 (microTech) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 198.500 / 238.500 / 451.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Missions-Reputation: 200 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -1815,14 +1815,14 @@
         {
           "standing_label": "Auftragnehmer Senior (5.800 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt"
+            "Norfield",
+            "Marlin",
+            "Lindstrom",
+            "Harkin",
+            "RN-7s",
+            "Bendix",
+            "Torrez",
+            "Ezra"
           ],
           "haulingOrders": null,
           "rewardUEC": "198.500 / 238.500 / 451.000 aUEC",
@@ -14436,7 +14436,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "UWC_Refueling_easy_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 49.250 / 58.750 / 150.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n\\n# Region: Nyx-System - Gefahr 3-6/10, Nyx-System - Gefahr 3-6/10, Pyro, Region A (Monox) - Gefahr 3/10, Stanton 1 (Hurston) - Gefahr 4/10, Stanton 2 (Crusader) - Gefahr 4/10, Stanton 3 (ArcCorp) - Gefahr 6/10, Stanton 4 (microTech) - Gefahr 5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 19.750 / 23.750 / 43.250 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n\\n# Region: Nyx-System - Gefahr 3-6/10, Nyx-System - Gefahr 3-6/10, Pyro, Region A (Monox) - Gefahr 3/10, Pyro, Region B (Bloom) - Gefahr 4/10, Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10, Pyro, Region D (Terminus) - Gefahr 7/10, Stanton 1 (Hurston) - Gefahr 4/10, Stanton 2 (Crusader) - Gefahr 4/10, Stanton 3 (ArcCorp) - Gefahr 6/10, Stanton 4 (microTech) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 49.250 / 58.750 / 150.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n# Region: Nyx-System - Gefahr 3-6/10, Nyx-System - Gefahr 3-6/10, Pyro, Region A (Monox) - Gefahr 3/10, Stanton 1 (Hurston) - Gefahr 4/10, Stanton 2 (Crusader) - Gefahr 4/10, Stanton 3 (ArcCorp) - Gefahr 6/10, Stanton 4 (microTech) - Gefahr 5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 19.750 / 23.750 / 43.250 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n# Region: Nyx-System - Gefahr 3-6/10, Nyx-System - Gefahr 3-6/10, Pyro, Region A (Monox) - Gefahr 3/10, Pyro, Region B (Bloom) - Gefahr 4/10, Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10, Pyro, Region D (Terminus) - Gefahr 7/10, Stanton 1 (Hurston) - Gefahr 4/10, Stanton 2 (Crusader) - Gefahr 4/10, Stanton 3 (ArcCorp) - Gefahr 6/10, Stanton 4 (microTech) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 19.750 / 23.750 / 43.250 / 49.250 / 58.750 / 150.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Missions-Reputation: 100 / 200 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -14460,14 +14460,14 @@
         {
           "standing_label": "Auftragnehmer Junior (800 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt"
+            "Norfield",
+            "Marlin",
+            "Lindstrom",
+            "Harkin",
+            "RN-7s",
+            "Bendix",
+            "Torrez",
+            "Ezra"
           ],
           "haulingOrders": null,
           "rewardUEC": "49.250 / 58.750 / 150.250 aUEC",
@@ -14476,14 +14476,14 @@
         {
           "standing_label": "Neutral (0 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt"
+            "Norfield",
+            "Marlin",
+            "Lindstrom",
+            "Harkin",
+            "RN-7s",
+            "Bendix",
+            "Torrez",
+            "Ezra"
           ],
           "haulingOrders": null,
           "rewardUEC": "19.750 / 23.750 / 43.250 aUEC",
@@ -19392,7 +19392,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "UWC_Refueling_multiple_med_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 107.500 / 128.750 / 384.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n\\n# Region: Nyx-System - Gefahr 3-6/10, Nyx-System - Gefahr 3-6/10, Pyro, Region A (Monox) - Gefahr 3/10, Stanton 1 (Hurston) - Gefahr 4/10, Stanton 2 (Crusader) - Gefahr 4/10, Stanton 3 (ArcCorp) - Gefahr 6/10, Stanton 4 (microTech) - Gefahr 5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 65.500 / 78.750 / 167.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n\\n# Region: Nyx-System - Gefahr 3-6/10, Nyx-System - Gefahr 3-6/10, Pyro, Region A (Monox) - Gefahr 3/10, Stanton 1 (Hurston) - Gefahr 4/10, Stanton 2 (Crusader) - Gefahr 4/10, Stanton 3 (ArcCorp) - Gefahr 6/10, Stanton 4 (microTech) - Gefahr 5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 159.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 107.500 / 128.750 / 384.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n# Region: Nyx-System - Gefahr 3-6/10, Nyx-System - Gefahr 3-6/10, Pyro, Region A (Monox) - Gefahr 3/10, Stanton 1 (Hurston) - Gefahr 4/10, Stanton 2 (Crusader) - Gefahr 4/10, Stanton 3 (ArcCorp) - Gefahr 6/10, Stanton 4 (microTech) - Gefahr 5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 65.500 / 78.750 / 167.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n# Region: Nyx-System - Gefahr 3-6/10, Nyx-System - Gefahr 3-6/10, Pyro, Region A (Monox) - Gefahr 3/10, Stanton 1 (Hurston) - Gefahr 4/10, Stanton 2 (Crusader) - Gefahr 4/10, Stanton 3 (ArcCorp) - Gefahr 6/10, Stanton 4 (microTech) - Gefahr 5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 159.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 65.500 / 78.750 / 107.500 / 128.750 / 159.000 / 167.500 / 384.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Missions-Reputation: 150 / 250 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -19416,14 +19416,14 @@
         {
           "standing_label": "Auftragnehmer Senior (5.800 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt"
+            "Norfield",
+            "Marlin",
+            "Lindstrom",
+            "Harkin",
+            "RN-7s",
+            "Bendix",
+            "Torrez",
+            "Ezra"
           ],
           "haulingOrders": null,
           "rewardUEC": "107.500 / 128.750 / 384.750 aUEC",
@@ -19432,14 +19432,14 @@
         {
           "standing_label": "Auftragnehmer (2.200 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt"
+            "Norfield",
+            "Marlin",
+            "Lindstrom",
+            "Harkin",
+            "RN-7s",
+            "Bendix",
+            "Torrez",
+            "Ezra"
           ],
           "haulingOrders": null,
           "rewardUEC": "65.500 / 78.750 / 167.500 aUEC",
@@ -19448,14 +19448,14 @@
         {
           "standing_label": "Auftragnehmer Leitend (38.000 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt"
+            "Norfield",
+            "Marlin",
+            "Lindstrom",
+            "Harkin",
+            "RN-7s",
+            "Bendix",
+            "Torrez",
+            "Ezra"
           ],
           "haulingOrders": null,
           "rewardUEC": "159.000 aUEC",
@@ -19468,7 +19468,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "UWC_Refueling_moderate_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 43.250 / 58.750 / 107.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n    - Unbekannt\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\nPyro, Region A (Monox) - Gefahr 3/10\\nStanton 1 (Hurston) - Gefahr 4/10\\nStanton 2 (Crusader) - Gefahr 4/10\\nStanton 3 (ArcCorp) - Gefahr 6/10\\nStanton 4 (microTech) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 43.250 / 58.750 / 107.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\nPyro, Region A (Monox) - Gefahr 3/10\\nStanton 1 (Hurston) - Gefahr 4/10\\nStanton 2 (Crusader) - Gefahr 4/10\\nStanton 3 (ArcCorp) - Gefahr 6/10\\nStanton 4 (microTech) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 43.250 / 58.750 / 107.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Missions-Reputation: 150 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -19492,14 +19492,14 @@
         {
           "standing_label": "Auftragnehmer Junior (800 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt",
-            "Unbekannt"
+            "Norfield",
+            "Marlin",
+            "Lindstrom",
+            "Harkin",
+            "RN-7s",
+            "Bendix",
+            "Torrez",
+            "Ezra"
           ],
           "haulingOrders": null,
           "rewardUEC": "43.250 / 58.750 / 107.500 aUEC",
