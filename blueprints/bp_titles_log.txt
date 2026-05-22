@@ -1,5 +1,5 @@
 === Blueprint Contract Titles (aus lokaler global.ini) ===
-Generiert: 2026-05-22 14:18:35
+Generiert: 2026-05-22 20:36:11
 GitHub:    /rjcncpt
 ==========================================================
 
@@ -29,7 +29,7 @@ CFP_RecoverCargo_Medium_Title=Recovering Valuable Supplies
 CFP_RecoverCargo_Super_Title=Special Recovery Operation
 CFP_RecoverCargo_VeryHard_Title=Cargo Shipment Must Be Completed
 Covalex_HaulCargo_AToB_title=Rang: ~mission(ReputationRank) | Direktroute: ~mission(CargoGradeToken) - Frachttransport
-Covalex_HaulCargo_SingleToMulti_title=Rang: ~mission(ReputationRank) | Route: ~mission(CargoGradeToken) - Mehrere Transporte
+Covalex_HaulCargo_SingleToMulti_title=Rang: ~mission(ReputationRank) | ~mission(CargoGradeToken) - Mehrere Transporte
 DeadSaints_RecoverItem_Generic_Title_001=Getting Our Gear Back
 EckhartSecurity_EliminateBoss_DC_Title_001=High-Risk Bounty: ~mission(TargetName)
 Eckhart_EscortShips_E_title=Executive Protection Detail
