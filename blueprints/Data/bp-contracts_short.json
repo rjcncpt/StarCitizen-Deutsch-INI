@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "generiert": "2026-05-19 22:50:59",
-    "version_patch": "4.8.0 LIVE.11825000",
-    "eintraege": 299,
-    "version": "Beta 19.05.2026",
+    "generiert": "2026-05-22 09:30:59",
+    "version_patch": "4.8.0 LIVE.11875683",
+    "eintraege": 311,
+    "version": "Beta 22.05.2026",
     "github": "/rjcncpt"
   },
   "entries": [
@@ -644,19 +644,23 @@
           "resolvedLocations": [
             {
               "name": "Hurston",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "Crusader",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "ArcCorp",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "microTech",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             }
           ]
         },
@@ -701,19 +705,23 @@
           "resolvedLocations": [
             {
               "name": "Hurston",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "Crusader",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "ArcCorp",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "microTech",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             }
           ]
         },
@@ -1107,19 +1115,23 @@
           "resolvedLocations": [
             {
               "name": "Hurston",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "Crusader",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "ArcCorp",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "microTech",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             }
           ]
         },
@@ -1176,19 +1188,23 @@
           "resolvedLocations": [
             {
               "name": "Hurston",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "Crusader",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "ArcCorp",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "microTech",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             }
           ]
         },
@@ -1616,6 +1632,57 @@
       ]
     },
     {
+      "descriptionLocKey": "eckhart_defendship_multi_VHRT_SB_desc_001",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "eckhart_defendship_multi_VHRT_SB_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 171.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Veteran (15.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 171.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 250 XP\\n# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "d7402a2f-fa7b-4009-9354-6a6a98523365"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Veteran (15.000 XP) / Auftragnehmer Elite (95.250 XP)",
+          "reward_items": [
+            "R97 Shotgun",
+            "Monde Arms",
+            "Monde Core",
+            "Monde Legs",
+            "Monde Helmet",
+            "Monde Arms Hiro",
+            "Monde Core Hiro",
+            "Monde Legs Hiro",
+            "Monde Helmet Hiro",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "171.250 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 171.250 aUEC Mission "
+        }
+      ]
+    },
+    {
       "descriptionLocKey": "cfp_defendship_multi_SRT_desc_001",
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "cfp_defendship_multi_SRT_title_001",
@@ -1704,6 +1771,52 @@
           "haulingOrders": null,
           "rewardUEC": "119.250 aUEC",
           "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 119.250 aUEC Mission "
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "cfp_defendship_multi_VHRT_SB_desc_001",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "cfp_defendship_multi_VHRT_SB_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 171.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Veteran (15.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 171.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 250 XP\\n# Cooldown für Mission: 45 Minuten",
+      "canBeShared": true,
+      "personalCooldownTime": 45,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "aee09f10-3192-4de8-98e4-109bc5767fab"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Veteran (15.000 XP) / Auftragnehmer Elite (95.250 XP)",
+          "reward_items": [
+            "R97 Shotgun",
+            "Monde Arms",
+            "Monde Core",
+            "Monde Legs",
+            "Monde Helmet",
+            "Monde Arms Hiro",
+            "Monde Core Hiro",
+            "Monde Legs Hiro",
+            "Monde Helmet Hiro",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "171.250 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 171.250 aUEC Mission "
         }
       ]
     },
@@ -2474,8 +2587,8 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "cfp_sabotage_servers_M_HH_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 62.000 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 165.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
-      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 62.000 / 165.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 62.000 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 165.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 67.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 62.000 / 67.500 / 165.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Missions-Reputation: 125 / 200 XP\\n# Cooldown für Mission: 45 Minuten",
       "canBeShared": true,
       "personalCooldownTime": 45,
@@ -2484,7 +2597,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "RegionA, RegionB, RegionC"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -2550,8 +2663,8 @@
             "P6-LR Magazine (8 Cap)"
           ],
           "haulingOrders": null,
-          "rewardUEC": null,
-          "reward_hint": null
+          "rewardUEC": "67.500 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 67.500 aUEC Mission"
         }
       ]
     },
@@ -2755,7 +2868,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "cfp_sabotage_generators_VE_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. / Max. Reputation: Neutral (0 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 61.250 aUEC Mission\\n\\n# Min. / Max. Reputation: Neutral (0 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 / 61.250 aUEC Mission\\n\\n# Min. / Max. Reputation: Neutral (0 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 61.250 aUEC Mission\\n\\n# Min. / Max. Reputation: Neutral (0 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 38.000 / 61.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Missions-Reputation: 75 XP\\n# Cooldown für Mission: 45 Minuten",
       "canBeShared": true,
@@ -2765,7 +2878,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "RegionA, RegionC"
+            "name": "RegionA, RegionB, RegionC"
           }
         ]
       },
@@ -2789,8 +2902,8 @@
             "Gallant Rifle Battery (45 Cap)"
           ],
           "haulingOrders": null,
-          "rewardUEC": "38.000 aUEC",
-          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission"
+          "rewardUEC": "38.000 / 61.250 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 38.000 / 61.250 aUEC Mission"
         },
         {
           "standing_label": "Auftragnehmer Junior (800 XP) / Auftragnehmer Elite (95.250 XP)",
@@ -3940,6 +4053,52 @@
           "haulingOrders": null,
           "rewardUEC": "119.500 aUEC",
           "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 119.500 aUEC Mission "
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "cfp_defendship_multi_HRT_SB_desc_001",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "cfp_defendship_multi_HRT_SB_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 119.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 119.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 200 XP\\n# Cooldown für Mission: 45 Minuten",
+      "canBeShared": true,
+      "personalCooldownTime": 45,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "aee09f10-3192-4de8-98e4-109bc5767fab"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Senior (5.800 XP) / Auftragnehmer Elite (95.250 XP)",
+          "reward_items": [
+            "R97 Shotgun",
+            "Monde Arms",
+            "Monde Core",
+            "Monde Legs",
+            "Monde Helmet",
+            "Monde Arms Hiro",
+            "Monde Core Hiro",
+            "Monde Legs Hiro",
+            "Monde Helmet Hiro",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "119.250 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 119.250 aUEC Mission "
         }
       ]
     },
@@ -8700,9 +8859,9 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "headhunters_EliminateSpecific_CFP_M_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Scalpel Sniper Rifle\\n    - Coda Pistol\\n    - Coda \"Nighthawk\" Pistol\\n    - Coda \"Big Boss\" Pistol\\n    - Morozov-SH Arms\\n    - Morozov-SH Core\\n    - Morozov-SH Legs\\n    - Morozov-SH Helmet\\n    - Scalpel Sniper Rifle Magazine (12 Cap)\\n    - Coda Pistol Magazine (6 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Devastator Shotgun\\n    - Devastator \"Warhawk\" Shotgun\\n    - Devastator \"Midnight\" Shotgun\\n    - Morozov-SH Core Thule\\n    - Morozov-SH Arms Thule\\n    - Morozov-SH Legs Thule\\n    - Morozov-SH Helmet Thule\\n    - Devastator Shotgun Battery (12 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
-      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 88.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
-      "contractInfo": "# Missions-Reputation: 100 XP\\n# Cooldown für Mission: 1 Minute",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.000 / 165.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Scalpel Sniper Rifle\\n    - Coda Pistol\\n    - Coda \"Nighthawk\" Pistol\\n    - Coda \"Big Boss\" Pistol\\n    - Morozov-SH Arms\\n    - Morozov-SH Core\\n    - Morozov-SH Legs\\n    - Morozov-SH Helmet\\n    - Scalpel Sniper Rifle Magazine (12 Cap)\\n    - Coda Pistol Magazine (6 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Devastator Shotgun\\n    - Devastator \"Warhawk\" Shotgun\\n    - Devastator \"Midnight\" Shotgun\\n    - Morozov-SH Core Thule\\n    - Morozov-SH Arms Thule\\n    - Morozov-SH Legs Thule\\n    - Morozov-SH Helmet Thule\\n    - Devastator Shotgun Battery (12 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 88.000 / 165.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 100 / 125 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
       "personalCooldownTime": 1,
       "canReacceptAfterAbandoning": false,
@@ -8716,7 +8875,7 @@
         ],
         "locality": [
           {
-            "name": "RegionA, RegionC"
+            "name": "RegionA, RegionB, RegionC"
           }
         ]
       },
@@ -8736,8 +8895,8 @@
             "Coda Pistol Magazine (6 Cap)"
           ],
           "haulingOrders": null,
-          "rewardUEC": "88.000 aUEC",
-          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 88.000 aUEC Mission"
+          "rewardUEC": "88.000 / 165.750 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 88.000 / 165.750 aUEC Mission"
         },
         {
           "standing_label": "Auftragnehmer (2.200 XP) / Auftragnehmer Elite (95.250 XP)",
@@ -9010,9 +9169,9 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "headhunters_EliminateSpecific_Generic_M_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 37.250 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Scalpel Sniper Rifle\\n    - Coda Pistol\\n    - Coda \"Nighthawk\" Pistol\\n    - Coda \"Big Boss\" Pistol\\n    - Morozov-SH Arms\\n    - Morozov-SH Core\\n    - Morozov-SH Legs\\n    - Morozov-SH Helmet\\n    - Scalpel Sniper Rifle Magazine (12 Cap)\\n    - Coda Pistol Magazine (6 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
-      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 37.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
-      "contractInfo": "# Missions-Reputation: 50 XP\\n# Cooldown für Mission: 1 Minute",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 37.250 / 66.250 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Scalpel Sniper Rifle\\n    - Coda Pistol\\n    - Coda \"Nighthawk\" Pistol\\n    - Coda \"Big Boss\" Pistol\\n    - Morozov-SH Arms\\n    - Morozov-SH Core\\n    - Morozov-SH Legs\\n    - Morozov-SH Helmet\\n    - Scalpel Sniper Rifle Magazine (12 Cap)\\n    - Coda Pistol Magazine (6 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 37.250 / 66.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 50 / 75 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
       "personalCooldownTime": 1,
       "canReacceptAfterAbandoning": false,
@@ -9026,7 +9185,7 @@
         ],
         "locality": [
           {
-            "name": "RegionA"
+            "name": "RegionA, RegionB"
           }
         ]
       },
@@ -9046,8 +9205,8 @@
             "Coda Pistol Magazine (6 Cap)"
           ],
           "haulingOrders": null,
-          "rewardUEC": "37.250 aUEC",
-          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 37.250 aUEC Mission "
+          "rewardUEC": "37.250 / 66.250 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 37.250 / 66.250 aUEC Mission "
         }
       ]
     },
@@ -9318,15 +9477,18 @@
           "resolvedLocations": [
             {
               "name": "Stanton",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Stanton"
             },
             {
               "name": "Hurston",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "Crusader",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             }
           ]
         },
@@ -9586,407 +9748,508 @@
           "resolvedLocations": [
             {
               "name": "Pyro",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Pyro"
             },
             {
               "name": "PYAM-EXHANG-0-1",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-WHISKEY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-CHARLIE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-YORK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-GULF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LEST",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JONG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KNAP",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OXID",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PALL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HELM",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BASK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BUCK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LUNE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-GRAY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MAGE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-GADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-WARB",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HORN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KIFF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MUGG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PEKE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TACK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-AXIL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DARI",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-YEAD",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster BGR-560",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster CAJ-445",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster JWY-925",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-DELTA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-LAMDA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-OVER",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ECHO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-POINT",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-SIERRA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-HELIO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-VICTORY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ZETA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-XENO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-QUAGMIRE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-JAK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NARY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JUTE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TYRO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SPAW",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MURK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OLLA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KYUS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DORY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RODE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-VERD",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-FLAG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RINE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-ALME",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OAKS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NONG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LANX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SIJO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-ARID",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BORS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LYES",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster FSN-704",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster GRP-839",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster KKE-717",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster RSC-340",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster WDH-387",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster YKA-011",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ION",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-LYNX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-COOK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-UMUS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MEFF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SOWL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PIZE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-QINS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RAWN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LOWN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-CRUE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MARA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-CHAM",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RAIK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KELT",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MOSK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NENE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DIRK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PLEX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TIGS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HARK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SEER",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SAIC",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster DLO-486",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster EMM-567",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster HJS-232",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster LHB-976",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster MNK-833",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             }
           ]
         },
@@ -10136,407 +10399,508 @@
           "resolvedLocations": [
             {
               "name": "Pyro",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Pyro"
             },
             {
               "name": "PYAM-EXHANG-0-1",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-WHISKEY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-CHARLIE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-YORK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-GULF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LEST",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JONG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KNAP",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OXID",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PALL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HELM",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BASK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BUCK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LUNE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-GRAY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MAGE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-GADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-WARB",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HORN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KIFF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MUGG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PEKE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TACK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-AXIL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DARI",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-YEAD",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster BGR-560",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster CAJ-445",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster JWY-925",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-DELTA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-LAMDA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-OVER",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ECHO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-POINT",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-SIERRA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-HELIO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-VICTORY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ZETA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-XENO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-QUAGMIRE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-JAK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NARY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JUTE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TYRO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SPAW",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MURK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OLLA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KYUS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DORY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RODE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-VERD",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-FLAG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RINE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-ALME",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OAKS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NONG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LANX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SIJO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-ARID",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BORS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LYES",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster FSN-704",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster GRP-839",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster KKE-717",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster RSC-340",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster WDH-387",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster YKA-011",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ION",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-LYNX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-COOK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-UMUS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MEFF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SOWL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PIZE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-QINS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RAWN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LOWN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-CRUE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MARA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-CHAM",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RAIK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KELT",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MOSK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NENE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DIRK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PLEX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TIGS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HARK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SEER",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SAIC",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster DLO-486",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster EMM-567",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster HJS-232",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster LHB-976",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster MNK-833",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             }
           ]
         },
@@ -11188,7 +11552,8 @@
           "resolvedLocations": [
             {
               "name": "Nyx",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Nyx"
             }
           ]
         },
@@ -11250,7 +11615,8 @@
           "resolvedLocations": [
             {
               "name": "Nyx",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Nyx"
             }
           ]
         },
@@ -11312,7 +11678,8 @@
           "resolvedLocations": [
             {
               "name": "Nyx",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Nyx"
             }
           ]
         },
@@ -12017,6 +12384,52 @@
       ]
     },
     {
+      "descriptionLocKey": "cfp_defendship_LRT_SB_Desc_001",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "cfp_defendship_LRT_SB_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 62.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 62.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 100 XP\\n# Cooldown für Mission: 45 Minuten",
+      "canBeShared": true,
+      "personalCooldownTime": 45,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "aee09f10-3192-4de8-98e4-109bc5767fab"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Auftragnehmer Elite (95.250 XP)",
+          "reward_items": [
+            "R97 Shotgun",
+            "Monde Arms",
+            "Monde Core",
+            "Monde Legs",
+            "Monde Helmet",
+            "Monde Arms Hiro",
+            "Monde Core Hiro",
+            "Monde Legs Hiro",
+            "Monde Helmet Hiro",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "62.000 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 62.000 aUEC Mission "
+        }
+      ]
+    },
+    {
       "descriptionLocKey": "HeadHunters_DefendEntitesAndEscort_E_Desc",
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "HeadHunters_DefendEntitesAndEscort_E_Title",
@@ -12100,52 +12513,9 @@
       ]
     },
     {
-      "descriptionLocKey": "shubin_rockcracker_solo_desc_01",
-      "dropChance": "# Chance auf Bauplan: 100%",
-      "titleLocKey": "shubin_rockcracker_solo_title_01",
-      "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
-      "bpnote": "",
-      "contractInfo": "# Cooldown für Mission: 1 Minute",
-      "canBeShared": true,
-      "personalCooldownTime": 1,
-      "canReacceptAfterAbandoning": true,
-      "canReacceptAfterFailing": false,
-      "prerequisites": {
-        "location": [
-          {
-            "name": "Nyx System",
-            "navIcon": "Default"
-          }
-        ],
-        "locality": []
-      },
-      "variants": [
-        {
-          "standing_label": "Auftragnehmer (2.200 XP) / Keine Angaben",
-          "reward_items": [
-            "R97 \"Kismet\" Shotgun",
-            "R97 \"Righteous\" Shotgun",
-            "Monde Arms Delta Camo",
-            "Monde Legs Delta Camo",
-            "Monde Core Delta Camo",
-            "Monde Helmet Delta Camo",
-            "Monde Helmet Hemlock Camo",
-            "Monde Legs Hemlock Camo",
-            "Monde Core Hemlock Camo",
-            "Monde Arms Hemlock Camo",
-            "R97 Shotgun Magazine (18 Cap)"
-          ],
-          "haulingOrders": null,
-          "rewardUEC": null,
-          "reward_hint": null
-        }
-      ]
-    },
-    {
       "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
       "dropChance": "# Chance auf Bauplan: 100%",
-      "titleLocKey": "shubin_rockcracker_pvp_title_01",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_24",
       "title": " <EM4>[BP]</EM4>",
       "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "",
@@ -12236,6 +12606,49 @@
       "variants": [
         {
           "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_solo_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_solo_title_01",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          }
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer (2.200 XP) / Keine Angaben",
           "reward_items": [
             "R97 \"Kismet\" Shotgun",
             "R97 \"Righteous\" Shotgun",
@@ -12918,407 +13331,508 @@
           "resolvedLocations": [
             {
               "name": "Pyro",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Pyro"
             },
             {
               "name": "PYAM-EXHANG-0-1",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-WHISKEY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-CHARLIE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-YORK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-GULF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LEST",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JONG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KNAP",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OXID",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PALL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HELM",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BASK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BUCK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LUNE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-GRAY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MAGE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-GADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-WARB",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HORN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KIFF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MUGG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PEKE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TACK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-AXIL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DARI",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-YEAD",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster BGR-560",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster CAJ-445",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster JWY-925",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-DELTA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-LAMDA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-OVER",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ECHO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-POINT",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-SIERRA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-HELIO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-VICTORY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ZETA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-XENO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-QUAGMIRE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-JAK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NARY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JUTE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TYRO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SPAW",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MURK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OLLA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KYUS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DORY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RODE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-VERD",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-FLAG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RINE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-ALME",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OAKS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NONG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LANX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SIJO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-ARID",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BORS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LYES",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster FSN-704",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster GRP-839",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster KKE-717",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster RSC-340",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster WDH-387",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster YKA-011",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ION",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-LYNX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-COOK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-UMUS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MEFF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SOWL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PIZE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-QINS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RAWN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LOWN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-CRUE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MARA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-CHAM",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RAIK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KELT",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MOSK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NENE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DIRK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PLEX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TIGS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HARK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SEER",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SAIC",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster DLO-486",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster EMM-567",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster HJS-232",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster LHB-976",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster MNK-833",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             }
           ]
         },
@@ -13420,15 +13934,18 @@
           "resolvedLocations": [
             {
               "name": "Stanton",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Stanton"
             },
             {
               "name": "Hurston",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "Crusader",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             }
           ]
         },
@@ -13487,407 +14004,508 @@
           "resolvedLocations": [
             {
               "name": "Pyro",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Pyro"
             },
             {
               "name": "PYAM-EXHANG-0-1",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-WHISKEY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-CHARLIE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-YORK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-GULF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LEST",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JONG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KNAP",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OXID",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PALL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HELM",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BASK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BUCK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LUNE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-GRAY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MAGE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-GADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-WARB",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HORN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KIFF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MUGG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PEKE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TACK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-AXIL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DARI",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-YEAD",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster BGR-560",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster CAJ-445",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster JWY-925",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-DELTA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-LAMDA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-OVER",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ECHO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-POINT",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-SIERRA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-HELIO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-VICTORY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ZETA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-XENO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-QUAGMIRE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-JAK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NARY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JUTE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TYRO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SPAW",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MURK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OLLA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KYUS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DORY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RODE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-VERD",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-FLAG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RINE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-ALME",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OAKS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NONG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LANX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SIJO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-ARID",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BORS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LYES",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster FSN-704",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster GRP-839",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster KKE-717",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster RSC-340",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster WDH-387",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster YKA-011",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ION",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-LYNX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-COOK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-UMUS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MEFF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SOWL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PIZE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-QINS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RAWN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LOWN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-CRUE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MARA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-CHAM",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RAIK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KELT",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MOSK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NENE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DIRK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PLEX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TIGS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HARK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SEER",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SAIC",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster DLO-486",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster EMM-567",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster HJS-232",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster LHB-976",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster MNK-833",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             }
           ]
         },
@@ -14492,12 +15110,63 @@
       ]
     },
     {
+      "descriptionLocKey": "eckhart_defendship_MRT_SB_desc_001",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "eckhart_defendship_MRT_SB_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 82.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 82.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 150 XP\\n# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "d7402a2f-fa7b-4009-9354-6a6a98523365"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer (2.200 XP) / Auftragnehmer Elite (95.250 XP)",
+          "reward_items": [
+            "R97 Shotgun",
+            "Monde Arms",
+            "Monde Core",
+            "Monde Legs",
+            "Monde Helmet",
+            "Monde Arms Hiro",
+            "Monde Core Hiro",
+            "Monde Legs Hiro",
+            "Monde Helmet Hiro",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "82.250 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 82.250 aUEC Mission "
+        }
+      ]
+    },
+    {
       "descriptionLocKey": "headhunters_eliminateall_outpost_desc_01",
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "headhunters_eliminateall_outpost_title_01",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 44.250 aUEC Mission\\n\\n# Min. / Max. Reputation: Neutral (0 XP)\\n\\n# Baupläne:\\n    - Yubarev Pistol\\n    - Yubarev \"Mirage\" Pistol\\n    - Yubarev \"Igniter\" Pistol\\n    - DustUp Arms Tactical\\n    - DustUp Core Tactical\\n    - DustUp Legs Tactical\\n    - DustUp Helmet Tactical\\n    - Yubarev Pistol Battery (10 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 147.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Yubarev Pistol\\n    - Yubarev \"Mirage\" Pistol\\n    - Yubarev \"Igniter\" Pistol\\n    - DustUp Arms Tactical\\n    - DustUp Core Tactical\\n    - DustUp Legs Tactical\\n    - DustUp Helmet Tactical\\n    - Yubarev Pistol Battery (10 Cap)\\n\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
-      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 44.250 / 147.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 44.250 / 49.250 aUEC Mission\\n\\n# Min. / Max. Reputation: Neutral (0 XP)\\n\\n# Baupläne:\\n    - Yubarev Pistol\\n    - Yubarev \"Mirage\" Pistol\\n    - Yubarev \"Igniter\" Pistol\\n    - DustUp Arms Tactical\\n    - DustUp Core Tactical\\n    - DustUp Legs Tactical\\n    - DustUp Helmet Tactical\\n    - Yubarev Pistol Battery (10 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 147.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Yubarev Pistol\\n    - Yubarev \"Mirage\" Pistol\\n    - Yubarev \"Igniter\" Pistol\\n    - DustUp Arms Tactical\\n    - DustUp Core Tactical\\n    - DustUp Legs Tactical\\n    - DustUp Helmet Tactical\\n    - Yubarev Pistol Battery (10 Cap)\\n\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 44.250 / 49.250 / 147.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Missions-Reputation: 75 / 300 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
       "personalCooldownTime": 1,
@@ -14530,8 +15199,8 @@
             "Yubarev Pistol Battery (10 Cap)"
           ],
           "haulingOrders": null,
-          "rewardUEC": "44.250 aUEC",
-          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 44.250 aUEC Mission"
+          "rewardUEC": "44.250 / 49.250 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 44.250 / 49.250 aUEC Mission"
         },
         {
           "standing_label": "Auftragnehmer Senior (5.800 XP) / Auftragnehmer Elite (95.250 XP)",
@@ -14548,6 +15217,57 @@
           "haulingOrders": null,
           "rewardUEC": "147.250 aUEC",
           "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 147.250 aUEC Mission"
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "eckhart_defendship_LRT_SB_desc_001",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "eckhart_defendship_LRT_SB_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 62.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 62.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 100 XP\\n# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "d7402a2f-fa7b-4009-9354-6a6a98523365"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Auftragnehmer Elite (95.250 XP)",
+          "reward_items": [
+            "R97 Shotgun",
+            "Monde Arms",
+            "Monde Core",
+            "Monde Legs",
+            "Monde Helmet",
+            "Monde Arms Hiro",
+            "Monde Core Hiro",
+            "Monde Legs Hiro",
+            "Monde Helmet Hiro",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "62.000 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 62.000 aUEC Mission "
         }
       ]
     },
@@ -14721,7 +15441,8 @@
           "resolvedLocations": [
             {
               "name": "Levski",
-              "navIcon": "LandingZone"
+              "navIcon": "LandingZone",
+              "system": "Nyx"
             }
           ]
         },
@@ -14871,7 +15592,8 @@
           "resolvedLocations": [
             {
               "name": "Stanton",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Stanton"
             }
           ]
         },
@@ -14937,11 +15659,13 @@
           "resolvedLocations": [
             {
               "name": "Levski",
-              "navIcon": "LandingZone"
+              "navIcon": "LandingZone",
+              "system": "Nyx"
             },
             {
               "name": "Nyx",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Nyx"
             }
           ]
         },
@@ -15069,7 +15793,8 @@
           "resolvedLocations": [
             {
               "name": "Levski",
-              "navIcon": "LandingZone"
+              "navIcon": "LandingZone",
+              "system": "Nyx"
             }
           ]
         },
@@ -15164,7 +15889,8 @@
           "resolvedLocations": [
             {
               "name": "Pyro",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Pyro"
             }
           ]
         },
@@ -15242,7 +15968,8 @@
           "resolvedLocations": [
             {
               "name": "Stanton",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Stanton"
             }
           ]
         },
@@ -15320,7 +16047,8 @@
           "resolvedLocations": [
             {
               "name": "Levski",
-              "navIcon": "LandingZone"
+              "navIcon": "LandingZone",
+              "system": "Nyx"
             }
           ]
         },
@@ -15426,7 +16154,8 @@
           "resolvedLocations": [
             {
               "name": "Levski",
-              "navIcon": "LandingZone"
+              "navIcon": "LandingZone",
+              "system": "Nyx"
             }
           ]
         },
@@ -15736,6 +16465,57 @@
       ]
     },
     {
+      "descriptionLocKey": "eckhart_defendship_multi_HRT_SB_desc_001",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "eckhart_defendship_multi_HRT_SB_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 119.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 119.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 200 XP\\n# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "d7402a2f-fa7b-4009-9354-6a6a98523365"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Senior (5.800 XP) / Auftragnehmer Elite (95.250 XP)",
+          "reward_items": [
+            "R97 Shotgun",
+            "Monde Arms",
+            "Monde Core",
+            "Monde Legs",
+            "Monde Helmet",
+            "Monde Arms Hiro",
+            "Monde Core Hiro",
+            "Monde Legs Hiro",
+            "Monde Helmet Hiro",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "119.250 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 119.250 aUEC Mission "
+        }
+      ]
+    },
+    {
       "descriptionLocKey": "Eckhart_ShipAmbush_VE_desc",
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Eckhart_ShipAmbush_VE_title",
@@ -15778,6 +16558,57 @@
           "haulingOrders": null,
           "rewardUEC": "26.250 aUEC",
           "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 26.250 aUEC Mission "
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "eckhart_defendship_multi_SRT_SB_desc_001",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "eckhart_defendship_multi_SRT_SB_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 274.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 274.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 300 XP\\n# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "d7402a2f-fa7b-4009-9354-6a6a98523365"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Leitend (38.000 XP) / Auftragnehmer Elite (95.250 XP)",
+          "reward_items": [
+            "R97 Shotgun",
+            "Monde Arms",
+            "Monde Core",
+            "Monde Legs",
+            "Monde Helmet",
+            "Monde Arms Hiro",
+            "Monde Core Hiro",
+            "Monde Legs Hiro",
+            "Monde Helmet Hiro",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "274.000 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 274.000 aUEC Mission "
         }
       ]
     },
@@ -17915,6 +18746,52 @@
       ]
     },
     {
+      "descriptionLocKey": "cfp_defendship_MRT_SB_desc_001",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "cfp_defendship_MRT_SB_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 82.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 82.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 150 XP\\n# Cooldown für Mission: 45 Minuten",
+      "canBeShared": true,
+      "personalCooldownTime": 45,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "aee09f10-3192-4de8-98e4-109bc5767fab"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer (2.200 XP) / Auftragnehmer Elite (95.250 XP)",
+          "reward_items": [
+            "R97 Shotgun",
+            "Monde Arms",
+            "Monde Core",
+            "Monde Legs",
+            "Monde Helmet",
+            "Monde Arms Hiro",
+            "Monde Core Hiro",
+            "Monde Legs Hiro",
+            "Monde Helmet Hiro",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "82.250 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 82.250 aUEC Mission "
+        }
+      ]
+    },
+    {
       "descriptionLocKey": "eckhart_defendship_multi_VHRT_desc_001",
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "eckhart_defendship_multi_VHRT_title_001",
@@ -18087,6 +18964,103 @@
           "haulingOrders": null,
           "rewardUEC": "336.500 aUEC",
           "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 336.500 aUEC Mission"
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "cfp_defendship_multi_SRT_SB_desc_001",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "cfp_defendship_multi_SRT_SB_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 274.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 274.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 300 XP\\n# Cooldown für Mission: 45 Minuten",
+      "canBeShared": true,
+      "personalCooldownTime": 45,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "aee09f10-3192-4de8-98e4-109bc5767fab"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Leitend (38.000 XP) / Auftragnehmer Elite (95.250 XP)",
+          "reward_items": [
+            "R97 Shotgun",
+            "Monde Arms",
+            "Monde Core",
+            "Monde Legs",
+            "Monde Helmet",
+            "Monde Arms Hiro",
+            "Monde Core Hiro",
+            "Monde Legs Hiro",
+            "Monde Helmet Hiro",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "274.000 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 274.000 aUEC Mission "
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "eckhart_defendship_VLRT_SB_desc_001",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "eckhart_defendship_VLRT_SB_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 100 XP\\n# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "d7402a2f-fa7b-4009-9354-6a6a98523365"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Neutral (0 XP) / Auftragnehmer Elite (95.250 XP)",
+          "reward_items": [
+            "R97 Shotgun",
+            "Monde Arms",
+            "Monde Core",
+            "Monde Legs",
+            "Monde Helmet",
+            "Monde Arms Hiro",
+            "Monde Core Hiro",
+            "Monde Legs Hiro",
+            "Monde Helmet Hiro",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "41.500 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission "
         }
       ]
     },
@@ -18300,6 +19274,52 @@
           "haulingOrders": null,
           "rewardUEC": "62.000 aUEC",
           "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 62.000 aUEC Mission "
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "cfp_defendship_VLRT_SB_desc_001",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "cfp_defendship_VLRT_SB_title_001",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 100 XP\\n# Cooldown für Mission: 45 Minuten",
+      "canBeShared": true,
+      "personalCooldownTime": 45,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "requiredCountValue": 1,
+          "tags": [
+            "aee09f10-3192-4de8-98e4-109bc5767fab"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Neutral (0 XP) / Auftragnehmer Elite (95.250 XP)",
+          "reward_items": [
+            "R97 Shotgun",
+            "Monde Arms",
+            "Monde Core",
+            "Monde Legs",
+            "Monde Helmet",
+            "Monde Arms Hiro",
+            "Monde Core Hiro",
+            "Monde Legs Hiro",
+            "Monde Helmet Hiro",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "41.500 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission "
         }
       ]
     },
@@ -18898,19 +19918,23 @@
           "resolvedLocations": [
             {
               "name": "Hurston",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "Crusader",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "ArcCorp",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "microTech",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             }
           ]
         },
@@ -19392,8 +20416,8 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "UWC_Refueling_multiple_med_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 107.500 / 128.750 / 384.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n# Region: \\n    - Nyx-System - Gefahr 3-6/10\\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 65.500 / 78.750 / 167.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n# Region: \\n    - Nyx-System - Gefahr 3-6/10\\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 159.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
-      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 65.500 / 78.750 / 107.500 / 128.750 / 159.000 / 167.500 / 384.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 107.500 / 128.750 / 190.750 / 384.750 / 1.806.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n# Region: \\n    - Nyx-System - Gefahr 3-6/10\\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 65.500 / 78.750 / 167.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n# Region: \\n    - Nyx-System - Gefahr 3-6/10\\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 159.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Norfield\\n    - Marlin\\n    - Lindstrom\\n    - Harkin\\n    - RN-7s\\n    - Bendix\\n    - Torrez\\n    - Ezra\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 65.500 / 78.750 / 107.500 / 128.750 / 159.000 / 167.500 / 190.750 / 384.750 / 1.806.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Missions-Reputation: 150 / 250 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
       "personalCooldownTime": 1,
@@ -19426,8 +20450,8 @@
             "Ezra"
           ],
           "haulingOrders": null,
-          "rewardUEC": "107.500 / 128.750 / 384.750 aUEC",
-          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 107.500 / 128.750 / 384.750 aUEC Mission"
+          "rewardUEC": "107.500 / 128.750 / 190.750 / 384.750 / 1.806.250 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 107.500 / 128.750 / 190.750 / 384.750 / 1.806.250 aUEC Mission"
         },
         {
           "standing_label": "Auftragnehmer (2.200 XP) / Auftragnehmer Elite (95.250 XP)",
@@ -20285,9 +21309,9 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "bhg_bounty_title_gen_001",
       "title": " <EM4>[BP]*</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 11.250 aUEC Mission\\n\\n# Min. Reputation: Gildenmitglied auf Probe (1 XP)\\n# Max. Reputation: Bewerber (0 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
-      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 11.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
-      "contractInfo": "# Missions-Reputation: 500 XP\\n# Cooldown für Mission: 15 Minuten",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 11.250 / 21.500 / 33.250 / 50.500 / 76.000 / 113.000 aUEC Mission\\n\\n# Min. Reputation: Gildenmitglied auf Probe (1 XP)\\n# Max. Reputation: Gildenverwalter (480.000 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 11.250 / 21.500 / 33.250 / 50.500 / 76.000 / 113.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 500 / 1.000 / 2.000 / 8.000 / 16.000 XP\\n# Cooldown für Mission: 15 Minuten",
       "canBeShared": true,
       "personalCooldownTime": 15,
       "canReacceptAfterAbandoning": false,
@@ -20301,13 +21325,13 @@
         "completedContractTags": {
           "requiredCountValue": 1,
           "tags": [
-            "301c8246-3095-4f95-be34-1ddab8640d73"
+            "a71144c2-7483-4eb3-9325-90210412cdbd"
           ]
         }
       },
       "variants": [
         {
-          "standing_label": "Gildenmitglied auf Probe (1 XP) / Bewerber (0 XP)",
+          "standing_label": "Gildenmitglied auf Probe (1 XP) / Gildenverwalter (480.000 XP)",
           "reward_items": [
             "R97 Shotgun",
             "Monde Arms",
@@ -20321,8 +21345,8 @@
             "R97 Shotgun Magazine (18 Cap)"
           ],
           "haulingOrders": null,
-          "rewardUEC": "11.250 aUEC",
-          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 11.250 aUEC Mission "
+          "rewardUEC": "11.250 / 21.500 / 33.250 / 50.500 / 76.000 / 113.000 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 11.250 / 21.500 / 33.250 / 50.500 / 76.000 / 113.000 aUEC Mission "
         }
       ]
     },
@@ -22644,407 +23668,508 @@
           "resolvedLocations": [
             {
               "name": "Pyro",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Pyro"
             },
             {
               "name": "PYAM-EXHANG-0-1",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-WHISKEY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-CHARLIE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-YORK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-GULF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LEST",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JONG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KNAP",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OXID",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PALL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HELM",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BASK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BUCK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LUNE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-GRAY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MAGE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-GADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-WARB",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HORN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KIFF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MUGG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PEKE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TACK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-AXIL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DARI",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-YEAD",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster BGR-560",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster CAJ-445",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster JWY-925",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-DELTA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-LAMDA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-OVER",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ECHO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-POINT",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-SIERRA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-HELIO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-VICTORY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ZETA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-XENO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-QUAGMIRE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-JAK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NARY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JUTE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TYRO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SPAW",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MURK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OLLA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KYUS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DORY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RODE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-VERD",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-FLAG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RINE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-ALME",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OAKS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NONG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LANX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SIJO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-ARID",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BORS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LYES",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster FSN-704",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster GRP-839",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster KKE-717",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster RSC-340",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster WDH-387",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster YKA-011",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ION",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-LYNX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-COOK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-UMUS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MEFF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SOWL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PIZE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-QINS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RAWN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LOWN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-CRUE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MARA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-CHAM",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RAIK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KELT",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MOSK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NENE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DIRK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PLEX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TIGS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HARK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SEER",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SAIC",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster DLO-486",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster EMM-567",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster HJS-232",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster LHB-976",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster MNK-833",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             }
           ]
         },
@@ -23393,23 +24518,28 @@
           "resolvedLocations": [
             {
               "name": "Stanton",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Stanton"
             },
             {
               "name": "Hurston",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "Crusader",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "ArcCorp",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             },
             {
               "name": "microTech",
-              "navIcon": "Planet"
+              "navIcon": "Planet",
+              "system": "Stanton"
             }
           ]
         },
@@ -23468,407 +24598,508 @@
           "resolvedLocations": [
             {
               "name": "Pyro",
-              "navIcon": "Star"
+              "navIcon": "Star",
+              "system": "Pyro"
             },
             {
               "name": "PYAM-EXHANG-0-1",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-WHISKEY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-CHARLIE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-YORK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-GULF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LEST",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JONG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KNAP",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OXID",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PALL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HELM",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BASK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BUCK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LUNE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-GRAY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MAGE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-GADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-WARB",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HORN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KIFF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MUGG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PEKE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TACK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-AXIL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DARI",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-YEAD",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster BGR-560",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster CAJ-445",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster JWY-925",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-DELTA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-LAMDA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-OVER",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ECHO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-POINT",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-SIERRA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-HELIO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-VICTORY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ZETA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-XENO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-QUAGMIRE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-JAK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NARY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JUTE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TYRO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SPAW",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MURK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OLLA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KYUS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DORY",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RODE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-VERD",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-FLAG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RINE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-ALME",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-OAKS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NONG",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LANX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SIJO",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-ARID",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-BORS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LYES",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster FSN-704",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster GRP-839",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster KKE-717",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster RSC-340",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster WDH-387",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster YKA-011",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-ION",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-LYNX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RAB-COOK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Asteroid Mining Base",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-UMUS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MEFF",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SOWL",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PIZE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-QINS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RAWN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-LOWN",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-CRUE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MARA",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-CHAM",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-RAIK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-KELT",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-MOSK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-JADE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-NENE",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-DIRK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-PLEX",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-TIGS",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-HARK",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SEER",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "RMB-SAIC",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster DLO-486",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster EMM-567",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster HJS-232",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster LHB-976",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             },
             {
               "name": "Cluster MNK-833",
-              "navIcon": "Default"
+              "navIcon": "Default",
+              "system": "Pyro"
             }
           ]
         },
