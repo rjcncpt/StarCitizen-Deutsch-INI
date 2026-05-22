@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generiert": "2026-05-23 00:10:13",
+    "generiert": "2026-05-23 00:32:11",
     "version_patch": "4.8.0 LIVE.11875683",
-    "eintraege": 341,
+    "eintraege": 343,
     "version": "Beta 23.05.2026",
     "github": "/rjcncpt"
   },
@@ -28908,6 +28908,20 @@
           "reward_hint": null
         }
       ]
+    },
+    {
+      "descriptionLocKey": "Covalex_HaulCargo_AToB_desc_01",
+      "titleLocKey": "Covalex_HaulCargo_AToB_title",
+      "title": " <EM4>[BP]*</EM4>",
+      "description": "",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur ab Meister-Rang verfügbar\\n---------------------------------------------------------\\n\\n"
+    },
+    {
+      "descriptionLocKey": "Covalex_HaulCargo_SingleToMulti_desc_01",
+      "titleLocKey": "Covalex_HaulCargo_SingleToMulti_title",
+      "title": " <EM4>[BP]*</EM4>",
+      "description": "",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur ab Meister-Rang verfügbar\\n---------------------------------------------------------\\n\\n"
     }
   ]
 }

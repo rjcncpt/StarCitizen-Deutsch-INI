@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated": "2026-05-23 00:10:13",
+    "generated": "2026-05-23 00:32:11",
     "version_patch": "4.8.0 LIVE.11875683",
-    "entries": 341,
+    "entries": 343,
     "version": "Beta 23.05.2026",
     "github": "/rjcncpt"
   },
@@ -28908,6 +28908,20 @@
           "reward_hint": null
         }
       ]
+    },
+    {
+      "descriptionLocKey": "Covalex_HaulCargo_AToB_desc_01",
+      "titleLocKey": "Covalex_HaulCargo_AToB_title",
+      "title": " <EM4>[BP]*</EM4>",
+      "description": "",
+      "bpnote": "<EM4>[!]</EM4> Blueprints only available from Master rank\\n---------------------------------------------------------\\n\\n"
+    },
+    {
+      "descriptionLocKey": "Covalex_HaulCargo_SingleToMulti_desc_01",
+      "titleLocKey": "Covalex_HaulCargo_SingleToMulti_title",
+      "title": " <EM4>[BP]*</EM4>",
+      "description": "",
+      "bpnote": "<EM4>[!]</EM4> Blueprints only available from Master rank\\n---------------------------------------------------------\\n\\n"
     }
   ]
 }
