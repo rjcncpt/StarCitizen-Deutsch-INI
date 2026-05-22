@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generiert": "2026-05-22 10:39:17",
+    "generiert": "2026-05-22 14:18:35",
     "version_patch": "4.8.0 LIVE.11875683",
-    "eintraege": 311,
+    "eintraege": 341,
     "version": "Beta 22.05.2026",
     "github": "/rjcncpt"
   },
@@ -1473,6 +1473,118 @@
       "descriptionLocKey": "LingFamily_HaulCargo_MultiToSingle_desc_Party",
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "LingFamily_HaulCargo_AToB_Intro_title",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 257.250 aUEC Mission\\n\\n# Min. / Max. Reputation: Lehrling (0 XP)\\n\\n# Baupläne:\\n    - Spectre\\n    - Zephyr\\n    - Bolt\\n    - Spicule\\n    - Guardian\\n    - Citadel\\n    - Barbican\\n\\n# Abgabe:\\n    - Distilled Spirits (min. 24 cSCU) und\\n    - Party Favors (min. 12 cSCU) und\\n    - <= PLACEHOLDER => (min. 3 cSCU) und\\n    - Souvenirs (min. 3 cSCU)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 257.250 aUEC Mission\\n\\n# Min. Reputation: Neuling (50 XP)\\n# Max. Reputation: Meister (237.750 XP)\\n\\n# Baupläne:\\n    - Spectre\\n    - Zephyr\\n    - Bolt\\n    - Spicule\\n    - Guardian\\n    - Citadel\\n    - Barbican\\n\\n# Abgabe:\\n    - Distilled Spirits (min. 24 cSCU) und\\n    - Party Favors (min. 12 cSCU) und\\n    - <= PLACEHOLDER => (min. 3 cSCU) und\\n    - Souvenirs (min. 3 cSCU)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 257.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "contractInfo": "# Missions-Reputation: 100 XP\\n# Cooldown für Mission: 15 Minuten",
+      "canBeShared": true,
+      "personalCooldownTime": 15,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": true,
+      "prerequisites": {
+        "crimeStat": {
+          "min": 0,
+          "max": 2,
+          "includeWhenSharing": false
+        },
+        "locality": [
+          {
+            "name": "Nyx"
+          }
+        ],
+        "completedContractTags": {
+          "excludedTags": [
+            "1351a46c-2e40-40c5-98f9-70fe28942de9"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "standing_label": "Lehrling (0 XP)",
+          "reward_items": [
+            "Spectre",
+            "Zephyr",
+            "Bolt",
+            "Spicule",
+            "Guardian",
+            "Citadel",
+            "Barbican"
+          ],
+          "haulingOrders": [
+            {
+              "resource": "Distilled Spirits",
+              "maxContainerSize": 8,
+              "minSCU": 24,
+              "maxSCU": 0
+            },
+            {
+              "resource": "Party Favors",
+              "maxContainerSize": 4,
+              "minSCU": 12,
+              "maxSCU": 0
+            },
+            {
+              "resource": "<= PLACEHOLDER =>",
+              "maxContainerSize": 1,
+              "minSCU": 3,
+              "maxSCU": 0
+            },
+            {
+              "resource": "Souvenirs",
+              "maxContainerSize": 1,
+              "minSCU": 3,
+              "maxSCU": 0
+            }
+          ],
+          "rewardUEC": "257.250 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 257.250 aUEC Mission"
+        },
+        {
+          "standing_label": "Neuling (50 XP) / Meister (237.750 XP)",
+          "reward_items": [
+            "Spectre",
+            "Zephyr",
+            "Bolt",
+            "Spicule",
+            "Guardian",
+            "Citadel",
+            "Barbican"
+          ],
+          "haulingOrders": [
+            {
+              "resource": "Distilled Spirits",
+              "maxContainerSize": 8,
+              "minSCU": 24,
+              "maxSCU": 0
+            },
+            {
+              "resource": "Party Favors",
+              "maxContainerSize": 4,
+              "minSCU": 12,
+              "maxSCU": 0
+            },
+            {
+              "resource": "<= PLACEHOLDER =>",
+              "maxContainerSize": 1,
+              "minSCU": 3,
+              "maxSCU": 0
+            },
+            {
+              "resource": "Souvenirs",
+              "maxContainerSize": 1,
+              "minSCU": 3,
+              "maxSCU": 0
+            }
+          ],
+          "rewardUEC": "257.250 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 257.250 aUEC Mission"
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "LingFamily_HaulCargo_MultiToSingle_desc_Party",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "LingFamily_HaulCargo_AToB_title",
       "title": " <EM4>[BP]</EM4>",
       "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 257.250 aUEC Mission\\n\\n# Min. / Max. Reputation: Lehrling (0 XP)\\n\\n# Baupläne:\\n    - Spectre\\n    - Zephyr\\n    - Bolt\\n    - Spicule\\n    - Guardian\\n    - Citadel\\n    - Barbican\\n\\n# Abgabe:\\n    - Distilled Spirits (min. 24 cSCU) und\\n    - Party Favors (min. 12 cSCU) und\\n    - <= PLACEHOLDER => (min. 3 cSCU) und\\n    - Souvenirs (min. 3 cSCU)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 257.250 aUEC Mission\\n\\n# Min. Reputation: Neuling (50 XP)\\n# Max. Reputation: Meister (237.750 XP)\\n\\n# Baupläne:\\n    - Spectre\\n    - Zephyr\\n    - Bolt\\n    - Spicule\\n    - Guardian\\n    - Citadel\\n    - Barbican\\n\\n# Abgabe:\\n    - Distilled Spirits (min. 24 cSCU) und\\n    - Party Favors (min. 12 cSCU) und\\n    - <= PLACEHOLDER => (min. 3 cSCU) und\\n    - Souvenirs (min. 3 cSCU)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 257.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
@@ -12516,6 +12628,3283 @@
       "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "shubin_rockcracker_pvp_title_specific_24",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_04",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_13",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_30",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_08",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_07",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_19",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_09",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_02",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_05",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_20",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_10",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_27",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_12",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_03",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_16",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_23",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_06",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_21",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_28",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_18",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_29",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_17",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_26",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_15",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_22",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_25",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_14",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_specific_11",
+      "title": " <EM4>[BP]</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "",
+      "contractInfo": "# Cooldown für Mission: 1 Minute",
+      "canBeShared": true,
+      "personalCooldownTime": 1,
+      "canReacceptAfterAbandoning": true,
+      "canReacceptAfterFailing": false,
+      "prerequisites": {
+        "location": [
+          {
+            "name": "Nyx System",
+            "navIcon": "Default"
+          },
+          {
+            "name": "Levski",
+            "navIcon": "LandingZone"
+          },
+          {
+            "name": "People's Service Station Alpha",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Delta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Theta",
+            "navIcon": "Station"
+          },
+          {
+            "name": "People's Service Station Lambda",
+            "navIcon": "Station"
+          }
+        ],
+        "subLocationVariants": [
+          [
+            {
+              "guid": "8ef8417d-2d3c-4172-8030-63f63b95eed4",
+              "name": "People's Service Station Alpha",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "4939d2da-c098-4d4c-9272-ead91cbb5fa4",
+              "name": "People's Service Station Delta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "1af3f93e-3ef9-442d-9cb6-a633463a24e5",
+              "name": "People's Service Station Theta",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ],
+          [
+            {
+              "guid": "6eb6d82c-637d-4dd6-bf74-d2282983f676",
+              "name": "People's Service Station Lambda",
+              "navIcon": "Station",
+              "star": {
+                "guid": "77ed5653-bd14-4952-b904-afd79faeef60",
+                "name": "Nyx",
+                "navIcon": "Star"
+              }
+            }
+          ]
+        ],
+        "locality": []
+      },
+      "variants": [
+        {
+          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "reward_items": [
+            "R97 \"Kismet\" Shotgun",
+            "R97 \"Righteous\" Shotgun",
+            "Monde Arms Delta Camo",
+            "Monde Legs Delta Camo",
+            "Monde Core Delta Camo",
+            "Monde Helmet Delta Camo",
+            "Monde Helmet Hemlock Camo",
+            "Monde Legs Hemlock Camo",
+            "Monde Core Hemlock Camo",
+            "Monde Arms Hemlock Camo",
+            "R97 Shotgun Magazine (18 Cap)"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": null,
+          "reward_hint": null
+        }
+      ]
+    },
+    {
+      "descriptionLocKey": "shubin_rockcracker_pvp_desc_01",
+      "dropChance": "# Chance auf Bauplan: 100%",
+      "titleLocKey": "shubin_rockcracker_pvp_title_01",
       "title": " <EM4>[BP]</EM4>",
       "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 \"Kismet\" Shotgun\\n    - R97 \"Righteous\" Shotgun\\n    - Monde Arms Delta Camo\\n    - Monde Legs Delta Camo\\n    - Monde Core Delta Camo\\n    - Monde Helmet Delta Camo\\n    - Monde Helmet Hemlock Camo\\n    - Monde Legs Hemlock Camo\\n    - Monde Core Hemlock Camo\\n    - Monde Arms Hemlock Camo\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "",
