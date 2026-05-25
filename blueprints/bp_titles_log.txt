@@ -1,5 +1,5 @@
 === Blueprint Contract Titles (aus lokaler global.ini) ===
-Generiert: 2026-05-25 22:29:04
+Generiert: 2026-05-26 00:09:49
 GitHub:    /rjcncpt
 ==========================================================
 
