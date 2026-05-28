@@ -1,15 +1,15 @@
-name: Deploy to FTP and Reload Website
+name: Blueprints Notification
 
 on:
   push:
     branches: [main]
     paths:
-      - "live/**"
+      - "blueprints/Data/bp-contracts_short.json"
 
   workflow_dispatch:
 
 jobs:
-  deploy:
+  deploy_blueprints:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,13 +29,11 @@ jobs:
           sudo apt-get update && sudo apt-get install -y locales
           sudo sed -i '/de_DE.UTF-8/s/^# //g' /etc/locale.gen && sudo locale-gen
 
-      - name: Execute deployment script
+      - name: Execute blueprints notification
         env:
           LANG: de_DE.UTF-8
           LANGUAGE: de_DE:de
           LC_ALL: de_DE.UTF-8
           TZ: "Europe/Berlin"
-          CREATE_FILES: ${{ secrets.CREATE_FILES }}
-          WEBSITE_URL: ${{ secrets.WEBSITE_URL }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python .github/workflows/deploy_script.py
+          DISCORD_WEBHOOK_URL_BP: ${{ secrets.DISCORD_WEBHOOK_URL_BP }}
+        run: python .github/workflows/deploy_script.py --blueprints

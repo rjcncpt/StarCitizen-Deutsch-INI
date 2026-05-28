@@ -80,6 +80,7 @@ def send_discord_message(
     footer_text: str = None,
     footer_icon_url: str = None,
     content: str = None,
+    webhook_url_override: str = None,
 ) -> bool:
     """Sendet eine Discord-Nachricht als Embed über einen Webhook.
 
@@ -90,10 +91,11 @@ def send_discord_message(
         footer_text (str): Optionaler Footer-Text
         footer_icon_url (str): Optionale URL für das Footer Icon
         content (str): Optionaler Inhalt außerhalb des Embeds
+        webhook_url_override (str): Optionale Webhook-URL, überschreibt DISCORD_WEBHOOK_URL aus den Umgebungsvariablen
     Returns:
         bool: True wenn die Nachricht erfolgreich gesendet wurde, sonst False.
     """
-    webhook_url = os.getenv("DISCORD_WEBHOOK_URL")
+    webhook_url = webhook_url_override or os.getenv("DISCORD_WEBHOOK_URL")
     if not webhook_url:
         logger.error("DISCORD_WEBHOOK_URL fehlt in den Umgebungsvariablen")
         return False
@@ -190,6 +192,80 @@ def get_commit_url() -> tuple[str, str]:
         return "", ""
 
 
+def get_blueprint_commit_url() -> tuple[str, str]:
+    """Erstellt die URL zum letzten Commit für blueprints/Data/bp-contracts_short.json.
+
+    Returns:
+        tuple[str, str]: (commit_url, short_hash) oder ("", "") bei Fehler
+    """
+    try:
+        # Hole den Commit-Hash
+        result = subprocess.run(
+            ["git", "log", "-1", "--pretty=%H", "blueprints/Data/bp-contracts_short.json"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        commit_hash = result.stdout.strip()
+        short_hash = commit_hash[:7]  # Kurze Version für Anzeige
+
+        # Hole die Remote-URL
+        result = subprocess.run(
+            ["git", "config", "--get", "remote.origin.url"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        remote_url = result.stdout.strip()
+
+        # Konvertiere SSH/HTTPS URL zu HTTPS Web-URL
+        if remote_url.startswith("git@"):
+            remote_url = remote_url.replace(":", "/").replace("git@", "https://")
+
+        # Entferne .git am Ende
+        remote_url = remote_url.rstrip("/").removesuffix(".git")
+
+        # Erstelle Commit-URL
+        commit_url = f"{remote_url}/commit/{commit_hash}"
+        return commit_url, short_hash
+    except Exception as e:
+        logger.error(f"Fehler beim Erstellen der Blueprint-Commit-URL: {e}")
+        return "", ""
+
+
+def send_blueprints_notification():
+    """Sendet eine Discord-Meldung wenn bp-contracts_short.json aktualisiert wurde."""
+    logger.info("=== Blueprints Notification Script gestartet ===")
+
+    webhook_url = os.getenv("DISCORD_WEBHOOK_URL_BP")
+    if not webhook_url:
+        logger.error("DISCORD_WEBHOOK_URL_BP fehlt in den Umgebungsvariablen")
+        sys.exit(1)
+
+    locale.setlocale(locale.LC_ALL, "de_DE.utf-8")
+    now = datetime.now()
+    commit_url, commit_hash = get_blueprint_commit_url()
+
+    message = (
+                f"Die Baupläne-Datei wurden am "
+                f"{now.strftime('%d. %B %Y um %H:%M Uhr')} aktualisiert."
+    )
+
+    if commit_url and commit_hash:
+        message += f"\n\nÄnderungen zum Update: [#{commit_hash}]({commit_url})"
+
+    message += "\n<:kofi:1319086302116708444> An SCDL-Team spenden: [ko-fi.com/scdeutsch](https://ko-fi.com/scdeutsch)"
+
+    send_discord_message(
+        title="Baupläne-Datei aktualisiert!",
+        message=message,
+        color=3447003,  # blau
+        webhook_url_override=webhook_url,
+    )
+
+    logger.info("=== Blueprints Notification abgeschlossen ===")
+
+
 def main():
     """Hauptfunktion des Deployment-Scripts."""
     logger.info("=== Deployment Script gestartet ===")
@@ -216,7 +292,10 @@ def main():
     patch_number = get_patch_number()
     commit_url, commit_hash = get_commit_url()
 
-    message = f"Die Star Citizen Übersetzung wurde am {now.strftime('%d. %B %Y um %H:%M Uhr')} aktualisiert. Bitte aktualisiere deine Übersetzung für das bestmögliche Spielerlebnis.\n\n{patch_number}"
+    message =   f"Die Star Citizen Übersetzung wurde am "
+                f"{now.strftime('%d. %B %Y um %H:%M Uhr')} aktualisiert. "
+                f"Bitte aktualisiere deine Übersetzung für das bestmögliche Spielerlebnis.\n\n"
+                f"{patch_number}"
 
     if commit_url and commit_hash:
         message += f"\n\nAlle Änderungen zum Update: [#{commit_hash}]({commit_url})"
@@ -233,4 +312,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if "--blueprints" in sys.argv:
+        send_blueprints_notification()
+    else:
+        main()
