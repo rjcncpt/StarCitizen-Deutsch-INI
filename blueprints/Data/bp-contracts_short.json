@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "generiert": "2026-05-27 02:41:22",
+    "generiert": "2026-05-28 09:35:21",
     "version_patch": "4.8.0 LIVE.11875683",
     "eintraege": 343,
-    "version": "Beta 27.05.2026",
+    "version": "Beta 28.05.2026",
     "github": "/rjcncpt"
   },
   "entries": [
@@ -882,7 +882,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "headhunters_defend_xt_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 74.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Yubarev Pistol\\n    - Yubarev \"Mirage\" Pistol\\n    - Yubarev \"Igniter\" Pistol\\n    - DustUp Arms Tactical\\n    - DustUp Core Tactical\\n    - DustUp Legs Tactical\\n    - DustUp Helmet Tactical\\n    - Yubarev Pistol Battery (10 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 74.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Yubarev Pistol\\n    - Yubarev \"Mirage\" Pistol\\n    - Yubarev \"Igniter\" Pistol\\n    - DustUp Arms Tactical\\n    - DustUp Core Tactical\\n    - DustUp Legs Tactical\\n    - DustUp Helmet Tactical\\n    - Yubarev Pistol Battery (10 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 74.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 250 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -898,7 +898,7 @@
         ],
         "locality": [
           {
-            "name": "RegionC"
+            "name": "RegionC, RegionD"
           }
         ]
       },
@@ -926,7 +926,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "BitZeros_blackbox_S_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 95.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton 1 (Hurston) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 101.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 95.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 101.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 95.250 / 101.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 300 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -936,7 +936,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "Nyx, Stanton1"
+            "name": "Nyx, Stanton1, Stanton2, Stanton3, Stanton4"
           }
         ],
         "completedContractTags": {
@@ -1264,7 +1264,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "cfp_defend_regionshift_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 53.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Karna \"Brimstone\" Rifle\\n    - Artimex Core Lodestone\\n    - Artimex Arms Lodestone\\n    - Artimex Legs Lodestone\\n    - Artimex Helmet Lodestone\\n    - Karna Rifle Battery (35 Cap)\\n\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 74.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Karna Rifle\\n    - Artimex Arms\\n    - Artimex Core\\n    - Artimex Legs\\n    - Artimex Helmet\\n    - Karna Rifle Battery (35 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 74.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Karna Rifle\\n    - Artimex Core Canuto\\n    - Artimex Arms Canuto\\n    - Artimex Legs Canuto\\n    - Artimex Helmet Canuto\\n    - Karna Rifle Battery (35 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 53.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Karna \"Brimstone\" Rifle\\n    - Artimex Core Lodestone\\n    - Artimex Arms Lodestone\\n    - Artimex Legs Lodestone\\n    - Artimex Helmet Lodestone\\n    - Karna Rifle Battery (35 Cap)\\n\\n# Region: Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 74.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Karna Rifle\\n    - Artimex Arms\\n    - Artimex Core\\n    - Artimex Legs\\n    - Artimex Helmet\\n    - Karna Rifle Battery (35 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 74.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Karna Rifle\\n    - Artimex Core Canuto\\n    - Artimex Arms Canuto\\n    - Artimex Legs Canuto\\n    - Artimex Helmet Canuto\\n    - Karna Rifle Battery (35 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 53.250 / 74.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 150 XP\\n# Cooldown für Mission: 45 Minuten",
       "canBeShared": true,
@@ -1274,7 +1274,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "RegionA, RegionC, RegionD"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ],
         "completedContractTags": {
@@ -2250,7 +2250,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "BitZeros_blackbox_Intro_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 33.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton 1 (Hurston) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 36.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 33.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 36.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 33.750 / 36.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 100 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -2260,7 +2260,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "Nyx, Stanton1"
+            "name": "Nyx, Stanton1, Stanton2, Stanton3, Stanton4"
           }
         ],
         "completedContractTags": {
@@ -2317,7 +2317,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "headhunters_eliminateall_retrievestolen_base_Generic_M_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 70.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Atzkav Sniper Rifle\\n    - Atzkav \"Igniter\" Sniper Rifle\\n    - Atzkav \"Mirage\" Sniper Rifle\\n    - Calico Arms Tactical\\n    - Calico Core Tactical\\n    - Calico Legs Tactical\\n    - Calico Helmet Tactical\\n    - Atzkav Sniper Rifle Battery (8 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 70.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Yubarev Pistol\\n    - Yubarev \"Mirage\" Pistol\\n    - Yubarev \"Igniter\" Pistol\\n    - DustUp Arms Tactical\\n    - DustUp Core Tactical\\n    - DustUp Legs Tactical\\n    - DustUp Helmet Tactical\\n    - Yubarev Pistol Battery (10 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 70.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Atzkav Sniper Rifle\\n    - Atzkav \"Igniter\" Sniper Rifle\\n    - Atzkav \"Mirage\" Sniper Rifle\\n    - Calico Arms Tactical\\n    - Calico Core Tactical\\n    - Calico Legs Tactical\\n    - Calico Helmet Tactical\\n    - Atzkav Sniper Rifle Battery (8 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 70.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Yubarev Pistol\\n    - Yubarev \"Mirage\" Pistol\\n    - Yubarev \"Igniter\" Pistol\\n    - DustUp Arms Tactical\\n    - DustUp Core Tactical\\n    - DustUp Legs Tactical\\n    - DustUp Helmet Tactical\\n    - Yubarev Pistol Battery (10 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 70.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 150 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -2333,7 +2333,7 @@
         ],
         "locality": [
           {
-            "name": "RegionA, RegionC"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -2377,7 +2377,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "headhunters_EliminateSpecific_Asteroid_Generic_VE_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 27.250 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Scalpel Sniper Rifle\\n    - Coda Pistol\\n    - Coda \"Nighthawk\" Pistol\\n    - Coda \"Big Boss\" Pistol\\n    - Morozov-SH Arms\\n    - Morozov-SH Core\\n    - Morozov-SH Legs\\n    - Morozov-SH Helmet\\n    - Scalpel Sniper Rifle Magazine (12 Cap)\\n    - Coda Pistol Magazine (6 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 27.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Scalpel Sniper Rifle\\n    - Coda Pistol\\n    - Coda \"Nighthawk\" Pistol\\n    - Coda \"Big Boss\" Pistol\\n    - Morozov-SH Arms\\n    - Morozov-SH Core\\n    - Morozov-SH Legs\\n    - Morozov-SH Helmet\\n    - Scalpel Sniper Rifle Magazine (12 Cap)\\n    - Coda Pistol Magazine (6 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 27.250 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Devastator Shotgun\\n    - Devastator \"Warhawk\" Shotgun\\n    - Devastator \"Midnight\" Shotgun\\n    - Morozov-SH Core Thule\\n    - Morozov-SH Arms Thule\\n    - Morozov-SH Legs Thule\\n    - Morozov-SH Helmet Thule\\n    - Devastator Shotgun Battery (12 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 27.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Devastator Shotgun\\n    - Devastator \"Warhawk\" Shotgun\\n    - Devastator \"Midnight\" Shotgun\\n    - Morozov-SH Core Thule\\n    - Morozov-SH Arms Thule\\n    - Morozov-SH Legs Thule\\n    - Morozov-SH Helmet Thule\\n    - Devastator Shotgun Battery (12 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 27.250 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Scalpel Sniper Rifle\\n    - Coda Pistol\\n    - Coda \"Nighthawk\" Pistol\\n    - Coda \"Big Boss\" Pistol\\n    - Morozov-SH Arms\\n    - Morozov-SH Core\\n    - Morozov-SH Legs\\n    - Morozov-SH Helmet\\n    - Scalpel Sniper Rifle Magazine (12 Cap)\\n    - Coda Pistol Magazine (6 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 27.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Scalpel Sniper Rifle\\n    - Coda Pistol\\n    - Coda \"Nighthawk\" Pistol\\n    - Coda \"Big Boss\" Pistol\\n    - Morozov-SH Arms\\n    - Morozov-SH Core\\n    - Morozov-SH Legs\\n    - Morozov-SH Helmet\\n    - Scalpel Sniper Rifle Magazine (12 Cap)\\n    - Coda Pistol Magazine (6 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 27.250 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Devastator Shotgun\\n    - Devastator \"Warhawk\" Shotgun\\n    - Devastator \"Midnight\" Shotgun\\n    - Morozov-SH Core Thule\\n    - Morozov-SH Arms Thule\\n    - Morozov-SH Legs Thule\\n    - Morozov-SH Helmet Thule\\n    - Devastator Shotgun Battery (12 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 27.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Devastator Shotgun\\n    - Devastator \"Warhawk\" Shotgun\\n    - Devastator \"Midnight\" Shotgun\\n    - Morozov-SH Core Thule\\n    - Morozov-SH Arms Thule\\n    - Morozov-SH Legs Thule\\n    - Morozov-SH Helmet Thule\\n    - Devastator Shotgun Battery (12 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 27.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 50 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -2393,7 +2393,7 @@
         ],
         "locality": [
           {
-            "name": "RegionA, RegionC"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -3088,7 +3088,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "cfp_sabotage_generators_VE_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. / Max. Reputation: Neutral (0 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 61.250 aUEC Mission\\n\\n# Min. / Max. Reputation: Neutral (0 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 61.250 aUEC Mission\\n\\n# Min. / Max. Reputation: Neutral (0 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. / Max. Reputation: Neutral (0 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 61.250 aUEC Mission\\n\\n# Min. / Max. Reputation: Neutral (0 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 61.250 aUEC Mission\\n\\n# Min. / Max. Reputation: Neutral (0 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 38.000 / 61.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 75 XP\\n# Cooldown für Mission: 45 Minuten",
       "canBeShared": true,
@@ -3098,7 +3098,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "RegionA, RegionB, RegionC"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -3304,7 +3304,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "cfp_bombingrun_E_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 65.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 65.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 65.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 65.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 65.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 250 XP\\n# Cooldown für Mission: 45 Minuten",
       "canBeShared": true,
@@ -3314,7 +3314,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "RegionA, RegionC"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -3833,7 +3833,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "BitZeros_blackbox_E_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 36.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton 1 (Hurston) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 39.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 36.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 39.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 36.750 / 39.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 100 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -3843,7 +3843,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "Nyx, Stanton1"
+            "name": "Nyx, Stanton1, Stanton2, Stanton3, Stanton4"
           }
         ],
         "completedContractTags": {
@@ -4734,7 +4734,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "headhunters_ChainElimAll_Boss_XenoThreat_VH_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 231.750 aUEC Mission\\n\\n# Min. / Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Atzkav Sniper Rifle\\n    - Atzkav \"Igniter\" Sniper Rifle\\n    - Atzkav \"Mirage\" Sniper Rifle\\n    - Calico Arms Tactical\\n    - Calico Core Tactical\\n    - Calico Legs Tactical\\n    - Calico Helmet Tactical\\n    - Atzkav Sniper Rifle Battery (8 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 260.750 aUEC Mission\\n\\n# Min. / Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Yubarev Pistol\\n    - Yubarev \"Mirage\" Pistol\\n    - Yubarev \"Igniter\" Pistol\\n    - DustUp Arms Tactical\\n    - DustUp Core Tactical\\n    - DustUp Legs Tactical\\n    - DustUp Helmet Tactical\\n    - Yubarev Pistol Battery (10 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 231.750 aUEC Mission\\n\\n# Min. / Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Atzkav Sniper Rifle\\n    - Atzkav \"Igniter\" Sniper Rifle\\n    - Atzkav \"Mirage\" Sniper Rifle\\n    - Calico Arms Tactical\\n    - Calico Core Tactical\\n    - Calico Legs Tactical\\n    - Calico Helmet Tactical\\n    - Atzkav Sniper Rifle Battery (8 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 260.750 aUEC Mission\\n\\n# Min. / Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Yubarev Pistol\\n    - Yubarev \"Mirage\" Pistol\\n    - Yubarev \"Igniter\" Pistol\\n    - DustUp Arms Tactical\\n    - DustUp Core Tactical\\n    - DustUp Legs Tactical\\n    - DustUp Helmet Tactical\\n    - Yubarev Pistol Battery (10 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 231.750 / 260.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 400 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -4750,7 +4750,7 @@
         ],
         "locality": [
           {
-            "name": "RegionA, RegionC"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -5473,7 +5473,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "headhunters_EliminateSpecific_Generic_E_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 64.000 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Devastator Shotgun\\n    - Devastator \"Warhawk\" Shotgun\\n    - Devastator \"Midnight\" Shotgun\\n    - Morozov-SH Core Thule\\n    - Morozov-SH Arms Thule\\n    - Morozov-SH Legs Thule\\n    - Morozov-SH Helmet Thule\\n    - Devastator Shotgun Battery (12 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 64.000 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Devastator Shotgun\\n    - Devastator \"Warhawk\" Shotgun\\n    - Devastator \"Midnight\" Shotgun\\n    - Morozov-SH Core Thule\\n    - Morozov-SH Arms Thule\\n    - Morozov-SH Legs Thule\\n    - Morozov-SH Helmet Thule\\n    - Devastator Shotgun Battery (12 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 64.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 100 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -5489,7 +5489,7 @@
         ],
         "locality": [
           {
-            "name": "RegionC"
+            "name": "RegionC, RegionD"
           }
         ]
       },
@@ -5619,7 +5619,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "BitZeros_blackbox_H_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 62.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton 1 (Hurston) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 66.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 62.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 66.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 62.000 / 66.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 200 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -5629,7 +5629,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "Nyx, Stanton1"
+            "name": "Nyx, Stanton1, Stanton2, Stanton3, Stanton4"
           }
         ],
         "completedContractTags": {
@@ -11741,7 +11741,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "headhunters_EliminateSpecific_CFP_M_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Scalpel Sniper Rifle\\n    - Coda Pistol\\n    - Coda \"Nighthawk\" Pistol\\n    - Coda \"Big Boss\" Pistol\\n    - Morozov-SH Arms\\n    - Morozov-SH Core\\n    - Morozov-SH Legs\\n    - Morozov-SH Helmet\\n    - Scalpel Sniper Rifle Magazine (12 Cap)\\n    - Coda Pistol Magazine (6 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 165.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Scalpel Sniper Rifle\\n    - Coda Pistol\\n    - Coda \"Nighthawk\" Pistol\\n    - Coda \"Big Boss\" Pistol\\n    - Morozov-SH Arms\\n    - Morozov-SH Core\\n    - Morozov-SH Legs\\n    - Morozov-SH Helmet\\n    - Scalpel Sniper Rifle Magazine (12 Cap)\\n    - Coda Pistol Magazine (6 Cap)\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Devastator Shotgun\\n    - Devastator \"Warhawk\" Shotgun\\n    - Devastator \"Midnight\" Shotgun\\n    - Morozov-SH Core Thule\\n    - Morozov-SH Arms Thule\\n    - Morozov-SH Legs Thule\\n    - Morozov-SH Helmet Thule\\n    - Devastator Shotgun Battery (12 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Scalpel Sniper Rifle\\n    - Coda Pistol\\n    - Coda \"Nighthawk\" Pistol\\n    - Coda \"Big Boss\" Pistol\\n    - Morozov-SH Arms\\n    - Morozov-SH Core\\n    - Morozov-SH Legs\\n    - Morozov-SH Helmet\\n    - Scalpel Sniper Rifle Magazine (12 Cap)\\n    - Coda Pistol Magazine (6 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 165.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Scalpel Sniper Rifle\\n    - Coda Pistol\\n    - Coda \"Nighthawk\" Pistol\\n    - Coda \"Big Boss\" Pistol\\n    - Morozov-SH Arms\\n    - Morozov-SH Core\\n    - Morozov-SH Legs\\n    - Morozov-SH Helmet\\n    - Scalpel Sniper Rifle Magazine (12 Cap)\\n    - Coda Pistol Magazine (6 Cap)\\n\\n# Region: Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Devastator Shotgun\\n    - Devastator \"Warhawk\" Shotgun\\n    - Devastator \"Midnight\" Shotgun\\n    - Morozov-SH Core Thule\\n    - Morozov-SH Arms Thule\\n    - Morozov-SH Legs Thule\\n    - Morozov-SH Helmet Thule\\n    - Devastator Shotgun Battery (12 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 88.000 / 165.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 100 / 125 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -11757,7 +11757,7 @@
         ],
         "locality": [
           {
-            "name": "RegionA, RegionB, RegionC"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -11821,7 +11821,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "headhunters_EliminateSpecific_Asteroid_Generic_M_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 117.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Ravager-212 Twin Shotgun\\n    - Ripper \"Sunblock\" SMG\\n    - Dust Devil Armor Arms\\n    - Dust Devil Armor Core\\n    - Dust Devil Armor Legs\\n    - Manticore Helmet\\n    - Ravager-212 Twin Shotgun Magazine (16 Cap)\\n    - Deadrig Shotgun Magazine (8 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 117.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Ravager-212 Twin Shotgun\\n    - Ripper \"Sunblock\" SMG\\n    - Dust Devil Armor Arms\\n    - Dust Devil Armor Core\\n    - Dust Devil Armor Legs\\n    - Manticore Helmet\\n    - Ravager-212 Twin Shotgun Magazine (16 Cap)\\n    - Deadrig Shotgun Magazine (8 Cap)\\n\\n# Region: Pyro-System - Gefahr 2-5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 117.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 300 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -11837,7 +11837,7 @@
         ],
         "locality": [
           {
-            "name": "RegionA"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -11865,7 +11865,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "headhunters_eliminateall_base_Generic_E_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 42.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Atzkav Sniper Rifle\\n    - Atzkav \"Igniter\" Sniper Rifle\\n    - Atzkav \"Mirage\" Sniper Rifle\\n    - Calico Arms Tactical\\n    - Calico Core Tactical\\n    - Calico Legs Tactical\\n    - Calico Helmet Tactical\\n    - Atzkav Sniper Rifle Battery (8 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 42.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Yubarev Pistol\\n    - Yubarev \"Mirage\" Pistol\\n    - Yubarev \"Igniter\" Pistol\\n    - DustUp Arms Tactical\\n    - DustUp Core Tactical\\n    - DustUp Legs Tactical\\n    - DustUp Helmet Tactical\\n    - Yubarev Pistol Battery (10 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 42.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Atzkav Sniper Rifle\\n    - Atzkav \"Igniter\" Sniper Rifle\\n    - Atzkav \"Mirage\" Sniper Rifle\\n    - Calico Arms Tactical\\n    - Calico Core Tactical\\n    - Calico Legs Tactical\\n    - Calico Helmet Tactical\\n    - Atzkav Sniper Rifle Battery (8 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 42.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Yubarev Pistol\\n    - Yubarev \"Mirage\" Pistol\\n    - Yubarev \"Igniter\" Pistol\\n    - DustUp Arms Tactical\\n    - DustUp Core Tactical\\n    - DustUp Legs Tactical\\n    - DustUp Helmet Tactical\\n    - Yubarev Pistol Battery (10 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 42.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 50 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -11881,7 +11881,7 @@
         ],
         "locality": [
           {
-            "name": "RegionA, RegionC"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -12576,7 +12576,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Foxwell_SecurityPatrol_H_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 153.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 153.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Leitend (38.000 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 153.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n# Region: Pyro-System - Gefahr 2-5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 153.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Leitend (38.000 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 153.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 200 XP\\n# Cooldown für Mission: 0 Minuten",
       "canBeShared": true,
@@ -12603,7 +12603,7 @@
         },
         "locality": [
           {
-            "name": "RegionA"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -13241,7 +13241,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Foxwell_SecurityPatrol_M_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 83.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Veteran (15.000 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 83.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Veteran (15.000 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n# Region: Pyro-System - Gefahr 2-5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 83.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 150 XP\\n# Cooldown für Mission: 0 Minuten",
       "canBeShared": true,
@@ -13268,7 +13268,7 @@
         },
         "locality": [
           {
-            "name": "RegionA"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -14320,7 +14320,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "BitZeros_blackbox_VH_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 83.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Veteran (15.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton 1 (Hurston) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Veteran (15.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 83.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Veteran (15.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Veteran (15.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 83.500 / 88.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 250 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -14330,7 +14330,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "Nyx, Stanton1"
+            "name": "Nyx, Stanton1, Stanton2, Stanton3, Stanton4"
           }
         ],
         "completedContractTags": {
@@ -14658,7 +14658,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "BitZeros_blackbox_VE_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 33.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton 1 (Hurston) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 36.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 33.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 36.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 33.750 / 36.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 100 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -14668,7 +14668,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "Nyx, Stanton1"
+            "name": "Nyx, Stanton1, Stanton2, Stanton3, Stanton4"
           }
         ],
         "completedContractTags": {
@@ -19396,7 +19396,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Foxwell_SecurityPatrol_VH_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 227.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Veteran (15.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 227.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Veteran (15.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n# Region: Pyro-System - Gefahr 2-5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 227.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 250 XP\\n# Cooldown für Mission: 0 Minuten",
       "canBeShared": true,
@@ -19423,7 +19423,7 @@
         },
         "locality": [
           {
-            "name": "RegionA"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -20099,7 +20099,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Foxwell_SecurityPatrol_S_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 399.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 399.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n# Region: Pyro-System - Gefahr 2-5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 399.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 300 XP\\n# Cooldown für Mission: 0 Minuten",
       "canBeShared": true,
@@ -20126,7 +20126,7 @@
         },
         "locality": [
           {
-            "name": "RegionA"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -21180,7 +21180,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "cfp_bombingrun_sabotage_generators_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 61.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 61.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 61.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 61.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 61.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 350 XP\\n# Cooldown für Mission: 45 Minuten",
       "canBeShared": true,
@@ -21190,7 +21190,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "RegionA, RegionC"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -27701,7 +27701,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "BitZeros_blackbox_M_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 43.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton 1 (Hurston) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 47.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 43.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 47.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Lumin V SMG\\n    - Arrowhead Sniper Rifle\\n    - Aves Arms\\n    - Aves Core\\n    - Aves Legs\\n    - Aves Helmet\\n    - Aves Shrike Core\\n    - Aves Shrike Arms\\n    - Aves Shrike Legs\\n    - Aves Shrike Helmet\\n    - Lumin V SMG Battery (45 Cap)\\n    - Arrowhead Sniper Rifle Battery (16 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 43.500 / 47.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 150 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
@@ -27711,7 +27711,7 @@
       "prerequisites": {
         "locality": [
           {
-            "name": "Nyx, Stanton1"
+            "name": "Nyx, Stanton1, Stanton2, Stanton3, Stanton4"
           }
         ],
         "completedContractTags": {
@@ -33060,7 +33060,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Foxwell_SecurityPatrol_VE_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 33.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Senior (5.800 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 33.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer (2.200 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 33.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Senior (5.800 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n# Region: Pyro-System - Gefahr 2-5/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 33.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer (2.200 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 33.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 100 XP\\n# Cooldown für Mission: 0 Minuten",
       "canBeShared": true,
@@ -33087,7 +33087,7 @@
         },
         "locality": [
           {
-            "name": "RegionA"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
@@ -33127,7 +33127,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Foxwell_SecurityPatrol_E_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 56.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Senior (5.800 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n# Region: Pyro, Region A (Monox) - Gefahr 3/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 56.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Senior (5.800 XP)\\n\\n# Baupläne:\\n    - Parallax \"Sanguine\" Energy Assault Rifle\\n    - Antium Arms Sand\\n    - Antium Core Sand\\n    - Antium Legs Sand\\n    - Antium Helmet Sand\\n    - Parallax Rifle Battery (80 Cap)\\n\\n# Region: Pyro-System - Gefahr 2-5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 56.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 100 XP\\n# Cooldown für Mission: 0 Minuten",
       "canBeShared": true,
@@ -33154,7 +33154,7 @@
         },
         "locality": [
           {
-            "name": "RegionA"
+            "name": "RegionA, RegionB, RegionC, RegionD"
           }
         ]
       },
