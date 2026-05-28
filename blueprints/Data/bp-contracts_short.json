@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generiert": "2026-05-28 09:35:21",
+    "generiert": "2026-05-28 11:53:49",
     "version_patch": "4.8.0 LIVE.11875683",
     "eintraege": 343,
     "version": "Beta 28.05.2026",
@@ -3418,9 +3418,19 @@
       "descriptionLocKey": "FTL_Courier_Nyx_Easy_Desc_001",
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "FTL_Courier_Nyx_Easy_Title_001",
-      "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 41.250 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant\\n    - Sedulity\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "title": " <EM4>[BP]?</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 41.250 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant [? = CIG-Bug – evtl. \"Endurance\" Bauplan]\\n    - Sedulity\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 41.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "issueNote": "<EM4>[?]</EM4> Diese Mission enthält <EM3>möglicherweise</EM3> auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe unten.",
+      "dataIssues": [
+        {
+          "poolId": "2a22663d-da4c-4df1-a384-590fef2f2492",
+          "blueprintNames": [
+            "Defiant"
+          ],
+          "note": "CIG-Bug – mglw. \"Endurance\" Bauplan"
+        }
+      ],
       "contractInfo": "# Zu erwartende Rufpunkte: 100 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
       "personalCooldownTime": 1,
@@ -3464,9 +3474,19 @@
       "descriptionLocKey": "FTL_Courier_Stanton_Easy_Desc_001",
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "FTL_Courier_Stanton_Easy_Title_001",
-      "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 37.250 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant\\n    - Sedulity\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 29.000 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant\\n    - Sedulity\\n\\n# Region: \\n    - Stanton 1 (Hurston) - Gefahr 4/10\\n    - Stanton 4 (microTech) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "title": " <EM4>[BP]?</EM4>",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 37.250 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant [? = CIG-Bug – evtl. \"Endurance\" Bauplan]\\n    - Sedulity\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 29.000 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant [? = CIG-Bug – evtl. \"Endurance\" Bauplan]\\n    - Sedulity\\n\\n# Region: \\n    - Stanton 1 (Hurston) - Gefahr 4/10\\n    - Stanton 4 (microTech) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 29.000 / 37.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "issueNote": "<EM4>[?]</EM4> Diese Mission enthält <EM3>möglicherweise</EM3> auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe unten.",
+      "dataIssues": [
+        {
+          "poolId": "2a22663d-da4c-4df1-a384-590fef2f2492",
+          "blueprintNames": [
+            "Defiant"
+          ],
+          "note": "CIG-Bug – mglw. \"Endurance\" Bauplan"
+        }
+      ],
       "contractInfo": "# Zu erwartende Rufpunkte: 100 / 500 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
       "personalCooldownTime": 1,
@@ -5263,9 +5283,19 @@
       "descriptionLocKey": "FTL_Courier_Stanton_Medium_Desc_001",
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "FTL_Courier_Stanton_Medium_Title_001",
-      "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 45.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant\\n    - Sedulity\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "title": " <EM4>[BP]?</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 45.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant [? = CIG-Bug – evtl. \"Endurance\" Bauplan]\\n    - Sedulity\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 45.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "issueNote": "<EM4>[?]</EM4> Diese Mission enthält <EM3>möglicherweise</EM3> auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe unten.",
+      "dataIssues": [
+        {
+          "poolId": "2a22663d-da4c-4df1-a384-590fef2f2492",
+          "blueprintNames": [
+            "Defiant"
+          ],
+          "note": "CIG-Bug – mglw. \"Endurance\" Bauplan"
+        }
+      ],
       "contractInfo": "# Zu erwartende Rufpunkte: 100 XP\\n# Cooldown für Mission: 1 Minute",
       "canBeShared": true,
       "personalCooldownTime": 1,

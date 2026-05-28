@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-28 09:35:22",
+    "generated": "2026-05-28 11:53:49",
     "version_patch": "4.8.0 LIVE.11875683",
     "entries": 343,
     "version": "Beta 28.05.2026",
@@ -3418,9 +3418,19 @@
       "descriptionLocKey": "FTL_Courier_Nyx_Easy_Desc_001",
       "dropChance": "# Blueprint Drop Chance: 100%",
       "titleLocKey": "FTL_Courier_Nyx_Easy_Title_001",
-      "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nPOSSIBLE BLUEPRINTS FOR THIS MISSION TYPE\\n\\n<EM4>[!]</EM4> Blueprints for 41.250 aUEC missions only\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Elite Contractor (95.250 XP)\\n\\n# Blueprints:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant\\n    - Sedulity\\n\\n# Region: Nyx-System - Danger 3-6/10\\n\\n\\nThis service is experimental. Data may be inaccurate.",
+      "title": " <EM4>[BP]?</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nPOSSIBLE BLUEPRINTS FOR THIS MISSION TYPE\\n\\n<EM4>[!]</EM4> Blueprints for 41.250 aUEC missions only\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Elite Contractor (95.250 XP)\\n\\n# Blueprints:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant [? = CIG-Bug – maybe \"Endurance\" blueprint]\\n    - Sedulity\\n\\n# Region: Nyx-System - Danger 3-6/10\\n\\n\\nThis service is experimental. Data may be inaccurate.",
       "bpnote": "<EM4>[!]</EM4> Blueprints for 41.250 aUEC missions only\\n---------------------------------------------------------\\n\\n",
+      "issueNote": "<EM4>[?]</EM4> This mission <EM3>may</EM3> contain a faulty blueprint pool due to a CIG data error. See details below.",
+      "dataIssues": [
+        {
+          "poolId": "2a22663d-da4c-4df1-a384-590fef2f2492",
+          "blueprintNames": [
+            "Defiant"
+          ],
+          "note": "CIG-Bug – mglw. \"Endurance\" Bauplan"
+        }
+      ],
       "contractInfo": "# Mission Reputation: 100 XP\\n# Mission Cooldown: 1 minute",
       "canBeShared": true,
       "personalCooldownTime": 1,
@@ -3464,9 +3474,19 @@
       "descriptionLocKey": "FTL_Courier_Stanton_Easy_Desc_001",
       "dropChance": "# Blueprint Drop Chance: 100%",
       "titleLocKey": "FTL_Courier_Stanton_Easy_Title_001",
-      "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n\\nPOSSIBLE BLUEPRINTS FOR THIS MISSION TYPE\\n\\n<EM4>[!]</EM4> Blueprints for 37.250 aUEC missions only\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Elite Contractor (95.250 XP)\\n\\n# Blueprints:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant\\n    - Sedulity\\n\\n# Region: Stanton-System - Danger 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Blueprints for 29.000 aUEC missions only\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: No information\\n\\n# Blueprints:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant\\n    - Sedulity\\n\\n# Region: \\n    - Stanton 1 (Hurston) - Danger 4/10\\n    - Stanton 4 (microTech) - Danger 5/10\\n\\n\\nThis service is experimental. Data may be inaccurate.",
+      "title": " <EM4>[BP]?</EM4>",
+      "description": "\\n\\n---------------------------------------------------------\\n\\nPOSSIBLE BLUEPRINTS FOR THIS MISSION TYPE\\n\\n<EM4>[!]</EM4> Blueprints for 37.250 aUEC missions only\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Elite Contractor (95.250 XP)\\n\\n# Blueprints:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant [? = CIG-Bug – maybe \"Endurance\" blueprint]\\n    - Sedulity\\n\\n# Region: Stanton-System - Danger 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Blueprints for 29.000 aUEC missions only\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: No information\\n\\n# Blueprints:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant [? = CIG-Bug – maybe \"Endurance\" blueprint]\\n    - Sedulity\\n\\n# Region: \\n    - Stanton 1 (Hurston) - Danger 4/10\\n    - Stanton 4 (microTech) - Danger 5/10\\n\\n\\nThis service is experimental. Data may be inaccurate.",
       "bpnote": "<EM4>[!]</EM4> Blueprints for 29.000 / 37.250 aUEC missions only\\n---------------------------------------------------------\\n\\n",
+      "issueNote": "<EM4>[?]</EM4> This mission <EM3>may</EM3> contain a faulty blueprint pool due to a CIG data error. See details below.",
+      "dataIssues": [
+        {
+          "poolId": "2a22663d-da4c-4df1-a384-590fef2f2492",
+          "blueprintNames": [
+            "Defiant"
+          ],
+          "note": "CIG-Bug – mglw. \"Endurance\" Bauplan"
+        }
+      ],
       "contractInfo": "# Mission Reputation: 100 / 500 XP\\n# Mission Cooldown: 1 minute",
       "canBeShared": true,
       "personalCooldownTime": 1,
@@ -5263,9 +5283,19 @@
       "descriptionLocKey": "FTL_Courier_Stanton_Medium_Desc_001",
       "dropChance": "# Blueprint Drop Chance: 100%",
       "titleLocKey": "FTL_Courier_Stanton_Medium_Title_001",
-      "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nPOSSIBLE BLUEPRINTS FOR THIS MISSION TYPE\\n\\n<EM4>[!]</EM4> Blueprints for 45.500 aUEC missions only\\n\\n# Min. Reputation: Jr. Contractor (800 XP)\\n# Max. Reputation: Elite Contractor (95.250 XP)\\n\\n# Blueprints:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant\\n    - Sedulity\\n\\n# Region: Stanton-System - Danger 4-6/10\\n\\n\\nThis service is experimental. Data may be inaccurate.",
+      "title": " <EM4>[BP]?</EM4>",
+      "description": "\\n---------------------------------------------------------\\n\\nPOSSIBLE BLUEPRINTS FOR THIS MISSION TYPE\\n\\n<EM4>[!]</EM4> Blueprints for 45.500 aUEC missions only\\n\\n# Min. Reputation: Jr. Contractor (800 XP)\\n# Max. Reputation: Elite Contractor (95.250 XP)\\n\\n# Blueprints:\\n    - Colossus\\n    - Huracan\\n    - Agni\\n    - Defiant\\n    - Defiant [? = CIG-Bug – maybe \"Endurance\" blueprint]\\n    - Sedulity\\n\\n# Region: Stanton-System - Danger 4-6/10\\n\\n\\nThis service is experimental. Data may be inaccurate.",
       "bpnote": "<EM4>[!]</EM4> Blueprints for 45.500 aUEC missions only\\n---------------------------------------------------------\\n\\n",
+      "issueNote": "<EM4>[?]</EM4> This mission <EM3>may</EM3> contain a faulty blueprint pool due to a CIG data error. See details below.",
+      "dataIssues": [
+        {
+          "poolId": "2a22663d-da4c-4df1-a384-590fef2f2492",
+          "blueprintNames": [
+            "Defiant"
+          ],
+          "note": "CIG-Bug – mglw. \"Endurance\" Bauplan"
+        }
+      ],
       "contractInfo": "# Mission Reputation: 100 XP\\n# Mission Cooldown: 1 minute",
       "canBeShared": true,
       "personalCooldownTime": 1,
