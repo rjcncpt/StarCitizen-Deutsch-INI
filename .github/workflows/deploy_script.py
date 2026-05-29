@@ -201,7 +201,13 @@ def get_blueprint_commit_url() -> tuple[str, str]:
     try:
         # Hole den Commit-Hash
         result = subprocess.run(
-            ["git", "log", "-1", "--pretty=%H", "blueprints/Data/bp-contracts_short.json"],
+            [
+                "git",
+                "log",
+                "-1",
+                "--pretty=%H",
+                "blueprints/Data/bp-contracts_short.json",
+            ],
             capture_output=True,
             text=True,
             check=True,
@@ -247,8 +253,8 @@ def send_blueprints_notification():
     commit_url, commit_hash = get_blueprint_commit_url()
 
     message = (
-                f"Die Baupläne-Datei wurden am "
-                f"{now.strftime('%d. %B %Y um %H:%M Uhr')} aktualisiert."
+        f"Die Baupläne-Datei wurden am "
+        f"{now.strftime('%d. %B %Y um %H:%M Uhr')} aktualisiert."
     )
 
     if commit_url and commit_hash:
@@ -292,10 +298,12 @@ def main():
     patch_number = get_patch_number()
     commit_url, commit_hash = get_commit_url()
 
-    message =   f"Die Star Citizen Übersetzung wurde am "
-                f"{now.strftime('%d. %B %Y um %H:%M Uhr')} aktualisiert. "
-                f"Bitte aktualisiere deine Übersetzung für das bestmögliche Spielerlebnis.\n\n"
-                f"{patch_number}"
+    message = (
+        f"Die Star Citizen Übersetzung wurde am "
+        f"{now.strftime('%d. %B %Y um %H:%M Uhr')} aktualisiert. "
+        f"Bitte aktualisiere deine Übersetzung für das bestmögliche Spielerlebnis.\n\n"
+        f"{patch_number}"
+    )
 
     if commit_url and commit_hash:
         message += f"\n\nAlle Änderungen zum Update: [#{commit_hash}]({commit_url})"
