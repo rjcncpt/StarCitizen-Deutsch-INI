@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generiert": "2026-05-29 16:47:40",
+    "generiert": "2026-05-29 17:53:49",
     "version_patch": "4.8.0 LIVE.11875683",
     "eintraege": 343,
     "version": "Beta 29.05.2026",
@@ -27133,9 +27133,19 @@
       "descriptionLocKey": "Intersec_TSG_Group_Desc_001",
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Intersec_TSG_Group_Title_001",
-      "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 2.878.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne (Pool A):\\n    - WhiteHot Racing Flight Suit\\n    - BlackFire Racing Flight Suit\\n    - BlueFlame Racing Flight Suit\\n    - WhiteHot Racing Helmet\\n    - BlackFire Racing Helmet\\n    - BlueFlame Racing Helmet\\n    - Novian Crossbow\\n    - Novian \"Nighthunter\" Crossbow\\n    - Novian \"Ghostmaker\" Crossbow\\n    - Novian \"Wildshot\" Crossbow\\n    - Tailwind Flight Helmet Thunderstruck\\n    - Tailwind Flight Helmet Frostshock\\n    - Tailwind Flight Helmet Blue Skies\\n    - Tailwind Flight Helmet Airwolf\\n\\n# Baupläne (Pool B):\\n    - Omnisky III Cannon\\n    - Omnisky VI Cannon\\n    - Omnisky IX Cannon\\n    - Omnisky XII Cannon\\n    - Omnisky XV Cannon\\n    - Omnisky XVIII Cannon\\n    - JS-300\\n    - JS-400\\n    - QuadraCell MX\\n    - QuadraCell MX\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "title": " <EM4>[BP]?</EM4>",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 2.878.250 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Senior (5.800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne (Pool A):\\n    - WhiteHot Racing Flight Suit\\n    - BlackFire Racing Flight Suit\\n    - BlueFlame Racing Flight Suit\\n    - WhiteHot Racing Helmet\\n    - BlackFire Racing Helmet\\n    - BlueFlame Racing Helmet\\n    - Novian Crossbow\\n    - Novian \"Nighthunter\" Crossbow\\n    - Novian \"Ghostmaker\" Crossbow\\n    - Novian \"Wildshot\" Crossbow\\n    - Tailwind Flight Helmet Thunderstruck\\n    - Tailwind Flight Helmet Frostshock\\n    - Tailwind Flight Helmet Blue Skies\\n    - Tailwind Flight Helmet Airwolf\\n\\n# Baupläne (Pool B):\\n    - Omnisky III Cannon\\n    - Omnisky VI Cannon\\n    - Omnisky IX Cannon\\n    - Omnisky XII Cannon\\n    - Omnisky XV Cannon\\n    - Omnisky XVIII Cannon\\n    - JS-300\\n    - JS-400\\n    - QuadraCell MX\\n    - QuadraCell MX [? = CIG-Bug – evtl. \"JS-500\" Bauplan]\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 2.878.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "issueNote": "<EM4>[?]</EM4> Diese Mission enthält <EM3>möglicherweise</EM3> auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe unten.",
+      "dataIssues": [
+        {
+          "poolId": "fb2a7d3e-8e67-4567-a08f-409d88cccc8a",
+          "blueprintNames": [
+            "QuadraCell MX"
+          ],
+          "note": "CIG-Bug – mglw. \"JS-500\" Bauplan"
+        }
+      ],
       "contractInfo": "# Zu erwartende Rufpunkte: 300 XP\\n# Cooldown für Mission: 105 Minuten",
       "canBeShared": true,
       "personalCooldownTime": 105,
