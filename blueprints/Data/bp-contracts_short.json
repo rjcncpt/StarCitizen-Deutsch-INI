@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generiert": "2026-05-29 12:54:09",
+    "generiert": "2026-05-29 16:47:40",
     "version_patch": "4.8.0 LIVE.11875683",
     "eintraege": 343,
     "version": "Beta 29.05.2026",
@@ -5062,8 +5062,9 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Hockrow_FacilityDelve_P2M1_Repeat_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission\\n\\n# Min. / Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - Fresnel Energy LMG\\n    - Zenith Laser Sniper Rifle\\n    - Geist Armor Arms Forest\\n    - Geist Armor Core Forest\\n    - Geist Armor Legs Forest\\n    - Geist Armor Helmet Forest\\n    - Corbel Arms Mire\\n    - Corbel Core Mire\\n    - Corbel Legs Mire\\n    - Corbel Helmet Mire\\n    - Fresnel Energy LMG Battery (165 Cap)\\n    - Novikov Backpack Mire\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
-      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission\\n\\n# Min. / Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - Fresnel Energy LMG\\n    - Zenith Laser Sniper Rifle\\n    - Geist Armor Arms Forest\\n    - Geist Armor Core Forest\\n    - Geist Armor Legs Forest\\n    - Geist Armor Helmet Forest\\n    - Corbel Arms Mire\\n    - Corbel Core Mire\\n    - Corbel Legs Mire\\n    - Corbel Helmet Mire\\n    - Fresnel Energy LMG Battery (165 Cap)\\n    - Novikov Backpack Mire\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 103.500 aUEC Mission\\n\\n# Min. / Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - Fresnel \"Icebox\" Energy LMG\\n    - Geist Armor Arms Rogue\\n    - Geist Armor Core Rogue\\n    - Geist Armor Legs Rogue\\n    - Geist Armor Helmet Rogue\\n    - Geist Armor Arms Whiteout\\n    - Geist Armor Core Whiteout\\n    - Geist Armor Legs Whiteout\\n    - Geist Armor Helmet Whiteout\\n    - Corbel Arms Smolder\\n    - Corbel Core Smolder\\n    - Corbel Legs Smolder\\n    - Corbel Helmet Smolder\\n    - Fresnel Energy LMG Battery (165 Cap)\\n    - Novikov Backpack Smolder\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 41.500 / 103.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "issueNote": "<EM4>[?]</EM4> Wegen eines CIG-Datenfehlers werden hier die Baupläne von zwei Missionen <EM3>gemeinsam</EM3> angezeigt. Sobald CIG den Fehler behebt, trennen sie sich automatisch.",
       "contractInfo": "# Cooldown für Mission: 20 Minuten",
       "canBeShared": true,
       "personalCooldownTime": 20,
@@ -5107,17 +5108,41 @@
           ],
           "haulingOrders": null,
           "rewardUEC": "41.500 aUEC",
-          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission "
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission"
+        },
+        {
+          "standing_label": "Keine Angaben",
+          "reward_items": [
+            "Fresnel \"Icebox\" Energy LMG",
+            "Geist Armor Arms Rogue",
+            "Geist Armor Core Rogue",
+            "Geist Armor Legs Rogue",
+            "Geist Armor Helmet Rogue",
+            "Geist Armor Arms Whiteout",
+            "Geist Armor Core Whiteout",
+            "Geist Armor Legs Whiteout",
+            "Geist Armor Helmet Whiteout",
+            "Corbel Arms Smolder",
+            "Corbel Core Smolder",
+            "Corbel Legs Smolder",
+            "Corbel Helmet Smolder",
+            "Fresnel Energy LMG Battery (165 Cap)",
+            "Novikov Backpack Smolder"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "103.500 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 103.500 aUEC Mission"
         }
       ]
     },
     {
-      "descriptionLocKey": "Hockrow_FacilityDelve_P2M4_Repeat_desc",
+      "descriptionLocKey": "Hockrow_FacilityDelve_P2M1_Repeat_desc",
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Hockrow_FacilityDelve_P2M4_Repeat_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 103.500 aUEC Mission\\n\\n# Min. / Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - Fresnel \"Icebox\" Energy LMG\\n    - Geist Armor Arms Rogue\\n    - Geist Armor Core Rogue\\n    - Geist Armor Legs Rogue\\n    - Geist Armor Helmet Rogue\\n    - Geist Armor Arms Whiteout\\n    - Geist Armor Core Whiteout\\n    - Geist Armor Legs Whiteout\\n    - Geist Armor Helmet Whiteout\\n    - Corbel Arms Smolder\\n    - Corbel Core Smolder\\n    - Corbel Legs Smolder\\n    - Corbel Helmet Smolder\\n    - Fresnel Energy LMG Battery (165 Cap)\\n    - Novikov Backpack Smolder\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
-      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 103.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission\\n\\n# Min. / Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - Fresnel Energy LMG\\n    - Zenith Laser Sniper Rifle\\n    - Geist Armor Arms Forest\\n    - Geist Armor Core Forest\\n    - Geist Armor Legs Forest\\n    - Geist Armor Helmet Forest\\n    - Corbel Arms Mire\\n    - Corbel Core Mire\\n    - Corbel Legs Mire\\n    - Corbel Helmet Mire\\n    - Fresnel Energy LMG Battery (165 Cap)\\n    - Novikov Backpack Mire\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 103.500 aUEC Mission\\n\\n# Min. / Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - Fresnel \"Icebox\" Energy LMG\\n    - Geist Armor Arms Rogue\\n    - Geist Armor Core Rogue\\n    - Geist Armor Legs Rogue\\n    - Geist Armor Helmet Rogue\\n    - Geist Armor Arms Whiteout\\n    - Geist Armor Core Whiteout\\n    - Geist Armor Legs Whiteout\\n    - Geist Armor Helmet Whiteout\\n    - Corbel Arms Smolder\\n    - Corbel Core Smolder\\n    - Corbel Legs Smolder\\n    - Corbel Helmet Smolder\\n    - Fresnel Energy LMG Battery (165 Cap)\\n    - Novikov Backpack Smolder\\n\\n# Region: Stanton-System - Gefahr 4-6/10\\n\\nDieser Service ist experimentell. Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 41.500 / 103.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
+      "issueNote": "<EM4>[?]</EM4> Wegen eines CIG-Datenfehlers werden hier die Baupläne von zwei Missionen <EM3>gemeinsam</EM3> angezeigt. Sobald CIG den Fehler behebt, trennen sie sich automatisch.",
       "contractInfo": "# Cooldown für Mission: 20 Minuten",
       "canBeShared": true,
       "personalCooldownTime": 20,
@@ -5146,6 +5171,26 @@
         {
           "standing_label": "Keine Angaben",
           "reward_items": [
+            "Fresnel Energy LMG",
+            "Zenith Laser Sniper Rifle",
+            "Geist Armor Arms Forest",
+            "Geist Armor Core Forest",
+            "Geist Armor Legs Forest",
+            "Geist Armor Helmet Forest",
+            "Corbel Arms Mire",
+            "Corbel Core Mire",
+            "Corbel Legs Mire",
+            "Corbel Helmet Mire",
+            "Fresnel Energy LMG Battery (165 Cap)",
+            "Novikov Backpack Mire"
+          ],
+          "haulingOrders": null,
+          "rewardUEC": "41.500 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 41.500 aUEC Mission"
+        },
+        {
+          "standing_label": "Keine Angaben",
+          "reward_items": [
             "Fresnel \"Icebox\" Energy LMG",
             "Geist Armor Arms Rogue",
             "Geist Armor Core Rogue",
@@ -5164,7 +5209,7 @@
           ],
           "haulingOrders": null,
           "rewardUEC": "103.500 aUEC",
-          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 103.500 aUEC Mission "
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 103.500 aUEC Mission"
         }
       ]
     },
