@@ -253,7 +253,7 @@ def send_blueprints_notification():
     commit_url, commit_hash = get_blueprint_commit_url()
 
     message = (
-        f"Die Baupläne-Datei wurden am "
+        f"Die Baupläne wurden am "
         f"{now.strftime('%d. %B %Y um %H:%M Uhr')} aktualisiert."
     )
 
@@ -263,7 +263,7 @@ def send_blueprints_notification():
     message += "\n<:kofi:1319086302116708444> An SCDL-Team spenden: [ko-fi.com/scdeutsch](https://ko-fi.com/scdeutsch)"
 
     send_discord_message(
-        title="Baupläne-Datei aktualisiert!",
+        title="Baupläne aktualisiert!",
         message=message,
         color=3447003,  # blau
         webhook_url_override=webhook_url,
