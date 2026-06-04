@@ -78,6 +78,8 @@ Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zu
 
 ## Baupläne-Missionsintegration
 
+<img width="2279" height="1669" alt="image" src="https://github.com/user-attachments/assets/6689e16a-f425-4987-b667-6ba82268d663" />
+
 Star Citizen vergibt bei bestimmten Missionen Baupläne (Blueprints) als Belohnung. Welche Baupläne vergeben werden, hängt vom Blueprint Pool, der Reputationsstufe und Regionen ab. Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung, Baupläne den Missionen hinzuzufügen.
 
 ### 🛠️ Installation der Baupläne für Missionstexte (InGame)
