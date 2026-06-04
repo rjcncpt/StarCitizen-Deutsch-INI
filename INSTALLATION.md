@@ -51,12 +51,13 @@ Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zu
 Star Citizen vergibt bei bestimmten Missionen Baupläne (Blueprints) als Belohnung. Welche Baupläne vergeben werden, hängt vom Blueprint Pool, der Reputationsstufe und Regionen ab. Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung, Baupläne den Missionen hinzuzufügen.
 
 ### 🛠️ Installation der Baupläne für Missionstexte (InGame)
-Über unseren **SC Deutsch Launcher** kannst du den aktuellen Stand der Baupläne bequem direkt in die Übersetzungsdatei **(`global.ini`)** integrieren.
+Über unseren **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** kannst du den aktuellen Stand der Baupläne bequem direkt in die Übersetzungsdatei **(`global.ini`)** integrieren.
 
-1. Öffne den SC Deutsch Launcher und aktualisiere die Übersetzung.
-2. Klicke im Hauptfenster auf das **Injections-Icon** <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" /> in der Titelleiste.
-3. Das Modul "Injections für global.ini" öffnet sich.
-4. Klicke auf den **"Baupläne injizieren"**-Button – fertig.
+1. Lade den **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** herunter
+2. Öffne den SC Deutsch Launcher und aktualisiere die Übersetzung.
+3. Klicke im Hauptfenster auf das **Injections-Icon** <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" /> in der Titelleiste.
+4. Das Modul "Injections für global.ini" öffnet sich.
+5. Klicke auf den **"Baupläne injizieren"**-Button – fertig.
 
 **Features der InGame-Integration:**
 - Missionen mit Bauplänen werden direkt im Titel mit einem `[BP]` oder `[BP]*` markiert.
