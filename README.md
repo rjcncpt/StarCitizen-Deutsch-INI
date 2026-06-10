@@ -11,7 +11,7 @@ Hilf mit, die Übersetzung zu verbessern! Trete **[unserem öffentlichen Überse
 
 <br>
 
-### SCMDB Übersetzungsdstei
+### SCMDB Übersetzungsdatei
 Unsere Übersetzung für SCMDB. Kopiert diesen Link in das Textfeld auf SCMDB
 ```
 https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/refs/heads/main/scmdb/lang-de.json
