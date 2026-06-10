@@ -1,4 +1,4 @@
-[![Static Badge](https://img.shields.io/badge/LIVE%204.8.0-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/EVOCATI-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=red%20)](#evocati-builds-und-tech-preview-channels) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) <br/>
+[![Static Badge](https://img.shields.io/badge/LIVE%204.8.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/EVOCATI-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=red%20)](#evocati-builds-und-tech-preview-channels) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) <br/>
 [![Static Badge](https://img.shields.io/badge/Sag%20dem%20Team%20Danke-brightgreen?style=for-the-badge&logo=kofi&logoColor=fff&logoSize=auto&label=Ko-fi&labelColor=red&color=fff)](https://ko-fi.com/scdeutsch) [![Static Badge](https://img.shields.io/badge/57k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://grev.shehryar.ae/?owner=rjcncpt&repo=StarCitizen-Deutsch-INI) [![Discord](https://img.shields.io/discord/1234564972198236261?style=for-the-badge&logo=discord&logoColor=fff&label=Discord&labelColor=232323&color=4cc71e)](https://discord.gg/5VZsTk3qjR)
 
 [![Star Citizen in Deutsch](https://i.imgur.com/WAP6UNa.png)](#)
@@ -8,6 +8,14 @@
 Die deutsche Sprachdatei für Star Citizen ist ein Gemeinschaftsprojekt, das darauf abzielt, Star Citizen im deutschsprachigen Raum zugänglicher und verständlicher zu gestalten. Das Projekt trägt dazu bei, den Erfolg des Spiels zu fördern und ein besseres Spielerlebnis für deutsche Spieler zu schaffen, indem wir die Immersion und das Verständnis durch eine sorgfältig angepasste Übersetzung stärken.
 
 Hilf mit, die Übersetzung zu verbessern! Trete **[unserem öffentlichen Übersetzungs-Discord](https://discord.gg/5VZsTk3qjR)** bei, starte **[eine Diskussion](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/discussions/categories/%C3%BCbersetzungsvorschl%C3%A4ge)** oder erstelle **[ein Issue](https://github.com/rjcncpt/StarCitizen-Deutsch-INI/issues/new?assignees=&labels=Fehler&projects=&template=bug_report.md&title=)** hier auf Github, um uns deine Vorschläge mitzuteilen.
+
+<br>
+
+### SCMDB Übersetzungsdstei
+Unsere Übersetzung für SCMDB. Kopiert diesen Link in das Textfeld auf SCMDB
+```
+https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/refs/heads/main/scmdb/lang-de.json
+```
 
 ---
 
