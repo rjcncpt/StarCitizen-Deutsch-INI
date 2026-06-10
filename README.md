@@ -12,10 +12,9 @@ Hilf mit, die Übersetzung zu verbessern! Trete **[unserem öffentlichen Überse
 <br>
 
 ### SCMDB Übersetzungsdatei
-Unsere Übersetzung für SCMDB. Kopiert diesen Link in das Textfeld auf SCMDB
-```
-https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/refs/heads/main/scmdb/lang-de.json
-```
+Unsere Übersetzung für SCMDB. Klicke folgenden Link und die SCMDB-Übersetzung wird automatisch installiert.
+
+**Link: [https://scmdb.net/?lang=https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/refs/heads/main/scmdb/lang-de.json](https://scmdb.net/?lang=https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/refs/heads/main/scmdb/lang-de.json)**
 
 ---
 
