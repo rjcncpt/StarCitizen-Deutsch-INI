@@ -1,10 +1,9 @@
 name: Blueprints Notification
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "blueprints/Data/bp-contracts_short.json"
+  schedule:
+    - cron: "0 20 * * *"   # CET  (UTC+1, Nov–Mär) → 21:00 Berlin
+    - cron: "0 19 * * *"   # CEST (UTC+2, Mär–Okt) → 21:00 Berlin
 
   workflow_dispatch:
 
@@ -13,23 +12,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check Berlin time
+        id: check_time
+        run: |
+          BERLIN_HOUR=$(TZ="Europe/Berlin" date +%H)
+          echo "Berlin hour: $BERLIN_HOUR"
+          if [ "$BERLIN_HOUR" != "21" ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Checkout repository
+        if: steps.check_time.outputs.skip != 'true'
         uses: actions/checkout@v6
         with:
-          fetch-depth: 30
+          fetch-depth: 0
 
       - name: Set up Python
+        if: steps.check_time.outputs.skip != 'true'
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Install dependencies
+        if: steps.check_time.outputs.skip != 'true'
         run: |
           pip install requests
           sudo apt-get update && sudo apt-get install -y locales
           sudo sed -i '/de_DE.UTF-8/s/^# //g' /etc/locale.gen && sudo locale-gen
 
       - name: Execute blueprints notification
+        if: steps.check_time.outputs.skip != 'true'
         env:
           LANG: de_DE.UTF-8
           LANGUAGE: de_DE:de
