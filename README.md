@@ -22,7 +22,7 @@ Unsere Übersetzung für SCMDB. Klicke folgenden Link und die SCMDB-Übersetzung
 
 - **[Über diese Übersetzung](#über-diese-übersetzung)**
 - **[Anleitung zur Installation](#anleitung-zur-installation)**
-- **[Baupläne-Missionsintegration & Datenbank](#baupläne-missionsintegration)**
+- **[Baupläne-Missionsintegration & Datenbank](#ini-injections)**
 - **[Wie aktuell ist die deutsche Übersetzung?](#wie-aktuell-ist-die-deutsche-übersetzung)**
 - **[Fragen und Antworten](#fragen-und-antworten)**
 
@@ -83,34 +83,77 @@ Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zu
 
 <br>
 
-## Baupläne-Missionsintegration
+## INI-Injections
+INI-Injection ist ein Modul, das die `global.ini` mit hilfreichen Features erweitert. Zu den aktuellen Funktionen gehören:
+- Baupläne
+- Komponenten-Strings
+- Waffen-Strings
 
-<img width="2279" height="1669" alt="image" src="https://github.com/user-attachments/assets/6689e16a-f425-4987-b667-6ba82268d663" />
+Nähere Informationen zu den einzelnen Features findest du nachfolgend.
 
-Star Citizen vergibt bei bestimmten Missionen Baupläne (Blueprints) als Belohnung. Welche Baupläne vergeben werden, hängt vom Blueprint Pool, der Reputationsstufe und Regionen ab. Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung, Baupläne den Missionen hinzuzufügen.
+<br>
 
-### 🛠️ Installation der Baupläne für Missionstexte (InGame)
-Über unseren **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** kannst du den aktuellen Stand der Baupläne bequem direkt in die Übersetzungsdatei **(`global.ini`)** integrieren.
+### Baupläne-Missionsintegration
 
-1. Lade den **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** herunter
-2. Öffne den SC Deutsch Launcher und aktualisiere die Übersetzung.
-3. Klicke im Hauptfenster auf das **Injections-Icon** <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" /> in der Titelleiste.
-4. Das Modul "Injections für global.ini" öffnet sich.
-5. Klicke auf den **"Baupläne injizieren"**-Button – fertig.
+Star Citizen vergibt bei bestimmten Missionen Baupläne (Blueprints) als Belohnung. Welche Baupläne vergeben werden, hängt vom Blueprint-Pool, der Reputationsstufe und der jeweiligen Region ab. Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung, die Baupläne direkt in die Missionstexte integriert.
+
+### Installation der Baupläne für Missionstexte (InGame)
+Über unseren **SC Deutsch Launcher** kannst du den aktuellen Stand der Baupläne bequem direkt in die Übersetzungsdatei **(`global.ini`)** integrieren.
+
+1. Öffne den SC Deutsch Launcher und aktualisiere die Übersetzung.
+2. Klicke im Hauptfenster auf das **Injections-Icon** <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" /> in der Titelleiste.
+3. Das Modul "Injections für global.ini" öffnet sich.
+4. Klicke auf den **"Baupläne injizieren"**-Button – fertig.
 
 **Features der InGame-Integration:**
 - Missionen mit Bauplänen werden direkt im Titel mit einem `[BP]` oder `[BP]*` markiert.
 - Anzeige der minimalen und maximalen Reputationsanforderungen (XP) auf einen Blick.
 - Regionsgebundene Missionen werden klar gekennzeichnet.
-- Ein Indikator-Punkt am Modul-Icon im Launcher zeigt dir an, ob nach einem Star Citizen Patch neue Baupläne verfügbar sind.
+- Verfügbarkeit der Baupläne anhand des aUEC-Missions-Payouts.
+- In welcher Region dieser Bauplan gilt mit Gefahrenangabe.
+- Cooldown-Zeit wann eine Mission erneut angenommen werden kann.
 
-### 📊 Baupläne-Datenbank (Web-Tool)
-Die Baupläne DB ist ein übersichtliches Tracking-Tool für Star Citizen, mit dem du deinen Fortschritt beim Sammeln von Bauplänen organisieren und im Blick behalten kannst.
+<br>
+
+#### Baupläne-Datenbank (Web-Tool)
+Die Baupläne DB ist ein nützliches Tracking-Tool für Star Citizen, mit dem du deinen Fortschritt beim Sammeln von Bauplänen organisieren und im Blick behalten kannst.
 - **Fortschritt tracken:** Markiere einzelne Baupläne ganz einfach als "Erledigt" oder "Vorgemerkt".
 - **Suchen & Filtern:** Finde gezielt Baupläne anhand von Missionstiteln, Orten oder ganzen Sonnensystemen.
 - **Zur Baupläne-Datenbank:** [https://rjcncpt.github.io/StarCitizen-Deutsch-INI/](https://rjcncpt.github.io/StarCitizen-Deutsch-INI/)
 
-💡 **Wir arbeiten an einer Möglichkeit, erledigte Baupläne in die Spieltexte zu integrieren. Daher kannst du auf der [Baupläne-Datenbankseite](https://rjcncpt.github.io/StarCitizen-Deutsch-INI/) erledigte Baupläne als `.json`-Datei exportieren. Aktuell prüfen wir eine Lösung, mit der der SCDL diese Datei einliest und deine Baupläne-Integration entsprechend anpasst.**
+<br>
+
+### Waffen- und Komponenten-Strings
+Für dieses Feature verwenden wir die Daten von [MrKraken's StarStrings](https://github.com/MrKraken/StarStrings). Da der SCDL erspielte Baupläne anhand der in den Logdateien enthaltenen Itemnamen erkennt, passen wir die Darstellung der erweiterten Strings von MrKraken entsprechend an.
+
+StarStrings ergänzt Itemnamen standardmäßig nach folgendem Muster:
+
+```text
+Civ/2/C Frost-Star EX
+[EM1] Pioneer-G
+```
+
+<br>
+
+Für die Bauplan-Erkennung muss der SCDL diese Einträge jedoch in ein einheitliches Format überführen:
+
+```text
+Frost-Star EX (Civ/2/C)
+Pioneer-G (EM1)
+```
+
+<br>
+
+Werden die String-Optionen im Spiel verwendet, erscheinen die Zusatzinformationen sowohl in der Benutzeroberfläche als auch in den erzeugten Logdateien. Beim Auslesen der Logs entfernt der SCDL diese Zusätze anschließend wieder und normalisiert die Namen auf das ursprüngliche Format:
+
+```text
+Frost-Star EX
+Pioneer-G
+```
+
+<br>
+
+Dadurch können die Einträge zuverlässig erkannt und den entsprechenden Bauplänen korrekt zugeordnet werden.
 
 ---
 
