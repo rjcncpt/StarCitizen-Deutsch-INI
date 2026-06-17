@@ -1,17 +1,18 @@
 {
-  "version": "4.8.1-live.11952564",
+  "version": "4.8.2-live.12030094",
   "sourceLanguage": "en",
   "targetLanguage": "german_global",
-  "keyCount": 4195,
+  "keyCount": 4163,
   "stats": {
-    "total": 4195,
-    "translated": 3753,
+    "total": 4163,
+    "translated": 3750,
     "missing": 0,
-    "noLocKey": 372,
+    "noLocKey": 343,
     "placeholderFallback": 70,
-    "mismatch": 217,
+    "mismatch": 218,
     "missingKeys": [],
     "mismatchKeys": [
+      "CFP_Delivery_Outpost_Multi_title_001",
       "CFP_SecurityPatrol_E_Desc_001",
       "CFP_SecurityPatrol_H_Desc_001",
       "CFP_SecurityPatrol_M_Desc_001",
@@ -1401,7 +1402,7 @@
       "tr": "Inter-Outpost Delivery at [DESTINATION]"
     },
     "CFP_Delivery_Outpost_Multi_title_001": {
-      "en": "Inter-Outpost Delivery at [DESTINATION] - Multiple Boxes",
+      "en": "Inter-Outpost Delivery at Jackson's Swap - Multiple Boxes",
       "tr": "Inter-Outpost Delivery at [DESTINATION] - Multiple Boxes"
     },
     "CFP_RecoverCargo_Easy_Title": {
@@ -6548,9 +6549,9 @@
       "en": "Pyro",
       "tr": "Pyro"
     },
-    "_noloc_location_Checkmate Habs": {
-      "en": "Checkmate Habs",
-      "tr": "Checkmate Habs"
+    "Pyro6_L1_Habs": {
+      "en": "P6 L1_Habs",
+      "tr": "P6 L1_Habs"
     },
     "_noloc_location_Checkmate Clinic": {
       "en": "Checkmate Clinic",
@@ -6576,10 +6577,6 @@
       "en": "Orbituary Clinic",
       "tr": "Orbituary Clinic"
     },
-    "_noloc_location_Orbituary Habs": {
-      "en": "Orbituary Habs",
-      "tr": "Orbituary Habs"
-    },
     "RR_P6": {
       "en": "Ruin Station",
       "tr": "Ruin Station"
@@ -6587,10 +6584,6 @@
     "Pyro6": {
       "en": "Terminus",
       "tr": "Terminus"
-    },
-    "_noloc_location_Ruin Station Habs": {
-      "en": "Ruin Station Habs",
-      "tr": "Ruin Station Habs"
     },
     "_noloc_location_Ruin Station Clinic": {
       "en": "Ruin Station Clinic",
@@ -6608,17 +6601,9 @@
       "en": "Starlight Service Station Clinic",
       "tr": "Starlight Service Station Clinic"
     },
-    "_noloc_location_Starlight Service Station Habs": {
-      "en": "Starlight Service Station Habs",
-      "tr": "Starlight Service Station Habs"
-    },
     "RR_P3_L3": {
       "en": "Patch City",
       "tr": "Patch City"
-    },
-    "_noloc_location_Patch City Habs": {
-      "en": "Patch City Habs",
-      "tr": "Patch City Habs"
     },
     "_noloc_location_Patch City Clinic": {
       "en": "Patch City Clinic",
@@ -6627,10 +6612,6 @@
     "RR_P5_L2": {
       "en": "Gaslight",
       "tr": "Gaslight"
-    },
-    "_noloc_location_Gaslight Habs": {
-      "en": "Gaslight Habs",
-      "tr": "Gaslight Habs"
     },
     "_noloc_location_Gaslight Clinic": {
       "en": "Gaslight Clinic",
@@ -6644,10 +6625,6 @@
       "en": "Rod's Fuel 'N Supplies Clinic",
       "tr": "Rod's Fuel 'N Supplies Clinic"
     },
-    "_noloc_location_Rod's Fuel 'N Supplies Habs": {
-      "en": "Rod's Fuel 'N Supplies Habs",
-      "tr": "Rod's Fuel 'N Supplies Habs"
-    },
     "mission_location_pyro_043": {
       "en": "Rat's Nest",
       "tr": "Rat's Nest"
@@ -6656,17 +6633,9 @@
       "en": "Rat's Nest Clinic",
       "tr": "Rat's Nest Clinic"
     },
-    "_noloc_location_Rat's Nest Habs": {
-      "en": "Rat's Nest Habs",
-      "tr": "Rat's Nest Habs"
-    },
     "RR_P6_L3": {
       "en": "Endgame",
       "tr": "Endgame"
-    },
-    "_noloc_location_Endgame Habs": {
-      "en": "Endgame Habs",
-      "tr": "Endgame Habs"
     },
     "_noloc_location_Endgame Clinic": {
       "en": "Endgame Clinic",
@@ -6680,10 +6649,6 @@
       "en": "Dudley & Daughters Clinic",
       "tr": "Dudley & Daughters Clinic"
     },
-    "_noloc_location_Dudley & Daughters Habs": {
-      "en": "Dudley & Daughters Habs",
-      "tr": "Dudley & Daughters Habs"
-    },
     "RR_P6_L5": {
       "en": "Megumi Refueling",
       "tr": "Megumi Refueling"
@@ -6691,10 +6656,6 @@
     "_noloc_location_Megumi Refueling Clinic": {
       "en": "Megumi Refueling Clinic",
       "tr": "Megumi Refueling Clinic"
-    },
-    "_noloc_location_Megumi Refueling Habs": {
-      "en": "Megumi Refueling Habs",
-      "tr": "Megumi Refueling Habs"
     },
     "Collector_Station_02_Name": {
       "en": "Wikelo Emporium Selo Station",
@@ -7044,9 +7005,9 @@
       "en": "Rayari Deltana Research Outpost",
       "tr": "Rayari Deltana Research Outpost"
     },
-    "_noloc_location_the Rayari lab on Cellin": {
-      "en": "the Rayari lab on Cellin",
-      "tr": "the Rayari lab on Cellin"
+    "Stanton2a_Rayari_001": {
+      "en": "Hickes Research Outpost",
+      "tr": "Hickes Research Outpost"
     },
     "Stanton2c_Rayari_001": {
       "en": "Deakins Research Outpost",
@@ -7128,21 +7089,17 @@
       "en": "HUR-L1 Green Glade Station",
       "tr": "HUR-L1 Green Glade Station"
     },
-    "_noloc_location_Security Compound": {
-      "en": "Security Compound",
-      "tr": "Security Compound"
+    "Stanton1_DistributionCenter_Covalex_01": {
+      "en": "Covalex Distribution Centre S1DC06",
+      "tr": "Covalex Distribution Centre S1DC06"
     },
-    "_noloc_location_On-Call Area": {
-      "en": "On-Call Area",
-      "tr": "On-Call Area"
+    "mission_location_stanton_763": {
+      "en": "Sakura Sun Magnolia Workcenter",
+      "tr": "Sakura Sun Magnolia Workcenter"
     },
-    "DC_room_lobby": {
-      "en": "Lobby",
-      "tr": "Lobby"
-    },
-    "_noloc_location_Inventory Center": {
-      "en": "Inventory Center",
-      "tr": "Inventory Center"
+    "Stanton1_HRST_UGF_001": {
+      "en": "HDPC-Cassillo",
+      "tr": "HDPC-Cassillo"
     },
     "_noloc_location_Shipping Area": {
       "en": "Shipping Area",
@@ -7152,9 +7109,9 @@
       "en": "Teasa Spaceport",
       "tr": "Teasa Spaceport"
     },
-    "_noloc_location_Storehouse": {
-      "en": "Storehouse",
-      "tr": "Storehouse"
+    "Stanton1_HRST_UGF_003": {
+      "en": "HDPC-Farnesway",
+      "tr": "HDPC-Farnesway"
     },
     "_noloc_location_QV Extraction Station": {
       "en": "QV Extraction Station",
@@ -7576,13 +7533,13 @@
       "en": "microTech Logistics Depot S4LD01",
       "tr": "microTech Logistics Depot S4LD01"
     },
-    "_noloc_location_Exterior Zone 2": {
-      "en": "Exterior Zone 2",
-      "tr": "Exterior Zone 2"
-    },
     "_noloc_location_L19 Habs in Lorville": {
       "en": "L19 Habs in Lorville",
       "tr": "L19 Habs in Lorville"
+    },
+    "_noloc_location_Inventory Center": {
+      "en": "Inventory Center",
+      "tr": "Inventory Center"
     },
     "_noloc_location_Cave_Unoccupied_Stanton2": {
       "en": "Cave_Unoccupied_Stanton2",
@@ -7620,9 +7577,9 @@
       "en": "Inhabited_Derelict_Civilian_Stanton4_Drlct_Stmnt_001",
       "tr": "Inhabited_Derelict_Civilian_Stanton4_Drlct_Stmnt_001"
     },
-    "_noloc_location_Security Checkpoint": {
-      "en": "Security Checkpoint",
-      "tr": "Security Checkpoint"
+    "mission_location_stanton_777": {
+      "en": "microTech Logistics Depot S4LD13",
+      "tr": "microTech Logistics Depot S4LD13"
     },
     "Stanton1_Lorville": {
       "en": "Lorville",
@@ -7644,6 +7601,10 @@
       "en": "ARC-L3 Modern Express Station",
       "tr": "ARC-L3 Modern Express Station"
     },
+    "_noloc_location_On-Call Area": {
+      "en": "On-Call Area",
+      "tr": "On-Call Area"
+    },
     "mission_location_stanton_797": {
       "en": "Dupree Industrial Manufacturing Facility",
       "tr": "Dupree Industrial Manufacturing Facility"
@@ -7664,6 +7625,14 @@
       "en": "Wala Cave",
       "tr": "Wala Cave"
     },
+    "stanton2_Shipping_Covalex": {
+      "en": "Covalex Shipping Hub Gundo",
+      "tr": "Covalex Shipping Hub Gundo"
+    },
+    "Stanton4_DistributionCenter_Covalex_01": {
+      "en": "Covalex Distribution Centre S4DC05",
+      "tr": "Covalex Distribution Centre S4DC05"
+    },
     "_noloc_location_Cellin Cave": {
       "en": "Cellin Cave",
       "tr": "Cellin Cave"
@@ -7672,17 +7641,9 @@
       "en": "Inhabited_Derelict_Civilian_Stanton1a_Drlct_Stmnt_003",
       "tr": "Inhabited_Derelict_Civilian_Stanton1a_Drlct_Stmnt_003"
     },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton1d": {
-      "en": "Inhabited_Derelict_Civilian_Stanton1d",
-      "tr": "Inhabited_Derelict_Civilian_Stanton1d"
-    },
-    "Stanton1_HRST_UGF_003": {
-      "en": "HDPC-Farnesway",
-      "tr": "HDPC-Farnesway"
-    },
-    "Stanton1_HRST_UGF_001": {
-      "en": "HDPC-Cassillo",
-      "tr": "HDPC-Cassillo"
+    "_noloc_location_<= UNINITIALIZED =>": {
+      "en": "<= UNINITIALIZED =>",
+      "tr": "<= UNINITIALIZED =>"
     },
     "_noloc_location_Freelancer wreck site": {
       "en": "Freelancer wreck site",
@@ -7708,9 +7669,9 @@
       "en": "Inhabited_Derelict_Civilian_Stanton3a_Drlct_Stmnt_001",
       "tr": "Inhabited_Derelict_Civilian_Stanton3a_Drlct_Stmnt_001"
     },
-    "mission_location_stanton_777": {
-      "en": "microTech Logistics Depot S4LD13",
-      "tr": "microTech Logistics Depot S4LD13"
+    "_noloc_location_Security Compound": {
+      "en": "Security Compound",
+      "tr": "Security Compound"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton1a_Drlct_Stmnt_002": {
       "en": "Inhabited_Derelict_Civilian_Stanton1a_Drlct_Stmnt_002",
@@ -7732,6 +7693,10 @@
       "en": "Inhabited_Derelict_Outlaw_Stanton1_Drlct_Stmnt_010",
       "tr": "Inhabited_Derelict_Outlaw_Stanton1_Drlct_Stmnt_010"
     },
+    "_noloc_location_Exterior Zone 2": {
+      "en": "Exterior Zone 2",
+      "tr": "Exterior Zone 2"
+    },
     "_noloc_location_Inhabited_Derelict_Outlaw_NineTails_Stanton1": {
       "en": "Inhabited_Derelict_Outlaw_NineTails_Stanton1",
       "tr": "Inhabited_Derelict_Outlaw_NineTails_Stanton1"
@@ -7744,9 +7709,9 @@
       "en": "Inhabited_Derelict_Civilian_Stanton1c_Drlct_Stmnt_001",
       "tr": "Inhabited_Derelict_Civilian_Stanton1c_Drlct_Stmnt_001"
     },
-    "Stanton1_CVLC_UGF_002": {
-      "en": "Covalex Distribution Center S1DC06",
-      "tr": "Covalex Distribution Center S1DC06"
+    "Stanton4_SASU_UGF_001": {
+      "en": "Sakura Sun Goldenrod Workcenter",
+      "tr": "Sakura Sun Goldenrod Workcenter"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_002": {
       "en": "Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_002",
@@ -7756,18 +7721,6 @@
       "en": "Inhabited_Derelict_Outlaw_Stanton4_Drlct_Stmnt_003",
       "tr": "Inhabited_Derelict_Outlaw_Stanton4_Drlct_Stmnt_003"
     },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton2a": {
-      "en": "Inhabited_Derelict_Civilian_Stanton2a",
-      "tr": "Inhabited_Derelict_Civilian_Stanton2a"
-    },
-    "mission_location_stanton_763": {
-      "en": "Sakura Sun Magnolia Workcenter",
-      "tr": "Sakura Sun Magnolia Workcenter"
-    },
-    "Stanton4_CVLX_UGF_001": {
-      "en": "Covalex Distribution Center S4DC05",
-      "tr": "Covalex Distribution Center S4DC05"
-    },
     "_noloc_location_Magda Cave": {
       "en": "Magda Cave",
       "tr": "Magda Cave"
@@ -7776,10 +7729,6 @@
       "en": "Bloodshot Ridge",
       "tr": "Bloodshot Ridge"
     },
-    "_noloc_location_Supply Room": {
-      "en": "Supply Room",
-      "tr": "Supply Room"
-    },
     "mission_location_stanton_731": {
       "en": "Ludlow",
       "tr": "Ludlow"
@@ -7787,10 +7736,6 @@
     "_noloc_location_Clio Cave": {
       "en": "Clio Cave",
       "tr": "Clio Cave"
-    },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton1c": {
-      "en": "Inhabited_Derelict_Civilian_Stanton1c",
-      "tr": "Inhabited_Derelict_Civilian_Stanton1c"
     },
     "RR_ARC_L5": {
       "en": "ARC-L5 Yellow Core Station",
@@ -7824,17 +7769,9 @@
       "en": "Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_004",
       "tr": "Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_004"
     },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton1b": {
-      "en": "Inhabited_Derelict_Civilian_Stanton1b",
-      "tr": "Inhabited_Derelict_Civilian_Stanton1b"
-    },
-    "_noloc_location_Staging Point": {
-      "en": "Staging Point",
-      "tr": "Staging Point"
-    },
-    "Stanton4_SASU_UGF_001": {
-      "en": "Sakura Sun Goldenrod Workcenter",
-      "tr": "Sakura Sun Goldenrod Workcenter"
+    "_noloc_location_Security Checkpoint": {
+      "en": "Security Checkpoint",
+      "tr": "Security Checkpoint"
     },
     "mission_location_stanton_769": {
       "en": "Cry-Astro Processing Plant 19-02",
@@ -7892,9 +7829,9 @@
       "en": "Inhabited_Derelict_Civilian_Stanton1_Drlct_Stmnt_010",
       "tr": "Inhabited_Derelict_Civilian_Stanton1_Drlct_Stmnt_010"
     },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton1a": {
-      "en": "Inhabited_Derelict_Civilian_Stanton1a",
-      "tr": "Inhabited_Derelict_Civilian_Stanton1a"
+    "DC_room_lobby": {
+      "en": "Lobby",
+      "tr": "Lobby"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton1_Drlct_Stmnt_009": {
       "en": "Inhabited_Derelict_Civilian_Stanton1_Drlct_Stmnt_009",
@@ -7932,13 +7869,17 @@
       "en": "Inhabited_Derelict_Outlaw_Stanton1",
       "tr": "Inhabited_Derelict_Outlaw_Stanton1"
     },
-    "_noloc_location_JumpPoint_Stanton-Magnus": {
-      "en": "JumpPoint_Stanton-Magnus",
-      "tr": "JumpPoint_Stanton-Magnus"
+    "Stanton_JumpPoint_Magnus": {
+      "en": "Stanton - Magnus Jump Point",
+      "tr": "Stanton - Magnus Jump Point"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton1b_Drlct_Stmnt_001": {
       "en": "Inhabited_Derelict_Civilian_Stanton1b_Drlct_Stmnt_001",
       "tr": "Inhabited_Derelict_Civilian_Stanton1b_Drlct_Stmnt_001"
+    },
+    "_noloc_location_Storehouse": {
+      "en": "Storehouse",
+      "tr": "Storehouse"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton3a_Drlct_Stmnt_002": {
       "en": "Inhabited_Derelict_Civilian_Stanton3a_Drlct_Stmnt_002",
@@ -7976,10 +7917,6 @@
       "en": "Inhabited_Derelict_Civilian_Stanton2c_Drlct_Stmnt_001",
       "tr": "Inhabited_Derelict_Civilian_Stanton2c_Drlct_Stmnt_001"
     },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton3b": {
-      "en": "Inhabited_Derelict_Civilian_Stanton3b",
-      "tr": "Inhabited_Derelict_Civilian_Stanton3b"
-    },
     "RR_ARC_L2": {
       "en": "ARC-L2 Lively Pathway Station",
       "tr": "ARC-L2 Lively Pathway Station"
@@ -7987,14 +7924,6 @@
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton2a_Drlct_Stmnt_002": {
       "en": "Inhabited_Derelict_Civilian_Stanton2a_Drlct_Stmnt_002",
       "tr": "Inhabited_Derelict_Civilian_Stanton2a_Drlct_Stmnt_002"
-    },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton1": {
-      "en": "Inhabited_Derelict_Civilian_Stanton1",
-      "tr": "Inhabited_Derelict_Civilian_Stanton1"
-    },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton3a": {
-      "en": "Inhabited_Derelict_Civilian_Stanton3a",
-      "tr": "Inhabited_Derelict_Civilian_Stanton3a"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_003": {
       "en": "Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_003",
@@ -8027,14 +7956,6 @@
     "mission_location_stanton_0214": {
       "en": "L19 Admin Office in Lorville",
       "tr": "L19 Admin Office in Lorville"
-    },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton4": {
-      "en": "Inhabited_Derelict_Civilian_Stanton4",
-      "tr": "Inhabited_Derelict_Civilian_Stanton4"
-    },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton2c": {
-      "en": "Inhabited_Derelict_Civilian_Stanton2c",
-      "tr": "Inhabited_Derelict_Civilian_Stanton2c"
     },
     "_noloc_location_AsteroidClusters_Stanton": {
       "en": "AsteroidClusters_Stanton",
@@ -8079,10 +8000,6 @@
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_001": {
       "en": "Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_001",
       "tr": "Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_001"
-    },
-    "_noloc_location_Covalex Station Gundo": {
-      "en": "Covalex Station Gundo",
-      "tr": "Covalex Station Gundo"
     },
     "mission_location_stanton_749": {
       "en": "Harper's Point",
@@ -8152,25 +8069,21 @@
       "en": "Shady Glen Farms",
       "tr": "Shady Glen Farms"
     },
-    "mission_location_stanton_0227": {
-      "en": "\"The Orphanage\"",
-      "tr": "\"The Orphanage\""
+    "Stanton3a_Stash_001": {
+      "en": "The Orphanage",
+      "tr": "The Orphanage"
     },
     "_noloc_location_Inhabited_Derelict_Outlaw": {
       "en": "Inhabited_Derelict_Outlaw",
       "tr": "Inhabited_Derelict_Outlaw"
     },
-    "vehicle_NameDRAK_Caterpillar_short": {
-      "en": "Caterpillar",
-      "tr": "Caterpillar"
+    "_noloc_location_Downded Relay AC-652": {
+      "en": "Downded Relay AC-652",
+      "tr": "Downded Relay AC-652"
     },
     "_noloc_location_Lazarus Complex Tithonus-II": {
       "en": "Lazarus Complex Tithonus-II",
       "tr": "Lazarus Complex Tithonus-II"
-    },
-    "ShipName_Test_001": {
-      "en": "Freelancer",
-      "tr": "Freelancer"
     },
     "hangar_13": {
       "en": "Hangar 13",
@@ -8188,9 +8101,9 @@
       "en": "Euterpe Derelict Outpost",
       "tr": "Euterpe Derelict Outpost"
     },
-    "Stanton3a_Shubin_001": {
-      "en": "Shubin Mining Facility SAL-2",
-      "tr": "Shubin Mining Facility SAL-2"
+    "_noloc_location_Admin Center": {
+      "en": "Admin Center",
+      "tr": "Admin Center"
     },
     "_noloc_location_the wreck site on microTech": {
       "en": "the wreck site on microTech",
@@ -8199,6 +8112,10 @@
     "_noloc_location_Hurston Derelict Outpost": {
       "en": "Hurston Derelict Outpost",
       "tr": "Hurston Derelict Outpost"
+    },
+    "vehicle_NameDRAK_Caterpillar_short": {
+      "en": "Caterpillar",
+      "tr": "Caterpillar"
     },
     "Stanton1d_HurDynMining_001": {
       "en": "HDMS-Woodruff",
@@ -8216,10 +8133,6 @@
       "en": "the Cellin wreck site",
       "tr": "the Cellin wreck site"
     },
-    "ShipName_Test_002": {
-      "en": "Starfarer",
-      "tr": "Starfarer"
-    },
     "_noloc_location_Farro Data Center VIII": {
       "en": "Farro Data Center VIII",
       "tr": "Farro Data Center VIII"
@@ -8227,10 +8140,6 @@
     "_noloc_location_the Lyria wreck site": {
       "en": "the Lyria wreck site",
       "tr": "the Lyria wreck site"
-    },
-    "ShipName_Test_003": {
-      "en": "Constellation",
-      "tr": "Constellation"
     },
     "_noloc_location_Aberdeen wreck site": {
       "en": "Aberdeen wreck site",
@@ -8248,10 +8157,6 @@
       "en": "the Magda wreck site",
       "tr": "the Magda wreck site"
     },
-    "_noloc_location_Inhabited_Derelict": {
-      "en": "Inhabited_Derelict",
-      "tr": "Inhabited_Derelict"
-    },
     "_noloc_location_Daymar Derelict Outpost": {
       "en": "Daymar Derelict Outpost",
       "tr": "Daymar Derelict Outpost"
@@ -8263,6 +8168,10 @@
     "Stanton1_HurDynMining_002": {
       "en": "HDMS-Oparei",
       "tr": "HDMS-Oparei"
+    },
+    "ShipName_Test_002": {
+      "en": "Starfarer",
+      "tr": "Starfarer"
     },
     "Stanton2b_EMShelter_001": {
       "en": "Tamdon Plains Aid Shelter",
@@ -8276,17 +8185,13 @@
       "en": "Aegis Reclaimer",
       "tr": "Aegis Reclaimer"
     },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton": {
-      "en": "Inhabited_Derelict_Civilian_Stanton",
-      "tr": "Inhabited_Derelict_Civilian_Stanton"
-    },
-    "_noloc_location_Inhabited_Derelict_Civilian": {
-      "en": "Inhabited_Derelict_Civilian",
-      "tr": "Inhabited_Derelict_Civilian"
-    },
     "Stanton3b_SalvageYard_001": {
       "en": "Samson & Son's Salvage Center",
       "tr": "Samson & Son's Salvage Center"
+    },
+    "ShipName_Test_001": {
+      "en": "Freelancer",
+      "tr": "Freelancer"
     },
     "_noloc_location_the wreck site on Daymar": {
       "en": "the wreck site on Daymar",
@@ -8303,10 +8208,6 @@
     "Stanton3a_IndyMine_002": {
       "en": "Loveridge Mineral Reserve",
       "tr": "Loveridge Mineral Reserve"
-    },
-    "_noloc_location_<= UNINITIALIZED =>": {
-      "en": "<= UNINITIALIZED =>",
-      "tr": "<= UNINITIALIZED =>"
     },
     "Stanton1a_HurDynMining_001": {
       "en": "HDMS-Bezdek",
@@ -8380,10 +8281,6 @@
       "en": "Clio Derelict Outpost",
       "tr": "Clio Derelict Outpost"
     },
-    "Stanton4a_Shubin_001": {
-      "en": "Shubin Mining Facility SMCa-6",
-      "tr": "Shubin Mining Facility SMCa-6"
-    },
     "_noloc_location_RestStop_Pyro_Rundown_RR_P3_LEO_Orb_Dealer": {
       "en": "RestStop_Pyro_Rundown_RR_P3_LEO_Orb_Dealer",
       "tr": "RestStop_Pyro_Rundown_RR_P3_LEO_Orb_Dealer"
@@ -8403,10 +8300,6 @@
     "xs_outpost_cave_001": {
       "en": "Cave near [LOCATION]",
       "tr": "Cave near [LOCATION]"
-    },
-    "Stanton3a_Shubin_002": {
-      "en": "Shubin Mining Facility SAL-5",
-      "tr": "Shubin Mining Facility SAL-5"
     },
     "mission_location_pyro_075": {
       "en": "Bullock's Reach",
@@ -8455,10 +8348,6 @@
     "_noloc_location_Farro Data Center VII": {
       "en": "Farro Data Center VII",
       "tr": "Farro Data Center VII"
-    },
-    "Stanton2b_Shubin_001": {
-      "en": "Shubin Mining Facility SCD-1",
-      "tr": "Shubin Mining Facility SCD-1"
     },
     "mission_location_pyro_073": {
       "en": "Kabir's Post",
@@ -8524,6 +8413,10 @@
       "en": "Dunlow Ridge Aid Shelter",
       "tr": "Dunlow Ridge Aid Shelter"
     },
+    "ShipName_Test_003": {
+      "en": "Constellation",
+      "tr": "Constellation"
+    },
     "_noloc_location_Dudley & Daughters Entrance": {
       "en": "Dudley & Daughters Entrance",
       "tr": "Dudley & Daughters Entrance"
@@ -8555,10 +8448,6 @@
     "Stanton1_DrugLab_001": {
       "en": "Echo Isle",
       "tr": "Echo Isle"
-    },
-    "_noloc_location_the abandoned outpost on Cellin": {
-      "en": "the abandoned outpost on Cellin",
-      "tr": "the abandoned outpost on Cellin"
     },
     "Stanton1_SalvageYard_001": {
       "en": "Reclamation & Disposal Orinth",
@@ -8704,9 +8593,9 @@
       "en": "Ruin Station Entrance",
       "tr": "Ruin Station Entrance"
     },
-    "mission_client_0036": {
-      "en": "Tram & Myers",
-      "tr": "Tram & Myers"
+    "mission_client_0035": {
+      "en": "Tram & Myers Mining",
+      "tr": "Tram & Myers Mining"
     },
     "Stanton3b_ArcCorp_004": {
       "en": "ArcCorp Mining Area 061",
@@ -8716,10 +8605,6 @@
       "en": "Stag's Rut",
       "tr": "Stag's Rut"
     },
-    "_noloc_location_the abandoned outpost on Daymar": {
-      "en": "the abandoned outpost on Daymar",
-      "tr": "the abandoned outpost on Daymar"
-    },
     "_noloc_location_Maintenance Area-01": {
       "en": "Maintenance Area-01",
       "tr": "Maintenance Area-01"
@@ -8727,10 +8612,6 @@
     "mission_location_pyro_065": {
       "en": "Stonetree",
       "tr": "Stonetree"
-    },
-    "Stanton4a_Shubin_002": {
-      "en": "Shubin Mining Facility SMCa-8",
-      "tr": "Shubin Mining Facility SMCa-8"
     },
     "_noloc_location_Lazarus Transport Hub Phoenix-III": {
       "en": "Lazarus Transport Hub Phoenix-III",
@@ -8747,6 +8628,10 @@
     "Stanton4c_IndyFarmer_001": {
       "en": "Bud's Growery",
       "tr": "Bud's Growery"
+    },
+    "Stanton2b_Stash_001": {
+      "en": "Nuen Waste Management",
+      "tr": "Nuen Waste Management"
     },
     "mission_location_stanton_427": {
       "en": "Wally's Bar in New Babbage",
@@ -8880,17 +8765,13 @@
       "en": "Pyro I Cave",
       "tr": "Pyro I Cave"
     },
-    "Stanton4_Shubin_004": {
-      "en": "Shubin Mining Facility SM0-10",
-      "tr": "Shubin Mining Facility SM0-10"
+    "_noloc_location_Staging Point": {
+      "en": "Staging Point",
+      "tr": "Staging Point"
     },
-    "_noloc_location_JumpPoint_Stanton-Pyro_SecurityDock": {
-      "en": "JumpPoint_Stanton-Pyro_SecurityDock",
-      "tr": "JumpPoint_Stanton-Pyro_SecurityDock"
-    },
-    "Stanton4_Shubin_003": {
-      "en": "Shubin Mining Facility SM0-18",
-      "tr": "Shubin Mining Facility SM0-18"
+    "ea_ui_map_JerichoStation": {
+      "en": "INS Jericho",
+      "tr": "INS Jericho"
     },
     "Stanton4_Transfer": {
       "en": "Port Tressler",
@@ -8900,17 +8781,9 @@
       "en": "Greycat Stanton IV Production Complex-A",
       "tr": "Greycat Stanton IV Production Complex-A"
     },
-    "Stanton4_Shubin_002": {
-      "en": "Shubin Mining Facility SM0-22",
-      "tr": "Shubin Mining Facility SM0-22"
-    },
     "_noloc_location_ArcCorp Mining Area157": {
       "en": "ArcCorp Mining Area157",
       "tr": "ArcCorp Mining Area157"
-    },
-    "Stanton4_Shubin_001": {
-      "en": "Shubin Mining Facility SM0-13",
-      "tr": "Shubin Mining Facility SM0-13"
     },
     "_noloc_location_Ruptura PAF-I": {
       "en": "Ruptura PAF-I",
