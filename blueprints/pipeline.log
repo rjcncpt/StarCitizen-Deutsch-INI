@@ -1,191 +1,193 @@
-[2026-06-11 12:13:36] ========================================================
-[2026-06-11 12:13:36] Star Citizen Data Pipeline – Lauf gestartet
-[2026-06-11 12:13:36] Modus     : Nur Blueprints
-[2026-06-11 12:13:36] Log-Datei : F:\...\pipeline.log
-[2026-06-11 12:13:36] Script    : F:\...\sc_data_pipeline_de-en_09.06.2026.py
-[2026-06-11 12:13:36] ========================================================
-[2026-06-11 12:13:36] 
-[2026-06-11 12:13:36] [STEP] Lade Spielversion von scmdb.net...
-[2026-06-11 12:13:37] [OK]   Gewählte Version: 4.8.1-live.11952564
-[2026-06-11 12:13:37] [OK]   Gespeichert: F:\...\Data\version.json
-[2026-06-11 12:13:37] 
-[2026-06-11 12:13:37] [STEP] Lade merged-4.8.1-live.11952564.json von scmdb.net...
-[2026-06-11 12:13:37] [OK]   Gespeichert: merged-4.8.1-live.11952564.json
-[2026-06-11 12:13:37] 
-[2026-06-11 12:13:37] [STEP] Lade crafting_items-4.8.1-live.11952564.json von scmdb.net...
-[2026-06-11 12:13:38] [OK]   Gespeichert: crafting_items-4.8.1-live.11952564.json
-[2026-06-11 12:13:38] 
-[2026-06-11 12:13:38] [STEP] Lade cig_data_issues-4.8.1-live.11952564.json von scmdb.net (optional)...
-[2026-06-11 12:13:38] [OK]   Gespeichert: cig_data_issues-4.8.1-live.11952564.json
-[2026-06-11 12:13:38] [OK]   0 Data-Issues geladen.
-[2026-06-11 12:13:38] 
-[2026-06-11 12:13:38] [STEP] Lade & baue StarStrings (ordnance/components) um...
-[2026-06-11 12:13:38] [OK]   136 Zeilen geschrieben → F:\...\Data\Strings\ordnance.ini
-[2026-06-11 12:13:38] 
-[2026-06-11 12:13:38] [STEP] Erstelle components_de.ini aus deutscher global.ini...
-[2026-06-11 12:13:38] [OK]   0 fehlende Komponenten → F:\...\Data\Strings\components_de.ini (und an components.ini angehängt)
-[2026-06-11 12:13:38] 
-[2026-06-11 12:13:38] [STEP] Erstelle Components aus crafting_items.json...
-[2026-06-11 12:13:38] [WARN] 27 Components ohne Treffer in der EN global.ini – übersprungen (z.B. Abrade Scraper Module, Arbor MH1 Mining Laser, Arbor MH2 Mining Laser, Arbor MHV Mining Laser, Bendix).
-[2026-06-11 12:13:38] [OK]   0 neue Components → components.ini angehängt.
-[2026-06-11 12:13:38] 
-[2026-06-11 12:13:38] [STEP] Korrigiere components.ini-Key-Schreibweise gegen global.ini...
-[2026-06-11 12:13:38] [OK]   Alle components.ini-Keys stimmen bereits mit der global.ini überein.
-[2026-06-11 12:13:38] [OK]   12 Shield-Namen aus global.ini geladen.
-[2026-06-11 12:13:38] [OK]   12 Shield-Namen aus global.ini geladen.
-[2026-06-11 12:13:38] [OK]   12 Shield-Codes aus components.ini ergänzt.
-[2026-06-11 12:13:38] [OK]   420 Komponenten-Tags aus components.ini geladen.
-[2026-06-11 12:13:38] [OK]   1551 EntityClass-Einträge aus crafting_items geladen.
-[2026-06-11 12:13:38] 
-[2026-06-11 12:13:38] [STEP] Erstelle BP-Titel Log aus lokaler global.ini...
-[2026-06-11 12:13:38] [OK]   Titel-Log erstellt: 326/327 Keys → bp_titles_log.txt
-[2026-06-11 12:13:38] 
-[2026-06-11 12:13:38] [STEP] Überprüfe und aktualisiere overrides_locality.txt (DE & EN)...
-[2026-06-11 12:13:38] [OK]   overrides_locality.txt ist aktuell (58 Einträge, 50 Kombinationen geprüft).
-[2026-06-11 12:13:38] [OK]   overrides_locality_en.txt ist aktuell (58 Einträge, 50 Kombinationen geprüft).
-[2026-06-11 12:13:38] 
-[2026-06-11 12:13:38] [STEP] Prüfe unzugeordnete Blueprint-Pools...
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 5406fc34-0f96-4d22-ae59-84307ada0288 (poolName='<kein poolName>', 6 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 6 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        SureGrip HV-S1 Tractor Beam
-[2026-06-11 12:13:39] [WARN]        SureGrip HV-S2 Tractor Beam
-[2026-06-11 12:13:39] [WARN]        SureGrip HV-S3 Tractor Beam
-[2026-06-11 12:13:39] [WARN]        Breton
-[2026-06-11 12:13:39] [WARN]        Genoa
-[2026-06-11 12:13:39] [WARN]        Durango
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 6bfc32c9-fb2c-4945-b2e1-c29666842477 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Unbekannt
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 61b089a0-880c-41da-a2c2-482a1bffe96f (poolName='<kein poolName>', 11 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 9 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        R97 "Scorched" Shotgun
-[2026-06-11 12:13:39] [WARN]        Monde Arms Daimyo
-[2026-06-11 12:13:39] [WARN]        Monde Core Daimyo
-[2026-06-11 12:13:39] [WARN]        Monde Legs Daimyo
-[2026-06-11 12:13:39] [WARN]        Monde Helmet Daimyo
-[2026-06-11 12:13:39] [WARN]        Monde Arms Crimson Camo
-[2026-06-11 12:13:39] [WARN]        Monde Core Crimson Camo
-[2026-06-11 12:13:39] [WARN]        Monde Legs Crimson Camo
-[2026-06-11 12:13:39] [WARN]        Monde Helmet Crimson Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: f1fe5e29-6a79-4245-b232-f79a63b78508 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Unbekannt
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: f638ceff-38a2-442f-9233-389619957104 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        NDB-26 Repeater
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 4d724371-4658-4a22-828a-0b077b163e1a (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        NDB-28 Repeater
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 1bcdf005-1192-4b2f-b8c1-86e48e084f97 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        NDB-30 Repeater
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: ee32c370-c77f-4b22-a28e-0b52a3764d85 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Chiron Arms Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 5f4206eb-5dbd-462e-addc-35ed2e9ab53b (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Chiron Backpack Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 74d9273e-e262-4669-b462-e7ef82027f34 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Chiron Core Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 7e73f59e-43ae-4943-a03d-208569ccb462 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Chiron Legs Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: eb0a196c-b252-4fac-931f-cdc43258fb69 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Chiron Helmet Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 343ae5e1-2072-4f43-bb5a-0c73de2d21be (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        BR-2 "Purgatory Camo" Shotgun
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 4da274e1-b462-4b5b-98ae-34a5d65a7a9b (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Testudo Arms Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: e052cb6e-dfb2-489f-b4c7-2ee41195e101 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Testudo Backpack Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: a05e07ed-92bb-4ae4-8fe7-8e4234228f8b (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Testudo Core Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 96ddab13-025f-40e2-8757-f91c761fc38a (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Testudo Legs Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 668ab288-0f84-4253-9e21-16f9bbcb921b (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Testudo Helmet Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 89098afb-1035-43e9-8d65-857a5070efd2 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        S71 "Purgatory Camo" Rifle
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: bb1ddea2-d086-4821-9662-caad87c48cff (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Warden Backpack Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 1c47b046-c2c5-4356-a2c5-2f8c6aa42d7a (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Monde Arms Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: baec53f2-2ab1-4507-9882-7bb03966273e (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Monde Core Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 8a02761e-cd85-4f94-a371-26458465594e (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Monde Legs Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 43bacc63-c4e7-4428-b4b4-db41e555787a (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Monde Helmet Purgatory Camo
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 726db62d-ee52-467d-9e12-0b0fcdc487e4 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        Demeco "Purgatory Camo" LMG
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 2c7c5545-2f23-4297-b4f1-6131c427c9fb (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        QuadraCell
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 34dfefee-28f7-44d3-a63e-a73d646bc3a8 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        QuadraCell MT
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: ddb463e6-1bf8-47da-8816-e1eab8347beb (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        FR-66
-[2026-06-11 12:13:39] [WARN] Unzugeordneter Pool: 51f3df33-47f4-459a-bec1-b1c77f4e8158 (poolName='<kein poolName>', 1 Blueprints)
-[2026-06-11 12:13:39] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
-[2026-06-11 12:13:39] [WARN]        FR-76
-[2026-06-11 12:13:39] [WARN] GESAMT: 42 Blueprint(s) sind keinem Contract zugeordnet (CIG-Datenlücke – Script kann diese nicht ausgeben).
-[2026-06-11 12:13:39] 
-[2026-06-11 12:13:39] [STEP] Erstelle bp-contracts.json...
-[2026-06-11 12:13:39] [OK]   Standing-Cache unveraendert (46 Keys) - wird verwendet.
-[2026-06-11 12:13:39] [OK]   CIG-Bug-Korrekturen angewendet: 2 Contract(s) gepatcht.
-[2026-06-11 12:13:39] [OK]   341 Einträge gespeichert → F:\...\Data\bp-contracts.json
-[2026-06-11 12:13:39] [OK]     Davon Single-Pool : 231
-[2026-06-11 12:13:39] [OK]     Davon Multi-Pool  : 79
-[2026-06-11 12:13:39] 
-[2026-06-11 12:13:39] [STEP] Erstelle bp-contracts_short.json für SCDL injection...
-[2026-06-11 12:13:39] [OK]   777 Einträge gespeichert → F:\...\Data\bp-contracts_short.json
-[2026-06-11 12:13:39] 
-[2026-06-11 12:13:39] [STEP] Erstelle bp-contracts_short_en.json (English)...
-[2026-06-11 12:13:39] [OK]   EN Standing-Cache unverändert (46 Keys) – wird verwendet.
-[2026-06-11 12:13:39] [OK]   777 Einträge gespeichert → F:\...\Data\bp-contracts_short_en.json
-[2026-06-11 12:13:39] 
-[2026-06-11 12:13:39] [STEP] Erstelle items_raw.ini aus englischer global.ini...
-[2026-06-11 12:13:39] [OK]   9147 item_Name-Zeilen geschrieben → F:\...\Data\Strings\items_raw.ini
-[2026-06-11 12:13:39] 
-[2026-06-11 12:13:39] [STEP] Erzeuge Lang-Template (lang-template-<version>.json)...
-[2026-06-11 12:13:39] [OK]   Lade global.ini: F:\_Ablage\GitHub\StarCitizen-Deutsch-INI\live\global.ini
-[2026-06-11 12:13:40] [OK]   101919 Keys geladen, 72481 eindeutige Reverse-Lookups
-[2026-06-11 12:13:40] [OK]   titles              :   764 (0 ohne global.ini-Key)
-[2026-06-11 12:13:40] [OK]   descriptions        :   776 (0 ohne global.ini-Key)
-[2026-06-11 12:13:40] [OK]   locations           :   636 (277 ohne global.ini-Key)
-[2026-06-11 12:13:40] [OK]   ships               :   145 (17 ohne global.ini-Key)
-[2026-06-11 12:13:40] [OK]   scopes              :    55 (0 ohne global.ini-Key)
-[2026-06-11 12:13:40] [OK]   factions            :    36 (0 ohne global.ini-Key)
-[2026-06-11 12:13:40] [OK]   tokenValues         :   111 (0 ohne global.ini-Key)
-[2026-06-11 12:13:40] [OK]   items               :  1533 (78 ohne global.ini-Key)
-[2026-06-11 12:13:40] [OK]   ui                  :    21 (0 ohne global.ini-Key)
-[2026-06-11 12:13:40] [OK]   ranks               :    46 (0 ohne global.ini-Key)
-[2026-06-11 12:13:40] [OK]   resources           :   125 (0 ohne global.ini-Key)
-[2026-06-11 12:13:40] [OK]   GESAMT              :  4248 (372 ohne Key)
-[2026-06-11 12:13:40] [OK]   Template erzeugt (4248 Keys)
-[2026-06-11 12:13:40] [OK]   lang-template-4.8.1-live.11952564.json (in-memory, 4248 Keys)
-[2026-06-11 12:13:40] [OK]   Erstelle deutsche Übersetzung (lang-de.json)...
-[2026-06-11 12:13:41] [OK]   Gespeichert: lang-de.json
-[2026-06-11 12:13:41] [OK]     Übersetzt: 3753  |  Fehlend: 0  |  Ohne Key: 372  |  Mismatch: 217
-[2026-06-11 12:13:41] [OK]   lang-german_global-4.8.1-live.11952564.json erzeugt (übersetzt=3753, fehlend=0)
-[2026-06-11 12:13:41] 
-[2026-06-11 12:13:41] ========================================================
-[2026-06-11 12:13:41] Alle Aufgaben erfolgreich abgeschlossen.
-[2026-06-11 12:13:41] ========================================================
+[2026-06-18 00:51:45] ========================================================
+[2026-06-18 00:51:45] Star Citizen Data Pipeline – Lauf gestartet
+[2026-06-18 00:51:45] Modus     : Nur Blueprints
+[2026-06-18 00:51:45] Log-Datei : F:\...\pipeline.log
+[2026-06-18 00:51:45] Script    : F:\...\sc_data_pipeline_de-en_09.06.2026.py
+[2026-06-18 00:51:45] ========================================================
+[2026-06-18 00:51:45] 
+[2026-06-18 00:51:45] [STEP] Lade Spielversion von scmdb.net...
+[2026-06-18 00:51:46] [OK]   Gewählte Version: 4.8.2-live.12030094
+[2026-06-18 00:51:46] [OK]   Gespeichert: F:\...\Data\version.json
+[2026-06-18 00:51:46] 
+[2026-06-18 00:51:46] [STEP] Lade merged-4.8.2-live.12030094.json von scmdb.net...
+[2026-06-18 00:51:47] [OK]   Gespeichert: merged-4.8.2-live.12030094.json
+[2026-06-18 00:51:47] 
+[2026-06-18 00:51:47] [STEP] Lade crafting_items-4.8.2-live.12030094.json von scmdb.net...
+[2026-06-18 00:51:47] [OK]   Gespeichert: crafting_items-4.8.2-live.12030094.json
+[2026-06-18 00:51:47] 
+[2026-06-18 00:51:47] [STEP] Lade cig_data_issues-4.8.2-live.12030094.json von scmdb.net (optional)...
+[2026-06-18 00:51:47] [OK]   Gespeichert: cig_data_issues-4.8.2-live.12030094.json
+[2026-06-18 00:51:47] [OK]   0 Data-Issues geladen.
+[2026-06-18 00:51:47] 
+[2026-06-18 00:51:47] [STEP] Lade & baue StarStrings (ordnance/components) um...
+[2026-06-18 00:51:47] [OK]   136 Zeilen geschrieben → F:\...\Data\Strings\ordnance.ini
+[2026-06-18 00:51:47] 
+[2026-06-18 00:51:47] [STEP] Erstelle components_de.ini aus deutscher global.ini...
+[2026-06-18 00:51:47] [OK]   0 fehlende Komponenten → F:\...\Data\Strings\components_de.ini (und an components.ini angehängt)
+[2026-06-18 00:51:47] 
+[2026-06-18 00:51:47] [STEP] Erstelle Components aus crafting_items.json...
+[2026-06-18 00:51:47] [WARN] 27 Components ohne Treffer in der EN global.ini – übersprungen (z.B. Abrade Scraper Module, Arbor MH1 Mining Laser, Arbor MH2 Mining Laser, Arbor MHV Mining Laser, Bendix).
+[2026-06-18 00:51:47] [OK]   0 neue Components → components.ini angehängt.
+[2026-06-18 00:51:47] 
+[2026-06-18 00:51:47] [STEP] Korrigiere components.ini-Key-Schreibweise gegen global.ini...
+[2026-06-18 00:51:48] [OK]   Alle components.ini-Keys stimmen bereits mit der global.ini überein.
+[2026-06-18 00:51:48] [OK]   12 Shield-Namen aus global.ini geladen.
+[2026-06-18 00:51:48] [OK]   12 Shield-Namen aus global.ini geladen.
+[2026-06-18 00:51:48] [OK]   12 Shield-Codes aus components.ini ergänzt.
+[2026-06-18 00:51:48] [OK]   420 Komponenten-Tags aus components.ini geladen.
+[2026-06-18 00:51:48] [OK]   1551 EntityClass-Einträge aus crafting_items geladen.
+[2026-06-18 00:51:48] 
+[2026-06-18 00:51:48] [STEP] Erstelle BP-Titel Log aus lokaler global.ini...
+[2026-06-18 00:51:48] [OK]   Titel-Log erstellt: 326/327 Keys → bp_titles_log.txt
+[2026-06-18 00:51:48] 
+[2026-06-18 00:51:48] [STEP] Überprüfe und aktualisiere overrides_locality.txt (DE & EN)...
+[2026-06-18 00:51:48] [OK]   overrides_locality.txt ist aktuell (58 Einträge, 50 Kombinationen geprüft).
+[2026-06-18 00:51:48] [OK]   overrides_locality_en.txt ist aktuell (58 Einträge, 50 Kombinationen geprüft).
+[2026-06-18 00:51:48] 
+[2026-06-18 00:51:48] [STEP] Prüfe unzugeordnete Blueprint-Pools...
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 5406fc34-0f96-4d22-ae59-84307ada0288 (poolName='<kein poolName>', 6 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 6 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        SureGrip HV-S1 Tractor Beam
+[2026-06-18 00:51:48] [WARN]        SureGrip HV-S2 Tractor Beam
+[2026-06-18 00:51:48] [WARN]        SureGrip HV-S3 Tractor Beam
+[2026-06-18 00:51:48] [WARN]        Breton
+[2026-06-18 00:51:48] [WARN]        Genoa
+[2026-06-18 00:51:48] [WARN]        Durango
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 6bfc32c9-fb2c-4945-b2e1-c29666842477 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Unbekannt
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 61b089a0-880c-41da-a2c2-482a1bffe96f (poolName='<kein poolName>', 11 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 9 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        R97 "Scorched" Shotgun
+[2026-06-18 00:51:48] [WARN]        Monde Arms Daimyo
+[2026-06-18 00:51:48] [WARN]        Monde Core Daimyo
+[2026-06-18 00:51:48] [WARN]        Monde Legs Daimyo
+[2026-06-18 00:51:48] [WARN]        Monde Helmet Daimyo
+[2026-06-18 00:51:48] [WARN]        Monde Arms Crimson Camo
+[2026-06-18 00:51:48] [WARN]        Monde Core Crimson Camo
+[2026-06-18 00:51:48] [WARN]        Monde Legs Crimson Camo
+[2026-06-18 00:51:48] [WARN]        Monde Helmet Crimson Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: f1fe5e29-6a79-4245-b232-f79a63b78508 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Unbekannt
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: f638ceff-38a2-442f-9233-389619957104 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        NDB-26 Repeater
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 4d724371-4658-4a22-828a-0b077b163e1a (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        NDB-28 Repeater
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 1bcdf005-1192-4b2f-b8c1-86e48e084f97 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        NDB-30 Repeater
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: ee32c370-c77f-4b22-a28e-0b52a3764d85 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Chiron Arms Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 5f4206eb-5dbd-462e-addc-35ed2e9ab53b (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Chiron Backpack Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 74d9273e-e262-4669-b462-e7ef82027f34 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Chiron Core Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 7e73f59e-43ae-4943-a03d-208569ccb462 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Chiron Legs Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: eb0a196c-b252-4fac-931f-cdc43258fb69 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Chiron Helmet Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 343ae5e1-2072-4f43-bb5a-0c73de2d21be (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        BR-2 "Purgatory Camo" Shotgun
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 4da274e1-b462-4b5b-98ae-34a5d65a7a9b (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Testudo Arms Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: e052cb6e-dfb2-489f-b4c7-2ee41195e101 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Testudo Backpack Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: a05e07ed-92bb-4ae4-8fe7-8e4234228f8b (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Testudo Core Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 96ddab13-025f-40e2-8757-f91c761fc38a (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Testudo Legs Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 668ab288-0f84-4253-9e21-16f9bbcb921b (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Testudo Helmet Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 89098afb-1035-43e9-8d65-857a5070efd2 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        S71 "Purgatory Camo" Rifle
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: bb1ddea2-d086-4821-9662-caad87c48cff (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Warden Backpack Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 1c47b046-c2c5-4356-a2c5-2f8c6aa42d7a (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Monde Arms Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: baec53f2-2ab1-4507-9882-7bb03966273e (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Monde Core Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 8a02761e-cd85-4f94-a371-26458465594e (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Monde Legs Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 43bacc63-c4e7-4428-b4b4-db41e555787a (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Monde Helmet Purgatory Camo
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 726db62d-ee52-467d-9e12-0b0fcdc487e4 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        Demeco "Purgatory Camo" LMG
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 2c7c5545-2f23-4297-b4f1-6131c427c9fb (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        QuadraCell
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 34dfefee-28f7-44d3-a63e-a73d646bc3a8 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        QuadraCell MT
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: ddb463e6-1bf8-47da-8816-e1eab8347beb (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        FR-66
+[2026-06-18 00:51:48] [WARN] Unzugeordneter Pool: 51f3df33-47f4-459a-bec1-b1c77f4e8158 (poolName='<kein poolName>', 1 Blueprints)
+[2026-06-18 00:51:48] [WARN]   → 1 Blueprint(s) NUR in diesem Pool (nicht in Output):
+[2026-06-18 00:51:48] [WARN]        FR-76
+[2026-06-18 00:51:48] [WARN] GESAMT: 42 Blueprint(s) sind keinem Contract zugeordnet (CIG-Datenlücke – Script kann diese nicht ausgeben).
+[2026-06-18 00:51:48] 
+[2026-06-18 00:51:48] [STEP] Erstelle bp-contracts.json...
+[2026-06-18 00:51:48] [OK]   global.ini hat sich geaendert - Standing-Cache wird neu aufgebaut.
+[2026-06-18 00:51:48] [OK]   Standing-Cache neu erstellt: 46/46 Keys -> standings_de.json
+[2026-06-18 00:51:48] [OK]   CIG-Bug-Korrekturen angewendet: 2 Contract(s) gepatcht.
+[2026-06-18 00:51:49] [OK]   341 Einträge gespeichert → F:\...\Data\bp-contracts.json
+[2026-06-18 00:51:49] [OK]     Davon Single-Pool : 231
+[2026-06-18 00:51:49] [OK]     Davon Multi-Pool  : 79
+[2026-06-18 00:51:49] 
+[2026-06-18 00:51:49] [STEP] Erstelle bp-contracts_short.json für SCDL injection...
+[2026-06-18 00:51:49] [OK]   777 Einträge gespeichert → F:\...\Data\bp-contracts_short.json
+[2026-06-18 00:51:49] 
+[2026-06-18 00:51:49] [STEP] Erstelle bp-contracts_short_en.json (English)...
+[2026-06-18 00:51:49] [OK]   EN global.ini hat sich geändert – EN Standing-Cache wird neu aufgebaut.
+[2026-06-18 00:51:49] [OK]   EN Standing-Cache neu erstellt: 46/46 Keys → standings_en.json
+[2026-06-18 00:51:49] [OK]   777 Einträge gespeichert → F:\...\Data\bp-contracts_short_en.json
+[2026-06-18 00:51:49] 
+[2026-06-18 00:51:49] [STEP] Erstelle items_raw.ini aus englischer global.ini...
+[2026-06-18 00:51:49] [OK]   9171 item_Name-Zeilen geschrieben → F:\...\Data\Strings\items_raw.ini
+[2026-06-18 00:51:49] 
+[2026-06-18 00:51:49] [STEP] Erzeuge Lang-Template (lang-template-<version>.json)...
+[2026-06-18 00:51:49] [OK]   Lade global.ini: F:\_Ablage\GitHub\StarCitizen-Deutsch-INI\live\global.ini
+[2026-06-18 00:51:50] [OK]   101981 Keys geladen, 72529 eindeutige Reverse-Lookups
+[2026-06-18 00:51:50] [OK]   titles              :   764 (0 ohne global.ini-Key)
+[2026-06-18 00:51:50] [OK]   descriptions        :   776 (0 ohne global.ini-Key)
+[2026-06-18 00:51:50] [OK]   locations           :   604 (248 ohne global.ini-Key)
+[2026-06-18 00:51:50] [OK]   ships               :   145 (17 ohne global.ini-Key)
+[2026-06-18 00:51:50] [OK]   scopes              :    55 (0 ohne global.ini-Key)
+[2026-06-18 00:51:50] [OK]   factions            :    36 (0 ohne global.ini-Key)
+[2026-06-18 00:51:50] [OK]   tokenValues         :   111 (0 ohne global.ini-Key)
+[2026-06-18 00:51:50] [OK]   items               :  1533 (78 ohne global.ini-Key)
+[2026-06-18 00:51:50] [OK]   ui                  :    21 (0 ohne global.ini-Key)
+[2026-06-18 00:51:50] [OK]   ranks               :    46 (0 ohne global.ini-Key)
+[2026-06-18 00:51:50] [OK]   resources           :   125 (0 ohne global.ini-Key)
+[2026-06-18 00:51:50] [OK]   GESAMT              :  4216 (343 ohne Key)
+[2026-06-18 00:51:50] [OK]   Template erzeugt (4216 Keys)
+[2026-06-18 00:51:50] [OK]   lang-template-4.8.2-live.12030094.json (in-memory, 4216 Keys)
+[2026-06-18 00:51:50] [OK]   Erstelle deutsche Übersetzung (lang-de.json)...
+[2026-06-18 00:51:50] [OK]   Gespeichert: lang-de.json
+[2026-06-18 00:51:50] [OK]     Übersetzt: 3750  |  Fehlend: 0  |  Ohne Key: 343  |  Mismatch: 218
+[2026-06-18 00:51:50] [OK]   lang-german_global-4.8.2-live.12030094.json erzeugt (übersetzt=3750, fehlend=0)
+[2026-06-18 00:51:50] 
+[2026-06-18 00:51:50] ========================================================
+[2026-06-18 00:51:50] Alle Aufgaben erfolgreich abgeschlossen.
+[2026-06-18 00:51:50] ========================================================
