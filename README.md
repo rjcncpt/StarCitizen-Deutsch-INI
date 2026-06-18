@@ -1,4 +1,4 @@
-[![Static Badge](https://img.shields.io/badge/LIVE%204.8.1-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/EVOCATI-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=red%20)](#evocati-builds-und-tech-preview-channels) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) <br/>
+[![Static Badge](https://img.shields.io/badge/LIVE%204.8.2-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/✔-%234cc71e?style=for-the-badge&labelColor=232323%20)](#) [![Static Badge](https://img.shields.io/badge/EVOCATI-brightgreen?style=for-the-badge&color=232323)![Static Badge](https://img.shields.io/badge/X-%23db0909?style=for-the-badge&labelColor=red%20)](#evocati-builds-und-tech-preview-channels) [![Static Badge](https://img.shields.io/badge/%F0%9F%92%96-%23fff?style=for-the-badge&labelColor=232323&label=Star%20Citizen)](https://robertsspaceindustries.com/) <br/>
 [![Static Badge](https://img.shields.io/badge/Sag%20dem%20Team%20Danke-brightgreen?style=for-the-badge&logo=kofi&logoColor=fff&logoSize=auto&label=Ko-fi&labelColor=red&color=fff)](https://ko-fi.com/scdeutsch) [![Static Badge](https://img.shields.io/badge/57k-brightgreen?style=for-the-badge&logoColor=000&label=Downloads&labelColor=232323&color=fff)](https://grev.shehryar.ae/?owner=rjcncpt&repo=StarCitizen-Deutsch-INI) [![Discord](https://img.shields.io/discord/1234564972198236261?style=for-the-badge&logo=discord&logoColor=fff&label=Discord&labelColor=232323&color=4cc71e)](https://discord.gg/5VZsTk3qjR)
 
 [![Star Citizen in Deutsch](https://i.imgur.com/WAP6UNa.png)](#)
@@ -124,18 +124,9 @@ Die Baupläne DB ist ein nützliches Tracking-Tool für Star Citizen, mit dem du
 <br>
 
 ### Waffen- und Komponenten-Strings
-Für dieses Feature verwenden wir die Daten von [MrKraken's StarStrings](https://github.com/MrKraken/StarStrings). Da der SCDL erspielte Baupläne anhand der in den Logdateien enthaltenen Itemnamen erkennt, passen wir die Darstellung der erweiterten Strings von MrKraken entsprechend an.
+Für dieses Feature werden die in den Spielressourcen enthaltenen String-Daten ausgewertet und aufbereitet. Da der SCDL erspielte Baupläne anhand der in den Logdateien enthaltenen Itemnamen erkennt, müssen bestimmte Präfixe und Kennzeichnungen aus den Rohdaten in ein einheitliches Format überführt werden.
 
-StarStrings ergänzt Itemnamen standardmäßig nach folgendem Muster:
-
-```text
-Civ/2/C Frost-Star EX
-[EM1] Pioneer-G
-```
-
-<br>
-
-Für die Bauplan-Erkennung muss der SCDL diese Einträge jedoch in ein einheitliches Format überführen:
+Die String-Daten enthalten zusätzliche Informationen, die dem eigentlichen Itemnamen als Suffix angehängt werden:
 
 ```text
 Frost-Star EX (Civ/2/C)
