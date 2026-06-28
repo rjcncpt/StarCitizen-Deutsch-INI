@@ -1,5 +1,5 @@
 === Blueprint Contract Titles (aus lokaler global.ini) ===
-Generiert: 2026-06-29 01:30:03
+Generiert: 2026-06-29 01:32:04
 GitHub:    /rjcncpt
 ==========================================================
 
@@ -32,7 +32,6 @@ Covalex_HaulCargo_AToB_title=Rang: ~mission(ReputationRank) | Direktroute: ~miss
 Covalex_HaulCargo_SingleToMulti_title=Rang: ~mission(ReputationRank) | ~mission(CargoGradeToken) - Mehrere Transporte
 DeadSaints_RecoverItem_Generic_Title_001=Getting Our Gear Back
 EckhartSecurity_EliminateBoss_DC_Title_001=High-Risk Bounty: ~mission(TargetName)
-EckhartSecurity_MultiEliminateAllAndBoss_DC_Title_001=Deal with ~mission(TargetName) and Support Forces
 Eckhart_EscortShips_E_title=Executive Protection Detail
 Eckhart_EscortShips_H_title=VIP Client Needs Protection
 Eckhart_EscortShips_M_title=Experienced Protection Detail Needed
@@ -67,6 +66,9 @@ Foxwell_DefendLocation_M_Title_001=Orange Level Contract: Ship Protection Needed
 Foxwell_DefendLocation_S_Title_001=Red Level Contract: Support VIP Clients
 Foxwell_DefendLocation_VE_Title_001=Yellow Level Contract: Stand Up to Aggressors
 Foxwell_DefendLocation_VH_Title_001=Red Level Contract: Save Ships at ~mission(DefendLocationWrapperLocation)
+Foxwell_DestroyNarcotics_E_title_001=Knock Out New Drug Op
+Foxwell_DestroyNarcotics_H_title_001=Destroy Dangerous Drugs
+Foxwell_DestroyNarcotics_M_title_001=Destroy Illegal Drugs
 Foxwell_EliminateAll_Allies_title_001=Help Protect Site
 Foxwell_EliminateAll_NonHostiles_title_001=Carefully Clear Site
 Foxwell_EliminateAll_OLP_M_title_001=Yellow Level Contract: Merc Work
@@ -246,6 +248,9 @@ eckhart_defendship_multi_SRT_SB_title_001=Shattered Blade Strike
 eckhart_defendship_multi_SRT_title_001=Extremely Dangerous Defense
 eckhart_defendship_multi_VHRT_SB_title_001=Client Needs Combat Support
 eckhart_defendship_multi_VHRT_title_001=Stop Deadly Ship Attack
+foxwell_DefendShip_E_title_001=Yellow Level Contract: Ship Under Attack
+foxwell_DefendShip_H_title_001=Red Level Contract: Ship Under Attack
+foxwell_DefendShip_M_title_001=Orange Level Contract: ~mission(Ship) Needs Assistance
 headhunters_ChainElimAll_1C_AttackCFP_E_title_001=A little retaliation
 headhunters_ChainElimAll_1C_AttackXT_M_title_001=Taking out some XenoThreat trash
 headhunters_ChainElimAll_1C_ElimSpec_AttackCFP_M_title_001=Driving CFP out
