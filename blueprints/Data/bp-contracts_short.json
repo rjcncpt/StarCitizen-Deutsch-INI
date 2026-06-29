@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generiert": "2026-06-29 09:17:49",
+    "generiert": "2026-06-29 23:22:23",
     "version_patch": "4.8.2 LIVE.12061511",
     "eintraege": 777,
     "version": "Beta 29.06.2026",
@@ -563,7 +563,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Vaughn_EliminateSpecific_FPS_Rockcracker_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.750 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 38.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 150 XP\\n# Cooldown für Mission: 15 Minuten\\n# Mission kann geteilt werden? Ja",
       "canBeShared": true,
@@ -586,7 +586,7 @@
       },
       "variants": [
         {
-          "standing_label": "Auftragnehmer Junior (800 XP) / Keine Angaben",
+          "standing_label": "Auftragnehmer Junior (800 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
             "R97 Shotgun",
             "Monde Arms",
@@ -652,7 +652,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Vaughn_EliminateSpecific_FPS_Rockcracker_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 38.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 150 XP\\n# Cooldown für Mission: 15 Minuten\\n# Mission kann geteilt werden? Ja",
       "canBeShared": true,
@@ -675,7 +675,7 @@
       },
       "variants": [
         {
-          "standing_label": "Neutral (0 XP) / Keine Angaben",
+          "standing_label": "Neutral (0 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
             "R97 Shotgun",
             "Monde Arms",
@@ -741,7 +741,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Vaughn_EliminateSpecific_FPS_Rockcracker_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 77.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 77.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer (2.200 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - R97 Shotgun\\n    - Monde Arms\\n    - Monde Core\\n    - Monde Legs\\n    - Monde Helmet\\n    - Monde Arms Hiro\\n    - Monde Core Hiro\\n    - Monde Legs Hiro\\n    - Monde Helmet Hiro\\n    - R97 Shotgun Magazine (18 Cap)\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 77.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 150 XP\\n# Cooldown für Mission: 15 Minuten\\n# Mission kann geteilt werden? Ja",
       "canBeShared": true,
@@ -764,7 +764,7 @@
       },
       "variants": [
         {
-          "standing_label": "Auftragnehmer (2.200 XP) / Keine Angaben",
+          "standing_label": "Auftragnehmer (2.200 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
             "R97 Shotgun",
             "Monde Arms",
@@ -3741,7 +3741,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Eckhart_ShipAmbush_VH_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 143.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Erfahren (15.000 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - SonicLite (Sth/1/C)\\n    - Cirrus (Sth/2/C)\\n    - Lightstrike I Cannon\\n    - Lightstrike II Cannon\\n    - Lightstrike III Cannon\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 143.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Erfahren (15.000 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - DeltaMax (Sth/1/B)\\n    - GammaMax (Sth/2/B)\\n    - FL-11 Cannon\\n    - FL-22 Cannon\\n    - FL-33 Cannon\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 143.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Erfahren (15.000 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - Slipstream (Sth/1/A)\\n    - Eclipse (Sth/2/A)\\n    - Lightstrike IV Cannon\\n    - Lightstrike V Cannon\\n    - Lightstrike VI Cannon\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 143.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Erfahren (15.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - SonicLite (Sth/1/C)\\n    - Cirrus (Sth/2/C)\\n    - Lightstrike I Cannon\\n    - Lightstrike II Cannon\\n    - Lightstrike III Cannon\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 143.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Erfahren (15.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - DeltaMax (Sth/1/B)\\n    - GammaMax (Sth/2/B)\\n    - FL-11 Cannon\\n    - FL-22 Cannon\\n    - FL-33 Cannon\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 143.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Erfahren (15.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Slipstream (Sth/1/A)\\n    - Eclipse (Sth/2/A)\\n    - Lightstrike IV Cannon\\n    - Lightstrike V Cannon\\n    - Lightstrike VI Cannon\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 143.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 250 XP\\n# Cooldown für Mission: 15 Minuten\\n# Mission kann geteilt werden? Ja",
       "canBeShared": true,
@@ -3769,7 +3769,7 @@
       },
       "variants": [
         {
-          "standing_label": "Auftragnehmer Erfahren (15.000 XP) / Keine Angaben",
+          "standing_label": "Auftragnehmer Erfahren (15.000 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
             "SonicLite",
             "Cirrus",
@@ -3804,7 +3804,7 @@
           "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 143.500 aUEC Mission"
         },
         {
-          "standing_label": "Auftragnehmer Erfahren (15.000 XP) / Keine Angaben",
+          "standing_label": "Auftragnehmer Erfahren (15.000 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
             "DeltaMax",
             "GammaMax",
@@ -3839,7 +3839,7 @@
           "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 143.500 aUEC Mission"
         },
         {
-          "standing_label": "Auftragnehmer Erfahren (15.000 XP) / Keine Angaben",
+          "standing_label": "Auftragnehmer Erfahren (15.000 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
             "Slipstream",
             "Eclipse",
@@ -4963,7 +4963,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "cfp_sabotage_servers_M_HH_title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 62.000 / 165.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 67.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 62.000 / 165.750 aUEC Mission\\n\\n# Min. Reputation: Neutral (0 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - FS-9 LMG\\n    - BR-2 Shotgun\\n    - Gallant Rifle\\n    - ADP Arms Woodland\\n    - ADP Core\\n    - ADP Legs Woodland\\n    - Balor HCH Helmet\\n    - ADP-mk4 Arms Woodland\\n    - ADP-mk4 Legs Woodland\\n    - ADP-mk4 Core Woodland\\n    - ADP-mk4 Helmet Woodland\\n    - FS-9 Magazine (75 Cap)\\n    - BR-2 Shotgun Magazine (12 Cap)\\n    - Gallant Rifle Battery (45 Cap)\\n\\n# Region: \\n    - Pyro, Region A (Monox) - Gefahr 3/10\\n    - Pyro, Region B (Bloom) - Gefahr 4/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 67.500 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Junior (800 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - P6-LR Sniper Rifle\\n    - A03 Sniper Rifle\\n    - CBH-3 Helmet Base\\n    - PAB-1 Arms\\n    - PAB-1 Core\\n    - PAB-1 Legs\\n    - TrueDef-Pro Arms\\n    - TrueDef-Pro Core Base\\n    - Argus Helmet\\n    - TrueDef-Pro Legs\\n    - A03 Sniper Rifle Magazine (15 Cap)\\n    - P6-LR Magazine (8 Cap)\\n\\n# Region: \\n    - Pyro, Region C (Pyro 4, Pyro 5) - Gefahr 5/10\\n    - Pyro, Region D (Terminus) - Gefahr 7/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 62.000 / 67.500 / 165.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 125 / 200 XP\\n# Cooldown für Mission: 45 Minuten\\n# Mission kann geteilt werden? Ja",
       "canBeShared": true,
@@ -4980,7 +4980,7 @@
       },
       "variants": [
         {
-          "standing_label": "Neutral (0 XP) / Keine Angaben",
+          "standing_label": "Neutral (0 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
             "FS-9 LMG",
             "BR-2 Shotgun",
@@ -8300,7 +8300,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Eckhart_ShipAmbush_S_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 238.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - SonicLite (Sth/1/C)\\n    - Cirrus (Sth/2/C)\\n    - Lightstrike I Cannon\\n    - Lightstrike II Cannon\\n    - Lightstrike III Cannon\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 238.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - DeltaMax (Sth/1/B)\\n    - GammaMax (Sth/2/B)\\n    - FL-11 Cannon\\n    - FL-22 Cannon\\n    - FL-33 Cannon\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 238.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - Slipstream (Sth/1/A)\\n    - Eclipse (Sth/2/A)\\n    - Lightstrike IV Cannon\\n    - Lightstrike V Cannon\\n    - Lightstrike VI Cannon\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 238.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - SonicLite (Sth/1/C)\\n    - Cirrus (Sth/2/C)\\n    - Lightstrike I Cannon\\n    - Lightstrike II Cannon\\n    - Lightstrike III Cannon\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 238.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - DeltaMax (Sth/1/B)\\n    - GammaMax (Sth/2/B)\\n    - FL-11 Cannon\\n    - FL-22 Cannon\\n    - FL-33 Cannon\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 238.000 aUEC Mission\\n\\n# Min. Reputation: Auftragnehmer Leitend (38.000 XP)\\n# Max. Reputation: Auftragnehmer Elite (95.250 XP)\\n\\n# Baupläne:\\n    - Slipstream (Sth/1/A)\\n    - Eclipse (Sth/2/A)\\n    - Lightstrike IV Cannon\\n    - Lightstrike V Cannon\\n    - Lightstrike VI Cannon\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 238.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 300 XP\\n# Cooldown für Mission: 15 Minuten\\n# Mission kann geteilt werden? Ja",
       "canBeShared": true,
@@ -8328,7 +8328,7 @@
       },
       "variants": [
         {
-          "standing_label": "Auftragnehmer Leitend (38.000 XP) / Keine Angaben",
+          "standing_label": "Auftragnehmer Leitend (38.000 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
             "SonicLite",
             "Cirrus",
@@ -8363,7 +8363,7 @@
           "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 238.000 aUEC Mission"
         },
         {
-          "standing_label": "Auftragnehmer Leitend (38.000 XP) / Keine Angaben",
+          "standing_label": "Auftragnehmer Leitend (38.000 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
             "DeltaMax",
             "GammaMax",
@@ -8398,7 +8398,7 @@
           "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 238.000 aUEC Mission"
         },
         {
-          "standing_label": "Auftragnehmer Leitend (38.000 XP) / Keine Angaben",
+          "standing_label": "Auftragnehmer Leitend (38.000 XP) / Auftragnehmer Elite (95.250 XP)",
           "reward_items": [
             "Slipstream",
             "Eclipse",
