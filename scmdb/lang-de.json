@@ -1,17 +1,18 @@
 {
-  "version": "4.8.1-live.11952564",
+  "version": "4.8.3-live.12122953",
   "sourceLanguage": "en",
   "targetLanguage": "german_global",
-  "keyCount": 4195,
+  "keyCount": 4163,
   "stats": {
-    "total": 4195,
-    "translated": 3753,
+    "total": 4163,
+    "translated": 3750,
     "missing": 0,
-    "noLocKey": 372,
+    "noLocKey": 343,
     "placeholderFallback": 70,
-    "mismatch": 217,
+    "mismatch": 218,
     "missingKeys": [],
     "mismatchKeys": [
+      "CFP_Delivery_Outpost_Multi_title_001",
       "CFP_SecurityPatrol_E_Desc_001",
       "CFP_SecurityPatrol_H_Desc_001",
       "CFP_SecurityPatrol_M_Desc_001",
@@ -1401,7 +1402,7 @@
       "tr": "Inter-Outpost Delivery at [DESTINATION]"
     },
     "CFP_Delivery_Outpost_Multi_title_001": {
-      "en": "Inter-Outpost Delivery at [DESTINATION] - Multiple Boxes",
+      "en": "Inter-Outpost Delivery at Jackson's Swap - Multiple Boxes",
       "tr": "Inter-Outpost Delivery at [DESTINATION] - Multiple Boxes"
     },
     "CFP_RecoverCargo_Easy_Title": {
@@ -3414,7 +3415,7 @@
     },
     "Adagio_Industrial_Salvage_Universal_Intro_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About us <\\nAs the leading procurer and distributor of salvage rights, Adagio Holdings are now looking to expand into the acquisition and distribution of salvageable materials to both small and large-scale businesses.\\n\\n> About the job <\\nAs a part of this initiative, we need keen-eyed contractors capable of identifying salvageable materials, efficiently stripping them, and delivering the Recycle Material Composite (RMC) and salvaged components to us.\\n\\nThis introductory contract will require you to head to <EM4>[LOCATION]</EM4> and strip an abandoned ship approved for salvage.\\n\\nOnce you've gathered the RMC, you'll deliver it to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber uns\\nAls führender Anbieter und Verteiler von Bergungsrechten erweitert Adagio Holdings sein Tätigkeitsfeld und steigt in die Beschaffung und Verteilung bergbarer Materialien für kleine wie auch groß angelegte Unternehmen ein.\\n\\nÜber den Auftrag\\nIm Rahmen dieser Initiative suchen wir aufmerksame Auftragnehmer, die in der Lage sind, bergbare Materialien zu identifizieren, diese effizient auszubauen und uns recycelten Materialverbundstoff (RMC) sowie geborgene Komponenten zu liefern.\\n\\nDieser Einführungsauftrag erfordert, dass du dich zu [LOCATION] begibst und ein zur Bergung freigegebenes, verlassenes Schiff ausschlachtest.\\n\\nSobald du den RMC gesammelt hast, lieferst du ihn im Frachtaufzug bei [DESTINATION] ab.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n\\nFür Hinweise zur Bergung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber uns\\nAls führender Anbieter und Verteiler von Verwertungsrechte erweitert Adagio Holdings sein Tätigkeitsfeld und steigt in die Beschaffung und Verteilung bergbarer Materialien für kleine wie auch groß angelegte Unternehmen ein.\\n\\nÜber den Auftrag\\nIm Rahmen dieser Initiative suchen wir aufmerksame Auftragnehmer, die in der Lage sind, bergbare Materialien zu identifizieren, diese effizient auszubauen und uns recycelten Materialverbundstoff (RMC) sowie geborgene Komponenten zu liefern.\\n\\nDieser Einführungsauftrag erfordert, dass du dich zu [LOCATION] begibst und ein zur Verwertung freigegebenes, verlassenes Schiff ausschlachtest.\\n\\nSobald du den RMC gesammelt hast, lieferst du ihn im Frachtaufzug bei [DESTINATION] ab.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n\\nFür Hinweise zur Schrottverwertung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
     },
     "RAIN_collectresources_multiple_GEN_desc_01": {
       "en": "To all available contractors,\\n\\nRayari scientists are hard at work trying to solve the issues with failing regen tech. Currently, their efforts are hindered by a lack of materials which they believe could be essential for their experiments.  \\n\\nIn particular, our scientists at <EM4>[DESTINATION]</EM4> have had to put their work on hold after running out of those resources. With a restock from our normal provider not possible for months owing to short supply, we’ll pay a premium to anyone who can assist with restocking the materials.\\n\\nFor more information on the animals in question, refer to \"Explorer's Guide to Harvestables\" in your Journal.\\n\\nTogether we can make the universe better for all.\\n\\nNarina Lerrem\\nSenior Manager\\nClinical Research Outsourcing",
@@ -3826,7 +3827,7 @@
     },
     "Adagio_BasicSalvage_Desc_01": {
       "en": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #[CLAIM]:\\n• SHIP: [SHIP]\\n• CAUSE OF ACCIDENT: [SHIPSTORY]\\n• LOCATION: [LOCATION]\\n\\nAdagio Rights Division",
-      "tr": "AUFTRAGSINFORMATIONEN\\n\\n• Anspruchsnummer: #[CLAIM]\\n• Schiff: [SHIP]\\n• Unfallursache: [SHIPSTORY]\\n• Standort: [LOCATION]\\n\\n-------------------------------------------------------\\n\\nDie Bergungsrechte an einem neuen Schiffswrack sind zum Kauf verfügbar. Nach bestätigter Bezahlung erhältst du exklusiven Zugriff auf die verifizierten Koordinaten des Schiffes im kontrollierten Raum. Die Koordinaten bleiben so lange zugänglich, wie der angenommene Auftrag aktiv ist.\\n\\nSobald du mit der Menge an geborgenem Material zufrieden bist, kannst du den Auftrag vorzeitig und ohne Strafe beenden. Die Koordinaten werden anschließend von deiner StarMap gelöscht.\\n\\nAdagio Rechtsabteilung"
+      "tr": "AUFTRAGSINFORMATIONEN\\n\\n• Anspruchsnummer: #[CLAIM]\\n• Schiff: [SHIP]\\n• Unfallursache: [SHIPSTORY]\\n• Standort: [LOCATION]\\n\\n-------------------------------------------------------\\n\\nDie Verwertungsansprüche an einem neuen Schiffswrack sind zum Kauf verfügbar. Nach bestätigter Bezahlung erhältst du exklusiven Zugriff auf die verifizierten Koordinaten des Schiffes im kontrollierten Raum. Die Koordinaten bleiben so lange zugänglich, wie der angenommene Auftrag aktiv ist.\\n\\nSobald du mit der Menge an geborgenem Material zufrieden bist, kannst du den Auftrag vorzeitig und ohne Strafe beenden. Die Koordinaten werden anschließend von deiner StarMap gelöscht.\\n\\nAdagio Rechtsabteilung"
     },
     "SalvageContractor_Difficulty_Hard": {
       "en": "Be aware that due to the size of the Claim, a <EM4>Large Salvage Ship is recommended</EM4>.",
@@ -4282,7 +4283,7 @@
     },
     "TheCollector_Ships_Fortune_Indus_Desc": {
       "en": "Hello, practicing on making ship fly better. Xi'an help human make ship. Fly good. Salvage good. But Wikelo can make better if you want. Bring things and will do. Bye.",
-      "tr": "Hallo! Wikelo übt, Schiffe besser fliegen zu lassen. Xi'an helfen Menschen, Schiff fliegt gut. Bergung gut. Aber Wikelo macht besser, wenn du willst. Bring Sachen, Wikelo macht. Tschüss, Wikelo"
+      "tr": "Hallo! Wikelo übt, Schiffe besser fliegen zu lassen. Xi'an helfen Menschen, Schiff fliegt gut. Verwertung gut. Aber Wikelo macht besser, wenn du willst. Bring Sachen, Wikelo macht. Tschüss, Wikelo"
     },
     "vaughn_assassination_PA_M_desc": {
       "en": "It seems the People’s Alliance have been ruffling some feathers recently. A client of ours would be most thrilled if you can prevent [TARGET] from meddling in their affairs ever again.\\n\\nYou’ll find them around <EM4>[LOCATION]</EM4>, and from what our client has told us, it’s unlikely that they’re alone. These aren’t your run-of-the-mill pilots, they might even pose a slight threat to your safety.\\n\\nDo try your best to keep it as clean as possible.\\n\\nSincerely,\\nVaughn",
@@ -5530,63 +5531,63 @@
     },
     "Adagio_Industrial_Component_Salvage_Levski_H_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent special order, we are seeking contractors to help source Recycled Material Composite (RMC), unrefined Construction Materials (Rubble, Pieces, or Salvage), and components by stripping and fracturing abandoned ships; removing the requested parts by hand with a <EM4>tractor beam</EM4>.  \\n\\nWe recommend searching for wreckage at Lagrange points, maybe in one of Nyx's asteroid belts, or you could purchase a salvage claim from us in your Contract Manager. We advise extra caution since there have been Vanduul sightings in the system, especially with how long it might take for you to track down this specific order.  \\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), nicht raffinierten Baumaterialien (Schutt, Teile oder Verwertungsgut) sowie Komponenten unterstützen, indem sie verlassene Schiffe bergen und aufbrechen und die angeforderten Teile per Hand mit einem Traktorstrahl ausbauen.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen, vielleicht in einem der Asteroidengürtel von Nyx. Alternativ kannst du auch einen Verwertungsauftrag direkt über deinen Vertragsmanager bei uns erwerben. Wir raten zu besonderer Vorsicht, da es im System zuletzt Vanduul-Sichtungen gab, vor allem weil es einige Zeit dauern kann, diesen speziellen Auftrag zu erfüllen.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Bergung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), nicht raffinierten Baumaterialien (Schutt, Teile oder Verwertungsgut) sowie Komponenten unterstützen, indem sie verlassene Schiffe bergen und aufbrechen und die angeforderten Teile per Hand mit einem Traktorstrahl ausbauen.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen, vielleicht in einem der Asteroidengürtel von Nyx. Alternativ kannst du auch einen Verwertungsauftrag direkt über deinen Vertragsmanager bei uns erwerben. Wir raten zu besonderer Vorsicht, da es im System zuletzt Vanduul-Sichtungen gab, vor allem weil es einige Zeit dauern kann, diesen speziellen Auftrag zu erfüllen.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Schrottverwertung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
     },
     "Adagio_Industrial_Component_Salvage_Pyro_H_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent special order, we are seeking contractors to help source Recycled Material Composite (RMC), unrefined Construction Materials (Rubble, Pieces, or Salvage), and components by stripping and fracturing abandoned ships; removing the requested parts by hand with a <EM4>tractor beam</EM4>. \\n\\nWe recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager. This request probably won't be as easy to satisfy as our normal contracts, partly in thanks to how many outlaws are flying around in Pyro and partly because this request isn't for your average everyday component. But lucky for you, the extra effort will be rewarded.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), nicht raffinierten Baumaterialien (Schutt, Teile oder Verwertungsgut) sowie Komponenten unterstützen. Dazu müssen verlassene Schiffe geborgen und aufgebrochen und die angeforderten Teile per Hand mit einem Traktorstrahl ausgebaut werden.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über deinen Vertragsmanager bei uns zu erwerben. Dieser Auftrag wird sich vermutlich schwieriger erfüllen lassen als unsere üblichen Verträge, zum einen wegen der vielen Gesetzlosen, die in Pyro unterwegs sind, und zum anderen, weil es sich hierbei nicht um eine alltägliche Komponente handelt. Aber keine Sorge - der zusätzliche Aufwand wird belohnt.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Bergung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), nicht raffinierten Baumaterialien (Schutt, Teile oder Verwertungsgut) sowie Komponenten unterstützen. Dazu müssen verlassene Schiffe geborgen und aufgebrochen und die angeforderten Teile per Hand mit einem Traktorstrahl ausgebaut werden.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über deinen Vertragsmanager bei uns zu erwerben. Dieser Auftrag wird sich vermutlich schwieriger erfüllen lassen als unsere üblichen Verträge, zum einen wegen der vielen Gesetzlosen, die in Pyro unterwegs sind, und zum anderen, weil es sich hierbei nicht um eine alltägliche Komponente handelt. Aber keine Sorge - der zusätzliche Aufwand wird belohnt.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Schrottverwertung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
     },
     "Adagio_Industrial_Component_Salvage_Stanton_H_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent special order, we are seeking contractors to help source Recycled Material Composite (RMC), unrefined Construction Materials (Rubble, Pieces, or Salvage), and components by stripping and fracturing abandoned ships; removing the requested parts by hand with a <EM4>tractor beam</EM4>.  \\n\\nWe recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager. This request probably won't be as easy to satisfy as our normal contracts, even with the amount of ships buzzing through a system as populated as Stanton, so don't be surprised if you have to put a bit more effort into hunting down what's needed.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Sonderbestellung erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), unveredelten Baumaterialien (Schutt, Bruchstücke oder Verwertungsgut) sowie Komponenten unterstützen. Dazu sollen verlassene Schiffe zerlegt und aufgebrochen und die angeforderten Teile manuell mit einem Traktorstrahl entfernt werden.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben. Diese Anfrage wird sich vermutlich schwieriger erfüllen lassen als unsere üblichen Aufträge, selbst bei der großen Anzahl an Schiffen, die durch ein so dicht besiedeltes System wie Stanton unterwegs sind. Sei also nicht überrascht, wenn du etwas mehr Aufwand betreiben musst, um das Benötigte aufzuspüren.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Bergung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Sonderbestellung erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), unveredelten Baumaterialien (Schutt, Bruchstücke oder Verwertungsgut) sowie Komponenten unterstützen. Dazu sollen verlassene Schiffe zerlegt und aufgebrochen und die angeforderten Teile manuell mit einem Traktorstrahl entfernt werden.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben. Diese Anfrage wird sich vermutlich schwieriger erfüllen lassen als unsere üblichen Aufträge, selbst bei der großen Anzahl an Schiffen, die durch ein so dicht besiedeltes System wie Stanton unterwegs sind. Sei also nicht überrascht, wenn du etwas mehr Aufwand betreiben musst, um das Benötigte aufzuspüren.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Schrottverwertung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
     },
     "Adagio_Industrial_Component_Salvage_Universal_H_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent order, we are seeking contractors to help source Recycled Material Composite (RMC), unrefined Construction Materials (Rubble, Pieces, or Salvage), and components by stripping and fracturing abandoned ships; removing the requested parts by hand with a <EM4>tractor beam</EM4>.  We recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Bestellung erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), unveredelten Baumaterialien (Schutt, Bruchstücke oder Verwertungsgut) sowie Komponenten unterstützen. Dazu sollen verlassene Schiffe zerlegt und aufgebrochen und die angeforderten Teile manuell mit einem Traktorstrahl entfernt werden. Wir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Bergung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Bestellung erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), unveredelten Baumaterialien (Schutt, Bruchstücke oder Verwertungsgut) sowie Komponenten unterstützen. Dazu sollen verlassene Schiffe zerlegt und aufgebrochen und die angeforderten Teile manuell mit einem Traktorstrahl entfernt werden. Wir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Schrottverwertung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
     },
     "Adagio_Industrial_Component_Salvage_Levski_M_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent special order, we are seeking contractors to help source Recycled Material Composite (RMC), unrefined Construction Materials (Rubble, Pieces, or Salvage), and components by stripping and fracturing abandoned ships; removing the requested parts by hand with a <EM4>tractor beam</EM4>. \\n\\nWe recommend searching for wreckage at Lagrange points, maybe in one of Nyx's asteroid belts, or you could purchase a salvage claim from us in your Contract Manager. We advise extra caution since there have been Vanduul sightings in the system, especially with how long it might take for you to track down this specific order.  \\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), nicht raffinierten Baumaterialien (Schutt, Teile oder Verwertungsgut) sowie Komponenten unterstützen, indem sie verlassene Schiffe bergen und aufbrechen und die angeforderten Teile per Hand mit einem Traktorstrahl ausbauen.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen, vielleicht in einem der Asteroidengürtel von Nyx. Alternativ kannst du auch einen Verwertungsauftrag direkt über deinen Vertragsmanager bei uns erwerben. Wir raten zu besonderer Vorsicht, da es im System zuletzt Vanduul-Sichtungen gab, vor allem weil es einige Zeit dauern kann, diesen speziellen Auftrag zu erfüllen.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Bergung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), nicht raffinierten Baumaterialien (Schutt, Teile oder Verwertungsgut) sowie Komponenten unterstützen, indem sie verlassene Schiffe bergen und aufbrechen und die angeforderten Teile per Hand mit einem Traktorstrahl ausbauen.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen, vielleicht in einem der Asteroidengürtel von Nyx. Alternativ kannst du auch einen Verwertungsauftrag direkt über deinen Vertragsmanager bei uns erwerben. Wir raten zu besonderer Vorsicht, da es im System zuletzt Vanduul-Sichtungen gab, vor allem weil es einige Zeit dauern kann, diesen speziellen Auftrag zu erfüllen.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Schrottverwertung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
     },
     "Adagio_Industrial_Component_Salvage_Pyro_M_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent special order, we are seeking contractors to help source Recycled Material Composite (RMC), unrefined Construction Materials (Rubble, Pieces, or Salvage), and components by stripping and fracturing abandoned ships; removing the requested parts by hand with a <EM4>tractor beam</EM4>. \\n\\nWe recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager. This request probably won't be as easy to satisfy as our normal contracts, partly in thanks to how many outlaws are flying around in Pyro and partly because this request isn't for your average everyday component. But lucky for you, the extra effort will be rewarded.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), nicht raffinierten Baumaterialien (Schutt, Teile oder Verwertungsgut) sowie Komponenten unterstützen. Dazu müssen verlassene Schiffe geborgen und aufgebrochen und die angeforderten Teile per Hand mit einem Traktorstrahl ausgebaut werden.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über deinen Vertragsmanager bei uns zu erwerben. Dieser Auftrag wird sich vermutlich schwieriger erfüllen lassen als unsere üblichen Verträge, zum einen wegen der vielen Gesetzlosen, die in Pyro unterwegs sind, und zum anderen, weil es sich hierbei nicht um eine alltägliche Komponente handelt. Aber keine Sorge - der zusätzliche Aufwand wird belohnt.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Bergung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), nicht raffinierten Baumaterialien (Schutt, Teile oder Verwertungsgut) sowie Komponenten unterstützen. Dazu müssen verlassene Schiffe geborgen und aufgebrochen und die angeforderten Teile per Hand mit einem Traktorstrahl ausgebaut werden.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über deinen Vertragsmanager bei uns zu erwerben. Dieser Auftrag wird sich vermutlich schwieriger erfüllen lassen als unsere üblichen Verträge, zum einen wegen der vielen Gesetzlosen, die in Pyro unterwegs sind, und zum anderen, weil es sich hierbei nicht um eine alltägliche Komponente handelt. Aber keine Sorge - der zusätzliche Aufwand wird belohnt.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Schrottverwertung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
     },
     "Adagio_Industrial_Component_Salvage_Stanton_M_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent special order, we are seeking contractors to help source Recycled Material Composite (RMC), unrefined Construction Materials (Rubble, Pieces, or Salvage), and components by stripping and fracturing abandoned ships; removing the requested parts by hand with a <EM4>tractor beam</EM4>. \\n\\nWe recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager. This request probably won't be as easy to satisfy as our normal contracts, even with the amount of ships buzzing through a system as populated as Stanton, so don't be surprised if you have to put a bit more effort into hunting down what's needed.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Sonderbestellung erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), unveredelten Baumaterialien (Schutt, Bruchstücke oder Verwertungsgut) sowie Komponenten unterstützen. Dazu sollen verlassene Schiffe zerlegt und aufgebrochen und die angeforderten Teile manuell mit einem Traktorstrahl entfernt werden.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben. Diese Anfrage wird sich vermutlich schwieriger erfüllen lassen als unsere üblichen Aufträge, selbst bei der großen Anzahl an Schiffen, die durch ein so dicht besiedeltes System wie Stanton unterwegs sind. Sei also nicht überrascht, wenn du etwas mehr Aufwand betreiben musst, um das Benötigte aufzuspüren.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Bergung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Sonderbestellung erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), unveredelten Baumaterialien (Schutt, Bruchstücke oder Verwertungsgut) sowie Komponenten unterstützen. Dazu sollen verlassene Schiffe zerlegt und aufgebrochen und die angeforderten Teile manuell mit einem Traktorstrahl entfernt werden.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben. Diese Anfrage wird sich vermutlich schwieriger erfüllen lassen als unsere üblichen Aufträge, selbst bei der großen Anzahl an Schiffen, die durch ein so dicht besiedeltes System wie Stanton unterwegs sind. Sei also nicht überrascht, wenn du etwas mehr Aufwand betreiben musst, um das Benötigte aufzuspüren.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Schrottverwertung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
     },
     "Adagio_Industrial_Component_Salvage_Universal_M_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent order,we are seeking contractors to help source Recycled Material Composite (RMC), unrefined Construction Materials (Rubble, Pieces, or Salvage), and components by stripping and fracturing abandoned ships; removing the requested parts by hand with a <EM4>tractor beam</EM4>. We recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Bestellung erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), unveredelten Baumaterialien (Schutt, Bruchstücke oder Verwertungsgut) sowie Komponenten unterstützen. Dazu sollen verlassene Schiffe zerlegt und aufgebrochen und die angeforderten Teile manuell mit einem Traktorstrahl entfernt werden. Wir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Bergung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Bestellung erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC), unveredelten Baumaterialien (Schutt, Bruchstücke oder Verwertungsgut) sowie Komponenten unterstützen. Dazu sollen verlassene Schiffe zerlegt und aufgebrochen und die angeforderten Teile manuell mit einem Traktorstrahl entfernt werden. Wir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Schrottverwertung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
     },
     "Adagio_Industrial_Salvage_Universal_M_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent average-sized order, we are seeking contractors to help source Recycled Material Composite (RMC) by stripping abandoned ships. We recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Bestellung mittlerer Größe erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) unterstützen, indem sie verlassene Schiffe ausschlachten. Wir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Bergung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Bestellung mittlerer Größe erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) unterstützen, indem sie verlassene Schiffe ausschlachten. Wir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Schrottverwertung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
     },
     "Adagio_Industrial_Component_Salvage_Levski_E_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent special order, we are seeking contractors to help source Recycled Material Composite (RMC) and components by stripping abandoned ships and removing the requested parts by hand with a <EM4>tractor beam</EM4>. \\n\\nWe recommend searching for wreckage at Lagrange points, maybe in one of Nyx's asteroid belts, or you could purchase a salvage claim from us in your Contract Manager. We advise extra caution since there have been Vanduul sightings in the system, especially with how long it might take for you to track down this specific order.  \\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) und Komponenten unterstützen, indem sie verlassene Schiffe bergen und die angeforderten Teile per Hand mit einem Traktorstrahl ausbauen.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen, vielleicht in einem der Asteroidengürtel von Nyx. Alternativ kannst du auch einen Verwertungsauftrag direkt über deinen Vertragsmanager bei uns erwerben. Wir raten zu besonderer Vorsicht, da es im System zuletzt Vanduul-Sichtungen gab, vor allem weil es einige Zeit dauern kann, diesen speziellen Auftrag zu erfüllen.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Bergung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) und Komponenten unterstützen, indem sie verlassene Schiffe bergen und die angeforderten Teile per Hand mit einem Traktorstrahl ausbauen.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen, vielleicht in einem der Asteroidengürtel von Nyx. Alternativ kannst du auch einen Verwertungsauftrag direkt über deinen Vertragsmanager bei uns erwerben. Wir raten zu besonderer Vorsicht, da es im System zuletzt Vanduul-Sichtungen gab, vor allem weil es einige Zeit dauern kann, diesen speziellen Auftrag zu erfüllen.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Schrottverwertung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
     },
     "Adagio_Industrial_Component_Salvage_Pyro_E_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent special order, we are seeking contractors to help source Recycled Material Composite (RMC) and components by stripping abandoned ships and removing the requested parts by hand with a <EM4>tractor beam</EM4>. \\n\\nWe recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager. This request probably won't be as easy to satisfy as our normal contracts, partly in thanks to how many outlaws are flying around in Pyro and partly because this request isn't for your average everyday component. But lucky for you, the extra effort will be rewarded.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) und Komponenten unterstützen, indem sie verlassene Schiffe bergen und die angeforderten Teile per Hand mit einem Traktorstrahl ausbauen.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über deinen Vertragsmanager bei uns zu erwerben. Dieser Auftrag wird sich vermutlich schwieriger erfüllen lassen als unsere üblichen Verträge, zum einen wegen der vielen Gesetzlosen, die sich in Pyro herumtreiben, und zum anderen, weil es sich hierbei nicht um eine ganz gewöhnliche Komponente handelt. Aber keine Sorge, der zusätzliche Aufwand wird belohnt.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Bergung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) und Komponenten unterstützen, indem sie verlassene Schiffe bergen und die angeforderten Teile per Hand mit einem Traktorstrahl ausbauen.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über deinen Vertragsmanager bei uns zu erwerben. Dieser Auftrag wird sich vermutlich schwieriger erfüllen lassen als unsere üblichen Verträge, zum einen wegen der vielen Gesetzlosen, die sich in Pyro herumtreiben, und zum anderen, weil es sich hierbei nicht um eine ganz gewöhnliche Komponente handelt. Aber keine Sorge, der zusätzliche Aufwand wird belohnt.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Schrottverwertung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
     },
     "Adagio_Industrial_Component_Salvage_Stanton_E_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent special order, we are seeking contractors to help source Recycled Material Composite (RMC) and components by stripping abandoned ships and removing the requested parts by hand with a <EM4>tractor beam</EM4>. \\n\\nWe recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager. This request probably won't be as easy to satisfy as our normal contracts, even with the amount of ships buzzing through a system as populated as Stanton, so don't be surprised if you have to put a bit more effort into hunting down what's needed.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) und Komponenten unterstützen, indem sie verlassene Schiffe bergen und die angeforderten Teile per Hand mit einem Traktorstrahl ausbauen.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über deinen Vertragsmanager bei uns zu erwerben. Dieser Auftrag wird sich vermutlich schwieriger erfüllen lassen als unsere üblichen Verträge, selbst angesichts der großen Anzahl an Schiffen, die in einem so stark bevölkerten System wie Stanton unterwegs sind. Rechne also damit, etwas mehr Aufwand betreiben zu müssen, um das Benötigte aufzuspüren.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Bergung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm einen aktuellen Sonderauftrag erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) und Komponenten unterstützen, indem sie verlassene Schiffe bergen und die angeforderten Teile per Hand mit einem Traktorstrahl ausbauen.\\n\\nWir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über deinen Vertragsmanager bei uns zu erwerben. Dieser Auftrag wird sich vermutlich schwieriger erfüllen lassen als unsere üblichen Verträge, selbst angesichts der großen Anzahl an Schiffen, die in einem so stark bevölkerten System wie Stanton unterwegs sind. Rechne also damit, etwas mehr Aufwand betreiben zu müssen, um das Benötigte aufzuspüren.\\n\\nSobald die Materialien beschafft wurden, liefere sie bitte am Frachtaufzug bei [DESTINATION] ab.\\n\\nTipps zur Schrottverwertung findest du in \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse oder Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHAFTUNGSAUSSCHLUSS\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Fahrzeugen bergen, die nach geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
     },
     "Adagio_Industrial_Component_Salvage_Universal_E_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent order, we are seeking contractors to help source Recycled Material Composite (RMC) and components by stripping abandoned ships and removing the requested parts by hand with a <EM4>tractor beam</EM4>. We recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Bestellung erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) und Komponenten unterstützen. Dazu sollen verlassene Schiffe ausgeschlachtet und die angeforderten Teile manuell mit einem Traktorstrahl entfernt werden. Wir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Bergung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Bestellung erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) und Komponenten unterstützen. Dazu sollen verlassene Schiffe ausgeschlachtet und die angeforderten Teile manuell mit einem Traktorstrahl entfernt werden. Wir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Schrottverwertung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n• Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
     },
     "Adagio_Industrial_Salvage_Universal_E_Desc_002": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent small-scale order, we are seeking contractors to help source Recycled Material Composite (RMC) and Construction Materials by stripping and fracturing abandoned ships. We recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Bestellung im kleinen Umfang erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) und Baumaterialien unterstützen, indem sie verlassene Schiffe zerlegen und aufbrechen. Wir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Bergung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Bestellung im kleinen Umfang erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) und Baumaterialien unterstützen, indem sie verlassene Schiffe zerlegen und aufbrechen. Wir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Schrottverwertung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
     },
     "Adagio_Industrial_Salvage_Universal_E_Desc_001": {
       "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent small-scale order, we are seeking contractors to help source Recycled Material Composite (RMC) by  stripping abandoned ships. We recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
-      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Bestellung im kleinen Umfang erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) unterstützen, indem sie verlassene Schiffe ausschlachten. Wir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Bergung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Bergung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
+      "tr": "Adagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜber den Auftrag\\nUm eine kürzlich eingegangene Bestellung im kleinen Umfang erfüllen zu können, suchen wir Auftragnehmer, die uns bei der Beschaffung von Recycled Material Composite (RMC) unterstützen, indem sie verlassene Schiffe ausschlachten. Wir empfehlen, nach Wracks an Lagrange-Punkten zu suchen oder alternativ einen Verwertungsauftrag über unseren Vertragsmanager zu erwerben.\\n\\nNach der Beschaffung sind die Materialien im Frachtaufzug bei [DESTINATION] abzuliefern.\\n\\nFür Hinweise zur Schrottverwertung konsultiere \"Grundlagen eines Arbeiters zur Materialbeschaffung\" in deinem mobiGlas-Journal.\\n\\nAnforderungen\\n• Verwertungsschiff beliebiger Klasse/Größe\\n\\nHaftungsausschluss\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie Materialien aus Fahrzeugen bergen, die gemäß geltendem UEE-Recht als rechtmäßige Schrottverwertung gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für davon betroffene Personen."
     },
     "eckhart_defendship_VLRT_desc_001": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Ship\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nA client is reporting trouble near <EM4>[LOCATION]</EM4>. Based on their comms, it doesn’t sound like an organized, professional attack. Still, we’re paid to provide protection and it’s been requested. \\n\\nNeed a contractor to fly there and secure the situation.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -6548,9 +6549,9 @@
       "en": "Pyro",
       "tr": "Pyro"
     },
-    "_noloc_location_Checkmate Habs": {
-      "en": "Checkmate Habs",
-      "tr": "Checkmate Habs"
+    "Pyro6_L1_Habs": {
+      "en": "P6 L1_Habs",
+      "tr": "P6 L1_Habs"
     },
     "_noloc_location_Checkmate Clinic": {
       "en": "Checkmate Clinic",
@@ -6576,10 +6577,6 @@
       "en": "Orbituary Clinic",
       "tr": "Orbituary Clinic"
     },
-    "_noloc_location_Orbituary Habs": {
-      "en": "Orbituary Habs",
-      "tr": "Orbituary Habs"
-    },
     "RR_P6": {
       "en": "Ruin Station",
       "tr": "Ruin Station"
@@ -6587,10 +6584,6 @@
     "Pyro6": {
       "en": "Terminus",
       "tr": "Terminus"
-    },
-    "_noloc_location_Ruin Station Habs": {
-      "en": "Ruin Station Habs",
-      "tr": "Ruin Station Habs"
     },
     "_noloc_location_Ruin Station Clinic": {
       "en": "Ruin Station Clinic",
@@ -6608,17 +6601,9 @@
       "en": "Starlight Service Station Clinic",
       "tr": "Starlight Service Station Clinic"
     },
-    "_noloc_location_Starlight Service Station Habs": {
-      "en": "Starlight Service Station Habs",
-      "tr": "Starlight Service Station Habs"
-    },
     "RR_P3_L3": {
       "en": "Patch City",
       "tr": "Patch City"
-    },
-    "_noloc_location_Patch City Habs": {
-      "en": "Patch City Habs",
-      "tr": "Patch City Habs"
     },
     "_noloc_location_Patch City Clinic": {
       "en": "Patch City Clinic",
@@ -6627,10 +6612,6 @@
     "RR_P5_L2": {
       "en": "Gaslight",
       "tr": "Gaslight"
-    },
-    "_noloc_location_Gaslight Habs": {
-      "en": "Gaslight Habs",
-      "tr": "Gaslight Habs"
     },
     "_noloc_location_Gaslight Clinic": {
       "en": "Gaslight Clinic",
@@ -6644,10 +6625,6 @@
       "en": "Rod's Fuel 'N Supplies Clinic",
       "tr": "Rod's Fuel 'N Supplies Clinic"
     },
-    "_noloc_location_Rod's Fuel 'N Supplies Habs": {
-      "en": "Rod's Fuel 'N Supplies Habs",
-      "tr": "Rod's Fuel 'N Supplies Habs"
-    },
     "mission_location_pyro_043": {
       "en": "Rat's Nest",
       "tr": "Rat's Nest"
@@ -6656,17 +6633,9 @@
       "en": "Rat's Nest Clinic",
       "tr": "Rat's Nest Clinic"
     },
-    "_noloc_location_Rat's Nest Habs": {
-      "en": "Rat's Nest Habs",
-      "tr": "Rat's Nest Habs"
-    },
     "RR_P6_L3": {
       "en": "Endgame",
       "tr": "Endgame"
-    },
-    "_noloc_location_Endgame Habs": {
-      "en": "Endgame Habs",
-      "tr": "Endgame Habs"
     },
     "_noloc_location_Endgame Clinic": {
       "en": "Endgame Clinic",
@@ -6680,10 +6649,6 @@
       "en": "Dudley & Daughters Clinic",
       "tr": "Dudley & Daughters Clinic"
     },
-    "_noloc_location_Dudley & Daughters Habs": {
-      "en": "Dudley & Daughters Habs",
-      "tr": "Dudley & Daughters Habs"
-    },
     "RR_P6_L5": {
       "en": "Megumi Refueling",
       "tr": "Megumi Refueling"
@@ -6691,10 +6656,6 @@
     "_noloc_location_Megumi Refueling Clinic": {
       "en": "Megumi Refueling Clinic",
       "tr": "Megumi Refueling Clinic"
-    },
-    "_noloc_location_Megumi Refueling Habs": {
-      "en": "Megumi Refueling Habs",
-      "tr": "Megumi Refueling Habs"
     },
     "Collector_Station_02_Name": {
       "en": "Wikelo Emporium Selo Station",
@@ -7044,9 +7005,9 @@
       "en": "Rayari Deltana Research Outpost",
       "tr": "Rayari Deltana Research Outpost"
     },
-    "_noloc_location_the Rayari lab on Cellin": {
-      "en": "the Rayari lab on Cellin",
-      "tr": "the Rayari lab on Cellin"
+    "Stanton2a_Rayari_001": {
+      "en": "Hickes Research Outpost",
+      "tr": "Hickes Research Outpost"
     },
     "Stanton2c_Rayari_001": {
       "en": "Deakins Research Outpost",
@@ -7128,21 +7089,17 @@
       "en": "HUR-L1 Green Glade Station",
       "tr": "HUR-L1 Green Glade Station"
     },
-    "_noloc_location_Security Compound": {
-      "en": "Security Compound",
-      "tr": "Security Compound"
+    "Stanton1_DistributionCenter_Covalex_01": {
+      "en": "Covalex Distribution Centre S1DC06",
+      "tr": "Covalex Distribution Centre S1DC06"
     },
-    "_noloc_location_On-Call Area": {
-      "en": "On-Call Area",
-      "tr": "On-Call Area"
+    "mission_location_stanton_763": {
+      "en": "Sakura Sun Magnolia Workcenter",
+      "tr": "Sakura Sun Magnolia Workcenter"
     },
-    "DC_room_lobby": {
-      "en": "Lobby",
-      "tr": "Lobby"
-    },
-    "_noloc_location_Inventory Center": {
-      "en": "Inventory Center",
-      "tr": "Inventory Center"
+    "Stanton1_HRST_UGF_001": {
+      "en": "HDPC-Cassillo",
+      "tr": "HDPC-Cassillo"
     },
     "_noloc_location_Shipping Area": {
       "en": "Shipping Area",
@@ -7152,9 +7109,9 @@
       "en": "Teasa Spaceport",
       "tr": "Teasa Spaceport"
     },
-    "_noloc_location_Storehouse": {
-      "en": "Storehouse",
-      "tr": "Storehouse"
+    "Stanton1_HRST_UGF_003": {
+      "en": "HDPC-Farnesway",
+      "tr": "HDPC-Farnesway"
     },
     "_noloc_location_QV Extraction Station": {
       "en": "QV Extraction Station",
@@ -7576,13 +7533,13 @@
       "en": "microTech Logistics Depot S4LD01",
       "tr": "microTech Logistics Depot S4LD01"
     },
-    "_noloc_location_Exterior Zone 2": {
-      "en": "Exterior Zone 2",
-      "tr": "Exterior Zone 2"
-    },
     "_noloc_location_L19 Habs in Lorville": {
       "en": "L19 Habs in Lorville",
       "tr": "L19 Habs in Lorville"
+    },
+    "_noloc_location_Inventory Center": {
+      "en": "Inventory Center",
+      "tr": "Inventory Center"
     },
     "_noloc_location_Cave_Unoccupied_Stanton2": {
       "en": "Cave_Unoccupied_Stanton2",
@@ -7620,9 +7577,9 @@
       "en": "Inhabited_Derelict_Civilian_Stanton4_Drlct_Stmnt_001",
       "tr": "Inhabited_Derelict_Civilian_Stanton4_Drlct_Stmnt_001"
     },
-    "_noloc_location_Security Checkpoint": {
-      "en": "Security Checkpoint",
-      "tr": "Security Checkpoint"
+    "mission_location_stanton_777": {
+      "en": "microTech Logistics Depot S4LD13",
+      "tr": "microTech Logistics Depot S4LD13"
     },
     "Stanton1_Lorville": {
       "en": "Lorville",
@@ -7644,6 +7601,10 @@
       "en": "ARC-L3 Modern Express Station",
       "tr": "ARC-L3 Modern Express Station"
     },
+    "_noloc_location_On-Call Area": {
+      "en": "On-Call Area",
+      "tr": "On-Call Area"
+    },
     "mission_location_stanton_797": {
       "en": "Dupree Industrial Manufacturing Facility",
       "tr": "Dupree Industrial Manufacturing Facility"
@@ -7664,6 +7625,14 @@
       "en": "Wala Cave",
       "tr": "Wala Cave"
     },
+    "stanton2_Shipping_Covalex": {
+      "en": "Covalex Shipping Hub Gundo",
+      "tr": "Covalex Shipping Hub Gundo"
+    },
+    "Stanton4_DistributionCenter_Covalex_01": {
+      "en": "Covalex Distribution Centre S4DC05",
+      "tr": "Covalex Distribution Centre S4DC05"
+    },
     "_noloc_location_Cellin Cave": {
       "en": "Cellin Cave",
       "tr": "Cellin Cave"
@@ -7672,17 +7641,9 @@
       "en": "Inhabited_Derelict_Civilian_Stanton1a_Drlct_Stmnt_003",
       "tr": "Inhabited_Derelict_Civilian_Stanton1a_Drlct_Stmnt_003"
     },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton1d": {
-      "en": "Inhabited_Derelict_Civilian_Stanton1d",
-      "tr": "Inhabited_Derelict_Civilian_Stanton1d"
-    },
-    "Stanton1_HRST_UGF_003": {
-      "en": "HDPC-Farnesway",
-      "tr": "HDPC-Farnesway"
-    },
-    "Stanton1_HRST_UGF_001": {
-      "en": "HDPC-Cassillo",
-      "tr": "HDPC-Cassillo"
+    "_noloc_location_<= UNINITIALIZED =>": {
+      "en": "<= UNINITIALIZED =>",
+      "tr": "<= UNINITIALIZED =>"
     },
     "_noloc_location_Freelancer wreck site": {
       "en": "Freelancer wreck site",
@@ -7708,9 +7669,9 @@
       "en": "Inhabited_Derelict_Civilian_Stanton3a_Drlct_Stmnt_001",
       "tr": "Inhabited_Derelict_Civilian_Stanton3a_Drlct_Stmnt_001"
     },
-    "mission_location_stanton_777": {
-      "en": "microTech Logistics Depot S4LD13",
-      "tr": "microTech Logistics Depot S4LD13"
+    "_noloc_location_Security Compound": {
+      "en": "Security Compound",
+      "tr": "Security Compound"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton1a_Drlct_Stmnt_002": {
       "en": "Inhabited_Derelict_Civilian_Stanton1a_Drlct_Stmnt_002",
@@ -7732,6 +7693,10 @@
       "en": "Inhabited_Derelict_Outlaw_Stanton1_Drlct_Stmnt_010",
       "tr": "Inhabited_Derelict_Outlaw_Stanton1_Drlct_Stmnt_010"
     },
+    "_noloc_location_Exterior Zone 2": {
+      "en": "Exterior Zone 2",
+      "tr": "Exterior Zone 2"
+    },
     "_noloc_location_Inhabited_Derelict_Outlaw_NineTails_Stanton1": {
       "en": "Inhabited_Derelict_Outlaw_NineTails_Stanton1",
       "tr": "Inhabited_Derelict_Outlaw_NineTails_Stanton1"
@@ -7744,9 +7709,9 @@
       "en": "Inhabited_Derelict_Civilian_Stanton1c_Drlct_Stmnt_001",
       "tr": "Inhabited_Derelict_Civilian_Stanton1c_Drlct_Stmnt_001"
     },
-    "Stanton1_CVLC_UGF_002": {
-      "en": "Covalex Distribution Center S1DC06",
-      "tr": "Covalex Distribution Center S1DC06"
+    "Stanton4_SASU_UGF_001": {
+      "en": "Sakura Sun Goldenrod Workcenter",
+      "tr": "Sakura Sun Goldenrod Workcenter"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_002": {
       "en": "Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_002",
@@ -7756,18 +7721,6 @@
       "en": "Inhabited_Derelict_Outlaw_Stanton4_Drlct_Stmnt_003",
       "tr": "Inhabited_Derelict_Outlaw_Stanton4_Drlct_Stmnt_003"
     },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton2a": {
-      "en": "Inhabited_Derelict_Civilian_Stanton2a",
-      "tr": "Inhabited_Derelict_Civilian_Stanton2a"
-    },
-    "mission_location_stanton_763": {
-      "en": "Sakura Sun Magnolia Workcenter",
-      "tr": "Sakura Sun Magnolia Workcenter"
-    },
-    "Stanton4_CVLX_UGF_001": {
-      "en": "Covalex Distribution Center S4DC05",
-      "tr": "Covalex Distribution Center S4DC05"
-    },
     "_noloc_location_Magda Cave": {
       "en": "Magda Cave",
       "tr": "Magda Cave"
@@ -7776,10 +7729,6 @@
       "en": "Bloodshot Ridge",
       "tr": "Bloodshot Ridge"
     },
-    "_noloc_location_Supply Room": {
-      "en": "Supply Room",
-      "tr": "Supply Room"
-    },
     "mission_location_stanton_731": {
       "en": "Ludlow",
       "tr": "Ludlow"
@@ -7787,10 +7736,6 @@
     "_noloc_location_Clio Cave": {
       "en": "Clio Cave",
       "tr": "Clio Cave"
-    },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton1c": {
-      "en": "Inhabited_Derelict_Civilian_Stanton1c",
-      "tr": "Inhabited_Derelict_Civilian_Stanton1c"
     },
     "RR_ARC_L5": {
       "en": "ARC-L5 Yellow Core Station",
@@ -7824,17 +7769,9 @@
       "en": "Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_004",
       "tr": "Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_004"
     },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton1b": {
-      "en": "Inhabited_Derelict_Civilian_Stanton1b",
-      "tr": "Inhabited_Derelict_Civilian_Stanton1b"
-    },
-    "_noloc_location_Staging Point": {
-      "en": "Staging Point",
-      "tr": "Staging Point"
-    },
-    "Stanton4_SASU_UGF_001": {
-      "en": "Sakura Sun Goldenrod Workcenter",
-      "tr": "Sakura Sun Goldenrod Workcenter"
+    "_noloc_location_Security Checkpoint": {
+      "en": "Security Checkpoint",
+      "tr": "Security Checkpoint"
     },
     "mission_location_stanton_769": {
       "en": "Cry-Astro Processing Plant 19-02",
@@ -7892,9 +7829,9 @@
       "en": "Inhabited_Derelict_Civilian_Stanton1_Drlct_Stmnt_010",
       "tr": "Inhabited_Derelict_Civilian_Stanton1_Drlct_Stmnt_010"
     },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton1a": {
-      "en": "Inhabited_Derelict_Civilian_Stanton1a",
-      "tr": "Inhabited_Derelict_Civilian_Stanton1a"
+    "DC_room_lobby": {
+      "en": "Lobby",
+      "tr": "Lobby"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton1_Drlct_Stmnt_009": {
       "en": "Inhabited_Derelict_Civilian_Stanton1_Drlct_Stmnt_009",
@@ -7932,13 +7869,17 @@
       "en": "Inhabited_Derelict_Outlaw_Stanton1",
       "tr": "Inhabited_Derelict_Outlaw_Stanton1"
     },
-    "_noloc_location_JumpPoint_Stanton-Magnus": {
-      "en": "JumpPoint_Stanton-Magnus",
-      "tr": "JumpPoint_Stanton-Magnus"
+    "Stanton_JumpPoint_Magnus": {
+      "en": "Stanton - Magnus Jump Point",
+      "tr": "Stanton - Magnus Jump Point"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton1b_Drlct_Stmnt_001": {
       "en": "Inhabited_Derelict_Civilian_Stanton1b_Drlct_Stmnt_001",
       "tr": "Inhabited_Derelict_Civilian_Stanton1b_Drlct_Stmnt_001"
+    },
+    "_noloc_location_Storehouse": {
+      "en": "Storehouse",
+      "tr": "Storehouse"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton3a_Drlct_Stmnt_002": {
       "en": "Inhabited_Derelict_Civilian_Stanton3a_Drlct_Stmnt_002",
@@ -7976,10 +7917,6 @@
       "en": "Inhabited_Derelict_Civilian_Stanton2c_Drlct_Stmnt_001",
       "tr": "Inhabited_Derelict_Civilian_Stanton2c_Drlct_Stmnt_001"
     },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton3b": {
-      "en": "Inhabited_Derelict_Civilian_Stanton3b",
-      "tr": "Inhabited_Derelict_Civilian_Stanton3b"
-    },
     "RR_ARC_L2": {
       "en": "ARC-L2 Lively Pathway Station",
       "tr": "ARC-L2 Lively Pathway Station"
@@ -7987,14 +7924,6 @@
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton2a_Drlct_Stmnt_002": {
       "en": "Inhabited_Derelict_Civilian_Stanton2a_Drlct_Stmnt_002",
       "tr": "Inhabited_Derelict_Civilian_Stanton2a_Drlct_Stmnt_002"
-    },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton1": {
-      "en": "Inhabited_Derelict_Civilian_Stanton1",
-      "tr": "Inhabited_Derelict_Civilian_Stanton1"
-    },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton3a": {
-      "en": "Inhabited_Derelict_Civilian_Stanton3a",
-      "tr": "Inhabited_Derelict_Civilian_Stanton3a"
     },
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_003": {
       "en": "Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_003",
@@ -8027,14 +7956,6 @@
     "mission_location_stanton_0214": {
       "en": "L19 Admin Office in Lorville",
       "tr": "L19 Admin Office in Lorville"
-    },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton4": {
-      "en": "Inhabited_Derelict_Civilian_Stanton4",
-      "tr": "Inhabited_Derelict_Civilian_Stanton4"
-    },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton2c": {
-      "en": "Inhabited_Derelict_Civilian_Stanton2c",
-      "tr": "Inhabited_Derelict_Civilian_Stanton2c"
     },
     "_noloc_location_AsteroidClusters_Stanton": {
       "en": "AsteroidClusters_Stanton",
@@ -8079,10 +8000,6 @@
     "_noloc_location_Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_001": {
       "en": "Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_001",
       "tr": "Inhabited_Derelict_Civilian_Stanton1d_Drlct_Stmnt_001"
-    },
-    "_noloc_location_Covalex Station Gundo": {
-      "en": "Covalex Station Gundo",
-      "tr": "Covalex Station Gundo"
     },
     "mission_location_stanton_749": {
       "en": "Harper's Point",
@@ -8152,25 +8069,21 @@
       "en": "Shady Glen Farms",
       "tr": "Shady Glen Farms"
     },
-    "mission_location_stanton_0227": {
-      "en": "\"The Orphanage\"",
-      "tr": "\"The Orphanage\""
+    "Stanton3a_Stash_001": {
+      "en": "The Orphanage",
+      "tr": "The Orphanage"
     },
     "_noloc_location_Inhabited_Derelict_Outlaw": {
       "en": "Inhabited_Derelict_Outlaw",
       "tr": "Inhabited_Derelict_Outlaw"
     },
-    "vehicle_NameDRAK_Caterpillar_short": {
-      "en": "Caterpillar",
-      "tr": "Caterpillar"
+    "_noloc_location_Downded Relay AC-652": {
+      "en": "Downded Relay AC-652",
+      "tr": "Downded Relay AC-652"
     },
     "_noloc_location_Lazarus Complex Tithonus-II": {
       "en": "Lazarus Complex Tithonus-II",
       "tr": "Lazarus Complex Tithonus-II"
-    },
-    "ShipName_Test_001": {
-      "en": "Freelancer",
-      "tr": "Freelancer"
     },
     "hangar_13": {
       "en": "Hangar 13",
@@ -8188,9 +8101,9 @@
       "en": "Euterpe Derelict Outpost",
       "tr": "Euterpe Derelict Outpost"
     },
-    "Stanton3a_Shubin_001": {
-      "en": "Shubin Mining Facility SAL-2",
-      "tr": "Shubin Mining Facility SAL-2"
+    "_noloc_location_Admin Center": {
+      "en": "Admin Center",
+      "tr": "Admin Center"
     },
     "_noloc_location_the wreck site on microTech": {
       "en": "the wreck site on microTech",
@@ -8199,6 +8112,10 @@
     "_noloc_location_Hurston Derelict Outpost": {
       "en": "Hurston Derelict Outpost",
       "tr": "Hurston Derelict Outpost"
+    },
+    "vehicle_NameDRAK_Caterpillar_short": {
+      "en": "Caterpillar",
+      "tr": "Caterpillar"
     },
     "Stanton1d_HurDynMining_001": {
       "en": "HDMS-Woodruff",
@@ -8216,10 +8133,6 @@
       "en": "the Cellin wreck site",
       "tr": "the Cellin wreck site"
     },
-    "ShipName_Test_002": {
-      "en": "Starfarer",
-      "tr": "Starfarer"
-    },
     "_noloc_location_Farro Data Center VIII": {
       "en": "Farro Data Center VIII",
       "tr": "Farro Data Center VIII"
@@ -8227,10 +8140,6 @@
     "_noloc_location_the Lyria wreck site": {
       "en": "the Lyria wreck site",
       "tr": "the Lyria wreck site"
-    },
-    "ShipName_Test_003": {
-      "en": "Constellation",
-      "tr": "Constellation"
     },
     "_noloc_location_Aberdeen wreck site": {
       "en": "Aberdeen wreck site",
@@ -8248,10 +8157,6 @@
       "en": "the Magda wreck site",
       "tr": "the Magda wreck site"
     },
-    "_noloc_location_Inhabited_Derelict": {
-      "en": "Inhabited_Derelict",
-      "tr": "Inhabited_Derelict"
-    },
     "_noloc_location_Daymar Derelict Outpost": {
       "en": "Daymar Derelict Outpost",
       "tr": "Daymar Derelict Outpost"
@@ -8263,6 +8168,10 @@
     "Stanton1_HurDynMining_002": {
       "en": "HDMS-Oparei",
       "tr": "HDMS-Oparei"
+    },
+    "ShipName_Test_002": {
+      "en": "Starfarer",
+      "tr": "Starfarer"
     },
     "Stanton2b_EMShelter_001": {
       "en": "Tamdon Plains Aid Shelter",
@@ -8276,17 +8185,13 @@
       "en": "Aegis Reclaimer",
       "tr": "Aegis Reclaimer"
     },
-    "_noloc_location_Inhabited_Derelict_Civilian_Stanton": {
-      "en": "Inhabited_Derelict_Civilian_Stanton",
-      "tr": "Inhabited_Derelict_Civilian_Stanton"
-    },
-    "_noloc_location_Inhabited_Derelict_Civilian": {
-      "en": "Inhabited_Derelict_Civilian",
-      "tr": "Inhabited_Derelict_Civilian"
-    },
     "Stanton3b_SalvageYard_001": {
       "en": "Samson & Son's Salvage Center",
       "tr": "Samson & Son's Salvage Center"
+    },
+    "ShipName_Test_001": {
+      "en": "Freelancer",
+      "tr": "Freelancer"
     },
     "_noloc_location_the wreck site on Daymar": {
       "en": "the wreck site on Daymar",
@@ -8303,10 +8208,6 @@
     "Stanton3a_IndyMine_002": {
       "en": "Loveridge Mineral Reserve",
       "tr": "Loveridge Mineral Reserve"
-    },
-    "_noloc_location_<= UNINITIALIZED =>": {
-      "en": "<= UNINITIALIZED =>",
-      "tr": "<= UNINITIALIZED =>"
     },
     "Stanton1a_HurDynMining_001": {
       "en": "HDMS-Bezdek",
@@ -8380,10 +8281,6 @@
       "en": "Clio Derelict Outpost",
       "tr": "Clio Derelict Outpost"
     },
-    "Stanton4a_Shubin_001": {
-      "en": "Shubin Mining Facility SMCa-6",
-      "tr": "Shubin Mining Facility SMCa-6"
-    },
     "_noloc_location_RestStop_Pyro_Rundown_RR_P3_LEO_Orb_Dealer": {
       "en": "RestStop_Pyro_Rundown_RR_P3_LEO_Orb_Dealer",
       "tr": "RestStop_Pyro_Rundown_RR_P3_LEO_Orb_Dealer"
@@ -8403,10 +8300,6 @@
     "xs_outpost_cave_001": {
       "en": "Cave near [LOCATION]",
       "tr": "Cave near [LOCATION]"
-    },
-    "Stanton3a_Shubin_002": {
-      "en": "Shubin Mining Facility SAL-5",
-      "tr": "Shubin Mining Facility SAL-5"
     },
     "mission_location_pyro_075": {
       "en": "Bullock's Reach",
@@ -8455,10 +8348,6 @@
     "_noloc_location_Farro Data Center VII": {
       "en": "Farro Data Center VII",
       "tr": "Farro Data Center VII"
-    },
-    "Stanton2b_Shubin_001": {
-      "en": "Shubin Mining Facility SCD-1",
-      "tr": "Shubin Mining Facility SCD-1"
     },
     "mission_location_pyro_073": {
       "en": "Kabir's Post",
@@ -8524,6 +8413,10 @@
       "en": "Dunlow Ridge Aid Shelter",
       "tr": "Dunlow Ridge Aid Shelter"
     },
+    "ShipName_Test_003": {
+      "en": "Constellation",
+      "tr": "Constellation"
+    },
     "_noloc_location_Dudley & Daughters Entrance": {
       "en": "Dudley & Daughters Entrance",
       "tr": "Dudley & Daughters Entrance"
@@ -8555,10 +8448,6 @@
     "Stanton1_DrugLab_001": {
       "en": "Echo Isle",
       "tr": "Echo Isle"
-    },
-    "_noloc_location_the abandoned outpost on Cellin": {
-      "en": "the abandoned outpost on Cellin",
-      "tr": "the abandoned outpost on Cellin"
     },
     "Stanton1_SalvageYard_001": {
       "en": "Reclamation & Disposal Orinth",
@@ -8704,9 +8593,9 @@
       "en": "Ruin Station Entrance",
       "tr": "Ruin Station Entrance"
     },
-    "mission_client_0036": {
-      "en": "Tram & Myers",
-      "tr": "Tram & Myers"
+    "mission_client_0035": {
+      "en": "Tram & Myers Mining",
+      "tr": "Tram & Myers Mining"
     },
     "Stanton3b_ArcCorp_004": {
       "en": "ArcCorp Mining Area 061",
@@ -8716,10 +8605,6 @@
       "en": "Stag's Rut",
       "tr": "Stag's Rut"
     },
-    "_noloc_location_the abandoned outpost on Daymar": {
-      "en": "the abandoned outpost on Daymar",
-      "tr": "the abandoned outpost on Daymar"
-    },
     "_noloc_location_Maintenance Area-01": {
       "en": "Maintenance Area-01",
       "tr": "Maintenance Area-01"
@@ -8727,10 +8612,6 @@
     "mission_location_pyro_065": {
       "en": "Stonetree",
       "tr": "Stonetree"
-    },
-    "Stanton4a_Shubin_002": {
-      "en": "Shubin Mining Facility SMCa-8",
-      "tr": "Shubin Mining Facility SMCa-8"
     },
     "_noloc_location_Lazarus Transport Hub Phoenix-III": {
       "en": "Lazarus Transport Hub Phoenix-III",
@@ -8747,6 +8628,10 @@
     "Stanton4c_IndyFarmer_001": {
       "en": "Bud's Growery",
       "tr": "Bud's Growery"
+    },
+    "Stanton2b_Stash_001": {
+      "en": "Nuen Waste Management",
+      "tr": "Nuen Waste Management"
     },
     "mission_location_stanton_427": {
       "en": "Wally's Bar in New Babbage",
@@ -8880,17 +8765,13 @@
       "en": "Pyro I Cave",
       "tr": "Pyro I Cave"
     },
-    "Stanton4_Shubin_004": {
-      "en": "Shubin Mining Facility SM0-10",
-      "tr": "Shubin Mining Facility SM0-10"
+    "_noloc_location_Staging Point": {
+      "en": "Staging Point",
+      "tr": "Staging Point"
     },
-    "_noloc_location_JumpPoint_Stanton-Pyro_SecurityDock": {
-      "en": "JumpPoint_Stanton-Pyro_SecurityDock",
-      "tr": "JumpPoint_Stanton-Pyro_SecurityDock"
-    },
-    "Stanton4_Shubin_003": {
-      "en": "Shubin Mining Facility SM0-18",
-      "tr": "Shubin Mining Facility SM0-18"
+    "ea_ui_map_JerichoStation": {
+      "en": "INS Jericho",
+      "tr": "INS Jericho"
     },
     "Stanton4_Transfer": {
       "en": "Port Tressler",
@@ -8900,17 +8781,9 @@
       "en": "Greycat Stanton IV Production Complex-A",
       "tr": "Greycat Stanton IV Production Complex-A"
     },
-    "Stanton4_Shubin_002": {
-      "en": "Shubin Mining Facility SM0-22",
-      "tr": "Shubin Mining Facility SM0-22"
-    },
     "_noloc_location_ArcCorp Mining Area157": {
       "en": "ArcCorp Mining Area157",
       "tr": "ArcCorp Mining Area157"
-    },
-    "Stanton4_Shubin_001": {
-      "en": "Shubin Mining Facility SM0-13",
-      "tr": "Shubin Mining Facility SM0-13"
     },
     "_noloc_location_Ruptura PAF-I": {
       "en": "Ruptura PAF-I",
@@ -16513,8 +16386,8 @@
       "tr": "PvP-MISSIONEN"
     },
     "mobiglas_ui_Salvage": {
-      "en": "BERGUNG",
-      "tr": "BERGUNG"
+      "en": "VERWERTUNG",
+      "tr": "VERWERTUNG"
     },
     "mobiglas_ui_ShipMining": {
       "en": "Bergbau (Schiff)",
