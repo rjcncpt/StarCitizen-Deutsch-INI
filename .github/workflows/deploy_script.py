@@ -210,7 +210,8 @@ def get_todays_blueprint_commits() -> list[dict]:
 
         result = subprocess.run(
             [
-                "git", "log",
+                "git",
+                "log",
                 f"--after={after_arg}",
                 "--pretty=%H|%s",
                 "--",
@@ -229,12 +230,14 @@ def get_todays_blueprint_commits() -> list[dict]:
             commit_hash, subject = line.split("|", 1)
             short_hash = commit_hash[:7]
             commit_url = f"{remote_url}/commit/{commit_hash}"
-            commits.append({
-                "hash": commit_hash,
-                "short_hash": short_hash,
-                "message": subject.strip(),
-                "url": commit_url,
-            })
+            commits.append(
+                {
+                    "hash": commit_hash,
+                    "short_hash": short_hash,
+                    "message": subject.strip(),
+                    "url": commit_url,
+                }
+            )
 
         return commits
 
