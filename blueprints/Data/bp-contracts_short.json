@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "generiert": "2026-07-14 22:38:03",
-    "version_patch": "4.9.0-live.12218630",
+    "generiert": "2026-07-16 08:47:43",
+    "version_patch": "4.9.0 LIVE.12232306",
     "eintraege": 813,
-    "version": "Beta 14.07.2026",
+    "version": "Beta 16.07.2026",
     "github": "/rjcncpt"
   },
   "entries": [
@@ -1680,7 +1680,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_RecoverItem_VE_01_title",
       "title": " <EM4>[BP]?</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 36.750 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 36.750 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 36.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "issueNote": "<EM4>[?]</EM4> Diese Mission enthält auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe Baupläne.",
       "dataIssues": [
@@ -1704,7 +1704,7 @@
       },
       "variants": [
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Arbor MH1 Mining Laser",
             "Hofstede-S1 Mining Laser",
@@ -1770,7 +1770,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_RecoverItem_VH_01_title",
       "title": " <EM4>[BP]?</EM4>",
-      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.250 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.250 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - CQ7 Rifle\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n\\n---------------------------------------------------------\\n<EM4>Dieser Missionstyp wird vom Spiel dynamisch erzeugt.\\nDie Vergabe der Baupläne ist nicht eindeutig vorhersagbar und\\nwird je nach Region, Reputation oder interner Spiellogik ausgeben.\\nVergleiche mit Datenbanken wie star-head.de oder scmdb.net.</EM4>\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.250 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n---------------------------------------------------------\\n\\n<EM4>[!]</EM4> Baupläne nur für 88.250 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - CQ7 Rifle\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 88.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "issueNote": "<EM4>[?]</EM4> Diese Mission enthält auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe Baupläne.",
       "dataIssues": [
@@ -1794,7 +1794,7 @@
       },
       "variants": [
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Arbor MH1 Mining Laser",
             "Hofstede-S1 Mining Laser",
@@ -1854,7 +1854,7 @@
           "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 88.250 aUEC Mission"
         },
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "CQ7 Rifle"
           ],
@@ -1875,7 +1875,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_RecoverItem_M_01_title",
       "title": " <EM4>[BP]?</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 47.000 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 47.000 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 47.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "issueNote": "<EM4>[?]</EM4> Diese Mission enthält auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe Baupläne.",
       "dataIssues": [
@@ -1899,7 +1899,7 @@
       },
       "variants": [
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Arbor MH1 Mining Laser",
             "Hofstede-S1 Mining Laser",
@@ -3878,7 +3878,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_MissCrew_01_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 21.250 aUEC Mission\\n\\n# Min. Reputation: Associate (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 21.250 aUEC Mission\\n\\n# Min. Reputation: Mitglied (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 21.250 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 160 XP\\n# Cooldown für Mission: 1 Minute\\n# Mission kann geteilt werden? Ja",
       "canBeShared": true,
@@ -3896,7 +3896,7 @@
       },
       "variants": [
         {
-          "standing_label": "Associate (2.400 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Mitglied (2.400 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Pitman Mining Laser",
             "S0 Helix",
@@ -4387,8 +4387,8 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "EckhartSecurity_MultiEliminateAllAndBoss_DC_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n# Min. Reputation: Sicherheitsagent Senior (120.000 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - Fierell Cascade (Mil/1/B)\\n    - UltraFlux (Mil/2/B)\\n    - MegaFlux (Mil/3/B)\\n    - C-788 Cannon\\n    - Tigerstrike T-19P\\n    - Revenant Gatling\\n    - Draugar Gatling\\n\\n# Region: \\n    - Stanton 1 (Hurston) - Gefahr 4/10\\n    - Stanton 4 (microTech) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
-      "bpnote": "",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 134.500 aUEC Mission\\n\\n# Min. Reputation: Sicherheitsagent Senior (120.000 XP)\\n# Max. Reputation: Keine Angaben\\n\\n# Baupläne:\\n    - Fierell Cascade (Mil/1/B)\\n    - UltraFlux (Mil/2/B)\\n    - MegaFlux (Mil/3/B)\\n    - C-788 Cannon\\n    - Tigerstrike T-19P\\n    - Revenant Gatling\\n    - Draugar Gatling\\n\\n# Region: \\n    - Stanton 1 (Hurston) - Gefahr 4/10\\n    - Stanton 4 (microTech) - Gefahr 5/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "bpnote": "<EM4>[!]</EM4> Baupläne nur für 134.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 500 XP\\n# Cooldown für Mission: 1 Minute\\n# Mission kann geteilt werden? Ja",
       "canBeShared": true,
       "illegal": false,
@@ -4450,8 +4450,8 @@
             }
           ],
           "haulingOrders": null,
-          "rewardUEC": null,
-          "reward_hint": null
+          "rewardUEC": "134.500 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Baupläne nur für 134.500 aUEC Mission "
         }
       ]
     },
@@ -6250,7 +6250,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_ScanMine_05_title",
       "title": " <EM4>[BP]?</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 80.000 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 80.000 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 80.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "issueNote": "<EM4>[?]</EM4> Diese Mission enthält auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe Baupläne.",
       "dataIssues": [
@@ -6274,7 +6274,7 @@
       },
       "variants": [
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Arbor MH1 Mining Laser",
             "Hofstede-S1 Mining Laser",
@@ -7195,7 +7195,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_Scan_04_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 60.000 aUEC Mission\\n\\n# Min. Reputation: Associate (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 60.000 aUEC Mission\\n\\n# Min. Reputation: Mitglied (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 60.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 300 XP\\n# Cooldown für Mission: 1 Minute\\n# Mission kann geteilt werden? Nein",
       "canBeShared": false,
@@ -7213,7 +7213,7 @@
       },
       "variants": [
         {
-          "standing_label": "Associate (2.400 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Mitglied (2.400 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Pitman Mining Laser",
             "S0 Helix",
@@ -8633,7 +8633,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_Scan_06_title",
       "title": " <EM4>[BP]?</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 119.750 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 119.750 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 119.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "issueNote": "<EM4>[?]</EM4> Diese Mission enthält auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe Baupläne.",
       "dataIssues": [
@@ -8657,7 +8657,7 @@
       },
       "variants": [
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Arbor MH1 Mining Laser",
             "Hofstede-S1 Mining Laser",
@@ -11101,7 +11101,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_Scan_05_title",
       "title": " <EM4>[BP]?</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 80.000 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 80.000 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 80.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "issueNote": "<EM4>[?]</EM4> Diese Mission enthält auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe Baupläne.",
       "dataIssues": [
@@ -11125,7 +11125,7 @@
       },
       "variants": [
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Arbor MH1 Mining Laser",
             "Hofstede-S1 Mining Laser",
@@ -15717,7 +15717,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_ScanMine_06_title",
       "title": " <EM4>[BP]?</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 119.750 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 119.750 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 119.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "issueNote": "<EM4>[?]</EM4> Diese Mission enthält auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe Baupläne.",
       "dataIssues": [
@@ -15741,7 +15741,7 @@
       },
       "variants": [
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Arbor MH1 Mining Laser",
             "Hofstede-S1 Mining Laser",
@@ -15861,7 +15861,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_MissCrew_02_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 26.750 aUEC Mission\\n\\n# Min. Reputation: Associate (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 26.750 aUEC Mission\\n\\n# Min. Reputation: Mitglied (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 26.750 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 200 XP\\n# Cooldown für Mission: 1 Minute\\n# Mission kann geteilt werden? Ja",
       "canBeShared": true,
@@ -15879,7 +15879,7 @@
       },
       "variants": [
         {
-          "standing_label": "Associate (2.400 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Mitglied (2.400 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Pitman Mining Laser",
             "S0 Helix",
@@ -15945,7 +15945,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_MissCrew_03_title",
       "title": " <EM4>[BP]?</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 32.000 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 32.000 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 32.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "issueNote": "<EM4>[?]</EM4> Diese Mission enthält auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe Baupläne.",
       "dataIssues": [
@@ -15969,7 +15969,7 @@
       },
       "variants": [
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Arbor MH1 Mining Laser",
             "Hofstede-S1 Mining Laser",
@@ -17017,7 +17017,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_DataDownload_01_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 30.500 aUEC Mission\\n\\n# Min. Reputation: Associate (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 30.500 aUEC Mission\\n\\n# Min. Reputation: Mitglied (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 30.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 200 XP\\n# Cooldown für Mission: 1 Minute\\n# Mission kann geteilt werden? Ja",
       "canBeShared": true,
@@ -17035,7 +17035,7 @@
       },
       "variants": [
         {
-          "standing_label": "Associate (2.400 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Mitglied (2.400 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Pitman Mining Laser",
             "S0 Helix",
@@ -17101,7 +17101,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_CreateUplink_01_title",
       "title": " <EM4>[BP]?</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 47.500 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 47.500 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 47.500 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "issueNote": "<EM4>[?]</EM4> Diese Mission enthält auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe Baupläne.",
       "dataIssues": [
@@ -17125,7 +17125,7 @@
       },
       "variants": [
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Arbor MH1 Mining Laser",
             "Hofstede-S1 Mining Laser",
@@ -17722,7 +17722,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_ScanMine_02_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 44.000 aUEC Mission\\n\\n# Min. Reputation: Prospective Associate (0 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - S00 Hofstede\\n    - Lawson Mining Laser\\n    - Marlin\\n    - RN-7s\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 44.000 aUEC Mission\\n\\n# Min. Reputation: Anwärter (0 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - S00 Hofstede\\n    - Lawson Mining Laser\\n    - Marlin\\n    - RN-7s\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 44.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 220 XP\\n# Cooldown für Mission: 1 Minute\\n# Mission kann geteilt werden? Nein",
       "canBeShared": false,
@@ -17740,7 +17740,7 @@
       },
       "variants": [
         {
-          "standing_label": "Prospective Associate (0 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Anwärter (0 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "S00 Hofstede",
             "Lawson Mining Laser",
@@ -20914,7 +20914,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_Scan_03_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 52.000 aUEC Mission\\n\\n# Min. Reputation: Associate (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 52.000 aUEC Mission\\n\\n# Min. Reputation: Mitglied (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 52.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 260 XP\\n# Cooldown für Mission: 1 Minute\\n# Mission kann geteilt werden? Nein",
       "canBeShared": false,
@@ -20932,7 +20932,7 @@
       },
       "variants": [
         {
-          "standing_label": "Associate (2.400 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Mitglied (2.400 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Pitman Mining Laser",
             "S0 Helix",
@@ -20998,7 +20998,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_ScanMine_04_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 60.000 aUEC Mission\\n\\n# Min. Reputation: Associate (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 60.000 aUEC Mission\\n\\n# Min. Reputation: Mitglied (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 60.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 380 XP\\n# Cooldown für Mission: 1 Minute\\n# Mission kann geteilt werden? Nein",
       "canBeShared": false,
@@ -21016,7 +21016,7 @@
       },
       "variants": [
         {
-          "standing_label": "Associate (2.400 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Mitglied (2.400 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Pitman Mining Laser",
             "S0 Helix",
@@ -21136,7 +21136,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_Scan_02_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. Reputation: Prospective Associate (0 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - S00 Hofstede\\n    - Lawson Mining Laser\\n    - Marlin\\n    - RN-7s\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n\\n# Min. Reputation: Anwärter (0 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - S00 Hofstede\\n    - Lawson Mining Laser\\n    - Marlin\\n    - RN-7s\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 38.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 220 XP\\n# Cooldown für Mission: 1 Minute\\n# Mission kann geteilt werden? Nein",
       "canBeShared": false,
@@ -21154,7 +21154,7 @@
       },
       "variants": [
         {
-          "standing_label": "Prospective Associate (0 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Anwärter (0 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "S00 Hofstede",
             "Lawson Mining Laser",
@@ -32597,7 +32597,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_Salvage_H_01_title",
       "title": " <EM4>[BP]?</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 90.000 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Abgabe:\\n    - Recycled Material Composite (min. 10 SCU) und\\n    - Construction Materials (min. 6 SCU)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 90.000 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Abgabe:\\n    - Recycled Material Composite (min. 10 SCU) und\\n    - Construction Materials (min. 6 SCU)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 90.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "issueNote": "<EM4>[?]</EM4> Diese Mission enthält auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe Baupläne.",
       "dataIssues": [
@@ -32621,7 +32621,7 @@
       },
       "variants": [
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Arbor MH1 Mining Laser",
             "Hofstede-S1 Mining Laser",
@@ -32700,7 +32700,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_Salvage_M_01_title",
       "title": " <EM4>[BP]?</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 60.000 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Abgabe:\\n    - Recycled Material Composite (min. 5 SCU) und\\n    - Construction Materials (min. 3 SCU)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 60.000 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Abgabe:\\n    - Recycled Material Composite (min. 5 SCU) und\\n    - Construction Materials (min. 3 SCU)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 60.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "issueNote": "<EM4>[?]</EM4> Diese Mission enthält auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe Baupläne.",
       "dataIssues": [
@@ -32724,7 +32724,7 @@
       },
       "variants": [
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Arbor MH1 Mining Laser",
             "Hofstede-S1 Mining Laser",
@@ -32803,7 +32803,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_Salvage_E_01_title",
       "title": " <EM4>[BP]?</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 30.000 aUEC Mission\\n\\n# Min. Reputation: Trusted Associate (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Abgabe:\\n    - Recycled Material Composite (min. 1 SCU)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 30.000 aUEC Mission\\n\\n# Min. Reputation: Vertrauensmitglied (6.000 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Abgabe:\\n    - Recycled Material Composite (min. 1 SCU)\\n\\n# Baupläne:\\n    - Arbor MH1 Mining Laser\\n    - Hofstede-S1 Mining Laser\\n    - Klein-S1 Mining Laser\\n    - Helix I Mining Laser\\n    - Impact I Mining Laser\\n    - Cinch Scraper Module (Item existiert 3x, unterschdl. Stats)\\n    - Abrade Scraper Module\\n    - CF-117 Bulldog \"Hazard-Zone\" Repeater\\n    - CF-227 Badger \"Hazard-Zone\" Repeater\\n    - CF-337 Panther \"Hazard-Zone\" Repeater\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 30.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "issueNote": "<EM4>[?]</EM4> Diese Mission enthält auf Grund eines CIG-Datenfehlers einen Fehlerhaften Bauplan-Pool. Details siehe Baupläne.",
       "dataIssues": [
@@ -32827,7 +32827,7 @@
       },
       "variants": [
         {
-          "standing_label": "Trusted Associate (6.000 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Vertrauensmitglied (6.000 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Arbor MH1 Mining Laser",
             "Hofstede-S1 Mining Laser",
@@ -34114,7 +34114,7 @@
       "dropChance": "# Chance auf Bauplan: 100%",
       "titleLocKey": "Battaglia_RPT_ScanMine_03_title",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 52.000 aUEC Mission\\n\\n# Min. Reputation: Associate (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
+      "description": "\\n---------------------------------------------------------\\n\\nMÖGLICHE BAUPLÄNE FÜR DIESEN MISSIONSTYP\\n\\n<EM4>[!]</EM4> Baupläne nur für 52.000 aUEC Mission\\n\\n# Min. Reputation: Mitglied (2.400 XP)\\n# Max. Reputation: Prestige 3 (69.600 XP)\\n\\n# Baupläne:\\n    - Pitman Mining Laser\\n    - S0 Helix\\n    - Norfield\\n    - Lindstrom\\n    - Harkin\\n    - Strata Helmet Levski Edition\\n    - Strata Core Levski Edition\\n    - Strata Arms Levski Edition\\n    - Strata Legs Levski Edition\\n    - Strata Backpack Levski Edition\\n\\n# Region: Nyx-System - Gefahr 3-6/10\\n\\n\\nDieser Service ist experimentell. Die Daten können Fehlerhaft sein.",
       "bpnote": "<EM4>[!]</EM4> Baupläne nur für 52.000 aUEC Mission\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Zu erwartende Rufpunkte: 260 XP\\n# Cooldown für Mission: 1 Minute\\n# Mission kann geteilt werden? Nein",
       "canBeShared": false,
@@ -34132,7 +34132,7 @@
       },
       "variants": [
         {
-          "standing_label": "Associate (2.400 XP) / Prestige 3 (69.600 XP)",
+          "standing_label": "Mitglied (2.400 XP) / Prestige 3 (69.600 XP)",
           "reward_items": [
             "Pitman Mining Laser",
             "S0 Helix",

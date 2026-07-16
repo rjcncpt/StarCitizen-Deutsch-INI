@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "generated": "2026-07-14 22:38:03",
-    "version_patch": "4.9.0-live.12218630",
+    "generated": "2026-07-16 08:47:44",
+    "version_patch": "4.9.0 LIVE.12232306",
     "entries": 813,
-    "version": "Beta 14.07.2026",
+    "version": "Beta 16.07.2026",
     "github": "/rjcncpt"
   },
   "entries": [
@@ -4387,8 +4387,8 @@
       "dropChance": "# Blueprint Drop Chance: 100%",
       "titleLocKey": "EckhartSecurity_MultiEliminateAllAndBoss_DC_Title_001",
       "title": " <EM4>[BP]</EM4>",
-      "description": "\\n---------------------------------------------------------\\n\\nPOSSIBLE BLUEPRINTS FOR THIS MISSION TYPE\\n\\n# Min. Reputation: Sr. Security Contractor (120.000 XP)\\n# Max. Reputation: No information\\n\\n# Blueprints:\\n    - Fierell Cascade (Mil/1/B)\\n    - UltraFlux (Mil/2/B)\\n    - MegaFlux (Mil/3/B)\\n    - C-788 Cannon\\n    - Tigerstrike T-19P\\n    - Revenant Gatling\\n    - Draugar Gatling\\n\\n# Region: \\n    - Stanton 1 (Hurston) - Danger 4/10\\n    - Stanton 4 (microTech) - Danger 5/10\\n\\n\\nThis service is experimental. Data may be inaccurate.",
-      "bpnote": "",
+      "description": "\\n---------------------------------------------------------\\n\\nPOSSIBLE BLUEPRINTS FOR THIS MISSION TYPE\\n\\n<EM4>[!]</EM4> Blueprints only for 134.500 aUEC missions\\n\\n# Min. Reputation: Sr. Security Contractor (120.000 XP)\\n# Max. Reputation: No information\\n\\n# Blueprints:\\n    - Fierell Cascade (Mil/1/B)\\n    - UltraFlux (Mil/2/B)\\n    - MegaFlux (Mil/3/B)\\n    - C-788 Cannon\\n    - Tigerstrike T-19P\\n    - Revenant Gatling\\n    - Draugar Gatling\\n\\n# Region: \\n    - Stanton 1 (Hurston) - Danger 4/10\\n    - Stanton 4 (microTech) - Danger 5/10\\n\\n\\nThis service is experimental. Data may be inaccurate.",
+      "bpnote": "<EM4>[!]</EM4> Blueprints only for 134.500 aUEC missions\\n---------------------------------------------------------\\n\\n",
       "contractInfo": "# Expected reputation points: 500 XP\\n# Mission Cooldown: 1 minute\\n# Can mission be shared? Yes",
       "canBeShared": true,
       "illegal": false,
@@ -4450,8 +4450,8 @@
             }
           ],
           "haulingOrders": null,
-          "rewardUEC": null,
-          "reward_hint": null
+          "rewardUEC": "134.500 aUEC",
+          "reward_hint": "<EM4>[!]</EM4> Blueprints only for 134.500 aUEC missions "
         }
       ]
     },
