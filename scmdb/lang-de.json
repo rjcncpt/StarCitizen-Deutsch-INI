@@ -1,18 +1,17 @@
 {
-  "version": "4.9.0-ptu.12218630",
+  "version": "4.9.0-live.12232306",
   "sourceLanguage": "en",
   "targetLanguage": "german_global",
   "keyCount": 4277,
   "stats": {
     "total": 4277,
-    "translated": 3855,
+    "translated": 3863,
     "missing": 0,
-    "noLocKey": 353,
+    "noLocKey": 345,
     "placeholderFallback": 69,
-    "mismatch": 224,
+    "mismatch": 223,
     "missingKeys": [],
     "mismatchKeys": [
-      "Battaglia_RPT_MissCrew_02_desc",
       "CFP_Delivery_Outpost_Multi_title_001",
       "CFP_SecurityPatrol_E_Desc_001",
       "CFP_SecurityPatrol_H_Desc_001",
@@ -4405,7 +4404,7 @@
     },
     "Battaglia_RPT_Scan_Golem_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Extra Special Job\\n\\nWORK BRIEF: \\nYou've been doing some excellent work for us lately and wanted to offer a special job with a special reward. I'm looking for some more data, so I need someone <EM4>to scan [RESOURCES]</EM4> and send me what you find. [RARITY]\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nPolished up a special Drake Golem from Teach's for this one.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Auftragstyp: Erz-Scan (Sonderauftrag)\\n• Gesuchter Rohstoff: [RESOURCES]\\n• Hinweis: [RARITY]\\n• Belohnung: Drake Golem\\n\\n-------------------------------------------------------\\n\\nPeople's Alliance\\n\\nBETREFF: Ein ganz besonderer Auftrag\\n\\nAUFTRAGSBESCHREIBUNG:\\nDu hast in letzter Zeit hervorragende Arbeit für uns geleistet, und ich wollte dir einen besonderen Auftrag mit einer besonderen Belohnung anbieten. Ich suche nach ein paar mehr Daten, also brauche ich jemanden, der den gesuchten Rohstoff scannt und mir schickt, was du findest.\\n\\nDu weißt inzwischen, was du tust, aber ich erinnere dich trotzdem daran, dass das Bergbau-Journal der United Resource Workers auf deinem Mobi eine große Hilfe ist, falls du nicht weiterkommst.\\n\\nSag mir Bescheid, ob du dabei bist.\\n\\nBEZAHLUNG:\\nFür diesen hier habe ich einen besonderen Drake Golem von Teach's aufpoliert.\\n\\nGENEHMIGUNG:\\nBattaglia, Recco"
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Auftragstyp: Erz-Scan (Spezialauftrag)\\n• Gesuchter Rohstoff: [RESOURCES]\\n• Hinweis: [RARITY]\\n• Belohnung: Drake Golem\\n\\n-------------------------------------------------------\\n\\nPeople's Alliance\\n\\nBETREFF: Ein ganz besonderer Auftrag\\n\\nAUFTRAGSBESCHREIBUNG:\\nDu hast in letzter Zeit hervorragende Arbeit für uns geleistet, und ich wollte dir einen besonderen Auftrag mit einer besonderen Belohnung anbieten. Ich suche nach ein paar mehr Daten, also brauche ich jemanden, der den gesuchten Rohstoff scannt und mir schickt, was er findet.\\n\\nDu weißt inzwischen, was du tust, aber ich erinnere dich trotzdem daran, dass das Bergbau-Journal der United Resource Workers auf deinem Mobi eine große Hilfe ist, falls du nicht weiterkommst.\\n\\nSag mir Bescheid, ob du dabei bist.\\n\\nBEZAHLUNG:\\nFür diesen hier habe ich eine besondere Drake Golem von Teach's aufpoliert.\\n\\nGENEHMIGUNG:\\nBattaglia, Recco"
     },
     "TheCollector_Recipes_Desc_L22Wolf": {
       "en": "Wikelo very excited. Have idea for new material. But making it is most tricky. Very complicated. Need help fabricating a test sample. I give you blueprint, you make, bring to me, and I will trade. Give you extra special L-22 Wolf. Very powerful, very wolf.",
@@ -4461,7 +4460,7 @@
     },
     "Battaglia_RPT_Scan_04_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Full Area Scan For Ore\\n\\nWORK BRIEF: \\nI need you to check something out for me if you’re not busy. I'm looking to build on our mineral database and need some scans of <EM4>[RESOURCES]</EM4>. I can handle the mining if you want to leave it. [RARITY]\\n\\nAlso, if you're stuck on where to look or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nLet me know.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Auftragstyp: Erz-Scan (Datensammlung)\\n• Gesuchter Rohstoff: [RESOURCES]\\n• Hinweis: [RARITY]\\n\\n-------------------------------------------------------\\n\\nPeople's Alliance\\n\\nBETREFF: Vollständiger Gebietsscan nach Erz\\n\\nAUFTRAGSBESCHREIBUNG:\\nIch brauche dich, um etwas für mich zu überprüfen, falls du nicht beschäftigt bist. Ich will unsere Mineraldatenbank ausbauen und brauche ein paar Scans des gesuchten Rohstoffs. Den Abbau kann ich übernehmen, wenn du das lieber lässt.\\n\\nUnd falls du nicht weißt, wo du suchen sollst, oder neu im Bergbau bist: Auf deinem mobi gibt es ein Handbuch zum Bergbau von den United Resource Workers, das du dir ansehen solltest.\\n\\nGib mir Bescheid.\\n\\nBEZAHLUNG:\\nStandard-Listenpreis nach bestätigtem vollständigem Gebietsscan.\\n\\nGENEHMIGUNG:\\nBattaglia, Recco"
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Auftragstyp: Erz-Scan (Datensammlung)\\n• Gesuchter Rohstoff: [RESOURCES]\\n• Hinweis: [RARITY]\\n\\n-------------------------------------------------------\\n\\nPeople's Alliance\\n\\nBETREFF: Vollständiger Gebietsscan nach Erz\\n\\nAUFTRAGSBESCHREIBUNG:\\nIch brauche dich, um etwas für mich zu überprüfen, falls du nicht beschäftigt bist. Ich will unsere Mineraldatenbank ausbauen und brauche ein paar Scans des gesuchten Rohstoffs. Den Abbau kann ich übernehmen, wenn du das lieber mir überlässt.\\n\\nUnd falls du nicht weißt, wo du suchen sollst, oder neu im Bergbau bist: Auf deinem mobi gibt es ein Handbuch zum Bergbau von den United Resource Workers, das du dir ansehen solltest.\\n\\nGib mir Bescheid.\\n\\nBEZAHLUNG:\\nStandard-Listenpreis nach bestätigtem vollständigem Gebietsscan.\\n\\nGENEHMIGUNG:\\nBattaglia, Recco"
     },
     "TheCollector_Recipes_Desc_KopSkull": {
       "en": "Hello. Can make fun change to gun if you want. Use kopion skin for pattern and little skull dangle. Very effective. Shoot much better.\\n\\nAll you need is bring me parts to <EM4>[DESTINATIONS]</EM4> and will make. \\n\\nBye.",
@@ -4665,7 +4664,7 @@
     },
     "LingFamily_delivery_desc_ICC_Special_Cryo": {
       "en": "Hi,\\n\\nNot sure if you ever heard of them, but a rep from the ICC (they make starmaps and study space for the empire) just reached out to us about a special job they need picked up from Wikelo's Emporium. \\n\\nKind of surprised to be honest that they having any dealings there since that Banu's trading-post doesn't exactly scream \"cutting-edge science\" to me.\\n\\nAnyway, they want the delivery brought from there to [DESTINATION]. They also emphasized that the cargo's very delicate so make sure that you use kid gloves when you're handling it, okay? (Not that you aren't careful normally, but you know how clients are.) \\n\\nBe sure to bring a <EM4>heavy-duty tractor beam</EM4> and a ship with enough space to store <EM4>1 SCU cargo</EM4>.\\n\\nThanks,  \\nConni Ling \\nCargo Logistics Coordinator \\nLing Family Hauling",
-      "tr": "Hi,\\n\\nIch weiß nicht, ob du von ihnen gehört hast, aber ein Vertreter der ICC (die stellen Sternenkarten her und erforschen den Weltraum für das Imperium) hat sich eben wegen eines Sonderauftrags bei uns gemeldet. Er muss von Wikelos Emporium abgeholt werden.\\n\\nEhrlich gesagt bin ich ein bisschen überrascht, dass die überhaupt Geschäfte dort machen - der Handelsposten dieses Banu schreit ja nicht gerade \"Spitzenforschung\", wenn du mich fragst.\\n\\n\\nJedenfalls soll die Lieferung von dort nach [DESTINATION] gebracht werden. Sie haben außerdem betont, dass die Fracht sehr empfindlich ist - also bitte besonders vorsichtig damit umgehen, okay? (Nicht dass du es nicht ohnehin tust, aber du weißt ja wie Kunden sein können.)\\n\\nNimm unbedingt ein Hochleistungs-Traktorstrahlgerät mit und ein Schiff mit genug Platz für [MAX_SCU] Frachtcontainer.\\n\\nDanke,\\nConni Ling\\nKoordinatorin für Frachtlogistik\\nLing Family Hauling"
+      "tr": "Hi,\\n\\nIch weiß nicht, ob du von ihnen gehört hast, aber ein Vertreter der ICC (die stellen Sternenkarten her und erforschen den Weltraum für das Imperium) hat sich eben wegen eines Spezialauftrags bei uns gemeldet. Er muss von Wikelos Emporium abgeholt werden.\\n\\nEhrlich gesagt bin ich ein bisschen überrascht, dass die überhaupt Geschäfte dort machen - der Handelsposten dieses Banu schreit ja nicht gerade \"Spitzenforschung\", wenn du mich fragst.\\n\\n\\nJedenfalls soll die Lieferung von dort nach [DESTINATION] gebracht werden. Sie haben außerdem betont, dass die Fracht sehr empfindlich ist - also bitte besonders vorsichtig damit umgehen, okay? (Nicht dass du es nicht ohnehin tust, aber du weißt ja wie Kunden sein können.)\\n\\nNimm unbedingt ein Hochleistungs-Traktorstrahlgerät mit und ein Schiff mit genug Platz für [MAX_SCU] Frachtcontainer.\\n\\nDanke,\\nConni Ling\\nKoordinatorin für Frachtlogistik\\nLing Family Hauling"
     },
     "EckhartSecurity_DestroyServers_FacilityDelving_Desc_001": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Destroy Server\\nAPPROVAL CODE = VS-14\\n\\nFOR IMMEDIATE PROCESSING\\n\\nOur client has requested the immediate destruction of a group of servers located at a long-shuttered ASD research site. The servers in question contain information that our client considers extremely damaging and is eager to see the data completely eliminated.\\n\\nInitial surveillance indicates the servers are within the facility’s <EM4>Energy Lab, located in the Research wing</EM4>. We’ve also picked up on a number of hostile forces, so be on alert.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -5049,7 +5048,7 @@
     },
     "Battaglia_RPT_ScanMine_Mole_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Mining and MOLE\\n\\nWORK BRIEF: \\nAnother special job for you with an extra special payout. Like the previous jobs, I need you to find and extract <EM4> [RESOURCES] [MINEABLETYPE]</EM4> and relay your stats back to us. [RARITY] \\n\\nI can't even tell you how helpful your work has been in the past so I've arranged an extra special payout for this one. [RARITY]\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nYou'll receive a custom ARGO MOLE as payment for all your help.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Auftragstyp: Bergbau & Datensammlung (Sonderauftrag)\\n• Rohstoff: [RESOURCES] [MINEABLETYPE]\\n• Hinweis: [RARITY]\\n• Belohnung: ARGO MOLE\\n\\n-------------------------------------------------------\\n\\nPeople's Alliance\\n\\nBETREFF: Bergbau und MOLE\\n\\nAUFTRAGSBESCHREIBUNG:\\nNoch ein besonderer Auftrag für dich mit einer extra besonderen Auszahlung. Wie bei den vorherigen Aufträgen sollst du die angegebenen Rohstoffe finden und abbauen und uns deine Werte zurückmelden. [RARITY]\\n\\nIch kann dir gar nicht sagen, wie hilfreich deine Arbeit in der Vergangenheit war, deshalb habe ich für diesen eine extra besondere Auszahlung arrangiert. [RARITY]\\n\\nDu weißt inzwischen, was du tust, aber ich erinnere dich trotzdem daran: Das Bergbau-Handbuch der United Resource Workers auf deinem mobi ist eine große Hilfe, falls du mal nicht weiterkommst.\\n\\nGib mir Bescheid, wenn du dabei bist.\\n\\nBEZAHLUNG:\\nDu erhältst eine speziell angefertigte ARGO MOLE als Bezahlung für all deine Hilfe.\\n\\nGENEHMIGUNG:\\nBattaglia, Recco"
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Auftragstyp: Bergbau & Datensammlung (Spezialauftrag)\\n• Rohstoff: [RESOURCES] [MINEABLETYPE]\\n• Hinweis: [RARITY]\\n• Belohnung: ARGO MOLE\\n\\n-------------------------------------------------------\\n\\nPeople's Alliance\\n\\nBETREFF: Bergbau und MOLE\\n\\nAUFTRAGSBESCHREIBUNG:\\nNoch ein besonderer Auftrag für dich mit einer extra besonderen Auszahlung. Wie bei den vorherigen Aufträgen sollst du die angegebenen Rohstoffe finden und abbauen und uns deine Werte zurückmelden. [RARITY]\\n\\nIch kann dir gar nicht sagen, wie hilfreich deine Arbeit in der Vergangenheit war, deshalb habe ich für diesen eine extra besondere Auszahlung arrangiert. [RARITY]\\n\\nDu weißt inzwischen, was du tust, aber ich erinnere dich trotzdem daran: Das Bergbau-Handbuch der United Resource Workers auf deinem mobi ist eine große Hilfe, falls du mal nicht weiterkommst.\\n\\nGib mir Bescheid, wenn du dabei bist.\\n\\nBEZAHLUNG:\\nDu erhältst eine speziell angefertigte ARGO MOLE als Bezahlung für all deine Hilfe.\\n\\nGENEHMIGUNG:\\nBattaglia, Recco"
     },
     "Battaglia_RPT_ScanMine_01_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Minor Mining Job\\n\\nWORK BRIEF: \\nIf you’ve got time, I’ve got a pretty basic mining job for you. I'm building a database of mineral types and their locations but I need some raw data, so I need someone to locate <EM4>[RESOURCES] [MINEABLETYPE]</EM4>. You can keep what you find, I'll pull the data I need. [RARITY]\\n\\nAlso, if you're stuck on where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
@@ -5065,7 +5064,7 @@
     },
     "Battaglia_RPT_MissCrew_02_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Missing Mining Team\\n\\nWORK BRIEF: \\nOne of our local crews set off for a dig and haven’t checked back in. With everything going on out there, people are starting to get a little worried, so <EM4>we’d like someone to try and get eyes on them</EM4>.\\n\\nI hate to say this, but if something happened to them, could you <EM4>please identify everyone you find</EM4> so we can let next of kin know?\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Auftragstyp: Vermisstes Bergbauteam suchen\\n• Einsatzort: Letzter bekannter Standort (wird übermittelt)\\n• Aufgabe: Die Crew ausfindig machen und Gefundene identifizieren\\n\\n-------------------------------------------------------\\n\\nPeople's Alliance\\n\\nBETREFF: Vermisstes Bergbauteam\\n\\nAUFTRAGSBESCHREIBUNG:\\nDie Crew der [SHIPNAME] ist zu einem Abbau aufgebrochen und hat sich seither nicht mehr gemeldet. Bei allem, was da draußen los ist, machen sich die Leute allmählich Sorgen, deshalb würden wir gern jemanden losschicken, der versucht, sie ausfindig zu machen.\\n\\nIch sage das nur ungern, aber falls ihnen etwas zugestoßen ist, könntest du bitte jeden identifizieren, den du findest, damit wir die Angehörigen benachrichtigen können?\\n\\nBEZAHLUNG:\\nStandard-Listenpreis nach Statusbestätigung der gesamten Crew.\\n\\nGENEHMIGUNG:\\nBattaglia, Recco"
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Auftragstyp: Vermisstes Bergbauteam suchen\\n• Einsatzort: Letzter bekannter Standort (wird übermittelt)\\n• Aufgabe: Die Crew ausfindig machen und Gefundene identifizieren\\n\\n-------------------------------------------------------\\n\\nPeople's Alliance\\n\\nBETREFF: Vermisstes Bergbauteam\\n\\nAUFTRAGSBESCHREIBUNG:\\nEine unserer Teams vor Ort ist zu einem Abbau aufgebrochen und hat sich seither nicht mehr gemeldet. Bei allem, was da draußen los ist, machen sich die Leute allmählich Sorgen, deshalb würden wir gern jemanden losschicken, der versucht, sie ausfindig zu machen.\\n\\nIch sage das nur ungern, aber falls ihnen etwas zugestoßen ist, könntest du bitte jeden identifizieren, den du findest, damit wir die Angehörigen benachrichtigen können?\\n\\nBEZAHLUNG:\\nStandard-Listenpreis nach Statusbestätigung der gesamten Crew.\\n\\nGENEHMIGUNG:\\nBattaglia, Recco"
     },
     "Battaglia_RPT_MissCrew_03_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Missing Persons\\n\\nWORK BRIEF: \\nA group of prospectors set out to look for some mining opportunities and haven’t been heard from since. We’re looking for someone to check in and see if they’re okay.\\n\\nI'll send you <EM4>their last known location</EM4>. Just head out there and see what happened.\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
@@ -5301,7 +5300,7 @@
     },
     "ORS_MedicalAid_HaulingLarge_Desc": {
       "en": "Hey, it’s El.\\n\\nOff the bat – this particular job’s a big deal, so if you’re looking to take this one on for us, make sure you’re confident in your ability to do a job well. \\n\\nWe’ve been contracted by Crusader to deliver medical supplies to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. Bear in mind, this is gonna be a big one, so make sure bring a <EM4>handheld tractor beam</EM4> and a ship that can hold <EM4>24 SCU cargo containers</EM4> otherwise it might be a little rough.\\n\\nI can’t stress the importance of this contract enough – lots of good people got hurt in those attacks, and it’s our responsibility to do what we can to help them in the aftermath. We owe the victims that much, at the very least.\\n\\nLet’s do right by them,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
-      "tr": "• Missionstyp: Sanitätsmaterial-Transport (groß)\\n• Schiffskapazität: [MAX_SCU] SCU\\n• Abholort:\\n   > [LOCATION]\\n\\n• Lieferziel:\\n   > [DESTINATION]\\n\\n• Ausrüstung: Tragbares Traktorstrahlgerät erforderlich\\n• Sicherheitslage: Zeitkritischer Auftrag - Zuverlässigkeit zwingend\\n\\n-------------------------------------------------------\\n\\nHey, hier ist El.\\n\\nGleich vorneweg - dieser Auftrag ist eine große Sache. Wenn du ihn für uns übernehmen willst, stell sicher, dass du dir deiner Fähigkeiten sicher bist.\\n\\nWir wurden von Crusader beauftragt, Sanitätsmaterialien zum angegebenen Lieferziel zu bringen. Abholung am angegebenen Abholort. Denk daran: Das wird eine große Ladung, also bring unbedingt ein tragbares Traktorstrahlgerät mit und ein Schiff, das die erforderliche Frachtkapazität mitbringt - sonst wird's hakelig.\\n\\nIch kann gar nicht genug betonen, wie wichtig dieser Auftrag ist. Bei den Angriffen wurden viele gute Menschen verletzt, und wir tragen die Verantwortung, ihnen in der Nachfolge zu helfen. Das schulden wir den Opfern zumindest.\\n\\nLass uns das für sie richtig machen,\\n\\nElla Tieno\\nJr. Logistikkoordinatorin\\nCovalex Shipping"
+      "tr": "• Missionstyp: Sanitätsmaterial-Transport (groß)\\n• Schiffskapazität: [MAX_SCU] SCU\\n• Abholort:\\n   > [LOCATION]\\n\\n• Lieferziel:\\n   > [DESTINATION]\\n\\n• Ausrüstung: Tragbares Traktorstrahlgerät erforderlich\\n• Sicherheitslage: Zeitkritischer Auftrag - Zuverlässigkeit zwingend\\n\\n-------------------------------------------------------\\n\\nHey, hier ist El.\\n\\nGleich vorneweg - dieser Auftrag ist eine große Sache. Wenn du ihn für uns übernehmen willst, stell sicher, dass du dir deiner Fähigkeiten sicher bist.\\n\\nWir wurden von Crusader beauftragt, Sanitätsmaterialien zum angegebenen Lieferziel zu bringen. Abholung am angegebenen Abholort. Denk daran: Das wird eine große Ladung, also bring unbedingt ein tragbares Traktorstrahlgerät mit und ein Schiff, das die erforderliche Frachtkapazität mitbringt - sonst wird's hakelig.\\n\\nIch kann gar nicht genug betonen, wie wichtig dieser Auftrag ist. Bei den Angriffen wurden viele gute Menschen verletzt, und wir tragen die Verantwortung, ihnen in der Nachfolge zu helfen. Das ist das Mindeste was wir tun können.\\n\\nLass uns das für sie richtig machen,\\n\\nElla Tieno\\nJr. Logistikkoordinatorin\\nCovalex Shipping"
     },
     "ORS_MedicalAid_Delivery_Desc": {
       "en": "Hello,\\n\\nCrusader has asked us here at Ling Family Hauling to aid their relief efforts, and it’s extremely important to us as a business and a family to do this right. The thought of what happened to the victims of Orison happening to anyone in my family… We owe it to the survivors to do everything in our power to help them.\\nThe medical supplies Crusader needs are set to get picked up from <EM4>[LOCATION]</EM4> and needs to be dropped at <EM4>[DESTINATION]</EM4>. And be sure to bring a <EM4>handheld tractor beam</EM4> to speed things along.\\n\\nThank you, \\nConni Ling\\nShipment Coordinator\\nLing Family Hauling",
@@ -5317,7 +5316,7 @@
     },
     "ORS_MedicalAid_HaulingMedium_desc": {
       "en": "Hey, it’s El.\\n\\nCrusader is still trying to make things right in Orison following the attack, so I’m hoping you’re free to keep assisting with the effort.\\n\\nWe been contracted to deliver relief supplies to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. \\nNot too shabby a haul either, so make sure you’re in a ship that can hold <EM4>24 SCU cargo containers</EM4> and bring a <EM4>handheld tractor beam</EM4>, or you’ll make us all look unprofessional.\\n\\nI’m not kidding around with this job being important to get done right. Lotta people got hurt during the Nine Tails raid, and they’re relying on people like us to get them the help they need. So let’s do right by them, okay?\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
-      "tr": "• Missionstyp: Sanitätsmaterial-Transport (mittel)\\n• Schiffskapazität: [MAX_SCU] SCU\\n• Abholort:\\n   > [LOCATION]\\n\\n• Lieferziel:\\n   > [DESTINATION]\\n\\n• Ausrüstung: Tragbares Traktorstrahlgerät erforderlich\\n\\n-------------------------------------------------------\\n\\nHey, hier ist El.\\n\\nCrusader versucht noch immer, die Dinge in Orison nach dem Angriff wieder in Ordnung zu bringen - ich hoffe, du bist bereit, bei der Hilfsoperation weiterzumachen.\\n\\nWir wurden beauftragt, Hilfsgüter zum angegebenen Lieferziel zu bringen. Abholung am angegebenen Abholort.\\nStell sicher, dass dein Schiff die erforderliche Frachtkapazität mitbringt, und nimm ein tragbares Traktorstrahlgerät mit - sonst lässt du uns alle schlecht aussehen.\\n\\nIch mache keine Witze, wenn ich sage, dass dieser Auftrag wichtig ist. Viele Menschen wurden beim Nine-Tails-Überfall verletzt und verlassen sich darauf, dass Leute wie wir ihnen die Hilfe bringen, die sie brauchen. Also lass uns das für sie richtig hinbekommen, okay?\\n\\nElla Tieno\\nJr. Logistikkoordinatorin\\nCovalex Shipping"
+      "tr": "• Missionstyp: Sanitätsmaterial-Transport (mittel)\\n• Schiffskapazität: [MAX_SCU] SCU\\n• Abholort:\\n   > [LOCATION]\\n\\n• Lieferziel:\\n   > [DESTINATION]\\n\\n• Ausrüstung: Tragbares Traktorstrahlgerät erforderlich\\n\\n-------------------------------------------------------\\n\\nHey, hier ist El.\\n\\nCrusader versucht noch immer, die Dinge in Orison nach dem Angriff wieder in Ordnung zu bringen - ich hoffe, du bist bereit, bei der Hilfsoperation weiterzumachen.\\n\\nWir wurden beauftragt, Hilfsgüter zum angegebenen Lieferziel zu bringen. Abholung vom angegebenen Abholort.\\nStell sicher, dass dein Schiff die erforderliche Frachtkapazität mitbringt, und nimm ein tragbares Traktorstrahlgerät mit - sonst lässt du uns alle schlecht aussehen.\\n\\nIch mache keine Witze, wenn ich sage, dass dieser Auftrag wichtig ist. Viele Menschen wurden beim Nine-Tails-Überfall verletzt und verlassen sich darauf, dass Leute wie wir ihnen die Hilfe bringen, die sie brauchen. Also lass uns das für sie richtig hinbekommen, okay?\\n\\nElla Tieno\\nJr. Logistikkoordinatorin\\nCovalex Shipping"
     },
     "ORS_BunkerRaid_Desc": {
       "en": "Some of the Nine Tails responsible for the attack on Orison have reportedly been sighted around <EM4>[LOCATION]</EM4> marshalling their forces. Crusader is concerned they’re planning another attack, so this is a job that needs doing well.\\n\\nYou’ll be tasked with infiltrating the site and neutralizing the Nine Tails however necessary before they can enact a retaliation attempt on Orison. As I’m sure you’re aware, these guys are bad news, so be careful they don’t get the better of you.\\n\\nGood luck,\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
@@ -5333,7 +5332,7 @@
     },
     "ORS_MedicalAid_HaulingSmall_Desc": {
       "en": "Hey, it’s El.\\n\\nNeed a reliable contractor for a pretty important delivery today. I’m sure you’re aware of what went down in Orison, big commotion. Made my job about ten times harder.\\n\\nAnyway, we’ve been contracted by Crusader to deliver some medical stuff to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. Shouldn’t be too heavy an order for this one, just make sure you’ve got a ship that can hold <EM4>24 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4>, or you’ll really embarrass yourself when you get there.\\n\\nLook, I’ll level with you. This job isn’t just hauling for hauling’s sake. Orison got pretty messed up by those Nine Tails, so anything we can do to help them out is probably the right thing to do.\\n\\nLet’s get it done,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
-      "tr": "• Missionstyp: Sanitätsmaterial-Transport (klein)\\n• Schiffskapazität: [MAX_SCU] SCU\\n• Abholort:\\n   > [LOCATION]\\n\\n• Lieferziel:\\n   > [DESTINATION]\\n\\n• Ausrüstung: Tragbares Traktorstrahlgerät erforderlich\\n\\n-------------------------------------------------------\\n\\nHey, hier ist El.\\n\\nIch brauche heute einen zuverlässigen Auftragnehmer für eine ziemlich wichtige Lieferung. Du weißt sicher, was in Orison passiert ist - großes Chaos. Hat meinen Job ungefähr zehnmal schwieriger gemacht.\\n\\nJedenfalls wurden wir von Crusader beauftragt, Sanitätsmaterialien zum angegebenen Lieferziel zu bringen. Abholung am angegebenen Abholort. Für diesen Auftrag sollte die Ladung nicht allzu groß sein - stell einfach sicher, dass dein Schiff die erforderliche Frachtkapazität mitbringt, und nimm ein tragbares Traktorstrahlgerät mit, sonst stehst du dort ziemlich dumm da.\\n\\nEhrlich gesagt: Das hier ist kein Routinetransport. Orison hat durch die Nine Tails ziemlich was abbekommen, und alles, was wir tun können, um zu helfen, ist wohl das Richtige.\\n\\nLos, das kriegen wir hin,\\n\\nElla Tieno\\nJr. Logistikkoordinatorin\\nCovalex Shipping"
+      "tr": "• Missionstyp: Sanitätsmaterial-Transport (klein)\\n• Schiffskapazität: [MAX_SCU] SCU\\n• Abholort:\\n   > [LOCATION]\\n\\n• Lieferziel:\\n   > [DESTINATION]\\n\\n• Ausrüstung: Tragbares Traktorstrahlgerät erforderlich\\n\\n-------------------------------------------------------\\n\\nHey, hier ist El.\\n\\nIch brauche heute einen zuverlässigen Auftragnehmer für eine ziemlich wichtige Lieferung. Du weißt sicher, was in Orison passiert ist - großes Chaos. Hat meinen Job ungefähr zehnmal schwieriger gemacht.\\n\\nJedenfalls wurden wir von Crusader beauftragt, Sanitätsmaterialien zum angegebenen Lieferziel zu bringen. Abholung vom angegebenen Abholort. Für diesen Auftrag sollte die Ladung nicht allzu groß sein - stell einfach sicher, dass dein Schiff die erforderliche Frachtkapazität mitbringt, und nimm ein tragbares Traktorstrahlgerät mit, sonst stehst du dort ziemlich dumm da.\\n\\nEhrlich gesagt: Das hier ist kein Routinetransport. Orison hat durch die Nine Tails ziemlich was abbekommen, und alles, was wir tun können, um zu helfen, ist wohl das Richtige.\\n\\nLos, das kriegen wir hin,\\n\\nElla Tieno\\nJr. Logistikkoordinatorin\\nCovalex Shipping"
     },
     "ORS_ShipWaveAt_Desc": {
       "en": "Just got word that some of the Nine Tails involved in the recent assault on Orison are convening near <EM4>[LOCATION]</EM4> before launching their next attack. We need a capable fighter pilot to head them off and take care of them before they start wreaking havoc again.\\n\\nTo complicate matters, from what we know there’s a very high chance that they might have additional reinforcements inbound, so be sure the extra ships don’t take you by surprise.\\n\\nAll the best,\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
@@ -5341,7 +5340,7 @@
     },
     "ORS_ShipAmb_Desc": {
       "en": "Looking for a tough and competent pilot in the area willing to take on some of the outlaws responsible for the attack on Crusader. We’ve received word that a group of Nine Tails stragglers are hunkering down near <EM4>[LOCATION]</EM4> after they got pushed out of Orison, and Crusader Security wants our help dealing with them while they’re down. \\n\\nWe’ve mapped out a good spot in the area to get the drop on them, so you’ll go there, wait quietly until they show up, and hit them before they know what’s happening. Hopefully this’ll send a message to the rest of them out there that their actions have consequences.\\n\\nGood luck,\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
-      "tr": "• Missionstyp: Gezielte Bekämpfung (Schiffskampf)\\n• Einsatzort:\\n   > [LOCATION]\\n\\n• Aufgabe: Nine-Tails-Nachzügler abfangen und neutralisieren\\n• Sicherheitslage: Feinde angeschlagen - Überraschungsangriff empfohlen\\n\\n-------------------------------------------------------\\n\\nIch suche einen erfahrenen und kompetenten Piloten in der Gegend, der bereit ist, einige der Verbrecher zu stellen, die für den Angriff auf Crusader verantwortlich sind. Wir haben erfahren, dass eine Gruppe Nine-Tails-Nachzügler sich am Einsatzort verschanzt hat, nachdem sie aus Orison verdrängt wurden - und Crusader Security will, dass wir sie ausschalten, solange sie noch angeschlagen sind.\\n\\nWir haben einen guten Punkt in der Gegend ausgemacht, um sie zu überraschen. Fahr also hin, warte still, bis sie auftauchen, und schlage zu, bevor sie wissen, was passiert. Das sollte dem Rest von denen da draußen eine klare Botschaft senden, dass ihre Taten Konsequenzen haben.\\n\\nViel Erfolg,\\n\\nKevin Walton\\nDisponent, Foxwell Enforcement\\n'Sicherheit, auf deine Art'\\n\\nFoxwell Enforcement ist ein zugelassener Sicherheitsspezialist mit Lizenz für den Betrieb in der gesamten UEE. Wir sind immer auf der Suche nach neuen Einsatzkräften, die unserer Familie beitreten möchten."
+      "tr": "• Missionstyp: Gezielte Bekämpfung (Schiffskampf)\\n• Einsatzort:\\n   > [LOCATION]\\n\\n• Aufgabe: Nine-Tails-Nachzügler abfangen und neutralisieren\\n• Sicherheitslage: Feinde angeschlagen - Überraschungsangriff empfohlen\\n\\n-------------------------------------------------------\\n\\nIch suche einen erfahrenen und kompetenten Piloten in der Gegend, der bereit ist, einige der Verbrecher zu stellen, die für den Angriff auf Crusader verantwortlich sind. Wir haben erfahren, dass eine Gruppe Nine-Tails-Nachzügler sich am Einsatzort verschanzt hat, nachdem sie aus Orison verdrängt wurden - und Crusader Security will, dass wir sie ausschalten, solange sie noch angeschlagen sind.\\n\\nWir haben einen guten Punkt in der Gegend ausgemacht, um sie zu überraschen. Flieg also hin, warte still, bis sie auftauchen, und schlage zu, bevor sie wissen, was passiert. Das sollte dem Rest von denen da draußen eine klare Botschaft senden, dass ihre Taten Konsequenzen haben.\\n\\nViel Erfolg,\\n\\nKevin Walton\\nDisponent, Foxwell Enforcement\\n'Sicherheit, auf deine Art'\\n\\nFoxwell Enforcement ist ein zugelassener Sicherheitsspezialist mit Lizenz für den Betrieb in der gesamten UEE. Wir sind immer auf der Suche nach neuen Einsatzkräften, die unserer Familie beitreten möchten."
     },
     "BitZeros_blackbox_VH_Desc_001": {
       "en": "I’m not gonna give you the whole backstory of what this person has done to us, but all you need to know is that some scumbag is trying to get a payout for a ship crash and the insurance company wants to see the blackbox recording to make sure everything is “above board”.\\n\\nWe’re not gonna let that happen though.\\n\\nSnatch that blackbox at <EM4>[LOCATION]</EM4> and bring it to us instead so we can do some “creative editing” on the recording.\\n\\nApparently, this area is a bit of a hot zone. Probably why they staged the accident there. You should probably bring some backup so you don’t get ghosted before you can bring the blackbox to us at <EM4>[DESTINATION]</EM4>.\\n\\n-Bit Zeros",
@@ -5885,7 +5884,7 @@
     },
     "Battaglia_RPT_Scan_Prosp_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Scan, Mine, and Prospector Payout\\n\\nWORK BRIEF: \\nStill pulling together data on mining and mineral extraction but got a special payout for this one. Once <EM4>you scan [RESOURCES]</EM4> and relay your stats back to us, I'll get you something real nice for all your help. [RARITY]\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nGot a special MISC Prospector as payment for all your help.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Auftragstyp: Erz-Scan (Sonderauftrag)\\n• Gesuchter Rohstoff: [RESOURCES]\\n• Hinweis: [RARITY]\\n• Belohnung: MISC Prospector\\n\\n-------------------------------------------------------\\n\\nPeople's Alliance\\n\\nBETREFF: Scannen, Abbauen und Prospector-Belohnung\\n\\nAUFTRAGSBESCHREIBUNG:\\nWir tragen noch immer Daten über Bergbau und Mineralienabbau zusammen, aber für diesen Auftrag gibt es eine besondere Auszahlung. Sobald du den gesuchten Rohstoff scannst und uns deine Werte übermittelst, besorge ich dir für all deine Hilfe etwas richtig Schönes.\\n\\nDu weißt inzwischen, was du tust, aber ich erinnere dich trotzdem daran, dass das Bergbau-Journal der United Resource Workers auf deinem Mobi eine große Hilfe ist, falls du nicht weiterkommst.\\n\\nSag mir Bescheid, ob du dabei bist.\\n\\nBEZAHLUNG:\\nAls Bezahlung für all deine Hilfe gibt es einen besonderen MISC Prospector.\\n\\nGENEHMIGUNG:\\nBattaglia, Recco"
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Auftragstyp: Erz-Scan (Spezialauftrag)\\n• Gesuchter Rohstoff: [RESOURCES]\\n• Hinweis: [RARITY]\\n• Belohnung: MISC Prospector\\n\\n-------------------------------------------------------\\n\\nPeople's Alliance\\n\\nBETREFF: Scannen, Abbauen und Prospector-Belohnung\\n\\nAUFTRAGSBESCHREIBUNG:\\nWir tragen noch immer Daten über Bergbau und Mineralienabbau zusammen, aber für diesen Auftrag gibt es eine besondere Auszahlung. Sobald du den gesuchten Rohstoff scannst und uns deine Werte übermittelst, besorge ich dir für all deine Hilfe etwas richtig Schönes.\\n\\nDu weißt inzwischen, was du tust, aber ich erinnere dich trotzdem daran, dass das Bergbau-Journal der United Resource Workers auf deinem Mobi eine große Hilfe ist, falls du nicht weiterkommst.\\n\\nSag mir Bescheid, ob du dabei bist.\\n\\nBEZAHLUNG:\\nAls Bezahlung für all deine Hilfe gibt es eine besondere MISC Prospector.\\n\\nGENEHMIGUNG:\\nBattaglia, Recco"
     },
     "Headhunters_SecurityPatrol_E_Desc_001": {
       "en": "Headhunters have been expanding, but still need help getting a lay of our new territory. I’ve got a run to check spots we want scanned ready to go. \\n\\nThis one kicks off at the <EM4>location marker</EM4> on your HUD and will look at a few more locations after that, but I’ll update you as we clear them out. Not expecting you to run into any trouble but no guarantees. Trouble seems to follow us.\\n\\nGet this done and I'll toss the main contractor <EM4>4 Council Scrip</EM4> as a thanks.\\n\\nStows out.",
@@ -10212,8 +10211,8 @@
       "tr": "[AMOUNTTOSCAN] von [RESOURCETYPE], [AMOUNTTOSCAN2] von [RESOURCETYPE2] und [AMOUNTTOSCAN3] von [RESOURCETYPE3]"
     },
     "Battaglia_RPT_Rarity_Uncommon_desc": {
-      "en": "Die könnten etwas schwer zu finden sein, nur damit du Bescheid weißt.",
-      "tr": "Die könnten etwas schwer zu finden sein, nur damit du Bescheid weißt."
+      "en": "Das könnte etwas schwer zu finden sein, nur damit du Bescheid weißt.",
+      "tr": "Das könnte etwas schwer zu finden sein, nur damit du Bescheid weißt."
     },
     "HaulCargo_3_MultiToSingleToken": {
       "en": "• Am Frachtaufzug:\\n   > ~mission(Location|Address)\\n\\n• Am Frachtaufzug:\\n   > ~mission(Location1|Address)\\n\\n• Am Frachtaufzug:\\n   > ~mission(Location2|Address)",
@@ -10320,8 +10319,8 @@
       "tr": "Iron"
     },
     "Battaglia_RPT_Rarity_common_desc": {
-      "en": "Die sollten ziemlich leicht zu finden sein.",
-      "tr": "Die sollten ziemlich leicht zu finden sein."
+      "en": "Das sollte ziemlich leicht zu finden sein.",
+      "tr": "Das sollte ziemlich leicht zu finden sein."
     },
     "area_name_entrance": {
       "en": "Eingangshalle",
@@ -12467,22 +12466,6 @@
       "en": "Beacon Undersuit",
       "tr": "Beacon Undersuit"
     },
-    "_noloc_item_BlackFire Racing Flight Suit": {
-      "en": "BlackFire Racing Flight Suit",
-      "tr": "BlackFire Racing Flight Suit"
-    },
-    "_noloc_item_BlackFire Racing Helmet": {
-      "en": "BlackFire Racing Helmet",
-      "tr": "BlackFire Racing Helmet"
-    },
-    "_noloc_item_BlueFlame Racing Flight Suit": {
-      "en": "BlueFlame Racing Flight Suit",
-      "tr": "BlueFlame Racing Flight Suit"
-    },
-    "_noloc_item_BlueFlame Racing Helmet": {
-      "en": "BlueFlame Racing Helmet",
-      "tr": "BlueFlame Racing Helmet"
-    },
     "item_Name_cds_legacy_armor_light_helmet_01_01_17": {
       "en": "CBH-3 Helmet Aqua",
       "tr": "CBH-3 Helmet Aqua"
@@ -13519,14 +13502,6 @@
       "en": "Microid Battle Suit Legs",
       "tr": "Microid Battle Suit Legs"
     },
-    "_noloc_item_Mirai Racing Flight Suit": {
-      "en": "Mirai Racing Flight Suit",
-      "tr": "Mirai Racing Flight Suit"
-    },
-    "_noloc_item_Mirai Racing Helmet": {
-      "en": "Mirai Racing Helmet",
-      "tr": "Mirai Racing Helmet"
-    },
     "item_Name_kap_combat_heavy_arms_02_01_01": {
       "en": "Monde Arms",
       "tr": "Monde Arms"
@@ -13750,6 +13725,38 @@
     "item_Name_rrs_specialist_heavy_legs_01_01_10": {
       "en": "Morozov-SH Legs Thule",
       "tr": "Morozov-SH Legs Thule"
+    },
+    "item_Name_mrai_flightsuit_01_07_12": {
+      "en": "Neutrino Racing Flight Suit BlackFire",
+      "tr": "Neutrino Racing Flight Suit BlackFire"
+    },
+    "item_Name_mrai_flightsuit_01_07_18": {
+      "en": "Neutrino Racing Flight Suit BlueFlame",
+      "tr": "Neutrino Racing Flight Suit BlueFlame"
+    },
+    "item_Name_mrai_flightsuit_01_01_01": {
+      "en": "Neutrino Racing Flight Suit Mirai",
+      "tr": "Neutrino Racing Flight Suit Mirai"
+    },
+    "item_Name_mrai_flightsuit_01_07_02": {
+      "en": "Neutrino Racing Flight Suit WhiteHot",
+      "tr": "Neutrino Racing Flight Suit WhiteHot"
+    },
+    "item_Name_mrai_flightsuit_helmet_01_07_12": {
+      "en": "Neutrino Racing Helmet BlackFire",
+      "tr": "Neutrino Racing Helmet BlackFire"
+    },
+    "item_Name_mrai_flightsuit_helmet_01_07_18": {
+      "en": "Neutrino Racing Helmet BlueFlame",
+      "tr": "Neutrino Racing Helmet BlueFlame"
+    },
+    "item_Name_mrai_flightsuit_helmet_01_01_01": {
+      "en": "Neutrino Racing Helmet Mirai",
+      "tr": "Neutrino Racing Helmet Mirai"
+    },
+    "item_Name_mrai_flightsuit_helmet_01_07_02": {
+      "en": "Neutrino Racing Helmet WhiteHot",
+      "tr": "Neutrino Racing Helmet WhiteHot"
     },
     "item_Name_clda_env_heavy_backpack_01_02_04": {
       "en": "Novikov Backpack Halcyon",
@@ -14615,7 +14622,7 @@
       "en": "Strata Arms Amber",
       "tr": "Strata Arms Amber"
     },
-    "item_Name_m_grin_utility_medium_arms_03_05": {
+    "item_Name_GRIN_utility_medium_arms_03_05_16": {
       "en": "Strata Arms Levski Edition",
       "tr": "Strata Arms Levski Edition"
     },
@@ -14635,7 +14642,7 @@
       "en": "Strata Backpack",
       "tr": "Strata Backpack"
     },
-    "item_Name_medium_backpack_03_05": {
+    "item_Name_GRIN_utility_medium_backpack_03_05_16": {
       "en": "Strata Backpack Levski Edition",
       "tr": "Strata Backpack Levski Edition"
     },
@@ -14647,7 +14654,7 @@
       "en": "Strata Core Amber",
       "tr": "Strata Core Amber"
     },
-    "item_Name_m_grin_utility_medium_core_03_05": {
+    "item_Name_GRIN_utility_medium_core_03_05_16": {
       "en": "Strata Core Levski Edition",
       "tr": "Strata Core Levski Edition"
     },
@@ -14711,7 +14718,7 @@
       "en": "Strata Legs Amber",
       "tr": "Strata Legs Amber"
     },
-    "item_Name_m_grin_utility_medium_legs_03_05": {
+    "item_Name_GRIN_utility_medium_legs_03_05_16": {
       "en": "Strata Legs Levski Edition",
       "tr": "Strata Legs Levski Edition"
     },
@@ -15162,14 +15169,6 @@
     "item_Name_vgl_combat_heavy_backpack_01_12_01": {
       "en": "Warden Backpack Purgatory Camo",
       "tr": "Warden Backpack Purgatory Camo"
-    },
-    "_noloc_item_WhiteHot Racing Flight Suit": {
-      "en": "WhiteHot Racing Flight Suit",
-      "tr": "WhiteHot Racing Flight Suit"
-    },
-    "_noloc_item_WhiteHot Racing Helmet": {
-      "en": "WhiteHot Racing Helmet",
-      "tr": "WhiteHot Racing Helmet"
     },
     "item_Name_srvl_undersuit_helmet_01": {
       "en": "Why Not? Flight Helmet",
