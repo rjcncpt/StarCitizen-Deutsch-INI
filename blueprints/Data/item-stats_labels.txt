@@ -1,0 +1,33 @@
+manufacturer|Hersteller|Manufacturer
+item_type|Typ|Item Type
+size|Größe|Size
+grade|Gütegrad|Grade
+class|Klasse|Class
+damage_reduction|Schadensreduktion|Damage Reduction
+temp_rating|Temperaturbereich|Temp. Rating
+radiation_protection|Strahlungsschutz|Radiation Protection
+radiation_scrub_rate|Strahlungsabbaurate|Radiation Scrub Rate
+magazine_size|Magazinkapazität|Magazine Size
+damage_per_shot|Schaden pro Schuss|Damage Per Shot
+rate_of_fire|Schussrate|Rate Of Fire
+sustained_damage|Anhaltender Schaden|Sustained Damage
+projectile_speed|Projektilgeschwindigkeit|Projectile Speed
+max_range|Max. Reichweite|Max. Range
+shield_health|Schildstärke|Shield Health
+regeneration|Regeneration|Regeneration
+downed_regen_delay|Verzögerung nach Ausfall|Downed Regen Delay
+damaged_regen_delay|Verzögerung nach Treffer|Damaged Regen Delay
+drive_speed|Reisegeschwindigkeit|Drive Speed
+spool_up_time|Aufladezeit|Spool Up Time
+cooldown_time|Abklingzeit|Cooldown Time
+power_output|Leistung|Power Output
+cooling_rate|Kühlleistung|Cooling Rate
+sensitivity|Empfindlichkeit|Sensitivity
+piercing|Durchdringung|Piercing
+ping_cooldown|Ping-Abklingzeit|Ping Cooldown
+fracturing|Aufbrechen|Fracturing
+em_signature|EM-Signatur|EM Signature
+ir_signature|IR-Signatur|IR Signature
+integrity|Integrität|Integrity
+power_draw|Energiebedarf|Power Draw
+weight|Gewicht|Weight
