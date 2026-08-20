@@ -1,0 +1,76 @@
+{
+    "channels": [
+        {
+            "description": "LIVE",
+            "folder": "LIVE",
+            "active": 1,
+            "bp_enabled": 1,
+            "hinweis_": "⚠ Wird vorbereitet",
+            "server1": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/global.ini",
+            "server2": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/.github/en/live/global.ini",
+            "server3": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/full/global.ini",
+            "server4": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live-CH/global.ini"
+            "server1_fallback": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/global.ini",
+            "server2_fallback": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/.github/en/live/global.ini",
+            "server3_fallback": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/full/global.ini",
+            "server4_fallback": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live-CH/global.ini"
+        },
+        {
+            "description": "HOTFIX",
+            "folder": "HOTFIX",
+            "active": 1,
+            "bp_enabled": 1,
+            "hinweis_": "⚠ Wird vorbereitet",
+            "server1": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/global.ini",
+            "server2": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/.github/en/live/global.ini",
+            "server3": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/full/global.ini",
+            "server4": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live-CH/global.ini"
+            "server1_fallback": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/global.ini",
+            "server2_fallback": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/.github/en/live/global.ini",
+            "server3_fallback": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live/full/global.ini",
+            "server4_fallback": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/live-CH/global.ini"
+        },
+        {
+            "description": "PTU",
+            "folder": "PTU",
+            "active": 1,
+            "bp_enabled": 0,
+            "hinweis_": "⚠ Wird vorbereitet",
+            "server1": "",
+            "server2": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/.github/en/live/global.ini",
+            "server3": "",
+            "server4": "",
+            "server1_fallback": "",
+            "server2_fallback": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/.github/en/live/global.ini",
+            "server3_fallback": "",
+            "server4_fallback": ""
+        },
+        {
+            "description": "TECH-PREV",
+            "folder": "TECH-PREV",
+            "active": 1,
+            "bp_enabled": 0,
+            "hinweis_": "⚠ Wird vorbereitet",
+            "server1": "",
+            "server2": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/.github/en/live/global.ini",
+            "server3": "",
+            "server4": "",
+            "server1_fallback": "",
+            "server2_fallback": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/.github/en/live/global.ini",
+            "server3_fallback": "",
+            "server4_fallback": ""
+        }
+    ],
+    "backup": {
+        "EPTU": {
+            "description": "EPTU",
+            "folder": "EPTU",
+            "active": 0,
+            "bp_enabled": 1,
+            "server1": "https://www.sc-deutsch-launcher.de/redirect/ini_eptu.php",
+            "server2": "",
+            "server1_fallback": "https://raw.githubusercontent.com/rjcncpt/StarCitizen-Deutsch-INI/main/eptu/global.ini",
+            "server2_fallback": ""
+        }
+    }
+}
