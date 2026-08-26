@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "generiert": "2026-08-20 13:27:09",
-    "version_patch": "4.9.0-live.12344265",
-    "eintraege": 1552,
-    "version": "LIVE 20.08.2026",
+    "generiert": "2026-08-26 16:26:00",
+    "version_patch": "4.10.0-live.12504217",
+    "eintraege": 1559,
+    "version": "LIVE 26.08.2026",
     "github": "/rjcncpt"
   },
   "entries": [
@@ -584,7 +584,7 @@
       "manufacturer": "Behring",
       "size": 4,
       "grade": "A",
-      "description": "Hersteller: Behring\\n\\nTyp (En): Ballistic Cannon\\nTyp (De): Ballistische Kanone\\n\\nGröße: S4\\nGütegrad: A\\nKlasse: Ballistisch\\nMagazinkapazität: 270 Schuss\\nSchaden pro Schuss: 1090 (Physisch)\\nSchussrate: 40 Schuss/min\\nAnhaltender Schaden: 727 /s\\nProjektilgeschwindigkeit: 1152 m/s, 3,04 s Flugzeit\\nMax. Reichweite: 3502 m\\nGewicht: 2250 kg\\n\\n<EM4>#</EM4> Herstellbar in: 49 Min\\n  - Iron 2,08 (Rahmen)\\n  - Riccite 0,31 (Wechsler)\\n  - Titanium 1,04 (Lauf)",
+      "description": "Hersteller: Behring\\n\\nTyp (En): Ballistic Cannon\\nTyp (De): Ballistische Kanone\\n\\nGröße: S4\\nGütegrad: A\\nKlasse: Ballistisch\\nMagazinkapazität: 270 Schuss\\nSchaden pro Schuss: 975 (Physisch)\\nSchussrate: 40 Schuss/min\\nAnhaltender Schaden: 650 /s\\nProjektilgeschwindigkeit: 1152 m/s, 3,04 s Flugzeit\\nMax. Reichweite: 3502 m\\nGewicht: 2250 kg\\n\\n<EM4>#</EM4> Herstellbar in: 49 Min\\n  - Iron 2,08 (Rahmen)\\n  - Riccite 0,31 (Wechsler)\\n  - Titanium 1,04 (Lauf)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -2049,7 +2049,7 @@
       "manufacturer": "Gallenson Tactical Systems",
       "size": 3,
       "grade": "A",
-      "description": "Hersteller: Gallenson Tactical Systems\\n\\nTyp (En): Ballistic Gatling\\nTyp (De): Ballistische Gatling\\n\\nGröße: S3\\nGütegrad: A\\nKlasse: Ballistisch\\nMagazinkapazität: 4314 Schuss\\nSchaden pro Schuss: 19 (Physisch)\\nSchussrate: 1600 Schuss/min\\nAnhaltender Schaden: 507 /s\\nProjektilgeschwindigkeit: 1332 m/s, 1,80 s Flugzeit\\nMax. Reichweite: 2398 m\\nGewicht: 150 kg\\n\\n<EM4>#</EM4> Herstellbar in: 28 Min\\n  - Iron 1,16 (Rahmen)\\n  - Ouratite 0,12 (Antriebsmotor)\\n  - Tungsten 0,70 (Läufe)",
+      "description": "Hersteller: Gallenson Tactical Systems\\n\\nTyp (En): Ballistic Gatling\\nTyp (De): Ballistische Gatling\\n\\nGröße: S3\\nGütegrad: A\\nKlasse: Ballistisch\\nMagazinkapazität: 4314 Schuss\\nSchaden pro Schuss: 32 (Physisch)\\nSchussrate: 1600 Schuss/min\\nAnhaltender Schaden: 853 /s\\nProjektilgeschwindigkeit: 1332 m/s, 1,80 s Flugzeit\\nMax. Reichweite: 2398 m\\nGewicht: 150 kg\\n\\n<EM4>#</EM4> Herstellbar in: 28 Min\\n  - Iron 1,16 (Rahmen)\\n  - Ouratite 0,12 (Antriebsmotor)\\n  - Tungsten 0,70 (Läufe)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -4242,6 +4242,19 @@
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
+      "descKey": "item_Desc_cds_combat_heavy_helmet_01_02_02",
+      "nameKey": "item_Name_cds_combat_heavy_helmet_01_02_02",
+      "name": "ADP-mk4 Helmet SecondWind",
+      "entityClass": "97849417-fbb7-40b6-9599-e691761b7f77",
+      "itemType": "Helm (schwer)",
+      "manufacturer": "Clark Defense Systems",
+      "size": 1,
+      "grade": "A",
+      "description": "Hersteller: Clark Defense Systems\\n\\nTyp (En): Heavy Helmet\\nTyp (De): Helm (schwer)\\n\\nGröße: S1\\nGütegrad: A\\nSchadensreduktion: 40 %\\nTemperaturbereich: -70 / 100 °C\\nStrahlungsschutz: 26800 REM\\nStrahlungsabbaurate: 145,8 REM/s\\nGewicht: 5 kg\\n\\n<EM4>#</EM4> Herstellbar in: 4 Min\\n  - Ouratite 0,05 (Gepanzerte Hülle)\\n  - Aslarite 0,01 (Isolierschicht)",
+      "divider": "---------------------------------------------------------\\n\\n",
+      "fix": "Temperaturbereich: -70 / 100 °C\\nStrahlungsschutz: 26800 REM\\nStrahlungsabbaurate: 145,8 REM/s"
+    },
+    {
       "descKey": "item_Desc_cds_heavy_armor_helmet_01",
       "nameKey": "item_Name_cds_heavy_armor_helmet_01",
       "name": "ADP-mk4 Helmet Woodland",
@@ -4295,6 +4308,18 @@
       "nameKey": "item_Name_qrt_specialist_heavy_arms_01_01_12",
       "name": "Antium Arms Jet",
       "entityClass": "caa2922b-8512-4430-9980-6238747acaab",
+      "itemType": "Arm-Rüstung (schwer)",
+      "manufacturer": "Quirinus Tech",
+      "size": 1,
+      "grade": "A",
+      "description": "Hersteller: Quirinus Tech\\n\\nTyp (En): Heavy Armor\\nTyp (De): Arm-Rüstung (schwer)\\n\\nGröße: S1\\nGütegrad: A\\nSchadensreduktion: 40 %\\nTemperaturbereich: -95 / 120 °C\\nStrahlungsschutz: 26800 REM\\nStrahlungsabbaurate: 145,8 REM/s\\nGewicht: 6 kg\\n\\n<EM4>#</EM4> Herstellbar in: 4 Min\\n  - Tungsten 0,06 (Schutzummantelung)\\n  - Aslarite 0,02 (Isolierschicht)\\n  - Stileron 0,06 (Ummantelungsbeschichtung)",
+      "divider": "---------------------------------------------------------\\n\\n"
+    },
+    {
+      "descKey": "item_Desc_qrt_specialist_heavy_arms_01_01_13",
+      "nameKey": "item_Name_qrt_specialist_heavy_arms_01_01_13",
+      "name": "Antium Arms Maroon",
+      "entityClass": "572a21b6-4c39-4311-89af-93bbfefbef6a",
       "itemType": "Arm-Rüstung (schwer)",
       "manufacturer": "Quirinus Tech",
       "size": 1,
@@ -4360,18 +4385,6 @@
       "size": 1,
       "grade": "A",
       "description": "Hersteller: Quirinus Tech\\n\\nTyp (En): Heavy Armor\\nTyp (De): Brust-Rüstung (schwer)\\n\\nGröße: S1\\nGütegrad: A\\nSchadensreduktion: 40 %\\nTemperaturbereich: -95 / 120 °C\\nStrahlungsschutz: 26800 REM\\nStrahlungsabbaurate: 145,8 REM/s\\nGewicht: 7 kg\\n\\n<EM4>#</EM4> Herstellbar in: 4 Min\\n  - Tungsten 0,07 (Schutzummantelung)\\n  - Aslarite 0,02 (Isolierschicht)\\n  - Stileron 0,06 (Ummantelungsbeschichtung)",
-      "divider": "---------------------------------------------------------\\n\\n"
-    },
-    {
-      "descKey": "item_Desc_qrt_specialist_heavy_arms_01_01_13",
-      "nameKey": "item_Name_qrt_specialist_heavy_arms_01_01_13",
-      "name": "Antium Helmet Jet",
-      "entityClass": "4ddd8283-1b5c-422b-825d-5dee1e776fcf",
-      "itemType": "Helm (schwer)",
-      "manufacturer": "Quirinus Tech",
-      "size": 1,
-      "grade": "A",
-      "description": "Hersteller: Quirinus Tech\\n\\nTyp (En): Heavy Helmet\\nTyp (De): Helm (schwer)\\n\\nGröße: S1\\nGütegrad: A\\nSchadensreduktion: 40 %\\nTemperaturbereich: -85 / 115 °C\\nStrahlungsschutz: 26800 REM\\nStrahlungsabbaurate: 145,8 REM/s\\nGewicht: 5 kg\\n\\n<EM4>#</EM4> Herstellbar in: 4 Min\\n  - Tungsten 0,05 (Schutzummantelung)\\n  - Aslarite 0,01 (Isolierschicht)\\n  - Stileron 0,05 (Ummantelungsbeschichtung)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -4459,15 +4472,15 @@
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
-      "descKey": "item_Desc_qrt_specialist_heavy_arms_01_01_13",
-      "nameKey": "item_Name_qrt_specialist_heavy_arms_01_01_13",
+      "descKey": "item_Desc_qrt_specialist_heavy_helmet_01_01_12",
+      "nameKey": "item_Name_qrt_specialist_heavy_helmet_01_01_12",
       "name": "Antium Helmet Jet",
-      "entityClass": "572a21b6-4c39-4311-89af-93bbfefbef6a",
-      "itemType": "Arm-Rüstung (schwer)",
+      "entityClass": "4ddd8283-1b5c-422b-825d-5dee1e776fcf",
+      "itemType": "Helm (schwer)",
       "manufacturer": "Quirinus Tech",
       "size": 1,
       "grade": "A",
-      "description": "Hersteller: Quirinus Tech\\n\\nTyp (En): Heavy Armor\\nTyp (De): Arm-Rüstung (schwer)\\n\\nGröße: S1\\nGütegrad: A\\nSchadensreduktion: 40 %\\nTemperaturbereich: -95 / 120 °C\\nStrahlungsschutz: 26800 REM\\nStrahlungsabbaurate: 145,8 REM/s\\nGewicht: 6 kg\\n\\n<EM4>#</EM4> Herstellbar in: 4 Min\\n  - Tungsten 0,06 (Schutzummantelung)\\n  - Aslarite 0,02 (Isolierschicht)\\n  - Stileron 0,06 (Ummantelungsbeschichtung)",
+      "description": "Hersteller: Quirinus Tech\\n\\nTyp (En): Heavy Helmet\\nTyp (De): Helm (schwer)\\n\\nGröße: S1\\nGütegrad: A\\nSchadensreduktion: 40 %\\nTemperaturbereich: -85 / 115 °C\\nStrahlungsschutz: 26800 REM\\nStrahlungsabbaurate: 145,8 REM/s\\nGewicht: 5 kg\\n\\n<EM4>#</EM4> Herstellbar in: 4 Min\\n  - Tungsten 0,05 (Schutzummantelung)\\n  - Aslarite 0,01 (Isolierschicht)\\n  - Stileron 0,05 (Ummantelungsbeschichtung)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -5742,7 +5755,20 @@
       "manufacturer": null,
       "size": 1,
       "grade": "A",
-      "description": "Typ (En): Undersuit\\nTyp (De): Basisanzug\\n\\nGröße: S1\\nGütegrad: A\\nSchadensreduktion: 88 %\\nTemperaturbereich: -70 / 100 °C\\nStrahlungsschutz: 26800 REM\\nStrahlungsabbaurate: 145,8 REM/s\\nGewicht: 80 kg\\n\\n<EM4>#</EM4> Herstellbar in: 3 Min\\n  - Ouratite 0,08 (Gepanzerte Hülle)\\n  - Titanium 0,08 (Stützstruktur)\\n  - Aslarite 0,04 (Isolierschicht)",
+      "description": "Typ (En): Undersuit\\nTyp (De): Basisanzug\\n\\nGröße: S1\\nGütegrad: A\\nSchadensreduktion: 88 %\\nTemperaturbereich: -70 / 100 °C\\nStrahlungsschutz: 26800 REM\\nStrahlungsabbaurate: 145,8 REM/s\\nGewicht: 160 kg\\n\\n<EM4>#</EM4> Herstellbar in: 3 Min\\n  - Ouratite 0,08 (Gepanzerte Hülle)\\n  - Titanium 0,08 (Stützstruktur)\\n  - Aslarite 0,04 (Isolierschicht)",
+      "divider": "---------------------------------------------------------\\n\\n",
+      "fix": "Schadensreduktion: 88 %"
+    },
+    {
+      "descKey": "item_Desc_cds_combat_superheavy_suit_01_03_01",
+      "nameKey": "item_Name_cds_combat_superheavy_suit_01_03_01",
+      "name": "BUL-H4 Armor Snow Camo",
+      "entityClass": "f2a15cd0-ada8-4b8a-ae25-18b7a6986fd1",
+      "itemType": "Basisanzug",
+      "manufacturer": null,
+      "size": 1,
+      "grade": "A",
+      "description": "Typ (En): Undersuit\\nTyp (De): Basisanzug\\n\\nGröße: S1\\nGütegrad: A\\nSchadensreduktion: 88 %\\nTemperaturbereich: -70 / 100 °C\\nStrahlungsschutz: 26800 REM\\nStrahlungsabbaurate: 145,8 REM/s\\nGewicht: 160 kg\\n\\n<EM4>#</EM4> Herstellbar in: 3 Min\\n  - Ouratite 0,08 (Gepanzerte Hülle)\\n  - Titanium 0,08 (Stützstruktur)\\n  - Aslarite 0,04 (Isolierschicht)",
       "divider": "---------------------------------------------------------\\n\\n",
       "fix": "Schadensreduktion: 88 %"
     },
@@ -5751,6 +5777,19 @@
       "nameKey": "item_Name_cds_combat_superheavy_helmet_01_01_01",
       "name": "BUL-H4 Helmet",
       "entityClass": "4670540c-7d6a-47d4-bb92-c5709b67be05",
+      "itemType": "Helm (schwer)",
+      "manufacturer": null,
+      "size": 1,
+      "grade": "A",
+      "description": "Typ (En): Heavy Helmet\\nTyp (De): Helm (schwer)\\n\\nGröße: S1\\nGütegrad: A\\nSchadensreduktion: 88 %\\nTemperaturbereich: -70 / 100 °C\\nStrahlungsschutz: 26800 REM\\nStrahlungsabbaurate: 145,8 REM/s\\nGewicht: 8 kg\\n\\n<EM4>#</EM4> Herstellbar in: 3 Min\\n  - Ouratite 0,04 (Gepanzerte Hülle)\\n  - Titanium 0,04 (Stützstruktur)\\n  - Aslarite 0,02 (Isolierschicht)",
+      "divider": "---------------------------------------------------------\\n\\n",
+      "fix": "Schadensreduktion: 88 %"
+    },
+    {
+      "descKey": "item_Desc_cds_combat_superheavy_helmet_01_03_01",
+      "nameKey": "item_Name_cds_combat_superheavy_helmet_01_03_01",
+      "name": "BUL-H4 Helmet Snow Camo",
+      "entityClass": "a15e8a38-f90c-47e8-b68c-c81a700c47a5",
       "itemType": "Helm (schwer)",
       "manufacturer": null,
       "size": 1,
@@ -7491,6 +7530,18 @@
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
+      "descKey": "item_Desc_cds_undersuit_armor_01_02_02",
+      "nameKey": "item_Name_cds_undersuit_armor_01_02_02",
+      "name": "FBL-8u Undersuit SecondWind",
+      "entityClass": "ae8958f2-b753-4891-bacb-8810950e5f07",
+      "itemType": "Basisanzug",
+      "manufacturer": "Clark Defense Systems",
+      "size": 1,
+      "grade": "A",
+      "description": "Hersteller: Clark Defense Systems\\n\\nTyp (En): Undersuit\\nTyp (De): Basisanzug\\n\\nGröße: S1\\nGütegrad: A\\nSchadensreduktion: 5 %\\nTemperaturbereich: -30 / 60 °C\\nStrahlungsschutz: 15200 REM\\nStrahlungsabbaurate: 81 REM/s\\nGewicht: 1 kg\\n\\n<EM4>#</EM4> Herstellbar in: 1 Min\\n  - Silicon 0,06 (Anzugunterhemd)",
+      "divider": "---------------------------------------------------------\\n\\n"
+    },
+    {
       "descKey": "item_Desc_cds_light_armor_01_arms",
       "nameKey": "item_Name_cds_light_armor_01_arms",
       "name": "Field Recon Suit Arms",
@@ -8209,7 +8260,19 @@
       "manufacturer": null,
       "size": 3,
       "grade": "A",
-      "description": "Typ (En): Backpack\\nTyp (De): Rucksack\\n\\nGröße: S3\\nGütegrad: A\\nGewicht: 8 kg\\n\\n<EM4>#</EM4> Herstellbar in: 3 Min\\n  - Titanium 0,04 (Stützstruktur)",
+      "description": "Typ (En): Backpack\\nTyp (De): Rucksack\\n\\nGröße: S3\\nGütegrad: A\\nTemperaturbereich: 0 / 0 °C\\nGewicht: 8 kg\\n\\n<EM4>#</EM4> Herstellbar in: 3 Min\\n  - Titanium 0,04 (Stützstruktur)",
+      "divider": "---------------------------------------------------------\\n\\n"
+    },
+    {
+      "descKey": "item_Desc_cds_combat_superheavy_backpack_01_03_01",
+      "nameKey": "item_Name_cds_combat_superheavy_backpack_01_03_01",
+      "name": "H4-PBF Ammo Carrier Snow Camo",
+      "entityClass": "8f17c496-c12b-4f2e-93e2-c7b5c4ce9524",
+      "itemType": "Rucksack",
+      "manufacturer": null,
+      "size": 3,
+      "grade": "A",
+      "description": "Typ (En): Backpack\\nTyp (De): Rucksack\\n\\nGröße: S3\\nGütegrad: A\\nTemperaturbereich: 0 / 0 °C\\nGewicht: 8 kg\\n\\n<EM4>#</EM4> Herstellbar in: 3 Min\\n  - Titanium 0,04 (Stützstruktur)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -14454,7 +14517,7 @@
       "manufacturer": "Juno Starwerk",
       "size": 3,
       "grade": "B",
-      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: B\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 383000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 21 s\\nIntegrität: 1600\\nEnergiebedarf: 5\\nGewicht: 2500 kg\\n\\n<EM4>#</EM4> Herstellbar in: 28 Min\\n  - Agricium 4,28 (Gehäuse)\\n  - Tungsten 1,72 (Einspritzdüsen)\\n  - Beryl 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: B\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 585716 km/s\\nAufladezeit: 8,5 s\\nAbklingzeit: 21,6 s\\nIntegrität: 1600\\nEnergiebedarf: 5\\nGewicht: 2500 kg\\n\\n<EM4>#</EM4> Herstellbar in: 28 Min\\n  - Agricium 4,28 (Gehäuse)\\n  - Tungsten 1,72 (Einspritzdüsen)\\n  - Beryl 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -14490,7 +14553,7 @@
       "manufacturer": "Roberts Space Industries",
       "size": 2,
       "grade": "B",
-      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 242000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 16,4 s\\nIntegrität: 470\\nEnergiebedarf: 3\\nGewicht: 630 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Iron 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Laranite 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 275943 km/s\\nAufladezeit: 6,9 s\\nAbklingzeit: 12,2 s\\nIntegrität: 470\\nEnergiebedarf: 3\\nGewicht: 630 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Iron 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Laranite 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -14527,7 +14590,7 @@
       "manufacturer": null,
       "size": 4,
       "grade": "A",
-      "description": "Typ (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S4\\nGütegrad: A\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 512000 km/s\\nAufladezeit: 9 s\\nAbklingzeit: 32 s\\nIntegrität: 9900\\nEnergiebedarf: 5\\nGewicht: 12000 kg\\n\\n<EM4>#</EM4> Herstellbar in: 41 Min\\n  - Torite 15 (Gehäuse)\\n  - Tungsten 6 (Einspritzdüsen)\\n  - Bexalite 6 (Eindämmungsmatrix)",
+      "description": "Typ (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S4\\nGütegrad: A\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 1262910 km/s\\nAufladezeit: 9,9 s\\nAbklingzeit: 29,3 s\\nIntegrität: 9900\\nEnergiebedarf: 5\\nGewicht: 12000 kg\\n\\n<EM4>#</EM4> Herstellbar in: 41 Min\\n  - Torite 15 (Gehäuse)\\n  - Tungsten 6 (Einspritzdüsen)\\n  - Bexalite 6 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n",
       "fix": "Gütegrad: A"
     },
@@ -14624,7 +14687,7 @@
       "manufacturer": "Roberts Space Industries",
       "size": 1,
       "grade": "A",
-      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: A\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 231000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 8,7 s\\nIntegrität: 200\\nEnergiebedarf: 2\\nGewicht: 210 kg\\n\\n<EM4>#</EM4> Herstellbar in: 13 Min\\n  - Torite 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Bexalite 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: A\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 259054 km/s\\nAufladezeit: 4,2 s\\nAbklingzeit: 7,6 s\\nIntegrität: 200\\nEnergiebedarf: 2\\nGewicht: 210 kg\\n\\n<EM4>#</EM4> Herstellbar in: 13 Min\\n  - Torite 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Bexalite 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -14696,7 +14759,7 @@
       "manufacturer": "Wei-Tek",
       "size": 3,
       "grade": "B",
-      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: B\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 339000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 12,3 s\\nIntegrität: 2100\\nEnergiebedarf: 5\\nGewicht: 1300 kg\\n\\n<EM4>#</EM4> Herstellbar in: 29 Min\\n  - Borase 4,28 (Gehäuse)\\n  - Tungsten 1,72 (Einspritzdüsen)\\n  - Ouratite 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: B\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 431300 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 17,8 s\\nIntegrität: 2100\\nEnergiebedarf: 5\\nGewicht: 1300 kg\\n\\n<EM4>#</EM4> Herstellbar in: 29 Min\\n  - Borase 4,28 (Gehäuse)\\n  - Tungsten 1,72 (Einspritzdüsen)\\n  - Ouratite 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -14744,7 +14807,7 @@
       "manufacturer": "Wei-Tek",
       "size": 1,
       "grade": "C",
-      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 190000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 12 s\\nIntegrität: 240\\nEnergiebedarf: 3\\nGewicht: 150 kg\\n\\n<EM4>#</EM4> Herstellbar in: 14 Min\\n  - Titanium 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Beryl 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 161411 km/s\\nAufladezeit: 4,4 s\\nAbklingzeit: 11,9 s\\nIntegrität: 240\\nEnergiebedarf: 3\\nGewicht: 150 kg\\n\\n<EM4>#</EM4> Herstellbar in: 14 Min\\n  - Titanium 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Beryl 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -14840,7 +14903,7 @@
       "manufacturer": "Juno Starwerk",
       "size": 2,
       "grade": "C",
-      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: C\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 262000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 39,6 s\\nIntegrität: 500\\nEnergiebedarf: 4\\nGewicht: 840 kg\\n\\n<EM4>#</EM4> Herstellbar in: 19 Min\\n  - Tungsten 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Laranite 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: C\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 275943 km/s\\nAufladezeit: 8 s\\nAbklingzeit: 18 s\\nIntegrität: 500\\nEnergiebedarf: 4\\nGewicht: 840 kg\\n\\n<EM4>#</EM4> Herstellbar in: 19 Min\\n  - Tungsten 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Laranite 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -14852,7 +14915,7 @@
       "manufacturer": "RAMP Corporation",
       "size": 2,
       "grade": "B",
-      "description": "Hersteller: RAMP Corporation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Stealth (Tarnung)\\nReisegeschwindigkeit: 205000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 19,8 s\\nIntegrität: 400\\nEnergiebedarf: 3\\nGewicht: 270 kg\\n\\n<EM4>#</EM4> Herstellbar in: 20 Min\\n  - Tungsten 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Ouratite 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: RAMP Corporation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Stealth (Tarnung)\\nReisegeschwindigkeit: 231792 km/s\\nAufladezeit: 6,6 s\\nAbklingzeit: 11,9 s\\nIntegrität: 400\\nEnergiebedarf: 3\\nGewicht: 270 kg\\n\\n<EM4>#</EM4> Herstellbar in: 20 Min\\n  - Tungsten 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Ouratite 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -14961,7 +15024,7 @@
       "manufacturer": "ArcCorp",
       "size": 1,
       "grade": "B",
-      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 198000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 12,3 s\\nIntegrität: 170\\nEnergiebedarf: 2\\nGewicht: 210 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Iron 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Laranite 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 230160 km/s\\nAufladezeit: 4,4 s\\nAbklingzeit: 10,3 s\\nIntegrität: 170\\nEnergiebedarf: 2\\nGewicht: 210 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Iron 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Laranite 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15009,7 +15072,7 @@
       "manufacturer": "ArcCorp",
       "size": 2,
       "grade": "D",
-      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: D\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 168000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 21,2 s\\nIntegrität: 360\\nEnergiebedarf: 3\\nGewicht: 630 kg\\n\\n<EM4>#</EM4> Herstellbar in: 17 Min\\n  - Tin 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Corundum 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: D\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 237060 km/s\\nAufladezeit: 7,9 s\\nAbklingzeit: 15,7 s\\nIntegrität: 360\\nEnergiebedarf: 3\\nGewicht: 630 kg\\n\\n<EM4>#</EM4> Herstellbar in: 17 Min\\n  - Tin 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Corundum 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15177,7 +15240,19 @@
       "manufacturer": "Juno Starwerk",
       "size": 1,
       "grade": "B",
-      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 257000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 21 s\\nIntegrität: 210\\nEnergiebedarf: 3\\nGewicht: 280 kg\\n\\n<EM4>#</EM4> Herstellbar in: 13 Min\\n  - Agricium 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Beryl 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 241120 km/s\\nAufladezeit: 4,8 s\\nAbklingzeit: 13 s\\nIntegrität: 210\\nEnergiebedarf: 3\\nGewicht: 280 kg\\n\\n<EM4>#</EM4> Herstellbar in: 13 Min\\n  - Agricium 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Beryl 0,14 (Eindämmungsmatrix)",
+      "divider": "---------------------------------------------------------\\n\\n"
+    },
+    {
+      "descKey": "item_Desc_scraper_Salvation_Medium",
+      "nameKey": "item_Name_scraper_Salvation_Medium",
+      "name": "Comer Scraper Module",
+      "entityClass": "089f7dc6-8ff1-415b-832d-7a96b92afdfc",
+      "itemType": "Bergungs-Modif.",
+      "manufacturer": "Greycat Industrial",
+      "size": 1,
+      "grade": "A",
+      "description": "Hersteller: Greycat Industrial\\n\\nTyp (En): Salvage Modifier\\nTyp (De): Bergungs-Modif.\\n\\nGröße: S1\\nGütegrad: A\\nGewicht: 0,1 kg\\n\\n<EM4>#</EM4> Herstellbar in: 4 Min\\n  - Iron 0,04 (Gehäuse)\\n  - Copper 0,04 (Verkabelung)\\n  - Sadaryx 4x (Okularverstärker)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15213,7 +15288,7 @@
       "manufacturer": "Wei-Tek",
       "size": 2,
       "grade": "C",
-      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: C\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 231000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 21,6 s\\nIntegrität: 660\\nEnergiebedarf: 4\\nGewicht: 440 kg\\n\\n<EM4>#</EM4> Herstellbar in: 20 Min\\n  - Titanium 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Beryl 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: C\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 203194 km/s\\nAufladezeit: 6,6 s\\nAbklingzeit: 14,9 s\\nIntegrität: 660\\nEnergiebedarf: 4\\nGewicht: 440 kg\\n\\n<EM4>#</EM4> Herstellbar in: 20 Min\\n  - Titanium 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Beryl 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15418,7 +15493,7 @@
       "manufacturer": "RAMP Corporation",
       "size": 1,
       "grade": "C",
-      "description": "Hersteller: RAMP Corporation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Stealth (Tarnung)\\nReisegeschwindigkeit: 140000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 12 s\\nIntegrität: 130\\nEnergiebedarf: 2\\nGewicht: 89 kg\\n\\n<EM4>#</EM4> Herstellbar in: 13 Min\\n  - Agricium 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Bexalite 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: RAMP Corporation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Stealth (Tarnung)\\nReisegeschwindigkeit: 167389 km/s\\nAufladezeit: 4,9 s\\nAbklingzeit: 10,6 s\\nIntegrität: 130\\nEnergiebedarf: 2\\nGewicht: 89 kg\\n\\n<EM4>#</EM4> Herstellbar in: 13 Min\\n  - Agricium 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Bexalite 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15430,7 +15505,7 @@
       "manufacturer": "Tarsus",
       "size": 3,
       "grade": "D",
-      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: D\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 205000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 10 s\\nIntegrität: 990\\nEnergiebedarf: 4\\nGewicht: 1400 kg\\n\\n<EM4>#</EM4> Herstellbar in: 26 Min\\n  - Tin 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Corundum 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: D\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 413873 km/s\\nAufladezeit: 8,8 s\\nAbklingzeit: 20,9 s\\nIntegrität: 990\\nEnergiebedarf: 4\\nGewicht: 1400 kg\\n\\n<EM4>#</EM4> Herstellbar in: 26 Min\\n  - Tin 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Corundum 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15478,7 +15553,7 @@
       "manufacturer": "ArcCorp",
       "size": 3,
       "grade": "D",
-      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: D\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 205000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 11,8 s\\nIntegrität: 990\\nEnergiebedarf: 4\\nGewicht: 1900 kg\\n\\n<EM4>#</EM4> Herstellbar in: 26 Min\\n  - Tin 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Corundum 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: D\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 457439 km/s\\nAufladezeit: 9,3 s\\nAbklingzeit: 20,9 s\\nIntegrität: 990\\nEnergiebedarf: 4\\nGewicht: 1900 kg\\n\\n<EM4>#</EM4> Herstellbar in: 26 Min\\n  - Tin 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Corundum 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15563,7 +15638,7 @@
       "manufacturer": "Roberts Space Industries",
       "size": 1,
       "grade": "C",
-      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 165000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 9,4 s\\nIntegrität: 150\\nEnergiebedarf: 2\\nGewicht: 210 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Tin 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Hephaestanite 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 199273 km/s\\nAufladezeit: 5,1 s\\nAbklingzeit: 10,8 s\\nIntegrität: 150\\nEnergiebedarf: 2\\nGewicht: 210 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Tin 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Hephaestanite 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15587,7 +15662,7 @@
       "manufacturer": "Roberts Space Industries",
       "size": 3,
       "grade": "A",
-      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: A\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 344000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 8,7 s\\nIntegrität: 1500\\nEnergiebedarf: 4\\nGewicht: 1900 kg\\n\\n<EM4>#</EM4> Herstellbar in: 28 Min\\n  - Torite 4,28 (Gehäuse)\\n  - Tungsten 1,72 (Einspritzdüsen)\\n  - Bexalite 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: A\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 629281 km/s\\nAufladezeit: 7,3 s\\nAbklingzeit: 12,6 s\\nIntegrität: 1500\\nEnergiebedarf: 4\\nGewicht: 1900 kg\\n\\n<EM4>#</EM4> Herstellbar in: 28 Min\\n  - Torite 4,28 (Gehäuse)\\n  - Tungsten 1,72 (Einspritzdüsen)\\n  - Bexalite 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15623,7 +15698,7 @@
       "manufacturer": "Tarsus",
       "size": 1,
       "grade": "C",
-      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 165000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 10 s\\nIntegrität: 150\\nEnergiebedarf: 2\\nGewicht: 150 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Tin 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Hephaestanite 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 189309 km/s\\nAufladezeit: 4,6 s\\nAbklingzeit: 11,4 s\\nIntegrität: 150\\nEnergiebedarf: 2\\nGewicht: 150 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Tin 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Hephaestanite 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15755,7 +15830,7 @@
       "manufacturer": "ArcCorp",
       "size": 3,
       "grade": "C",
-      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 246000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 12 s\\nIntegrität: 1100\\nEnergiebedarf: 4\\nGewicht: 1900 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Tin 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Hephaestanite 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 508266 km/s\\nAufladezeit: 8,5 s\\nAbklingzeit: 19 s\\nIntegrität: 1100\\nEnergiebedarf: 4\\nGewicht: 1900 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Tin 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Hephaestanite 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15767,7 +15842,7 @@
       "manufacturer": "ArcCorp",
       "size": 2,
       "grade": "B",
-      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 242000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 22,1 s\\nIntegrität: 470\\nEnergiebedarf: 3\\nGewicht: 630 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Iron 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Laranite 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 289740 km/s\\nAufladezeit: 6,6 s\\nAbklingzeit: 12,8 s\\nIntegrität: 470\\nEnergiebedarf: 3\\nGewicht: 630 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Iron 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Laranite 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15803,7 +15878,7 @@
       "manufacturer": "ArcCorp",
       "size": 1,
       "grade": "D",
-      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: D\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 138000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 11,8 s\\nIntegrität: 130\\nEnergiebedarf: 2\\nGewicht: 210 kg\\n\\n<EM4>#</EM4> Herstellbar in: 11 Min\\n  - Tin 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Corundum 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: D\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 188313 km/s\\nAufladezeit: 5,3 s\\nAbklingzeit: 12,5 s\\nIntegrität: 130\\nEnergiebedarf: 2\\nGewicht: 210 kg\\n\\n<EM4>#</EM4> Herstellbar in: 11 Min\\n  - Tin 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Corundum 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15839,7 +15914,7 @@
       "manufacturer": "Ace Astrogation",
       "size": 1,
       "grade": "B",
-      "description": "Hersteller: Ace Astrogation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Competition (Wettkampf)\\nReisegeschwindigkeit: 168000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 5,5 s\\nIntegrität: 120\\nEnergiebedarf: 2\\nGewicht: 140 kg\\n\\n<EM4>#</EM4> Herstellbar in: 13 Min\\n  - Torite 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Beryl 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: Ace Astrogation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Competition (Wettkampf)\\nReisegeschwindigkeit: 263040 km/s\\nAufladezeit: 4,8 s\\nAbklingzeit: 11,9 s\\nIntegrität: 120\\nEnergiebedarf: 2\\nGewicht: 140 kg\\n\\n<EM4>#</EM4> Herstellbar in: 13 Min\\n  - Torite 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Beryl 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -15875,7 +15950,7 @@
       "manufacturer": null,
       "size": 4,
       "grade": "A",
-      "description": "Typ (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S4\\nGütegrad: A\\nReisegeschwindigkeit: 718000 km/s\\nAufladezeit: 9 s\\nAbklingzeit: 92,1 s\\nIntegrität: 48000\\nEnergiebedarf: 6\\nGewicht: 35000 kg\\n\\n<EM4>#</EM4> Herstellbar in: 43 Min\\n  - Borase 15 (Gehäuse)\\n  - Tungsten 6 (Einspritzdüsen)\\n  - Stileron 6 (Eindämmungsmatrix)",
+      "description": "Typ (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S4\\nGütegrad: A\\nReisegeschwindigkeit: 974245 km/s\\nAufladezeit: 9 s\\nAbklingzeit: 27,6 s\\nIntegrität: 48000\\nEnergiebedarf: 6\\nGewicht: 35000 kg\\n\\n<EM4>#</EM4> Herstellbar in: 43 Min\\n  - Borase 15 (Gehäuse)\\n  - Tungsten 6 (Einspritzdüsen)\\n  - Stileron 6 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -16176,7 +16251,7 @@
       "manufacturer": "Juno Starwerk",
       "size": 1,
       "grade": "C",
-      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 215000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 22 s\\nIntegrität: 180\\nEnergiebedarf: 3\\nGewicht: 280 kg",
+      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 219200 km/s\\nAufladezeit: 5,3 s\\nAbklingzeit: 14,4 s\\nIntegrität: 180\\nEnergiebedarf: 3\\nGewicht: 280 kg",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -16240,6 +16315,18 @@
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
+      "descKey": "item_Desc_scraper_Salvation_Small",
+      "nameKey": "item_Name_scraper_Salvation_Small",
+      "name": "Hart Scraper Module",
+      "entityClass": "1743f1e2-0558-45f6-bc80-d604daf97123",
+      "itemType": "Bergungs-Modif.",
+      "manufacturer": "Greycat Industrial",
+      "size": 1,
+      "grade": "A",
+      "description": "Hersteller: Greycat Industrial\\n\\nTyp (En): Salvage Modifier\\nTyp (De): Bergungs-Modif.\\n\\nGröße: S1\\nGütegrad: A\\nGewicht: 0,1 kg\\n\\n<EM4>#</EM4> Herstellbar in: 3 Min\\n  - Iron 0,03 (Gehäuse)\\n  - Copper 0,03 (Verkabelung)\\n  - Sadaryx 3x (Okularverstärker)",
+      "divider": "---------------------------------------------------------\\n\\n"
+    },
+    {
       "descKey": "item_DescCOOL_TYDT_S01_HeatSafe",
       "nameKey": "item_NameCOOL_TYDT_S01_HeatSafe",
       "name": "HeatSafe",
@@ -16272,7 +16359,7 @@
       "manufacturer": "Roberts Space Industries",
       "size": 2,
       "grade": "A",
-      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: A\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 282000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 15,7 s\\nIntegrität: 540\\nEnergiebedarf: 3\\nGewicht: 630 kg\\n\\n<EM4>#</EM4> Herstellbar in: 19 Min\\n  - Torite 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Bexalite 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: A\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 326114 km/s\\nAufladezeit: 6,2 s\\nAbklingzeit: 9,5 s\\nIntegrität: 540\\nEnergiebedarf: 3\\nGewicht: 630 kg\\n\\n<EM4>#</EM4> Herstellbar in: 19 Min\\n  - Torite 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Bexalite 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -16308,7 +16395,7 @@
       "manufacturer": "Juno Starwerk",
       "size": 2,
       "grade": "B",
-      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 314000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 37,8 s\\nIntegrität: 570\\nEnergiebedarf: 4\\nGewicht: 840 kg\\n\\n<EM4>#</EM4> Herstellbar in: 19 Min\\n  - Agricium 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Beryl 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 303537 km/s\\nAufladezeit: 7,2 s\\nAbklingzeit: 16,2 s\\nIntegrität: 570\\nEnergiebedarf: 4\\nGewicht: 840 kg\\n\\n<EM4>#</EM4> Herstellbar in: 19 Min\\n  - Agricium 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Beryl 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -16368,7 +16455,7 @@
       "manufacturer": "Roberts Space Industries",
       "size": 1,
       "grade": "B",
-      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 198000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 9,1 s\\nIntegrität: 170\\nEnergiebedarf: 2\\nGewicht: 210 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Iron 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Laranite 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 219200 km/s\\nAufladezeit: 4,6 s\\nAbklingzeit: 9,7 s\\nIntegrität: 170\\nEnergiebedarf: 2\\nGewicht: 210 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Iron 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Laranite 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -16440,7 +16527,7 @@
       "manufacturer": "ArcCorp",
       "size": 3,
       "grade": "B",
-      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 295000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 12,3 s\\nIntegrität: 1300\\nEnergiebedarf: 4\\nGewicht: 1900 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Iron 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Laranite 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 559092 km/s\\nAufladezeit: 7,7 s\\nAbklingzeit: 17,1 s\\nIntegrität: 1300\\nEnergiebedarf: 4\\nGewicht: 1900 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Iron 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Laranite 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -16560,7 +16647,7 @@
       "manufacturer": "Juno Starwerk",
       "size": 3,
       "grade": "C",
-      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: C\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 319000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 22 s\\nIntegrität: 1400\\nEnergiebedarf: 5\\nGewicht: 2500 kg\\n\\n<EM4>#</EM4> Herstellbar in: 28 Min\\n  - Tungsten 4,28 (Gehäuse)\\n  - Tungsten 1,72 (Einspritzdüsen)\\n  - Laranite 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: C\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 532469 km/s\\nAufladezeit: 9,3 s\\nAbklingzeit: 24 s\\nIntegrität: 1400\\nEnergiebedarf: 5\\nGewicht: 2500 kg\\n\\n<EM4>#</EM4> Herstellbar in: 28 Min\\n  - Tungsten 4,28 (Gehäuse)\\n  - Tungsten 1,72 (Einspritzdüsen)\\n  - Laranite 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -16656,7 +16743,7 @@
       "manufacturer": "Ace Astrogation",
       "size": 1,
       "grade": "C",
-      "description": "Hersteller: Ace Astrogation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Competition (Wettkampf)\\nReisegeschwindigkeit: 140000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 5,7 s\\nIntegrität: 110\\nEnergiebedarf: 2\\nGewicht: 140 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Iron 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Laranite 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: Ace Astrogation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Competition (Wettkampf)\\nReisegeschwindigkeit: 239127 km/s\\nAufladezeit: 5,3 s\\nAbklingzeit: 13,2 s\\nIntegrität: 110\\nEnergiebedarf: 2\\nGewicht: 140 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Iron 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Laranite 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -16812,7 +16899,7 @@
       "manufacturer": "Roberts Space Industries",
       "size": 3,
       "grade": "C",
-      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 246000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 9,4 s\\nIntegrität: 1100\\nEnergiebedarf: 4\\nGewicht: 1900 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Tin 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Hephaestanite 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 484062 km/s\\nAufladezeit: 8,9 s\\nAbklingzeit: 18 s\\nIntegrität: 1100\\nEnergiebedarf: 4\\nGewicht: 1900 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Tin 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Hephaestanite 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -16860,7 +16947,7 @@
       "manufacturer": "RAMP Corporation",
       "size": 2,
       "grade": "C",
-      "description": "Hersteller: RAMP Corporation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: C\\nKlasse: Stealth (Tarnung)\\nReisegeschwindigkeit: 171000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 21,6 s\\nIntegrität: 350\\nEnergiebedarf: 3\\nGewicht: 270 kg\\n\\n<EM4>#</EM4> Herstellbar in: 19 Min\\n  - Agricium 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Bexalite 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: RAMP Corporation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: C\\nKlasse: Stealth (Tarnung)\\nReisegeschwindigkeit: 210720 km/s\\nAufladezeit: 7,3 s\\nAbklingzeit: 13,2 s\\nIntegrität: 350\\nEnergiebedarf: 3\\nGewicht: 270 kg\\n\\n<EM4>#</EM4> Herstellbar in: 19 Min\\n  - Agricium 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Bexalite 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -16933,7 +17020,7 @@
       "manufacturer": "Tarsus",
       "size": 2,
       "grade": "C",
-      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 201000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 18 s\\nIntegrität: 410\\nEnergiebedarf: 3\\nGewicht: 450 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Tin 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Hephaestanite 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 238314 km/s\\nAufladezeit: 6,9 s\\nAbklingzeit: 14,3 s\\nIntegrität: 410\\nEnergiebedarf: 3\\nGewicht: 450 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Tin 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Hephaestanite 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -17090,7 +17177,7 @@
       "manufacturer": "Wei-Tek",
       "size": 3,
       "grade": "C",
-      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: C\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 282000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 12 s\\nIntegrität: 1800\\nEnergiebedarf: 5\\nGewicht: 1300 kg\\n\\n<EM4>#</EM4> Herstellbar in: 29 Min\\n  - Titanium 4,28 (Gehäuse)\\n  - Tungsten 1,72 (Einspritzdüsen)\\n  - Beryl 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: C\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 392091 km/s\\nAufladezeit: 7,7 s\\nAbklingzeit: 19,8 s\\nIntegrität: 1800\\nEnergiebedarf: 5\\nGewicht: 1300 kg\\n\\n<EM4>#</EM4> Herstellbar in: 29 Min\\n  - Titanium 4,28 (Gehäuse)\\n  - Tungsten 1,72 (Einspritzdüsen)\\n  - Beryl 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -17319,7 +17406,7 @@
       "manufacturer": "Tarsus",
       "size": 3,
       "grade": "B",
-      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 295000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 10 s\\nIntegrität: 1300\\nEnergiebedarf: 4\\nGewicht: 1400 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Iron 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Laranite 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 505845 km/s\\nAufladezeit: 7,4 s\\nAbklingzeit: 17,1 s\\nIntegrität: 1300\\nEnergiebedarf: 4\\nGewicht: 1400 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Iron 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Laranite 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -17403,7 +17490,7 @@
       "manufacturer": "ArcCorp",
       "size": 1,
       "grade": "C",
-      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 165000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 12 s\\nIntegrität: 150\\nEnergiebedarf: 2\\nGewicht: 210 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Tin 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Hephaestanite 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 209236 km/s\\nAufladezeit: 4,9 s\\nAbklingzeit: 11,4 s\\nIntegrität: 150\\nEnergiebedarf: 2\\nGewicht: 210 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Tin 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Hephaestanite 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -17693,7 +17780,7 @@
       "manufacturer": "Wei-Tek",
       "size": 1,
       "grade": "B",
-      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 228000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 12,3 s\\nIntegrität: 270\\nEnergiebedarf: 3\\nGewicht: 150 kg\\n\\n<EM4>#</EM4> Herstellbar in: 14 Min\\n  - Borase 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Ouratite 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 177552 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 10,7 s\\nIntegrität: 270\\nEnergiebedarf: 3\\nGewicht: 150 kg\\n\\n<EM4>#</EM4> Herstellbar in: 14 Min\\n  - Borase 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Ouratite 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -17777,7 +17864,7 @@
       "manufacturer": "Tarsus",
       "size": 2,
       "grade": "B",
-      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 242000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 18 s\\nIntegrität: 470\\nEnergiebedarf: 3\\nGewicht: 450 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Iron 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Laranite 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 262146 km/s\\nAufladezeit: 6,3 s\\nAbklingzeit: 12,8 s\\nIntegrität: 470\\nEnergiebedarf: 3\\nGewicht: 450 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Iron 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Laranite 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -17813,7 +17900,7 @@
       "manufacturer": "Ace Astrogation",
       "size": 2,
       "grade": "C",
-      "description": "Hersteller: Ace Astrogation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: C\\nKlasse: Competition (Wettkampf)\\nReisegeschwindigkeit: 171000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 10,3 s\\nIntegrität: 290\\nEnergiebedarf: 3\\nGewicht: 420 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Iron 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Laranite 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: Ace Astrogation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: C\\nKlasse: Competition (Wettkampf)\\nReisegeschwindigkeit: 301029 km/s\\nAufladezeit: 8 s\\nAbklingzeit: 16,5 s\\nIntegrität: 290\\nEnergiebedarf: 3\\nGewicht: 420 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Iron 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Laranite 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -17849,7 +17936,7 @@
       "manufacturer": "RAMP Corporation",
       "size": 1,
       "grade": "A",
-      "description": "Hersteller: RAMP Corporation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: A\\nKlasse: Stealth (Tarnung)\\nReisegeschwindigkeit: 196000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 10,5 s\\nIntegrität: 170\\nEnergiebedarf: 2\\nGewicht: 89 kg\\n\\n<EM4>#</EM4> Herstellbar in: 14 Min\\n  - Borase 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Savrilium 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: RAMP Corporation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: A\\nKlasse: Stealth (Tarnung)\\nReisegeschwindigkeit: 217606 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 7,4 s\\nIntegrität: 170\\nEnergiebedarf: 2\\nGewicht: 89 kg\\n\\n<EM4>#</EM4> Herstellbar in: 14 Min\\n  - Borase 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Savrilium 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -17873,7 +17960,7 @@
       "manufacturer": "RAMP Corporation",
       "size": 2,
       "grade": "A",
-      "description": "Hersteller: RAMP Corporation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: A\\nKlasse: Stealth (Tarnung)\\nReisegeschwindigkeit: 240000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 18,9 s\\nIntegrität: 460\\nEnergiebedarf: 3\\nGewicht: 270 kg\\n\\n<EM4>#</EM4> Herstellbar in: 20 Min\\n  - Borase 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Savrilium 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: RAMP Corporation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: A\\nKlasse: Stealth (Tarnung)\\nReisegeschwindigkeit: 273936 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 9,2 s\\nIntegrität: 460\\nEnergiebedarf: 3\\nGewicht: 270 kg\\n\\n<EM4>#</EM4> Herstellbar in: 20 Min\\n  - Borase 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Savrilium 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -17983,7 +18070,7 @@
       "manufacturer": "Ace Astrogation",
       "size": 2,
       "grade": "B",
-      "description": "Hersteller: Ace Astrogation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Competition (Wettkampf)\\nReisegeschwindigkeit: 205000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 9,9 s\\nIntegrität: 330\\nEnergiebedarf: 3\\nGewicht: 420 kg\\n\\n<EM4>#</EM4> Herstellbar in: 19 Min\\n  - Torite 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Beryl 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: Ace Astrogation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Competition (Wettkampf)\\nReisegeschwindigkeit: 331131 km/s\\nAufladezeit: 7,2 s\\nAbklingzeit: 14,9 s\\nIntegrität: 330\\nEnergiebedarf: 3\\nGewicht: 420 kg\\n\\n<EM4>#</EM4> Herstellbar in: 19 Min\\n  - Torite 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Beryl 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -18199,7 +18286,7 @@
       "manufacturer": "Wei-Tek",
       "size": 3,
       "grade": "A",
-      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: A\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 395000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 12,7 s\\nIntegrität: 2300\\nEnergiebedarf: 5\\nGewicht: 1300 kg\\n\\n<EM4>#</EM4> Herstellbar in: 30 Min\\n  - Borase 4,28 (Gehäuse)\\n  - Tungsten 1,72 (Einspritzdüsen)\\n  - Stileron 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: A\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 509718 km/s\\nAufladezeit: 6,3 s\\nAbklingzeit: 13,9 s\\nIntegrität: 2300\\nEnergiebedarf: 5\\nGewicht: 1300 kg\\n\\n<EM4>#</EM4> Herstellbar in: 30 Min\\n  - Borase 4,28 (Gehäuse)\\n  - Tungsten 1,72 (Einspritzdüsen)\\n  - Stileron 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -18307,7 +18394,7 @@
       "manufacturer": "ArcCorp",
       "size": 2,
       "grade": "C",
-      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 201000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 21,6 s\\nIntegrität: 410\\nEnergiebedarf: 3\\nGewicht: 630 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Tin 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Hephaestanite 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: ArcCorp\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 263400 km/s\\nAufladezeit: 7,3 s\\nAbklingzeit: 14,3 s\\nIntegrität: 410\\nEnergiebedarf: 3\\nGewicht: 630 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Tin 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Hephaestanite 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -18379,7 +18466,7 @@
       "manufacturer": "Roberts Space Industries",
       "size": 3,
       "grade": "B",
-      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 295000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 9,1 s\\nIntegrität: 1300\\nEnergiebedarf: 4\\nGewicht: 1900 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Iron 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Laranite 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: Roberts Space Industries\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 532469 km/s\\nAufladezeit: 8,1 s\\nAbklingzeit: 16,2 s\\nIntegrität: 1300\\nEnergiebedarf: 4\\nGewicht: 1900 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Iron 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Laranite 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -18475,7 +18562,7 @@
       "manufacturer": "Wei-Tek",
       "size": 1,
       "grade": "A",
-      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: A\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 266000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 12,7 s\\nIntegrität: 300\\nEnergiebedarf: 3\\nGewicht: 150 kg\\n\\n<EM4>#</EM4> Herstellbar in: 15 Min\\n  - Borase 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Stileron 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: A\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 209834 km/s\\nAufladezeit: 3,6 s\\nAbklingzeit: 8,3 s\\nIntegrität: 300\\nEnergiebedarf: 3\\nGewicht: 150 kg\\n\\n<EM4>#</EM4> Herstellbar in: 15 Min\\n  - Borase 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Stileron 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -18511,7 +18598,7 @@
       "manufacturer": "Juno Starwerk",
       "size": 3,
       "grade": "D",
-      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: D\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 266000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 23 s\\nIntegrität: 1200\\nEnergiebedarf: 5\\nGewicht: 2500 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Iron 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Laranite 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: D\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 479222 km/s\\nAufladezeit: 10,1 s\\nAbklingzeit: 26,4 s\\nIntegrität: 1200\\nEnergiebedarf: 5\\nGewicht: 2500 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Iron 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Laranite 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -18607,7 +18694,7 @@
       "manufacturer": "Tarsus",
       "size": 1,
       "grade": "B",
-      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 198000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 10 s\\nIntegrität: 170\\nEnergiebedarf: 2\\nGewicht: 150 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Iron 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Laranite 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 208240 km/s\\nAufladezeit: 4,2 s\\nAbklingzeit: 10,3 s\\nIntegrität: 170\\nEnergiebedarf: 2\\nGewicht: 150 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Iron 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Laranite 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -18619,7 +18706,7 @@
       "manufacturer": "Juno Starwerk",
       "size": 1,
       "grade": "D",
-      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: D\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 179000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 23 s\\nIntegrität: 160\\nEnergiebedarf: 3\\nGewicht: 280 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Iron 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Laranite 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: D\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 197280 km/s\\nAufladezeit: 5,8 s\\nAbklingzeit: 15,8 s\\nIntegrität: 160\\nEnergiebedarf: 3\\nGewicht: 280 kg\\n\\n<EM4>#</EM4> Herstellbar in: 12 Min\\n  - Iron 0,35 (Gehäuse)\\n  - Iron 0,14 (Einspritzdüsen)\\n  - Laranite 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -18643,7 +18730,7 @@
       "manufacturer": "Tarsus",
       "size": 3,
       "grade": "C",
-      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 246000 km/s\\nAufladezeit: 7 s\\nAbklingzeit: 10 s\\nIntegrität: 1100\\nEnergiebedarf: 4\\nGewicht: 1400 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Tin 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Hephaestanite 1,72 (Eindämmungsmatrix)",
+      "description": "Hersteller: Tarsus\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S3\\nGütegrad: C\\nKlasse: Civilian (Zivil)\\nReisegeschwindigkeit: 459859 km/s\\nAufladezeit: 8,1 s\\nAbklingzeit: 19 s\\nIntegrität: 1100\\nEnergiebedarf: 4\\nGewicht: 1400 kg\\n\\n<EM4>#</EM4> Herstellbar in: 27 Min\\n  - Tin 4,28 (Gehäuse)\\n  - Iron 1,72 (Einspritzdüsen)\\n  - Hephaestanite 1,72 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -18739,7 +18826,7 @@
       "manufacturer": "Juno Starwerk",
       "size": 2,
       "grade": "D",
-      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: D\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 218000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 41,4 s\\nIntegrität: 430\\nEnergiebedarf: 4\\nGewicht: 840 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Iron 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Laranite 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: Juno Starwerk\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: D\\nKlasse: Industrial (Industrie)\\nReisegeschwindigkeit: 248349 km/s\\nAufladezeit: 8,7 s\\nAbklingzeit: 19,8 s\\nIntegrität: 430\\nEnergiebedarf: 4\\nGewicht: 840 kg\\n\\n<EM4>#</EM4> Herstellbar in: 18 Min\\n  - Iron 1,24 (Gehäuse)\\n  - Iron 0,50 (Einspritzdüsen)\\n  - Laranite 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -18751,7 +18838,7 @@
       "manufacturer": "Wei-Tek",
       "size": 2,
       "grade": "B",
-      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 278000 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 22,1 s\\nIntegrität: 750\\nEnergiebedarf: 4\\nGewicht: 440 kg\\n\\n<EM4>#</EM4> Herstellbar in: 20 Min\\n  - Borase 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Ouratite 0,50 (Eindämmungsmatrix)",
+      "description": "Hersteller: Wei-Tek\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S2\\nGütegrad: B\\nKlasse: Military (Militär)\\nReisegeschwindigkeit: 223514 km/s\\nAufladezeit: 6 s\\nAbklingzeit: 13,4 s\\nIntegrität: 750\\nEnergiebedarf: 4\\nGewicht: 440 kg\\n\\n<EM4>#</EM4> Herstellbar in: 20 Min\\n  - Borase 1,24 (Gehäuse)\\n  - Tungsten 0,50 (Einspritzdüsen)\\n  - Ouratite 0,50 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {
@@ -18799,7 +18886,7 @@
       "manufacturer": "RAMP Corporation",
       "size": 1,
       "grade": "B",
-      "description": "Hersteller: RAMP Corporation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Stealth (Tarnung)\\nReisegeschwindigkeit: 168000 km/s\\nAufladezeit: 4 s\\nAbklingzeit: 11 s\\nIntegrität: 150\\nEnergiebedarf: 2\\nGewicht: 89 kg\\n\\n<EM4>#</EM4> Herstellbar in: 14 Min\\n  - Tungsten 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Ouratite 0,14 (Eindämmungsmatrix)",
+      "description": "Hersteller: RAMP Corporation\\n\\nTyp (En): Quantum Drive\\nTyp (De): Quantumantrieb\\n\\nGröße: S1\\nGütegrad: B\\nKlasse: Stealth (Tarnung)\\nReisegeschwindigkeit: 184128 km/s\\nAufladezeit: 4,4 s\\nAbklingzeit: 9,5 s\\nIntegrität: 150\\nEnergiebedarf: 2\\nGewicht: 89 kg\\n\\n<EM4>#</EM4> Herstellbar in: 14 Min\\n  - Tungsten 0,35 (Gehäuse)\\n  - Tungsten 0,14 (Einspritzdüsen)\\n  - Ouratite 0,14 (Eindämmungsmatrix)",
       "divider": "---------------------------------------------------------\\n\\n"
     },
     {

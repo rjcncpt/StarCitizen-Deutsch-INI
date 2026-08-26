@@ -1,5 +1,5 @@
 === Blueprint Contract Titles (aus lokaler global.ini) ===
-Generiert: 2026-08-20 13:27:07
+Generiert: 2026-08-26 16:25:59
 GitHub:    /rjcncpt
 ==========================================================
 
@@ -33,12 +33,9 @@ Battaglia_RPT_ScanMine_03_title=Scan And Mining Needed
 Battaglia_RPT_ScanMine_04_title=Ore Needs Gathering
 Battaglia_RPT_ScanMine_05_title=Efficient Miners Wanted
 Battaglia_RPT_ScanMine_06_title=Mining and Data Collection
-Battaglia_RPT_Scan_01_title=Ore Scan Needed
-Battaglia_RPT_Scan_02_title=Ore To Be Scanned
-Battaglia_RPT_Scan_03_title=Ore Deposit Needs Scanning
-Battaglia_RPT_Scan_04_title=Full Area Scan for Ore
-Battaglia_RPT_Scan_05_title=Large Deposit Of Ore To Confirm
-Battaglia_RPT_Scan_06_title=High Priority Ore Scan
+Battaglia_Story01_title=Willkommen im System
+Battaglia_Story02_title=Notfall: Blinding Hope in Schwierigkeiten
+Battaglia_Story03_title=Idee für Isaac
 BitZeros_RecoverItem_Generic_Title_001=Bleeding Edge Tech
 BitZeros_blackbox_E_Title_001=Getting To the Bottom of It
 BitZeros_blackbox_H_Title_001=Legendary Info?
@@ -207,11 +204,14 @@ Shubin_Industrial_ShipMining_VH_Org_Title_001=Special Purchase Order: Mined Mate
 TheCollector_Recipes_Title_DrakeClipper=Clipper Fight Now
 TheCollector_Recipes_Title_L22Wolf=Extra Special Wolf
 TheCollector_Recipes_Title_NoneAR=Your Best Shot
+TheCollector_Recipes_Title_SuperHeavyCombat=Heavy and Bright
 TheCollector_Recipes_Title_VGLflightsuit=Suit Up Take Off
+TheCollector_Recipes_Title_aparGatlingGun=Too Much Gun
 UWC_Refueling_easy_title_001=REFUEL REQUEST: ~mission(Ship)
 UWC_Refueling_high_title_001=CRITICAL REFUEL REQUEST: ~mission(Ship)
-UWC_Refueling_moderate_title_001=URGENT REFUEL REQUEST: ~mission(Ship)
+UWC_Refueling_multiple_hard_title_001=CRITICAL FLEET REFUEL
 UWC_Refueling_multiple_med_title_001=URGENT CONVOY REFUEL
+UWC_Refuelling_BespokeCapital_Title=URGENT CAPITAL FLEET REFUEL
 Vaughn_EliminateSpecific_FPS_Rockcracker_title_001=A Well Deserved Break
 bhg_bounty_title_ASD_Engineering_001=Verified Bounty: ~mission(TargetName) at ~mission(Location)
 bhg_bounty_title_ASD_Research_001=Verified Bounty: ~mission(TargetName) at ~mission(Location)
@@ -274,6 +274,9 @@ eckhart_defendship_multi_SRT_SB_title_001=Shattered Blade Strike
 eckhart_defendship_multi_SRT_title_001=Extremely Dangerous Defense
 eckhart_defendship_multi_VHRT_SB_title_001=Client Needs Combat Support
 eckhart_defendship_multi_VHRT_title_001=Stop Deadly Ship Attack
+foxwell_DefendShip_E_title_001=Yellow Level Contract: Ship Under Attack
+foxwell_DefendShip_H_title_001=Red Level Contract: Ship Under Attack
+foxwell_DefendShip_M_title_001=Orange Level Contract: ~mission(Ship) Needs Assistance
 headhunters_ChainElimAll_1C_AttackCFP_E_title_001=A little retaliation
 headhunters_ChainElimAll_1C_AttackXT_M_title_001=Taking out some XenoThreat trash
 headhunters_ChainElimAll_1C_ElimSpec_AttackCFP_M_title_001=Driving CFP out
@@ -318,6 +321,7 @@ headhunters_killship_gen_vlrt_rank0_title_001=Wanna be a Headhunter?
 headhunters_killship_gen_vlrt_title_001=~mission(TargetName) needs stomping
 headhunters_killship_xenothreat_ert_title_001=Ghost some XenoTrash
 headhunters_multikillship_base_Generic_M_title_001=Crash some ships
+northrock_SOO_repeat_title_001=Retake Platforms From Nine Tails
 northrock_bounty_fps_title_001=Bounty Assignment: ~mission(TargetName) (HRT)
 shubin_rockcracker_pvp_title_01=QV Breaker Station Mining Rights (Shared)
 shubin_rockcracker_pvp_title_specific_02=QV Breaker Station BRK-320 Mining Rights (Shared)
