@@ -1,13 +1,13 @@
 {
-  "version": "4.10.0 LIVE.12504217",
+  "version": "4.10.0-live.12545750",
   "sourceLanguage": "en",
   "targetLanguage": "german_global",
-  "keyCount": 4338,
+  "keyCount": 4337,
   "stats": {
-    "total": 4338,
+    "total": 4337,
     "translated": 3922,
     "missing": 0,
-    "noLocKey": 347,
+    "noLocKey": 346,
     "placeholderFallback": 69,
     "mismatch": 222,
     "missingKeys": [],
@@ -16989,9 +16989,9 @@
       "en": "Carinite",
       "tr": "Carinite"
     },
-    "_noloc_mining_Carinitepure": {
-      "en": "Carinitepure",
-      "tr": "Carinitepure"
+    "items_commodities_carinite_pure": {
+      "en": "Carinite (Pure)",
+      "tr": "Carinite (Pure)"
     },
     "hud_mining_fps_rock_name_2": {
       "en": "Dolivine",
@@ -17160,10 +17160,6 @@
     "chat_command_local": {
       "en": "local",
       "tr": "local"
-    },
-    "items_commodities_carinite_pure": {
-      "en": "Carinite (Pure)",
-      "tr": "Carinite (Pure)"
     },
     "items_commodities_saldynium_ore": {
       "en": "Saldynium (Ore)",
