@@ -67,7 +67,7 @@ def reload_website(retry_count=3):
                 f"Fehler beim Neuladen der Website (Versuch {attempt + 1}): {e}"
             )
             if attempt < retry_count - 1:
-                time.sleep(5)  # Warte 5 Sekunden vor dem nächsten Versuch
+                time.sleep(5)
 
     logger.error("Alle Versuche zum Neuladen der Website fehlgeschlagen")
     return False
@@ -150,6 +150,24 @@ def get_patch_number() -> str:
         return ""
 
 
+def get_remote_url() -> str:
+    """Gibt die HTTPS-Web-URL des Repositories zurück."""
+    try:
+        result = subprocess.run(
+            ["git", "config", "--get", "remote.origin.url"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        remote_url = result.stdout.strip()
+        if remote_url.startswith("git@"):
+            remote_url = remote_url.replace(":", "/").replace("git@", "https://")
+        return remote_url.rstrip("/").removesuffix(".git")
+    except Exception as e:
+        logger.error(f"Fehler beim Abrufen der Remote-URL: {e}")
+        return ""
+
+
 def get_commit_url() -> tuple[str, str]:
     """Erstellt die URL zum letzten Commit für live/global.ini.
 
@@ -157,7 +175,6 @@ def get_commit_url() -> tuple[str, str]:
         tuple[str, str]: (commit_url, short_hash) oder ("", "") bei Fehler
     """
     try:
-        # Hole den Commit-Hash
         result = subprocess.run(
             ["git", "log", "-1", "--pretty=%H", "live/global.ini"],
             capture_output=True,
@@ -165,26 +182,10 @@ def get_commit_url() -> tuple[str, str]:
             check=True,
         )
         commit_hash = result.stdout.strip()
-        short_hash = commit_hash[:7]  # Kurze Version für Anzeige
-
-        # Hole die Remote-URL
-        result = subprocess.run(
-            ["git", "config", "--get", "remote.origin.url"],
-            capture_output=True,
-            text=True,
-            check=True,
-        )
-        remote_url = result.stdout.strip()
-
-        # Konvertiere SSH/HTTPS URL zu HTTPS Web-URL
-        if remote_url.startswith("git@"):
-            # git@github.com:user/repo.git -> https://github.com/user/repo
-            remote_url = remote_url.replace(":", "/").replace("git@", "https://")
-
-        # Entferne .git am Ende
-        remote_url = remote_url.rstrip("/").removesuffix(".git")
-
-        # Erstelle Commit-URL
+        short_hash = commit_hash[:7]
+        remote_url = get_remote_url()
+        if not remote_url:
+            return "", ""
         commit_url = f"{remote_url}/commit/{commit_hash}"
         return commit_url, short_hash
     except Exception as e:
@@ -192,55 +193,61 @@ def get_commit_url() -> tuple[str, str]:
         return "", ""
 
 
-def get_blueprint_commit_url() -> tuple[str, str]:
-    """Erstellt die URL zum letzten Commit für blueprints/Data/bp-contracts_short.json.
+def get_todays_blueprint_commits() -> list[dict]:
+    """Sammelt alle Commits des heutigen Tages für bp-contracts_short*.json.
 
     Returns:
-        tuple[str, str]: (commit_url, short_hash) oder ("", "") bei Fehler
+        list[dict]: Liste von {hash, short_hash, message, url}
     """
     try:
-        # Hole den Commit-Hash
+        remote_url = get_remote_url()
+        if not remote_url:
+            return []
+
+        # Heute 00:00:00 Berliner Zeit (TZ=Europe/Berlin ist gesetzt)
+        today_start = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        after_arg = today_start.strftime("%Y-%m-%d %H:%M:%S")
+
         result = subprocess.run(
             [
                 "git",
                 "log",
-                "-1",
-                "--pretty=%H",
+                f"--after={after_arg}",
+                "--pretty=%H|%s",
+                "--",
                 "blueprints/Data/bp-contracts_short.json",
+                "blueprints/Data/bp-contracts_short_en.json",
             ],
             capture_output=True,
             text=True,
             check=True,
         )
-        commit_hash = result.stdout.strip()
-        short_hash = commit_hash[:7]  # Kurze Version für Anzeige
 
-        # Hole die Remote-URL
-        result = subprocess.run(
-            ["git", "config", "--get", "remote.origin.url"],
-            capture_output=True,
-            text=True,
-            check=True,
-        )
-        remote_url = result.stdout.strip()
+        commits = []
+        for line in result.stdout.strip().splitlines():
+            if not line or "|" not in line:
+                continue
+            commit_hash, subject = line.split("|", 1)
+            short_hash = commit_hash[:7]
+            commit_url = f"{remote_url}/commit/{commit_hash}"
+            commits.append(
+                {
+                    "hash": commit_hash,
+                    "short_hash": short_hash,
+                    "message": subject.strip(),
+                    "url": commit_url,
+                }
+            )
 
-        # Konvertiere SSH/HTTPS URL zu HTTPS Web-URL
-        if remote_url.startswith("git@"):
-            remote_url = remote_url.replace(":", "/").replace("git@", "https://")
+        return commits
 
-        # Entferne .git am Ende
-        remote_url = remote_url.rstrip("/").removesuffix(".git")
-
-        # Erstelle Commit-URL
-        commit_url = f"{remote_url}/commit/{commit_hash}"
-        return commit_url, short_hash
     except Exception as e:
-        logger.error(f"Fehler beim Erstellen der Blueprint-Commit-URL: {e}")
-        return "", ""
+        logger.error(f"Fehler beim Abrufen der Tages-Commits: {e}")
+        return []
 
 
 def send_blueprints_notification():
-    """Sendet eine Discord-Meldung wenn bp-contracts_short.json aktualisiert wurde."""
+    """Sendet eine gebündelte Discord-Meldung für alle Blueprint-Updates des Tages."""
     logger.info("=== Blueprints Notification Script gestartet ===")
 
     webhook_url = os.getenv("DISCORD_WEBHOOK_URL_BP")
@@ -250,17 +257,32 @@ def send_blueprints_notification():
 
     locale.setlocale(locale.LC_ALL, "de_DE.utf-8")
     now = datetime.now()
-    commit_url, commit_hash = get_blueprint_commit_url()
+
+    commits = get_todays_blueprint_commits()
+
+    if not commits:
+        logger.info("Keine Blueprint-Commits heute – keine Discord-Meldung.")
+        return
+
+    logger.info(f"{len(commits)} Commit(s) heute gefunden.")
+
+    if len(commits) == 1:
+        commit_lines = (
+            f"Änderungen zum Update: [#{commits[0]['short_hash']}]({commits[0]['url']})"
+        )
+    else:
+        lines = "\n".join(
+            f"• [#{c['short_hash']}]({c['url']}) {c['message']}" for c in commits
+        )
+        commit_lines = f"Alle Änderungen des Tages ({len(commits)} Updates):\n{lines}"
 
     message = (
         f"Die Baupläne wurden am "
-        f"{now.strftime('%d. %B %Y um %H:%M Uhr')} aktualisiert."
+        f"{now.strftime('%d. %B %Y')} aktualisiert. "
+        f"Bitte aktualisiere deine Baupläne für das bestmögliche Spielerlebnis.\n\n"
+        f"{commit_lines}"
+        f"\n<:kofi:1319086302116708444> An SCDL-Team spenden: [ko-fi.com/scdeutsch](https://ko-fi.com/scdeutsch)"
     )
-
-    if commit_url and commit_hash:
-        message += f"\n\nÄnderungen zum Update: [#{commit_hash}]({commit_url})"
-
-    message += "\n<:kofi:1319086302116708444> An SCDL-Team spenden: [ko-fi.com/scdeutsch](https://ko-fi.com/scdeutsch)"
 
     send_discord_message(
         title="Baupläne aktualisiert!",
