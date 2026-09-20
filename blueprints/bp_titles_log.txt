@@ -1,5 +1,5 @@
 === Blueprint Contract Titles (aus lokaler global.ini) ===
-Generiert: 2026-09-17 00:59:52
+Generiert: 2026-09-20 15:15:45
 GitHub:    /rjcncpt
 ==========================================================
 
@@ -35,7 +35,7 @@ Battaglia_RPT_ScanMine_05_title=Efficient Miners Wanted
 Battaglia_RPT_ScanMine_06_title=Mining and Data Collection
 Battaglia_Story01_title=Willkommen im System
 Battaglia_Story02_title=Notfall: Blinding Hope in Schwierigkeiten
-Battaglia_Story03_title=Idee für Isaac
+Battaglia_Story03_title=Idea for Isaac
 BitZeros_RecoverItem_Generic_Title_001=Bleeding Edge Tech
 BitZeros_blackbox_E_Title_001=Getting To the Bottom of It
 BitZeros_blackbox_H_Title_001=Legendary Info?
