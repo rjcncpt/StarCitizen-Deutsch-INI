@@ -9,15 +9,18 @@
 
 ## Anleitung zur Installation
 
-### Variante 1: Automatisches Update der Übersetzung (SC Deutsch Launcher)
-Der **SC Deutsch Launcher** ist eine einfache und benutzerfreundliche Lösung zur Umstellung der Star Citizen Spieltexte von Englisch auf Deutsch. Unsere kostenlose App kümmert sich automatisch um alle Dateianpassungen und stellt sicher, dass immer die aktuellsten deutschen Sprachdateien installiert werden.
+### Variante 1: Automatisches Update der Übersetzung (SC Desktop Launcher)
+Der **SC Desktop Launcher (SCDL)** ist eine einfache und benutzerfreundliche Lösung zur Umstellung der Star Citizen Spieltexte von Englisch auf Deutsch. Unsere kostenlose App kümmert sich automatisch um alle Dateianpassungen und stellt sicher, dass immer die aktuellsten deutschen Sprachdateien installiert werden.
 
-[<img src="https://www.sc-deutsch-launcher.de/img/features/2026/sc-deutsch-launcher-ui_v2026.webp?t=177451851">](https://www.sc-deutsch-launcher.de/download/ "SC Deutsch Launcher Download")
+[<img src="https://www.sc-deutsch-launcher.de/img/screenshots/scdl-ui.webp?t=1789592272">](https://www.sc-deutsch-launcher.de/download/ "SC Desktop Launcher Download")
 
-1. Lade den **[SC Deutsch Launcher](https://www.sc-deutsch-launcher.de/download/)** herunter und installiere ihn.
-2. Nach der Installation, starte den SC Deutsch Launcher.
+1. Lade den SC Desktop Launcher (SCDL) von **[Github](https://github.com/rjcncpt/scdl-releases/releases)** oder von der **[Webseite](https://www.sc-deutsch-launcher.de/download/)** herunter und installiere ihn.
+2. Nach der Installation, starte den SC Desktop Launcher (SCDL).
 3. Der Launcher sucht automatisch nach deinem Star Citizen Verzeichnis.
 4. Wird keine Star Citizen Installation gefunden oder treten andere Probleme auf, komme gern auf **[unseren Support-Discord](https://discord.gg/5VZsTk3qjR)** und wir helfen dir bei dem Problem.
+
+> [!IMPORTANT]
+> **Detaillierte Informationen zum SC Desktop Launcher findest du auf dem [Github-Repo](https://github.com/rjcncpt/scdl-releases) und auf der [Webseite](https://www.sc-deutsch-launcher.de/).**
 
 <br>
 
@@ -59,9 +62,9 @@ Nähere Informationen zu den einzelnen Features findest du nachfolgend.
 Star Citizen vergibt bei bestimmten Missionen Baupläne (Blueprints) als Belohnung. Welche Baupläne vergeben werden, hängt vom Blueprint-Pool, der Reputationsstufe und der jeweiligen Region ab. Neben der englischsprachigen Community gibt es nun auch unsere deutsche Lösung, die Baupläne direkt in die Missionstexte integriert.
 
 ### Installation der Baupläne für Missionstexte (InGame)
-Über unseren **SC Deutsch Launcher** kannst du den aktuellen Stand der Baupläne bequem direkt in die Übersetzungsdatei **(`global.ini`)** integrieren.
+Über unseren **SC Desktop Launcher (SCDL)** kannst du den aktuellen Stand der Baupläne bequem direkt in die Übersetzungsdatei **(`global.ini`)** integrieren.
 
-1. Öffne den SC Deutsch Launcher und aktualisiere die Übersetzung.
+1. Öffne den SC Desktop Launcher (SCDL) und aktualisiere die Übersetzung.
 2. Klicke im Hauptfenster auf das **Injections-Icon** <img width="27" alt="image" src="https://www.sc-deutsch-launcher.de/img/features/blueprints/injections_icon.png?1" /> in der Titelleiste.
 3. Das Modul "Injections für global.ini" öffnet sich.
 4. Klicke auf den **"Baupläne injizieren"**-Button – fertig.
