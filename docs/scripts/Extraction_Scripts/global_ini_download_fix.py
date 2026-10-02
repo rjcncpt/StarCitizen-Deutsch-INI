@@ -84,55 +84,6 @@ replacements = {
     "<EM4>mission(Destination|Address)</EM4>": "<EM4>~mission(Destination|Address)</EM4>"
 }
 
-# Liste für Präfixe, die ~mission(Location|Address) entfernen sollen
-prefixes = [
-    "mtps_UGF_eliminateall_allies_desc_intro=",
-    "mtps_UGF_eliminateall_allies_desc_rehire=",
-    "mtps_UGF_eliminateall_desc_001=",
-    "mtps_UGF_eliminateall_nocivs_desc_001=",
-    "mtps_basesweep_desc_01=",
-    "mtps_bounty_desc_ERT=",
-    "mtps_bounty_desc_HRT=",
-    "mtps_bounty_desc_LRT=",
-    "mtps_bounty_desc_MRT=",
-    "mtps_bounty_desc_VHRT=",
-    "mtps_bounty_desc_VLRT=",
-    "mtps_bounty_desc_intro=",
-    "mtps_bounty_desc_rehire=",
-    "mtps_bounty_fps_UGF_bountyonly_desc_001=",
-    "mtps_bounty_fps_UGF_desc_001=",
-    "mtps_bounty_fps_UGF_nocivs_desc_001=",
-    "mtps_bounty_fps_desc_001=",
-    "mtps_bounty_fps_desc_first_001=",
-    "mtps_bounty_fps_desc_rehire_001=",
-    "GoblinG_MicroTech_RecoverCargo_S_Desc",
-]
-
-# Liste für Präfixe, die ~mission(TargetName) entfernen sollen
-target_name_prefixes = [
-    "Vaughn_EliminateSpecific_FPS_storm_H_desc_002=",
-]
-
-def remove_first_mission_key(lines, prefixes):
-    modified_lines = []
-    for line in lines:
-        for prefix in prefixes:
-            if line.startswith(prefix):
-                line = re.sub(r'~mission\(Location\|Address\)', '', line, count=1)
-                break
-        modified_lines.append(line)
-    return modified_lines
-
-def remove_target_name(lines, target_name_prefixes):
-    modified_lines = []
-    for line in lines:
-        for prefix in target_name_prefixes:
-            if line.startswith(prefix):
-                line = re.sub(r'~mission\(TargetName\)', '', line, count=1)
-                break
-        modified_lines.append(line)
-    return modified_lines
-
 def extract_build_number(manifest_path):
     try:
         with open(manifest_path, 'r', encoding='utf-8') as file:
@@ -213,8 +164,6 @@ def fix_ini(input_file_path, output_file_path):
             original_text = original_text.replace(old_text, new_text)
 
         lines = original_text.splitlines()
-        lines = remove_first_mission_key(lines, prefixes)
-        lines = remove_target_name(lines, target_name_prefixes)
 
         with codecs.open(output_file_path, "w", "UTF-8-SIG") as outfile:
             outfile.write("\n".join(lines))

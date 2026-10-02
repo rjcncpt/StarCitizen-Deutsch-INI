@@ -2,6 +2,7 @@
 *.bak
 *.psd
 *.url
+/blueprints
 /venv
 /ptu/full/
 /eptu/full/
