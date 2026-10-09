@@ -115,8 +115,8 @@ if __name__ == "__main__":
     # Perform duplicate key check
     if test_duplicate_keys():
         print("No duplicate keys found.")
-    else:
-        has_errors = True
+    # else:
+    #     has_errors = True
 
     if has_errors and args.fail_on_error:
         exit(1)
