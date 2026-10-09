@@ -35,6 +35,7 @@ if __name__ == "__main__":
     file_path = "live/global.ini"
     excluded_keys = [
         "item_DescFlair_Poster_nVidia",
+        "Text_Clovis_Safe_Contents_01"
     ]
 
     try:
