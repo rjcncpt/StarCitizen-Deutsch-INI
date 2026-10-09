@@ -5,9 +5,9 @@
   "keyCount": 4337,
   "stats": {
     "total": 4337,
-    "translated": 3921,
+    "translated": 3922,
     "missing": 0,
-    "noLocKey": 347,
+    "noLocKey": 346,
     "placeholderFallback": 69,
     "mismatch": 222,
     "missingKeys": [],
@@ -12013,7 +12013,7 @@
       "en": "Antium Helmet",
       "tr": "Antium Helmet"
     },
-    "_noloc_item_Antium Helmet Jet": {
+    "item_Name_qrt_specialist_heavy_helmet_01_01_12": {
       "en": "Antium Helmet Jet",
       "tr": "Antium Helmet Jet"
     },
@@ -17183,7 +17183,7 @@
     },
     "items_commodities_yormandi_eye": {
       "en": "Yormandi Eye",
-      "tr": "Yormandi-Auge"
+      "tr": "Yormandi-Eye"
     },
     "harvestable_Armillaria": {
       "en": "Bluemoon Fungus",
