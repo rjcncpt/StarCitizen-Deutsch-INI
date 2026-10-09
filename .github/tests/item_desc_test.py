@@ -62,7 +62,7 @@ def extract_desc_info(
         for key in item_dict.keys():
             if item_dict[key]:
                 item_dict[key] = item_dict[key].group(1).strip()
-                if key == "Typ (En)" and current_key.find("_helmet_") != -1:
+                if key == "Typ (En)" and current_key.find("_helmet") != -1:
                     item_dict[key] = item_dict[key].replace("Armor", "Helmet")
             else:
                 item_dict[key] = None
