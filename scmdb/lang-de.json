@@ -1,15 +1,15 @@
 {
-  "version": "4.10.1-live.12660092",
+  "version": "4.10.2-live.12881860",
   "sourceLanguage": "en",
   "targetLanguage": "german_global",
-  "keyCount": 4337,
+  "keyCount": 4445,
   "stats": {
-    "total": 4337,
-    "translated": 3922,
+    "total": 4445,
+    "translated": 4020,
     "missing": 0,
-    "noLocKey": 346,
+    "noLocKey": 356,
     "placeholderFallback": 69,
-    "mismatch": 222,
+    "mismatch": 229,
     "missingKeys": [],
     "mismatchKeys": [
       "CFP_Delivery_Outpost_Multi_title_001",
@@ -228,6 +228,13 @@
       "headhunters_maintenance_local_E_title_001",
       "headhunters_maintenance_local_H_title_001",
       "headhunters_maintenance_local_M_title_001",
+      "iasi_Delivery_2H_Desc",
+      "iasi_Hauling_Small_Desc",
+      "iasi_Hauling_Supply_2_Desc",
+      "iasi_Hauling_Supply_Desc",
+      "iasi_RecoverItem_E_Desc_001",
+      "iasi_RecoverItem_H_Desc_001",
+      "iasi_RecoverItem_M_Desc_001",
       "mg_miles_capturegang_desc_001",
       "mg_miles_capturegang_desc_002",
       "mg_miles_capturegang_desc_003",
@@ -600,6 +607,10 @@
     "BitZeros_blackbox_S_Title_001": {
       "en": "Bad at Goodbyes",
       "tr": "Bad at Goodbyes"
+    },
+    "TheCollector_Recipes_Title_GMNI_LMG": {
+      "en": "Big Style LMG",
+      "tr": "Big Style LMG"
     },
     "blackbox_recover_title_M_001": {
       "en": "Too Smart For Our Own Good",
@@ -1825,6 +1836,10 @@
       "en": "Moderate Repairs Needed: Yang's Place",
       "tr": "Moderate Repairs Needed: [LOCATION]"
     },
+    "TheCollector_Recipes_Title_GreyHeavyCombat": {
+      "en": "Monolith Armor Very Smooth",
+      "tr": "Monolith Armor Very Smooth"
+    },
     "Battaglia_RPT_DataDownload_01_title": {
       "en": "Moraine Data Retrieval",
       "tr": "Moraine Data Retrieval"
@@ -2629,6 +2644,126 @@
       "en": "Retrieve Additional Smuggler Intel",
       "tr": "Retrieve Additional Smuggler Intel"
     },
+    "iasi_EliminateAll_M_Title": {
+      "en": "RSI Disc. Month: Clear Hostiles from Site",
+      "tr": "RSI Disc. Month: Clear Hostiles from Site"
+    },
+    "iasi_GoldBox_Delivery_Title_0": {
+      "en": "RSI Disc. Month: Constellation Rental Offer",
+      "tr": "RSI Disc. Month: Constellation Rental Offer"
+    },
+    "iasi_Delivery_2H_Title": {
+      "en": "RSI Disc. Month: Courier Run (Exp. E)",
+      "tr": "RSI Disc. Month: Courier Run (Exp. E)"
+    },
+    "iasi_Refueling_H_Title_001": {
+      "en": "RSI Disc. Month: Critical Refuel Request ([SHIP])",
+      "tr": "RSI Disc. Month: Critical Refuel Request ([SHIP])"
+    },
+    "iasi_EliminateSpecific_E_Title": {
+      "en": "RSI Disc. Month: Eliminate Known Outlaw",
+      "tr": "RSI Disc. Month: Eliminate Known Outlaw"
+    },
+    "iasi_RecoverItem_FPS_H_Title_001": {
+      "en": "RSI Disc. Month: High Value Package Retrieval Op",
+      "tr": "RSI Disc. Month: High Value Package Retrieval Op"
+    },
+    "iasi_Hauling_Supply_2_Title": {
+      "en": "RSI Disc. Month: Important Supply Haul",
+      "tr": "RSI Disc. Month: Important Supply Haul"
+    },
+    "iasi_Hauling_Small_Title": {
+      "en": "RSI Disc. Month: Ling Small Haul",
+      "tr": "RSI Disc. Month: Ling Small Haul"
+    },
+    "iasi_Hauling_Supply_Title": {
+      "en": "RSI Disc. Month: Ling Supply Delivery",
+      "tr": "RSI Disc. Month: Ling Supply Delivery"
+    },
+    "iasi_Patrol_M_title": {
+      "en": "RSI Disc. Month: Orange Lvl. - Conduct Security Sweep",
+      "tr": "RSI Disc. Month: Orange Lvl. - Conduct Security Sweep"
+    },
+    "iasi_SupportAttackedShip_M_title": {
+      "en": "RSI Disc. Month: Orange Lvl. - Defend Ship",
+      "tr": "RSI Disc. Month: Orange Lvl. - Defend Ship"
+    },
+    "iasi_Patrol_H_title": {
+      "en": "RSI Disc. Month: Orange Lvl. - Neutralize Threats",
+      "tr": "RSI Disc. Month: Orange Lvl. - Neutralize Threats"
+    },
+    "iasi_SupportAttackedShip_H_title": {
+      "en": "RSI Disc. Month: Orange Lvl. - RSI Ship Under Attack",
+      "tr": "RSI Disc. Month: Orange Lvl. - RSI Ship Under Attack"
+    },
+    "iasi_RecoverItem_E_Title_001": {
+      "en": "RSI Disc. Month: Package Recovery (Exp. E)",
+      "tr": "RSI Disc. Month: Package Recovery (Exp. E)"
+    },
+    "iasi_RecoverItem_M_Title_001": {
+      "en": "RSI Disc. Month: Package Recovery (Exp. JR)",
+      "tr": "RSI Disc. Month: Package Recovery (Exp. JR)"
+    },
+    "iasi_RecoverItem_H_Title_001": {
+      "en": "RSI Disc. Month: Package Recovery (Exp. S)",
+      "tr": "RSI Disc. Month: Package Recovery (Exp. S)"
+    },
+    "iasi_ResourceGathering_Mining_Title": {
+      "en": "RSI Disc. Month: Procure Refined Beryl",
+      "tr": "RSI Disc. Month: Procure Refined Beryl"
+    },
+    "iasi_ResourceGathering_Mining_E_Title": {
+      "en": "RSI Disc. Month: Procure Refined Iron",
+      "tr": "RSI Disc. Month: Procure Refined Iron"
+    },
+    "iasi_ResourceGathering_Mining_H_Title": {
+      "en": "RSI Disc. Month: Procure Refined Quantainium",
+      "tr": "RSI Disc. Month: Procure Refined Quantainium"
+    },
+    "iasi_RecoverItem_FPS_M_Title_001": {
+      "en": "RSI Disc. Month: Recover Package from Hijackers",
+      "tr": "RSI Disc. Month: Recover Package from Hijackers"
+    },
+    "iasi_RecoverItem_FPS_E_Title_001": {
+      "en": "RSI Disc. Month: Recover Package from Site",
+      "tr": "RSI Disc. Month: Recover Package from Site"
+    },
+    "iasi_Refueling_E_Title_001": {
+      "en": "RSI Disc. Month: Refuel Request ([SHIP])",
+      "tr": "RSI Disc. Month: Refuel Request ([SHIP])"
+    },
+    "iasi_GoldBox_Delivery_Title": {
+      "en": "RSI Disc. Month: Relay Race",
+      "tr": "RSI Disc. Month: Relay Race"
+    },
+    "iasi_EliminateBoss_H_Title": {
+      "en": "RSI Disc. Month: Take Out Gang Leader",
+      "tr": "RSI Disc. Month: Take Out Gang Leader"
+    },
+    "iasi_Salvage_ResourceGathering_L_Title": {
+      "en": "RSI Disc. Month: UCM Order (L)",
+      "tr": "RSI Disc. Month: UCM Order (L)"
+    },
+    "iasi_Salvage_ResourceGathering_M_Title": {
+      "en": "RSI Disc. Month: UCM Order (M)",
+      "tr": "RSI Disc. Month: UCM Order (M)"
+    },
+    "iasi_Salvage_ResourceGathering_S_Title": {
+      "en": "RSI Disc. Month: UCM Order (S)",
+      "tr": "RSI Disc. Month: UCM Order (S)"
+    },
+    "iasi_Refueling_M_Title_001": {
+      "en": "RSI Disc. Month: Urgent Refuel Request ([SHIP])",
+      "tr": "RSI Disc. Month: Urgent Refuel Request ([SHIP])"
+    },
+    "iasi_Patrol_E_title": {
+      "en": "RSI Disc. Month: Yellow Lvl. - Patrol System",
+      "tr": "RSI Disc. Month: Yellow Lvl. - Patrol System"
+    },
+    "iasi_SupportAttackedShip_E_title": {
+      "en": "RSI Disc. Month: Yellow Lvl. - Support Ship",
+      "tr": "RSI Disc. Month: Yellow Lvl. - Support Ship"
+    },
     "TheCollector_Ships_Meteor_Title": {
       "en": "RSI Meteor Mod",
       "tr": "RSI Meteor Mod"
@@ -3210,15 +3345,15 @@
       "tr": "Verified Bounty: [TARGET] at QV Breaker Station"
     },
     "bhg_bounty_title_gen_001": {
-      "en": "Verified Bounty: [TARGET] | Very Low-Risk Target (Single Seater Craft, Minimal Support)",
+      "en": "Verified Bounty: [TARGET] | Very Low-Risk Target",
       "tr": "Verified Bounty: [TARGET] | [DANGER]"
     },
     "bhg_bounty_title_HeadHunters_001": {
-      "en": "Verified Bounty: [TARGET] | HeadHunters | Very High-Risk Target (Large Multicrew Craft, Heavy Support)",
+      "en": "Verified Bounty: [TARGET] | HeadHunters | Very High-Risk Target",
       "tr": "Verified Bounty: [TARGET] | HeadHunters | [DANGER]"
     },
     "bhg_bounty_title_XT_001": {
-      "en": "Verified Bounty: [TARGET] | XenoThreat | Extreme-Risk Target (Sub-Capital Class Vessel, Heavy Support)",
+      "en": "Verified Bounty: [TARGET] | XenoThreat | Extreme-Risk Target",
       "tr": "Verified Bounty: [TARGET] | XenoThreat | [DANGER]"
     },
     "Hockrow_searchbody_space_S_Title_001": {
@@ -3836,6 +3971,10 @@
     "BitZeros_blackbox_S_Desc_001": {
       "en": "Got a big job for a big player. We’re in the process of making someone disappear, like completely vanish, and a part of that is recovering the blackbox from the “accident” that they had recently over at <EM4>[LOCATION]</EM4>.\\nOnly problem is, seems the people this person hired to stage the accident have gotten it in their heads that there’s more money to be made. So much so that they’re still keeping tabs on the now deceased’s ship.\\nThese guys aren’t playing around either. You’ll need a couple of friends to help you do this. But if you can get the blackbox out of there and into our hands by dropping it at <EM4>[DESTINATION]</EM4>, we can really make it worth your while.\\n\\n-Bit Zeros",
       "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Flugschreiber aus schwer bewachtem Wrack bergen:\\n   > [LOCATION]\\n\\n• Flugschreiber zustellen:\\n   > [DESTINATION]\\n\\n• Hinweis: Starke Unterstützung mitbringen\\n\\n-------------------------------------------------------\\n\\nIch habe einen wichtigen Job für dich. Wir sind dabei, jemanden komplett verschwinden zu lassen, und ein Teil davon ist, den Flugschreiber von dem \"Unfall\" zurückzuholen, der sich neulich ereignet hat.\\n\\nDas einzige Problem: Die Leute, die diese Person engagiert haben, um den Unfall zu inszenieren, glauben offenbar, dass sich noch mehr Geld rausschlagen lässt. So sehr, dass sie das Schiff des Verstorbenen weiter im Blick behalten.\\n\\nDiese Typen meinen es ernst. Du brauchst ein paar Leute zur Unterstützung. Aber wenn du den Flugschreiber holst und ablieferst, zahlen wir dir ordentlich dafür.\\n\\n- Bit Zeros"
+    },
+    "TheCollector_Recipes_Desc_GMNI_LMG": {
+      "en": "Warriors should feel strong, yes? What makes you feel more very strong than looking amazing? Wikelo will make your gun look like different gun. Bring me item on list and I give to you. Bye.",
+      "tr": "Krieger sollen sich stark fühlen, ja? Was macht dich stärker als toll aussehen? Wikelo macht, dass deine Waffe aussieht wie andere Waffe. Bring mir Sachen von Liste, und ich gebe dir. Tschüss."
     },
     "blackbox_recover_desc_M_001": {
       "en": "We were a little too smart with this one and it’s kinda backfired. Sometimes you gotta dream big, you know? Anyway. we were looking to move some encrypted data to one of our data havens and decided to hide it in a ship’s blackbox. They filled the ship with “valuable” stuff as a decoy in case it got attacked. The plan worked a little too well and the cargo might have attracted the wrong kind of attention. They stole all the cargo but missed the blackbox. Bad news is the ship is now swarming with outlaws.\\n\\nThe data on that blackbox is useless to them, but we need it. If you can get it back for us, we can give you a nice cut from what we make. Seems like a fair deal, right?\\n\\nHead to <EM4>[LOCATION]</EM4> and after you’ve done your thing take the flight recorder to <EM4>[DESTINATION]</EM4>.\\n\\n-Bit Zeros",
@@ -5022,7 +5161,7 @@
       "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Frische Valakkar-Organik abholen:\\n   > [LOCATION]\\n\\nAn alle Käufer liefern (beliebige Reihenfolge):\\n\\n[SINGLETOMULTITOKEN]\\n\\n• Max. Containergröße: [MAX_SCU]\\n• Ausrüstung: Tragbares Traktorstrahlgerät (unbedingt!)\\n• Zeitlimit: Organik verdirbt schnell → schnell liefern!\\n\\n-------------------------------------------------------\\n\\nHallo, unser Klient hat einen Valakkar erlegt und in organische Materialien verarbeitet. Es gibt bereits Käufer, die an mehreren Standorten auf die Lieferung warten. Daher benötige ich jemanden, der sich zum Start-Frachtaufzug begibt, alles abholt und abliefert.\\n\\nVergiss nicht, ein tragbares Traktorstrahlgerät mitzunehmen. Ohne es wird es schwer, diese Fracht zu transportieren.\\n\\n[SIGN_OFF]\\n\\nElla Tieno\\nJr. Logistikkoordinatorin\\nCovalex Shipping\\n\\n############################\\n\\nCovalex Shipping ist eine Gesellschaft mit beschränkter Haftung. Um pünktliche Lieferungen zu fördern und Betrug bei Frachttransporten zu verhindern, setzt \"Covalex Shipping\" ein Lieferzeitlimit fest. Nach Ablauf dieses Zeitlimits gilt jede nicht gelieferte Fracht als gestohlen und wird entsprechend behandelt."
     },
     "BHG_Certification_Super_Desc": {
-      "en": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM] \\nRISK ASSESSMENT: Extreme\\nLAST KNOWN LOCATION: [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: As acknowledgment of your expertise in the craft, the Bounty Hunters Guild would like to offer you the chance to earn a Master Tracker License.\\n\\nThis license would signify that you are qualified to track and apprehend Extreme-Risk Targets (ERT). These are criminals who travel in sub-capital ships with heavy escorts. This class of bounty only gets assigned to the most experienced of trackers.\\n\\nTo successfully complete this certification process, you must apprehend an ERT ranked criminal by the name of <EM4>[TARGET]</EM4> last seen at <EM4>[LOCATION]</EM4>.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
+      "en": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: [SYSTEM] \\nRISK ASSESSMENT: Extreme\\nLAST KNOWN LOCATION: [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: As acknowledgment of your expertise in the craft, the Bounty Hunters Guild would like to offer you the chance to earn a Master Tracker License.\\n\\nThis license would signify that you are qualified to track and apprehend Extreme-Risk Targets (ERT). These are criminals who travel in powerful ships with heavy escorts. This class of bounty only gets assigned to the most experienced of trackers.\\n\\nTo successfully complete this certification process, you must apprehend an ERT ranked criminal by the name of <EM4>[TARGET]</EM4> last seen at <EM4>[LOCATION]</EM4>.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
       "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Zielperson festnehmen: [TARGET]\\n• Letzter bekannter Standort:\\n   > [LOCATION]\\n\\n• Suchgebiet: [SYSTEM]\\n• Gefahrenstufe: Extrem\\n• Bekannte Zugehörigkeit: Keine\\n• Hinweis: Zielperson reist in Unter-Kapital-Schiffen mit schwerer Eskorte - nur für erfahrene Verfolger\\n\\n-------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nVERARBEITUNG & VERTEILUNG\\n\\nDie Bounty Hunters Guild hat ein offizielles Kopfgeld genehmigt.\\n\\nHINWEISE: In Anerkennung deiner Fachkompetenz möchte die Bounty Hunters Guild dir die Gelegenheit bieten, eine Meister-Tracker-Lizenz zu erwerben.\\n\\nDiese Lizenz bestätigt, dass du qualifiziert bist, als Extrem-Risiko-Zielpersonen (ERT) eingestufte Kriminelle aufzuspüren und festzunehmen. Dabei handelt es sich um Kriminelle, die in Unter-Kapital-Schiffen mit schwerer Eskorte reisen. Diese Klasse von Kopfgeldern wird nur den erfahrensten Verfolgern zugeteilt.\\n\\nUm diese Zertifizierung erfolgreich abzuschließen, musst du den Kriminellen namens [TARGET] festnehmen, der zuletzt bei [LOCATION] gesehen wurde.\\n\\n############################\\n\\nBOUNTY HUNTERS GUILD\\nIm Dienste der Gerechtigkeit\\n\\nDie Bounty Hunters Guild ist ein von der Mercenary Guild genehmigter Sicherheitsdienst, der gemäß den \"Xenotrade Authority Acts\" berechtigt ist, sowohl in der UEE als auch darüber hinaus zu operieren."
     },
     "Covalex_RecoverCargo_Medium_Description": {
@@ -5112,6 +5251,10 @@
     "cfp_maintenance_local_M_desc_001": {
       "en": "If you happen to be in the area, please read this.\\n\\nCitizens for Prosperity is looking for a qualified mechanic to head to <EM4>[LOCATION]</EM4> with the required supplies and perform some repairs.\\n\\nAs it stands, you’ll need <EM4>six fuses</EM4>, a <EM4>salvaging tool</EM4>, and <EM4>enough RMC canisters to repair five pipes or so.</EM4> That should help us get the outpost functional again. We'll compensate you for your time and materials.\\n\\nIf you need more information on maintenance work, see <EM4>“Cornerstone Developments' Guide to Maintenance”</EM4> entry in your mobiGlas Journal.\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
       "tr": "Wenn du gerade in der Nähe bist, bitte lies das.\\n\\nCitizens for Prosperity sucht einen qualifizierten Techniker, der zu [LOCATION] reist, um mit den nötigen Materialien Reparaturen durchzuführen. Du brauchst:\\n\\n• 6x Sicherungen\\n• 1x Salvage-Werkzeug\\n• und ausreichend RMC-Behälter, um etwa fünf Rohre zu reparieren.\\n\\nDamit sollten wir den Außenposten wieder in Betrieb nehmen können. Du wirst für deinen Aufwand und die Materialien entschädigt.\\n\\nWenn du mehr Informationen zur Instandhaltung brauchst, sieh dir den Eintrag im Wartungshandbuch von Cornerstone Developments in deinem mobiGlas-Journal an.\\n\\nKannst du helfen?\\n\\n\\n·-· ·--- -·-·\\nLima Endicott\\nLeitende Einsatzkoordinatorin\\nCitizens for Prosperity"
+    },
+    "TheCollector_Recipes_Desc_GreyHeavyCombat": {
+      "en": "When fight, you want armor that solid. Keep gun from helpful organ you need to live, yes, but should be impressive too. Wikelo make version of Monolith armor that do both.\\n\\nYou want? Bring me things I need for new project and I will give. Show you how to make too. More happy.",
+      "tr": "Wenn Kampf, du willst Rüstung, die solide. Hält Kugeln weg von nützlichem Organ, das du zum Leben brauchst, ja, aber soll auch beeindruckend sein. Wikelo macht Version von Monolith-Rüstung, die beides kann.\\n\\nDu willst? Bring mir Sachen, die ich brauche für neues Projekt, und ich gebe. Zeige dir auch, wie man macht. Mehr glücklich."
     },
     "Battaglia_RPT_DataDownload_01_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Moraine Data Retrieval\\n\\nWORK BRIEF: \\nThis is a little outside our usual purview, but with the Moraine attacking more often, we’re hoping to find out where they’re operating and steer crews clear of those areas.\\n\\nWe need someone to <EM4>infiltrate a suspected Moraine facility and make a copy of their server data</EM4>. We’ve been told that the station is rarely occupied but it’s possible that you will encounter Moraine there, so be careful.\\n\\nWhile we don’t advocate violence, the potential benefits of this intel will be able to save many lives on both sides.\\n\\nPAYMENT:\\nStandard listed rate upon delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
@@ -5820,6 +5963,126 @@
     "RedWind_HaulCargo_MultiToSingle_desc_RantaDung": {
       "en": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nGot a request from a farmer in Pyro for specialized agricultural supplies - namely, ranta dung. Apparently, normal fertilizers aren't cutting it. They've put in orders from multiple distributors and need someone to bring everything back to <EM4>[DESTINATION]</EM4>.\\n\\nHere are all the places you can collect the dung:\\n\\nPICK UP LOCATIONS (ANY ORDER)\\n\\n [MULTITOSINGLETOKEN]\\n\\nThe client says your ship needs to be able to carry at least <EM4>8 SCU cargo containers</EM4>. Don't forget to bring your own <EM4>handheld tractor beam</EM4> for loading and unloading.",
       "tr": "RED WIND LINEHAUL\\nIHRE WAREN IN VERLÄSSLICHEN HÄNDEN\\n-------------------------------------------------------\\n\\nWir haben eine Anfrage von einem Bauern im Pyro-System für spezielle landwirtschaftliche Versorgungsgüter - genauer gesagt Ranta-Dung. Anscheinend reichen normale Dünger nicht aus. Sie haben bei mehreren Händlern bestellt und brauchen jemanden, der alles zurück zu [DESTINATION] bringt.\\n\\nHier sind alle Orte, an denen du den Dünger abholen kannst:\\n\\nABHOLORTE (BELIEBIGE REIHENFOLGE)\\n\\n [MULTITOSINGLETOKEN]\\n\\nDer Klient sagt, dein Schiff muss mindestens [MAX_SCU] Frachtcontainer transportieren können. Vergiss nicht, dein eigenes tragbares Traktorstrahlgerät zum Be- und Entladen mitzunehmen."
+    },
+    "iasi_EliminateAll_M_Desc": {
+      "en": "Greetings,\\n\\nUnfortunately, I've just received word that one of RSI's Discovery Month host locations has been attacked by a group of outlaws. Fortunately, the criminals in question left a rather messy trail of evidence behind allowing us to easily track down their location.\\n\\nWe need a contractor to head to <EM4>[LOCATION]</EM4> and deal with the criminals on site before they can strike again. \\n\\nArm yourself appropriately and be wary.\\n\\nBest of luck,\\nAdrienne Du-Buisson\\nLogistics Officer\\nNorthrock Service Group",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Zum Einsatzort begeben:\\n   > [LOCATION]\\n\\n• Alle Kriminellen vor Ort ausschalten\\n• Sicherheitslage: Bewaffnete Kriminelle – passende Ausrüstung mitnehmen\\n\\n-------------------------------------------------------\\n\\nGrüße,\\n\\nleider habe ich gerade erfahren, dass einer der Veranstaltungsorte des RSI Discovery Month von einer Gruppe Krimineller angegriffen wurde. Zum Glück haben die Täter eine ziemlich deutliche Spur an Beweisen hinterlassen, sodass wir ihren Standort leicht ausfindig machen konnten.\\n\\nWir brauchen einen Auftragnehmer, der zum Einsatzort fliegt und sich dort um die Kriminellen kümmert, bevor sie erneut zuschlagen können.\\n\\nRüste dich entsprechend aus und sei vorsichtig.\\n\\nViel Glück,\\nAdrienne Du-Buisson\\nLogistikbeauftragte\\nNorthrock Service Group"
+    },
+    "iasi_GoldBox_Delivery_Desc_0": {
+      "en": "Calling all RSI Enthusiasts!\\n\\nA core value of Robert Space Industries is exploration and adventure - and in keeping with that - we are thrilled to provide all pilots with the chance to test fly the new <EM4>RSI Constellation Mk V</EM4>!\\n\\nAll you have to do is collect the Golden Constellation box from the plinth at one of our special event locations and deliver it to another <EM4>RSI Event Platform</EM4>. Once you've done that, you'll be able to enjoy the test flight period. It’s as simple as that!\\n\\nThe Constellation Mk V is one of RSI's most versatile ships to date. Featuring four S5 weapons, two remote turrets, and 240 SCU of cargo storage, this ship caters for all kinds of adventures.\\n\\nWe hope you enjoy this opportunity to experience the future of spaceflight first hand and that it will be just the first of many more adventures to come.\\n\\nEnjoy your journey,\\n\\nChristoph Roester\\nRSI Community Outreach Manager\\n---\\nRoberts Space Industries\\nDelivering the Stars since 2075",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Goldene Constellation-Box vom Sockel eines Event-Standorts abholen\\n• Box zu einer anderen RSI Event Platform liefern\\n• Belohnung: Probeflug mit der RSI Constellation Mk V\\n\\n-------------------------------------------------------\\n\\nAufruf an alle RSI-Fans!\\n\\nErkundung und Abenteuer gehören zu den Grundwerten von Roberts Space Industries. Getreu diesem Motto freuen wir uns sehr, allen Piloten die Chance zu geben, die neue RSI Constellation Mk V probezufliegen!\\n\\nDu musst nur die goldene Constellation-Box vom Sockel an einem unserer besonderen Event-Standorte abholen und zu einer anderen RSI Event Platform bringen. Sobald du das erledigt hast, kannst du den Probeflugzeitraum genießen. So einfach ist das!\\n\\nDie Constellation Mk V ist eines der bisher vielseitigsten Schiffe von RSI. Mit vier S5-Waffen, zwei ferngesteuerten Geschütztürmen und 240 SCU Frachtraum ist dieses Schiff für Abenteuer aller Art gerüstet.\\n\\nWir hoffen, dass du diese Gelegenheit genießt, die Zukunft der Raumfahrt hautnah zu erleben, und dass sie nur das erste von vielen weiteren Abenteuern ist.\\n\\nGenieß die Reise,\\n\\nChristoph Roester\\nRSI Community Outreach Manager\\n---\\nRoberts Space Industries\\nDelivering the Stars since 2075"
+    },
+    "iasi_Delivery_2H_Desc": {
+      "en": "FOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – ENTRY\\n\\nPICKUP LOCATION – Courier to collect RSI supplies from <EM4>[LOCATION]</EM4>.\\n\\nDROPOFF LOCATION – Deliver supplies to the <EM4>RSI Event Platform</EM4>.\\n\\nTHREAT LEVEL – Highly unlikely.\\n\\nTRAVEL –  All transportation needs should be arranged by courier.\\n\\nBy accepting this contract you agree to take full responsibility for the safety of the assigned packages.\\n\\nGood luck and good speed, courier!",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Empfohlene Erfahrungsstufe: Einsteiger\\n• Gefahrenstufe: Sehr unwahrscheinlich\\n\\n• RSI-Vorräte abholen:\\n   > [LOCATION]\\n\\n• Vorräte liefern: RSI Event Platform\\n• Alle Transportmittel sind vom Kurier selbst zu organisieren\\n\\n-------------------------------------------------------\\n\\nZUR SOFORTIGEN ZUWEISUNG\\n\\nAUFTRAGSDETAILS\\nEMPFOHLENE ERFAHRUNGSSTUFE – EINSTEIGER\\n\\nABHOLORT – Der Kurier holt RSI-Vorräte am Abholort ab.\\n\\nZIELORT – Liefere die Vorräte an die RSI Event Platform.\\n\\nBEDROHUNGSSTUFE – Sehr unwahrscheinlich.\\n\\nREISE – Alle Transportmittel muss der Kurier selbst organisieren.\\n\\nDurch Annahme dieses Auftrags erklärst du dich bereit, die volle Verantwortung für die Sicherheit der zugewiesenen Pakete zu übernehmen.\\n\\n[SIGN_OFF]"
+    },
+    "iasi_Refueling_H_Desc_001": {
+      "en": "Hey there,\\n\\nGot another beacon if you've got the time. The folks at RSI have just been in touch to say that due to a \"\"communication issue between staff members\"\" their engine has run dry, and they need to moving again pronto. The <EM4>[SHIP]</EM4> is located over at <EM4>[LOCATION]</EM4> and will need topping up with <EM4>[FUELTYPE]</EM4>.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nOf all the places for them to run dry, they couldn't have picked a worse one. I don't want to make you nervous or anything, but I'd recommend bringing a buddy with you to watch your back.\\n\\nYou take care of each other out there, okay? Make sure you come back in one piece.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"\"We’ve got your back\"\"",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Missionstyp: Betankung\\n• Einsatzort:\\n   > [LOCATION]\\n\\n• Zu betankendes Schiff: [SHIP]\\n• Benötigter Treibstoff: [FUELTYPE]\\n• Vergütung:\\n   - Satz: [REFUELREQUEST]\\n   - Zusätzlich: UWC-Servicegebühr nach Abschluss\\n• Sicherheitslage: Gefährliche Gegend - Begleitung empfohlen\\n\\n-------------------------------------------------------\\n\\nHey du,\\n\\nich habe noch ein Notsignal, falls du Zeit hast. Die Leute von RSI haben sich gerade gemeldet: Wegen eines \"Kommunikationsproblems zwischen Mitarbeitern\" ist ihr Tank leer, und sie müssen schnellstens wieder in Bewegung kommen. Das Schiff befindet sich am Einsatzort und muss aufgetankt werden.\\n\\nVon allen Orten, an denen ihnen der Treibstoff ausgehen konnte, hätten sie sich keinen schlechteren aussuchen können. Ich will dich nicht nervös machen, aber ich würde dir raten, jemanden mitzunehmen, der dir den Rücken freihält.\\n\\nPasst da draußen aufeinander auf, okay? Sieh zu, dass du heil zurückkommst.\\n\\nGute Reise,\\n\\nDina Deloit\\nDispatch-Zentrale\\nUnited Wayfarers Club\\n\"Wir halten dir den Rücken frei\""
+    },
+    "iasi_EliminateSpecific_E_Desc": {
+      "en": "Greetings,\\n\\nA high value criminal named <EM4>[TARGET]</EM4> has recently been spotted for the first time in several months and we've been hired to intercept them. With a long history of ship theft and homicide, it seems far too coincidental for them to just suddenly make a reappearance considering the  number of high value ships on display at the current RSI Discovery Month event locations. \\n\\nOur analysts have reported their last known location was <EM4>[LOCATION]</EM4>. We are seeking a contractor to track them down and eliminate them.\\n\\nPayment and additional work to follow upon your success.\\n\\nBest of luck,\\nAdrienne Du-Buisson\\nLogistics Officer\\nNorthrock Service Group",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Zielperson: [TARGET]\\n• Letzter bekannter Standort:\\n   > [LOCATION]\\n\\n• Aufgabe: Zielperson aufspüren und eliminieren\\n• Vorstrafen: Schiffsdiebstahl und Mord\\n\\n-------------------------------------------------------\\n\\nGrüße,\\n\\neine hochkarätige kriminelle Zielperson wurde zum ersten Mal seit mehreren Monaten wieder gesichtet, und wir wurden beauftragt, sie abzufangen. Bei einer langen Vorgeschichte aus Schiffsdiebstahl und Mord wirkt es wie ein allzu großer Zufall, dass sie ausgerechnet jetzt wieder auftaucht, wo an den aktuellen Standorten des RSI Discovery Month so viele wertvolle Schiffe ausgestellt sind.\\n\\nLaut unseren Analysten war der Einsatzort ihr letzter bekannter Aufenthaltsort. Wir suchen einen Auftragnehmer, der die Zielperson aufspürt und eliminiert.\\n\\nBezahlung und weitere Aufträge folgen nach deinem Erfolg.\\n\\nViel Glück,\\nAdrienne Du-Buisson\\nLogistikbeauftragte\\nNorthrock Service Group"
+    },
+    "iasi_RecoverItem_FPS_H_Desc_001": {
+      "en": "Greetings,\\n\\nRequesting a contractor with strong combat experience for a challenging package retrieval operation.\\n\\nA courier contracted by RSI has unfortunately been eliminated by a group of known outlaws in the system. The speed and execution of this attack suggests this was not by happenstance, and instead a coordinated and targeted attack with the intention of stealing whatever valuables are within that package.\\n\\nRSI had the good sense to install a tracker in the package, leading us to believe the outlaws who stole it are located at <EM4>[LOCATION]</EM4>. Information regarding their hideout is sparse, but we would strongly advise bringing back up and arming yourself appropriately.\\n\\nIn the interest of minimizing disruption to the RSI Discovery Event, it has been requested that you deliver the package directly to <EM4>[DESTINATION]</EM4>.\\n\\nBest of luck,\\nAdrienne Du-Buisson\\nLogistics Officer\\nNorthrock Service Group",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Gestohlenes Paket bergen:\\n   > [LOCATION]\\n\\n• Paket direkt liefern:\\n   > [DESTINATION]\\n\\n• Sicherheitslage: Versteck bekannter Krimineller – Verstärkung dringend empfohlen\\n\\n-------------------------------------------------------\\n\\nGrüße,\\n\\nfür einen anspruchsvollen Einsatz zur Paketbergung suchen wir einen Auftragnehmer mit viel Kampferfahrung.\\n\\nEin von RSI beauftragter Kurier wurde leider von einer Gruppe bekannter Krimineller im System getötet. Tempo und Ausführung des Angriffs deuten darauf hin, dass das kein Zufall war, sondern ein koordinierter, gezielter Angriff mit dem Ziel, die Wertsachen in diesem Paket zu stehlen.\\n\\nRSI war so klug, einen Peilsender im Paket anzubringen. Deshalb gehen wir davon aus, dass sich die Kriminellen, die es gestohlen haben, am Einsatzort aufhalten. Über ihr Versteck gibt es kaum Informationen, aber wir raten dringend, Verstärkung mitzubringen und dich entsprechend auszurüsten.\\n\\nUm Störungen des RSI Discovery Event möglichst gering zu halten, wurde darum gebeten, dass du das Paket direkt an den angegebenen Lieferort bringst.\\n\\nViel Glück,\\nAdrienne Du-Buisson\\nLogistikbeauftragte\\nNorthrock Service Group"
+    },
+    "iasi_Hauling_Supply_2_Desc": {
+      "en": "Hiya,\\n\\nWe've been given a really important task by RSI to deliver some crucial goods for their Discovery Month event and I need our best contractors on this one.\\n\\nWe have a ton of supplies moved from <EM4>[LOCATION]</EM4> to <EM4>[DESTINATION]</EM4>. \\n\\nIf you think you're up to the task, go ahead and accept this contract, get a ship that can carry <EM4>16 SCU</EM4>, and grab your <EM4>handheld tractor beam</EM4>. All pick ups and drop offs are done by freight elevators.\\n\\nGood luck and safe travels!\\n\\nElla Tieno\\nJr. Logistics Coordinator\\nCovalex Shipping\\n'Anything you need, anywhere you need it.'",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Vorräte abholen:\\n   > [LOCATION]\\n\\n• Vorräte liefern:\\n   > [DESTINATION]\\n\\n• Ein Schiff, das [MAX_SCU] Fracht transportieren kann\\n• Ausrüstung: Tragbares Traktorstrahlgerät\\n• Abholung und Lieferung über Frachtaufzüge\\n\\n-------------------------------------------------------\\n\\nHallo,\\n\\nRSI hat uns eine wirklich wichtige Aufgabe übertragen: Wir sollen entscheidende Waren für ihr Discovery-Month-Event liefern, und dafür brauche ich unsere besten Auftragnehmer.\\n\\nEine Menge Vorräte muss vom Abholort zum Zielort gebracht werden.\\n\\nWenn du dir die Aufgabe zutraust, nimm diesen Auftrag an, besorg dir ein passendes Schiff und schnapp dir dein tragbares Traktorstrahlgerät. Alle Abholungen und Lieferungen laufen über Frachtaufzüge.\\n\\nViel Glück und gute Reise!\\n\\nElla Tieno\\nJunior-Logistikkoordinatorin\\nCovalex Shipping\\n\"Alles, was du brauchst, wo immer du es brauchst.\""
+    },
+    "iasi_Hauling_Small_Desc": {
+      "en": "Hi,\\n\\nNot often we get to work with RSI, so pretty honored they offered this job to us.\\n\\nGot some party supplies that need delivering from <EM4>[LOCATION]</EM4> to their new pop-up event at <EM4>[DESTINATION]</EM4>.\\n\\nYour ship will need to be able to carry <EM4>4 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4> would be highly recommended to move the boxes.\\n\\nThanks,\\nConni Ling\\nShipment Coordinator\\nLing Family Hauling\\n\\nLing Family Hauling knows it’s a dangerous and unpredictable universe and has established several protocols to protect both you and our client’s cargo. To ensure you aren’t punished for circumstances outside of your control, total payment will be prorated to the percentage of cargo successfully delivered. A delivery timer will be set for each haul. Any cargo that remains undelivered upon its expiration will be flagged as stolen and treated as such. All pick-ups and deliveries must be autoloaded or done at a freight elevator.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Fracht abholen:\\n   > [LOCATION]\\n\\n• Fracht liefern:\\n   > [DESTINATION]\\n\\n• Ein Schiff, das [MAX_SCU] Frachtcontainer transportieren kann\\n• Ausrüstung: Tragbares Traktorstrahlgerät (dringend empfohlen)\\n\\n-------------------------------------------------------\\n\\nHi,\\n\\nwir arbeiten nicht oft mit RSI zusammen, also fühlen wir uns ziemlich geehrt, dass sie uns diesen Job angeboten haben.\\n\\nWir haben Partyzubehör, das vom Abholort zu ihrem neuen Pop-up-Event geliefert werden muss.\\n\\nEin tragbares Traktorstrahlgerät zum Bewegen der Kisten ist dringend zu empfehlen.\\n\\nDanke,\\nConni Ling\\nVersandkoordinatorin\\nLing Family Hauling\\n\\nLing Family Hauling weiß, dass das Universum gefährlich und unberechenbar ist, und hat mehrere Protokolle eingeführt, um dich und die Fracht unserer Kunden zu schützen. Damit du nicht für Umstände bestraft wirst, die du nicht beeinflussen kannst, wird die Gesamtvergütung anteilig nach dem Prozentsatz der erfolgreich gelieferten Fracht berechnet. Für jeden Transport läuft ein Liefertimer. Fracht, die nach dessen Ablauf noch nicht geliefert wurde, wird als gestohlen markiert und entsprechend behandelt. Alle Abholungen und Lieferungen müssen automatisch verladen oder an einem Frachtaufzug abgewickelt werden."
+    },
+    "iasi_Hauling_Supply_Desc": {
+      "en": "Hey,\\n\\nNot sure what kind of party the folks at RSI are throwing but based on the size of this haul it's looking like a big one.\\n\\nYour pick up is at <EM4>[LOCATION]</EM4> and drop off will be <EM4>[DESTINATION]</EM4>.\\n\\nMake sure you have a ship that can carry <EM4>24 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4>.\\n\\nThanks,\\nConni Ling\\nShipment Coordinator\\nLing Family Hauling\\n\\nLing Family Hauling knows it’s a dangerous and unpredictable universe and has established several protocols to protect both you and our client’s cargo. To ensure you aren’t punished for circumstances outside of your control, total payment will be prorated to the percentage of cargo successfully delivered. A delivery timer will be set for each haul. Any cargo that remains undelivered upon its expiration will be flagged as stolen and treated as such. All pick-ups and deliveries must be autoloaded or done at a freight elevator.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Fracht abholen:\\n   > [LOCATION]\\n\\n• Fracht liefern:\\n   > [DESTINATION]\\n\\n• Ein Schiff, das [MAX_SCU] Frachtcontainer transportieren kann\\n• Ausrüstung: Tragbares Traktorstrahlgerät\\n\\n-------------------------------------------------------\\n\\nHey,\\n\\nich weiß nicht genau, was für eine Party die Leute von RSI schmeißen, aber nach der Größe dieser Ladung zu urteilen, wird es eine große.\\n\\nDu holst die Fracht am Abholort ab und lieferst sie zum angegebenen Zielort.\\n\\nSorg dafür, dass du ein passendes Schiff und ein tragbares Traktorstrahlgerät hast.\\n\\nDanke,\\nConni Ling\\nVersandkoordinatorin\\nLing Family Hauling\\n\\nLing Family Hauling weiß, dass das Universum gefährlich und unberechenbar ist, und hat mehrere Protokolle eingeführt, um dich und die Fracht unserer Kunden zu schützen. Damit du nicht für Umstände bestraft wirst, die du nicht beeinflussen kannst, wird die Gesamtvergütung anteilig nach dem Prozentsatz der erfolgreich gelieferten Fracht berechnet. Für jeden Transport läuft ein Liefertimer. Fracht, die nach dessen Ablauf noch nicht geliefert wurde, wird als gestohlen markiert und entsprechend behandelt. Alle Abholungen und Lieferungen müssen automatisch verladen oder an einem Frachtaufzug abgewickelt werden."
+    },
+    "iasi_Patrol_M_Desc": {
+      "en": "RSI are hosting a Discovery Month event and are contracting security services to provide some additional protection. There's gonna be a lot of high value items at each of these locations, so we need people doing regular patrols to make sure it goes off without a hitch.\\n\\nStart by flying out to the <EM4>patrol point</EM4> on your HUD. Got a few places for you to scan before we can report back to the client that everything's safe.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Sicherheitspatrouille durchführen:\\n   > Zum Patrouillenpunkt auf deinem HUD begeben\\n\\n• Mehrere Orte scannen\\n• Sicherheitslage: Wertvolle Güter vor Ort – erhöhte Wachsamkeit\\n\\n-------------------------------------------------------\\n\\nRSI veranstaltet ein Discovery-Month-Event und beauftragt Sicherheitsdienste mit zusätzlichem Schutz. An jedem dieser Standorte gibt es jede Menge wertvoller Gegenstände, also brauchen wir Leute, die regelmäßig patrouillieren, damit alles reibungslos über die Bühne geht.\\n\\nFlieg zuerst zum Patrouillenpunkt in deinem HUD. Ich habe ein paar Orte, die du scannen sollst, bevor wir dem Klienten melden können, dass alles sicher ist.\\n\\nViel Glück,\\n\\nEugene Walton\\nEinsatzkoordinator, Foxwell Enforcement\\n\\nFoxwell Enforcement ist ein zertifizierter Sicherheitsdienstleister mit operativer Genehmigung für den gesamten UEE-Raum. Wir sind immer auf der Suche nach neuen Mitgliedern für unser Team. Wenn du oder jemand, den du kennst, Interesse hat, melde dich bei einem unserer Vertragsvertreter."
+    },
+    "iasi_SupportAttackedShip_M_Desc": {
+      "en": "Foxwell needs a contractor to help save an RSI ship from a group of outlaws. They hired us to protect a ship for their Discovery event and the whole thing is turning into a mess. The original escorts we sent are not responding to comms and we need someone to take control of this situation ASAP.\\n\\nWe have reports of multiple hostiles at their current location, <EM4>[LOCATION]</EM4>, and there's likely to be more on their way.\\n\\nGood luck out there,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Einsatzort:\\n   > [LOCATION]\\n\\n• RSI-Schiff vor Kriminellen retten\\n• Sicherheitslage: Mehrere Feinde vor Ort – weitere im Anflug\\n\\n-------------------------------------------------------\\n\\nFoxwell braucht einen Auftragnehmer, der hilft, ein RSI-Schiff vor einer Gruppe Krimineller zu retten. RSI hat uns beauftragt, ein Schiff für ihr Discovery-Event zu beschützen, und die ganze Sache entwickelt sich zu einem einzigen Chaos. Die Eskorten, die wir ursprünglich geschickt haben, antworten nicht mehr auf Funksprüche, und wir brauchen schnellstmöglich jemanden, der die Lage unter Kontrolle bringt.\\n\\nWir haben Meldungen über mehrere Feinde an ihrem aktuellen Standort, und vermutlich sind noch mehr im Anflug.\\n\\nViel Glück da draußen,\\n\\nEugene Walton\\nEinsatzkoordinator, Foxwell Enforcement\\n\\nFoxwell Enforcement ist ein zertifizierter Sicherheitsdienstleister mit operativer Genehmigung für den gesamten UEE-Raum. Wir sind immer auf der Suche nach neuen Mitgliedern für unser Team. Wenn du oder jemand, den du kennst, Interesse hat, melde dich bei einem unserer Vertragsvertreter."
+    },
+    "iasi_Patrol_H_Desc": {
+      "en": "The RSI Discovery Month event has been attracting the wrong kind of attention it seems. RSI's is worried there's a potential attack brewing and has contracted us to patrol the area.\\n\\nHead over to the <EM4>patrol point</EM4> on your HUD to begin your sweep. Once you've scanned all the areas and dealt with any potential threats, we'll ping the client to make sure they're happy, then we can send you your creds.\\n\\nBased on some of the patrols conducted so far, I would strongly recommend bringing some <EM4>wingmen</EM4> to watch your back.\\n\\nBe careful out there,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Patrouille durchführen und Bedrohungen neutralisieren:\\n   > Zum Patrouillenpunkt auf deinem HUD begeben\\n\\n• Alle Gebiete scannen\\n• Sicherheitslage: Angriff befürchtet – Wingmen dringend empfohlen\\n\\n-------------------------------------------------------\\n\\nDas RSI-Discovery-Month-Event zieht anscheinend die falsche Art von Aufmerksamkeit auf sich. RSI befürchtet, dass sich ein Angriff zusammenbraut, und hat uns beauftragt, das Gebiet zu patrouillieren.\\n\\nFlieg zum Patrouillenpunkt in deinem HUD, um mit deiner Patrouille zu beginnen. Sobald du alle Gebiete gescannt und dich um mögliche Bedrohungen gekümmert hast, fragen wir beim Klienten nach, ob er zufrieden ist, und dann schicken wir dir deine Credits.\\n\\nNach einigen der bisherigen Patrouillen würde ich dir dringend raten, ein paar Wingmen mitzunehmen, die dir den Rücken freihalten.\\n\\nPass auf dich auf da draußen,\\n\\nEugene Walton\\nEinsatzkoordinator, Foxwell Enforcement\\n\\nFoxwell Enforcement ist ein zertifizierter Sicherheitsdienstleister mit operativer Genehmigung für den gesamten UEE-Raum. Wir sind immer auf der Suche nach neuen Mitgliedern für unser Team. Wenn du oder jemand, den du kennst, Interesse hat, melde dich bei einem unserer Vertragsvertreter."
+    },
+    "iasi_SupportAttackedShip_H_Desc": {
+      "en": "In search of a contractor to help us out of a tight spot.\\n\\nWe were hired by RSI to escort their ship to the Discovery event that's going on, but the moment the group dropped out of quantum, outlaws took out the escort. All we know is that their last known location was <EM4>[LOCATION]</EM4>, but that's about it.\\n\\nNot for the faint of heart this one, so bring <EM4>back up</EM4> and don't skimp on weapons. You'll need to cover them long enough so they can quantum to safety.\\n\\nGood luck out there,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Letzter bekannter Standort:\\n   > [LOCATION]\\n\\n• Aufgabe: RSI-Schiff decken, bis es per Quantensprung fliehen kann\\n• Hinweis: Verstärkung und starke Bewaffnung erforderlich\\n\\n-------------------------------------------------------\\n\\nWir suchen einen Auftragnehmer, der uns aus der Klemme hilft.\\n\\nRSI hat uns beauftragt, ihr Schiff zum laufenden Discovery-Event zu eskortieren, aber in dem Moment, als die Gruppe aus dem Quantensprung kam, haben Kriminelle die Eskorte ausgeschaltet. Wir wissen nur, dass der Einsatzort ihr letzter bekannter Standort war, mehr nicht.\\n\\nDas ist nichts für schwache Nerven, also bring Verstärkung mit und spar nicht an Waffen. Du musst sie lange genug decken, damit sie per Quantensprung in Sicherheit kommen.\\n\\nViel Glück da draußen,\\n\\nEugene Walton\\nEinsatzkoordinator, Foxwell Enforcement\\n\\nFoxwell Enforcement ist ein zertifizierter Sicherheitsdienstleister mit operativer Genehmigung für den gesamten UEE-Raum. Wir sind immer auf der Suche nach neuen Mitgliedern für unser Team. Wenn du oder jemand, den du kennst, Interesse hat, melde dich bei einem unserer Vertragsvertreter."
+    },
+    "iasi_RecoverItem_E_Desc_001": {
+      "en": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – ENTRY\\n\\nPICKUP LOCATION – In need of a Courier to retrieve lost package from a derelict RSI ship located at <EM4>[LOCATION]</EM4>.\\n\\nDROPOFF LOCATION – After recovery, deliver to the <EM4>RSI Event Platform</EM4>. \\n\\nTHREAT LEVEL – <EM4>Light engagements</EM4> are possible.\\n\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\nGood luck and good speed, courier!",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Empfohlene Erfahrungsstufe: Einsteiger\\n• Gefahrenstufe: Leichte Gefechte möglich\\n\\n• Verlorenes Paket aus verlassenem RSI-Schiff bergen:\\n   > [LOCATION]\\n\\n• Paket zustellen: RSI Event Platform\\n• Alle Transportmittel sind vom Kurier selbst zu organisieren\\n\\n-------------------------------------------------------\\n\\nACHTUNG, ALLE FTL-KURIERE\\nZUR SOFORTIGEN ZUWEISUNG\\n\\nAUFTRAGSDETAILS\\nEMPFOHLENE ERFAHRUNGSSTUFE – EINSTEIGER\\n\\nABHOLORT – Wir brauchen einen Kurier, der ein verlorenes Paket aus einem verlassenen RSI-Schiff am Einsatzort birgt.\\n\\nZIELORT – Liefere es nach der Bergung an die RSI Event Platform.\\n\\nBEDROHUNGSSTUFE – Leichte Gefechte sind möglich.\\n\\nREISE – Alle Transportmittel muss der Kurier selbst organisieren.\\n\\n[SIGN_OFF]"
+    },
+    "iasi_RecoverItem_M_Desc_001": {
+      "en": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – JUNIOR\\n\\nPICKUP LOCATION –  Outlaws intercepted a delivery at <EM4>[LOCATION]</EM4> and we're in need of a courier to collect the package from the remains of the RSI ship.\\n\\nDROPOFF LOCATION – Bring the package to the <EM4>RSI Event Platform</EM4> to finish the delivery.\\n\\nTHREAT LEVEL – <EM4>Hostiles may still be in the area.</EM4> Caution is urged.\\n\\nTRAVEL –  All transportation needs should be arranged by courier. \\n\\nGood luck and good speed, courier!",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Empfohlene Erfahrungsstufe: Junior\\n• Gefahrenstufe: Feinde eventuell noch in der Gegend\\n\\n• Paket aus den Überresten des RSI-Schiffs bergen:\\n   > [LOCATION]\\n\\n• Paket zustellen: RSI Event Platform\\n• Alle Transportmittel sind vom Kurier selbst zu organisieren\\n\\n-------------------------------------------------------\\n\\nACHTUNG, ALLE FTL-KURIERE\\nZUR SOFORTIGEN ZUWEISUNG\\n\\nAUFTRAGSDETAILS\\nEMPFOHLENE ERFAHRUNGSSTUFE – JUNIOR\\n\\nABHOLORT – Kriminelle haben am Einsatzort eine Lieferung abgefangen, und wir brauchen einen Kurier, der das Paket aus den Überresten des RSI-Schiffs holt.\\n\\nZIELORT – Bring das Paket zur RSI Event Platform, um die Lieferung abzuschließen.\\n\\nBEDROHUNGSSTUFE – Es könnten noch Feinde in der Gegend sein. Vorsicht ist geboten.\\n\\nREISE – Alle Transportmittel muss der Kurier selbst organisieren.\\n\\n[SIGN_OFF]"
+    },
+    "iasi_RecoverItem_H_Desc_001": {
+      "en": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – SEASONED\\n\\nPICKUP LOCATION – Package has been left undelivered at <EM4>[LOCATION]</EM4>, search the abandoned RSI ship to find it.\\n\\nDROPOFF LOCATION – Take to the <EM4>RSI Event Platform</EM4> to complete the delivery.\\n\\nTHREAT LEVEL – <EM4>High chance of engagement with hostiles.</EM4> Caution is advised.\\n\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\nGood luck and good speed, courier!",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Empfohlene Erfahrungsstufe: Erfahren\\n• Gefahrenstufe: Gefechte mit Feinden sehr wahrscheinlich\\n\\n• Paket im verlassenen RSI-Schiff suchen:\\n   > [LOCATION]\\n\\n• Paket zustellen: RSI Event Platform\\n• Alle Transportmittel sind vom Kurier selbst zu organisieren\\n\\n-------------------------------------------------------\\n\\nACHTUNG, ALLE FTL-KURIERE\\nZUR SOFORTIGEN ZUWEISUNG\\n\\nAUFTRAGSDETAILS\\nEMPFOHLENE ERFAHRUNGSSTUFE – ERFAHREN\\n\\nABHOLORT – Ein Paket wurde am Einsatzort nicht zugestellt. Durchsuche das verlassene RSI-Schiff, um es zu finden.\\n\\nZIELORT – Bring es zur RSI Event Platform, um die Lieferung abzuschließen.\\n\\nBEDROHUNGSSTUFE – Hohe Wahrscheinlichkeit von Gefechten mit Feinden. Vorsicht wird empfohlen.\\n\\nREISE – Alle Transportmittel muss der Kurier selbst organisieren.\\n\\n[SIGN_OFF]"
+    },
+    "iasi_ResourceGathering_Mining_Desc": {
+      "en": "CONTRACT: Purchase Order\\nLOCATION: N/A\\n\\nTERMS*:\\nWith the recent unveiling of their new ships, RSI wishes to increase their production capacity but ran into problems thanks to a recent empire-wide supply-chain issue. As such, they have contracted with Shubin Interstellar to fulfill a purchase order for <EM4>refined beryl</EM4>.\\n\\nUsing a self-provided <EM4>mining ship</EM4>, harvest the beryl and <EM4>process it a refinery center</EM4> of your choice before delivering it to <EM4>[DESTINATION]</EM4>. Please note, any materials delivered in excess will not be returned.\\n\\n*By accepting this contract you are assuming any and all risks associated with the work outlined herein and relieve Shubin Interstellar of accountability for any damages accrued during the duration of the contract.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Gesuchter Rohstoff: Raffiniertes Beryl\\n• Ausrüstung: Eigenes Mining-Schiff\\n• Beryl in einer Raffinerie deiner Wahl verarbeiten\\n\\n• Raffiniertes Beryl liefern:\\n   > [DESTINATION]\\n\\n• Hinweis: Überschüssige Materialien werden nicht zurückgegeben\\n\\n-------------------------------------------------------\\n\\nAUFTRAG: Bestellung\\nStandort: N/A\\n\\nBEDINGUNGEN:*:\\nNach der jüngsten Vorstellung seiner neuen Schiffe will RSI seine Produktionskapazität erhöhen, hatte aber wegen eines aktuellen, imperiumsweiten Lieferkettenproblems Schwierigkeiten. Deshalb hat RSI Shubin Interstellar mit einer Bestellung über raffiniertes Beryl beauftragt.\\n\\nBau das Beryl mit deinem eigenen Mining-Schiff ab und verarbeite es in einer Raffinerie deiner Wahl, bevor du es zum angegebenen Lieferort bringst. Bitte beachte, dass zu viel gelieferte Materialien nicht zurückgegeben werden.\\n\\n*Durch die Annahme dieses Auftrags übernimmst du alle mit den hier beschriebenen Arbeiten verbundenen Risiken und entbindest Shubin Interstellar von jeder Haftung für Schäden, die während der Laufzeit des Auftrags entstehen."
+    },
+    "iasi_ResourceGathering_Mining_E_Desc": {
+      "en": "CONTRACT: Purchase Order\\nLOCATION: N/A\\n\\nTERMS*:\\nWith the recent unveiling of their new ships, RSI wishes to increase their production capacity but ran into problems thanks to a recent empire-wide supply-chain issue. As such, they have contracted with Shubin Interstellar to fulfill a purchase order for <EM4>refined iron</EM4>.\\n\\nUsing a self-provided <EM4>mining ship</EM4>, harvest the iron and <EM4>process it a refinery center</EM4> of your choice before delivering it to <EM4>[DESTINATION]</EM4>. Please note, any materials delivered in excess will not be returned.\\n\\nFor advice on where to find the required materials, consult <EM4>Mining Fundamentals #2: Where to Mine</EM4> in your mobiGlas Journal. While you're there, feel free to read the first part <EM4>Mining Fundamentals #1: Basic Overview</EM4> if you want a refresher on how to get the materials.\\n\\n*By accepting this contract you are assuming any and all risks associated with the work outlined herein and relieve Shubin Interstellar of accountability for any damages accrued during the duration of the contract.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Gesuchter Rohstoff: Raffiniertes Iron\\n• Ausrüstung: Eigenes Mining-Schiff\\n• Iron in einer Raffinerie deiner Wahl verarbeiten\\n\\n• Raffiniertes Iron liefern:\\n   > [DESTINATION]\\n\\n• Hinweis: Überschüssige Materialien werden nicht zurückgegeben\\n\\n-------------------------------------------------------\\n\\nAUFTRAG: Bestellung\\nStandort: N/A\\n\\nBEDINGUNGEN:*:\\nNach der jüngsten Vorstellung seiner neuen Schiffe will RSI seine Produktionskapazität erhöhen, hatte aber wegen eines aktuellen, imperiumsweiten Lieferkettenproblems Schwierigkeiten. Deshalb hat RSI Shubin Interstellar mit einer Bestellung über raffiniertes Iron beauftragt.\\n\\nBau das Iron mit deinem eigenen Mining-Schiff ab und verarbeite es in einer Raffinerie deiner Wahl, bevor du es zum angegebenen Lieferort bringst. Bitte beachte, dass zu viel gelieferte Materialien nicht zurückgegeben werden.\\n\\nTipps, wo du die benötigten Materialien findest, gibt dir \"Grundlagen des Minings #2: Wo man abbaut\" in deinem mobiGlas-Journal. Wenn du schon mal dort bist, lies auch gern den ersten Teil \"Grundlagen des Minings #1: Grundlegender Überblick\", falls du auffrischen willst, wie du an die Materialien kommst.\\n\\n*Durch die Annahme dieses Auftrags übernimmst du alle mit den hier beschriebenen Arbeiten verbundenen Risiken und entbindest Shubin Interstellar von jeder Haftung für Schäden, die während der Laufzeit des Auftrags entstehen."
+    },
+    "iasi_ResourceGathering_Mining_H_Desc": {
+      "en": "CONTRACT: Purchase Order\\nLOCATION: N/A\\n\\nTERMS*:\\nWith the recent unveiling of their new ships, RSI wishes to increase their production capacity but ran into problems thanks to a recent empire-wide supply-chain issue. As such, they have contracted with Shubin Interstellar to fulfill a purchase order for <EM4>refined quantainium</EM4>.\\n\\nUsing a self-provided <EM4>mining ship</EM4>, harvest the quantainium and <EM4>process it a refinery center</EM4> of your choice before delivering it to <EM4>[DESTINATION]</EM4>. Please note, any materials delivered in excess will not be returned.\\n\\n*By accepting this contract you are assuming any and all risks associated with the work outlined herein and relieve Shubin Interstellar of accountability for any damages accrued during the duration of the contract.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Gesuchter Rohstoff: Raffiniertes Quantainium\\n• Ausrüstung: Eigenes Mining-Schiff\\n• Quantainium in einer Raffinerie deiner Wahl verarbeiten\\n\\n• Raffiniertes Quantainium liefern:\\n   > [DESTINATION]\\n\\n• Hinweis: Überschüssige Materialien werden nicht zurückgegeben\\n\\n-------------------------------------------------------\\n\\nAUFTRAG: Bestellung\\nStandort: N/A\\n\\nBEDINGUNGEN:*:\\nNach der jüngsten Vorstellung seiner neuen Schiffe will RSI seine Produktionskapazität erhöhen, hatte aber wegen eines aktuellen, imperiumsweiten Lieferkettenproblems Schwierigkeiten. Deshalb hat RSI Shubin Interstellar mit einer Bestellung über raffiniertes Quantainium beauftragt.\\n\\nBau das Quantainium mit deinem eigenen Mining-Schiff ab und verarbeite es in einer Raffinerie deiner Wahl, bevor du es zum angegebenen Lieferort bringst. Bitte beachte, dass zu viel gelieferte Materialien nicht zurückgegeben werden.\\n\\n*Durch die Annahme dieses Auftrags übernimmst du alle mit den hier beschriebenen Arbeiten verbundenen Risiken und entbindest Shubin Interstellar von jeder Haftung für Schäden, die während der Laufzeit des Auftrags entstehen."
+    },
+    "iasi_RecoverItem_FPS_M_Desc_001": {
+      "en": "Greetings,\\n\\nOutlaws have conducted a targeted attack on a courier that was due to deliver a crucial package to one of the RSI Discovery Event locations. Contact has since been lost with the pilot, but the tracker still appears to be functional. It is crucial that we act now whilst the trail is still warm.\\n\\nScanners are suggesting the package is located somewhere at <EM4>[LOCATION]</EM4>. Whilst we have no intel on the situation on the ground, what we do know is that you should expect resistance. Ensure you are well prepared and prioritize the retrieval of the package.\\n\\nAfter you have successfully extracted the package, deliver it to <EM4>[DESTINATION]</EM4>.\\n\\nBest of luck,\\nAdrienne Du-Buisson\\nLogistics Officer\\nNorthrock Service Group",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Paket bergen:\\n   > [LOCATION]\\n\\n• Paket liefern:\\n   > [DESTINATION]\\n\\n• Sicherheitslage: Unbekannt – Gegenwehr zu erwarten\\n\\n-------------------------------------------------------\\n\\nGrüße,\\n\\nKriminelle haben einen gezielten Angriff auf einen Kurier verübt, der ein wichtiges Paket an einen der Standorte des RSI Discovery Event liefern sollte. Der Kontakt zum Piloten ist seitdem abgebrochen, aber der Peilsender scheint noch zu funktionieren. Wir müssen jetzt handeln, solange die Spur noch frisch ist.\\n\\nLaut Scannern befindet sich das Paket irgendwo am Einsatzort. Über die Lage am Boden haben wir keine Informationen, aber wir wissen, dass du mit Widerstand rechnen musst. Bereite dich gut vor und hab die Bergung des Pakets als oberste Priorität.\\n\\nSobald du das Paket erfolgreich herausgeholt hast, liefere es an den angegebenen Lieferort.\\n\\nViel Glück,\\nAdrienne Du-Buisson\\nLogistikbeauftragte\\nNorthrock Service Group"
+    },
+    "iasi_RecoverItem_FPS_E_Desc_001": {
+      "en": "Greetings,\\n\\nA courier en route to a RSI Discovery Event location has been intercepted by a group of outlaws and had their ship destroyed. Luckily, the pilot was able to eject in time, and perhaps most fortunately for the client, the package appears to still be intact.\\n\\nWe've tracked the package to <EM4>[LOCATION]</EM4>. We require a skilled contractor to enter the location, recover the package, and dispatch any hostiles that might inhibit the success of this operation.\\n\\nOnce recovered, the package is to be delivered to <EM4>[DESTINATION]</EM4>.\\n\\nBest of luck,\\nAdrienne Du-Buisson\\nLogistics Officer\\nNorthrock Service Group",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Paket bergen:\\n   > [LOCATION]\\n\\n• Paket liefern:\\n   > [DESTINATION]\\n\\n• Sicherheitslage: Kriminelle vor Ort – Bodenkampf zu erwarten\\n\\n-------------------------------------------------------\\n\\nGrüße,\\n\\nein Kurier auf dem Weg zu einem Standort des RSI Discovery Event wurde von einer Gruppe Krimineller abgefangen, und sein Schiff wurde zerstört. Zum Glück konnte sich der Pilot rechtzeitig mit dem Schleudersitz retten, und, vielleicht das größte Glück für den Klienten, das Paket scheint noch intakt zu sein.\\n\\nWir haben das Paket bis zum Einsatzort verfolgt. Wir brauchen einen fähigen Auftragnehmer, der in den Standort eindringt, das Paket birgt und alle Feinde ausschaltet, die den Erfolg dieser Operation gefährden könnten.\\n\\nNach der Bergung ist das Paket an den angegebenen Lieferort zu liefern.\\n\\nViel Glück,\\nAdrienne Du-Buisson\\nLogistikbeauftragte\\nNorthrock Service Group"
+    },
+    "iasi_Refueling_E_Desc_001": {
+      "en": "Hey!\\n\\nIf you're top notch refueller, this job might just interest you.\\n\\nPicked up a beacon at <EM4>[LOCATION]</EM4> from a client who's flying a <EM4>[SHIP]</EM4> and needs <EM4>[FUELTYPE]</EM4> to help them out of a pinch. Looks like they were heading to that fancy new RSI Discovery location and forgot to refuel along the way. If I had a cred for every time I did that - well, let's just say I wouldn't be working here anymore!\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nCan't imagine you'll run into any trouble, but that's exactly the kind of thing people say in those old vids right before they do. So keep an eye out for danger. \\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"\"We’ve got your back\"\"",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Missionstyp: Betankung\\n• Einsatzort:\\n   > [LOCATION]\\n\\n• Zu betankendes Schiff: [SHIP]\\n• Benötigter Treibstoff: [FUELTYPE]\\n• Vergütung:\\n   - Satz: [REFUELREQUEST]\\n   - Zusätzlich: UWC-Servicegebühr nach Abschluss\\n• Sicherheitslage: Keine Probleme erwartet - dennoch wachsam bleiben\\n\\n-------------------------------------------------------\\n\\nHey!\\n\\nWenn du ein erstklassiger Betanker bist, könnte dich dieser Job interessieren.\\n\\nIch habe am Einsatzort ein Notsignal von einem Klienten empfangen, der Treibstoff braucht, um aus der Klemme zu kommen. Sieht so aus, als wäre er auf dem Weg zu diesem schicken neuen RSI-Discovery-Standort gewesen und hätte unterwegs vergessen zu tanken. Wenn ich für jedes Mal, wenn mir das passiert ist, einen Credit bekommen hätte ... na ja, sagen wir einfach, ich würde dann nicht mehr hier arbeiten!\\n\\nIch kann mir nicht vorstellen, dass du in Schwierigkeiten gerätst, aber genau das sagen die Leute in diesen alten Filmen immer, kurz bevor es passiert. Halt also die Augen nach Gefahren offen.\\n\\nGute Reise,\\n\\nDina Deloit\\nDispatch-Zentrale\\nUnited Wayfarers Club\\n\"Wir halten dir den Rücken frei\""
+    },
+    "iasi_GoldBox_Delivery_Desc": {
+      "en": "Calling all RSI Enthusiasts!\\n\\nAre you interested in participating in a special, long distance relay race?\\n\\nWe're looking for eager pilots to collect a Gold Constellation model box from one of our special event platforms and deliver it to another. Then another participant will pick it up and continue the relay!\\n\\nGood luck and have fun out there!\\n\\nChristoph Roester\\nRSI Community Outreach Manager\\n---\\nRoberts Space Industries\\nDelivering the Stars since 2075",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Goldene Constellation-Modellbox auf einer Event-Plattform abholen\\n• Box zu einer anderen Event-Plattform bringen\\n• Danach setzt ein anderer Teilnehmer die Staffel fort\\n\\n-------------------------------------------------------\\n\\nAufruf an alle RSI-Fans!\\n\\nHast du Lust, an einem besonderen Staffellauf über eine lange Strecke teilzunehmen?\\n\\nWir suchen motivierte Piloten, die eine goldene Constellation-Modellbox auf einer unserer besonderen Event-Plattformen abholen und zu einer anderen bringen. Danach übernimmt ein anderer Teilnehmer die Box und setzt die Staffel fort!\\n\\nViel Glück und viel Spaß da draußen!\\n\\nChristoph Roester\\nRSI Community Outreach Manager\\n---\\nRoberts Space Industries\\nDelivering the Stars since 2075"
+    },
+    "iasi_EliminateBoss_H_Desc": {
+      "en": "Greetings,\\n\\nNorthrock has been hard at work to identify some of the key players in the recent attacks on RSI's Discovery Month event. As a result, we have located a high ranking member of a local outlaw gang named <EM4>[TARGET]</EM4>.\\n\\nWe've triangulated their last known location was <EM4>[LOCATION]</EM4>, where we believe they are preparing their next attack. Intel suggest they're a cautious individual that may require drawing out by eliminating their comrades first. Bringing a team of skilled operators is heavily advised.\\n\\nBest of luck,\\nAdrienne Du-Buisson\\nLogistics Officer\\nNorthrock Service Group",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Zielperson: [TARGET]\\n• Letzter bekannter Standort:\\n   > [LOCATION]\\n\\n• Taktik: Zuerst die Kumpane ausschalten, um die Zielperson hervorzulocken\\n• Hinweis: Team erfahrener Einsatzkräfte dringend empfohlen\\n\\n-------------------------------------------------------\\n\\nGrüße,\\n\\nNorthrock hat hart daran gearbeitet, einige der Drahtzieher hinter den jüngsten Angriffen auf das Event des RSI Discovery Month zu identifizieren. Dabei haben wir ein ranghohes Mitglied einer örtlichen Verbrecherbande ausfindig gemacht.\\n\\nWir haben den letzten bekannten Aufenthaltsort der Zielperson auf den Einsatzort eingegrenzt, wo sie vermutlich den nächsten Angriff vorbereitet. Laut Geheimdienstinformationen ist sie sehr vorsichtig, und du musst sie eventuell aus der Deckung locken, indem du zuerst ihre Kumpane ausschaltest. Wir raten dringend, ein Team erfahrener Einsatzkräfte mitzubringen.\\n\\nViel Glück,\\nAdrienne Du-Buisson\\nLogistikbeauftragte\\nNorthrock Service Group"
+    },
+    "iasi_Salvage_ResourceGathering_L_Desc": {
+      "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nRSI have informed us that there has been an increase in owners exchanging their ships in order to upgrade to the latest Constellation Mk V Centaurus and are looking for our help in salvaging the retired crafts. The exchange program only accepts Construction Materials (Salvage), so RSI have informed us that the contractor may keep any RMC they collect. \\n\\nIf accepted, you will travel to <EM4>[LOCATION]</EM4> and gather unrefined Construction Materials from the ship located there. Then, once acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>. Please be mindful that any extra materials delivered will not be returned.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal. Check the requirements below to ensure you bring the right equipment.\\n\\n> Requirements <\\n     - A large-sized salvage ship (Aegis Reclaimer)\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Ausgemustertes Schiff verwerten:\\n   > [LOCATION]\\n\\n• Construction Materials (Salvage) liefern:\\n   > [DESTINATION]\\n\\n• Ausrüstung: Großes Salvage-Schiff (Aegis Reclaimer), tragbares Traktorstrahlgerät\\n• Gesammeltes RMC darfst du behalten\\n• Hinweis: Überschüssiges Material wird nicht zurückgegeben\\n\\n-------------------------------------------------------\\n\\nAdagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜBER DIESEN AUFTRAG:\\nRSI hat uns mitgeteilt, dass immer mehr Besitzer ihre Schiffe eintauschen, um auf die neueste Constellation Mk V Centaurus umzusteigen, und bittet uns um Hilfe beim Verwerten der ausgemusterten Schiffe. Das Tauschprogramm nimmt nur Construction Materials (Salvage) an, daher darf der Auftragnehmer laut RSI sämtliches gesammelte RMC behalten.\\n\\nWenn du annimmst, fliegst du zum Einsatzort und sammelst unraffinierte Construction Materials von dem Schiff, das sich dort befindet. Liefere die Materialien anschließend zum angegebenen Frachtaufzug. Bitte beachte, dass zu viel gelieferte Materialien nicht zurückgegeben werden.\\n\\nTipps zu Salvage findest du in \"Leitfaden zur Materialbeschaffung\" in deinem mobiGlas-Journal. Prüfe die Anforderungen unten, damit du die richtige Ausrüstung mitbringst.\\n\\n> Anforderungen <\\n     - Ein großes Salvage-Schiff (Aegis Reclaimer)\\n     - Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss:\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Vehikeln sammeln, die nach geltendem UEE-Recht als rechtmäßiges Verwertungsgut gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
+    },
+    "iasi_Salvage_ResourceGathering_M_Desc": {
+      "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nRSI have dedicated themselves to use even more recycled materials as a part of their Sustainable 'Verse pledge, and are offering to responsibly dispose of former customer's retired ships. Because they are only in need of the unrefined Construction Materials (Pieces) right now, any RMC obtained may be kept by the contractor.\\n\\nThey're looking for a contractor to travel to <EM4>[LOCATION]</EM4> and salvage unrefined Construction Materials from the vessel waiting there.  Once acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>. Please be mindful that any extra materials delivered will not be returned.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal. Before accepting this contract be sure to check the requirements below to make sure you are able to complete the work.\\n\\n> Requirements <\\n     - A medium-sized salvage ship (Argo MOTH)\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Ausgemustertes Schiff verwerten:\\n   > [LOCATION]\\n\\n• Construction Materials (Pieces) liefern:\\n   > [DESTINATION]\\n\\n• Ausrüstung: Mittelgroßes Salvage-Schiff (Argo MOTH), tragbares Traktorstrahlgerät\\n• Gesammeltes RMC darfst du behalten\\n• Hinweis: Überschüssiges Material wird nicht zurückgegeben\\n\\n-------------------------------------------------------\\n\\nAdagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜBER DIESEN AUFTRAG:\\nRSI hat sich im Rahmen seines Versprechens \"Sustainable 'Verse\" verpflichtet, noch mehr recycelte Materialien zu verwenden, und bietet an, die ausgemusterten Schiffe ehemaliger Kunden verantwortungsvoll zu entsorgen. Da RSI im Moment nur die unraffinierten Construction Materials (Pieces) braucht, darf der Auftragnehmer sämtliches gewonnene RMC behalten.\\n\\nGesucht wird ein Auftragnehmer, der zum Einsatzort fliegt und unraffinierte Construction Materials aus dem dort wartenden Schiff gewinnt. Liefere die Materialien anschließend zum angegebenen Frachtaufzug. Bitte beachte, dass zu viel gelieferte Materialien nicht zurückgegeben werden.\\n\\nTipps zu Salvage findest du in \"Leitfaden zur Materialbeschaffung\" in deinem mobiGlas-Journal. Prüfe vor der Annahme dieses Auftrags unbedingt die Anforderungen unten, damit du die Arbeit auch erledigen kannst.\\n\\n> Anforderungen <\\n     - Ein mittelgroßes Salvage-Schiff (Argo MOTH)\\n     - Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss:\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Vehikeln sammeln, die nach geltendem UEE-Recht als rechtmäßiges Verwertungsgut gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
+    },
+    "iasi_Salvage_ResourceGathering_S_Desc": {
+      "en": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nWe have received several special work orders from RSI who wish to support loyal customers by offering them a discount on their next purchase in exchange for recycling their previous ship. We are in need of the Construction Materials (Rubble) for another order we're working on, but anything else you salvage, like RMC, is yours to keep. \\n\\nThe disused RSI ship is located <EM4>[LOCATION]</EM4> and is ready and waiting. Once salvaged, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>. Please be mindful that any extra materials delivered will not be returned.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal. Before accepting this contract be sure to check the equipment requirements below.\\n\\n> Requirements <\\n     - A small-sized salvage ship (RSI Salvation, Drake Vulture, MISC Fortune)\\n     - A handheld tractor beam\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Ausgemustertes Schiff verwerten:\\n   > [LOCATION]\\n\\n• Construction Materials (Rubble) liefern:\\n   > [DESTINATION]\\n\\n• Ausrüstung: Kleines Salvage-Schiff (RSI Salvation, Drake Vulture, MISC Fortune), tragbares Traktorstrahlgerät\\n• Gesammeltes RMC darfst du behalten\\n• Hinweis: Überschüssiges Material wird nicht zurückgegeben\\n\\n-------------------------------------------------------\\n\\nAdagio Holdings\\nEin stolzer Arbeitgeber mit Chancengleichheit\\n\\nÜBER DIESEN AUFTRAG:\\nWir haben mehrere Sonderaufträge von RSI erhalten. RSI möchte treue Kunden unterstützen und bietet ihnen einen Rabatt auf ihren nächsten Kauf, wenn sie ihr bisheriges Schiff recyceln lassen. Wir brauchen die Construction Materials (Rubble) für einen anderen Auftrag, an dem wir gerade arbeiten, aber alles andere, was du verwertest, etwa RMC, darfst du behalten.\\n\\nDas ausgemusterte RSI-Schiff befindet sich am Einsatzort und wartet schon auf dich. Liefere die Materialien nach der Verwertung zum angegebenen Frachtaufzug. Bitte beachte, dass zu viel gelieferte Materialien nicht zurückgegeben werden.\\n\\nTipps zu Salvage findest du in \"Leitfaden zur Materialbeschaffung\" in deinem mobiGlas-Journal. Prüfe vor der Annahme dieses Auftrags unbedingt die Ausrüstungsanforderungen unten.\\n\\n> Anforderungen <\\n     - Ein kleines Salvage-Schiff (RSI Salvation, Drake Vulture, MISC Fortune)\\n     - Ein tragbares Traktorstrahlgerät\\n\\nHaftungsausschluss:\\nAuftragnehmer sind selbst dafür verantwortlich sicherzustellen, dass sie nur Materialien aus Vehikeln sammeln, die nach geltendem UEE-Recht als rechtmäßiges Verwertungsgut gelten. Adagio Holdings übernimmt keinerlei Haftung für Straftaten oder Ordnungswidrigkeiten, die von Auftragnehmern begangen werden, und leistet keinerlei Entschädigung oder Wiedergutmachung für betroffene Personen."
+    },
+    "iasi_Refueling_M_Desc_001": {
+      "en": "Hey again,\\n\\nFound a beacon from one of those new <EM4>[SHIP]</EM4> ships out in <EM4>[LOCATION]</EM4> that needs refueling. Just got off comms with them and they said they ran into some trouble with some local outlaws and had to make a sharp exit so weren't able to fill up on <EM4>[FUELTYPE]<EM4> before heading out.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nHoping we can get out to those nice folks before anything bad happens to them, been hearing a lot of nasty rumors about those parts recently. Watch your back and make sure you get home safely. \\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"\"We’ve got your back\"\"",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Missionstyp: Betankung\\n• Einsatzort:\\n   > [LOCATION]\\n\\n• Zu betankendes Schiff: [SHIP]\\n• Benötigter Treibstoff: [FUELTYPE]\\n• Vergütung:\\n   - Satz: [REFUELREQUEST]\\n   - Zusätzlich: UWC-Servicegebühr nach Abschluss\\n• Sicherheitslage: Kriminelle in der Gegend gemeldet - Vorsicht geboten\\n\\n-------------------------------------------------------\\n\\nHey, da bin ich wieder,\\n\\nich habe am Einsatzort ein Notsignal von einem dieser neuen Schiffe gefunden, das Treibstoff braucht. Ich habe gerade mit ihnen gefunkt: Sie hatten Ärger mit ein paar örtlichen Kriminellen und mussten sich schnell absetzen, deshalb konnten sie vor dem Aufbruch nicht mehr tanken.\\n\\nIch hoffe, wir erreichen die netten Leute, bevor ihnen etwas Schlimmes passiert. Ich habe in letzter Zeit viele üble Gerüchte über diese Gegend gehört. Pass auf dich auf und sieh zu, dass du sicher nach Hause kommst.\\n\\nGute Reise,\\n\\nDina Deloit\\nDispatch-Zentrale\\nUnited Wayfarers Club\\n\"Wir halten dir den Rücken frei\""
+    },
+    "iasi_Patrol_E_Desc": {
+      "en": "Got what should be a routine contract for someone looking to cut their teeth on some patrol work.\\n\\nWe're been hired to secure the space around RSI's Discovery Month event. The job is mainly a deterrent against any opportunistic outlaws in the area, but that doesn't mean you should let your guard down. If your scanners pick up anything strange don't hesitate to act.\\n\\nOnce you've accepted, head to the first <EM4>patrol point</EM4>. After you've scanned the area, I'll update you on where to head next.\\n\\nBest of luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Patrouille durchführen:\\n   > Zum ersten Patrouillenpunkt begeben\\n\\n• Gebiet scannen, danach folgt der nächste Patrouillenpunkt\\n• Sicherheitslage: Routine – vereinzelt Kriminelle möglich\\n\\n-------------------------------------------------------\\n\\nIch habe hier einen Auftrag, der eigentlich Routine sein sollte, für alle, die sich bei Patrouillenarbeit die ersten Sporen verdienen wollen.\\n\\nWir wurden beauftragt, den Raum rund um das Discovery-Month-Event von RSI zu sichern. Der Job soll vor allem Kriminelle in der Gegend abschrecken, die eine günstige Gelegenheit wittern. Das heißt aber nicht, dass du deine Deckung fallen lassen solltest. Wenn deine Scanner etwas Ungewöhnliches erfassen, zögere nicht zu handeln.\\n\\nSobald du angenommen hast, flieg zum ersten Patrouillenpunkt. Nachdem du das Gebiet gescannt hast, sage ich dir, wohin es als Nächstes geht.\\n\\nViel Glück,\\n\\nEugene Walton\\nEinsatzkoordinator, Foxwell Enforcement\\n\\nFoxwell Enforcement ist ein zertifizierter Sicherheitsdienstleister mit operativer Genehmigung für den gesamten UEE-Raum. Wir sind immer auf der Suche nach neuen Mitgliedern für unser Team. Wenn du oder jemand, den du kennst, Interesse hat, melde dich bei einem unserer Vertragsvertreter."
+    },
+    "iasi_SupportAttackedShip_E_Desc": {
+      "en": "We were just contacted by RSI who are in urgent need of combat support for one of the ships that are supporting their Discovery Month event.\\n\\nOur tracker is saying they're still over at <EM4>[LOCATION]</EM4>, but god knows how long they'll last for. If you can make it in time, we'd really appreciate it.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
+      "tr": "EINZELHEITEN ZUM AUFTRAG\\n\\n• Angegriffenes RSI-Schiff unterstützen:\\n   > [LOCATION]\\n\\n• Zeitkritisch: Unklar, wie lange das Schiff noch durchhält\\n\\n-------------------------------------------------------\\n\\nRSI hat sich gerade bei uns gemeldet und braucht dringend Kampfunterstützung für eines der Schiffe, die bei ihrem Discovery-Month-Event im Einsatz sind.\\n\\nLaut unserem Tracker sind sie noch am Einsatzort, aber Gott weiß, wie lange sie noch durchhalten. Wenn du es rechtzeitig schaffst, wären wir dir sehr dankbar.\\n\\nViel Glück,\\n\\nEugene Walton\\nEinsatzkoordinator, Foxwell Enforcement\\n\\nFoxwell Enforcement ist ein zertifizierter Sicherheitsdienstleister mit operativer Genehmigung für den gesamten UEE-Raum. Wir sind immer auf der Suche nach neuen Mitgliedern für unser Team. Wenn du oder jemand, den du kennst, Interesse hat, melde dich bei einem unserer Vertragsvertreter."
     },
     "TheCollector_Ships_Meteor_Desc": {
       "en": "Meteor big. It heavy. Have many guns. But Wikelo figure out way to make even better. You have things I will take to do.\\n\\nThat is all.",
@@ -8145,6 +8408,10 @@
       "en": "Cave_Unoccupied_Stanton3",
       "tr": "Cave_Unoccupied_Stanton3"
     },
+    "_noloc_location_RSI Event Platform": {
+      "en": "RSI Event Platform",
+      "tr": "RSI Event Platform"
+    },
     "FacilityDelve_WingD_name": {
       "en": "Site-B Lab",
       "tr": "Site-B Lab"
@@ -9017,9 +9284,37 @@
       "en": "Lamina PAF-I",
       "tr": "Lamina PAF-I"
     },
+    "_noloc_location_a derelict outpost": {
+      "en": "a derelict outpost",
+      "tr": "a derelict outpost"
+    },
+    "mission_location_stanton_0174": {
+      "en": "HDSF-Elbridge",
+      "tr": "HDSF-Elbridge"
+    },
     "_noloc_location_Attritus PAF-III": {
       "en": "Attritus PAF-III",
       "tr": "Attritus PAF-III"
+    },
+    "mission_location_stanton_0168": {
+      "en": "HDSF-Hendricks",
+      "tr": "HDSF-Hendricks"
+    },
+    "mission_location_stanton_0190": {
+      "en": "HDSF-Ishmael",
+      "tr": "HDSF-Ishmael"
+    },
+    "mission_location_stanton_0192": {
+      "en": "HDSF-Damaris",
+      "tr": "HDSF-Damaris"
+    },
+    "mission_location_stanton_0184": {
+      "en": "HDSF-Zacharias",
+      "tr": "HDSF-Zacharias"
+    },
+    "mission_location_stanton_0166": {
+      "en": "HDSF-Adlai",
+      "tr": "HDSF-Adlai"
     },
     "_noloc_location_Attritus PAF-I": {
       "en": "Attritus PAF-I",
@@ -9029,9 +9324,21 @@
       "en": "Attritus PAF-II",
       "tr": "Attritus PAF-II"
     },
+    "mission_location_stanton_0176": {
+      "en": "HDSF-Hobart",
+      "tr": "HDSF-Hobart"
+    },
     "_noloc_location_Lamina PAF-III": {
       "en": "Lamina PAF-III",
       "tr": "Lamina PAF-III"
+    },
+    "_noloc_location_UGF_Drug_Stanton1": {
+      "en": "UGF_Drug_Stanton1",
+      "tr": "UGF_Drug_Stanton1"
+    },
+    "mission_location_stanton_0182": {
+      "en": "HDSF-Breckinridge",
+      "tr": "HDSF-Breckinridge"
     },
     "_noloc_location_Lamina PAF-II": {
       "en": "Lamina PAF-II",
@@ -9120,6 +9427,90 @@
     "_noloc_location_ArcCorp Mining Area157": {
       "en": "ArcCorp Mining Area157",
       "tr": "ArcCorp Mining Area157"
+    },
+    "mission_location_stanton_406": {
+      "en": "Shubin Processing Facility SPMC-11",
+      "tr": "Shubin Processing Facility SPMC-11"
+    },
+    "mission_location_stanton_402": {
+      "en": "Shubin Processing Facility SPMC-5",
+      "tr": "Shubin Processing Facility SPMC-5"
+    },
+    "mission_location_stanton_383": {
+      "en": "MT DataCenter E2Q-NSG-Y",
+      "tr": "MT DataCenter E2Q-NSG-Y"
+    },
+    "mission_location_stanton_377": {
+      "en": "MT DataCenter 5WQ-R2V-C",
+      "tr": "MT DataCenter 5WQ-R2V-C"
+    },
+    "_noloc_location_UGF_Drug_Stanton4a": {
+      "en": "UGF_Drug_Stanton4a",
+      "tr": "UGF_Drug_Stanton4a"
+    },
+    "mission_location_stanton_408": {
+      "en": "Shubin Processing Facility SPMC-14",
+      "tr": "Shubin Processing Facility SPMC-14"
+    },
+    "_noloc_location_UGF_Drug_Stanton4": {
+      "en": "UGF_Drug_Stanton4",
+      "tr": "UGF_Drug_Stanton4"
+    },
+    "mission_location_stanton_387": {
+      "en": "MT DataCenter D79-ECG-R",
+      "tr": "MT DataCenter D79-ECG-R"
+    },
+    "mission_location_stanton_400": {
+      "en": "Shubin Processing Facility SPMC-3",
+      "tr": "Shubin Processing Facility SPMC-3"
+    },
+    "_noloc_location_Frontier Fighters Hideout": {
+      "en": "Frontier Fighters Hideout",
+      "tr": "Frontier Fighters Hideout"
+    },
+    "_noloc_location_UGF_Drug_Stanton3a": {
+      "en": "UGF_Drug_Stanton3a",
+      "tr": "UGF_Drug_Stanton3a"
+    },
+    "_noloc_location_UGF_Drug_Stanton3b": {
+      "en": "UGF_Drug_Stanton3b",
+      "tr": "UGF_Drug_Stanton3b"
+    },
+    "Stanton3a_DrugUGF_002": {
+      "en": "Buckets",
+      "tr": "Buckets"
+    },
+    "_noloc_location_UGF_Drug_Stanton3": {
+      "en": "UGF_Drug_Stanton3",
+      "tr": "UGF_Drug_Stanton3"
+    },
+    "Stanton3b_DrugUGF_002": {
+      "en": "Good Times Temple",
+      "tr": "Good Times Temple"
+    },
+    "_noloc_location_Launch Pad": {
+      "en": "Launch Pad",
+      "tr": "Launch Pad"
+    },
+    "mission_location_stanton_0224": {
+      "en": "\"Wheeler's\"",
+      "tr": "\"Wheeler's\""
+    },
+    "Stanton3a_UGF_004": {
+      "en": "Elsewhere",
+      "tr": "Elsewhere"
+    },
+    "mission_location_stanton_0223": {
+      "en": "\"The Pit\"",
+      "tr": "\"The Pit\""
+    },
+    "Stanton3a_UGF_003": {
+      "en": "Teddy's Playhouse",
+      "tr": "Teddy's Playhouse"
+    },
+    "Stanton3b_DrugUGF_001": {
+      "en": "Lost and Found",
+      "tr": "Lost and Found"
     },
     "_noloc_location_Ruptura PAF-I": {
       "en": "Ruptura PAF-I",
@@ -9318,8 +9709,8 @@
       "tr": "Origin M50 Interceptor"
     },
     "vehicle_NameRSI_Constellation_Taurus": {
-      "en": "RSI Constellation Taurus",
-      "tr": "RSI Constellation Taurus"
+      "en": "RSI Constellation Mk IV Taurus",
+      "tr": "RSI Constellation Mk IV Taurus"
     },
     "vehicle_NameANVL_Arrow": {
       "en": "Anvil Arrow",
@@ -9438,8 +9829,8 @@
       "tr": "Anvil F7C Hornet Mk I"
     },
     "vehicle_NameRSI_Constellation_Andromeda": {
-      "en": "RSI Constellation Andromeda",
-      "tr": "RSI Constellation Andromeda"
+      "en": "RSI Constellation Mk IV Andromeda",
+      "tr": "RSI Constellation Mk IV Andromeda"
     },
     "vehicle_NameAEGS_Hammerhead": {
       "en": "Aegis Hammerhead",
@@ -9630,12 +10021,12 @@
       "tr": "Mirai Guardian MX"
     },
     "vehicle_NameRSI_Constellation_Aquila": {
-      "en": "RSI Constellation Aquila",
-      "tr": "RSI Constellation Aquila"
+      "en": "RSI Constellation Mk IV Aquila",
+      "tr": "RSI Constellation Mk IV Aquila"
     },
     "vehicle_NameRSI_Constellation_Phoenix": {
-      "en": "RSI Constellation Phoenix",
-      "tr": "RSI Constellation Phoenix"
+      "en": "RSI Constellation Mk IV Phoenix",
+      "tr": "RSI Constellation Mk IV Phoenix"
     },
     "vehicle_NameMisc_Fury": {
       "en": "Mirai Fury",
@@ -9653,6 +10044,10 @@
       "en": "Drake Cutlass Red",
       "tr": "Drake Cutlass Red"
     },
+    "_noloc_ship_CHCO Auris PDC Monitor": {
+      "en": "CHCO Auris PDC Monitor",
+      "tr": "CHCO Auris PDC Monitor"
+    },
     "vehicle_NameVNCL_Mauler": {
       "en": "Vanduul Mauler Destroyer",
       "tr": "Vanduul Mauler Destroyer"
@@ -9668,10 +10063,6 @@
     "vehicle_NameKRIG_P52_Merlin": {
       "en": "Kruger P-52 Merlin",
       "tr": "Kruger P-52 Merlin"
-    },
-    "_noloc_ship_CHCO Auris PDC Monitor": {
-      "en": "CHCO Auris PDC Monitor",
-      "tr": "CHCO Auris PDC Monitor"
     },
     "vehicles_NameOrbital_Sentry": {
       "en": "Broad & Rabiee Overseer Orbital Sentry",
@@ -9905,6 +10296,10 @@
       "en": "Hurston Dynamics",
       "tr": "Hurston Dynamics"
     },
+    "LOC_PLACEHOLDER": {
+      "en": "<= PLACEHOLDER =>",
+      "tr": "<= PLACEHOLDER =>"
+    },
     "Klescher_RepUI_Name": {
       "en": "Klescher Rehabilitation Facilities",
       "tr": "Klescher Rehabilitation Facilities"
@@ -9948,10 +10343,6 @@
     "InterSecDefenseSolutions_RepUI_Name": {
       "en": "InterSec Defense Solutions",
       "tr": "InterSec Defense Solutions"
-    },
-    "LOC_PLACEHOLDER": {
-      "en": "<= PLACEHOLDER =>",
-      "tr": "<= PLACEHOLDER =>"
     },
     "Ling_RepUI_Name": {
       "en": "Ling Family Hauling",
@@ -10985,6 +11376,10 @@
       "en": "F55 \"Scorched\" LMG",
       "tr": "F55 \"Scorched\" LMG"
     },
+    "item_Namegmni_lmg_ballistic_01_collector02": {
+      "en": "F55 \"Shadowflux\" LMG",
+      "tr": "F55 \"Shadowflux\" LMG"
+    },
     "item_Namegmni_lmg_ballistic_01_blue_gold_01": {
       "en": "F55 \"Valor\" LMG",
       "tr": "F55 \"Valor\" LMG"
@@ -11960,10 +12355,6 @@
     "item_Name_qrt_specialist_heavy_arms_01_01_12": {
       "en": "Antium Arms Jet",
       "tr": "Antium Arms Jet"
-    },
-    "item_Name_qrt_specialist_heavy_arms_01_01_13": {
-      "en": "Antium Arms Maroon",
-      "tr": "Antium Arms Maroon"
     },
     "item_Name_qrt_specialist_heavy_arms_01_03_01": {
       "en": "Antium Arms Midnight Sun",
@@ -13700,6 +14091,46 @@
     "item_Name_kap_combat_heavy_legs_02_09_01": {
       "en": "Monde Legs Purgatory Camo",
       "tr": "Monde Legs Purgatory Camo"
+    },
+    "item_Name_kap_combat_heavy_arms_01_01_01": {
+      "en": "Monolith Armor Arms",
+      "tr": "Monolith Armor Arms"
+    },
+    "item_Name_kap_combat_heavy_arms_01_04_01": {
+      "en": "Monolith Armor Arms Shadowflux",
+      "tr": "Monolith Armor Arms Shadowflux"
+    },
+    "item_Name_kap_combat_heavy_core_01_01_01": {
+      "en": "Monolith Armor Core",
+      "tr": "Monolith Armor Core"
+    },
+    "item_Name_kap_combat_heavy_core_01_04_01": {
+      "en": "Monolith Armor Core Shadowflux",
+      "tr": "Monolith Armor Core Shadowflux"
+    },
+    "item_Name_kap_combat_heavy_legs_01_01_01": {
+      "en": "Monolith Armor Legs",
+      "tr": "Monolith Armor Legs"
+    },
+    "item_Name_kap_combat_heavy_legs_01_04_01": {
+      "en": "Monolith Armor Legs Shadowflux",
+      "tr": "Monolith Armor Legs Shadowflux"
+    },
+    "item_Name_kap_combat_heavy_backpack_01_01_01": {
+      "en": "Monolith Backpack",
+      "tr": "Monolith Backpack"
+    },
+    "item_Name_kap_combat_heavy_backpack_01_04_01": {
+      "en": "Monolith Backpack Shadowflux",
+      "tr": "Monolith Backpack Shadowflux"
+    },
+    "item_Name_kap_combat_heavy_helmet_01_01_01": {
+      "en": "Monolith Helmet",
+      "tr": "Monolith Helmet"
+    },
+    "item_Name_kap_combat_heavy_helmet_01_04_01": {
+      "en": "Monolith Helmet Shadowflux",
+      "tr": "Monolith Helmet Shadowflux"
     },
     "item_Name_outlaw_legacy_medium_armor_helmet_01_02_01": {
       "en": "Morningstar Helmet Icefall",
@@ -17269,9 +17700,9 @@
       "en": "Cobalt",
       "tr": "Cobalt"
     },
-    "items_commodities_militarySupplies": {
-      "en": "Combat Supplies",
-      "tr": "Combat Supplies"
+    "item_NameAmmoCrate": {
+      "en": "Ship Ammunition",
+      "tr": "Ship Ammunition"
     },
     "items_commodities_type_RMC": {
       "en": "Recycled Material Composite",
@@ -17576,6 +18007,14 @@
     "harvestable_MolinaMold": {
       "en": "Molina Mold",
       "tr": "Molina Mold"
+    },
+    "item_NameAmmoCrate_Decoy": {
+      "en": "Decoy Ammunition",
+      "tr": "Decoy Ammunition"
+    },
+    "item_NameAmmoCrate_S4": {
+      "en": "Size 4 Vehicle Weapon Ammuniton",
+      "tr": "Size 4 Vehicle Weapon Ammuniton"
     },
     "items_commodities_type_quantumFuel": {
       "en": "Quantum Fuel",
