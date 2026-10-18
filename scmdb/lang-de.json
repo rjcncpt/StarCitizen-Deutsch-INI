@@ -5,9 +5,9 @@
   "keyCount": 4445,
   "stats": {
     "total": 4445,
-    "translated": 4020,
+    "translated": 4021,
     "missing": 0,
-    "noLocKey": 356,
+    "noLocKey": 355,
     "placeholderFallback": 69,
     "mismatch": 229,
     "missingKeys": [],
@@ -8408,7 +8408,7 @@
       "en": "Cave_Unoccupied_Stanton3",
       "tr": "Cave_Unoccupied_Stanton3"
     },
-    "_noloc_location_RSI Event Platform": {
+    "Iasi_Location_Name": {
       "en": "RSI Event Platform",
       "tr": "RSI Event Platform"
     },
