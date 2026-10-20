@@ -29,7 +29,9 @@ def find_bad_lines(file_content: list[str], excluded_keys: list[str]) -> list[in
 if __name__ == "__main__":
     parser, args = get_argument_parser()
 
-    excluded_keys = []
+    excluded_keys = [
+        "dfm_ui_Minutes_unit_Seconds_To_Respawn",
+    ]
     file_path = "live/global.ini"
 
     try:
