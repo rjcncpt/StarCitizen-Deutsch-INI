@@ -58,12 +58,28 @@ def extract_desc_info(
             r".*Radiation Scrub Rate: (.+?)\\n", value
         )
         # item_dict["Tragekapazität"] = re.match(r".*Carrying Capacity: (.+?)\\n", value)
+        item_dict["G-Kraft-Toleranz"] = re.match(
+            r".*G-Force Tolerance: (.+?)\\n", value
+        )
+        item_dict["Brustkompatibilität"] = re.match(
+            r".*Core Compatibility: (.+?)\\n", value
+        )
 
         for key in item_dict.keys():
             if item_dict[key]:
                 item_dict[key] = item_dict[key].group(1).strip()
+                # Special handling for specific keys
                 if key == "Typ (En)" and current_key.find("_helmet") != -1:
                     item_dict[key] = item_dict[key].replace("Armor", "Helmet")
+                if key == "Brustkompatibilität":
+                    if item_dict["Brustkompatibilität"] == "Heavy":
+                        item_dict["Brustkompatibilität"] = "Schwer"
+                    elif item_dict["Brustkompatibilität"] == "All":
+                        item_dict["Brustkompatibilität"] = "Alle"
+                    elif item_dict["Brustkompatibilität"] == "Medium & Heavy":
+                        item_dict["Brustkompatibilität"] = "Mittel & Schwer"
+                    elif item_dict["Brustkompatibilität"] == "Medium & Light":
+                        item_dict["Brustkompatibilität"] = "Mittel & Leicht"
             else:
                 item_dict[key] = None
 
@@ -96,6 +112,16 @@ def check_armor_desc(
             continue
         if not is_item_desc(current_key, value):
             continue
+        if re.search(r"\S%", value):
+            print_to_console(
+                "Item Description Test",
+                f"{current_key}: Percent signs must be preceded by a space.",
+                filename,
+                line_number,
+                "error",
+            )
+            error_count += 1
+
         # Value is probably a armor -> Check if all information is present
         missing_fields = []
         if eng_desc.get(current_key) is None:
@@ -110,9 +136,13 @@ def check_armor_desc(
             continue
         for field in eng_desc[current_key]:
             if eng_desc[current_key][field] is not None:
-                if eng_desc[current_key][field].lower().replace(
-                    ".", ","
-                ) not in value.lower().replace(".", ","):
+                expected_value = re.sub(
+                    r"\s+%",
+                    "%",
+                    eng_desc[current_key][field].lower().replace(".", ","),
+                )
+                normalized_value = re.sub(r"\s+%", "%", value.lower().replace(".", ","))
+                if expected_value not in normalized_value:
                     missing_fields.append(field)
 
         if missing_fields:
