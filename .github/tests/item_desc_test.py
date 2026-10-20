@@ -96,6 +96,16 @@ def check_armor_desc(
             continue
         if not is_item_desc(current_key, value):
             continue
+        if re.search(r"\S%", value):
+            print_to_console(
+                "Item Description Test",
+                f"{current_key}: Percent signs must be preceded by a space.",
+                filename,
+                line_number,
+                "error",
+            )
+            error_count += 1
+
         # Value is probably a armor -> Check if all information is present
         missing_fields = []
         if eng_desc.get(current_key) is None:
@@ -110,9 +120,15 @@ def check_armor_desc(
             continue
         for field in eng_desc[current_key]:
             if eng_desc[current_key][field] is not None:
-                if eng_desc[current_key][field].lower().replace(
-                    ".", ","
-                ) not in value.lower().replace(".", ","):
+                expected_value = re.sub(
+                    r"\s+%",
+                    "%",
+                    eng_desc[current_key][field].lower().replace(".", ","),
+                )
+                normalized_value = re.sub(
+                    r"\s+%", "%", value.lower().replace(".", ",")
+                )
+                if expected_value not in normalized_value:
                     missing_fields.append(field)
 
         if missing_fields:
