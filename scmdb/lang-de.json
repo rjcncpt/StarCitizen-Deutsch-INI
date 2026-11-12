@@ -1,11 +1,11 @@
 {
-  "version": "4.10.3-ptu.13160301",
+  "version": "4.10.3-live.13165946",
   "sourceLanguage": "en",
   "targetLanguage": "german_global",
-  "keyCount": 4511,
+  "keyCount": 4512,
   "stats": {
-    "total": 4511,
-    "translated": 4083,
+    "total": 4512,
+    "translated": 4084,
     "missing": 0,
     "noLocKey": 359,
     "placeholderFallback": 69,
@@ -10255,6 +10255,10 @@
     "vehicle_NameXNAA_SantokYai": {
       "en": "Aopoa San'tok.yāi",
       "tr": "Aopoa San'tok.yāi"
+    },
+    "vehicle_NameDRAK_Marauder": {
+      "en": "Drake Marauder",
+      "tr": "Drake Marauder"
     },
     "vehicle_NameANVL_Hornet_F7A_Mk2_PYAM_Exec": {
       "en": "Hornet F7A Mk II PYAM Exec",
